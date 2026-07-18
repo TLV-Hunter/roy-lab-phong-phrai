@@ -681,3 +681,132 @@ footer p:last-child { justify-self: end; }
     flex-basis: 100%;
   }
 }
+
+
+/* Readability and bilingual navigation */
+.brand-copy strong { font-size: 21px; }
+.brand-copy small { font-size: 8.5px; }
+.main-nav { gap: 28px; font-size: 15px; }
+.nav-follow { font-size: 14px; }
+.eyebrow { font-size: 12px; }
+.hero-description { font-size: 15.5px; }
+.button { font-size: 13px; }
+.case-top { font-size: 11px; }
+.case-file > small { font-size: 9.5px; }
+.case-file > p { font-size: 13px; line-height: 1.75; }
+.case-file > a { font-size: 12px; }
+.signal-strip span,
+.signal-strip > p { font-size: 11.5px; }
+.section-heading > p { font-size: 15px; }
+.truth-key span { font-size: 11px; }
+.player-note { font-size: 11.5px; }
+.reel-fallback { font-size: 11px; }
+.story-copy small { font-size: 10px; }
+.story-copy p { font-size: 13px; }
+.case-snapshot li { font-size: 11.5px; }
+.story-link { font-size: 11.5px; }
+.trail-intro > p:not(.eyebrow) { font-size: 14.5px; }
+.trail-intro > small { font-size: 9.5px; }
+.case-notes summary small { font-size: 10px; }
+.case-notes summary strong { font-size: 24px; }
+.evidence-entry > span { font-size: 9.5px; }
+.evidence-entry p { font-size: 12.5px; }
+.source-link { font-size: 10.5px; }
+.pillar-grid small { font-size: 9.5px; }
+.pillar-grid p,
+.weekly-system p,
+.growth-stages p { font-size: 12.5px; }
+.weekly-system > div:first-child > small { font-size: 9.5px; }
+.week-grid span { font-size: 10.5px; }
+.week-grid b { font-size: 12px; }
+.about-copy > p:not(.eyebrow) { font-size: 14px; }
+.content-loop span { font-size: 12px; }
+.facebook-card p { font-size: 10.5px; }
+.pending { font-size: 9.5px; }
+footer p { font-size: 9.5px; line-height: 1.65; }
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--white-line);
+  background: rgba(4, 13, 10, .5);
+}
+.language-switch a {
+  display: grid;
+  min-width: 34px;
+  min-height: 30px;
+  place-items: center;
+  padding: 0 7px !important;
+  color: rgba(239, 233, 220, .58);
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+.language-switch a::after { display: none; }
+.language-switch a:hover { color: var(--gold-light); }
+.language-switch a.is-active {
+  background: var(--gold);
+  color: #07100d;
+}
+.language-switch > span {
+  color: rgba(239, 233, 220, .2);
+  font-size: 10px;
+}
+
+html[lang="en"] body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+html[lang="en"] .brand-copy strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+}
+html[lang="en"] .main-nav { gap: 22px; }
+html[lang="en"] .hero h1 {
+  font-size: clamp(62px, 7.2vw, 116px);
+  line-height: .82;
+}
+html[lang="en"] .hero h1 > span { padding-left: 0; }
+html[lang="en"] .hero h1 em {
+  font-size: .52em;
+  line-height: 1.25;
+}
+html[lang="en"] .section-heading h2,
+html[lang="en"] .trail h2,
+html[lang="en"] .about h2,
+html[lang="en"] .facebook h2 {
+  letter-spacing: -.025em;
+}
+
+@media (max-width: 1050px) {
+  .main-nav { gap: 18px; }
+  html[lang="en"] .main-nav { gap: 14px; font-size: 14px; }
+}
+
+@media (max-width: 800px) {
+  .main-nav { font-size: 16px; }
+  .language-switch {
+    width: max-content;
+    margin: 12px 0 4px;
+  }
+  .language-switch a {
+    min-width: 44px;
+    min-height: 36px;
+  }
+}
+
+@media (max-width: 540px) {
+  .section-heading > p,
+  .trail-intro > p:not(.eyebrow),
+  .about-copy > p:not(.eyebrow) { font-size: 14px; }
+  .story-copy p,
+  .evidence-entry p,
+  .pillar-grid p,
+  .weekly-system p,
+  .growth-stages p { font-size: 12.5px; }
+  html[lang="en"] .hero h1 {
+    font-size: clamp(48px, 15vw, 70px);
+  }
+}

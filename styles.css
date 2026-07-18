@@ -810,3 +810,237 @@ html[lang="en"] .facebook h2 {
     font-size: clamp(48px, 15vw, 70px);
   }
 }
+
+
+/* All-ages readability standard */
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+.brand-copy strong { font-size: 22px; }
+.brand-copy small { font-size: 12px; line-height: 1.5; }
+.main-nav { font-size: 17px; }
+.nav-follow { font-size: 16px; }
+.eyebrow { font-size: 14px; line-height: 1.55; }
+.hero-description {
+  color: rgba(239, 233, 220, .82);
+  font-size: 18px;
+  line-height: 1.85;
+}
+.button {
+  min-height: 56px;
+  font-size: 16px;
+}
+.case-top { color: rgba(239, 233, 220, .72); font-size: 14px; }
+.case-file > small { font-size: 14px; line-height: 1.5; }
+.case-file > p {
+  color: rgba(239, 233, 220, .78);
+  font-size: 16px;
+  line-height: 1.75;
+}
+.case-file > a { font-size: 15px; }
+.signal-strip span,
+.signal-strip > p {
+  color: rgba(239, 233, 220, .76);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.section-heading > p {
+  color: rgba(239, 233, 220, .8);
+  font-size: 18px;
+  line-height: 1.85;
+}
+.truth-key span {
+  color: rgba(239, 233, 220, .82);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.ai-label {
+  padding: 6px 9px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.player-note {
+  color: rgba(239, 233, 220, .8);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.player-note span { font-size: 16px; }
+.reel-fallback {
+  min-height: 50px;
+  font-size: 15px;
+}
+.story-copy small { font-size: 14px; line-height: 1.5; }
+.story-copy h3 { font-size: 31px; line-height: 1.3; }
+.story-copy p {
+  color: rgba(239, 233, 220, .79);
+  font-size: 17px;
+  line-height: 1.8;
+}
+.case-snapshot li {
+  color: rgba(239, 233, 220, .75);
+  font-size: 15px;
+  line-height: 1.75;
+}
+.story-link {
+  font-size: 15px;
+  line-height: 1.55;
+}
+.trail-intro > p:not(.eyebrow) {
+  color: rgba(239, 233, 220, .8);
+  font-size: 18px;
+  line-height: 1.85;
+}
+.trail-intro > small {
+  color: rgba(226, 192, 128, .76);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.case-notes summary {
+  min-height: 132px;
+  grid-template-columns: 62px 1fr auto;
+}
+.case-notes summary > span {
+  color: rgba(239, 233, 220, .52);
+  font-size: 18px;
+}
+.case-notes summary small {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.case-notes summary strong {
+  font-size: 28px;
+  line-height: 1.35;
+}
+.case-notes summary > b {
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+}
+.case-note-body { padding-left: 79px; }
+.evidence-entry {
+  grid-template-columns: 160px 1fr;
+  gap: 22px;
+  padding: 20px 18px;
+}
+.evidence-entry > span {
+  color: rgba(239, 233, 220, .9);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: .04em;
+}
+.evidence-entry p {
+  color: rgba(239, 233, 220, .84);
+  font-size: 17px;
+  line-height: 1.85;
+}
+.source-link {
+  padding: 17px 18px;
+  color: #a8d8b9;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.pillar-grid small,
+.weekly-system > div:first-child > small {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.pillar-grid p,
+.weekly-system p,
+.growth-stages p {
+  color: rgba(239, 233, 220, .8);
+  font-size: 16px;
+  line-height: 1.8;
+}
+.week-grid span {
+  color: rgba(239, 233, 220, .78);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.week-grid b { font-size: 16px; line-height: 1.5; }
+.growth-stages li > b { font-size: 14px; line-height: 1.5; }
+.about-mark small { font-size: 13px; }
+.about-copy > p:not(.eyebrow) {
+  color: rgba(239, 233, 220, .8);
+  font-size: 18px;
+  line-height: 1.9;
+}
+.content-loop span {
+  color: rgba(239, 233, 220, .82);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.facebook-card p {
+  color: rgba(239, 233, 220, .76);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.pending { font-size: 14px; line-height: 1.5; }
+footer p {
+  color: rgba(239, 233, 220, .68);
+  font-size: 15px;
+  line-height: 1.7;
+}
+.language-switch a { font-size: 14px; }
+
+@media (max-width: 1050px) {
+  html[lang="en"] .main-nav { font-size: 16px; }
+  .evidence-entry { grid-template-columns: 145px 1fr; }
+}
+
+@media (max-width: 800px) {
+  .main-nav,
+  html[lang="en"] .main-nav { font-size: 18px; }
+  .main-nav a { padding-top: 16px; padding-bottom: 16px; }
+  .case-note-body { padding-left: 0; }
+  .evidence-entry { grid-template-columns: 150px 1fr; }
+}
+
+@media (max-width: 540px) {
+  body { font-size: 17px; }
+  .brand-copy strong { font-size: 17px; }
+  .eyebrow { font-size: 13px; }
+  .hero-description,
+  .section-heading > p,
+  .trail-intro > p:not(.eyebrow),
+  .about-copy > p:not(.eyebrow) { font-size: 17px; }
+  .signal-strip { grid-template-columns: 1fr; }
+  .signal-strip > div {
+    min-height: 72px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 14px 18px;
+    border-right: 0;
+    border-bottom: 1px solid var(--white-line);
+    text-align: left;
+  }
+  .signal-strip span { font-size: 15px; }
+  .truth-key { grid-template-columns: 1fr; }
+  .story-copy p,
+  .evidence-entry p,
+  .pillar-grid p,
+  .weekly-system p,
+  .growth-stages p { font-size: 16px; }
+  .case-snapshot li,
+  .story-link,
+  .reel-fallback,
+  .source-link { font-size: 15px; }
+  .case-notes summary {
+    min-height: 124px;
+    grid-template-columns: 42px 1fr auto;
+    gap: 12px;
+  }
+  .case-notes summary > span { font-size: 16px; }
+  .case-notes summary small { font-size: 14px; }
+  .case-notes summary strong { font-size: 23px; }
+  .evidence-entry {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 19px 14px;
+  }
+  .evidence-entry > span { font-size: 15px; }
+  .week-grid span { font-size: 15px; }
+  footer p { font-size: 15px; }
+}

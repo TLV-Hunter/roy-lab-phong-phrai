@@ -1044,3 +1044,13 @@ footer p {
   .week-grid span { font-size: 15px; }
   footer p { font-size: 15px; }
 }
+
+
+/* Final minimum size for visible microcopy */
+.brand-copy small,
+.ai-label,
+.about-mark small,
+.language-switch > span,
+.fb-reel-shell::before {
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-09-04T00:30:00+07:00",
+  "timezone": "Asia/Bangkok",
+  "brand": "Colossus Signal",
+  "episodes": [
+    {
+      "id": "CS-001",
+      "title": "FIRST SIGNAL",
+      "reel": {
+        "status": "ready",
+        "post_time": "",
+        "caption": "At 03:17 UTC, the signal appeared.\n\nWe thought the source was somewhere beyond the Moon.\n\nThen the Moon moved in front of it.\n\nThat changed everything.\n\nCOLOSSUS SIGNAL // CS-001",
+        "pinned_comment": "One question remains:\n\nDid we detect it...\n\nor did it detect us first?"
+      },
+      "still": {
+        "status": "ready",
+        "post_time": "",
+        "caption": "At 03:17 UTC, Earth received a signal from deep space.\n\nAt first, scientists believed it was coming from an unknown object beyond the Moon.\n\nThey were wrong.\n\nThe object was not beyond the Moon.\n\nThe Moon was in front of it.\n\nWhatever produced the signal was so large that our instruments could not determine where it ended.\n\nFor seventeen seconds, it remained perfectly still.\n\nThen one part of its surface opened.\n\nSomething inside was looking directly at Earth.\n\nThe transmission ended immediately.\n\nThe observation did not.\n\nCOLOSSUS SIGNAL // TRANSMISSION 000",
+        "pinned_comment": "One question remains:\n\nDid we detect it...\n\nor did it detect us first?"
+      },
+      "note": "AI disclosure required when posting."
+    },
+    {
+      "id": "CS-002",
+      "title": "THE EYE BEHIND THE MOON",
+      "reel": {
+        "status": "scheduled",
+        "post_time": "08:30",
+        "caption": "The Moon moved.\n\nAt first, we thought the darkness behind it was empty space.\n\nThen it opened its eye.\n\nAnd looked directly at Earth.\n\nCOLOSSUS SIGNAL // CS-002",
+        "pinned_comment": "TRANSMISSION NOTE:\n\nThe eye did not follow the Moon.\n\nIt followed Earth.\n\nNo further movement was recorded."
+      },
+      "still": {
+        "status": "published",
+        "post_time": "published",
+        "caption": "The Moon was never the problem.\n\nDuring analysis of CS-002, one frame revealed something impossible.\n\nThe darkness behind the Moon had structure.\n\nThen the eye opened.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-002",
+        "pinned_comment": "ARCHIVE NOTE:\n\nThis frame was captured moments before the eye fully emerged.\n\nIts scale remains undetermined.\n\nEarth is visible below for reference."
+      },
+      "note": "Still already published. Reel planned for 08:30 Thailand time. AI disclosure required."
+    }
+  ]
+}

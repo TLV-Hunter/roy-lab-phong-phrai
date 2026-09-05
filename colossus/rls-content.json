@@ -1,53 +1,66 @@
 {
-  "updated_at": "2026-09-05",
+  "updated_at": "2026-09-05T19:35:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "RLS — รอยลับพงไพร",
-  "mode": "IMAGE-FIRST",
+  "mode": "IMAGE-FIRST • REELS HOLD",
+  "batch_status": [
+    {"batch":"BATCH 1","range":"#01–#10","status":"LOCKED","passed":10,"total":10,"note":"10/10 image assets passed QA. Do not regenerate."},
+    {"batch":"BATCH 2","range":"#11–#20","status":"IN QA","passed":5,"total":10,"note":"Passed: Sep 15, 17, 20, 23, 24. Unresolved correction slots: #12, #14, #15, #17, #18."},
+    {"batch":"BATCH 3","range":"#21–#30","status":"WAITING","passed":0,"total":10,"note":"Not started. Waiting for image generation limit reset."}
+  ],
+  "calendar": [
+    {"date":"2026-09-05","time":"20:30","format":"STILL","title":"Something crossed here after the rain stopped.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-06","time":"21:00","format":"REEL STARTER","title":"It was already in the frame.","asset_status":"FRAME PASS / PROMPT PASS","publish_status":"HOLD"},
+    {"date":"2026-09-07","time":"21:00","format":"STILL","title":"The marks were nearly eleven feet above the trail.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-08","time":"21:00","format":"REEL STARTER","title":"The forest went silent first.","asset_status":"FRAME PASS","publish_status":"HOLD"},
+    {"date":"2026-09-09","time":"21:00","format":"STILL / ARCHIVE","title":"FIELD LOG 001 — CAMERA 07 / 02:17 AM","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-10","time":"21:00","format":"REEL STARTER","title":"The fog moved the wrong way.","asset_status":"FRAME PASS","publish_status":"HOLD"},
+    {"date":"2026-09-11","time":"21:00","format":"STILL","title":"Camera 07 was still recording when something lifted it.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-12","time":"21:00","format":"HERO STARTER","title":"Tonight’s footage matches a file from 1998.","asset_status":"FRAME PASS","publish_status":"HOLD"},
+    {"date":"2026-09-13","time":"21:00","format":"STILL / ARCHIVE","title":"Same mark. Different year.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-14","time":"21:00","format":"REEL STARTER","title":"You hear it before you see it.","asset_status":"FRAME PASS","publish_status":"HOLD"},
+    {"date":"2026-09-15","time":"21:00","format":"STILL","title":"FIELD RULE 01","asset_status":"QA PASS","publish_status":"SCHEDULED"},
+    {"date":"2026-09-16","time":"21:00","format":"REEL STARTER","title":"The tree moved twice.","asset_status":"REVISE","publish_status":"BLOCKED"},
+    {"date":"2026-09-17","time":"21:00","format":"STILL","title":"High gouges / scale evidence","asset_status":"QA PASS","publish_status":"SCHEDULED"},
+    {"date":"2026-09-18","time":"21:00","format":"REEL STARTER","title":"It looked small until it stood up.","asset_status":"REBUILD","publish_status":"BLOCKED"},
+    {"date":"2026-09-19","time":"21:00","format":"HERO STARTER","title":"Camera 07 came back online.","asset_status":"REVISE","publish_status":"BLOCKED"},
+    {"date":"2026-09-20","time":"21:00","format":"STILL","title":"SECTOR H-4 — Last signal.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-21","time":"21:00","format":"REEL STARTER","title":"The same shadow appeared on two cameras.","asset_status":"REVISE","publish_status":"BLOCKED"},
+    {"date":"2026-09-22","time":"21:00","format":"STILL / ARCHIVE","title":"RECOVERED NOTE","asset_status":"REVISE","publish_status":"BLOCKED"},
+    {"date":"2026-09-23","time":"21:00","format":"REEL STARTER","title":"Only one camera saw it.","asset_status":"QA PASS","publish_status":"HOLD"},
+    {"date":"2026-09-24","time":"21:00","format":"STILL","title":"The bark was still warm.","asset_status":"QA PASS","publish_status":"SCHEDULED"},
+    {"date":"2026-09-25","time":"21:00","format":"REEL STARTER","title":"It never crossed the trail.","asset_status":"WAITING","publish_status":"WAITING"},
+    {"date":"2026-09-26","time":"21:00","format":"HERO STARTER","title":"CASE 001 — The Hollow Trail.","asset_status":"WAITING","publish_status":"WAITING"},
+    {"date":"2026-09-27","time":"21:00","format":"STILL","title":"After CASE 001, we found this.","asset_status":"WAITING","publish_status":"WAITING"},
+    {"date":"2026-09-28","time":"21:00","format":"REEL STARTER","title":"No one noticed the second pair of eyes.","asset_status":"WAITING","publish_status":"WAITING"},
+    {"date":"2026-09-29","time":"21:00","format":"STILL / ARCHIVE","title":"FIELD RULE 02","asset_status":"WAITING","publish_status":"WAITING"},
+    {"date":"2026-09-30","time":"21:00","format":"FINALE STARTER","title":"Camera 07 wasn’t the only one recording.","asset_status":"WAITING","publish_status":"WAITING"}
+  ],
   "episodes": [
     {
-      "id": "RLS-001",
-      "title": "NORTH TRAIL / 02:11 AM",
-      "still": {
-        "status": "ready",
-        "post_time": "20:30",
-        "caption": "The rain stopped at 2:11 AM. This appeared on the north trail minutes later.",
-        "pinned_comment": "FIELD LOG 001 — No matching tracks were found within 40 meters.",
-        "qa1": "PASS",
-        "qa2": "PASS",
-        "media_url": "https://drive.google.com/file/d/1PEWCx0SS6ifncQPi39159an5eP-M51LQ/view?usp=drivesdk"
-      },
-      "reel": {
-        "status": "hold",
-        "post_time": "",
-        "caption": "",
-        "pinned_comment": ""
-      },
-      "note": "MASTER STILL • QA1 PASS • QA2 PASS • Image-first reboot starts here."
+      "id":"RLS-001","title":"NORTH TRAIL / 02:11 AM","batch":"BATCH 1","slot":1,
+      "still":{"status":"ready","post_time":"20:30","caption":"The rain stopped at 2:11 AM. This appeared on the north trail minutes later.","pinned_comment":"FIELD LOG 001 — No matching tracks were found within 40 meters.","qa1":"PASS","qa2":"PASS","preview_url":"./assets/rls/batch1/b1_01.webp","media_url":"https://drive.google.com/file/d/1PEWCx0SS6ifncQPi39159an5eP-M51LQ/view?usp=drivesdk"},
+      "reel":{"status":"hold","post_time":"","caption":"","pinned_comment":""},"note":"MASTER STILL • QA LOCKED"
     },
     {
-      "id": "RLS-002",
-      "title": "CAMERA 07",
-      "still": {
-        "status": "starter",
-        "post_time": "",
-        "caption": "",
-        "pinned_comment": ""
-      },
-      "reel": {
-        "status": "hold",
-        "post_time": "",
-        "caption": "Most people miss it the first time.",
-        "pinned_comment": "CAMERA 07 / 02:17:43 — Motion triggered once. Never again."
-      },
-      "starter": {
-        "status": "hold",
-        "frame_qa": "PASS",
-        "prompt_qa": "PASS",
-        "frame_filename": "RLS-SEP06-STARTER-CAMERA07.png",
-        "frame_url": "https://drive.google.com/file/d/1g6ge5gG1Dlp_YOUXXoW1oLlyZQ9efqqn/view?usp=drivesdk",
-        "prompt": "Photorealistic found-footage trail-camera video in a wet, misty forest. Use the provided starter frame as the exact opening composition. Keep Camera 07 fixed and static. A distant, partially obscured unidentified forest figure is already present in the frame from the first moment, hidden behind trunks and fog. For the first 3 seconds, almost nothing moves except light mist and subtle leaves. Then the figure makes one small natural shift of weight and slowly withdraws behind the tree without revealing its full body. No running, no dramatic attack, no full creature reveal, no extra limbs, no morphing, no camera move, no jump scare. Preserve realistic scale, anatomy ambiguity, wet forest lighting, fog depth, and documentary low-light texture. Duration 10–14 seconds, 9:16, restrained natural motion, believable ambience-ready pacing, ending on an empty-looking frame that encourages replay."
-      },
-      "note": "STARTER FRAME • Frame QA PASS • Prompt QA PASS • Reel intentionally HOLD while image pipeline is completed."
-    }
+      "id":"RLS-002","title":"CAMERA 07 — ALREADY IN FRAME","batch":"BATCH 1","slot":2,
+      "still":{"status":"starter","post_time":"","caption":"","pinned_comment":"","qa1":"PASS","qa2":"PASS"},
+      "reel":{"status":"hold","post_time":"","caption":"Most people miss it the first time.","pinned_comment":"CAMERA 07 / 02:17:43 — Motion triggered once. Never again."},
+      "starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"PASS","frame_filename":"RLS-SEP06-STARTER-CAMERA07.png","prompt":"Photorealistic found-footage trail-camera video in a wet, misty forest. Use the provided starter frame as the exact opening composition. Keep Camera 07 fixed and static. A distant, partially obscured unidentified forest figure is already present in the frame from the first moment, hidden behind trunks and fog. For the first 3 seconds, almost nothing moves except light mist and subtle leaves. Then the figure makes one small natural shift of weight and slowly withdraws behind the tree without revealing its full body. No running, no dramatic attack, no full creature reveal, no extra limbs, no morphing, no camera move, no jump scare. Preserve realistic scale, anatomy ambiguity, wet forest lighting, fog depth, and documentary low-light texture. Duration 10–14 seconds, 9:16, restrained natural motion, believable ambience-ready pacing, ending on an empty-looking frame that encourages replay."},
+      "note":"STARTER FRAME • Frame QA PASS • Prompt QA PASS • REEL HOLD"
+    },
+    {"id":"RLS-003","title":"HIGH MARKS","batch":"BATCH 1","slot":3,"still":{"status":"ready","post_time":"21:00","caption":"Nothing in this sector should reach this high.","pinned_comment":"No climbing marks were found below them.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL • QA LOCKED"},
+    {"id":"RLS-004","title":"FOREST WENT SILENT","batch":"BATCH 1","slot":4,"still":{"status":"starter","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold","caption":"The silence started six seconds before the movement.","pinned_comment":"Audio spike first. Motion came later."},"starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"NOT PUBLISHED"},"note":"Starter frame passed. Prompt is intentionally not published until Prompt QA passes."},
+    {"id":"RLS-005","title":"FIELD LOG 001","batch":"BATCH 1","slot":5,"still":{"status":"ready","post_time":"21:00","caption":"Signal loss: 4m 12s. Cause: unknown.","pinned_comment":"This was the first frame recovered after the interruption.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL / ARCHIVE • QA LOCKED"},
+    {"id":"RLS-006","title":"FOG MOVED WRONG","batch":"BATCH 1","slot":6,"still":{"status":"starter","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold","caption":"Watch the fog. Not the trees.","pinned_comment":"Wind direction remained unchanged for the entire recording."},"starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"NOT PUBLISHED"},"note":"Starter frame passed. Prompt not yet exposed."},
+    {"id":"RLS-007","title":"CAMERA 07 MOVED","batch":"BATCH 1","slot":7,"still":{"status":"ready","post_time":"21:00","caption":"The mount was found eight feet above its original position.","pinned_comment":"The final file was not corrupted.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL • QA LOCKED"},
+    {"id":"RLS-008","title":"1998 MATCH","batch":"BATCH 1","slot":8,"still":{"status":"starter","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"NOT PUBLISHED"},"note":"HERO starter frame passed. Prompt withheld pending QA."},
+    {"id":"RLS-009","title":"SAME MARK / DIFFERENT YEAR","batch":"BATCH 1","slot":9,"still":{"status":"ready","post_time":"21:00","caption":"Same mark. Different year.","pinned_comment":"Archive comparison retained for CASE 001 continuity.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL / ARCHIVE • QA LOCKED"},
+    {"id":"RLS-010","title":"HEAR IT FIRST","batch":"BATCH 1","slot":10,"still":{"status":"starter","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"NOT PUBLISHED"},"note":"Starter frame passed. Prompt withheld pending QA."},
+    {"id":"RLS-011","title":"FIELD RULE 01","batch":"BATCH 2","slot":11,"still":{"status":"scheduled","post_time":"21:00","caption":"The first rule was written after the first incident. No one recorded what happened before it.","pinned_comment":"FIELD RULE 01 — If the forest repeats your rhythm, leave the trail. Do not answer it.","qa1":"PASS","qa2":"PASS","media_url":"https://drive.google.com/file/d/1hXbHiRs2Rs2fYXmb7EqCh7ZD5kek2qB5/view?usp=drivesdk","planner_url":"https://app.metricool.com/planner/calendar?openWithPostUuid=149216554598286220"},"reel":{"status":"hold"},"note":"MASTER STILL • QA PASS • SCHEDULED"},
+    {"id":"RLS-013","title":"HIGH GOUGES / SCALE","batch":"BATCH 2","slot":13,"still":{"status":"scheduled","post_time":"21:00","caption":"The marks were too high for anything we expected to find on this trail.","pinned_comment":"The highest gouge was measured at just under twelve feet. No lower climbing marks were found.","qa1":"PASS","qa2":"PASS","media_url":"https://drive.google.com/file/d/1d4fDjdoNQvBT78n4VgMcc0g2V9ek4uGC/view?usp=drivesdk","planner_url":"https://app.metricool.com/planner/calendar?openWithPostUuid=1651887173610391708"},"reel":{"status":"hold"},"note":"MASTER STILL • QA PASS • SCHEDULED"},
+    {"id":"RLS-016","title":"SECTOR H-4 — LAST SIGNAL","batch":"BATCH 2","slot":16,"still":{"status":"ready","post_time":"21:00","caption":"SECTOR H-4 — Last signal.","pinned_comment":"The final transmission ended before the team reached the marker.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL • QA PASS"},
+    {"id":"RLS-019","title":"ONLY ONE CAMERA SAW IT","batch":"BATCH 2","slot":19,"still":{"status":"starter","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"NOT PUBLISHED"},"note":"Starter frame passed. Prompt withheld pending QA."},
+    {"id":"RLS-020","title":"BARK WAS STILL WARM","batch":"BATCH 2","slot":20,"still":{"status":"scheduled","post_time":"21:00","caption":"The bark was wet. The air was cold. The exposed wood was still warm.","pinned_comment":"Ambient temperature at the site was much lower. The exposed wood held the heat for several minutes.","qa1":"PASS","qa2":"PASS","media_url":"https://drive.google.com/file/d/1jsFZXWSpQTLNgMbv4L_nClds6ZI1aOmg/view?usp=drivesdk","planner_url":"https://app.metricool.com/planner/calendar?openWithPostUuid=624171268109978941"},"reel":{"status":"hold"},"note":"MASTER STILL • QA PASS • SCHEDULED"}
   ]
 }

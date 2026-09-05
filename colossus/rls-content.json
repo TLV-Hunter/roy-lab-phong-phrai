@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T19:35:00+07:00",
+  "updated_at": "2026-09-05T22:07:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "RLS — รอยลับพงไพร",
   "mode": "IMAGE-FIRST • REELS HOLD",
@@ -9,7 +9,7 @@
     {"batch":"BATCH 3","range":"#21–#30","status":"WAITING","passed":0,"total":10,"note":"Not started. Waiting for image generation limit reset."}
   ],
   "calendar": [
-    {"date":"2026-09-05","time":"20:30","format":"STILL","title":"Something crossed here after the rain stopped.","asset_status":"QA PASS","publish_status":"READY"},
+    {"date":"2026-09-05","time":"20:30","format":"STILL","title":"Something crossed here after the rain stopped.","asset_status":"QA PASS","publish_status":"PUBLISHED","posted":true},
     {"date":"2026-09-06","time":"21:00","format":"REEL STARTER","title":"It was already in the frame.","asset_status":"FRAME PASS / PROMPT PASS","publish_status":"HOLD"},
     {"date":"2026-09-07","time":"21:00","format":"STILL","title":"The marks were nearly eleven feet above the trail.","asset_status":"QA PASS","publish_status":"READY"},
     {"date":"2026-09-08","time":"21:00","format":"REEL STARTER","title":"The forest went silent first.","asset_status":"FRAME PASS","publish_status":"HOLD"},
@@ -39,8 +39,8 @@
   "episodes": [
     {
       "id":"RLS-001","title":"NORTH TRAIL / 02:11 AM","batch":"BATCH 1","slot":1,
-      "still":{"status":"ready","post_time":"20:30","caption":"The rain stopped at 2:11 AM. This appeared on the north trail minutes later.","pinned_comment":"FIELD LOG 001 — No matching tracks were found within 40 meters.","qa1":"PASS","qa2":"PASS","preview_url":"./assets/rls/batch1/b1_01.webp","media_url":"https://drive.google.com/file/d/1PEWCx0SS6ifncQPi39159an5eP-M51LQ/view?usp=drivesdk"},
-      "reel":{"status":"hold","post_time":"","caption":"","pinned_comment":""},"note":"MASTER STILL • QA LOCKED"
+      "still":{"status":"published","post_time":"20:30","posted":true,"caption":"The rain stopped at 2:11 AM. This appeared on the north trail minutes later.","pinned_comment":"FIELD LOG 001 — No matching tracks were found within 40 meters.","qa1":"PASS","qa2":"PASS","preview_url":"./assets/rls/batch1/b1_01.webp","media_url":"https://drive.google.com/file/d/1PEWCx0SS6ifncQPi39159an5eP-M51LQ/view?usp=drivesdk"},
+      "reel":{"status":"hold","post_time":"","caption":"","pinned_comment":""},"note":"MASTER STILL • QA LOCKED • PUBLISHED"
     },
     {
       "id":"RLS-002","title":"CAMERA 07 — ALREADY IN FRAME","batch":"BATCH 1","slot":2,

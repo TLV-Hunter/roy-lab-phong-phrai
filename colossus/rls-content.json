@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T22:07:00+07:00",
+  "updated_at": "2026-09-05T23:32:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "RLS — รอยลับพงไพร",
   "mode": "IMAGE-FIRST • REELS HOLD",
@@ -44,9 +44,9 @@
     },
     {
       "id":"RLS-002","title":"CAMERA 07 — ALREADY IN FRAME","batch":"BATCH 1","slot":2,
-      "still":{"status":"starter","post_time":"","caption":"","pinned_comment":"","qa1":"PASS","qa2":"PASS"},
+      "still":{"status":"starter","post_time":"","caption":"","pinned_comment":"","qa1":"PASS","qa2":"PASS","preview_url":"./assets/rls/batch1/b1_02.webp","media_url":"https://drive.google.com/file/d/1g6ge5gG1Dlp_YOUXXoW1oLlyZQ9efqqn/view?usp=drivesdk"},
       "reel":{"status":"hold","post_time":"","caption":"Most people miss it the first time.","pinned_comment":"CAMERA 07 / 02:17:43 — Motion triggered once. Never again."},
-      "starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"PASS","frame_filename":"RLS-SEP06-STARTER-CAMERA07.png","prompt":"Photorealistic found-footage trail-camera video in a wet, misty forest. Use the provided starter frame as the exact opening composition. Keep Camera 07 fixed and static. A distant, partially obscured unidentified forest figure is already present in the frame from the first moment, hidden behind trunks and fog. For the first 3 seconds, almost nothing moves except light mist and subtle leaves. Then the figure makes one small natural shift of weight and slowly withdraws behind the tree without revealing its full body. No running, no dramatic attack, no full creature reveal, no extra limbs, no morphing, no camera move, no jump scare. Preserve realistic scale, anatomy ambiguity, wet forest lighting, fog depth, and documentary low-light texture. Duration 10–14 seconds, 9:16, restrained natural motion, believable ambience-ready pacing, ending on an empty-looking frame that encourages replay."},
+      "starter":{"status":"hold","frame_qa":"PASS","prompt_qa":"PASS","frame_filename":"RLS-SEP06-STARTER-CAMERA07.png","frame_url":"https://drive.google.com/file/d/1g6ge5gG1Dlp_YOUXXoW1oLlyZQ9efqqn/view?usp=drivesdk","preview_url":"./assets/rls/batch1/b1_02.webp","prompt":"Photorealistic found-footage trail-camera video in a wet, misty forest. Use the provided starter frame as the exact opening composition. Keep Camera 07 fixed and static. A distant, partially obscured unidentified forest figure is already present in the frame from the first moment, hidden behind trunks and fog. For the first 3 seconds, almost nothing moves except light mist and subtle leaves. Then the figure makes one small natural shift of weight and slowly withdraws behind the tree without revealing its full body. No running, no dramatic attack, no full creature reveal, no extra limbs, no morphing, no camera move, no jump scare. Preserve realistic scale, anatomy ambiguity, wet forest lighting, fog depth, and documentary low-light texture. Duration 10–14 seconds, 9:16, restrained natural motion, believable ambience-ready pacing, ending on an empty-looking frame that encourages replay."},
       "note":"STARTER FRAME • Frame QA PASS • Prompt QA PASS • REEL HOLD"
     },
     {"id":"RLS-003","title":"HIGH MARKS","batch":"BATCH 1","slot":3,"still":{"status":"ready","post_time":"21:00","caption":"Nothing in this sector should reach this high.","pinned_comment":"No climbing marks were found below them.","qa1":"PASS","qa2":"PASS"},"reel":{"status":"hold"},"note":"MASTER STILL • QA LOCKED"},

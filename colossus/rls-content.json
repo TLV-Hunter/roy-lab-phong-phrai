@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-09-05",
+  "timezone": "Asia/Bangkok",
+  "brand": "RLS — รอยลับพงไพร",
+  "mode": "IMAGE-FIRST",
+  "episodes": [
+    {
+      "id": "RLS-001",
+      "title": "NORTH TRAIL / 02:11 AM",
+      "still": {
+        "status": "ready",
+        "post_time": "20:30",
+        "caption": "The rain stopped at 2:11 AM. This appeared on the north trail minutes later.",
+        "pinned_comment": "FIELD LOG 001 — No matching tracks were found within 40 meters.",
+        "qa1": "PASS",
+        "qa2": "PASS",
+        "media_url": "https://drive.google.com/file/d/1PEWCx0SS6ifncQPi39159an5eP-M51LQ/view?usp=drivesdk"
+      },
+      "reel": {
+        "status": "hold",
+        "post_time": "",
+        "caption": "",
+        "pinned_comment": ""
+      },
+      "note": "MASTER STILL • QA1 PASS • QA2 PASS • Image-first reboot starts here."
+    },
+    {
+      "id": "RLS-002",
+      "title": "CAMERA 07",
+      "still": {
+        "status": "starter",
+        "post_time": "",
+        "caption": "",
+        "pinned_comment": ""
+      },
+      "reel": {
+        "status": "hold",
+        "post_time": "",
+        "caption": "Most people miss it the first time.",
+        "pinned_comment": "CAMERA 07 / 02:17:43 — Motion triggered once. Never again."
+      },
+      "starter": {
+        "status": "hold",
+        "frame_qa": "PASS",
+        "prompt_qa": "PASS",
+        "frame_filename": "RLS-SEP06-STARTER-CAMERA07.png",
+        "frame_url": "https://drive.google.com/file/d/1g6ge5gG1Dlp_YOUXXoW1oLlyZQ9efqqn/view?usp=drivesdk",
+        "prompt": "Photorealistic found-footage trail-camera video in a wet, misty forest. Use the provided starter frame as the exact opening composition. Keep Camera 07 fixed and static. A distant, partially obscured unidentified forest figure is already present in the frame from the first moment, hidden behind trunks and fog. For the first 3 seconds, almost nothing moves except light mist and subtle leaves. Then the figure makes one small natural shift of weight and slowly withdraws behind the tree without revealing its full body. No running, no dramatic attack, no full creature reveal, no extra limbs, no morphing, no camera move, no jump scare. Preserve realistic scale, anatomy ambiguity, wet forest lighting, fog depth, and documentary low-light texture. Duration 10–14 seconds, 9:16, restrained natural motion, believable ambience-ready pacing, ending on an empty-looking frame that encourages replay."
+      },
+      "note": "STARTER FRAME • Frame QA PASS • Prompt QA PASS • Reel intentionally HOLD while image pipeline is completed."
+    }
+  ]
+}

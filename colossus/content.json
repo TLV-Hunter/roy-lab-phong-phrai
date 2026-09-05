@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T00:30:00+07:00",
+  "updated_at": "2026-09-05",
   "timezone": "Asia/Bangkok",
   "brand": "Colossus Signal",
   "episodes": [
@@ -36,6 +36,33 @@
         "pinned_comment": "ARCHIVE NOTE:\n\nThis frame was captured moments before the eye fully emerged.\n\nIts scale remains undetermined.\n\nEarth is visible below for reference."
       },
       "note": "Still already published. Reel planned for 08:30 Thailand time. AI disclosure required."
+    },
+    {
+      "id": "CS-003",
+      "title": "THE SHADOW THAT TURNED",
+      "reel": {
+        "status": "published",
+        "post_time": "published",
+        "caption": "It was already moving past Earth.\n\nNo signal.\nNo reaction.\nNo sign that it had noticed us.\n\nThen the shadow stopped.\n\nAnd turned back.\n\nCOLOSSUS SIGNAL // CS-003",
+        "pinned_comment": "TRANSMISSION NOTE:\n\nThe object changed direction only once.\n\nIts new trajectory pointed directly toward Earth."
+      },
+      "still": {
+        "status": "published",
+        "post_time": "published",
+        "caption": "It was already moving past Earth.\n\nNo signal.\nNo reaction.\nNo sign that it had noticed us.\n\nThen the shadow stopped.\n\nAnd turned back.\n\nCOLOSSUS SIGNAL // CS-003",
+        "pinned_comment": "TRANSMISSION NOTE:\n\nThe object changed direction only once.\n\nIts new trajectory pointed directly toward Earth.",
+        "image_asset": {
+          "format": "chunked-avif",
+          "base_path": "./assets/cs003-avif15/",
+          "parts": 10,
+          "mime": "image/avif",
+          "filename": "CS-003_MASTER_STILL_4K.jpg",
+          "width": 2160,
+          "height": 3840,
+          "source": "original CS-003 Master Image; upscale + mild sharpening only"
+        }
+      },
+      "note": "CS-003 Reel and linked still published. Original Master Image archived for reuse at 2160x3840. No regeneration or composition change."
     }
   ]
 }

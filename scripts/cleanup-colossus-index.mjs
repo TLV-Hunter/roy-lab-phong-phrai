@@ -3,12 +3,11 @@ import fs from 'node:fs';
 const path = 'colossus/index.html';
 let html = fs.readFileSync(path, 'utf8');
 
-// 1) Correct HTML escaping typo.
-html = html.replace("'\\\"':'&quot'", "'\\\"':'&quot;'");
+// 1) Correct the HTML escaping typo. Keep this idempotent.
+html = html.replace("'\"':'&quot',", "'\"':'&quot;',");
 
-// 2) Eliminate hard-coded thumbnail ranges. Always try the local cached asset,
-// then fall back cleanly if the file is missing.
-{
+// 2) Eliminate hard-coded thumbnail ranges only if the legacy function still exists.
+if (html.includes('function hasLocalThumb(id)')) {
   const start = html.indexOf('function hasLocalThumb(id)');
   const end = html.indexOf('function renderChecklist()', start);
   if (start < 0 || end < 0) throw new Error('Thumbnail function anchors not found');
@@ -17,8 +16,8 @@ html = html.replace("'\\\"':'&quot'", "'\\\"':'&quot;'");
 }
 
 // 3) Avoid private Google Drive iframe black/blank preview in DESK.
-// Use local cached thumbnail as preview, keeping OPEN/DOWNLOAD actions for the 4K master.
-{
+// Patch only the legacy media function; do nothing if local preview is already active.
+if (!html.includes('LOCAL PREVIEW NOT CACHED')) {
   const start = html.indexOf('function media(e)');
   const end = html.indexOf('function pane(e,type)', start);
   if (start < 0 || end < 0) throw new Error('Media function anchors not found');

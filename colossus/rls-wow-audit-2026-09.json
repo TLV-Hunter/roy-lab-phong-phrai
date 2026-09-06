@@ -1,0 +1,52 @@
+{
+  "audit_date": "2026-09-06T22:38:00+07:00",
+  "status": "CURRENT SERIES QA",
+  "verdict": "REBUILD MONTH AT SERIES LEVEL — DO NOT CONTINUE REPETITIVE TRAIL / FOOTPRINT / SHADOW FORMULA",
+  "goal": "Every day has 1 Mainline Reel + at least 1 Linked Still, with a different visual wow mechanism and a maximum of 7 total public posts per day.",
+  "series_preflight_score": 94,
+  "series_rules": {
+    "wow_first": true,
+    "series_first": true,
+    "feed_diversity_gate": true,
+    "footprint_main_hook_cooldown_days": 7,
+    "giant_silhouette_max_per_5_days": 1,
+    "same_location_angle_mechanism_repeat": "FAIL",
+    "daily_change_requirement": "Change at least 3 of 4: location, viewpoint, threat mechanism, reveal type.",
+    "instant_hook": "Viewer should understand what is abnormal within about 1-2 seconds.",
+    "linked_still_rule": "Still must support, extend, document or provide aftermath for that day's Reel; it must not simply duplicate the Reel frame.",
+    "forest_rule": "The forest remains the main character; creature/scale is a controlled hero mechanism, not the default solution."
+  },
+  "asset_audit": [
+    {"date":"2026-09-07","id":"RLS-002","status":"KEEP_MAINLINE","reason":"CAMERA 07 partial presence is a strong early surveillance hook and current linked still passed QA."},
+    {"date":"2026-09-08","id":"RLS-003","status":"SUPPORT_ONLY","reason":"High marks are good evidence but duplicate the stronger Sep17 scale/gouge slot."},
+    {"date":"2026-09-09","id":"RLS-004","status":"KEEP_MAINLINE","reason":"Audio recorder foreground + distant presence creates a distinct sound-driven hook."},
+    {"date":"2026-09-10","id":"RLS-005","status":"SUPPORT_ONLY","reason":"Field log is useful lore but too static to carry a daily WOW slot."},
+    {"date":"2026-09-11","id":"RLS-006","status":"SUPPORT_ONLY","reason":"Fog anomaly concept is good but current trail composition is too similar to neighboring forest-path posts."},
+    {"date":"2026-09-12","id":"RLS-007","status":"REBUILD_MAINLINE","reason":"Camera-lift concept is strong; visual must change to a canopy-down viewpoint to create a real scale/physics payoff."},
+    {"date":"2026-09-13","id":"RLS-008","status":"KEEP_MAINLINE","reason":"1998 archive look provides major visual and time-period variety."},
+    {"date":"2026-09-14","id":"RLS-009","status":"SUPPORT_ONLY","reason":"Same-mark comparison works as supporting evidence but is too close to the Sep13 archive beat."},
+    {"date":"2026-09-15","id":"RLS-011","status":"KEEP_MAINLINE","reason":"FIELD RULE 01 is a distinct lore/behavior slot and is already scheduled."},
+    {"date":"2026-09-16","id":"RLS-010","status":"KEEP_MAINLINE","reason":"Fresh snapped branch + audio-first idea has a clear physical hook."},
+    {"date":"2026-09-17","id":"RLS-013","status":"KEEP_MAINLINE","reason":"High gouges are the designated weekly scale-evidence slot and are already scheduled."},
+    {"date":"2026-09-18","id":"RLS-012","status":"KEEP_MAINLINE","reason":"Moved-tree/root-drag evidence is visually different and passed revised QA."},
+    {"date":"2026-09-19","id":"RLS-015","status":"SUPPORT_ONLY","reason":"Existing silhouette version repeats the giant-behind-trees motif; keep concept but rebuild main visual from canopy."},
+    {"date":"2026-09-20","id":"RLS-016","status":"SUPPORT_ONLY","reason":"Location continuity asset is useful but needs a stronger field-station/radio event for mainline WOW."},
+    {"date":"2026-09-21","id":"RLS-014","status":"KEEP_MAINLINE","reason":"Reserve as the late-month creature/scale HERO slot; current revised version has strong scale reference."},
+    {"date":"2026-09-22","id":"RLS-018","status":"KEEP_MAINLINE","reason":"Recovered-note evidence is a distinct archive/macro composition and passed revised QA."},
+    {"date":"2026-09-23","id":"RLS-019","status":"KEEP_MAINLINE","reason":"Two-camera discrepancy is one of the strongest system anomalies and a HERO candidate."},
+    {"date":"2026-09-24","id":"RLS-020","status":"KEEP_MAINLINE","reason":"Warm bark is the designated physical/thermal aftermath slot and is already scheduled."},
+    {"date":"2026-09-25","id":"RLS-017","status":"REPLACE_MAINLINE","reason":"Two cameras + giant silhouette repeats Sep23 and earlier surveillance imagery."},
+    {"date":"2026-09-26","id":"RLS-022","status":"REPLACE_MAINLINE","reason":"Footprints + giant figure repeats the opening formula and is not acceptable for CASE 001 hero day."},
+    {"date":"2026-09-27","id":"RLS-023","status":"SUPPORT_ONLY","reason":"Broken-tree evidence is usable but too close to Sep16/Sep18 physical-tree damage beats."},
+    {"date":"2026-09-28","id":"RLS-024","status":"REPLACE_MAINLINE","reason":"Glowing/hidden eyes in bushes is visually familiar and too cliché for a late-month reveal."},
+    {"date":"2026-09-29","id":"RLS-025","status":"KEEP_MAINLINE","reason":"FIELD RULE 02 provides a controlled text/lore break from environmental imagery."},
+    {"date":"2026-09-30","id":"RLS-026","status":"REPLACE_MAINLINE","reason":"Camera network + giant silhouette repeats Sep23/Sep25; finale needs a system-level reveal without another creature portrait."}
+  ],
+  "audit_counts": {
+    "keep_mainline": 12,
+    "support_only": 7,
+    "rebuild_or_replace_mainline": 5,
+    "days_requiring_a_new_mainline_visual_because_support_assets_were_demoted": 7,
+    "total_new_or_rebuilt_mainline_visuals_required": 12
+  }
+}

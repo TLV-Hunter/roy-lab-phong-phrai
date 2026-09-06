@@ -1,0 +1,163 @@
+{
+  "version": "1.1",
+  "updated_at": "2026-09-06T17:06:00+07:00",
+  "governing_goal": "Find 2 repeatable winning mechanisms before scaling output.",
+  "north_star": [
+    "AWE BEFORE FEAR",
+    "SCALE BEFORE EXPOSITION",
+    "EVIDENCE BEFORE EXPLANATION",
+    "STORY AFTER DISCOVERY",
+    "ORIGINAL IP BEFORE AI SPECTACLE"
+  ],
+  "current_schedule_baseline": {
+    "reel": "08:30 Asia/Bangkok",
+    "linked_still": "20:30 Asia/Bangkok",
+    "status": "TESTABLE — NOT PERMANENT"
+  },
+  "experiment_cards": [
+    {
+      "content_id": "CS-004",
+      "title": "EARTH BETWEEN GODS",
+      "status": "BASELINE TEST #1 — READY TO PUBLISH",
+      "event_type": "SCALE EVENT",
+      "funnel_role": "DISCOVERY",
+      "objective": "Reach + Share",
+      "primary_hypothesis": "A familiar Earth-scale reference placed between two opposing colossal silhouettes can create immediate scale shock and curiosity without relying on a recognizable anatomical feature.",
+      "main_variable": "Two-sided colossal scale composition with tiny Earth centered between entities.",
+      "primary_kpi": "View velocity @ 1h / 6h / 24h",
+      "guardrail_kpi": "Completion rate + follows from content when available",
+      "first_frame": "Tiny Earth centered in open space while two enormous dark entities intrude from opposite sides; one visual question: what is Earth trapped between?",
+      "scale_reference": "Earth",
+      "reveal_type": "Partial silhouette",
+      "story_beats": [
+        "Two colossal forms occupy opposite sides of Earth.",
+        "Both continue moving slowly with no reaction to Earth.",
+        "The viewer realizes the forms are aligned with each other, not with us.",
+        "Payoff: Earth is simply between them."
+      ],
+      "target_duration": "10.1 sec",
+      "motion_rule": "Slow, heavy opposing drift; no fast movement or camera shake.",
+      "environment_reaction": "Foreground debris/parallax supports scale; no destructive reaction required in this baseline execution.",
+      "audio_direction": "Low-frequency cosmic pressure / source ambience, restrained; no monster roar; final mix normalized near -16 LUFS.",
+      "on_screen_hooks": [
+        "EARTH WAS BETWEEN THEM",
+        "NEITHER LOOKED AT US"
+      ],
+      "reel_caption": "Earth was never the target.\n\nTwo colossal forms entered the same region of space from opposite directions.\n\nNeither slowed down.\nNeither looked at us.\n\nEarth was simply between them.\n\nCOLOSSUS SIGNAL // CS-004",
+      "pinned_comment": "OBSERVATION NOTE:\n\nBoth entities remained aligned with each other.\n\nEarth appears to have been caught between them by chance.\n\nNo signal was directed toward us.",
+      "follow_promise": "Observation remains active.",
+      "qa": {
+        "first_frame_clear": "PASS",
+        "scale_believable": "PASS",
+        "slow_heavy_motion": "PASS",
+        "environment_reacts": "LIMITED / BASELINE",
+        "over_reveal": "PASS",
+        "distinct_thumbnail": "PASS",
+        "english": "PASS",
+        "originality": "PASS",
+        "no_fake_news": "PASS",
+        "hypothesis_clear": "PASS"
+      },
+      "decision": "PENDING DATA"
+    }
+  ],
+  "controlled_test_batch": [
+    {
+      "test_id": "A1",
+      "engine": "ANATOMY RECOGNITION",
+      "concept": "Eye Behind the Moon",
+      "hypothesis": "Recognizable biological feature improves stop rate and thumbnail clarity.",
+      "production_status": "EXISTING EXECUTION: CS-002 — use as historical comparison, not yet confirmed winner"
+    },
+    {
+      "test_id": "A2",
+      "engine": "ANATOMY RECOGNITION",
+      "concept": "Fingers Beyond Earth’s Limb",
+      "hypothesis": "Hand/finger recognition can reproduce anatomy-scale performance without repeating the eye.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "B1",
+      "engine": "SCALE REFERENCE",
+      "concept": "Moon vs Entity",
+      "hypothesis": "Direct celestial scale comparison drives awe and share behavior.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "B2",
+      "engine": "SCALE REFERENCE",
+      "concept": "Saturn Looks Small Beside It",
+      "hypothesis": "An iconic planet creates faster scale realization than abstract stars.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "C1",
+      "engine": "IMPOSSIBLE PHENOMENON",
+      "concept": "17% of the Stars Disappear",
+      "hypothesis": "Mystery can perform without a visible creature.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "C2",
+      "engine": "IMPOSSIBLE PHENOMENON",
+      "concept": "The Eclipse Was Caused by Something Alive",
+      "hypothesis": "Reality-to-anomaly transition improves retention.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "D1",
+      "engine": "MICRO COSMIC STORY",
+      "concept": "It Never Became Smaller",
+      "hypothesis": "Conceptual impossibility can create follow intent.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    },
+    {
+      "test_id": "D2",
+      "engine": "MICRO COSMIC STORY",
+      "concept": "We Thought It Was a Nebula",
+      "hypothesis": "Delayed recontextualization drives replay and retention.",
+      "production_status": "TO RUN AS CONTROLLED EXECUTION"
+    }
+  ],
+  "learning_ledger": [
+    {
+      "date": "2026-09-06",
+      "content": "CS-004",
+      "hypothesis": "Two-sided scale reference can create discovery without anatomy.",
+      "variable": "Tiny Earth between two opposing colossal silhouettes",
+      "result": "PENDING",
+      "learning": "PENDING",
+      "decision": "HOLD UNTIL 1h/6h/24h DATA"
+    }
+  ],
+  "winner_vault": {
+    "status": "EMPTY — NO CONFIRMED WINNER MECHANISM YET",
+    "rule": "A mechanism enters the Winner Vault only after strong performance across 2–3 distinct executions.",
+    "candidates": [
+      {
+        "mechanism": "Instant Biological Recognition + Impossible Scale",
+        "evidence": "CS-002 historical outlier hypothesis only",
+        "status": "HYPOTHESIS — NOT CONFIRMED"
+      }
+    ]
+  },
+  "entity_ip_bible": {
+    "status": "INITIALIZED",
+    "rule": "Create a persistent entity record only when an entity or mechanism performs strongly enough to justify reuse.",
+    "entities": []
+  },
+  "velocity_template": {
+    "views_1h": null,
+    "views_6h": null,
+    "views_24h": null,
+    "views_72h": null,
+    "views_7d": null,
+    "reach": null,
+    "avg_watch_time": null,
+    "completion_rate": null,
+    "shares": null,
+    "meaningful_comments": null,
+    "follows_from_content": null,
+    "decision": "UNKNOWN UNTIL DATA"
+  }
+}

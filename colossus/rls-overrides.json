@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-09-06T14:44:00+07:00",
+  "episodes": {
+    "RLS-001": {
+      "reel_status": "published",
+      "reel_caption": "24 minutes before the tracks were found, the North Trail unit recorded this.\n\nWhatever crossed the trail never entered the frame completely.\n\nNORTH TRAIL // FIELD LOG 001",
+      "reel_pinned_comment": "FIELD LOG 001 — 02:11 AM\n\nNo matching return trail was found within 40 meters.\n\nThe next usable recording came from CAMERA 07.",
+      "reel_qa1": "97/100 PASS",
+      "reel_qa2": "PASS",
+      "reel_copy_qa": "PASS",
+      "note": "MASTER STILL CANON PUBLISHED SEP 05 • REEL 001 PREQUEL FINAL MASTER QA 97 • PUBLISHED SEP 06 MANUAL EXCEPTION"
+    },
+    "RLS-002": {
+      "reel_status": "NEXT • STARTER PASS",
+      "reel_caption": "Most people miss it the first time.",
+      "reel_pinned_comment": "CAMERA 07 / 02:17:43 — Motion triggered once. Never again.",
+      "reel_qa1": "STARTER PASS",
+      "reel_qa2": "PROMPT PASS",
+      "reel_copy_qa": "PASS",
+      "note": "NEXT MAINLINE • SEP 07 18:00 • STARTER PASS • PROMPT PASS • GENERATE CLIP THEN COLOSSUS+ QA"
+    }
+  }
+}

@@ -1,29 +1,44 @@
 {
-  "updated_at": "2026-09-06T14:44:00+07:00",
+  "updated_at": "2026-09-06T15:05:00+07:00",
   "timezone": "Asia/Bangkok",
-  "mode": "INTERNATIONAL-FIRST • MAINLINE + SUPPORT DROPS • NORMAL PLAN ACTIVE",
+  "mode": "INTERNATIONAL-FIRST • DAILY STORY PACK • NORMAL PLAN ACTIVE",
   "rules": {
-    "primary_audience": "Global English Horror Audience",
-    "public_language": "English",
-    "international_descriptor": "THE HIDDEN FOREST",
-    "mainline_min_per_day": 1,
-    "max_public_posts_per_day": 5,
-    "support_drops_per_day": "0-4 when strategically useful",
-    "reel_generation_enabled": true,
+    "primary_goal": "1 MAINLINE REEL + at least 1 LINKED STILL every day",
+    "daily_reel_min": 1,
+    "daily_linked_still_min": 1,
+    "max_public_posts_per_day": 7,
+    "optional_support_posts_per_day": "0-5",
     "normal_reel_time": "18:00",
     "normal_still_time": "10:00",
+    "public_language": "English",
+    "international_descriptor": "THE HIDDEN FOREST",
+    "story_rule": "The linked still must directly support, extend, document or provide aftermath/evidence for that day's Reel.",
+    "creative_rule": "Evidence Before Explanation • The Forest Is The Main Character • scale/creature is one mechanism, not every post.",
+    "starter_rule": "A video Starter Frame is not automatically a public Linked Still. It needs public-still QA or a dedicated linked-still version.",
     "existing_metricool_schedules_preserved": ["2026-09-15 21:00", "2026-09-17 21:00", "2026-09-24 21:00"],
-    "reel_001_exception": "Sep 06 manual publish outside normal timing; normal plan resumes Sep 07.",
-    "content_model": "MAINLINE CANON + SUPPORT EVIDENCE / ARCHIVE / BONUS DROPS",
-    "creative_rule": "Evidence Before Explanation. The Forest Is The Main Character. Scale/creature is a test mechanism, not every post.",
-    "asset_rule": "Reuse QA-passed inventory. Rework unresolved assets. Previously generated non-mainline assets may be used as support only after QA."
+    "launch_exception": "Sep 05 Still 001 + Sep 06 Reel 001 form the launch pair. Full daily Reel + Linked Still rule begins Sep 07."
+  },
+  "minimum_inventory_sep07_sep30": {
+    "days": 24,
+    "reels_required": 24,
+    "reels_with_passed_starter_base": 6,
+    "reels_needing_new_or_rebuild_production": 18,
+    "linked_stills_required": 24,
+    "public_ready_linked_still_masters_available": 8,
+    "linked_stills_needing_work": 16,
+    "linked_still_work_breakdown": {
+      "create_public_still_from_passed_starter_source": 6,
+      "rebuild_existing_unresolved_asset": 5,
+      "brand_new_linked_still": 5
+    }
   },
   "support_inventory": {
-    "policy": "Use up to four support drops around the daily mainline when they add evidence, context, replay value or profile conversion. Do not post for volume alone.",
+    "policy": "After the required Reel + Linked Still are secured, use up to five additional posts only when they add evidence, context, replay value, theory-building or profile conversion.",
     "reserved_candidates": [
       "RLS-021 — It never crossed the trail.",
       "RLS-027 to RLS-030 — HERO / backup inventory",
-      "Alternate or previously generated images that pass support-post QA"
+      "Previously generated alternate images that pass support-post QA",
+      "Evidence crop / archive comparison / field note / aftermath / alternate angle"
     ]
   },
   "days": [
@@ -31,235 +46,209 @@
       "date": "2026-09-05",
       "id": "RLS-001",
       "phase": "THE FIRST TRACE",
-      "format": "STILL / EVIDENCE",
-      "title": "NORTH TRAIL / 02:11 AM — Something crossed here after the rain stopped.",
-      "still": {"time":"20:30","status":"PUBLISHED","asset_status":"QA PASS • CANON","posted":true},
-      "reel": {"time":"","status":"NOT YET","asset_status":"PREQUEL PRODUCED NEXT DAY","posted":false}
+      "title": "NORTH TRAIL / 02:11 AM",
+      "reel": {"status":"LAUNCH PAIR NEXT DAY","time":""},
+      "still": {"status":"PUBLISHED","time":"20:30","asset_status":"MASTER STILL QA PASS • CANON"}
     },
     {
       "date": "2026-09-06",
       "id": "RLS-001",
       "phase": "THE FIRST TRACE",
-      "format": "REEL / SCALE ENCOUNTER",
       "title": "24 minutes before the tracks were found.",
-      "still": {"time":"","status":"CANON EXISTS","asset_status":"SEP 05 MASTER STILL","posted":true},
-      "reel": {"time":"MANUAL","status":"PUBLISHED","asset_status":"FINAL MASTER QA 97 • COVER READY • REEL 001 EXCEPTION","posted":true}
+      "reel": {"status":"PUBLISHED","time":"MANUAL","asset_status":"FINAL MASTER QA 97 • COVER READY"},
+      "still": {"status":"LAUNCH PAIR CANON","time":"","asset_status":"USES SEP 05 STILL 001 AS LINKED EVIDENCE"}
     },
     {
       "date": "2026-09-07",
       "id": "RLS-002",
       "phase": "CAMERA 07 / THE WITNESS",
-      "format": "REEL / SURVEILLANCE",
       "title": "It was already in the frame.",
-      "still": {"time":"","status":"STARTER ONLY","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"NEXT","asset_status":"STARTER PASS • PROMPT PASS","posted":false}
+      "reel": {"status":"NEXT • STARTER PASS • PROMPT PASS","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"USE PASSED RLS-002 STARTER AS SOURCE • PUBLIC-STILL QA REQUIRED"}
     },
     {
       "date": "2026-09-08",
       "id": "RLS-003",
-      "phase": "CAMERA 07 / THE WITNESS",
-      "format": "STILL / SCALE EVIDENCE",
+      "phase": "CAMERA 07 / SCALE EVIDENCE",
       "title": "The marks were nearly eleven feet above the trail.",
-      "still": {"time":"10:00","status":"READY","asset_status":"QA PASS • REUSE MASTER","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"READY","time":"10:00","asset_status":"RLS-003 HIGH MARKS • QA PASS • REUSE MASTER"}
     },
     {
       "date": "2026-09-09",
       "id": "RLS-004",
-      "phase": "CAMERA 07 / THE WITNESS",
-      "format": "REEL / ENVIRONMENTAL ANOMALY",
+      "phase": "THE FOREST REACTS",
       "title": "The forest went silent first.",
-      "still": {"time":"","status":"STARTER ONLY","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED","asset_status":"PROMPT / CLIP QA REQUIRED","posted":false}
+      "reel": {"status":"STARTER PASS • PROMPT/CLIP QA REQUIRED","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"CREATE PUBLIC STILL FROM PASSED STARTER SOURCE"}
     },
     {
       "date": "2026-09-10",
       "id": "RLS-005",
-      "phase": "CAMERA 07 / THE WITNESS",
-      "format": "ARCHIVE / FIELD LOG",
+      "phase": "CAMERA 07 / SIGNAL LOSS",
       "title": "FIELD LOG 001 — Signal loss: 4m 12s.",
-      "still": {"time":"10:00","status":"READY","asset_status":"QA PASS • REUSE MASTER","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"READY","time":"10:00","asset_status":"RLS-005 FIELD LOG 001 • QA PASS • REUSE MASTER"}
     },
     {
       "date": "2026-09-11",
       "id": "RLS-006",
       "phase": "THE FOREST REACTS",
-      "format": "REEL / ENVIRONMENTAL ANOMALY",
       "title": "The fog moved the wrong way.",
-      "still": {"time":"","status":"STARTER ONLY","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED","asset_status":"PROMPT / CLIP QA REQUIRED","posted":false}
+      "reel": {"status":"STARTER PASS • PROMPT/CLIP QA REQUIRED","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"CREATE PUBLIC STILL FROM PASSED STARTER SOURCE"}
     },
     {
       "date": "2026-09-12",
       "id": "RLS-007",
-      "phase": "THE FOREST REACTS",
-      "format": "STILL / AFTERMATH",
+      "phase": "CAMERA 07 / AFTERMATH",
       "title": "Camera 07 was still recording when something lifted it.",
-      "still": {"time":"10:00","status":"READY","asset_status":"QA PASS • REUSE MASTER","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"READY","time":"10:00","asset_status":"RLS-007 CAMERA 07 MOVED • QA PASS • REUSE MASTER"}
     },
     {
       "date": "2026-09-13",
       "id": "RLS-008",
       "phase": "THE 1998 FILE",
-      "format": "HERO REEL / ARCHIVE MATCH",
       "title": "Tonight’s footage matches a file from 1998.",
-      "still": {"time":"","status":"HERO STARTER","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED","asset_status":"HERO PROMPT / CLIP QA REQUIRED","posted":false}
+      "reel": {"status":"HERO STARTER PASS • PROMPT/CLIP QA REQUIRED","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"CREATE PUBLIC HERO STILL FROM PASSED STARTER SOURCE"}
     },
     {
       "date": "2026-09-14",
       "id": "RLS-009",
       "phase": "THE 1998 FILE",
-      "format": "ARCHIVE / EVIDENCE",
       "title": "Same mark. Different year.",
-      "still": {"time":"10:00","status":"READY","asset_status":"QA PASS • REUSE MASTER","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"READY","time":"10:00","asset_status":"RLS-009 SAME MARK / DIFFERENT YEAR • QA PASS • REUSE MASTER"}
     },
     {
       "date": "2026-09-15",
       "id": "RLS-011",
-      "phase": "SECTOR H-4",
-      "format": "STILL / FIELD RULE",
+      "phase": "SECTOR H-4 / FIELD RULE",
       "title": "FIELD RULE 01",
-      "still": {"time":"21:00","status":"SCHEDULED","asset_status":"QA PASS • METRICOOL EXISTING SCHEDULE","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS LINKED REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"SCHEDULED","time":"21:00","asset_status":"RLS-011 FIELD RULE 01 • QA PASS • EXISTING METRICOOL SCHEDULE"}
     },
     {
       "date": "2026-09-16",
       "id": "RLS-010",
-      "phase": "SECTOR H-4",
-      "format": "REEL / SOUND ENCOUNTER",
+      "phase": "SECTOR H-4 / SOUND ENCOUNTER",
       "title": "You hear it before you see it.",
-      "still": {"time":"","status":"STARTER ONLY","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED","asset_status":"PROMPT / CLIP QA REQUIRED","posted":false}
+      "reel": {"status":"STARTER PASS • PROMPT/CLIP QA REQUIRED","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"CREATE PUBLIC STILL FROM PASSED STARTER SOURCE"}
     },
     {
       "date": "2026-09-17",
       "id": "RLS-013",
-      "phase": "SECTOR H-4",
-      "format": "STILL / SCALE EVIDENCE",
+      "phase": "SECTOR H-4 / SCALE",
       "title": "High gouges / scale evidence.",
-      "still": {"time":"21:00","status":"SCHEDULED","asset_status":"QA PASS • METRICOOL EXISTING SCHEDULE","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"SCHEDULED","time":"21:00","asset_status":"RLS-013 HIGH GOUGES • QA PASS • EXISTING METRICOOL SCHEDULE"}
     },
     {
       "date": "2026-09-18",
       "id": "RLS-012",
-      "phase": "SECTOR H-4",
-      "format": "REEL / ENVIRONMENTAL ANOMALY",
+      "phase": "SECTOR H-4 / ENVIRONMENT",
       "title": "The tree moved twice.",
-      "still": {"time":"","status":"REWORK","asset_status":"PREVIOUS ASSET REBUILD","posted":false},
-      "reel": {"time":"18:00","status":"BLOCKED_REBUILD","asset_status":"REBUILD STARTER THEN QA","posted":false}
+      "reel": {"status":"BLOCKED • REBUILD STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"REBUILD","time":"10:00","asset_status":"REBUILD LINKED STILL • CENTRAL WRONG TRUNK • NO CREATURE"}
     },
     {
       "date": "2026-09-19",
       "id": "RLS-015",
-      "phase": "SECTOR H-4",
-      "format": "HERO REEL / SURVEILLANCE RETURN",
+      "phase": "SECTOR H-4 / SURVEILLANCE RETURN",
       "title": "Camera 07 came back online.",
-      "still": {"time":"","status":"REWORK","asset_status":"PREVIOUS HERO ASSET REBUILD","posted":false},
-      "reel": {"time":"18:00","status":"BLOCKED_REBUILD","asset_status":"REBUILD HERO STARTER THEN QA","posted":false}
+      "reel": {"status":"BLOCKED • REBUILD HERO STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"REBUILD","time":"10:00","asset_status":"REBUILD DAMAGED/RESTORED CAMERA POV • PARTIAL EDGE ANOMALY"}
     },
     {
       "date": "2026-09-20",
       "id": "RLS-016",
-      "phase": "SECTOR H-4",
-      "format": "STILL / LOCATION CONTINUITY",
+      "phase": "SECTOR H-4 / LOCATION",
       "title": "SECTOR H-4 — Last signal.",
-      "still": {"time":"10:00","status":"READY","asset_status":"QA PASS • REUSE MASTER","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"READY","time":"10:00","asset_status":"RLS-016 SECTOR H-4 • QA PASS • REUSE MASTER"}
     },
     {
       "date": "2026-09-21",
       "id": "RLS-014",
-      "phase": "SECTOR H-4",
-      "format": "REEL / SCALE CREATURE",
+      "phase": "SECTOR H-4 / SCALE CREATURE",
       "title": "It looked small until it stood up.",
-      "still": {"time":"","status":"REWORK","asset_status":"REMOVE GENERIC BIGFOOT READ","posted":false},
-      "reel": {"time":"18:00","status":"BLOCKED_REBUILD","asset_status":"DISTANT PARTIAL ENTITY • REBUILD REQUIRED","posted":false}
+      "reel": {"status":"BLOCKED • REBUILD STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"REBUILD","time":"10:00","asset_status":"DISTANT PARTIAL ENTITY • REMOVE GENERIC BIGFOOT READ"}
     },
     {
       "date": "2026-09-22",
       "id": "RLS-018",
-      "phase": "CASE 001 APPROACH",
-      "format": "ARCHIVE / RECOVERED NOTE",
+      "phase": "CASE 001 APPROACH / RECOVERED EVIDENCE",
       "title": "RECOVERED NOTE — one set of tracks going in.",
-      "still": {"time":"10:00","status":"BLOCKED_REBUILD","asset_status":"REBUILD CLEAN IN-UNIVERSE NOTE","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS NEW ARCHIVE/EVIDENCE REEL","time":"18:00"},
+      "still": {"status":"REBUILD","time":"10:00","asset_status":"CLEAN IN-UNIVERSE NOTE • SINGLE TRACK DIRECTION • NO PRODUCTION LABELS"}
     },
     {
       "date": "2026-09-23",
       "id": "RLS-019",
-      "phase": "CASE 001 APPROACH",
-      "format": "REEL / SURVEILLANCE DISCREPANCY",
+      "phase": "CASE 001 APPROACH / SURVEILLANCE DISCREPANCY",
       "title": "Only one camera saw it.",
-      "still": {"time":"","status":"STARTER","asset_status":"FRAME QA PASS","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED","asset_status":"STARTER PASS • PROMPT QA REQUIRED","posted":false}
+      "reel": {"status":"STARTER PASS • PROMPT QA/VIDEO REQUIRED","time":"18:00"},
+      "still": {"status":"NEEDS LINKED STILL","time":"10:00","asset_status":"CREATE PUBLIC STILL FROM PASSED STARTER SOURCE"}
     },
     {
       "date": "2026-09-24",
       "id": "RLS-020",
-      "phase": "CASE 001 APPROACH",
-      "format": "STILL / PHYSICAL AFTERMATH",
+      "phase": "CASE 001 APPROACH / PHYSICAL AFTERMATH",
       "title": "The bark was still warm.",
-      "still": {"time":"21:00","status":"SCHEDULED","asset_status":"QA PASS • METRICOOL EXISTING SCHEDULE","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEEDS REEL STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"SCHEDULED","time":"21:00","asset_status":"RLS-020 WARM BARK • QA PASS • EXISTING METRICOOL SCHEDULE"}
     },
     {
       "date": "2026-09-25",
       "id": "RLS-017",
       "phase": "THE CAMERA NETWORK",
-      "format": "REEL / NETWORK ANOMALY",
       "title": "The same shadow appeared on two cameras.",
-      "still": {"time":"","status":"REWORK","asset_status":"NO BRANDING • NO REAL LOCATION • NO SPLIT-SCREEN DEPENDENCY","posted":false},
-      "reel": {"time":"18:00","status":"BLOCKED_REBUILD","asset_status":"REBUILD REQUIRED","posted":false}
+      "reel": {"status":"BLOCKED • REBUILD STARTER + VIDEO","time":"18:00"},
+      "still": {"status":"REBUILD","time":"10:00","asset_status":"NEUTRAL CAMERAS • NO BRANDING • NO REAL LOCATION • NO SPLIT-SCREEN DEPENDENCY"}
     },
     {
       "date": "2026-09-26",
       "id": "RLS-022",
       "phase": "CASE 001",
-      "format": "HERO REEL / CASE FILE",
       "title": "CASE 001 — The Hollow Trail.",
-      "still": {"time":"","status":"NEW","asset_status":"NEW HERO ASSET REQUIRED","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED_NEW","asset_status":"NEW HERO STARTER + VIDEO REQUIRED","posted":false}
+      "reel": {"status":"NEW HERO REEL REQUIRED","time":"18:00"},
+      "still": {"status":"NEW HERO STILL REQUIRED","time":"10:00","asset_status":"NEW LINKED HERO EVIDENCE FRAME"}
     },
     {
       "date": "2026-09-27",
       "id": "RLS-023",
-      "phase": "CASE 001",
-      "format": "STILL / AFTERMATH",
+      "phase": "CASE 001 / AFTERMATH",
       "title": "After CASE 001, we found this.",
-      "still": {"time":"10:00","status":"PLANNED_NEW","asset_status":"NEW IMAGE REQUIRED","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEW REEL REQUIRED","time":"18:00"},
+      "still": {"status":"NEW STILL REQUIRED","time":"10:00","asset_status":"NEW LINKED AFTERMATH FRAME"}
     },
     {
       "date": "2026-09-28",
       "id": "RLS-024",
-      "phase": "CASE 001",
-      "format": "REEL / HIDDEN REVEAL",
+      "phase": "CASE 001 / HIDDEN REVEAL",
       "title": "No one noticed the second pair of eyes.",
-      "still": {"time":"","status":"NEW STARTER","asset_status":"NEW STARTER REQUIRED","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED_NEW","asset_status":"NEW VIDEO REQUIRED","posted":false}
+      "reel": {"status":"NEW REEL REQUIRED","time":"18:00"},
+      "still": {"status":"NEW STILL REQUIRED","time":"10:00","asset_status":"NEW LINKED EVIDENCE FRAME • SECOND PAIR OF EYES"}
     },
     {
       "date": "2026-09-29",
       "id": "RLS-025",
-      "phase": "CASE 001",
-      "format": "ARCHIVE / FIELD RULE",
+      "phase": "CASE 001 / FIELD RULE",
       "title": "FIELD RULE 02",
-      "still": {"time":"10:00","status":"PLANNED_NEW","asset_status":"NEW IMAGE REQUIRED","posted":false},
-      "reel": {"time":"","status":"SUPPORT OPTIONAL","asset_status":"NO MAINLINE REEL","posted":false}
+      "reel": {"status":"NEW REEL REQUIRED","time":"18:00"},
+      "still": {"status":"NEW STILL REQUIRED","time":"10:00","asset_status":"NEW LINKED FIELD RULE FRAME"}
     },
     {
       "date": "2026-09-30",
       "id": "RLS-026",
-      "phase": "THE CAMERA NETWORK",
-      "format": "FINALE REEL",
+      "phase": "THE CAMERA NETWORK / FINALE",
       "title": "Camera 07 wasn’t the only one recording.",
-      "still": {"time":"","status":"FINALE SUPPORT","asset_status":"OPTIONAL SUPPORT STILL","posted":false},
-      "reel": {"time":"18:00","status":"PLANNED_NEW","asset_status":"FINALE STARTER + VIDEO REQUIRED","posted":false}
+      "reel": {"status":"NEW FINALE REEL REQUIRED","time":"18:00"},
+      "still": {"status":"NEW FINALE STILL REQUIRED","time":"10:00","asset_status":"NEW LINKED FINALE EVIDENCE FRAME"}
     }
   ]
 }

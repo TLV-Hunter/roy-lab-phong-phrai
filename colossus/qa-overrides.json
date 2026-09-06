@@ -1,6 +1,17 @@
 {
-  "version": "2026-09-06-final-web-qa",
+  "version": "2026-09-06-cs004-reel",
   "episodes": {
+    "CS-002": {
+      "reel_status": "published"
+    },
+    "CS-004": {
+      "reel_status": "ready",
+      "reel_qa1": "PASS",
+      "reel_qa2": "PASS",
+      "reel_copy_qa": "PASS",
+      "reel_caption": "Earth was never the target.\n\nTwo colossal forms entered the same region of space from opposite directions.\n\nNeither slowed down.\nNeither looked at us.\n\nEarth was simply between them.\n\nCOLOSSUS SIGNAL // CS-004",
+      "reel_pinned_comment": "OBSERVATION NOTE:\n\nBoth entities remained aligned with each other.\n\nEarth appears to have been caught between them by chance.\n\nNo signal was directed toward us."
+    },
     "CS-006": {
       "caption": "For hours, it moved past Earth without reacting.\n\nWe thought that meant we were too small to matter.\n\nThis was the last frame before the structure changed its orientation toward Earth.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-006",
       "pinned_comment": "TRAJECTORY NOTE:\n\nNo signal was detected before this frame.\n\nSeconds later, the object's new orientation pointed toward Earth."

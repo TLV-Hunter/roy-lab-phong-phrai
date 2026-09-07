@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T21:55:00+07:00",
+  "updated_at": "2026-09-07T23:46:00+07:00",
   "status": "COLOSSUS FINAL REEL SOURCE",
   "entries": [
     {
@@ -15,10 +15,10 @@
       "id": "CS-006",
       "status": "READY",
       "qa": "PASS 96/100",
-      "copy_qa": "PENDING",
+      "copy_qa": "PASS 96/100",
       "media_url": "https://drive.google.com/file/d/1XxVMiVzAgg1GhIlXM3xo-916FO7mnFAa/view?usp=drivesdk",
-      "caption": "",
-      "pinned_comment": ""
+      "caption": "It passed Earth without slowing.\n\nNo signal.\nNo reaction.\nNo sign we mattered.\n\nThen the course changed.\n\nLess than one degree.\n\nNew orientation: Earth.\n\nCOLOSSUS SIGNAL // CS-006",
+      "pinned_comment": "ANALYSIS NOTE:\n\nRecorded course correction: < 1°.\n\nThe change was small enough to miss in real time.\n\nNew orientation: Earth."
     }
   ]
 }

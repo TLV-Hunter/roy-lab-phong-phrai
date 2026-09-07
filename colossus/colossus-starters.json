@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-09-07T21:41:00+07:00",
+  "status": "COLOSSUS STARTER / PROMPT SOURCE",
+  "entries": [
+    {
+      "id": "CS-005",
+      "title": "THE PLANET EATER",
+      "starter_qa": "PASS 92/100",
+      "prompt_qa": "PASS 92/100",
+      "starter_url": "https://drive.google.com/file/d/16qnIFfMjEXauUYctsX1LgU6zEuJygGMC/view?usp=drivesdk",
+      "prompt": "Use the provided image as the exact starter frame and exact first frame of the video. Create a 9:16 cinematic cosmic-horror sci-fi video, single continuous shot, with no cuts and no scene change. A colossal dead-world entity dominates the right side of the frame. Its cracked planetary surface is opened into a gigantic abyss-like mouth. A smaller damaged planet remains at the left-mid area and is being pulled toward the abyss. Countless rocks, dust, and asteroid debris spiral inward toward the opening. Motion: very slow forward camera push-in, subtle depth parallax only, debris and dust flowing inward, faint internal glow pulsing deep inside the opening, tiny fragments breaking away from the smaller planet and drifting inward. Keep motion slow, smooth and natural. Preserve the exact composition and visual identity of the starter frame. No morphing, no extra planets, creatures, faces or openings, no sudden movement, no text, no watermark. Photorealistic cinematic dark sci-fi, cosmic horror, epic scale, deep blacks, cold blue space tones with warm inner glow."
+    },
+    {
+      "id": "CS-006",
+      "title": "IT DIDN'T NOTICE US",
+      "starter_qa": "PASS 92/100",
+      "prompt_qa": "PASS 92/100",
+      "starter_url": "https://drive.google.com/file/d/1SZw8JRpJTImXE8XXHOPqocWAL6qcz-6q/view?usp=drivesdk",
+      "prompt": "Use the provided starter frame as the exact first frame. Create a cinematic cosmic-horror sci-fi video in vertical 9:16, about 8–10 seconds long, as a single continuous shot with no cuts. A colossal dark entity drifts through deep space, occupying most of the upper and right side of the frame while Earth remains tiny and isolated below. Use a very slow cinematic push-in, subtle parallax, minimal heavy motion, faint particles, cold rim lighting and restrained low-frequency atmosphere. For most of the shot, the entity appears to pass by without noticing Earth. Near the end, only a small part of the structure makes a subtle course correction of less than one degree toward Earth. Do not make the whole entity suddenly turn. Preserve composition and identity. No text, subtitles, watermark, logo, extra planets, extra creatures, explosions, fast spinning, fast cuts or exaggerated morphing."
+    }
+  ]
+}

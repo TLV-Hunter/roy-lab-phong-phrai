@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-08T10:30:00+07:00",
+  "updated_at": "2026-09-08T11:16:00+07:00",
   "status": "COLOSSUS STARTER / PROMPT SOURCE",
   "starter_completion": "25/25 LOCKED",
-  "prompt_completion": "2/25 PASS",
+  "prompt_completion": "25/25 PASS",
   "entries": [
     {
       "id": "CS-005",
@@ -24,185 +24,185 @@
       "id": "CS-007",
       "title": "THE MOON WAS IN ITS HAND",
       "starter_qa": "PASS 94/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1kpLZ5GYEecbz_MZMVZUK9YTJiApxa6qc/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve its composition, subject identity, scale relationships, lighting and continuity. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. The colossal ancient obsidian-geological entity remains upper-right, one enormous hand already holding Earth's Moon while Earth stays tiny and distant below. Use a very slow push-in, subtle parallax, faint drifting particles and tiny ember pulses in cracks. For most of the shot the entity is almost perfectly still. During the final 2–3 seconds, one or two fingers make a minimal deliberate grip adjustment and the Moon shifts only slightly in response; Earth does not noticeably move. Audio: deep sub-bass cosmic rumble, faint geological-metallic groan and restrained airy space texture, with a subtle tonal change at the finger movement. No crushing, dropping or throwing the Moon, no fast hand motion, no humanoid facial animation, no extra moons or planets, no attack action, no morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-008",
       "title": "THE FIRST SIGNAL WAS A HEARTBEAT",
       "starter_qa": "PASS 93/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1w1wgCb7yPElb7-vOTQQ6_orFsHhR1Sdf/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the gigantic dark monolith/titan, central chest-like pulse source and tiny celestial scale reference. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts or scene change. Keep the camera almost static with an extremely slow push-in. The entity itself never moves. A soft circular pulse of light expands from the central core and fades, then a second weaker pulse follows near the end; faint ember fissures brighten subtly in sync. The pulse must feel ancient and biological by implication, not like a weapon. Audio: very low ambient drone, distant structural resonance and two slow heartbeat-like sub-bass thumps synchronized to the pulses, without using a literal human-heart recording. No shockwave destruction, chest opening, creature movement, fast flashing, camera shake, extra entities, text, subtitles, logo, watermark or morphing."
     },
     {
       "id": "CS-009",
       "title": "THE SHADOW BEHIND JUPITER",
       "starter_qa": "PASS 91/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 94/100",
       "starter_url": "https://drive.google.com/file/d/1K9EHm1khqRUglZUBU6AQ1-8PpCfOTX2Z/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Jupiter's recognizable cloud bands, the immense shadow behind it and the partially hidden colossal form. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a very slow lateral drift combined with a subtle push-in. Jupiter rotates only imperceptibly. Never reveal the full entity; instead let the edge of the unnatural shadow shift slightly behind Jupiter as though something vastly larger is continuing to pass behind the planet. A few faint ember fissures may appear briefly beyond Jupiter's limb and fade. Audio: low planetary rumble, distant pressure-like drone and faint geological-metallic resonance from behind Jupiter. No sudden emergence, attack, Jupiter destruction, fast rotation, giant eye, extra planets, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-010",
       "title": "THE OBJECT THAT BLOCKED THE SUN",
       "starter_qa": "PASS 92/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1c1NMbPJQASozekr0d48hKR0_fCijOoBF/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the colossal irregular obsidian-geological object blocking most of the Sun, with the bright corona tracing its non-planetary silhouette. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Hold the alignment and use only a slow push-in with subtle depth parallax. The object drifts a tiny amount across the solar disk, revealing a slowly changing sliver of corona along one edge. Tiny dust fragments drift near the silhouette and a few internal cracks glow faintly once. Audio: deep low-frequency drone, distant solar hiss and subtle structural groan. No fast transit, full reveal, spherical planet morph, solar explosion, attack beam, camera whip, extra objects, cuts, text, subtitles, logo, watermark or exaggerated morphing."
     },
     {
       "id": "CS-011",
       "title": "THE FACE INSIDE THE NEBULA",
       "starter_qa": "PASS 89/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 94/100",
       "starter_url": "https://drive.google.com/file/d/11FBeYyF53TRfeGux4MdIVU9jbq0TJ2J9/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the vast nebula, ambiguous face-like formation, cloud-shadow geometry and obsidian contours. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a very slow push-in through drifting nebula haze. Cloud filaments shift subtly so the face-like impression becomes slightly clearer for a moment, then settles back into ambiguity. Tiny warm glows breathe faintly inside deep cavities. The formation must remain part nebula and part impossible structure, never becoming a clean humanoid skull or talking face. Audio: low atmospheric drone, distant airy nebular wash, faint cavern resonance and one soft tonal swell during the brief recognition moment. No lip movement, blinking eyes, screaming face, human skin, skull morph, jump scare, fast cloud storm, cuts, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-012",
       "title": "THE FINGER NEAR ORBIT",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1Yc0PUkWN8ymDz-WeoXfrVBoR75guNtLz/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve tiny Earth, the colossal obsidian-geological finger near orbit, the exact scale relationship and negative space. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a slow camera push-in and minimal parallax. The finger moves only a fraction closer along its existing trajectory and never touches Earth. Fine debris drifts along the finger's surface and one faint internal glow pulse travels through a crack. Earth remains stable and calm. Audio: deep restrained rumble, faint stone-metal friction and soft orbital ambience, with no impact. No touching, poking, crushing or grabbing Earth, no fast finger motion, Earth deformation, explosions, extra hands, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-013",
       "title": "THE WORLD THAT OPENED ITS EYE",
       "starter_qa": "PASS 92/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/139zZJOAammP-DEM0DtSLMFtpnl-JX-0I/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the massive dark world, its cracked geological surface, the gigantic partially open eye and the small distant moon. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a very slow push-in. The layered rocky eyelid opens only a tiny additional amount across the entire shot, revealing slightly more of the glowing iris while a few crust fragments shift minimally. Ember veins brighten and dim in a slow organic rhythm. The planet itself rotates only imperceptibly. Audio: sub-bass planetary rumble, slow geological strain, tiny rock creaks and a restrained tonal swell as the eye opens a fraction. No full dramatic opening, repeated blinking, eyeball rolling, mouth, creature face, exploding crust, fast motion, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-014",
       "title": "THE SIGNAL BENEATH SATURN",
       "starter_qa": "PASS 94/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1LnPXIvnAWFdRLQ3cbBf8NM8es5z7cJlE/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Saturn, its ring plane and the immense dark cathedral-like alien structure hanging directly beneath it with a faint vertical amber core. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a slow push-in with subtle parallax through the rings and structure. The vertical core emits one restrained pulse that travels downward through the hanging architecture, followed near the end by a weaker secondary pulse. Small floating debris drifts slowly while Saturn remains calm and stable. Audio: very low drone, distant ring-like hiss, deep structural resonance and two soft sub-bass signal pulses. No laser beam, explosion, structure launch, ring destruction, fast Saturn rotation, extra ships, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-015",
       "title": "THE THING BEYOND MARS",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1wVGNY5fxkvxdQS44PuPz6AM3d_gFB70Q/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Mars in the lower foreground, the gigantic ribbed obsidian structure beyond it, the small moons/debris and the enormous depth relationship. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a very slow push-in and slight parallax so the background structure feels even larger while remaining almost motionless. Mars drifts only slightly across the frame. Tiny debris crosses slowly and one faint line of ember light appears along a distant rib before fading. Audio: low cold-space drone, faint stylized Mars-wind texture and distant monumental structural groan. No approach toward Mars, attack, full creature reveal, fast planetary motion, collapsing ribs, extra planets, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-016",
       "title": "THE STARS MOVED FIRST",
       "starter_qa": "PASS 91/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1zuLO2bkS781YyhsJG2ark0hnjfJxO-SH/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the enormous dark cosmic mass, the starfield and galaxies already bent into sweeping arcs, and the tiny scale-reference body. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Do not visibly move the giant mass. Instead, let one distant star line slide first, then nearby star streams and dust arcs shift by tiny amounts as if space itself is continuing to bend. Use only an almost imperceptible push-in. Audio: deep near-silent sub-bass, faint stretched tonal shimmer and sparse low-frequency resonance, with no rhythmic music. No fast vortex spin, tunnel travel, black-hole spectacle, starburst, camera roll, creature reveal, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-017",
       "title": "THE RING WAS NOT SATURN'S",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1L8ksFopVn9cFv0Ztzc6RGWePtelyHNMs/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the recognizable Saturn-like planet with its normal thin rings and the completely separate colossal jagged obsidian alien ring with ember seams. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a slow push-in and slight parallax. Saturn's natural rings remain stable while the alien ring shifts by a nearly imperceptible amount relative to the planet, proving it is independent. Faint ember seams travel through one section and small debris drifts between layers. Audio: low space drone, faint metallic-geological resonance and a subtle harmonic tone as the independent motion becomes apparent. Do not merge the two ring systems; no fast rotation, collision, attack, ring closure, extra structures, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-018",
       "title": "THE MOUTH BEYOND NEPTUNE",
       "starter_qa": "PASS 94/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1cHpFWvGWI9KhQzSgR9aO1wsdaA92Ja92/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the small blue Neptune-like planet, the colossal abyssal geological opening, layered ribs, debris field and faint warm inner glow. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a slow push-in toward the abyss while Neptune remains stable. Small debris drifts inward only a few pixels over the shot and the amber glow deep inside subtly deepens, then recedes. The ribbed walls remain fixed and must never open like jaws; the opening suggests a mouth only by implication. Audio: deep abyssal rumble, faint debris movement, distant cavern-like resonance and minimal sub-bass pull. No teeth, jaws, biting, creature face, swallowing Neptune, fast suction vortex, explosion, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-019",
       "title": "THE HAND UNDER EARTH'S SHADOW",
       "starter_qa": "PASS 93/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1keoPfw7JOx1FOsNGl0aYhxWyZN-fKrKl/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve small Earth in the lower frame, the enormous ancient hand-shaped geological structure above/behind it, the finger-like monoliths and faint ember seams. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Keep the hand almost completely still and use only a very slow push-in. One distant finger silhouette shifts by a minute amount relative to the starfield while ember seams brighten subtly. Earth continues its normal tiny drift and is never touched. Audio: low monumental drone, faint geological creak and distant sub-bass movement. No grabbing Earth, closing fist, fast finger movement, attack gesture, Earth destruction, extra hands, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-020",
       "title": "THE STAR THAT BLINKED BACK",
       "starter_qa": "PASS 90/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 94/100",
       "starter_url": "https://drive.google.com/file/d/1zBDM0cXjW-bnXoAk3d0z5wuw8-S57Sry/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the blazing star-like object, dark central pupil-like region, surrounding nebular plasma and nearby celestial scale cues. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Hold a slow push-in. The surrounding luminous plasma dims briefly once, causing the dark central region to seem to close slightly, then returns to its original brightness: one restrained blink-like event created by stellar light, not literal eyelids. Nearby dust and small bodies drift slowly. Audio: deep stellar rumble, soft plasma hiss and a brief low-frequency dip during the blink-like dimming. No human eyelids, repeated blinking, eyeball movement, face, jump-scare flash, supernova, fast camera, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-021",
       "title": "SOMETHING SAT BEHIND THE SUN",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1rSnYoAr3JHuYlRKtWTnbyqPdGm8d0gdR/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the Sun in the foreground and the gigantic dark ribbed/cathedral-like silhouette sitting directly behind it, partially hidden by solar glare. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use an extremely slow push-in. Solar plasma moves naturally along the Sun's edge. The hidden silhouette remains almost fixed, but one huge arc becomes slightly more visible as the corona flickers, suggesting impossible scale without a full reveal. Audio: deep solar rumble, faint plasma hiss and distant structural resonance behind the Sun. No entity stepping out, attack, forced eclipse transition, Sun destruction, fast reveal, tentacle action, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-022",
       "title": "EARTH HEARD IT BREATHE",
       "starter_qa": "PASS 94/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1FaJAS02Cidfz8T4141HY9bUCPoRQDC2L/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve tiny Earth, the faint concentric wave-like distortions, surrounding debris and the immense dark rib structures looming in the upper/right darkness. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a slow push-in. One broad pressure-like ripple moves outward through the space around Earth, followed several seconds later by a weaker second ripple. Small debris shifts gently with each wave while the giant ribs remain visually still. Audio: very low inhalation/exhalation-like sub-bass swell without a literal human-breath recording, faint structural resonance and quiet debris ambience. No visible mouth, literal breathing face, strong wind effect, violent Earth shaking, rapid repeated waves, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-023",
       "title": "THE PLANET THAT WASN'T A PLANET",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1akgonG-UOrKTM33PFagcm-UBAJvmC1z0/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the giant spherical world-like object, exposed ribs, circular engineered seams, cavities, internal amber lights, moons and debris. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Begin almost static with a slow push-in. A thin mechanical-geological seam shifts slightly and a restrained internal light sequence activates across one exposed ribbed section, revealing that the sphere is not natural. The sphere itself rotates only imperceptibly. Audio: low planetary drone that gradually gains a faint machine-like resonance, subtle internal hum and distant debris ambience. No full transformation into a ship, panels flying open, fast rotation, weapon activation, humanoid face, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-024",
       "title": "IT WORE THE ECLIPSE",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 96/100",
       "starter_url": "https://drive.google.com/file/d/1ewtbJ5dAjscaQ3rupJkl4vEKzh_CJ7OT/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the huge black solar disk, blazing corona and immense obsidian cathedral-bone alien structure curving around the eclipse like a crown or halo. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a very slow push-in while keeping the eclipse perfectly aligned. The structure moves only through subtle parallax; faint amber light travels through a few internal cavities while tiny particles drift and the solar corona flickers naturally. Audio: deep restrained drone, faint solar hiss, distant metallic-geological resonance and a soft low-frequency swell as the inner glow travels. No ground or landscape, no humanoid deity, no fantasy castle animation, fast ring rotation, eclipse ending, attack, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-025",
       "title": "THE EYE INSIDE JUPITER'S STORM",
       "starter_qa": "PASS 93/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1gOP9SYhwR5Fr5c_CsFQuuSgLpokhzLUo/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Jupiter's realistic bands, the giant eye-like formation integrated into the Great Red Spot-like storm and the tiny moon below. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use a very slow push-in. Jupiter's cloud bands move almost imperceptibly. The storm curls subtly around the dark center and the pupil-like core narrows only a fraction once, as if awareness has focused, without forming literal eyelids. Audio: deep planetary rumble, low storm-like texture and a faint sub-bass tonal focus during the tiny narrowing event. No human blinking, separate eyeball, face, roaring storm monster, fast cloud spin, lightning barrage, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-026",
       "title": "IT FOLDED SPACE AROUND EARTH",
       "starter_qa": "PASS 96/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 97/100",
       "starter_url": "https://drive.google.com/file/d/1hdNRBrGI81Cdwoks2vj54S7t7k21hbwr/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve tiny Earth inside the vast warped cosmic field, the curved star streams, stretched galaxies and dark cathedral-like alien geometry folding around it. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a nearly static camera with a slow forward drift. The warped starfields bend a little further around Earth and several light arcs slide smoothly along their existing curves while the enormous dark structure remains anchored. Earth itself stays stable and undistorted. Audio: low gravitational drone, stretched metallic-cosmic shimmer and subtle sub-bass bending tone, with no melody. No fast vortex, Earth stretching, portal travel, camera spin, galaxy explosion, entity attack, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-027",
       "title": "THE MOON CHANGED ORBIT FOR IT",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 97/100",
       "starter_url": "https://drive.google.com/file/d/1abgskHvKwuMRmQdjh5x9b_APxdbhmXW0/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Earth lower-left, the Moon on the bright unnatural curved orbit path, surrounding debris and the colossal dark structure influencing the trajectory. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. Use slow parallax. The Moon advances only slightly along the already visible altered orbit arc, clearly proving the trajectory change. Small debris follows the same curvature. The giant structure remains almost completely motionless and Earth stays stable. Audio: deep ambient drone, faint orbital hum and subtle low tonal rise as the Moon moves along the changed path. No rapid Moon flight, collision with Earth, grabbing, giant hand, UI-style orbit graphic, fast structure movement, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-028",
       "title": "THE SIGNAL CAME FROM BELOW",
       "starter_qa": "PASS 93/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 95/100",
       "starter_url": "https://drive.google.com/file/d/1rw1xEFTeYbnt754FxTLxEJ1XJMaxBUgZ/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve the dark alien planetary surface, gigantic fissures, concentric buried geometric patterns, central glowing fracture, mist and huge planet/moon in the sky. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, single continuous shot with no cuts. Use a slow forward camera creep over the surface. Light from deep below illuminates the buried lines outward in a controlled sequence, one concentric ring at a time, then settles to a steady restrained glow. Steam and mist drift gently above the fissures. Audio: deep subterranean rumble, faint rock strain, low resonant signal tone rising from below and soft pulses synchronized to the concentric lights. No explosion, eruption, creature emerging, visible transmitter device, fast camera, collapse, cuts, morphing, text, subtitles, logo or watermark."
     },
     {
       "id": "CS-029",
       "title": "IT FINALLY MOVED",
       "starter_qa": "PASS 95/100",
-      "prompt_qa": "PENDING",
+      "prompt_qa": "PASS 97/100",
       "starter_url": "https://drive.google.com/file/d/1yPDITR13XOibL_iL7GNNgo5s8XRARU6w/view?usp=drivesdk",
-      "prompt": ""
+      "prompt": "Use the provided starter frame as the exact first frame and preserve Earth's horizon, the colossal ancient obsidian cathedral-like megastructure/entity in the upper-right, broken rings, drifting debris, circular aperture/core and vertical glowing seams. Create a vertical 9:16 cinematic cosmic-horror video, 8–10 seconds, one continuous shot with no cuts. For the first 5–6 seconds almost nothing moves except slow debris drift and faint internal light. Then the entire colossal structure makes one tiny deliberate orientation shift, only a fraction of a degree, while nearby debris reacts with a slight delayed motion and one vertical internal seam brightens. The movement must be subtle but unmistakable. Audio: near-silent low drone at first, then one enormous but restrained sub-bass structural groan during the shift followed by a deep sustained tone. No sudden lunge, attack, fast rotation, full awakening sequence, weapon fire, explosions, Earth destruction, cuts, morphing, text, subtitles, logo or watermark."
     }
   ]
 }

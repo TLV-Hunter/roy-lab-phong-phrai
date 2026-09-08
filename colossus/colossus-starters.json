@@ -1,6 +1,8 @@
 {
-  "updated_at": "2026-09-07T21:41:00+07:00",
+  "updated_at": "2026-09-08T10:30:00+07:00",
   "status": "COLOSSUS STARTER / PROMPT SOURCE",
+  "starter_completion": "25/25 LOCKED",
+  "prompt_completion": "2/25 PASS",
   "entries": [
     {
       "id": "CS-005",
@@ -17,6 +19,190 @@
       "prompt_qa": "PASS 92/100",
       "starter_url": "https://drive.google.com/file/d/1SZw8JRpJTImXE8XXHOPqocWAL6qcz-6q/view?usp=drivesdk",
       "prompt": "Use the provided starter frame as the exact first frame. Create a cinematic cosmic-horror sci-fi video in vertical 9:16, about 8–10 seconds long, as a single continuous shot with no cuts. A colossal dark entity drifts through deep space, occupying most of the upper and right side of the frame while Earth remains tiny and isolated below. Use a very slow cinematic push-in, subtle parallax, minimal heavy motion, faint particles, cold rim lighting and restrained low-frequency atmosphere. For most of the shot, the entity appears to pass by without noticing Earth. Near the end, only a small part of the structure makes a subtle course correction of less than one degree toward Earth. Do not make the whole entity suddenly turn. Preserve composition and identity. No text, subtitles, watermark, logo, extra planets, extra creatures, explosions, fast spinning, fast cuts or exaggerated morphing."
+    },
+    {
+      "id": "CS-007",
+      "title": "THE MOON WAS IN ITS HAND",
+      "starter_qa": "PASS 94/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1kpLZ5GYEecbz_MZMVZUK9YTJiApxa6qc/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-008",
+      "title": "THE FIRST SIGNAL WAS A HEARTBEAT",
+      "starter_qa": "PASS 93/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1w1wgCb7yPElb7-vOTQQ6_orFsHhR1Sdf/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-009",
+      "title": "THE SHADOW BEHIND JUPITER",
+      "starter_qa": "PASS 91/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1K9EHm1khqRUglZUBU6AQ1-8PpCfOTX2Z/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-010",
+      "title": "THE OBJECT THAT BLOCKED THE SUN",
+      "starter_qa": "PASS 92/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1c1NMbPJQASozekr0d48hKR0_fCijOoBF/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-011",
+      "title": "THE FACE INSIDE THE NEBULA",
+      "starter_qa": "PASS 89/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/11FBeYyF53TRfeGux4MdIVU9jbq0TJ2J9/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-012",
+      "title": "THE FINGER NEAR ORBIT",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1Yc0PUkWN8ymDz-WeoXfrVBoR75guNtLz/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-013",
+      "title": "THE WORLD THAT OPENED ITS EYE",
+      "starter_qa": "PASS 92/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/139zZJOAammP-DEM0DtSLMFtpnl-JX-0I/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-014",
+      "title": "THE SIGNAL BENEATH SATURN",
+      "starter_qa": "PASS 94/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1LnPXIvnAWFdRLQ3cbBf8NM8es5z7cJlE/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-015",
+      "title": "THE THING BEYOND MARS",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1wVGNY5fxkvxdQS44PuPz6AM3d_gFB70Q/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-016",
+      "title": "THE STARS MOVED FIRST",
+      "starter_qa": "PASS 91/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1zuLO2bkS781YyhsJG2ark0hnjfJxO-SH/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-017",
+      "title": "THE RING WAS NOT SATURN'S",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1L8ksFopVn9cFv0Ztzc6RGWePtelyHNMs/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-018",
+      "title": "THE MOUTH BEYOND NEPTUNE",
+      "starter_qa": "PASS 94/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1cHpFWvGWI9KhQzSgR9aO1wsdaA92Ja92/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-019",
+      "title": "THE HAND UNDER EARTH'S SHADOW",
+      "starter_qa": "PASS 93/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1keoPfw7JOx1FOsNGl0aYhxWyZN-fKrKl/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-020",
+      "title": "THE STAR THAT BLINKED BACK",
+      "starter_qa": "PASS 90/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1zBDM0cXjW-bnXoAk3d0z5wuw8-S57Sry/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-021",
+      "title": "SOMETHING SAT BEHIND THE SUN",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1rSnYoAr3JHuYlRKtWTnbyqPdGm8d0gdR/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-022",
+      "title": "EARTH HEARD IT BREATHE",
+      "starter_qa": "PASS 94/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1FaJAS02Cidfz8T4141HY9bUCPoRQDC2L/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-023",
+      "title": "THE PLANET THAT WASN'T A PLANET",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1akgonG-UOrKTM33PFagcm-UBAJvmC1z0/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-024",
+      "title": "IT WORE THE ECLIPSE",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1ewtbJ5dAjscaQ3rupJkl4vEKzh_CJ7OT/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-025",
+      "title": "THE EYE INSIDE JUPITER'S STORM",
+      "starter_qa": "PASS 93/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1gOP9SYhwR5Fr5c_CsFQuuSgLpokhzLUo/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-026",
+      "title": "IT FOLDED SPACE AROUND EARTH",
+      "starter_qa": "PASS 96/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1hdNRBrGI81Cdwoks2vj54S7t7k21hbwr/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-027",
+      "title": "THE MOON CHANGED ORBIT FOR IT",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1abgskHvKwuMRmQdjh5x9b_APxdbhmXW0/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-028",
+      "title": "THE SIGNAL CAME FROM BELOW",
+      "starter_qa": "PASS 93/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1rw1xEFTeYbnt754FxTLxEJ1XJMaxBUgZ/view?usp=drivesdk",
+      "prompt": ""
+    },
+    {
+      "id": "CS-029",
+      "title": "IT FINALLY MOVED",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PENDING",
+      "starter_url": "https://drive.google.com/file/d/1yPDITR13XOibL_iL7GNNgo5s8XRARU6w/view?usp=drivesdk",
+      "prompt": ""
     }
   ]
 }

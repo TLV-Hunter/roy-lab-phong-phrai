@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 17:10 Asia/Bangkok
+Updated: 2026-09-08 22:45 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -23,77 +23,46 @@ Never mark planned or ready assets as published without confirmed publication.
 - Preserve exact visible overlays, labels, measurement values, dates and timecodes from the actual source.
 - Current truthful delivery resolution is 1080×1920 unless a genuine AI super-resolution path is installed and verified.
 
-## OFFICIAL DAILY PUBLISHING QUEUE V1
-- 10:00 Asia/Bangkok — MASTER STILL
-- 20:00 Asia/Bangkok — FINAL REEL
-- STARTER FRAME is production-only.
-- Do not skip episode order merely to fill a slot.
-- Catch-up rule: close the pending Reel for the previous published Still before opening the next episode.
-
-Current sequence:
-RLS-002 → 003 → 004 → 005 → 006 → 007 → 008 → 009 → 011 → 010 → 013 → 012 → 015 → 016 → 014 → 018 → 019 → 020 → 017 → 022 → 023 → 024 → 025 → 026.
-
 ## ASSET INVENTORY
 Mainline Stills: 24/24 QA PASS / ready
 Starter Frames: 24/24 QA PASS / ready
 Video Prompts: 24/24 QA PASS / LOCK
 Copy QA: September library QA PASS for listed episodes.
 
-Final Reels compliant with the ≥11.00s hard rule:
-- RLS-002 — FINAL QA PASS / 11.17s / 1080×1920
+Final Reels compliant with the ≥11.00s hard rule and wired to website data:
+- RLS-002 — FINAL QA PASS / 11.170s / 1080×1920
 - RLS-003 — FINAL QA PASS / 11.201s / 1080×1920
 - RLS-004 — FINAL QA PASS / 11.203s / 1080×1920
 - RLS-005 — FINAL QA PASS / 11.204s / 1080×1920
 - RLS-006 — FINAL QA PASS / 11.208s / 1080×1920
-- RLS-007 — FINAL QA PASS / 11.111s+ delivery rebuild / 1080×1920
+- RLS-007 — FINAL QA PASS / 11.111s / 1080×1920
 - RLS-008 — FINAL QA PASS / 11.202s / 1080×1920
 - RLS-009 — FINAL QA PASS / 11.300s / 1080×1920
 - RLS-011 — FINAL QA PASS / 11.208s / 1080×1920
 - RLS-010 — FINAL QA PASS / 11.180s / 1080×1920
 - RLS-013 — FINAL QA PASS / 11.180s / 1080×1920
-- RLS-012 — FINAL QA PASS / 11.208s refreshed / 1080×1920
-- RLS-015 — FINAL QA PASS / 11.208s refreshed / 1080×1920
+- RLS-012 — FINAL QA PASS / 11.208s / 1080×1920
+- RLS-015 — FINAL QA PASS / 11.208s / 1080×1920
 - RLS-016 — FINAL QA PASS / 11.207s / 1080×1920
 - RLS-014 — FINAL QA PASS / 11.205s / 1080×1920
-- Mainline Final Reels ready: 15/24
+- Mainline Final Reels ready and website-wired: 15/24
 - Remaining Final Reels: 9/24, next RLS-018.
 
-## RLS-016 FINAL
-Title: “The station was abandoned in 2014. The radio answered tonight.”
-- Source: 23614.mp4
-- Pre-QA: PASS
-- Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: FIELD STATION H-4 / 11:47 PM
-- Radio, map and LOGS 2010–2014 evidence preserved
-- Dola AI removed by minimal crop/reframe
-- Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.207s
-- High-quality Lanczos upscale; NOT AI 4K
-- Audio approx -19.5 LUFS / -5.8 dBFS true peak
-- No black frames, abnormal silence, or freeze events
-- Frame-hash QC found zero exact duplicate-frame runs
-- Drive ID: 1CRZos7m_GUXFf4gSwbmUpY072s5WcJjs
-- Publication: NOT PUBLISHED
+## WEBSITE SYNC MILESTONE — 2026-09-08 22:45
+Website data `colossus/rls-content.json` was synchronized to all 15 QA-passed Final Reels.
+- FINAL REELS batch count changed from 2/24 to 15/24.
+- Each QA-passed Reel now has `status: ready`, `qa1: FINAL PASS`, `qa2: PASS`, `resolution: 1080×1920`, exact duration, and a Drive media URL.
+- Publication fields were not changed to published.
+- Still data, Metricool schedule metadata, queue dates, and unrelated website features were preserved.
+- Website sync commit: d38fd5be0dd3e7efd59821a528afb9ec1736d397
 
-## RLS-014 FINAL
-Title: “It looked small until it stood up.”
-- Source: 23615.mp4
-- Pre-QA: PASS
-- Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: RLS-014 / UPPER TRAIL / 02:41 AM
-- Scale marker and recovery pack/camera reference preserved
-- Silhouette remains partially occluded; no full anatomy reveal introduced by edit
-- Dola AI removed by minimal crop/reframe
-- Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.205s
-- High-quality Lanczos upscale; NOT AI 4K
-- Audio approx -19.3 LUFS / -8.6 dBFS true peak
-- No black frames, abnormal silence, or freeze events
-- Frame-hash QC found zero exact duplicate-frame runs
-- Drive ID: 1YTBCoS1APgAXWpRFFeaqz9MPmTleN7vL
-- Publication: NOT PUBLISHED
+New Drive uploads created specifically to complete website media coverage:
+- RLS-006: 1JBcHmsqGF2oyhcXoXLAOQRFVWp9w2Tsj
+- RLS-007: 1KknC4o-R799DiuWgdQdzJK6qh9rmmnax
+- RLS-012: 13Ssml-AjYDaVpv2UjxmTfBscZde_7eyC
+- RLS-015: 1kbMukg-oaUBvqg8JA1Ey41tI99HAooCM
 
-## RECENT DRIVE FINAL IDS
+Existing confirmed Final Drive IDs used by the website:
 - RLS-002: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
 - RLS-003: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
 - RLS-004: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
@@ -118,10 +87,11 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Website data may lag production milestones until each Final Drive URL/status is explicitly wired. Publication truth must not be inferred from website readiness.
+Website data is now synchronized through RLS-014/RLS-016 production milestone for all 15 QA-passed Final Reels.
+Publication truth remains independent from website readiness.
 
 ## EXACT NEXT ACTION
 1. Continue Final Reel production with RLS-018 next.
 2. Apply mandatory pre-QA → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
 3. Keep publication truth synchronized only with actual confirmed posts.
-4. Synchronize newly finished Reel Drive IDs into website data when performing the next website pass.
+4. After each new Final Reel passes QA and receives a Drive URL, append it to website data without changing unrelated features.

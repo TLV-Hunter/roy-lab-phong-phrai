@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 15:55 Asia/Bangkok
+Updated: 2026-09-08 17:10 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -30,7 +30,7 @@ Never mark planned or ready assets as published without confirmed publication.
 - Do not skip episode order merely to fill a slot.
 - Catch-up rule: close the pending Reel for the previous published Still before opening the next episode.
 
-Current sequence after completed Final production:
+Current sequence:
 RLS-002 → 003 → 004 → 005 → 006 → 007 → 008 → 009 → 011 → 010 → 013 → 012 → 015 → 016 → 014 → 018 → 019 → 020 → 017 → 022 → 023 → 024 → 025 → 026.
 
 ## ASSET INVENTORY
@@ -51,45 +51,46 @@ Final Reels compliant with the ≥11.00s hard rule:
 - RLS-011 — FINAL QA PASS / 11.208s / 1080×1920
 - RLS-010 — FINAL QA PASS / 11.180s / 1080×1920
 - RLS-013 — FINAL QA PASS / 11.180s / 1080×1920
-- RLS-012 — FINAL QA PASS / 11.180s / 1080×1920
-- RLS-015 — FINAL QA PASS / 11.180s / 1080×1920
-- Mainline Final Reels ready: 13/24
-- Remaining Final Reels: 11/24, next RLS-016.
+- RLS-012 — FINAL QA PASS / 11.208s refreshed / 1080×1920
+- RLS-015 — FINAL QA PASS / 11.208s refreshed / 1080×1920
+- RLS-016 — FINAL QA PASS / 11.207s / 1080×1920
+- RLS-014 — FINAL QA PASS / 11.205s / 1080×1920
+- Mainline Final Reels ready: 15/24
+- Remaining Final Reels: 9/24, next RLS-018.
 
-## RLS-012 FINAL
-Title: “The tree moved twice.”
-- Source: 23608.mp4
+## RLS-016 FINAL
+Title: “The station was abandoned in 2014. The radio answered tonight.”
+- Source: 23614.mp4
 - Pre-QA: PASS
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: NORTH RIDGE / 02:48 AM
-- Root cavity / drag-groove evidence preserved
+- Visible overlay preserved: FIELD STATION H-4 / 11:47 PM
+- Radio, map and LOGS 2010–2014 evidence preserved
 - Dola AI removed by minimal crop/reframe
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.180s
+- Duration: 11.207s
 - High-quality Lanczos upscale; NOT AI 4K
-- Audio approx -19.47 LUFS / -1.53 dBTP
+- Audio approx -19.5 LUFS / -5.8 dBFS true peak
 - No black frames, abnormal silence, or freeze events
 - Frame-hash QC found zero exact duplicate-frame runs
-- Local Final ready for download
-- Drive sync: PENDING because connector file-reference upload failed in current runtime
+- Drive ID: 1CRZos7m_GUXFf4gSwbmUpY072s5WcJjs
 - Publication: NOT PUBLISHED
 
-## RLS-015 FINAL
-Title: “Camera 07 came back online from above us.”
-- Source: 23607.mp4
+## RLS-014 FINAL
+Title: “It looked small until it stood up.”
+- Source: 23615.mp4
 - Pre-QA: PASS
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: CAMERA 07 / 02:37 AM
-- High-angle canopy/camera geometry preserved
+- Visible overlay preserved: RLS-014 / UPPER TRAIL / 02:41 AM
+- Scale marker and recovery pack/camera reference preserved
+- Silhouette remains partially occluded; no full anatomy reveal introduced by edit
 - Dola AI removed by minimal crop/reframe
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.180s
+- Duration: 11.205s
 - High-quality Lanczos upscale; NOT AI 4K
-- Audio approx -19.97 LUFS / -1.52 dBTP
-- No black frames or abnormal silence
-- Freeze detector flags low-motion intervals because the source is an almost-fixed high camera; frame-hash QC found zero exact duplicate-frame runs, so no freeze/loop padding was introduced
-- Local Final ready for download
-- Drive sync: PENDING because connector file-reference upload failed in current runtime
+- Audio approx -19.3 LUFS / -8.6 dBFS true peak
+- No black frames, abnormal silence, or freeze events
+- Frame-hash QC found zero exact duplicate-frame runs
+- Drive ID: 1YTBCoS1APgAXWpRFFeaqz9MPmTleN7vL
 - Publication: NOT PUBLISHED
 
 ## RECENT DRIVE FINAL IDS
@@ -102,6 +103,8 @@ Title: “Camera 07 came back online from above us.”
 - RLS-011: 15r4EsM3yv9p459xFI6FWa6P5vCy_HnOE
 - RLS-010: 1k8QgRvhHuZ4nSRt7mzNMmuSFpKor9NTR
 - RLS-013: 15rUz2BTdsp1L5AcjwZXh6hkhaNgJP_t7
+- RLS-014: 1YTBCoS1APgAXWpRFFeaqz9MPmTleN7vL
+- RLS-016: 1CRZos7m_GUXFf4gSwbmUpY072s5WcJjs
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -118,7 +121,7 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 Website data may lag production milestones until each Final Drive URL/status is explicitly wired. Publication truth must not be inferred from website readiness.
 
 ## EXACT NEXT ACTION
-1. Continue Final Reel production with RLS-016 next.
+1. Continue Final Reel production with RLS-018 next.
 2. Apply mandatory pre-QA → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
-3. Retry Drive sync for RLS-012 and RLS-015 when a valid connector file reference is available.
-4. Keep publication truth synchronized only with actual confirmed posts.
+3. Keep publication truth synchronized only with actual confirmed posts.
+4. Synchronize newly finished Reel Drive IDs into website data when performing the next website pass.

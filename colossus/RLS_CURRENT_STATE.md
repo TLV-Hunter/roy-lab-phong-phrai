@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 11:03 Asia/Bangkok
+Updated: 2026-09-08 11:14 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -15,6 +15,15 @@ Not published:
 - RLS-005 Still/Reel — NOT PUBLISHED
 
 Do not mark RLS-002 Reel, RLS-003, or later episodes as published unless TalentVee confirms publication or the publishing system verifies it.
+
+## FINAL REEL HARD RULE — LOCKED 2026-09-08
+- Every RLS Final Reel must be at least 11.00 seconds long.
+- Any Final Reel under 11.00 seconds is QA FAIL / REVISE regardless of prior PASS status.
+- Do not satisfy duration by a long frozen hold, black frame, dead frame, duplicated-action loop, or obvious artificial padding.
+- Preferred extension order: preserve more usable source action → restrained speed adjustment with natural motion/audio → short motivated hold/reaction only when visually natural.
+- Dola AI / third-party generation watermark must be absent from Final output.
+- Watermark QA must include zoomed inspection of the affected region across the clip, not only a single frame.
+- This rule is a room-level Master Override for all future RLS Final Reels.
 
 ## OFFICIAL DAILY PUBLISHING QUEUE V1
 Locked daily rule:
@@ -72,61 +81,53 @@ Video Prompts:
 Copy QA:
 - September public Still/Reel copy library is QA PASS for all listed RLS episodes.
 
-Final Reel production:
-- RLS-002 — FINAL QA PASS / READY / 1080×1920
-- RLS-003 — FINAL QA PASS / READY / 1080×1920
-- RLS-004 — FINAL QA PASS / READY / 1080×1920
-- RLS-005 — FINAL QA PASS / READY / 1080×1920
-- Mainline Final Reels ready: 4/24
-- Remaining Final Reels: 20/24, beginning RLS-006 through RLS-026.
+Final Reel production after applying the new ≥11.00s hard rule:
+- RLS-002 — FINAL QA PASS / READY / 11.17s / 1080×1920
+- RLS-003 — REVISE / under 11s under the new hard rule
+- RLS-004 — REVISE / 10.00s under the new hard rule
+- RLS-005 — REVISE / 10.00s under the new hard rule
+- Mainline Final Reels currently compliant with the new hard rule: 1/24
 
 ## RLS-002 FINAL
 Title: “It was already in the frame.”
 - Master Still: PUBLISHED Sep07
+- Source used for remake: 23545.mp4
 - Final Reel: QA PASS / READY
-- Dola AI removed by crop/reframe
+- Duration: 11.17s
+- Dola AI removed with same-frame water/leaf patch clone + seamless blend after first inpaint attempt failed watermark QA
 - CAMERA 07 / 02:17:43 AM continuity preserved
+- Full source action retained; clip length extended with restrained 0.9x timing rather than freeze padding
 - Resolution: 1080×1920, 24fps
-- Drive ID: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
+- H.264 / AAC 48kHz stereo / faststart
+- Integrated loudness approx -20.7 LUFS
+- No black frame / freeze detected in final QC
+- Drive ID retained: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
+- Drive bytes replaced in place; website URL remains valid without relinking
 - Website: wired to RLS-002 Reel slot
 - Reel publication: NOT PUBLISHED
 
-## RLS-003 FINAL
+## RLS-003 FINAL STATUS
 Title: “This boulder was not here yesterday.”
-- Final edit: QA PASS
-- Dola AI removed by crop/reframe
-- CREEK CROSSING / 02:37 AM preserved
-- Resolution: 1080×1920, 24fps
-- Drive ID: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
-- Website: wired to RLS-003 Reel slot
-- Reel copy QA: 95/100 PASS
-- Publication: NOT PUBLISHED
+- Previous edit had passed the old duration rule.
+- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
+- Drive ID remains: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
+- Do not publish until rebuilt to ≥11.00s and re-QA’d.
 
-## RLS-004 FINAL
+## RLS-004 FINAL STATUS
 Title: “The forest went silent first.”
 - Source: 23552.mp4
-- Final edit: QA PASS
-- Dola AI removed by crop/reframe
-- WEST TRAIL / 03:04 AM overlay preserved
-- Resolution: 1080×1920, 24fps, 10.00s
-- H.264 / AAC 48kHz stereo / faststart
-- Audio normalized to approx -20 LUFS target without clipping
+- Previous edit duration: 10.00s
+- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
 - Drive ID: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
-- Website: pending wire to Reel slot
-- Publication: NOT PUBLISHED
+- Do not publish until rebuilt to ≥11.00s and re-QA’d.
 
-## RLS-005 FINAL
+## RLS-005 FINAL STATUS
 Title: “Both sides of the bridge failed at the same height.”
 - Source: 23551.mp4
-- Final edit: QA PASS
-- Dola AI removed by crop/reframe
-- RAVINE BRIDGE / 01:58 AM overlay preserved
-- Resolution: 1080×1920, 24fps, 10.00s
-- H.264 / AAC 48kHz stereo / faststart
-- Audio normalized to approx -20 LUFS target without clipping
+- Previous edit duration: 10.00s
+- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
 - Drive ID: 1VVDCN0lbdsODwGLnB-Y0XemJKWLQ_x0u
-- Website: pending wire to Reel slot
-- Publication: NOT PUBLISHED
+- Do not publish until rebuilt to ≥11.00s and re-QA’d.
 
 ## METRICOOL — SYNCED TO OFFICIAL QUEUE V1
 Verified pending Facebook auto-publish schedules:
@@ -143,15 +144,16 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Large daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Data synchronization completed before RLS-004/005 final creation:
+Data synchronization completed before this duration-rule override:
 - `colossus/rls-content.json` synchronized to Official Queue V1, RLS-002 Still publication truth, PASS copy state, 20:00 Reel time, catch-up dates, and current Metricool IDs.
 - `colossus/rls-plan.json` replaced with canonical Official Daily Publishing Queue V1.
 - Main DESK `PUBLISHER` is campaign-aware.
-- RLS-004 and RLS-005 Final files are uploaded to Drive but still need their Drive URLs wired into `colossus/rls-content.json`.
+- RLS-002 Drive file was replaced in place with the new 11.17s compliant Final, so its existing website media URL remains valid.
+- RLS-003/004/005 readiness labels should be treated as stale until their ≥11s compliant rebuilds are complete.
 
 ## PROJECT SOURCE SYNC
-- Latest Current State content was uploaded to ChatGPT Project Sources and verified readable before this milestone.
-- GitHub Current State is updated with RLS-004/005 Final QA PASS milestone.
+- GitHub Current State now contains the ≥11.00s Final Reel hard rule and corrected compliance statuses.
+- ChatGPT Project Source copy may lag this exact milestone until the latest file is replaced there.
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED in the current editing runtime.
@@ -160,14 +162,14 @@ Data synchronization completed before RLS-004/005 final creation:
 - True AI 4K remains optional / unfinished and is not a posting blocker.
 
 ## REMAINING BACKLOG
-1. Publish RLS-002 Final Reel at 20:00 Sep08.
-2. Wire RLS-004 and RLS-005 Final Drive URLs into the web data.
-3. Produce the 20 remaining Final Reels from RLS-006 onward.
-4. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
+1. Publish RLS-002 Final Reel at 20:00 Sep08 using the new 11.17s compliant Final.
+2. Rebuild RLS-003 to ≥11.00s and re-QA.
+3. Rebuild RLS-004 and RLS-005 to ≥11.00s and re-QA.
+4. Continue production from RLS-006 onward with the ≥11.00s hard rule active from the start.
+5. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
 
 ## EXACT NEXT ACTION
-1. Wire RLS-004 and RLS-005 Final Drive URLs into `colossus/rls-content.json` and verify DESK cards.
-2. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
-3. Continue batch Final Reel production from RLS-006 onward.
-4. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.
-5. Keep publication truth synchronized only with actual confirmed posts.
+1. Use the new RLS-002 11.17s Final as the only valid RLS-002 Reel master.
+2. Rebuild RLS-003, RLS-004 and RLS-005 so each is ≥11.00s, watermark-free and QA PASS.
+3. Keep publication truth synchronized only with actual confirmed posts.
+4. Continue RLS-006 onward with ≥11.00s duration as a mandatory preflight requirement.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 22:45 Asia/Bangkok
+Updated: 2026-09-08 23:06 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -45,35 +45,50 @@ Final Reels compliant with the ≥11.00s hard rule and wired to website data:
 - RLS-015 — FINAL QA PASS / 11.208s / 1080×1920
 - RLS-016 — FINAL QA PASS / 11.207s / 1080×1920
 - RLS-014 — FINAL QA PASS / 11.205s / 1080×1920
-- Mainline Final Reels ready and website-wired: 15/24
-- Remaining Final Reels: 9/24, next RLS-018.
+- RLS-018 — FINAL QA PASS / 11.300s / 1080×1920
+- RLS-019 — FINAL QA PASS / 11.200s / 1080×1920
+- Mainline Final Reels ready and website-wired: 17/24
+- Remaining Final Reels: 7/24, next RLS-020.
 
-## WEBSITE SYNC MILESTONE — 2026-09-08 22:45
-Website data `colossus/rls-content.json` was synchronized to all 15 QA-passed Final Reels.
-- FINAL REELS batch count changed from 2/24 to 15/24.
-- Each QA-passed Reel now has `status: ready`, `qa1: FINAL PASS`, `qa2: PASS`, `resolution: 1080×1920`, exact duration, and a Drive media URL.
-- Publication fields were not changed to published.
-- Still data, Metricool schedule metadata, queue dates, and unrelated website features were preserved.
-- Website sync commit: d38fd5be0dd3e7efd59821a528afb9ec1736d397
+## RLS-018 FINAL
+Title: “Only one set going in. Nothing came back out.”
+- Source: 23630.mp4
+- Pre-QA: PASS
+- Visible overlay preserved: RLS-018 / FIELD ARCHIVE / 03:12 AM
+- Notebook evidence text preserved: “Only one set going in. Nothing came back out.”
+- Dola AI removed by minimal crop/reframe
+- Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
+- Duration: 11.300s
+- High-quality Lanczos upscale; NOT AI 4K
+- No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
+- Drive ID: 1jIJRz41uWrQ46kSLXo4NhnNXLi-JE3S2
+- Website status: READY / FINAL PASS
+- Publication: NOT PUBLISHED
 
-New Drive uploads created specifically to complete website media coverage:
-- RLS-006: 1JBcHmsqGF2oyhcXoXLAOQRFVWp9w2Tsj
-- RLS-007: 1KknC4o-R799DiuWgdQdzJK6qh9rmmnax
-- RLS-012: 13Ssml-AjYDaVpv2UjxmTfBscZde_7eyC
-- RLS-015: 1kbMukg-oaUBvqg8JA1Ey41tI99HAooCM
+## RLS-019 FINAL
+Title: “Only one camera saw it.”
+- Source: 23631.mp4
+- Initial Pre-QA: REPAIR REQUIRED because a silhouette appeared on the real trail near the end, violating the locked one-camera-only evidence logic.
+- Repair: removed the trail silhouette while preserving the presence only on the correct camera feed.
+- Repaired Pre-QA: PASS
+- Visible overlay preserved: CAMERA 12 / 12:01 AM
+- Both camera devices and feed geometry preserved
+- Dola AI removed by minimal crop/reframe
+- Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
+- Duration: 11.200s
+- High-quality Lanczos upscale; NOT AI 4K
+- No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
+- Drive ID: 1N3YXewcOOHOPKV38DfYa-g4Y3FQSX0aY
+- Website status: READY / FINAL PASS
+- Publication: NOT PUBLISHED
 
-Existing confirmed Final Drive IDs used by the website:
-- RLS-002: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
-- RLS-003: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
-- RLS-004: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
-- RLS-005: 1VVDCN0lbdsODwGLnB-Y0XemJKWLQ_x0u
-- RLS-008: 1E6FtlPJeknTk6qYnJUxDUDr0kLMZNNMM
-- RLS-009: 1XohhxSmty9lRGPiUq5-iwgoITqK_bWS5
-- RLS-011: 15r4EsM3yv9p459xFI6FWa6P5vCy_HnOE
-- RLS-010: 1k8QgRvhHuZ4nSRt7mzNMmuSFpKor9NTR
-- RLS-013: 15rUz2BTdsp1L5AcjwZXh6hkhaNgJP_t7
-- RLS-014: 1YTBCoS1APgAXWpRFFeaqz9MPmTleN7vL
-- RLS-016: 1CRZos7m_GUXFf4gSwbmUpY072s5WcJjs
+## WEBSITE SYNC MILESTONE — 2026-09-08 23:04
+Website data `colossus/rls-content.json` is synchronized to 17/24 QA-passed Final Reels.
+- RLS-018 and RLS-019 changed from planned to ready.
+- Each now includes FINAL PASS, 1080×1920, exact duration, and confirmed Drive media URL.
+- Publication fields were not changed.
+- Still data, Metricool metadata, queue dates, and unrelated website features were preserved.
+- Website URL correction commit: 9b77207497aa71f1a8a81f7c6e2418f52f1647fc
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -87,11 +102,11 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Website data is now synchronized through RLS-014/RLS-016 production milestone for all 15 QA-passed Final Reels.
+Website data is synchronized through RLS-018/RLS-019 production milestone for all 17 QA-passed Final Reels.
 Publication truth remains independent from website readiness.
 
 ## EXACT NEXT ACTION
-1. Continue Final Reel production with RLS-018 next.
-2. Apply mandatory pre-QA → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
+1. Continue Final Reel production with RLS-020 next.
+2. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
 3. Keep publication truth synchronized only with actual confirmed posts.
 4. After each new Final Reel passes QA and receives a Drive URL, append it to website data without changing unrelated features.

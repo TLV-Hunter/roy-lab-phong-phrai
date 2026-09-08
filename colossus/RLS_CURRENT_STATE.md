@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 10:20 Asia/Bangkok
+Updated: 2026-09-08 10:24 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -128,9 +128,9 @@ Latest synchronization commits:
 - PUBLISHER HTML-escape QA repair: 728422c824ed008f69e271798bb62ff64eba89cf
 
 ## PROJECT SOURCE SYNC
-The GitHub Current State is now current.
-The copy of `RLS_CURRENT_STATE.md` already uploaded to ChatGPT Project Sources is still the older Sep07 file and cannot be replaced from the GitHub connector.
-Replace that Project Source with the latest file exported from this state so new Project chats recover the correct publication truth and queue.
+- Latest Current State content (Updated 2026-09-08 10:20 Asia/Bangkok) is now uploaded to ChatGPT Project Sources and verified readable.
+- The stale Sep07 Current State is no longer the active Project operational source.
+- Project continuity / migration setup is COMPLETE.
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED in the current editing runtime.
@@ -141,12 +141,10 @@ Replace that Project Source with the latest file exported from this state so new
 ## REMAINING BACKLOG
 1. Publish RLS-002 Final Reel at 20:00 Sep08.
 2. Produce the 22 remaining Final Reels RLS-004 through RLS-026.
-3. Replace the stale ChatGPT Project Source copy of `RLS_CURRENT_STATE.md` with the latest exported file.
-4. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
+3. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
 
 ## EXACT NEXT ACTION
-1. Export this latest `RLS_CURRENT_STATE.md` for ChatGPT Project Source replacement.
-2. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
-3. Continue batch Final Reel production from RLS-004 onward until the 22-reel backlog is cleared.
-4. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.
-5. Keep publication truth synchronized only with actual confirmed posts.
+1. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
+2. Continue batch Final Reel production from RLS-004 onward until the 22-reel backlog is cleared.
+3. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.
+4. Keep publication truth synchronized only with actual confirmed posts.

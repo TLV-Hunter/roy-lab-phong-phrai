@@ -132,7 +132,12 @@ Current DESK behavior:
 - Reel label reads actual resolution when supplied, e.g. REEL • FINAL 1080×1920.
 - Reel buttons use OPEN FINAL REEL / DOWNLOAD FINAL rather than falsely claiming 4K.
 - Master Still and Starter Frame 4K behavior remains unchanged.
-- CHECKLIST / CALENDAR / BATCH QA / STRATEGY / PERFORMANCE / PUBLISHER preserved.
+- CHECKLIST / CALENDAR / BATCH QA / STRATEGY / PERFORMANCE preserved.
+
+Publisher integration gap:
+- Main DESK `PUBLISHER` link still opens `colossus/plan.html`.
+- `plan.html` is still a COLOSSUS SIGNAL dashboard with old Colossus timing and is not the RLS Daily Queue.
+- The new RLS large Daily Queue exists but is not yet integrated into the campaign-aware main navigation.
 
 ## LIVE BACKLOG AUDIT — UNFINISHED / NEEDS SYNC
 Priority A — publication / schedule:
@@ -152,10 +157,15 @@ Priority C — source-of-truth synchronization:
    - several copy_qa fields say PENDING although `rls-copy-qa.json` is PASS.
    - Reel `post_time` fields still use historical 18:00 while Official Queue V1 uses 20:00.
    - some episode dates reflect the pre-catch-up queue.
-5. The ChatGPT Project Sources copy of `RLS_CURRENT_STATE.md` uploaded on Sep07 is stale and still says RLS-002 was not posted. Replace it with the latest current state after this audit so new Project chats do not recover outdated publication truth.
+5. `colossus/rls-plan.json` is also stale:
+   - normal Reel time is still 18:00.
+   - it preserves the old Sep15/Sep17/Sep24 Metricool schedules.
+   - episode dates/statuses are pre-catch-up in several places.
+6. Main DESK `PUBLISHER` still routes to Colossus-only `plan.html`; RLS Daily Queue is not linked from the campaign-aware navigation yet.
+7. The ChatGPT Project Sources copy of `RLS_CURRENT_STATE.md` uploaded on Sep07 is stale and still says RLS-002 was not posted. Replace it with the latest current state after this audit so new Project chats do not recover outdated publication truth.
 
 Priority D — technical / optional quality upgrade:
-6. True AI 4K Reel pipeline is not yet verified in the current editing runtime. Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED. Current RLS-002 and RLS-003 finals are truthfully 1080×1920. This is not a posting blocker, but it remains unfinished if true AI-upscaled 4K is a project requirement.
+8. True AI 4K Reel pipeline is not yet verified in the current editing runtime. Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED. Current RLS-002 and RLS-003 finals are truthfully 1080×1920. This is not a posting blocker, but it remains unfinished if true AI-upscaled 4K is a project requirement.
 
 ## TOOL REALITY
 Current editing environment check:
@@ -164,7 +174,7 @@ Current editing environment check:
 - Current RLS-002 and RLS-003 finals are truthfully labeled 1080×1920.
 
 ## EXACT NEXT ACTION
-1. Synchronize operational data before it causes publishing mistakes: Metricool old schedules + stale `rls-content.json` + stale ChatGPT Project `RLS_CURRENT_STATE.md`.
+1. Synchronize operational data before it causes publishing mistakes: Metricool old schedules + stale `rls-content.json` + stale `rls-plan.json` + RLS Publisher navigation + stale ChatGPT Project `RLS_CURRENT_STATE.md`.
 2. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
 3. Continue batch Final Reel production from RLS-004 onward until the 22-reel backlog is cleared.
 4. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.

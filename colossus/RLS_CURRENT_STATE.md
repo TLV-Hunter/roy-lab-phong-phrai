@@ -1,11 +1,11 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 09:58 Asia/Bangkok
+Updated: 2026-09-08 10:20 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
 - RLS-001 Still — PUBLISHED
 - RLS-001 Reel — PUBLISHED
-- RLS-002 Still — PUBLISHED / confirmed by TalentVee as posted last night (Sep07)
+- RLS-002 Still — PUBLISHED / confirmed by TalentVee as posted on Sep07 night
 
 Not published:
 - RLS-002 Reel — NOT PUBLISHED
@@ -21,6 +21,7 @@ Locked daily rule:
 - STARTER FRAME is production-only and must not be posted.
 - If Final Reel is not QA PASS by publish time, do not post a failed asset; finish/repair that Reel first.
 - Do not skip episode order merely to fill a slot.
+- Catch-up rule: if the previous Still is already published but its Reel is pending, close that episode with the Reel before opening the next episode.
 
 Current catch-up state:
 - Sep07 — RLS-002 Master Still — PUBLISHED
@@ -52,17 +53,12 @@ Official queue after catch-up:
 - Sep30 — RLS-025 — FIELD RULE 02.
 - Oct01 — RLS-026 — Camera Network Finale.
 
-## SEPTEMBER ASSET INVENTORY
-Mainline Still Sep07–Sep30:
+## ASSET INVENTORY
+Mainline Stills:
 - 24/24 QA PASS / ready
 
 Starter Frames:
-- 24/24 have a starter base
-- 19 new/rebuilt starters completed
-- Set1 10/10 PASS
-- Set2 9/9 PASS
-- RLS-014 final rebuild: PASS 95 / LOCK
-- RLS-018 final rebuild: PASS 95 / LOCK
+- 24/24 QA PASS / ready
 - discarded wrong generations / collages must never be reused
 
 Video Prompts:
@@ -71,9 +67,8 @@ Video Prompts:
 - Audio ON
 - continuity protections added
 
-Copy QA library:
-- September public still/reel copy library is QA PASS for all listed RLS episodes.
-- RLS-003 Reel copy is 95/100 PASS in `rls-copy-qa.json`; any PENDING label elsewhere is stale data and must be synchronized.
+Copy QA:
+- September public Still/Reel copy library is QA PASS for all listed RLS episodes.
 
 Final Reel production:
 - RLS-002 — FINAL QA PASS / READY / 1080×1920
@@ -83,7 +78,7 @@ Final Reel production:
 
 ## RLS-002 FINAL
 Title: “It was already in the frame.”
-- Master Still publication: PUBLISHED Sep07 (exact posting time not recorded)
+- Master Still: PUBLISHED Sep07
 - Final Reel: QA PASS / READY
 - Dola AI removed by crop/reframe
 - CAMERA 07 / 02:17:43 AM continuity preserved
@@ -100,81 +95,57 @@ Title: “This boulder was not here yesterday.”
 - Resolution: 1080×1920, 24fps
 - Drive ID: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
 - Website: wired to RLS-003 Reel slot
-- Reel copy QA: 95/100 PASS in `rls-copy-qa.json`
+- Reel copy QA: 95/100 PASS
 - Publication: NOT PUBLISHED
 
-## WEBSITE STATE
+## METRICOOL — SYNCED TO OFFICIAL QUEUE V1
+Verified pending Facebook auto-publish schedules:
+- Sep16 10:00 — RLS-011 FIELD RULE 01 — Metricool ID 372486721 / UUID 149216554598286220
+- Sep18 10:00 — RLS-013 High Gouges — Metricool ID 372486749 / UUID 1651887173610391708
+- Sep25 10:00 — RLS-020 Warm Bark — Metricool ID 372486632 / UUID 624171268109978941
+
+The old Sep15 21:00 / Sep17 21:00 / Sep24 21:00 schedule conflict has been cleared.
+
+## WEBSITE / DATA STATE
 Main website:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 
-Main DESK file:
-colossus/index.html
-
-Large daily queue page:
+Large daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Daily queue source:
-colossus/rls-daily-queue.html
+Data synchronization completed:
+- `colossus/rls-content.json` synchronized to Official Queue V1, RLS-002 Still publication truth, PASS copy state, 20:00 Reel time, catch-up dates, and current Metricool IDs.
+- `colossus/rls-plan.json` replaced with canonical Official Daily Publishing Queue V1.
+- Main DESK `PUBLISHER` is now campaign-aware:
+  - RLS selected → opens `rls-daily-queue.html`
+  - COLOSSUS selected → preserves `plan.html`
+- Unrelated DESK / CHECKLIST / CALENDAR / BATCH QA / STRATEGY / PERFORMANCE behavior preserved.
 
-Current daily queue UX:
-- Large TODAY / NEXT hero.
-- RLS-002 Still visibly marked POSTED / DONE.
-- RLS-002 Reel highlighted as next pending publication.
-- Normal pair schedule resumes with RLS-003 on Sep09.
-- Starter Frame remains production-only.
-- Publication status is visually separated from the plan.
+Latest synchronization commits:
+- rls-content sync: acab0ff6563239f68fc16c30e935629e4d48f753
+- rls-plan sync: 172a10f54551758a524cc929c4066f07854e0640
+- PUBLISHER campaign routing: e5964be408eb948d7b6a63909aab34a349c04c49
+- PUBLISHER HTML-escape QA repair: 728422c824ed008f69e271798bb62ff64eba89cf
 
-RLS Reel data:
-colossus/rls-content.json
-
-Current DESK behavior:
-- RLS-002 and RLS-003 Reel slots use Drive final-video URLs.
-- Reel label reads actual resolution when supplied, e.g. REEL • FINAL 1080×1920.
-- Reel buttons use OPEN FINAL REEL / DOWNLOAD FINAL rather than falsely claiming 4K.
-- Master Still and Starter Frame 4K behavior remains unchanged.
-- CHECKLIST / CALENDAR / BATCH QA / STRATEGY / PERFORMANCE preserved.
-
-Publisher integration gap:
-- Main DESK `PUBLISHER` link still opens `colossus/plan.html`.
-- `plan.html` is still a COLOSSUS SIGNAL dashboard with old Colossus timing and is not the RLS Daily Queue.
-- The new RLS large Daily Queue exists but is not yet integrated into the campaign-aware main navigation.
-
-## LIVE BACKLOG AUDIT — UNFINISHED / NEEDS SYNC
-Priority A — publication / schedule:
-1. Publish RLS-002 Final Reel at 20:00 Sep08.
-2. Metricool still has three old auto-publish schedules that conflict with Official Queue V1:
-   - Sep15 21:00 — RLS-011 FIELD RULE 01
-   - Sep17 21:00 — RLS-013 High Gouges
-   - Sep24 21:00 — RLS-020 Warm Bark
-   These must be rescheduled or cancelled before their current trigger dates.
-
-Priority B — production:
-3. Produce 22 remaining Final Reels from RLS-004 through RLS-026 using locked Starter + Prompt → Raw QA → repair → final edit/audio → final QA → upload.
-
-Priority C — source-of-truth synchronization:
-4. `colossus/rls-content.json` is stale in several fields:
-   - RLS-002 Still still says LOCKED instead of PUBLISHED.
-   - several copy_qa fields say PENDING although `rls-copy-qa.json` is PASS.
-   - Reel `post_time` fields still use historical 18:00 while Official Queue V1 uses 20:00.
-   - some episode dates reflect the pre-catch-up queue.
-5. `colossus/rls-plan.json` is also stale:
-   - normal Reel time is still 18:00.
-   - it preserves the old Sep15/Sep17/Sep24 Metricool schedules.
-   - episode dates/statuses are pre-catch-up in several places.
-6. Main DESK `PUBLISHER` still routes to Colossus-only `plan.html`; RLS Daily Queue is not linked from the campaign-aware navigation yet.
-7. The ChatGPT Project Sources copy of `RLS_CURRENT_STATE.md` uploaded on Sep07 is stale and still says RLS-002 was not posted. Replace it with the latest current state after this audit so new Project chats do not recover outdated publication truth.
-
-Priority D — technical / optional quality upgrade:
-8. True AI 4K Reel pipeline is not yet verified in the current editing runtime. Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED. Current RLS-002 and RLS-003 finals are truthfully 1080×1920. This is not a posting blocker, but it remains unfinished if true AI-upscaled 4K is a project requirement.
+## PROJECT SOURCE SYNC
+The GitHub Current State is now current.
+The copy of `RLS_CURRENT_STATE.md` already uploaded to ChatGPT Project Sources is still the older Sep07 file and cannot be replaced from the GitHub connector.
+Replace that Project Source with the latest file exported from this state so new Project chats recover the correct publication truth and queue.
 
 ## TOOL REALITY
-Current editing environment check:
-- Real-ESRGAN / realesrgan-ncnn-vulkan: NOT VERIFIED / NOT INSTALLED in this runtime
+- Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED in the current editing runtime.
 - Do not call simple resize true 4K.
 - Current RLS-002 and RLS-003 finals are truthfully labeled 1080×1920.
+- True AI 4K remains optional / unfinished and is not a posting blocker.
+
+## REMAINING BACKLOG
+1. Publish RLS-002 Final Reel at 20:00 Sep08.
+2. Produce the 22 remaining Final Reels RLS-004 through RLS-026.
+3. Replace the stale ChatGPT Project Source copy of `RLS_CURRENT_STATE.md` with the latest exported file.
+4. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
 
 ## EXACT NEXT ACTION
-1. Synchronize operational data before it causes publishing mistakes: Metricool old schedules + stale `rls-content.json` + stale `rls-plan.json` + RLS Publisher navigation + stale ChatGPT Project `RLS_CURRENT_STATE.md`.
+1. Export this latest `RLS_CURRENT_STATE.md` for ChatGPT Project Source replacement.
 2. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
 3. Continue batch Final Reel production from RLS-004 onward until the 22-reel backlog is cleared.
 4. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.

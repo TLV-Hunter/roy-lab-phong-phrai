@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T23:46:00+07:00",
+  "updated_at": "2026-09-08",
   "status": "COLOSSUS FINAL REEL SOURCE",
   "entries": [
     {
@@ -13,7 +13,8 @@
     },
     {
       "id": "CS-006",
-      "status": "READY",
+      "status": "PUBLISHED",
+      "published_on": "2026-09-08",
       "qa": "PASS 96/100",
       "copy_qa": "PASS 96/100",
       "media_url": "https://drive.google.com/file/d/1XxVMiVzAgg1GhIlXM3xo-916FO7mnFAa/view?usp=drivesdk",

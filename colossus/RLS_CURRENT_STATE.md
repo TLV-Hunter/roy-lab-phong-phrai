@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 10:24 Asia/Bangkok
+Updated: 2026-09-08 11:03 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -11,6 +11,8 @@ Not published:
 - RLS-002 Reel — NOT PUBLISHED
 - RLS-003 Still — NOT PUBLISHED
 - RLS-003 Reel — NOT PUBLISHED
+- RLS-004 Still/Reel — NOT PUBLISHED
+- RLS-005 Still/Reel — NOT PUBLISHED
 
 Do not mark RLS-002 Reel, RLS-003, or later episodes as published unless TalentVee confirms publication or the publishing system verifies it.
 
@@ -73,8 +75,10 @@ Copy QA:
 Final Reel production:
 - RLS-002 — FINAL QA PASS / READY / 1080×1920
 - RLS-003 — FINAL QA PASS / READY / 1080×1920
-- Mainline Final Reels ready: 2/24
-- Remaining Final Reels: 22/24, beginning RLS-004 through RLS-026.
+- RLS-004 — FINAL QA PASS / READY / 1080×1920
+- RLS-005 — FINAL QA PASS / READY / 1080×1920
+- Mainline Final Reels ready: 4/24
+- Remaining Final Reels: 20/24, beginning RLS-006 through RLS-026.
 
 ## RLS-002 FINAL
 Title: “It was already in the frame.”
@@ -98,6 +102,32 @@ Title: “This boulder was not here yesterday.”
 - Reel copy QA: 95/100 PASS
 - Publication: NOT PUBLISHED
 
+## RLS-004 FINAL
+Title: “The forest went silent first.”
+- Source: 23552.mp4
+- Final edit: QA PASS
+- Dola AI removed by crop/reframe
+- WEST TRAIL / 03:04 AM overlay preserved
+- Resolution: 1080×1920, 24fps, 10.00s
+- H.264 / AAC 48kHz stereo / faststart
+- Audio normalized to approx -20 LUFS target without clipping
+- Drive ID: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
+- Website: pending wire to Reel slot
+- Publication: NOT PUBLISHED
+
+## RLS-005 FINAL
+Title: “Both sides of the bridge failed at the same height.”
+- Source: 23551.mp4
+- Final edit: QA PASS
+- Dola AI removed by crop/reframe
+- RAVINE BRIDGE / 01:58 AM overlay preserved
+- Resolution: 1080×1920, 24fps, 10.00s
+- H.264 / AAC 48kHz stereo / faststart
+- Audio normalized to approx -20 LUFS target without clipping
+- Drive ID: 1VVDCN0lbdsODwGLnB-Y0XemJKWLQ_x0u
+- Website: pending wire to Reel slot
+- Publication: NOT PUBLISHED
+
 ## METRICOOL — SYNCED TO OFFICIAL QUEUE V1
 Verified pending Facebook auto-publish schedules:
 - Sep16 10:00 — RLS-011 FIELD RULE 01 — Metricool ID 372486721 / UUID 149216554598286220
@@ -113,38 +143,31 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Large daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Data synchronization completed:
+Data synchronization completed before RLS-004/005 final creation:
 - `colossus/rls-content.json` synchronized to Official Queue V1, RLS-002 Still publication truth, PASS copy state, 20:00 Reel time, catch-up dates, and current Metricool IDs.
 - `colossus/rls-plan.json` replaced with canonical Official Daily Publishing Queue V1.
-- Main DESK `PUBLISHER` is now campaign-aware:
-  - RLS selected → opens `rls-daily-queue.html`
-  - COLOSSUS selected → preserves `plan.html`
-- Unrelated DESK / CHECKLIST / CALENDAR / BATCH QA / STRATEGY / PERFORMANCE behavior preserved.
-
-Latest synchronization commits:
-- rls-content sync: acab0ff6563239f68fc16c30e935629e4d48f753
-- rls-plan sync: 172a10f54551758a524cc929c4066f07854e0640
-- PUBLISHER campaign routing: e5964be408eb948d7b6a63909aab34a349c04c49
-- PUBLISHER HTML-escape QA repair: 728422c824ed008f69e271798bb62ff64eba89cf
+- Main DESK `PUBLISHER` is campaign-aware.
+- RLS-004 and RLS-005 Final files are uploaded to Drive but still need their Drive URLs wired into `colossus/rls-content.json`.
 
 ## PROJECT SOURCE SYNC
-- Latest Current State content (Updated 2026-09-08 10:20 Asia/Bangkok) is now uploaded to ChatGPT Project Sources and verified readable.
-- The stale Sep07 Current State is no longer the active Project operational source.
-- Project continuity / migration setup is COMPLETE.
+- Latest Current State content was uploaded to ChatGPT Project Sources and verified readable before this milestone.
+- GitHub Current State is updated with RLS-004/005 Final QA PASS milestone.
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED in the current editing runtime.
 - Do not call simple resize true 4K.
-- Current RLS-002 and RLS-003 finals are truthfully labeled 1080×1920.
+- Current RLS finals are truthfully labeled 1080×1920.
 - True AI 4K remains optional / unfinished and is not a posting blocker.
 
 ## REMAINING BACKLOG
 1. Publish RLS-002 Final Reel at 20:00 Sep08.
-2. Produce the 22 remaining Final Reels RLS-004 through RLS-026.
-3. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
+2. Wire RLS-004 and RLS-005 Final Drive URLs into the web data.
+3. Produce the 20 remaining Final Reels from RLS-006 onward.
+4. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
 
 ## EXACT NEXT ACTION
-1. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
-2. Continue batch Final Reel production from RLS-004 onward until the 22-reel backlog is cleared.
-3. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.
-4. Keep publication truth synchronized only with actual confirmed posts.
+1. Wire RLS-004 and RLS-005 Final Drive URLs into `colossus/rls-content.json` and verify DESK cards.
+2. Sep08 20:00 — publish RLS-002 Final Reel using the QA-PASS copy.
+3. Continue batch Final Reel production from RLS-006 onward.
+4. Resume normal publishing pair with RLS-003 on Sep09: 10:00 Still / 20:00 Reel.
+5. Keep publication truth synchronized only with actual confirmed posts.

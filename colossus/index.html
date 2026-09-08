@@ -18,7 +18,7 @@
 <section id="performance" class="view"><div class="panel"><b>PERFORMANCE NOTES</b><div id="performanceView"></div></div></section>
 </main>
 <script>
-const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[m]));
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 let C={},R={},S={entries:[]},Q={entries:[]},CS={entries:[]},CR={entries:[]},CAM=localStorage.getItem('rls_desk_campaign')||'rls',MODE='single';
 function pass(v){return /pass|locked|published|scheduled/i.test(String(v||''))}
 function cls(v){v=String(v||'').toLowerCase();return /pass|ready|locked|published/.test(v)?'g':/pending|planned|waiting|scheduled|next/.test(v)?'a':'r'}

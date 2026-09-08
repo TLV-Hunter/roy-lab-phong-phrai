@@ -5,25 +5,29 @@ Updated: 2026-09-08 08:42 Asia/Bangkok
 Published so far:
 - RLS-001 Still — PUBLISHED
 - RLS-001 Reel — PUBLISHED
+- RLS-002 Still — PUBLISHED / confirmed by TalentVee as posted last night (Sep07)
 
-Not confirmed published:
-- RLS-002 Still — NOT CONFIRMED POSTED
+Not published:
 - RLS-002 Reel — NOT PUBLISHED
-- RLS-003 Still — NOT CONFIRMED POSTED
+- RLS-003 Still — NOT PUBLISHED
 - RLS-003 Reel — NOT PUBLISHED
 
-Do not mark RLS-002, RLS-003, or later episodes as published unless TalentVee confirms publication or the publishing system verifies it.
+Do not mark RLS-002 Reel, RLS-003, or later episodes as published unless TalentVee confirms publication or the publishing system verifies it.
 
 ## OFFICIAL DAILY PUBLISHING QUEUE V1
-Locked daily rule from 2026-09-08:
+Locked daily rule:
 - 10:00 Asia/Bangkok — MASTER STILL
 - 20:00 Asia/Bangkok — FINAL REEL
 - STARTER FRAME is production-only and must not be posted.
 - If Final Reel is not QA PASS by publish time, do not post a failed asset; finish/repair that Reel first.
 - Do not skip episode order merely to fill a slot.
 
-Official queue:
-- Sep08 — RLS-002 — It was already in the frame.
+Current catch-up state:
+- Sep07 — RLS-002 Master Still — PUBLISHED
+- Sep08 — RLS-002 Final Reel — NEXT TO PUBLISH at 20:00
+- Sep09 — RLS-003 — resume normal pair: 10:00 Still / 20:00 Reel
+
+Official queue after catch-up:
 - Sep09 — RLS-003 — This boulder was not here yesterday.
 - Sep10 — RLS-004 — The forest went silent first.
 - Sep11 — RLS-005 — Both sides of the bridge failed at the same height.
@@ -75,13 +79,14 @@ Final Reel production:
 
 ## RLS-002 FINAL
 Title: “It was already in the frame.”
-- Final edit: QA PASS
+- Master Still publication: PUBLISHED Sep07 (exact posting time not recorded)
+- Final Reel: QA PASS / READY
 - Dola AI removed by crop/reframe
 - CAMERA 07 / 02:17:43 AM continuity preserved
 - Resolution: 1080×1920, 24fps
 - Drive ID: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
 - Website: wired to RLS-002 Reel slot
-- Publication: NOT PUBLISHED
+- Reel publication: NOT PUBLISHED
 
 ## RLS-003 FINAL
 Title: “This boulder was not here yesterday.”
@@ -107,26 +112,19 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 Daily queue source:
 colossus/rls-daily-queue.html
 
-Daily queue commit:
-- fe9beb3fd61d2329f7a1872b9958480e428fe019
+Latest daily queue commit:
+- 4ba68d51f8850e05d76752555132fdb89d2b0495
 
 Current daily queue UX:
 - Large TODAY / NEXT hero.
-- Large fixed 10:00 MASTER STILL and 20:00 FINAL REEL blocks.
-- Full Sep08–Oct01 episode queue.
-- Current Bangkok date is highlighted automatically.
-- Clear warning that Starter Frame is not a publishing asset.
-- Publication plan is visually separate from actual publication truth.
-- Built as a separate page so existing DESK/CHECKLIST/CALENDAR/BATCH QA/STRATEGY/PERFORMANCE behavior is not modified.
+- RLS-002 Still now visibly marked POSTED / DONE.
+- RLS-002 Reel is highlighted as the next pending publication.
+- Normal pair schedule resumes with RLS-003 on Sep09.
+- Starter Frame remains production-only.
+- Publication status is visually separated from the plan.
 
 RLS Reel data:
 colossus/rls-content.json
-
-Latest Reel data commit:
-- 1de448d43d649c896cf2d73f4b6a111c3a471f67
-
-Latest DESK truthful-resolution UI commit:
-- 279c767e6b62dc216e2aea93b65fd69b17c34e56
 
 Current DESK behavior:
 - RLS-002 and RLS-003 Reel slots use Drive final-video URLs.
@@ -142,7 +140,7 @@ Current editing environment check:
 - Current RLS-002 and RLS-003 finals are truthfully labeled 1080×1920.
 
 ## EXACT NEXT ACTION
-1. Today Sep08: publish RLS-002 Master Still at 10:00 Asia/Bangkok if still not published.
-2. Publish RLS-002 Final Reel at 20:00 only after publication copy is confirmed QA PASS.
+1. Sep08: publish RLS-002 Final Reel at 20:00 after confirming the publication copy is the QA-PASS version.
+2. Do not publish RLS-003 before RLS-002 Reel; resume RLS-003 pair on Sep09.
 3. Continue Final Reel production from RLS-004 using locked Starter + Prompt → Raw QA → repair if needed → final edit/audio → final QA → upload.
-4. Keep publication truth unchanged until actual posting is confirmed.
+4. Keep publication truth synchronized only with actual confirmed posts.

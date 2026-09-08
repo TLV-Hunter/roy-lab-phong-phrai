@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-08 11:14 Asia/Bangkok
+Updated: 2026-09-08 13:27 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -81,12 +81,13 @@ Video Prompts:
 Copy QA:
 - September public Still/Reel copy library is QA PASS for all listed RLS episodes.
 
-Final Reel production after applying the new ≥11.00s hard rule:
+Final Reel production after applying the ≥11.00s hard rule:
 - RLS-002 — FINAL QA PASS / READY / 11.17s / 1080×1920
-- RLS-003 — REVISE / under 11s under the new hard rule
-- RLS-004 — REVISE / 10.00s under the new hard rule
-- RLS-005 — REVISE / 10.00s under the new hard rule
-- Mainline Final Reels currently compliant with the new hard rule: 1/24
+- RLS-003 — FINAL QA PASS / READY / 11.201s / 1080×1920
+- RLS-004 — FINAL QA PASS / READY / 11.203s / 1080×1920
+- RLS-005 — FINAL QA PASS / READY / 11.204s / 1080×1920
+- Mainline Final Reels compliant with the hard rule: 4/24
+- Remaining Final Reels: 20/24 from RLS-006 onward.
 
 ## RLS-002 FINAL
 Title: “It was already in the frame.”
@@ -94,40 +95,60 @@ Title: “It was already in the frame.”
 - Source used for remake: 23545.mp4
 - Final Reel: QA PASS / READY
 - Duration: 11.17s
-- Dola AI removed with same-frame water/leaf patch clone + seamless blend after first inpaint attempt failed watermark QA
+- Dola AI removed and watermark region re-QA’d
 - CAMERA 07 / 02:17:43 AM continuity preserved
-- Full source action retained; clip length extended with restrained 0.9x timing rather than freeze padding
 - Resolution: 1080×1920, 24fps
-- H.264 / AAC 48kHz stereo / faststart
-- Integrated loudness approx -20.7 LUFS
-- No black frame / freeze detected in final QC
 - Drive ID retained: 1NHs7X2HU6RwzNI0FnLZfbAYyA4Gl1nML
-- Drive bytes replaced in place; website URL remains valid without relinking
-- Website: wired to RLS-002 Reel slot
+- Website URL remains valid
 - Reel publication: NOT PUBLISHED
 
-## RLS-003 FINAL STATUS
+## RLS-003 FINAL
 Title: “This boulder was not here yesterday.”
-- Previous edit had passed the old duration rule.
-- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
-- Drive ID remains: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
-- Do not publish until rebuilt to ≥11.00s and re-QA’d.
+- Source: 23544.mp4
+- Final Reel: QA PASS / READY
+- Duration: 11.201s
+- Source: HEVC 720×1280, 24fps, AAC 44.1kHz
+- Final: H.264 1080×1920, SAR 1:1, DAR 9:16, 24fps, AAC 48kHz stereo
+- High-quality Lanczos upscale from 720×1280 to 1080×1920; NOT AI 4K
+- Dola AI removed by crop/reframe; zoomed watermark-region QA PASS
+- CREEK CROSSING / 02:37 AM overlay preserved
+- No black-frame or abnormal silence events in final QC
+- Integrated loudness approx -19.1 LUFS
+- Drive ID retained: 1FHJ4hhqnS4CKt56CGie-isGnfbFqHSLv
+- Drive bytes replaced in place; website URL remains valid
+- Publication: NOT PUBLISHED
 
-## RLS-004 FINAL STATUS
+## RLS-004 FINAL
 Title: “The forest went silent first.”
 - Source: 23552.mp4
-- Previous edit duration: 10.00s
-- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
-- Drive ID: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
-- Do not publish until rebuilt to ≥11.00s and re-QA’d.
+- Final Reel: QA PASS / READY
+- Duration: 11.203s
+- Source: HEVC 720×1280, 24fps, AAC 44.1kHz
+- Final: H.264 1080×1920, SAR 1:1, DAR 9:16, 24fps, AAC 48kHz stereo
+- High-quality Lanczos upscale from 720×1280 to 1080×1920; NOT AI 4K
+- Dola AI removed by crop/reframe; zoomed watermark-region QA PASS
+- WEST TRAIL / 02:20 AM overlay preserved from this source upload
+- Source itself contains long near-static sections; final QC found no new black frames or abnormal silence introduced by the edit
+- Integrated loudness approx -19.1 LUFS
+- Drive ID retained: 1l5DKmBIdjIMiU-T4zRUsbxxev8E-XjIl
+- Drive bytes replaced in place
+- Publication: NOT PUBLISHED
 
-## RLS-005 FINAL STATUS
+## RLS-005 FINAL
 Title: “Both sides of the bridge failed at the same height.”
 - Source: 23551.mp4
-- Previous edit duration: 10.00s
-- Under the new ≥11.00s hard rule: REVISE / NOT FINAL-COMPLIANT.
-- Drive ID: 1VVDCN0lbdsODwGLnB-Y0XemJKWLQ_x0u
-- Do not publish until rebuilt to ≥11.00s and re-QA’d.
+- Final Reel: QA PASS / READY
+- Duration: 11.204s
+- Source: HEVC 720×1280, 24fps, AAC 44.1kHz
+- Final: H.264 1080×1920, SAR 1:1, DAR 9:16, 24fps, AAC 48kHz stereo
+- High-quality Lanczos upscale from 720×1280 to 1080×1920; NOT AI 4K
+- Dola AI removed by crop/reframe; zoomed watermark-region QA PASS
+- RAVINE BRIDGE / 01:47 PM overlay preserved from this source upload
+- No black-frame or abnormal silence events in final QC; short low-motion source holds are source-native
+- Integrated loudness approx -19.2 LUFS
+- Drive ID retained: 1VVDCN0lbdsODwGLnB-Y0XemJKWLQ_x0u
+- Drive bytes replaced in place
+- Publication: NOT PUBLISHED
 
 ## METRICOOL — SYNCED TO OFFICIAL QUEUE V1
 Verified pending Facebook auto-publish schedules:
@@ -144,32 +165,27 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Large daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Data synchronization completed before this duration-rule override:
-- `colossus/rls-content.json` synchronized to Official Queue V1, RLS-002 Still publication truth, PASS copy state, 20:00 Reel time, catch-up dates, and current Metricool IDs.
-- `colossus/rls-plan.json` replaced with canonical Official Daily Publishing Queue V1.
-- Main DESK `PUBLISHER` is campaign-aware.
-- RLS-002 Drive file was replaced in place with the new 11.17s compliant Final, so its existing website media URL remains valid.
-- RLS-003/004/005 readiness labels should be treated as stale until their ≥11s compliant rebuilds are complete.
+- RLS-002 and RLS-003 existing Reel media URLs remain valid because Drive files were replaced in place.
+- RLS-004 and RLS-005 Drive files were also replaced in place with their new ≥11s masters.
+- Website data may still need explicit status/resolution/duration synchronization for RLS-004/005 if not already wired.
 
 ## PROJECT SOURCE SYNC
-- GitHub Current State now contains the ≥11.00s Final Reel hard rule and corrected compliance statuses.
-- ChatGPT Project Source copy may lag this exact milestone until the latest file is replaced there.
+- GitHub Current State contains the ≥11.00s Final Reel hard rule and latest RLS-002/003/004/005 Final PASS states.
+- ChatGPT Project Source copy may lag this exact milestone until replaced.
 
 ## TOOL REALITY
-- Real-ESRGAN / realesrgan-ncnn-vulkan is NOT VERIFIED / NOT INSTALLED in the current editing runtime.
-- Do not call simple resize true 4K.
-- Current RLS finals are truthfully labeled 1080×1920.
+- Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in the current editing runtime.
+- Current upscale path for these three remakes is Lanczos 720×1280 → 1080×1920.
+- Do not call this AI upscale or true 4K.
 - True AI 4K remains optional / unfinished and is not a posting blocker.
 
 ## REMAINING BACKLOG
 1. Publish RLS-002 Final Reel at 20:00 Sep08 using the new 11.17s compliant Final.
-2. Rebuild RLS-003 to ≥11.00s and re-QA.
-3. Rebuild RLS-004 and RLS-005 to ≥11.00s and re-QA.
-4. Continue production from RLS-006 onward with the ≥11.00s hard rule active from the start.
-5. Optional: establish and verify a true AI 4K Reel pipeline if 4K Reel delivery becomes mandatory.
+2. Continue Final Reel production from RLS-006 onward with the ≥11.00s hard rule active from preflight.
+3. Wire/synchronize RLS-004 and RLS-005 Final states into website data if still pending.
+4. Optional: establish and verify a real AI super-resolution path if true AI upscale becomes mandatory.
 
 ## EXACT NEXT ACTION
-1. Use the new RLS-002 11.17s Final as the only valid RLS-002 Reel master.
-2. Rebuild RLS-003, RLS-004 and RLS-005 so each is ≥11.00s, watermark-free and QA PASS.
+1. Treat the new RLS-003 / RLS-004 / RLS-005 ≥11s files as their only valid Final masters.
+2. Continue RLS-006 onward with minimum 11.00s, watermark-free output and truthful upscale labeling.
 3. Keep publication truth synchronized only with actual confirmed posts.
-4. Continue RLS-006 onward with ≥11.00s duration as a mandatory preflight requirement.

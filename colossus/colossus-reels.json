@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T10:34:00+07:00",
+  "updated_at": "2026-09-09T11:41:00+07:00",
   "status": "COLOSSUS FINAL REEL / ADVANCE COPY SOURCE",
   "copy_completion": "25/25 PASS",
   "entries": [
@@ -25,24 +25,24 @@
     {
       "id": "CS-007",
       "title": "THE MOON WAS IN ITS HAND",
-      "status": "COPY READY / VIDEO PENDING",
-      "qa": "FINAL VIDEO PENDING",
+      "status": "READY",
+      "qa": "PASS",
       "copy_qa": "PASS 96/100",
       "paired_starter_id": "CS-007",
       "pairing_qa": "PASS",
-      "media_url": "",
+      "media_url": "https://drive.google.com/file/d/1Ps-9Cj01Pu6pps_EH5j6z_yovxRn-a9Q/view?usp=drivesdk",
       "caption": "We thought the Moon had drifted out of position.\n\nIt hadn't.\n\nSomething was holding it.\n\nEarth was still visible below.\n\nToo small to matter.\n\nCOLOSSUS SIGNAL // CS-007",
       "pinned_comment": "ARCHIVE NOTE:\n\nThe Moon was not falling.\n\nIt was not drifting.\n\nThe object around it was holding position."
     },
     {
       "id": "CS-008",
       "title": "THE FIRST SIGNAL WAS A HEARTBEAT",
-      "status": "COPY READY / VIDEO PENDING",
-      "qa": "FINAL VIDEO PENDING",
+      "status": "READY",
+      "qa": "PASS",
       "copy_qa": "PASS 96/100",
       "paired_starter_id": "CS-008",
       "pairing_qa": "PASS",
-      "media_url": "",
+      "media_url": "https://drive.google.com/file/d/1fxkGzHjkyUi_wYhNqATmTvZmPpULLp4A/view?usp=drivesdk",
       "caption": "We thought the first signal was a transmission.\n\nIt wasn't carrying data.\n\nIt had a rhythm.\n\nThen the second pulse arrived.\n\nSame interval.\nSame source.\n\nCOLOSSUS SIGNAL // CS-008",
       "pinned_comment": "SIGNAL NOTE:\n\nThe pulses were too regular for noise.\n\nThe next one arrived exactly when expected."
     },

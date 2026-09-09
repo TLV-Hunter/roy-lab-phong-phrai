@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-09 00:32 Asia/Bangkok
+Updated: 2026-09-09 00:36 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -49,7 +49,7 @@ Final Reels compliant with the ≥11.00s hard rule:
 - RLS-019 — FINAL QA PASS / 11.200s / 1080×1920
 - RLS-020 — FINAL QA PASS / 11.212s / 1080×1920
 - RLS-017 — FINAL QA PASS / 11.200s / 1080×1920
-- Mainline Final Reels ready: 19/24
+- Mainline Final Reels ready and website-wired: 19/24
 - Remaining Final Reels: 5/24, next RLS-022.
 
 ## RLS-020 FINAL
@@ -68,6 +68,7 @@ Title: “The bark was still warm.”
 - Final audio approx -21.38 LUFS / -2.44 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
 - Drive ID: 1cItp9CwZzFI4D02eWPeKUcQbqwcN0FM6
+- Website status: READY / FINAL PASS
 - Publication: NOT PUBLISHED
 
 ## RLS-017 FINAL
@@ -84,6 +85,7 @@ Title: “Every camera skipped the same 17 minutes.”
 - Audio approx -20.59 LUFS / -2.02 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
 - Drive ID: 1MRoMPz6zUsm0FPxTm2HnYft7p4MLhNmf
+- Website status: READY / FINAL PASS
 - Publication: NOT PUBLISHED
 
 ## DRIVE FINAL IDS — RECENT
@@ -104,12 +106,13 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Confirmed website data currently remains synchronized through RLS-018/RLS-019 at 17/24.
-RLS-020 and RLS-017 have confirmed Drive Final IDs and must be appended to website data next.
-Publication truth remains independent from website readiness.
+Website data `colossus/rls-content.json` is synchronized to 19/24 QA-passed Final Reels.
+- RLS-020 and RLS-017 are READY / FINAL PASS with confirmed Drive media URLs.
+- Website sync commit: 941cf181c888634da0fea5d7b0fd4080ca68af6d
+- Publication truth remains independent from website readiness.
 
 ## EXACT NEXT ACTION
-1. Append RLS-020 and RLS-017 Final Reel records to website data and verify 19/24 READY.
-2. Continue Final Reel production with RLS-022 next.
-3. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
-4. Keep publication truth synchronized only with actual confirmed posts.
+1. Continue Final Reel production with RLS-022 next.
+2. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
+3. Keep publication truth synchronized only with actual confirmed posts.
+4. After each new Final Reel passes QA and receives a Drive URL, append it to website data without changing unrelated features.

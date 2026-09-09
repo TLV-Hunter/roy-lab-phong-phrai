@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-09 00:36 Asia/Bangkok
+Updated: 2026-09-09 13:47 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -49,42 +49,44 @@ Final Reels compliant with the ≥11.00s hard rule:
 - RLS-019 — FINAL QA PASS / 11.200s / 1080×1920
 - RLS-020 — FINAL QA PASS / 11.212s / 1080×1920
 - RLS-017 — FINAL QA PASS / 11.200s / 1080×1920
-- Mainline Final Reels ready and website-wired: 19/24
-- Remaining Final Reels: 5/24, next RLS-022.
+- RLS-022 — FINAL QA PASS / 11.300s / 1080×1920
+- RLS-023 — FINAL QA PASS / 11.300s / 1080×1920
+- Mainline Final Reels ready and website-wired: 21/24
+- Remaining Final Reels: 3/24, next RLS-024.
 
-## RLS-020 FINAL
-Title: “The bark was still warm.”
-- Source: 23639.mp4
+## RLS-022 FINAL
+Title: “CASE 001 — The Hollow Trail.”
+- Source: 23672.mp4
 - Pre-QA: PASS
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: CASE APPROACH / 03:48 AM
-- Thermal device, bark wound, scale and physical geometry preserved
-- Exposed wood remains warm without artificial heating or wound-shape morphing
+- Visible overlay preserved: HOLLOW TRAIL / 01:58 AM
+- Root tunnel / hollow trail geometry preserved
+- No creature reveal, root morphing, portal/glow, or extra scene content introduced
 - Dola AI removed by minimal crop/reframe
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.212s
+- Duration: 11.300s
 - High-quality Lanczos upscale; NOT AI 4K
-- First audio QA flagged true peak too high; audio-only repair applied
-- Final audio approx -21.38 LUFS / -2.44 dBTP
+- Final audio approx -22.4 LUFS / -2.3 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
-- Drive ID: 1cItp9CwZzFI4D02eWPeKUcQbqwcN0FM6
+- Drive ID: 1o4Q6t8umH4wvPTak61weNSNy0VWWYHyw
 - Website status: READY / FINAL PASS
 - Publication: NOT PUBLISHED
 
-## RLS-017 FINAL
-Title: “Every camera skipped the same 17 minutes.”
-- Source: 23640.mp4
-- Pre-QA: PASS
+## RLS-023 FINAL
+Title: “The missing pack was found twenty feet above the ground.”
+- Source: 23671.mp4
+- Pre-QA: PASS after audio inspection
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- All camera tiles preserve the same missing interval 02:03:00 → 02:20:00 / 17 MIN MISSING
-- Labels/timestamps preserved; no digit drift or screen morphing introduced
+- Visible overlay preserved: CANOPY SITE / 02:26 AM
+- Pack remains high in canopy; branch/pack geometry preserved
+- Source audio was extremely low (~-67 LUFS) but contained real ambience; normalized conservatively without adding music
 - Dola AI removed by minimal crop/reframe
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
-- Duration: 11.200s
+- Duration: 11.300s
 - High-quality Lanczos upscale; NOT AI 4K
-- Audio approx -20.59 LUFS / -2.02 dBTP
+- Final audio approx -24.3 LUFS / -2.1 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
-- Drive ID: 1MRoMPz6zUsm0FPxTm2HnYft7p4MLhNmf
+- Drive ID: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
 - Website status: READY / FINAL PASS
 - Publication: NOT PUBLISHED
 
@@ -93,6 +95,8 @@ Title: “Every camera skipped the same 17 minutes.”
 - RLS-019: 1N3YXewcOOHOPKV38DfYa-g4Y3FQSX0aY
 - RLS-020: 1cItp9CwZzFI4D02eWPeKUcQbqwcN0FM6
 - RLS-017: 1MRoMPz6zUsm0FPxTm2HnYft7p4MLhNmf
+- RLS-022: 1o4Q6t8umH4wvPTak61weNSNy0VWWYHyw
+- RLS-023: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -106,13 +110,13 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Website data `colossus/rls-content.json` is synchronized to 19/24 QA-passed Final Reels.
-- RLS-020 and RLS-017 are READY / FINAL PASS with confirmed Drive media URLs.
-- Website sync commit: 941cf181c888634da0fea5d7b0fd4080ca68af6d
+Website data `colossus/rls-content.json` is synchronized to 21/24 QA-passed Final Reels.
+- RLS-022 and RLS-023 are READY / FINAL PASS with confirmed Drive media URLs.
+- Website sync commit: fd39f0722fecd6df899aba710aaf1f639bdeb64e
 - Publication truth remains independent from website readiness.
 
 ## EXACT NEXT ACTION
-1. Continue Final Reel production with RLS-022 next.
+1. Continue Final Reel production with RLS-024 next.
 2. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
 3. Keep publication truth synchronized only with actual confirmed posts.
 4. After each new Final Reel passes QA and receives a Drive URL, append it to website data without changing unrelated features.

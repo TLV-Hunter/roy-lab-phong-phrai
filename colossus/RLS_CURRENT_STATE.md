@@ -31,7 +31,8 @@ Copy QA: September library QA PASS for listed episodes.
 
 Mainline Final Reels produced and QA-passed: 24/24
 Drive-backed Final Reels: 24/24
-Website-wired Final Reels: 21/24 in current `rls-content.json`; RLS-024/RLS-025/RLS-026 still require website append.
+Website-wired Final Reels: 24/24
+Final Reel production milestone: COMPLETE
 
 ## RLS-024 FINAL
 Title: “The reflection had one more figure than the clearing.”
@@ -89,7 +90,7 @@ Title: “Camera 07 wasn’t the only one recording.”
 - Final audio approx -21.5 LUFS / -4.5 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
 - Drive ID: 1eC5uy8NyqtZ527HZTzfc6h64oCSbFy4a
-- Website wiring: PENDING until `rls-content.json` is updated
+- Website wiring: COMPLETE
 - Publication: NOT PUBLISHED
 
 ## DRIVE FINAL IDS — RECENT
@@ -111,8 +112,8 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-RLS-024, RLS-025 and RLS-026 all have confirmed Final QA PASS and real Drive IDs.
-Current `colossus/rls-content.json` is still 21/24 and requires those three Final records appended before website readiness can be declared 24/24.
+`colossus/rls-content.json` is synchronized through RLS-026 at 24/24 Final Reels QA PASS / READY.
+RLS-024, RLS-025 and RLS-026 now have confirmed Final QA PASS and real Drive IDs in website data.
 Publication truth remains independent from website readiness.
 
 ## FACEBOOK PAGE REBRAND / FRONT DOOR
@@ -125,7 +126,7 @@ Publication truth remains independent from website readiness.
 - Do not change Avatar or Category until Cover V2 is completed and QA-passed.
 
 ## EXACT NEXT ACTION
-1. Append RLS-024, RLS-025 and RLS-026 Final Reel records to `colossus/rls-content.json` and verify website count 24/24.
+1. Final Reel production and website wiring are COMPLETE at 24/24.
 2. Do not count 23790 as a new authority; it is an alternate RLS-025 take.
 3. Keep publication truth synchronized only with actual confirmed posts.
-4. Continue Facebook Page Step 3 — COVER V2 independently after the Final Reel website-wiring milestone is closed.
+4. Continue Facebook Page Step 3 — COVER V2 independently, or execute the next publication/catch-up action from the Official Daily Queue when requested.

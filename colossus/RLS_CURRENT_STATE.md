@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-09 13:47 Asia/Bangkok
+Updated: 2026-09-10 14:42 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -29,74 +29,51 @@ Starter Frames: 24/24 QA PASS / ready
 Video Prompts: 24/24 QA PASS / LOCK
 Copy QA: September library QA PASS for listed episodes.
 
-Final Reels compliant with the ≥11.00s hard rule:
-- RLS-002 — FINAL QA PASS / 11.170s / 1080×1920
-- RLS-003 — FINAL QA PASS / 11.201s / 1080×1920
-- RLS-004 — FINAL QA PASS / 11.203s / 1080×1920
-- RLS-005 — FINAL QA PASS / 11.204s / 1080×1920
-- RLS-006 — FINAL QA PASS / 11.208s / 1080×1920
-- RLS-007 — FINAL QA PASS / 11.111s / 1080×1920
-- RLS-008 — FINAL QA PASS / 11.202s / 1080×1920
-- RLS-009 — FINAL QA PASS / 11.300s / 1080×1920
-- RLS-011 — FINAL QA PASS / 11.208s / 1080×1920
-- RLS-010 — FINAL QA PASS / 11.180s / 1080×1920
-- RLS-013 — FINAL QA PASS / 11.180s / 1080×1920
-- RLS-012 — FINAL QA PASS / 11.208s / 1080×1920
-- RLS-015 — FINAL QA PASS / 11.208s / 1080×1920
-- RLS-016 — FINAL QA PASS / 11.207s / 1080×1920
-- RLS-014 — FINAL QA PASS / 11.205s / 1080×1920
-- RLS-018 — FINAL QA PASS / 11.300s / 1080×1920
-- RLS-019 — FINAL QA PASS / 11.200s / 1080×1920
-- RLS-020 — FINAL QA PASS / 11.212s / 1080×1920
-- RLS-017 — FINAL QA PASS / 11.200s / 1080×1920
-- RLS-022 — FINAL QA PASS / 11.300s / 1080×1920
-- RLS-023 — FINAL QA PASS / 11.300s / 1080×1920
-- Mainline Final Reels ready and website-wired: 21/24
-- Remaining Final Reels: 3/24, next RLS-024.
+Mainline Final Reels ready: 23/24
+Remaining Final Reel: 1/24 — RLS-026 next.
 
-## RLS-022 FINAL
-Title: “CASE 001 — The Hollow Trail.”
-- Source: 23672.mp4
-- Pre-QA: PASS
+## RLS-024 FINAL
+Title: “The reflection had one more figure than the clearing.”
+- Source: 23779.mp4
+- Initial Pre-QA / technical image QA: PASS
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: HOLLOW TRAIL / 01:58 AM
-- Root tunnel / hollow trail geometry preserved
-- No creature reveal, root morphing, portal/glow, or extra scene content introduced
+- Source audio was very low (~-46.9 LUFS); normalized conservatively without adding music
+- Critical story QA initially FAILED because a silhouette appeared in the real clearing during the middle/late part of the clip
+- Repair applied frame-by-frame using aligned clean-frame replacement only in the above-water clearing region
+- Critical invariant restored: real clearing empty; exactly one extra dark figure remains in the reflection
 - Dola AI removed by minimal crop/reframe
+- Repaired Final QA: PASS
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
 - Duration: 11.300s
 - High-quality Lanczos upscale; NOT AI 4K
-- Final audio approx -22.4 LUFS / -2.3 dBTP
+- Audio approx -20.6 LUFS / -2.1 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
-- Drive ID: 1o4Q6t8umH4wvPTak61weNSNy0VWWYHyw
-- Website status: READY / FINAL PASS
+- Drive ID: 1BfhN70PLrxSB92DaAp436b9eVs-9gJYL
 - Publication: NOT PUBLISHED
 
-## RLS-023 FINAL
-Title: “The missing pack was found twenty feet above the ground.”
-- Source: 23671.mp4
-- Pre-QA: PASS after audio inspection
+## RLS-025 FINAL
+Title: “FIELD RULE 02 — If a camera loses the trail, check above eye level.”
+- Source: 23780.mp4
+- Pre-QA: PASS after matching actual field setup / notebook / camera / upward canopy tilt to prompt authority
 - Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
-- Visible overlay preserved: CANOPY SITE / 02:26 AM
-- Pack remains high in canopy; branch/pack geometry preserved
-- Source audio was extremely low (~-67 LUFS) but contained real ambience; normalized conservatively without adding music
+- Field setup, notebook/camera equipment, canopy geometry and visible overlay preserved
+- Slow controlled upward tilt remains natural; no creature reveal or humanoid silhouette added
+- Source audio was low (~-37.3 LUFS); normalized conservatively without adding music
 - Dola AI removed by minimal crop/reframe
+- Final QA: PASS
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
 - Duration: 11.300s
 - High-quality Lanczos upscale; NOT AI 4K
-- Final audio approx -24.3 LUFS / -2.1 dBTP
+- Audio approx -20.4 LUFS / -2.0 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
-- Drive ID: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
-- Website status: READY / FINAL PASS
+- Drive ID: 1zPhHS2Ku5sZF1D-3jd88g892QJWAz4E5
 - Publication: NOT PUBLISHED
 
 ## DRIVE FINAL IDS — RECENT
-- RLS-018: 1jIJRz41uWrQ46kSLXo4NhnNXLi-JE3S2
-- RLS-019: 1N3YXewcOOHOPKV38DfYa-g4Y3FQSX0aY
-- RLS-020: 1cItp9CwZzFI4D02eWPeKUcQbqwcN0FM6
-- RLS-017: 1MRoMPz6zUsm0FPxTm2HnYft7p4MLhNmf
 - RLS-022: 1o4Q6t8umH4wvPTak61weNSNy0VWWYHyw
 - RLS-023: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
+- RLS-024: 1BfhN70PLrxSB92DaAp436b9eVs-9gJYL
+- RLS-025: 1zPhHS2Ku5sZF1D-3jd88g892QJWAz4E5
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -110,13 +87,12 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Website data `colossus/rls-content.json` is synchronized to 21/24 QA-passed Final Reels.
-- RLS-022 and RLS-023 are READY / FINAL PASS with confirmed Drive media URLs.
-- Website sync commit: fd39f0722fecd6df899aba710aaf1f639bdeb64e
-- Publication truth remains independent from website readiness.
+Confirmed website data `colossus/rls-content.json` is currently synchronized through RLS-022/RLS-023 at 21/24.
+RLS-024 and RLS-025 have confirmed Final QA PASS and Drive IDs and must be appended to website data next.
+Publication truth remains independent from website readiness.
 
 ## EXACT NEXT ACTION
-1. Continue Final Reel production with RLS-024 next.
-2. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
-3. Keep publication truth synchronized only with actual confirmed posts.
-4. After each new Final Reel passes QA and receives a Drive URL, append it to website data without changing unrelated features.
+1. Append RLS-024 and RLS-025 Final Reel records to website data and verify 23/24 READY.
+2. Continue Final Reel production with RLS-026 — “Camera 07 wasn’t the only one recording.”
+3. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
+4. Keep publication truth synchronized only with actual confirmed posts.

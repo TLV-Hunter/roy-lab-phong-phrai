@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-10 22:05 Asia/Bangkok
+Updated: 2026-09-10 22:30 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -30,8 +30,8 @@ Video Prompts: 24/24 QA PASS / LOCK
 Copy QA: September library QA PASS for listed episodes.
 
 Mainline Final Reels produced and QA-passed: 24/24
-Drive/website-wired Final Reels: 23/24
-Pending wire-up: RLS-026 only.
+Drive-backed Final Reels: 24/24
+Website-wired Final Reels: 21/24 in current `rls-content.json`; RLS-024/RLS-025/RLS-026 still require website append.
 
 ## RLS-024 FINAL
 Title: “The reflection had one more figure than the clearing.”
@@ -81,14 +81,15 @@ Title: “Camera 07 wasn’t the only one recording.”
 - Sequential camera status-light / mechanism behavior preserved
 - Source audio was low (~-36.0 LUFS); normalized conservatively without adding music
 - Dola AI removed by minimal crop/reframe
+- Initial Final audio QA rejected an over-hot peak; audio-only repair applied and QA repeated
 - Final QA: PASS
 - Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
 - Duration: 11.300s
 - High-quality Lanczos upscale; NOT AI 4K
 - Final audio approx -21.5 LUFS / -4.5 dBTP
 - No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
-- Drive upload: PENDING because connector did not accept local sandbox file reference in this run
-- Website wiring: PENDING until confirmed Drive ID exists
+- Drive ID: 1eC5uy8NyqtZ527HZTzfc6h64oCSbFy4a
+- Website wiring: PENDING until `rls-content.json` is updated
 - Publication: NOT PUBLISHED
 
 ## DRIVE FINAL IDS — RECENT
@@ -96,7 +97,7 @@ Title: “Camera 07 wasn’t the only one recording.”
 - RLS-023: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
 - RLS-024: 1BfhN70PLrxSB92DaAp436b9eVs-9gJYL
 - RLS-025: 1zPhHS2Ku5sZF1D-3jd88g892QJWAz4E5
-- RLS-026: PENDING UPLOAD
+- RLS-026: 1eC5uy8NyqtZ527HZTzfc6h64oCSbFy4a
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -110,8 +111,8 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-RLS-024 and RLS-025 have confirmed Final QA PASS and authoritative Drive IDs.
-RLS-026 has Final QA PASS but cannot be marked website-ready until its Drive upload returns a real ID.
+RLS-024, RLS-025 and RLS-026 all have confirmed Final QA PASS and real Drive IDs.
+Current `colossus/rls-content.json` is still 21/24 and requires those three Final records appended before website readiness can be declared 24/24.
 Publication truth remains independent from website readiness.
 
 ## FACEBOOK PAGE REBRAND / FRONT DOOR
@@ -124,8 +125,7 @@ Publication truth remains independent from website readiness.
 - Do not change Avatar or Category until Cover V2 is completed and QA-passed.
 
 ## EXACT NEXT ACTION
-1. Upload the QA-passed RLS-026 Final to Drive and capture the real Drive ID.
-2. Append RLS-024, RLS-025, and RLS-026 Final records to website data as needed, then verify website count 24/24.
-3. Do not count 23790 as a new authority; it is an alternate RLS-025 take.
-4. Keep publication truth synchronized only with actual confirmed posts.
-5. Continue Facebook Page Step 3 — COVER V2 independently after the Final Reel wiring milestone is closed.
+1. Append RLS-024, RLS-025 and RLS-026 Final Reel records to `colossus/rls-content.json` and verify website count 24/24.
+2. Do not count 23790 as a new authority; it is an alternate RLS-025 take.
+3. Keep publication truth synchronized only with actual confirmed posts.
+4. Continue Facebook Page Step 3 — COVER V2 independently after the Final Reel website-wiring milestone is closed.

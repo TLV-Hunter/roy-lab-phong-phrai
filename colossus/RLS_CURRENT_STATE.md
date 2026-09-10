@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-10 21:16 Asia/Bangkok
+Updated: 2026-09-10 22:05 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -29,8 +29,9 @@ Starter Frames: 24/24 QA PASS / ready
 Video Prompts: 24/24 QA PASS / LOCK
 Copy QA: September library QA PASS for listed episodes.
 
-Mainline Final Reels ready: 23/24
-Remaining Final Reel: 1/24 — RLS-026 next.
+Mainline Final Reels produced and QA-passed: 24/24
+Drive/website-wired Final Reels: 23/24
+Pending wire-up: RLS-026 only.
 
 ## RLS-024 FINAL
 Title: “The reflection had one more figure than the clearing.”
@@ -69,11 +70,33 @@ Title: “FIELD RULE 02 — If a camera loses the trail, check above eye level.�
 - Drive ID: 1zPhHS2Ku5sZF1D-3jd88g892QJWAz4E5
 - Publication: NOT PUBLISHED
 
+## RLS-026 FINAL
+Title: “Camera 07 wasn’t the only one recording.”
+- Source: 23791.mp4
+- 23790.mp4 identified as alternate/duplicate RLS-025 take and is not counted as authority
+- Pre-QA: PASS WITH AUDIO REPAIR
+- Source: HEVC 720×1280 / 24fps / AAC 44.1kHz / 10.08s
+- Multiple cameras preserve their positions and inward orientation; no physical camera rotation introduced
+- Clearing center remains empty throughout; no creature / extra device / center figure added
+- Sequential camera status-light / mechanism behavior preserved
+- Source audio was low (~-36.0 LUFS); normalized conservatively without adding music
+- Dola AI removed by minimal crop/reframe
+- Final QA: PASS
+- Final: H.264 1080×1920 / 24fps / AAC 48kHz stereo
+- Duration: 11.300s
+- High-quality Lanczos upscale; NOT AI 4K
+- Final audio approx -21.5 LUFS / -4.5 dBTP
+- No black frames, abnormal silence, freeze events, or exact duplicate-frame runs
+- Drive upload: PENDING because connector did not accept local sandbox file reference in this run
+- Website wiring: PENDING until confirmed Drive ID exists
+- Publication: NOT PUBLISHED
+
 ## DRIVE FINAL IDS — RECENT
 - RLS-022: 1o4Q6t8umH4wvPTak61weNSNy0VWWYHyw
 - RLS-023: 13gtCQKcnp4Vuz7O807eShVapp2eCqPTW
 - RLS-024: 1BfhN70PLrxSB92DaAp436b9eVs-9gJYL
 - RLS-025: 1zPhHS2Ku5sZF1D-3jd88g892QJWAz4E5
+- RLS-026: PENDING UPLOAD
 
 ## TOOL REALITY
 - Real-ESRGAN / realesrgan-ncnn-vulkan is NOT installed in current runtime.
@@ -87,8 +110,8 @@ https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/
 Daily queue:
 https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-daily-queue.html
 
-Confirmed website data `colossus/rls-content.json` is currently synchronized through RLS-022/RLS-023 at 21/24.
-RLS-024 and RLS-025 have confirmed Final QA PASS and Drive IDs and must be appended to website data next.
+RLS-024 and RLS-025 have confirmed Final QA PASS and authoritative Drive IDs.
+RLS-026 has Final QA PASS but cannot be marked website-ready until its Drive upload returns a real ID.
 Publication truth remains independent from website readiness.
 
 ## FACEBOOK PAGE REBRAND / FRONT DOOR
@@ -101,9 +124,8 @@ Publication truth remains independent from website readiness.
 - Do not change Avatar or Category until Cover V2 is completed and QA-passed.
 
 ## EXACT NEXT ACTION
-1. Facebook Page Step 3 — produce / replace COVER V2 and QA it before changing any other page-front-door element.
-2. After Cover V2 is complete, continue the Page Improvement sequence one step at a time.
-3. Append RLS-024 and RLS-025 Final Reel records to website data and verify 23/24 READY.
-4. Continue Final Reel production with RLS-026 — “Camera 07 wasn’t the only one recording.”
-5. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
-6. Keep publication truth synchronized only with actual confirmed posts.
+1. Upload the QA-passed RLS-026 Final to Drive and capture the real Drive ID.
+2. Append RLS-024, RLS-025, and RLS-026 Final records to website data as needed, then verify website count 24/24.
+3. Do not count 23790 as a new authority; it is an alternate RLS-025 take.
+4. Keep publication truth synchronized only with actual confirmed posts.
+5. Continue Facebook Page Step 3 — COVER V2 independently after the Final Reel wiring milestone is closed.

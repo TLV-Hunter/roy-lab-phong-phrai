@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-10 14:42 Asia/Bangkok
+Updated: 2026-09-10 21:16 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -91,8 +91,19 @@ Confirmed website data `colossus/rls-content.json` is currently synchronized thr
 RLS-024 and RLS-025 have confirmed Final QA PASS and Drive IDs and must be appended to website data next.
 Publication truth remains independent from website readiness.
 
+## FACEBOOK PAGE REBRAND / FRONT DOOR
+- Primary Facebook Page name changed and confirmed by TalentVee on 2026-09-10: `The Hidden Forest Archive`.
+- Legacy Thai identity `รอยลับพงไพร` remains part of the brand as a secondary/local-language identity and should be retained in Cover/About/Public Archive rather than as the primary Page name.
+- Bio changed to: `Original forest-horror case files: recovered footage, field logs & impossible evidence.`
+- Page improvement is being executed one step at a time.
+- Current Page Improvement Step: COVER V2.
+- Cover V2 direction: English-first, recovered-evidence / field-archive realism, less fantasy glow; primary text `THE HIDDEN FOREST ARCHIVE`, secondary `EVIDENCE BEFORE EXPLANATION`, optional small Thai legacy line `รอยลับพงไพร`.
+- Do not change Avatar or Category until Cover V2 is completed and QA-passed.
+
 ## EXACT NEXT ACTION
-1. Append RLS-024 and RLS-025 Final Reel records to website data and verify 23/24 READY.
-2. Continue Final Reel production with RLS-026 — “Camera 07 wasn’t the only one recording.”
-3. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
-4. Keep publication truth synchronized only with actual confirmed posts.
+1. Facebook Page Step 3 — produce / replace COVER V2 and QA it before changing any other page-front-door element.
+2. After Cover V2 is complete, continue the Page Improvement sequence one step at a time.
+3. Append RLS-024 and RLS-025 Final Reel records to website data and verify 23/24 READY.
+4. Continue Final Reel production with RLS-026 — “Camera 07 wasn’t the only one recording.”
+5. Apply mandatory pre-QA → repair if needed → edit → watermark removal → ≥11.00s → truthful upscale → final QA workflow.
+6. Keep publication truth synchronized only with actual confirmed posts.

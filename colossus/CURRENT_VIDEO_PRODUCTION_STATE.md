@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-11 10:24 +07:00
+Updated: 2026-09-11 12:14 +07:00
 
 ## Authority correction
 
@@ -46,6 +46,11 @@ A re-check was performed against the actual edited Final Reel files in the Video
 ## Website integration
 Content Desk loads `colossus-reel-media.json` after `colossus-reels.json` and merges current final-media state by episode ID. The media registry now contains only verified Final Reel mappings. Caption and pinned-comment copy remains sourced from `colossus-reels.json`.
 
+## Active editing standard
+`COLOSSUS_RETENTION_EDITING_STANDARD_V2.md` is ACTIVE for all new Final Reel edits from this checkpoint forward.
+
+It upgrades hook timing, retention rhythm, re-hook/pattern interrupt, sound-design hierarchy, motion enhancement, loop engineering and retention QA while preserving the established Colossus identity.
+
 ## Current editing rules
 - QA source before editing.
 - Only PASS sources proceed to Final.
@@ -56,8 +61,8 @@ Content Desk loads `colossus-reel-media.json` after `colossus-reels.json` and me
 - Colossus text identity: white condensed uppercase + short cyan Signal Bar + subtle shadow.
 - Text must match the actual story beat / episode.
 - Slow, heavy, monumental motion; restrained effects.
-- Remove Dola AI watermark in the approved editing workflow.
-- Final technical QA before delivery/upload.
+- Third-party watermarks must be retained; use a clean source/export when a watermark-free Final is required.
+- Final technical QA + retention QA before delivery/upload.
 
 ## Exact next action
-Resolve / produce verified Final Reels for CS-020, CS-022, CS-027, CS-028 and CS-029. Do not promote an existing clip to episode authority unless its visual, on-screen text and story beat all match the governing episode definition.
+Resolve / produce verified Final Reels for CS-020, CS-022, CS-027, CS-028 and CS-029 using the active V2 retention editing standard. Do not promote an existing clip to episode authority unless its visual, on-screen text and story beat all match the governing episode definition.

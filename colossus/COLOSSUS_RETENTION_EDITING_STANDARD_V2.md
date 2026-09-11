@@ -161,5 +161,11 @@ Prefer data from platform retention/hold if available rather than subjective pre
 - clean image hero window: 8.8–10.6s
 - loop bridge: final 0.5–0.8s
 
+## 14) Source provenance / watermark rule
+- Third-party watermarks present in the source must be retained in source-derived renders.
+- Do not remove, cover, crop out, blur, mask or inpaint a third-party watermark as part of the editing workflow.
+- If a watermark-free Final is required, obtain a clean source/export from the originating service and run the same V2 edit from that clean source.
+- A clean-source replacement may preserve the previously approved timing, text, effects and sound design if the underlying visual is otherwise identical.
+
 ## Supersession rule
 This file upgrades retention, text timing, sound design, pattern-interrupt use and loop behavior. It does not supersede current episode authority, visual identity, QA requirements or verified Final Reel mapping.

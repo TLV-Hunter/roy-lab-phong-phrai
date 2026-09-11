@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-11 12:28 +07:00
+Updated: 2026-09-11
 
 ## Authority correction
 
@@ -60,22 +60,40 @@ For CS-022 until the correct media URL is re-registered:
 - website must not display a wrong/rejected video as CS-022
 
 ## Active editing standard
-`COLOSSUS_RETENTION_EDITING_STANDARD_V2.md` is ACTIVE for all new Final Reel edits from this checkpoint forward.
+`COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 
-It upgrades hook timing, retention rhythm, re-hook/pattern interrupt, sound-design hierarchy, motion enhancement, loop engineering and retention QA while preserving the established Colossus identity.
+Room start command:
+`COLOSSUS_VIDEO_EDITING_ROOM_START_COMMAND_V3.txt`
+
+`COLOSSUS_RETENTION_EDITING_STANDARD_V2.md` is SUPERSEDED and must not override V3.
+
+V3 adds/updates:
+- data-driven retention editing
+- cinematic short-film editing
+- MV / music-driven editing
+- performance and continuity rules
+- dialogue / sound workflow
+- watermark-removal workflow
+- restoration / upscale / interpolation decisions
+- three-pass QA
+- explicit failure-memory rules
 
 ## Current editing rules
 - QA source before editing.
-- Only PASS sources proceed to Final.
-- Minimum final duration: 11 seconds.
-- Vertical 9:16, FHD 1080x1920.
-- 30fps CFR unless a justified source-specific exception is required.
-- H.264 + AAC.
+- Only PASS / PASS WITH REPAIR sources proceed to Final.
+- Current Colossus Reel minimum final duration: 11 seconds unless user explicitly overrides.
+- Vertical 9:16, FHD 1080x1920 for current Colossus social Reels.
+- 30fps CFR unless a justified source-specific/cinematic exception is required.
+- H.264 + AAC for current social delivery.
 - Colossus text identity: white condensed uppercase + short cyan Signal Bar + subtle shadow.
 - Text must match the actual story beat / episode.
 - Slow, heavy, monumental motion; restrained effects.
-- Third-party watermarks must be retained; use a clean source/export when a watermark-free Final is required.
-- Final technical QA + retention QA before delivery/upload.
+- Short-film mode prioritizes identity/continuity, story, performance, natural motion, pacing and sound over short-form gimmicks.
+- MV mode prioritizes musical phrasing, lip-sync and performance before transitions/effects.
+- **If the user explicitly orders DOLA AI / watermark removal from user-provided or project-authorized footage, removal is REQUIRED for Final.**
+- **A Final that still visibly contains DOLA AI after that instruction is QA FAIL.**
+- Prefer clean crop/reframe, localized patch/delogo, tracked repair or licensed temporal inpainting over an obvious blur/black box.
+- Final technical + story/continuity + delivery/platform QA before upload.
 
 ## Exact next action
-Resolve / produce verified Final Reels for **CS-020, CS-027 and CS-028** for the September run using the active V2 retention editing standard. Separately prepare CS-029 for the Oct 1 finale. Re-register the correct CS-022 media URL only after matching the actual Final to `EARTH HEARD IT BREATHE`.
+Resolve / produce verified Final Reels for **CS-020, CS-027 and CS-028** for the September run using the active V3 editing master. Separately prepare CS-029 for the Oct 1 finale. Re-register the correct CS-022 media URL only after matching the actual Final to `EARTH HEARD IT BREATHE`.

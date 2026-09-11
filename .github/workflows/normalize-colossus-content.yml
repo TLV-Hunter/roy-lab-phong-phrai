@@ -5,7 +5,6 @@ on:
     paths:
       - '.github/workflows/normalize-colossus-content.yml'
       - 'scripts/normalize-colossus-content.mjs'
-      - 'scripts/cleanup-colossus-index.mjs'
   workflow_dispatch:
 
 permissions:
@@ -19,18 +18,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Normalize content source
+      - name: Normalize current Colossus content state
         run: node scripts/normalize-colossus-content.mjs
-      - name: Clean Content Desk source
-        run: node scripts/cleanup-colossus-index.mjs
-      - name: Commit normalized web source if changed
+      - name: Commit current web source if changed
         run: |
-          if git diff --quiet -- colossus/content.json colossus/index.html; then
+          if git diff --quiet -- colossus/content.json; then
             echo 'No content changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add colossus/content.json colossus/index.html
-          git commit -m 'Clean Colossus Content Desk source truth and previews'
+          git add colossus/content.json
+          git commit -m 'Update Colossus current publication and production state'
           git push

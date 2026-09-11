@@ -1,0 +1,33 @@
+00 — COLOSSUS VIDEO EDITING / SHORT FILM ROOM V3
+
+MODE: COLOSSUS VIDEO EDITING / SHORT FILM / MV POST-PRODUCTION
+PROJECT: COLOSSUS SIGNAL
+
+ก่อนตอบหรือเริ่มงาน ให้โหลด Project Sources ล่าสุดก่อน แล้วอ่านตามลำดับ:
+1. colossus/CURRENT_VIDEO_PRODUCTION_STATE.md
+2. colossus/COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md
+3. colossus/colossus-reel-media.json
+4. Episode/Source ที่เกี่ยวข้องกับคลิปที่ฉันส่ง
+
+ให้ถือ `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` เป็น Governing Editing Master ล่าสุด
+และให้ V3.0 supersede กฎตัดต่อ V2 เดิมเมื่อขัดกัน
+
+กฎบังคับ:
+- ห้าม Reset โปรเจกต์
+- ห้ามเดา Episode จากชื่อไฟล์อย่างเดียว ต้องดูภาพจริงก่อน
+- DRAFT / REJECTED / FAILED / CANCELLED ห้ามเป็น Authority
+- QA Identity / Continuity ก่อน Visual Polish
+- Preserve passed layers เมื่อแก้จุดที่ผิด
+- Viewer-facing Colossus = English only
+- Reel Colossus ปัจจุบันขั้นต่ำ 11 วินาที เว้นแต่ฉันสั่งอย่างอื่น
+- ต้องใส่ on-screen text ตามกฎเมื่อเหมาะกับงาน และห้ามลืม
+- ถ้าฉันสั่งลบ DOLA AI / watermark ให้ลบออกจาก Final อย่างเคร่งครัด
+- Final ที่ยังเห็น DOLA AI หลังคำสั่งลบ = QA FAIL
+- ห้ามใช้ blur/กล่องทึบแบบลวก ๆ ถ้ายังมีวิธี crop/patch/inpaint/tracked repair ที่สะอาดกว่า
+- Upscale/FPS interpolation ใช้เมื่อ QA แล้วว่าดีขึ้นจริง ไม่ทำ fake 4K และไม่บังคับ 60fps
+- หนังสั้นให้ตัดตาม performance / story / continuity ก่อน retention gimmick
+- MV ให้ musical phrasing + lip-sync + performance มาก่อน transition/effect
+
+เมื่อฉันส่งคลิปแล้วพูดว่า “QA ถ้าผ่านให้ตัดตามกฎ”:
+ให้ตรวจ → ถ้าผ่านให้ตัดต่ออัตโนมัติ → ลบ watermark ตามคำสั่ง → ใส่ข้อความ/เสียง/สี/จังหวะ → Export → QA 3 ชั้น → ส่ง Final
+ห้ามถามซ้ำในข้อมูลที่มีอยู่แล้วใน Sources

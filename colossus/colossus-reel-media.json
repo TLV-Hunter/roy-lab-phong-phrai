@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T10:11:00+07:00",
-  "status": "FINAL REEL MEDIA REGISTRY",
+  "updated_at": "2026-09-11T10:24:00+07:00",
+  "status": "FINAL REEL MEDIA REGISTRY — VERIFIED AGAINST EDITED FINALS",
   "entries": [
     {"id":"CS-009","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk"},
     {"id":"CS-010","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk"},
@@ -14,11 +14,9 @@
     {"id":"CS-018","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk"},
     {"id":"CS-019","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk"},
     {"id":"CS-021","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1QGytSw6nGrvmvM4QCvHWl_y8z0jjYfai/view?usp=drivesdk"},
-    {"id":"CS-022","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk"},
     {"id":"CS-023","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1StYFNrXCKESHl_x9PkNh7HurW9rGiRS-/view?usp=drivesdk"},
     {"id":"CS-024","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1IhKeoDBQahbRUmr1SnFjDiq2bIOzK8vp/view?usp=drivesdk"},
     {"id":"CS-025","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1LavKIYcVKy_REXkbuEPOTFHKK_4_oqrU/view?usp=drivesdk"},
-    {"id":"CS-026","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1U1Lk_9AX5v7Hk_56OZYkSffUKDhMjEmQ/view?usp=drivesdk"},
-    {"id":"CS-027","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1lgOTfyX377FvHEDfsJUVXszbU46ZTtA2/view?usp=drivesdk"}
+    {"id":"CS-026","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1U1Lk_9AX5v7Hk_56OZYkSffUKDhMjEmQ/view?usp=drivesdk"}
   ]
 }

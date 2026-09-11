@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T12:35:49+07:00",
+  "updated_at": "2026-09-11T12:36:19+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -63,7 +63,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-005 — THE PLANET EATER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "STILL PUBLISHED • REEL UNVERIFIED"
+      "publish_status": "STILL PUBLISHED • REEL READY"
     },
     {
       "date": "2026-09-08",
@@ -384,7 +384,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "unverified"
+        "status": "ready"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -504,7 +504,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "published"
+        "status": "published",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -534,7 +537,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -564,7 +570,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1wUe5LVw1iFonQYxRTTRnwlHkrS9VQCuu/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -594,7 +603,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1tFicqcXgttycQv-QjEB42DgWeFtP68fv/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -624,7 +636,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1ygAkcKbd5uJ-9eeXWCzATn3chVUvRRmS/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -654,7 +669,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1AOEjp0HnhMkI9-wklxc8YsK1t5LwLIYN/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -684,7 +702,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/186YPUuOMFQiNoemdgHopxdrPgZIEICon/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -714,7 +735,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1t_YMQWp9zn18lhGogtF6Kvk4TOOhKnOy/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -744,7 +768,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1Fsr19op9zM15VT7r5YkTzuLeIk3ouJH9/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -774,7 +801,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -804,7 +834,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -864,7 +897,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1QGytSw6nGrvmvM4QCvHWl_y8z0jjYfai/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -894,7 +930,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_qa": "FINAL EXISTS — USER CONFIRMED",
+        "media_link_status": "PENDING CORRECT MAPPING"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -924,7 +963,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1StYFNrXCKESHl_x9PkNh7HurW9rGiRS-/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -954,7 +996,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1IhKeoDBQahbRUmr1SnFjDiq2bIOzK8vp/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -984,7 +1029,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1LavKIYcVKy_REXkbuEPOTFHKK_4_oqrU/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1014,7 +1062,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_media_url": "https://drive.google.com/file/d/1U1Lk_9AX5v7Hk_56OZYkSffUKDhMjEmQ/view?usp=drivesdk",
+        "final_qa": "PASS"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1122,7 +1173,7 @@
     "note": "Current controlled-test baseline; not a permanent publishing schedule."
   },
   "production_summary": {
-    "as_of": "2026-09-11T10:02:55+07:00",
+    "as_of": "2026-09-11T12:36:19+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1131,10 +1182,11 @@
       "reel_production": "IN PROGRESS",
       "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
       "today_reel_status": "PUBLISHED",
-      "remaining_reels": "CS-010–CS-028",
-      "remaining_reel_count": 19,
+      "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
+      "remaining_reels": "CS-020, CS-027, CS-028",
+      "remaining_reel_count": 3,
       "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "Still production for the September run is complete. Daily still publishing is caught up through the last due slot. Reel production for the rest of September is not complete."
+    "note": "Still production is complete. September Reel production has 3 unresolved episode(s): CS-020, CS-027, CS-028."
   }
 }

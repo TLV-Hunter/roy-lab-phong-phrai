@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T10:24:00+07:00",
-  "status": "FINAL REEL MEDIA REGISTRY — VERIFIED AGAINST EDITED FINALS",
+  "updated_at": "2026-09-11T12:28:00+07:00",
+  "status": "FINAL REEL MEDIA REGISTRY — VERIFIED / USER-CORRECTED",
   "entries": [
     {"id":"CS-009","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk"},
     {"id":"CS-010","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk"},
@@ -14,6 +14,7 @@
     {"id":"CS-018","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk"},
     {"id":"CS-019","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk"},
     {"id":"CS-021","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1QGytSw6nGrvmvM4QCvHWl_y8z0jjYfai/view?usp=drivesdk"},
+    {"id":"CS-022","status":"READY","qa":"FINAL EXISTS — USER CONFIRMED","media_url":"","media_link_status":"PENDING CORRECT MAPPING","note":"Do not restore the previously rejected CS-022 Drive mapping without visual re-verification."},
     {"id":"CS-023","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1StYFNrXCKESHl_x9PkNh7HurW9rGiRS-/view?usp=drivesdk"},
     {"id":"CS-024","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1IhKeoDBQahbRUmr1SnFjDiq2bIOzK8vp/view?usp=drivesdk"},
     {"id":"CS-025","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1LavKIYcVKy_REXkbuEPOTFHKK_4_oqrU/view?usp=drivesdk"},

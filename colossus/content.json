@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T01:28:18+07:00",
+  "updated_at": "2026-09-11T10:06:50+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -55,7 +55,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-004 — EARTH BETWEEN GODS",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "PUBLISHED"
     },
     {
       "date": "2026-09-07",
@@ -63,7 +63,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-005 — THE PLANET EATER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "STILL PUBLISHED • REEL UNVERIFIED"
     },
     {
       "date": "2026-09-08",
@@ -71,7 +71,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-006 — IT DIDN'T NOTICE US",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "PUBLISHED"
     },
     {
       "date": "2026-09-09",
@@ -79,7 +79,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-007 — THE MOON WAS IN ITS HAND",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "STILL PUBLISHED • REEL READY"
     },
     {
       "date": "2026-09-10",
@@ -87,7 +87,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-008 — THE FIRST SIGNAL WAS A HEARTBEAT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "STILL PUBLISHED • REEL READY"
     },
     {
       "date": "2026-09-11",
@@ -95,7 +95,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-009 — THE SHADOW BEHIND JUPITER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL READY"
     },
     {
       "date": "2026-09-12",
@@ -341,7 +341,7 @@
       "still_caption": "Earth was not the target.\n\nTwo colossal forms crossed the same region of space from opposite directions.\n\nNeither changed course.\n\nEarth was simply between them.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-004",
       "still_pinned": "OBSERVATION NOTE:\n\nNo signal was directed at Earth.\n\nBoth entities appeared to be facing each other.",
       "still": {
-        "status": "ready",
+        "status": "published",
         "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
@@ -354,7 +354,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "published"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -371,7 +371,7 @@
       "still_caption": "We logged it as a dead world.\n\nNo atmosphere. No rotation. No measurable heat.\n\nThen another planet passed too close.\n\nThe surface opened.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-005",
       "still_pinned": "ANALYSIS NOTE:\n\nThe surrounding debris is not orbiting the object.\n\nIt is moving inward.",
       "still": {
-        "status": "ready",
+        "status": "published",
         "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
@@ -384,7 +384,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "unverified"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -401,7 +401,7 @@
       "still_caption": "For hours, it moved past Earth without reacting.\n\nWe thought that meant we were too small to matter.\n\nThen one part of the structure turned.\n\nOnly slightly.\n\nIt was enough.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-006",
       "still_pinned": "TRAJECTORY NOTE:\n\nCourse correction: less than one degree.\n\nNew orientation: Earth.",
       "still": {
-        "status": "ready",
+        "status": "published",
         "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
@@ -414,7 +414,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "published"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -431,7 +431,7 @@
       "still_caption": "The Moon disappeared for eleven seconds.\n\nNot behind a cloud.\nNot behind Earth.\n\nBehind fingers.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-007",
       "still_pinned": "LUNAR NOTE:\n\nThe Moon's orbit remained stable.\n\nWhatever surrounded it matched its motion perfectly.",
       "still": {
-        "status": "ready",
+        "status": "published",
         "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
@@ -444,7 +444,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -461,7 +461,7 @@
       "still_caption": "The signal was never random.\n\nEvery pulse arrived at the same interval.\n\nThen the interval changed.\n\nIt matched a heartbeat.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-008",
       "still_pinned": "SIGNAL NOTE:\n\nThe pulse slowed when Earth moved behind the Moon.\n\nIt accelerated when Earth reappeared.",
       "still": {
-        "status": "ready",
+        "status": "published",
         "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
@@ -474,7 +474,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -504,7 +504,7 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "published"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1120,5 +1120,21 @@
     "linked_still": "20:30",
     "status": "TESTABLE",
     "note": "Current controlled-test baseline; not a permanent publishing schedule."
+  },
+  "production_summary": {
+    "as_of": "2026-09-11T10:02:55+07:00",
+    "september": {
+      "still_production": "COMPLETE",
+      "still_scope": "CS-002–CS-028",
+      "still_master_batch": "CS-004–CS-029 = 26/26 PASS / ARCHIVED",
+      "still_publish_caught_up_through": "2026-09-10",
+      "reel_production": "IN PROGRESS",
+      "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
+      "today_reel_status": "PUBLISHED",
+      "remaining_reels": "CS-010–CS-028",
+      "remaining_reel_count": 19,
+      "season_finale": "CS-029 — 2026-10-01"
+    },
+    "note": "Still production for the September run is complete. Daily still publishing is caught up through the last due slot. Reel production for the rest of September is not complete."
   }
 }

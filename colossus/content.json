@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T12:36:19+07:00",
+  "updated_at": "2026-09-12T23:06:22+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -1095,7 +1095,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_qa": "PASS — V3 FINAL",
+        "media_link_status": "FINAL GENERATED — DRIVE URL PENDING"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1125,7 +1128,10 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting"
+        "status": "ready",
+        "final_exists": true,
+        "final_qa": "PASS — V3 FINAL",
+        "media_link_status": "FINAL GENERATED — DRIVE URL PENDING"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1173,7 +1179,7 @@
     "note": "Current controlled-test baseline; not a permanent publishing schedule."
   },
   "production_summary": {
-    "as_of": "2026-09-11T12:36:19+07:00",
+    "as_of": "2026-09-12T23:06:22+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1183,10 +1189,10 @@
       "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
       "today_reel_status": "PUBLISHED",
       "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
-      "remaining_reels": "CS-020, CS-027, CS-028",
-      "remaining_reel_count": 3,
+      "remaining_reels": "CS-020",
+      "remaining_reel_count": 1,
       "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "Still production is complete. September Reel production has 3 unresolved episode(s): CS-020, CS-027, CS-028."
+    "note": "Still production is complete. September Reel production has 1 unresolved episode(s): CS-020."
   }
 }

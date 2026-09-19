@@ -1,0 +1,19 @@
+name: TalentVee Publisher Cron
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+jobs:
+  trigger-publisher:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger private publisher backend
+        env:
+          PUBLISHER_CRON_ENDPOINT: ${{ secrets.PUBLISHER_CRON_ENDPOINT }}
+          PUBLISHER_CRON_KEY: ${{ secrets.PUBLISHER_CRON_KEY }}
+        run: |
+          if [ -z "$PUBLISHER_CRON_ENDPOINT" ]; then
+            echo "Publisher backend not configured; safe no-op."
+            exit 0
+          fi
+          curl --fail --silent --show-error             -X POST "$PUBLISHER_CRON_ENDPOINT"             -H "Authorization: Bearer $PUBLISHER_CRON_KEY"             -H "Content-Type: application/json"             -d '{"source":"github-actions","action":"publish_due"}'

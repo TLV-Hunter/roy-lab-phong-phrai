@@ -1,0 +1,195 @@
+{
+  "brand": "Mayor Bruno of Willow Creek",
+  "concept": "Cozy Small Town Americana",
+  "target": "US 25-55 • animals • small-town life",
+  "format": "9:16 • 1080x1920 • 10-12s",
+  "imported_clips": [
+    {
+      "id": "MB-001",
+      "title": "Mayor Speech / Town Hall",
+      "job": "Mayor",
+      "source_filename": "24189.mp4",
+      "planned_filename": "mayor_bruno_speech.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 11.97
+    },
+    {
+      "id": "MB-002",
+      "title": "Post Office Morning",
+      "job": "USPS",
+      "source_filename": "24203.mp4",
+      "planned_filename": "bruno_usps_waving.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 12
+    },
+    {
+      "id": "MB-003",
+      "title": "Puppy Classroom Lesson",
+      "job": "Teacher",
+      "source_filename": "24205.mp4",
+      "planned_filename": "puppy_classroom_lesson.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 12
+    },
+    {
+      "id": "MB-005",
+      "title": "Main Street Traffic Duty",
+      "job": "Police",
+      "source_filename": "24239.mp4",
+      "planned_filename": "police_dog_traffic.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 12
+    },
+    {
+      "id": "MB-007",
+      "title": "Willow Creek Auto Repairs",
+      "job": "Mechanic",
+      "source_filename": "24233.mp4",
+      "planned_filename": "mechanic_dog_wrenching.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 12
+    },
+    {
+      "id": "MB-009",
+      "title": "Snow Route Delivery",
+      "job": "Snow Delivery",
+      "source_filename": "24235.mp4",
+      "planned_filename": "image_1.mp4",
+      "status": "LOCAL_READY",
+      "duration_sec": 12
+    }
+  ],
+  "episodes": [
+    {
+      "id": "MB-001",
+      "title": "Mayor Speech",
+      "season": "Season 1",
+      "filename": "mayor_bruno_speech.mp4"
+    },
+    {
+      "id": "MB-002",
+      "title": "Post Office",
+      "season": "Season 1",
+      "filename": "bruno_usps_waving.mp4"
+    },
+    {
+      "id": "MB-003",
+      "title": "Teacher",
+      "season": "Season 1",
+      "filename": "puppy_classroom_lesson.mp4"
+    },
+    {
+      "id": "MB-004",
+      "title": "Parachute Delivery",
+      "season": "Season 1",
+      "filename": "bruno_parachute_delivery.mp4"
+    },
+    {
+      "id": "MB-005",
+      "title": "Police Traffic",
+      "season": "Season 1",
+      "filename": "police_dog_traffic.mp4"
+    },
+    {
+      "id": "MB-006",
+      "title": "Burger Chef",
+      "season": "Season 1",
+      "filename": "chef_dog_flipping_burger.mp4"
+    },
+    {
+      "id": "MB-007",
+      "title": "Mechanic",
+      "season": "Season 1",
+      "filename": "mechanic_dog_wrenching.mp4"
+    },
+    {
+      "id": "MB-008",
+      "title": "Lifeguard",
+      "season": "Season 1",
+      "filename": "lifeguard_bruno_beach.mp4"
+    },
+    {
+      "id": "MB-009",
+      "title": "Snow Route HWY 3",
+      "season": "Season 1",
+      "filename": "image_1.mp4"
+    },
+    {
+      "id": "MB-010",
+      "title": "Town Hall Budget",
+      "season": "Season 1",
+      "filename": "image.mp4"
+    },
+    {
+      "id": "MB-011",
+      "title": "Firefighter",
+      "season": "Season 2",
+      "filename": "image_20260919_225358_1.mp4"
+    },
+    {
+      "id": "MB-012",
+      "title": "Farmer Tractor",
+      "season": "Season 2",
+      "filename": "image_20260919_225358.mp4"
+    },
+    {
+      "id": "MB-013",
+      "title": "Pilot Cessna",
+      "season": "Season 2",
+      "filename": "image_20260919_225609.mp4"
+    },
+    {
+      "id": "MB-014",
+      "title": "Librarian",
+      "season": "Season 2",
+      "filename": "image_20260919_205507_2.mp4"
+    },
+    {
+      "id": "MB-015",
+      "title": "Barista Latte",
+      "season": "Season 2",
+      "filename": "image_20260919_210628.mp4"
+    },
+    {
+      "id": "MB-016",
+      "title": "Construction",
+      "season": "Season 2",
+      "filename": "image_20260919_205507.mp4"
+    },
+    {
+      "id": "MB-017",
+      "title": "Vet",
+      "season": "Season 2",
+      "filename": "image_20260919_205506_1.mp4"
+    },
+    {
+      "id": "MB-018",
+      "title": "Musician Guitar",
+      "season": "Season 2",
+      "filename": "image_20260919_205508_1.mp4"
+    },
+    {
+      "id": "MB-019",
+      "title": "School Bus",
+      "season": "Season 2",
+      "filename": "image_20260919_225400.mp4"
+    },
+    {
+      "id": "MB-020",
+      "title": "Detective Bakery",
+      "season": "Season 2",
+      "filename": "image_20260919_205511.mp4"
+    }
+  ],
+  "character_qa": [
+    "pants",
+    "ONLY 2 hind legs",
+    "2 front paws as arms",
+    "total 4 paws",
+    "thin round glasses",
+    "no watermark",
+    "no glitch"
+  ],
+  "caption_footer": "Imagined with Meta AI. Original story & characters.",
+  "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories"
+}

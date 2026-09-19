@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "note": "Example schema only. Do not store Meta tokens in this file.",
+  "items": [
+    {
+      "queue_id": "example_mb001",
+      "brand": "bruno",
+      "platform": "facebook",
+      "content_type": "reel",
+      "content_id": "MB-001",
+      "scheduled_at": "2026-09-21T00:00:00Z",
+      "timezone": "America/New_York",
+      "media_url": "",
+      "caption": "",
+      "first_comment": "",
+      "auto_publish": false,
+      "status": "draft"
+    }
+  ]
+}

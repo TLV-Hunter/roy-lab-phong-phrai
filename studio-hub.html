@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TalentVee Content Studio Hub</title>
+<style>
+:root{--bg:#071018;--card:#0c1822;--line:#203848;--text:#edf8ff;--muted:#8fa9b9;--cyan:#58d9ff;--cream:#fff8e7;--red:#a33a32;--blue:#4a6fa5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#12314a,#071018 42%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1280px;margin:auto;padding:28px 18px 48px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.eyebrow{color:var(--cyan);font-weight:900;font-size:12px;letter-spacing:.16em}
+h1{font-size:clamp(30px,5vw,58px);margin:8px 0 6px;line-height:1}.lead{color:var(--muted);max-width:780px;line-height:1.65}.btn{display:inline-block;text-decoration:none;color:#fff;border:1px solid #315d77;background:#0b2b3c;padding:10px 13px;border-radius:10px;font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.card{border:1px solid var(--line);background:linear-gradient(180deg,#0d1c27,#09131c);border-radius:18px;padding:20px;min-height:280px;display:flex;flex-direction:column}
+.card.bruno{background:linear-gradient(145deg,#fff8e7,#f5e8cb);color:#3b2a22;border-color:#d4bd99}.tag{font-size:11px;font-weight:900;letter-spacing:.12em;opacity:.72}.card h2{font-size:27px;margin:8px 0}.card p{line-height:1.55;opacity:.82}.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 18px}.fact{border:1px solid rgba(125,160,180,.25);border-radius:11px;padding:9px}.bruno .fact{border-color:#d8c29f}.fact b{display:block;font-size:17px}.fact small{font-size:10px;opacity:.75}.actions{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}.bruno .btn{background:var(--red);border-color:var(--red)}
+.panel{margin-top:18px;border:1px solid var(--line);border-radius:16px;padding:16px;background:#09141e}.status{display:flex;gap:10px;flex-wrap:wrap}.pill{padding:7px 10px;border-radius:999px;border:1px solid #315367;color:#cbeeff;font-size:11px;font-weight:900}.pill.ready{color:#89f0ab}.pill.wait{color:#ffd477}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.card{min-height:230px}}
+</style>
+</head>
+<body><main class="wrap">
+<div class="top"><div><div class="eyebrow">TALENTVEE • MULTI-PAGE CONTENT OPERATIONS</div><h1>Content Studio Hub</h1><div class="lead">แยกแบรนด์ชัดเจน แต่ใช้ระบบงานชุดเดียวกัน: Content Desk → QA → Queue → Publishing → Performance</div></div><a class="btn" href="./publisher.html">UNIFIED PUBLISHER</a></div>
+<section class="grid">
+<article class="card"><div class="tag">PROJECT 01</div><h2>COLOSSUS SIGNAL</h2><p>Cosmic evidence / archive storytelling. ระบบเดิมถูกเก็บไว้ทั้งหมด ไม่ย้ายหรือเขียนทับข้อมูลเดิม.</p><div class="facts"><div class="fact"><b>Existing</b><small>Content Desk</small></div><div class="fact"><b>Preserved</b><small>Current data</small></div></div><div class="actions"><a class="btn" href="./colossus/index.html">OPEN DESK</a><a class="btn" href="./colossus/plan.html">PUBLISHER</a></div></article>
+<article class="card"><div class="tag">PROJECT 02</div><h2>RLS — THE HIDDEN FOREST</h2><p>Evidence-first forest archive. ใช้ Content Desk เดิม และ Daily Publishing Queue เดิมร่วมกับระบบกลาง.</p><div class="facts"><div class="fact"><b>RLS</b><small>Campaign selector</small></div><div class="fact"><b>Queue</b><small>Daily publishing</small></div></div><div class="actions"><a class="btn" href="./colossus/index.html">OPEN DESK</a><a class="btn" href="./colossus/rls-daily-queue.html">DAILY QUEUE</a></div></article>
+<article class="card bruno"><div class="tag">PROJECT 03</div><h2>Mayor Bruno</h2><p>Cozy Small Town Americana — Golden Retriever mayor of Willow Creek. ใช้ระบบแยกข้อมูลและคิวโพสต์จากสองโปรเจกต์แรก.</p><div class="facts"><div class="fact"><b>20</b><small>Episode library</small></div><div class="fact"><b>6</b><small>New clips imported</small></div></div><div class="actions"><a class="btn" href="./mayor-bruno/">OPEN BRUNO DESK</a><a class="btn" href="./publisher.html?brand=bruno">QUEUE POSTS</a></div></article>
+</section>
+<section class="panel"><b>Automation layer</b><p class="lead">เว็บรองรับ queue schema, schedule time, caption, first comment, media URL และ auto-publish flag แล้ว การยิง Facebook จริงจะผ่าน backend endpoint/Meta token ที่เก็บเป็น secret เท่านั้น ไม่เก็บ token ใน GitHub Pages.</p><div class="status"><span class="pill ready">UI READY</span><span class="pill ready">QUEUE READY</span><span class="pill ready">CRON HOOK READY</span><span class="pill wait">META BACKEND: NOT CONNECTED</span></div></section>
+</main></body></html>

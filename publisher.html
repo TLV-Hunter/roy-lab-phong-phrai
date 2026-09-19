@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TalentVee Unified Publisher</title>
+<style>
+:root{--bg:#071018;--panel:#0b1822;--line:#244052;--text:#edf8ff;--muted:#91aabd;--cyan:#58d9ff;--green:#76efa2;--amber:#ffd477;--red:#ff9aa8}
+*{box-sizing:border-box}body{margin:0;background:#071018;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{max-width:1440px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}.btn{background:#0b3042;color:#eaffff;border:1px solid #2e617b;border-radius:9px;padding:9px 11px;text-decoration:none;font-weight:900;cursor:pointer}.btn.primary{background:#18506a}.panel{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:14px}.status{display:flex;gap:7px;flex-wrap:wrap}.pill{border:1px solid #315467;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900}.green{color:var(--green)}.amber{color:var(--amber)}.red{color:var(--red)}
+.form{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.field{display:flex;flex-direction:column;gap:5px}.field.span2{grid-column:span 2}.field.span4{grid-column:1/-1}label{font-size:10px;color:#acd7e8;font-weight:900}input,select,textarea{background:#061119;border:1px solid #294a5e;color:white;border-radius:8px;padding:9px}textarea{min-height:90px;resize:vertical}.check{display:flex;align-items:center;gap:8px;padding:8px 0}.check input{width:18px;height:18px}
+.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:1100px}th,td{font-size:11px;text-align:left;padding:9px;border-bottom:1px solid #1f3949}th{color:#aadcf0}.muted{color:var(--muted)}.empty{padding:30px;text-align:center;color:var(--muted)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+@media(max-width:900px){.form{grid-template-columns:1fr}.field.span2,.field.span4{grid-column:auto}.btn{flex:1;text-align:center}}
+</style></head><body><main class="wrap">
+<div class="top"><div><b style="font-size:21px">TALENTVEE — UNIFIED PUBLISHER</b><div class="muted">COLOSSUS • RLS • MAYOR BRUNO</div></div><div><a class="btn" href="./studio-hub.html">STUDIO HUB</a></div></div>
+<section class="panel"><div class="status"><span class="pill green">QUEUE UI READY</span><span class="pill green">JSON EXPORT READY</span><span class="pill green">API ADAPTER READY</span><span class="pill amber">SERVER SCHEDULER: CONFIG REQUIRED</span><span class="pill red">META TOKEN: NEVER STORED HERE</span></div></section>
+<section class="panel"><div class="form">
+<div class="field"><label>BRAND</label><select id="brand"><option value="colossus">COLOSSUS SIGNAL</option><option value="rls">RLS — THE HIDDEN FOREST</option><option value="bruno">Mayor Bruno</option></select></div>
+<div class="field"><label>PLATFORM</label><select id="platform"><option>facebook</option></select></div>
+<div class="field"><label>CONTENT TYPE</label><select id="type"><option value="reel">Reel</option><option value="photo">Photo</option><option value="post">Post</option></select></div>
+<div class="field"><label>STATUS</label><select id="status"><option value="draft">draft</option><option value="ready">ready</option><option value="scheduled">scheduled</option></select></div>
+<div class="field span2"><label>SCHEDULE DATE/TIME (local browser time)</label><input id="scheduled" type="datetime-local"></div>
+<div class="field span2"><label>MEDIA URL (Drive/CDN/public URL)</label><input id="media" placeholder="https://..."></div>
+<div class="field span4"><label>CAPTION</label><textarea id="caption"></textarea></div>
+<div class="field span4"><label>FIRST / PINNED COMMENT</label><textarea id="comment"></textarea></div>
+<div class="field span2"><label>CONTENT ID / EPISODE</label><input id="contentId" placeholder="MB-001 / CS-020 / RLS-004"></div>
+<div class="field span2"><label>BACKEND PUBLISHER API URL (optional)</label><input id="endpoint" placeholder="https://your-worker.example/publish"></div>
+<div class="field span4"><label class="check"><input id="auto" type="checkbox"> Auto-publish when backend scheduler is connected</label></div>
+</div><div class="toolbar"><button class="btn primary" id="save">ADD TO QUEUE</button><button class="btn" id="export">EXPORT JSON</button><button class="btn" id="runDue">SEND DUE NOW</button><button class="btn" id="clear">CLEAR QUEUE</button></div>
+<div class="muted" style="margin-top:10px">Static GitHub Pages เก็บ queue ในเบราว์เซอร์ได้ แต่ไม่สามารถตื่นขึ้นมาโพสต์เองเมื่อปิดเว็บ. Cron hook ใน repo จะเรียก backend endpoint ภายหลังเมื่อกำหนด secret แล้ว.</div></section>
+<section class="panel"><div class="tablewrap"><table><thead><tr><th>BRAND</th><th>ID</th><th>TYPE</th><th>SCHEDULE</th><th>AUTO</th><th>STATUS</th><th>MEDIA</th><th>ACTION</th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty">Queue ยังว่าง</div></div></section>
+</main>
+<script>
+var KEY='talentvee_publish_queue_v1',ENDKEY='talentvee_publisher_endpoint_v1';
+var q=JSON.parse(localStorage.getItem(KEY)||'[]');var params=new URLSearchParams(location.search);if(params.get('brand'))document.getElementById('brand').value=params.get('brand');
+document.getElementById('endpoint').value=localStorage.getItem(ENDKEY)||'';
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]})}
+function saveStore(){localStorage.setItem(KEY,JSON.stringify(q));localStorage.setItem(ENDKEY,document.getElementById('endpoint').value.trim());draw()}
+function draw(){var rows=document.getElementById('rows'),empty=document.getElementById('empty');empty.style.display=q.length?'none':'block';rows.innerHTML=q.slice().sort(function(a,b){return String(a.scheduled_at).localeCompare(String(b.scheduled_at))}).map(function(x){return '<tr><td>'+esc(x.brand)+'</td><td><b>'+esc(x.content_id)+'</b></td><td>'+esc(x.content_type)+'</td><td>'+esc(x.scheduled_at)+'</td><td class="'+(x.auto_publish?'green':'muted')+'">'+(x.auto_publish?'ON':'OFF')+'</td><td>'+esc(x.status)+'</td><td>'+(x.media_url?'<span class="green">LINKED</span>':'<span class="amber">MISSING</span>')+'</td><td><button class="btn" onclick="removeItem(\''+x.queue_id+'\')">DELETE</button></td></tr>'}).join('')}
+window.removeItem=function(id){q=q.filter(function(x){return x.queue_id!==id});saveStore()}
+document.getElementById('save').onclick=function(){var dt=document.getElementById('scheduled').value;if(!dt){alert('ใส่เวลาโพสต์ก่อน');return}var item={queue_id:'q_'+Date.now(),brand:document.getElementById('brand').value,platform:document.getElementById('platform').value,content_type:document.getElementById('type').value,status:document.getElementById('status').value,scheduled_at:new Date(dt).toISOString(),timezone:Intl.DateTimeFormat().resolvedOptions().timeZone,content_id:document.getElementById('contentId').value.trim(),media_url:document.getElementById('media').value.trim(),caption:document.getElementById('caption').value,first_comment:document.getElementById('comment').value,auto_publish:document.getElementById('auto').checked};q.push(item);saveStore()}
+document.getElementById('export').onclick=function(){var blob=new Blob([JSON.stringify({version:1,exported_at:new Date().toISOString(),queue:q},null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='talentvee-publish-queue.json';a.click();URL.revokeObjectURL(a.href)}
+document.getElementById('clear').onclick=function(){if(confirm('ล้าง queue ทั้งหมด?')){q=[];saveStore()}}
+document.getElementById('runDue').onclick=async function(){var ep=document.getElementById('endpoint').value.trim();if(!ep){alert('ยังไม่ได้เชื่อม Publisher API URL');return}saveStore();var now=Date.now(),due=q.filter(function(x){return x.auto_publish&&x.status!=='published'&&new Date(x.scheduled_at).getTime()<=now});if(!due.length){alert('ไม่มีรายการที่ถึงเวลา');return}for(var i=0;i<due.length;i++){try{var r=await fetch(ep,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(due[i])});if(!r.ok)throw new Error('HTTP '+r.status);due[i].status='sent_to_backend';due[i].last_attempt_at=new Date().toISOString()}catch(e){due[i].status='backend_error';due[i].error=String(e)}}saveStore()}
+draw();
+</script></body></html>

@@ -262,7 +262,9 @@
       "csv_title": "Mayor Inauguration",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-001.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-002",
@@ -280,7 +282,9 @@
       "csv_title": "USPS Waving Main Street",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-002.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-003",
@@ -298,7 +302,9 @@
       "csv_title": "Teacher Bruno",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-003.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-004",
@@ -316,7 +322,9 @@
       "csv_title": "Parachute Delivery Alaska",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-004.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-005",
@@ -334,7 +342,9 @@
       "csv_title": "Officer Bruno Traffic",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-005.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-006",
@@ -353,7 +363,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-006.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-007",
@@ -371,7 +382,9 @@
       "csv_title": "Mechanic Bruno Garage",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
       "web_preview_url": "../mayor-bruno/videos/MB-007.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "duration_sec": 12,
+      "data_complete": true
     },
     {
       "id": "MB-008",
@@ -383,7 +396,8 @@
       "caption": "Beach patrol Willow Lake. Whistle on sunglasses on paws in sand. No running by water — unless it's for ice cream. Imagined with Meta AI. #LifeguardBruno",
       "first_comment": "Bruno's rescue technique: swim fast bark loud bring floatie. Lake is safe today. Next: snow run on HWY 3.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "data_complete": false
     },
     {
       "id": "MB-009",
@@ -402,7 +416,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-009.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-010",
@@ -421,7 +436,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-010.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-011",
@@ -440,7 +456,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-011.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-012",
@@ -452,7 +469,8 @@
       "caption": "Sunrise on Willow Creek Farm. Corn is high coffee is hot. Morning chores start early here. Imagined with Meta AI. #FarmerBruno",
       "first_comment": "He drives tractor slow so crows can keep up. Next: flight over town.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "data_complete": false
     },
     {
       "id": "MB-013",
@@ -464,7 +482,8 @@
       "caption": "Alaska run today. When roads close Willow Creek mail still flies. 12 miles over HWY 3 -20F whiteout below. One town one promise: mail gets through. Imagined with Meta AI. #PilotBruno #AirMail",
       "first_comment": "Cruising smoothly over Willow Creek now. This package is for ranger station — trucks couldn't make it so Bruno did. Next: library duty as Librarian Bruno.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "data_complete": false
     },
     {
       "id": "MB-014",
@@ -483,7 +502,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-014.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-015",
@@ -502,7 +522,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-015.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-016",
@@ -521,7 +542,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-016.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-017",
@@ -540,7 +562,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-017.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-018",
@@ -559,7 +582,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-018.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     },
     {
       "id": "MB-019",
@@ -571,7 +595,8 @@
       "caption": "Morning kids! Watch your step now. Ducks cross first then pups. Safety first tail wags second. Imagined with Meta AI. #BusDriverBruno",
       "first_comment": "50 backpacks 50 names 50 high-fives at door. Safety first tail wags second. Last case: detective.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "data_complete": false
     },
     {
       "id": "MB-020",
@@ -590,7 +615,8 @@
       "visual_qa": "VISUAL_MATCHED",
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-020.mp4",
-      "web_preview_status": "GITHUB_PAGES_READY"
+      "web_preview_status": "GITHUB_PAGES_READY",
+      "data_complete": true
     }
   ],
   "character_qa": [
@@ -745,5 +771,23 @@
       "MB-019"
     ],
     "note": "Compressed 960px web previews are stored directly in GitHub Pages for reliable playback. Original Drive media remains available for publishing."
+  },
+  "data_audit": {
+    "as_of": "2026-09-21",
+    "total_episodes": 20,
+    "captions_complete": 20,
+    "first_comments_complete": 20,
+    "copy_qa_pass": 20,
+    "source_files_linked": 16,
+    "original_media_linked": 16,
+    "web_previews_ready": 16,
+    "visual_qa_present": 16,
+    "durations_present": 16,
+    "missing_video_episode_ids": [
+      "MB-008",
+      "MB-012",
+      "MB-013",
+      "MB-019"
+    ]
   }
 }

@@ -30,6 +30,21 @@
 var KEY='talentvee_publish_queue_v1',ENDKEY='talentvee_publisher_endpoint_v1';
 var q=JSON.parse(localStorage.getItem(KEY)||'[]');var params=new URLSearchParams(location.search);if(params.get('brand'))document.getElementById('brand').value=params.get('brand');
 document.getElementById('endpoint').value=localStorage.getItem(ENDKEY)||'';
+async function prefillFromContent(){
+  var brand=params.get('brand'),content=params.get('content');
+  if(brand!=='bruno'||!content)return;
+  try{
+    var r=await fetch('./mayor-bruno/content.json?v='+Date.now());if(!r.ok)return;
+    var d=await r.json(),e=(d.episodes||[]).find(function(x){return x.id===content});if(!e)return;
+    document.getElementById('contentId').value=e.id||'';
+    document.getElementById('media').value=e.media_url||'';
+    document.getElementById('caption').value=e.caption||'';
+    document.getElementById('comment').value=e.first_comment||'';
+    document.getElementById('type').value='reel';
+    document.getElementById('status').value=(e.media_url&&e.copy_qa==='PASS')?'ready':'draft';
+  }catch(e){}
+}
+prefillFromContent();
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]})}
 function saveStore(){localStorage.setItem(KEY,JSON.stringify(q));localStorage.setItem(ENDKEY,document.getElementById('endpoint').value.trim());draw()}
 function draw(){var rows=document.getElementById('rows'),empty=document.getElementById('empty');empty.style.display=q.length?'none':'block';rows.innerHTML=q.slice().sort(function(a,b){return String(a.scheduled_at).localeCompare(String(b.scheduled_at))}).map(function(x){return '<tr><td>'+esc(x.brand)+'</td><td><b>'+esc(x.content_id)+'</b></td><td>'+esc(x.content_type)+'</td><td>'+esc(x.scheduled_at)+'</td><td class="'+(x.auto_publish?'green':'muted')+'">'+(x.auto_publish?'ON':'OFF')+'</td><td>'+esc(x.status)+'</td><td>'+(x.media_url?'<span class="green">LINKED</span>':'<span class="amber">MISSING</span>')+'</td><td><button class="btn" onclick="removeItem(\''+x.queue_id+'\')">DELETE</button></td></tr>'}).join('')}

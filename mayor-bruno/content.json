@@ -81,6 +81,136 @@
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 6
+    },
+    {
+      "id": "MB-006",
+      "title": "Burger Chef",
+      "job": "Chef",
+      "source_filename": "24271.mp4",
+      "planned_filename": "chef_dog_flipping_burger.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1skU75NqUgb0YjxhMfMiukJ6CknY2FKte/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 7
+    },
+    {
+      "id": "MB-009",
+      "title": "Snow Route HWY 3",
+      "job": "Snow Route",
+      "source_filename": "24272.mp4",
+      "planned_filename": "image_1.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1KgWoczryxXgV8BLBAfEtuW1le7S9RJne/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 9
+    },
+    {
+      "id": "MB-010",
+      "title": "Town Hall Budget",
+      "job": "Town Hall",
+      "source_filename": "24276.mp4",
+      "planned_filename": "image.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/15Sr2J9vpuSqq6bk47g05ZrXxo6y5MtLP/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 10
+    },
+    {
+      "id": "MB-011",
+      "title": "Firefighter",
+      "job": "Firefighter",
+      "source_filename": "24280.mp4",
+      "planned_filename": "image_20260919_225358_1.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1jnGCP-_ZtIum0ZbzqeKZMKTZGXDvAMuE/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 11
+    },
+    {
+      "id": "MB-014",
+      "title": "Librarian",
+      "job": "Librarian",
+      "source_filename": "24278.mp4",
+      "planned_filename": "image_20260919_205507_2.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1VvZCEDKmGv8r_lDtMjTJDW8KrhAgDOCP/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 14
+    },
+    {
+      "id": "MB-015",
+      "title": "Barista Latte",
+      "job": "Barista",
+      "source_filename": "24282.mp4",
+      "planned_filename": "image_20260919_210628.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1xr_0HYaOQbESurJg3GBQrlLlAgsR_8af/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 15
+    },
+    {
+      "id": "MB-016",
+      "title": "Construction",
+      "job": "Construction",
+      "source_filename": "24274.mp4",
+      "planned_filename": "image_20260919_205507.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/12jLQTB1tm_f_oBNUksKjsBioLII6yARf/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 16
+    },
+    {
+      "id": "MB-017",
+      "title": "Vet",
+      "job": "Vet",
+      "source_filename": "24273.mp4",
+      "planned_filename": "image_20260919_205506_1.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1D4iTVKNeBQ17gRT415VBYtpVy1Lu0DE-/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 17
+    },
+    {
+      "id": "MB-018",
+      "title": "Musician Guitar",
+      "job": "Musician",
+      "source_filename": "24279.mp4",
+      "planned_filename": "image_20260919_205508_1.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1UJybAQetghCT0dUewkfs66rPnrBP_GxG/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 18
+    },
+    {
+      "id": "MB-020",
+      "title": "Detective Bakery",
+      "job": "Detective",
+      "source_filename": "24281.mp4",
+      "planned_filename": "image_20260919_205511.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1C9xwQnlkmuKsJ1Q5U6kNzlS1Ym0nCB4y/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 20
     }
   ],
   "episodes": [
@@ -174,7 +304,12 @@
       "caption": "Lunch duty at Willow Creek Diner. One paw on spatula one eye on fries. Today's special: Extra cheese extra tail wags. Imagined with Meta AI. #ChefBruno",
       "first_comment": "He flips with style but never forgets pickles. Best burger on Main Street. Next: Miller's Garage.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24271.mp4",
+      "media_url": "https://drive.google.com/file/d/1skU75NqUgb0YjxhMfMiukJ6CknY2FKte/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-007",
@@ -214,7 +349,12 @@
       "caption": "HWY 3 whiteout -20F. Mail doesn't wait for weather. 12 miles through snow — Willow Creek still gets its mail. Imagined with Meta AI. #SnowDay #AlaskaHWY",
       "first_comment": "This was the run that got him elected. He says cold paws warm heart. Final post of Season 1: back at Town Hall.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24272.mp4",
+      "media_url": "https://drive.google.com/file/d/1KgWoczryxXgV8BLBAfEtuW1le7S9RJne/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-010",
@@ -226,7 +366,12 @@
       "caption": "Town Hall budget day. Every dollar counted every treat accounted for. Mayor Bruno makes sure Willow Creek runs on time and on budget. Imagined with Meta AI. #MayorBruno #TownHall",
       "first_comment": "Season 1 done — 10 jobs 1 town 1 good dog. Which job should Bruno try in Season 2? Firefighter farmer or pilot?",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24276.mp4",
+      "media_url": "https://drive.google.com/file/d/15Sr2J9vpuSqq6bk47g05ZrXxo6y5MtLP/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-011",
@@ -238,7 +383,12 @@
       "caption": "Slide down hose ready. Fire Station 12 Willow Creek. Ready for duty. Imagined with Meta AI. #FirefighterBruno",
       "first_comment": "Engine 12 is always ready. The pole is his favorite part. Next: morning shift at farm.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24280.mp4",
+      "media_url": "https://drive.google.com/file/d/1jnGCP-_ZtIum0ZbzqeKZMKTZGXDvAMuE/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-012",
@@ -274,7 +424,12 @@
       "caption": "Just placing new arrivals back on shelf. Quiet please. Cozy corner warm light. Imagined with Meta AI. #LibrarianBruno",
       "first_comment": "The kids section is his favorite. He reads with paws and heart. Next: latte art.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24278.mp4",
+      "media_url": "https://drive.google.com/file/d/1VvZCEDKmGv8r_lDtMjTJDW8KrhAgDOCP/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-015",
@@ -286,7 +441,12 @@
       "caption": "Morning brew leaf rosetta on top. One paw pour. Extra foam for extra tail wags. Imagined with Meta AI. #BaristaBruno",
       "first_comment": "There we go. He says good coffee is like good town — warm and made with care. Next: blueprint duty.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24282.mp4",
+      "media_url": "https://drive.google.com/file/d/1xr_0HYaOQbESurJg3GBQrlLlAgsR_8af/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-016",
@@ -298,7 +458,12 @@
       "caption": "Looks like we're right on schedule. New porch for Town Hall. Supervisor Bruno checks every beam. Imagined with Meta AI. #BuilderBruno",
       "first_comment": "That porch will hold 50 pups at once. He measured it with his tail. Next: vet clinic.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24274.mp4",
+      "media_url": "https://drive.google.com/file/d/12jLQTB1tm_f_oBNUksKjsBioLII6yARf/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-017",
@@ -310,7 +475,12 @@
       "caption": "There we go little one you're doing great. Just a quick check. Dr. Bruno DVM on duty. Imagined with Meta AI. #VetBruno",
       "first_comment": "Bravest pup award today. He gives sticker that says I was good. Next: town square concert.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24273.mp4",
+      "media_url": "https://drive.google.com/file/d/1D4iTVKNeBQ17gRT415VBYtpVy1Lu0DE-/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-018",
@@ -322,7 +492,12 @@
       "caption": "Yeah this is the place where I feel alive tonight. Willow Square live. Part 1-10 of 10 — 100 second folk set. Well it's another evening here in our little town... Imagined with Meta AI. #MusicianBruno",
       "first_comment": "Part 1/10 Intro: Well it's another evening here in our little town... Same song same guitar 10 parts continuous. Follow for Part 2. Breakdown: P1 Intro P2 Verse1 P3 Verse2 P4 Chorus1 P5 Verse3 P6 Chorus2 P7 Bridge P8 Solo P9 Final Chorus P10 Outro.",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24279.mp4",
+      "media_url": "https://drive.google.com/file/d/1UJybAQetghCT0dUewkfs66rPnrBP_GxG/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     },
     {
       "id": "MB-019",
@@ -346,7 +521,12 @@
       "caption": "Hmm... these crumbs don't match the usual chocolate chip pattern. Noir but cute at Willow Creek Bakery. Imagined with Meta AI. #DetectiveBruno #CookieMystery",
       "first_comment": "Case of missing cookie — solved by sniffing. Turns out it was baker's pup. Season 2 done. What job next for Season 3?",
       "copy_qa": "PASS",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "source_filename": "24281.mp4",
+      "media_url": "https://drive.google.com/file/d/1C9xwQnlkmuKsJ1Q5U6kNzlS1Ym0nCB4y/view",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "VISUAL_MATCHED",
+      "duration_sec": 12
     }
   ],
   "character_qa": [
@@ -361,7 +541,7 @@
   "caption_footer": "Imagined with Meta AI. Original story & characters.",
   "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
   "last_updated": "2026-09-20",
-  "update_note": "Imported all 20 captions and pinned first comments from user CSV. Preserved corrected publish order: 1 Mayor, 2 Post Office, 3 Teacher, 4 Mechanic, 5 Traffic, 6 Parachute Delivery, then original sequence.",
+  "update_note": "Added 10 newly uploaded clips to Google Drive and linked them to Mayor Bruno episodes. Total media-linked episodes should now be 16/20.",
   "published_sequence": [
     {
       "order": 1,

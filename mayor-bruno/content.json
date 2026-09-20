@@ -15,7 +15,9 @@
       "media_url": "https://drive.google.com/file/d/1Uroja1kVR4zg2SO_aA8NjCM_TKBrFY-7/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 1
+      "publish_order": 1,
+      "web_preview_url": "../mayor-bruno/videos/MB-001.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-002",
@@ -28,7 +30,9 @@
       "media_url": "https://drive.google.com/file/d/1a8laqm21EcPPvQZNLXzWZv0inF3fm4xF/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 2
+      "publish_order": 2,
+      "web_preview_url": "../mayor-bruno/videos/MB-002.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-003",
@@ -41,7 +45,9 @@
       "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 3
+      "publish_order": 3,
+      "web_preview_url": "../mayor-bruno/videos/MB-003.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-007",
@@ -54,7 +60,9 @@
       "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 4
+      "publish_order": 4,
+      "web_preview_url": "../mayor-bruno/videos/MB-007.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-005",
@@ -67,7 +75,9 @@
       "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 5
+      "publish_order": 5,
+      "web_preview_url": "../mayor-bruno/videos/MB-005.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-004",
@@ -80,7 +90,9 @@
       "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
       "copy_qa": "PASS",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 6
+      "publish_order": 6,
+      "web_preview_url": "../mayor-bruno/videos/MB-004.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-006",
@@ -93,7 +105,9 @@
       "media_url": "https://drive.google.com/file/d/1skU75NqUgb0YjxhMfMiukJ6CknY2FKte/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 7
+      "publish_order": 7,
+      "web_preview_url": "../mayor-bruno/videos/MB-006.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-009",
@@ -106,7 +120,9 @@
       "media_url": "https://drive.google.com/file/d/1KgWoczryxXgV8BLBAfEtuW1le7S9RJne/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 9
+      "publish_order": 9,
+      "web_preview_url": "../mayor-bruno/videos/MB-009.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-010",
@@ -119,7 +135,9 @@
       "media_url": "https://drive.google.com/file/d/15Sr2J9vpuSqq6bk47g05ZrXxo6y5MtLP/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 10
+      "publish_order": 10,
+      "web_preview_url": "../mayor-bruno/videos/MB-010.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-011",
@@ -132,7 +150,9 @@
       "media_url": "https://drive.google.com/file/d/1jnGCP-_ZtIum0ZbzqeKZMKTZGXDvAMuE/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 11
+      "publish_order": 11,
+      "web_preview_url": "../mayor-bruno/videos/MB-011.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-014",
@@ -145,7 +165,9 @@
       "media_url": "https://drive.google.com/file/d/1VvZCEDKmGv8r_lDtMjTJDW8KrhAgDOCP/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 14
+      "publish_order": 14,
+      "web_preview_url": "../mayor-bruno/videos/MB-014.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-015",
@@ -158,7 +180,9 @@
       "media_url": "https://drive.google.com/file/d/1xr_0HYaOQbESurJg3GBQrlLlAgsR_8af/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 15
+      "publish_order": 15,
+      "web_preview_url": "../mayor-bruno/videos/MB-015.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-016",
@@ -171,7 +195,9 @@
       "media_url": "https://drive.google.com/file/d/12jLQTB1tm_f_oBNUksKjsBioLII6yARf/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 16
+      "publish_order": 16,
+      "web_preview_url": "../mayor-bruno/videos/MB-016.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-017",
@@ -184,7 +210,9 @@
       "media_url": "https://drive.google.com/file/d/1D4iTVKNeBQ17gRT415VBYtpVy1Lu0DE-/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 17
+      "publish_order": 17,
+      "web_preview_url": "../mayor-bruno/videos/MB-017.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-018",
@@ -197,7 +225,9 @@
       "media_url": "https://drive.google.com/file/d/1UJybAQetghCT0dUewkfs66rPnrBP_GxG/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 18
+      "publish_order": 18,
+      "web_preview_url": "../mayor-bruno/videos/MB-018.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-020",
@@ -210,7 +240,9 @@
       "media_url": "https://drive.google.com/file/d/1C9xwQnlkmuKsJ1Q5U6kNzlS1Ym0nCB4y/view",
       "copy_qa": "PASS",
       "visual_qa": "VISUAL_MATCHED",
-      "publish_order": 20
+      "publish_order": 20,
+      "web_preview_url": "../mayor-bruno/videos/MB-020.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     }
   ],
   "episodes": [
@@ -228,7 +260,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 1,
       "csv_title": "Mayor Inauguration",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-001.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-002",
@@ -244,7 +278,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 2,
       "csv_title": "USPS Waving Main Street",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-002.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-003",
@@ -260,7 +296,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 3,
       "csv_title": "Teacher Bruno",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-003.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-004",
@@ -276,7 +314,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 6,
       "csv_title": "Parachute Delivery Alaska",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-004.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-005",
@@ -292,7 +332,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 5,
       "csv_title": "Officer Bruno Traffic",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-005.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-006",
@@ -309,7 +351,9 @@
       "media_url": "https://drive.google.com/file/d/1skU75NqUgb0YjxhMfMiukJ6CknY2FKte/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-006.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-007",
@@ -325,7 +369,9 @@
       "visual_qa": "PENDING_FULL_REVIEW",
       "publish_order": 4,
       "csv_title": "Mechanic Bruno Garage",
-      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
+      "web_preview_url": "../mayor-bruno/videos/MB-007.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-008",
@@ -354,7 +400,9 @@
       "media_url": "https://drive.google.com/file/d/1KgWoczryxXgV8BLBAfEtuW1le7S9RJne/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-009.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-010",
@@ -371,7 +419,9 @@
       "media_url": "https://drive.google.com/file/d/15Sr2J9vpuSqq6bk47g05ZrXxo6y5MtLP/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-010.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-011",
@@ -388,7 +438,9 @@
       "media_url": "https://drive.google.com/file/d/1jnGCP-_ZtIum0ZbzqeKZMKTZGXDvAMuE/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-011.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-012",
@@ -429,7 +481,9 @@
       "media_url": "https://drive.google.com/file/d/1VvZCEDKmGv8r_lDtMjTJDW8KrhAgDOCP/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-014.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-015",
@@ -446,7 +500,9 @@
       "media_url": "https://drive.google.com/file/d/1xr_0HYaOQbESurJg3GBQrlLlAgsR_8af/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-015.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-016",
@@ -463,7 +519,9 @@
       "media_url": "https://drive.google.com/file/d/12jLQTB1tm_f_oBNUksKjsBioLII6yARf/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-016.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-017",
@@ -480,7 +538,9 @@
       "media_url": "https://drive.google.com/file/d/1D4iTVKNeBQ17gRT415VBYtpVy1Lu0DE-/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-017.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-018",
@@ -497,7 +557,9 @@
       "media_url": "https://drive.google.com/file/d/1UJybAQetghCT0dUewkfs66rPnrBP_GxG/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-018.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
       "id": "MB-019",
@@ -526,7 +588,9 @@
       "media_url": "https://drive.google.com/file/d/1C9xwQnlkmuKsJ1Q5U6kNzlS1Ym0nCB4y/view",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "VISUAL_MATCHED",
-      "duration_sec": 12
+      "duration_sec": 12,
+      "web_preview_url": "../mayor-bruno/videos/MB-020.mp4",
+      "web_preview_status": "GITHUB_PAGES_READY"
     }
   ],
   "character_qa": [
@@ -670,5 +734,16 @@
     "matched_episodes": 20,
     "imported_at": "2026-09-20",
     "status": "COMPLETE"
+  },
+  "web_preview_summary": {
+    "ready_count": 16,
+    "total_episodes": 20,
+    "missing": [
+      "MB-008",
+      "MB-012",
+      "MB-013",
+      "MB-019"
+    ],
+    "note": "Compressed 960px web previews are stored directly in GitHub Pages for reliable playback. Original Drive media remains available for publishing."
   }
 }

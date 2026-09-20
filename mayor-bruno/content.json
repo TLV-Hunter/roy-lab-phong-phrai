@@ -10,8 +10,11 @@
       "job": "Mayor",
       "source_filename": "24189.mp4",
       "planned_filename": "mayor_bruno_speech.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 11.97
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1Uroja1kVR4zg2SO_aA8NjCM_TKBrFY-7/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-002",
@@ -19,8 +22,11 @@
       "job": "USPS",
       "source_filename": "24203.mp4",
       "planned_filename": "bruno_usps_waving.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 12
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1a8laqm21EcPPvQZNLXzWZv0inF3fm4xF/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-003",
@@ -28,8 +34,23 @@
       "job": "Teacher",
       "source_filename": "24205.mp4",
       "planned_filename": "puppy_classroom_lesson.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 12
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
+    },
+    {
+      "id": "MB-004",
+      "title": "Parachute Delivery",
+      "job": "Parachute Delivery",
+      "source_filename": "24235.mp4",
+      "planned_filename": "bruno_parachute_delivery.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-005",
@@ -37,8 +58,11 @@
       "job": "Police",
       "source_filename": "24239.mp4",
       "planned_filename": "police_dog_traffic.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 12
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-007",
@@ -46,17 +70,11 @@
       "job": "Mechanic",
       "source_filename": "24233.mp4",
       "planned_filename": "mechanic_dog_wrenching.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 12
-    },
-    {
-      "id": "MB-009",
-      "title": "Snow Route Delivery",
-      "job": "Snow Delivery",
-      "source_filename": "24235.mp4",
-      "planned_filename": "image_1.mp4",
-      "status": "LOCAL_READY",
-      "duration_sec": 12
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW"
     }
   ],
   "episodes": [
@@ -64,31 +82,66 @@
       "id": "MB-001",
       "title": "Mayor Speech",
       "season": "Season 1",
-      "filename": "mayor_bruno_speech.mp4"
+      "filename": "mayor_bruno_speech.mp4",
+      "media_url": "https://drive.google.com/file/d/1Uroja1kVR4zg2SO_aA8NjCM_TKBrFY-7/view",
+      "source_filename": "24189.mp4",
+      "caption": "Willow Creek elected a mayor who still shows up for the morning briefing. 🏛️🐾\nMayor Bruno’s first rule: if the town needs help, he shows up himself.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "Bruno won the election because he knew every street, every shop, and nearly every name in town. Next stop: the Post Office. 📮",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-002",
       "title": "Post Office",
       "season": "Season 1",
-      "filename": "bruno_usps_waving.mp4"
+      "filename": "bruno_usps_waving.mp4",
+      "media_url": "https://drive.google.com/file/d/1a8laqm21EcPPvQZNLXzWZv0inF3fm4xF/view",
+      "source_filename": "24203.mp4",
+      "caption": "Willow Creek’s mayor still works the 8AM mail route. 📮🐾\nBruno says nobody should wait on a package just because City Hall is busy.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "Bruno has walked this route so many times he knows which porch squeaks before he steps on it. Next: morning class at Willow Creek School. 📚",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-003",
       "title": "Teacher",
       "season": "Season 1",
-      "filename": "puppy_classroom_lesson.mp4"
+      "filename": "puppy_classroom_lesson.mp4",
+      "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
+      "source_filename": "24205.mp4",
+      "caption": "Mayor at 8. Teacher by 10. 📚🐾\nBruno’s lesson today: be kind, be helpful, stay curious.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "The puppies call him Mayor Bruno in the hallway and Mr. Bruno once class starts. Next assignment: a delivery too far for the mail truck. 🪂",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-004",
       "title": "Parachute Delivery",
       "season": "Season 1",
-      "filename": "bruno_parachute_delivery.mp4"
+      "filename": "bruno_parachute_delivery.mp4",
+      "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
+      "source_filename": "24235.mp4",
+      "caption": "When the road ends, Bruno finds another route. 🪂📦\nToday’s delivery needed a parachute and one very calm mayor.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "The package made it down safely. Bruno says the landing was the easy part. Next shift: Main Street traffic duty. 🚦",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-005",
       "title": "Police Traffic",
       "season": "Season 1",
-      "filename": "police_dog_traffic.mp4"
+      "filename": "police_dog_traffic.mp4",
+      "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
+      "source_filename": "24239.mp4",
+      "caption": "Rush hour in Willow Creek has one very furry traffic officer. 🚦🐾\nBruno traded the mayor’s desk for Main Street until everyone got home safely.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "His whistle is official. The tail wag is not part of department procedure. Next: Willow Creek’s garage needs an extra pair of paws. 🔧",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-006",
@@ -100,7 +153,14 @@
       "id": "MB-007",
       "title": "Mechanic",
       "season": "Season 1",
-      "filename": "mechanic_dog_wrenching.mp4"
+      "filename": "mechanic_dog_wrenching.mp4",
+      "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
+      "source_filename": "24233.mp4",
+      "caption": "City Hall called. Then the garage did. 🔧🐾\nBruno says a small town can’t wait three weeks for a simple repair.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+      "first_comment": "He knows every pothole in Willow Creek, so he says learning every bolt was only fair. Next shift: lifeguard duty. 🛟",
+      "copy_qa": "PASS",
+      "media_status": "DRIVE_LINKED",
+      "visual_qa": "PENDING_FULL_REVIEW"
     },
     {
       "id": "MB-008",
@@ -191,5 +251,7 @@
     "no glitch"
   ],
   "caption_footer": "Imagined with Meta AI. Original story & characters.",
-  "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories"
+  "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
+  "last_updated": "2026-09-20",
+  "update_note": "6 source clips verified visually and remapped to MB-001, MB-002, MB-003, MB-004, MB-005, MB-007. Captions and first comments paired; Google Drive media links added."
 }

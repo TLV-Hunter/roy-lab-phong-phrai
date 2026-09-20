@@ -20,7 +20,7 @@
   <section class="hero">
     <div class="heroTitle">จำแค่ 2 เวลา</div>
     <div class="rule">
-      <div class="slot reel"><div class="time">08:30</div><div class="kind">REEL</div><div class="market">US evening push</div></div>
+      <div class="slot reel"><div class="time">06:00</div><div class="kind">REEL</div><div class="market">US evening push</div></div>
       <div class="slot still"><div class="time">23:30</div><div class="kind">LINKED STILL</div><div class="market">Europe evening + US midday</div></div>
     </div>
   </section>
@@ -31,15 +31,13 @@
     <div class="todayLabel">TODAY</div>
     <div id="todayTitle" class="todayTitle">กำลังโหลด...</div>
     <div class="todayGrid">
-      <div class="todayCard"><div class="big" style="color:var(--green)">08:30</div><div class="sub">REEL</div><div id="reelStatus" class="status">—</div></div>
+      <div class="todayCard"><div class="big" style="color:var(--green)">06:00</div><div class="sub">REEL</div><div id="reelStatus" class="status">—</div></div>
       <div class="todayCard"><div class="big" style="color:var(--amber)">23:30</div><div class="sub">LINKED STILL</div><div id="stillStatus" class="status">—</div></div>
     </div>
     <div id="todayVideo"></div>
   </section>
 
-  <div class="note"><b>กฎเวลาพลาด:</b> ถ้า Reel 08:30 ยังไม่ได้ลงและยังไม่เกิน 10:00 → ลงทันทีได้เลย แล้ว Still ยัง 23:30 ตามเดิม • ถ้าเลย 10:00 → ใช้ Catch-up 18:30 Reel / 23:30 Still แล้ววันถัดไปกลับ 08:30 / 23:30</div>
-
-  <div class="sectionTitle">แผนทั้งหมด</div>
+  <div class="note"><b>เวลาหลักปัจจุบัน:</b> 06:00 = REEL • 23:00 = LINKED STILL • เวลาไทย Asia/Bangkok • Special Reels / Special Images พักไว้ก่อนจนกว่าจะสั่งใหม่</div><div class="sectionTitle">แผนทั้งหมด</div>
   <div id="schedule" class="schedule"></div>
   <div class="footer">Source: content.json + colossus-reels.json • สถานะ Reel ดึงจาก Final Reel Source • Still scheduled through 13 Sep 2026</div>
 </div>
@@ -65,7 +63,7 @@ Promise.all([
    let ss=document.getElementById('stillStatus');if(isStillScheduled(today.date)){ss.textContent='✓ SCHEDULED 23:30';ss.classList.add('scheduled')}else{ss.textContent=now.mins<1410?'รอ 23:30':'ถึงเวลาแล้ว / ตรวจว่าโพสต์แล้วหรือยัง'}
    if(r.media_url){document.getElementById('todayVideo').innerHTML=`<div class="videoBox"><div class="videoHead"><b>${esc(id)} FINAL REEL</b><span class="status ${published?'published':''}">${esc(r.status||'READY')}</span></div><iframe src="${esc(drivePreview(r.media_url))}" allow="autoplay; fullscreen"></iframe><div class="videoActions"><a href="${esc(r.media_url)}" target="_blank">OPEN FINAL REEL</a><a href="./#${esc(id)}">OPEN IN CONTENT DESK</a></div></div>`}
  }else{document.getElementById('todayTitle').textContent='ไม่มีรายการใน Calendar วันนี้';document.getElementById('reelStatus').textContent='—';document.getElementById('stillStatus').textContent='—'}
- document.getElementById('schedule').innerHTML=cal.map(x=>{let m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,r=reelMap[ep]||{},done=String(r.status||'').toUpperCase()==='PUBLISHED',stillScheduled=isStillScheduled(x.date);return `<div class="row ${x.date===now.date?'todayrow':''} ${done?'done':''}"><div class="date">${esc(thaiDate(x.date))}</div><div class="ep">${esc(ep)}</div><div class="title">${esc(title)}</div><div class="tReel">${done?'✓ PUBLISHED':'08:30 REEL'}</div><div class="tStill">${stillScheduled?'✓ SCHEDULED':'23:30 STILL'}</div></div>`}).join('')||'<div class="error">ไม่พบข้อมูล Calendar</div>';
+ document.getElementById('schedule').innerHTML=cal.map(x=>{let m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,r=reelMap[ep]||{},done=String(r.status||'').toUpperCase()==='PUBLISHED',stillScheduled=isStillScheduled(x.date);return `<div class="row ${x.date===now.date?'todayrow':''} ${done?'done':''}"><div class="date">${esc(thaiDate(x.date))}</div><div class="ep">${esc(ep)}</div><div class="title">${esc(title)}</div><div class="tReel">${done?'✓ PUBLISHED':'06:00 REEL'}</div><div class="tStill">${stillScheduled?'✓ SCHEDULED':'23:30 STILL'}</div></div>`}).join('')||'<div class="error">ไม่พบข้อมูล Calendar</div>';
 }).catch(e=>{document.getElementById('schedule').innerHTML=`<div class="error">LOAD ERROR: ${esc(e.message)}</div>`;document.getElementById('todayTitle').textContent='โหลดข้อมูลไม่สำเร็จ'});
 </script>
 </body>

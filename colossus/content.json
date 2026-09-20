@@ -1228,14 +1228,22 @@
       "remaining_main_reel_count": 11,
       "special_reels_status": "PAUSED / NOT STARTED",
       "latest_user_confirmed_still": "CS-018",
-      "latest_user_confirmed_status": "REEL + STILL PUBLISHED",
+      "latest_user_confirmed_status": "REEL + STILL PUBLISHED THROUGH CS-018",
       "next_main_still": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
       "remaining_main_stills_to_publish": "CS-019–CS-029",
       "remaining_main_still_count": 11,
       "special_images_status": "PAUSED / WAITING FOR USER",
       "current_schedule": "06:00 REEL / 23:00 STILL (Asia/Bangkok)",
-      "final_media_mapping": "CS-005–CS-008 mapped in colossus-reels.json; CS-009–CS-018 are published but final media URLs are not archived there; CS-019–CS-029 final media availability is not verified from Desk data."
+      "final_media_mapping": "CS-005–CS-008 mapped in colossus-reels.json; CS-009–CS-018 are published but final media URLs are not archived there; CS-019–CS-029 final media availability is not verified from Desk data.",
+      "final_reel_scope": "CS-005–CS-029",
+      "final_reel_confirmed_count": 23,
+      "final_reel_total_count": 25,
+      "final_reel_media_url_mapped_count": 20,
+      "final_media_url_pending": "CS-022, CS-027, CS-028",
+      "final_not_confirmed": "CS-020, CS-029",
+      "next_main_episode": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
+      "special_content_status": "PAUSED UNTIL USER RESTARTS"
     },
-    "note": "User confirmed Reel + Still published through CS-018. Current cadence is 06:00 Reel / 23:00 Still. Special content is paused. Historical exact posting times are not being backfilled."
+    "note": "Reel + Still published through CS-018. Final Reel assets are confirmed for 23/25 episodes in CS-005–CS-029; 20/25 have mapped media URLs; CS-022/027/028 have finals but links pending; CS-020/029 are not confirmed final in the current registry."
   }
 }

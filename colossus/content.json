@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:06:22+07:00",
+  "updated_at": "2026-09-20T22:36:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -63,7 +63,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-005 — THE PLANET EATER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "STILL PUBLISHED • REEL READY"
+      "publish_status": "PUBLISHED"
     },
     {
       "date": "2026-09-08",
@@ -79,7 +79,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-007 — THE MOON WAS IN ITS HAND",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "STILL PUBLISHED • REEL READY"
+      "publish_status": "PUBLISHED"
     },
     {
       "date": "2026-09-10",
@@ -87,7 +87,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-008 — THE FIRST SIGNAL WAS A HEARTBEAT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "STILL PUBLISHED • REEL READY"
+      "publish_status": "PUBLISHED"
     },
     {
       "date": "2026-09-11",
@@ -95,7 +95,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-009 — THE SHADOW BEHIND JUPITER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "REEL PUBLISHED • STILL READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-12",
@@ -103,7 +103,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-010 — THE OBJECT THAT BLOCKED THE SUN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-13",
@@ -111,7 +111,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-011 — THE FACE INSIDE THE NEBULA",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-14",
@@ -119,7 +119,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-012 — THE FINGER NEAR ORBIT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-15",
@@ -127,7 +127,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-013 — THE WORLD THAT OPENED ITS EYE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-16",
@@ -135,7 +135,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-014 — THE SIGNAL BENEATH SATURN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-17",
@@ -143,7 +143,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-015 — THE THING BEYOND MARS",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-18",
@@ -151,7 +151,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-016 — THE STARS MOVED FIRST",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-19",
@@ -159,7 +159,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-017 — THE RING WAS NOT SATURN'S",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-20",
@@ -167,7 +167,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-018 — THE MOUTH BEYOND NEPTUNE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED • STILL NOT CONFIRMED"
     },
     {
       "date": "2026-09-21",
@@ -384,7 +384,8 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready"
+        "status": "published",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -414,7 +415,8 @@
         "height": 3840
       },
       "reel": {
-        "status": "published"
+        "status": "published",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -444,7 +446,8 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready"
+        "status": "published",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -474,7 +477,8 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready"
+        "status": "published",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -507,7 +511,8 @@
         "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -537,10 +542,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -570,10 +576,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1wUe5LVw1iFonQYxRTTRnwlHkrS9VQCuu/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -603,10 +610,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1tFicqcXgttycQv-QjEB42DgWeFtP68fv/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -636,10 +644,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1ygAkcKbd5uJ-9eeXWCzATn3chVUvRRmS/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -669,10 +678,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1AOEjp0HnhMkI9-wklxc8YsK1t5LwLIYN/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -702,10 +712,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/186YPUuOMFQiNoemdgHopxdrPgZIEICon/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -735,10 +746,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1t_YMQWp9zn18lhGogtF6Kvk4TOOhKnOy/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -768,10 +780,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1Fsr19op9zM15VT7r5YkTzuLeIk3ouJH9/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -801,10 +814,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED PUBLISHED THROUGH CS-018 ON 2026-09-20"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1179,7 +1193,7 @@
     "note": "Current controlled-test baseline; not a permanent publishing schedule."
   },
   "production_summary": {
-    "as_of": "2026-09-12T23:06:22+07:00",
+    "as_of": "2026-09-20T22:36:00+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1191,8 +1205,15 @@
       "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
       "remaining_reels": "CS-020",
       "remaining_reel_count": 1,
-      "season_finale": "CS-029 — 2026-10-01"
+      "season_finale": "CS-029 — 2026-10-01",
+      "reel_publish_caught_up_through": "CS-018 — THE MOUTH BEYOND NEPTUNE",
+      "latest_user_confirmed_reel": "CS-018",
+      "latest_user_confirmed_reel_status": "PUBLISHED",
+      "next_main_reel": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
+      "remaining_main_reels_to_publish": "CS-019–CS-029",
+      "remaining_main_reel_count": 11,
+      "special_reels_status": "PAUSED / NOT STARTED"
     },
-    "note": "Still production is complete. September Reel production has 1 unresolved episode(s): CS-020."
+    "note": "User confirmed main Reels published through CS-018 on 2026-09-20. Special Reels are paused. Still-post publication state remains unchanged unless separately confirmed."
   }
 }

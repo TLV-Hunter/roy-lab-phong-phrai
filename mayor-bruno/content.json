@@ -14,7 +14,8 @@
       "duration_sec": 12,
       "media_url": "https://drive.google.com/file/d/1Uroja1kVR4zg2SO_aA8NjCM_TKBrFY-7/view",
       "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 1
     },
     {
       "id": "MB-002",
@@ -26,7 +27,8 @@
       "duration_sec": 12,
       "media_url": "https://drive.google.com/file/d/1a8laqm21EcPPvQZNLXzWZv0inF3fm4xF/view",
       "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 2
     },
     {
       "id": "MB-003",
@@ -38,31 +40,8 @@
       "duration_sec": 12,
       "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
       "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
-    },
-    {
-      "id": "MB-004",
-      "title": "Parachute Delivery",
-      "job": "Parachute Delivery",
-      "source_filename": "24235.mp4",
-      "planned_filename": "bruno_parachute_delivery.mp4",
-      "status": "DRIVE_LINKED",
-      "duration_sec": 12,
-      "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
-      "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
-    },
-    {
-      "id": "MB-005",
-      "title": "Main Street Traffic Duty",
-      "job": "Police",
-      "source_filename": "24239.mp4",
-      "planned_filename": "police_dog_traffic.mp4",
-      "status": "DRIVE_LINKED",
-      "duration_sec": 12,
-      "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
-      "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 3
     },
     {
       "id": "MB-007",
@@ -74,7 +53,34 @@
       "duration_sec": 12,
       "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
       "copy_qa": "PASS",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 4
+    },
+    {
+      "id": "MB-005",
+      "title": "Main Street Traffic Duty",
+      "job": "Police",
+      "source_filename": "24239.mp4",
+      "planned_filename": "police_dog_traffic.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 5
+    },
+    {
+      "id": "MB-004",
+      "title": "Parachute Delivery",
+      "job": "Parachute Delivery",
+      "source_filename": "24235.mp4",
+      "planned_filename": "bruno_parachute_delivery.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
+      "copy_qa": "PASS",
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 6
     }
   ],
   "episodes": [
@@ -89,7 +95,8 @@
       "first_comment": "Bruno won the election because he knew every street, every shop, and nearly every name in town. Next stop: the Post Office. 📮",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 1
     },
     {
       "id": "MB-002",
@@ -102,7 +109,8 @@
       "first_comment": "Bruno has walked this route so many times he knows which porch squeaks before he steps on it. Next: morning class at Willow Creek School. 📚",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 2
     },
     {
       "id": "MB-003",
@@ -112,10 +120,11 @@
       "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
       "source_filename": "24205.mp4",
       "caption": "Mayor at 8. Teacher by 10. 📚🐾\nBruno’s lesson today: be kind, be helpful, stay curious.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "The puppies call him Mayor Bruno in the hallway and Mr. Bruno once class starts. Next assignment: a delivery too far for the mail truck. 🪂",
+      "first_comment": "The puppies call him Mayor Bruno in the hallway and Mr. Bruno once class starts. Next shift: Willow Creek’s garage needs an extra pair of paws. 🔧",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 3
     },
     {
       "id": "MB-004",
@@ -125,10 +134,11 @@
       "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
       "source_filename": "24235.mp4",
       "caption": "When the road ends, Bruno finds another route. 🪂📦\nToday’s delivery needed a parachute and one very calm mayor.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "The package made it down safely. Bruno says the landing was the easy part. Next shift: Main Street traffic duty. 🚦",
+      "first_comment": "The package made it down safely. Bruno says the landing was the easy part. Willow Creek will need him somewhere else tomorrow. 🐾",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 6
     },
     {
       "id": "MB-005",
@@ -138,10 +148,11 @@
       "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
       "source_filename": "24239.mp4",
       "caption": "Rush hour in Willow Creek has one very furry traffic officer. 🚦🐾\nBruno traded the mayor’s desk for Main Street until everyone got home safely.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "His whistle is official. The tail wag is not part of department procedure. Next: Willow Creek’s garage needs an extra pair of paws. 🔧",
+      "first_comment": "His whistle is official. The tail wag is not part of department procedure. Next mission: a delivery where the road ends. 🪂📦",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 5
     },
     {
       "id": "MB-006",
@@ -157,10 +168,11 @@
       "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
       "source_filename": "24233.mp4",
       "caption": "City Hall called. Then the garage did. 🔧🐾\nBruno says a small town can’t wait three weeks for a simple repair.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "He knows every pothole in Willow Creek, so he says learning every bolt was only fair. Next shift: lifeguard duty. 🛟",
+      "first_comment": "He knows every pothole in Willow Creek, so he says learning every bolt was only fair. Next: Main Street traffic duty. 🚦",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
-      "visual_qa": "PENDING_FULL_REVIEW"
+      "visual_qa": "PENDING_FULL_REVIEW",
+      "publish_order": 4
     },
     {
       "id": "MB-008",
@@ -253,5 +265,37 @@
   "caption_footer": "Imagined with Meta AI. Original story & characters.",
   "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
   "last_updated": "2026-09-20",
-  "update_note": "6 source clips verified visually and remapped to MB-001, MB-002, MB-003, MB-004, MB-005, MB-007. Captions and first comments paired; Google Drive media links added."
+  "update_note": "Published order corrected per user: 1 Mayor, 2 Post Office, 3 Teacher, 4 Mechanic, 5 Traffic, 6 Parachute Delivery. Canonical episode IDs preserved.",
+  "published_sequence": [
+    {
+      "order": 1,
+      "id": "MB-001",
+      "title": "Mayor Speech"
+    },
+    {
+      "order": 2,
+      "id": "MB-002",
+      "title": "Post Office"
+    },
+    {
+      "order": 3,
+      "id": "MB-003",
+      "title": "Teacher"
+    },
+    {
+      "order": 4,
+      "id": "MB-007",
+      "title": "Mechanic"
+    },
+    {
+      "order": 5,
+      "id": "MB-005",
+      "title": "Police Traffic"
+    },
+    {
+      "order": 6,
+      "id": "MB-004",
+      "title": "Parachute Delivery / Transport"
+    }
+  ]
 }

@@ -1,70 +1,55 @@
 <!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#05090e">
-<title>Colossus Signal — Posting Plan</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#05090e"><title>Colossus Signal — Posting Plan</title>
 <style>
-:root{--bg:#05090e;--panel:#0a141d;--line:#1d3d50;--text:#effbff;--muted:#8ea8b7;--cyan:#5ee7ff;--green:#7ff0a8;--amber:#ffd36b;--red:#ff9eae}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#102d3d,#05090e 42%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{max-width:1480px;margin:auto;padding:22px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:18px}.brand h1{margin:0;font-size:clamp(30px,4.5vw,64px);line-height:1}.brand p{margin:10px 0 0;color:var(--muted);font-size:clamp(16px,2vw,22px)}.nav{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 18px;border:1px solid #2f6f8c;border-radius:12px;background:#0a2e40;color:#eafdff;text-decoration:none;font-weight:900;font-size:16px}.hero{border:1px solid var(--line);background:linear-gradient(135deg,#0a1721,#071019);border-radius:22px;padding:24px;margin-bottom:18px}.heroTitle{font-size:clamp(22px,3vw,34px);font-weight:1000;color:var(--cyan);margin-bottom:12px}.rule{display:grid;grid-template-columns:1fr 1fr;gap:14px}.slot{border:1px solid #2a4e62;border-radius:18px;background:#071019;padding:22px;text-align:center}.time{font-size:clamp(42px,7vw,84px);font-weight:1000;line-height:.95}.kind{font-size:clamp(20px,3vw,30px);font-weight:1000;margin-top:8px}.slot.reel .time,.slot.reel .kind{color:var(--green)}.slot.still .time,.slot.still .kind{color:var(--amber)}.market{margin-top:10px;color:var(--muted);font-size:15px;font-weight:800}.today{border:2px solid #377d9d;background:linear-gradient(135deg,#0b2230,#08131d);border-radius:22px;padding:22px;margin-bottom:18px}.todayLabel{font-size:18px;font-weight:1000;color:var(--cyan);letter-spacing:.08em}.todayTitle{font-size:clamp(28px,4vw,48px);font-weight:1000;margin:8px 0 16px}.todayGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.todayCard{border:1px solid #2a5268;border-radius:16px;padding:18px;background:#061018}.todayCard .big{font-size:clamp(32px,5vw,56px);font-weight:1000}.todayCard .sub{font-size:clamp(17px,2.3vw,24px);font-weight:900;margin-top:4px}.status{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:999px;border:1px solid #3a6175;color:#cbefff;font-weight:1000;font-size:14px}.published{color:#b8ffd1;border-color:#34734b;background:#0b2518}.scheduled{color:#ffe9a5;border-color:#806d27;background:#251f08}.videoBox{margin-top:18px;border:1px solid #2a5268;border-radius:18px;background:#020609;overflow:hidden}.videoHead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 16px;border-bottom:1px solid var(--line);background:#07131b}.videoHead b{font-size:20px}.videoBox iframe{display:block;width:100%;height:min(72vh,820px);border:0;background:#020609}.videoActions{display:flex;gap:10px;flex-wrap:wrap;padding:12px}.videoActions a{flex:1;min-width:190px;text-align:center;padding:12px;border:1px solid #2f6f8c;border-radius:10px;background:#0a2e40;color:#eafdff;text-decoration:none;font-weight:1000}.note{border:1px dashed #66582a;background:#171407;color:#ffe9a5;border-radius:16px;padding:16px 18px;font-size:18px;line-height:1.55;margin-bottom:18px}.sectionTitle{font-size:clamp(24px,3vw,36px);font-weight:1000;margin:24px 0 12px}.schedule{display:grid;gap:12px}.row{display:grid;grid-template-columns:160px 120px 1fr 170px 190px;gap:12px;align-items:center;border:1px solid var(--line);border-radius:16px;background:#08111a;padding:15px 16px}.row.todayrow{border:2px solid var(--cyan);box-shadow:0 0 0 1px rgba(94,231,255,.08) inset}.date{font-size:21px;font-weight:1000}.ep{font-size:23px;font-weight:1000;color:var(--cyan)}.title{font-size:20px;font-weight:900}.tReel,.tStill{font-size:20px;font-weight:1000;text-align:center;padding:9px;border-radius:11px}.tReel{background:#0b2318;color:var(--green);border:1px solid #295a3c}.tStill{background:#241e0a;color:var(--amber);border:1px solid #675723}.done{box-shadow:inset 0 0 0 2px rgba(127,240,168,.25)}.footer{color:var(--muted);text-align:center;padding:28px 0;font-size:14px}.error{padding:20px;border:1px solid #713848;background:#241015;color:#ffc2ce;border-radius:14px;font-size:18px}@media(max-width:1000px){.row{grid-template-columns:120px 100px 1fr}.rule,.todayGrid{grid-template-columns:1fr 1fr}}@media(max-width:720px){.wrap{padding:14px}.rule,.todayGrid{grid-template-columns:1fr}.row{grid-template-columns:1fr 1fr}.title{grid-column:1/3}.tReel,.tStill{font-size:18px}.date,.ep{font-size:19px}.hero,.today{padding:16px}.videoBox iframe{height:68vh}}
+:root{--bg:#05090e;--panel:#08131c;--line:#1d4054;--text:#effbff;--muted:#8da6b5;--cyan:#5ee7ff;--green:#80f0a8;--amber:#ffd36b;--red:#ff9baa}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#102d3d,#05090e 44%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{max-width:1500px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.brand h1{font-size:clamp(34px,5vw,68px);margin:0;line-height:.95}.brand p{font-size:18px;color:var(--muted);margin:10px 0}.nav{display:flex;gap:9px;flex-wrap:wrap}.btn{background:#0a3041;border:1px solid #2e718f;color:#eafdff;text-decoration:none;border-radius:11px;padding:12px 16px;font-weight:900}
+.hero,.panel{border:1px solid var(--line);background:linear-gradient(135deg,#0a1721,#071019);border-radius:20px;padding:20px;margin-top:16px}.hero h2,.panel h2{margin:0 0 14px;font-size:clamp(24px,3vw,38px)}.times,.summary{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.timeCard,.sumCard{border:1px solid #29556c;background:#061019;border-radius:16px;padding:18px;text-align:center}.clock{font-size:clamp(46px,8vw,90px);font-weight:1000;line-height:1}.kind{font-size:clamp(22px,3vw,32px);font-weight:1000;margin-top:7px}.reel .clock,.reel .kind{color:var(--green)}.still .clock,.still .kind{color:var(--amber)}.big{font-size:clamp(30px,5vw,56px);font-weight:1000;color:var(--cyan)}.label{font-size:17px;font-weight:900;margin-top:5px}.sub{color:var(--muted);margin-top:7px;line-height:1.5}.note{margin-top:14px;border:1px dashed #665827;background:#171407;color:#ffe9a5;border-radius:14px;padding:14px 16px;font-size:17px;line-height:1.55}.todayTitle{font-size:clamp(28px,4vw,48px);font-weight:1000}.todayGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.todayCard{background:#061019;border:1px solid #285268;border-radius:15px;padding:16px}.todayCard b{display:block;font-size:28px}.status{display:inline-block;margin-top:8px;padding:7px 10px;border-radius:999px;border:1px solid #3a6175;font-weight:900}.done{color:#baffd0;border-color:#37764e;background:#0a2417}.wait{color:#ffe9a5;border-color:#76652b;background:#221d08}.video{margin-top:14px;border:1px solid #285268;border-radius:15px;overflow:hidden;background:#020609}.video iframe{width:100%;height:min(70vh,800px);border:0}.video a{display:block;text-align:center;padding:12px;color:#eafdff;text-decoration:none;font-weight:900;background:#0a3041}
+.schedule{display:grid;gap:10px}.row{display:grid;grid-template-columns:150px 110px 1fr 190px 190px;gap:10px;align-items:center;border:1px solid var(--line);background:#07111a;border-radius:14px;padding:14px}.row.current{border:2px solid var(--cyan)}.date{font-size:19px;font-weight:1000}.ep{font-size:22px;font-weight:1000;color:var(--cyan)}.title{font-size:19px;font-weight:900}.rtime,.stime{text-align:center;font-size:18px;font-weight:1000;padding:9px;border-radius:10px}.rtime{color:var(--green);background:#0a2216}.stime{color:var(--amber);background:#211d09}.footer{text-align:center;color:var(--muted);padding:26px 0;font-size:14px}@media(max-width:850px){.times,.summary,.todayGrid{grid-template-columns:1fr}.row{grid-template-columns:1fr 1fr}.title{grid-column:1/3}.wrap{padding:13px}}
 </style>
 </head>
-<body>
-<div class="wrap">
-  <div class="top">
-    <div class="brand"><h1>COLOSSUS SIGNAL</h1><p>POSTING PLAN • Global / Foreign Market • เวลาไทย Asia/Bangkok</p></div>
-    <div class="nav"><a class="btn" href="./">← CONTENT DESK</a><a class="btn" href="./plan.html">PUBLISHER</a></div>
-  </div>
+<body><div class="wrap">
+<div class="top"><div class="brand"><h1>COLOSSUS SIGNAL</h1><p>POSTING PLAN • Global / Foreign Market • เวลาไทย Asia/Bangkok</p></div><div class="nav"><a class="btn" href="./">← CONTENT DESK</a><a class="btn" href="./plan.html">PUBLISHER</a></div></div>
 
-  <section class="hero">
-    <div class="heroTitle">จำแค่ 2 เวลา</div>
-    <div class="rule">
-      <div class="slot reel"><div class="time">06:00</div><div class="kind">REEL</div><div class="market">US evening push</div></div>
-      <div class="slot still"><div class="time">23:30</div><div class="kind">LINKED STILL</div><div class="market">Europe evening + US midday</div></div>
-    </div>
-  </section>
+<section class="hero"><h2>จำแค่ 2 เวลา</h2><div class="times">
+<div class="timeCard reel"><div class="clock">06:00</div><div class="kind">REEL</div></div>
+<div class="timeCard still"><div class="clock">23:00</div><div class="kind">LINKED STILL</div></div>
+</div></section>
 
-  <div class="note"><b>อัปเดตล่าสุด:</b> LINKED STILL กำหนดเวลาไว้แล้วตั้งแต่ CS-007 ถึง CS-011 • ครบถึงวันที่ 13 ก.ย. 2026 เวลา 23:30</div>
+<section class="panel"><h2>CURRENT STATE</h2><div class="summary">
+<div class="sumCard"><div class="big">CS-018</div><div class="label">REEL + STILL ลงแล้วถึงตอนนี้</div><div class="sub">CS-019 คือ Main Episode ถัดไป</div></div>
+<div class="sumCard"><div class="big">23 / 25</div><div class="label">FINAL REEL ยืนยันว่ามีแล้ว</div><div class="sub">20 ตอนมีลิงก์ Final บนเว็บ • CS-022 / 027 / 028 รอลิงก์ • CS-020 / 029 ยังไม่ยืนยัน Final</div></div>
+</div><div class="note"><b>Special Content:</b> พักทั้งหมดไว้ก่อนจนกว่าจะสั่งใหม่ • ไม่ต้องย้อนหลังเวลาโพสต์เก่า</div></section>
 
-  <section id="todayBox" class="today">
-    <div class="todayLabel">TODAY</div>
-    <div id="todayTitle" class="todayTitle">กำลังโหลด...</div>
-    <div class="todayGrid">
-      <div class="todayCard"><div class="big" style="color:var(--green)">06:00</div><div class="sub">REEL</div><div id="reelStatus" class="status">—</div></div>
-      <div class="todayCard"><div class="big" style="color:var(--amber)">23:30</div><div class="sub">LINKED STILL</div><div id="stillStatus" class="status">—</div></div>
-    </div>
-    <div id="todayVideo"></div>
-  </section>
+<section id="todayBox" class="panel"><h2>TODAY</h2><div id="todayTitle" class="todayTitle">กำลังโหลด...</div>
+<div class="todayGrid"><div class="todayCard"><b style="color:var(--green)">06:00 REEL</b><span id="reelStatus" class="status">—</span></div>
+<div class="todayCard"><b style="color:var(--amber)">23:00 STILL</b><span id="stillStatus" class="status">—</span></div></div><div id="todayVideo"></div></section>
 
-  <div class="note"><b>เวลาหลักปัจจุบัน:</b> 06:00 = REEL • 23:00 = LINKED STILL • เวลาไทย Asia/Bangkok • Special Reels / Special Images พักไว้ก่อนจนกว่าจะสั่งใหม่</div><div class="sectionTitle">แผนทั้งหมด</div>
-  <div id="schedule" class="schedule"></div>
-  <div class="footer">Source: content.json + colossus-reels.json • สถานะ Reel ดึงจาก Final Reel Source • Still scheduled through 13 Sep 2026</div>
+<section class="panel"><h2>แผนทั้งหมด</h2><div id="schedule" class="schedule"></div></section>
+<div class="footer">Source: content.json + colossus-reels.json • Current schedule 06:00 / 23:00 • Published through CS-018</div>
 </div>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const STILL_SCHEDULED_FROM='2026-09-09',STILL_SCHEDULED_THROUGH='2026-09-13';
-function isStillScheduled(date){return date>=STILL_SCHEDULED_FROM&&date<=STILL_SCHEDULED_THROUGH}
-function bangkokParts(){let p=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date()),o={};p.forEach(x=>o[x.type]=x.value);return {date:`${o.year}-${o.month}-${o.day}`,mins:(+o.hour)*60+(+o.minute)}}
+function bangkok(){let p=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),o={};p.forEach(x=>o[x.type]=x.value);return `${o.year}-${o.month}-${o.day}`}
 function thaiDate(s){let d=new Date(s+'T00:00:00+07:00');return new Intl.DateTimeFormat('th-TH',{day:'numeric',month:'short',year:'numeric',timeZone:'Asia/Bangkok'}).format(d)}
 function driveId(u){return(String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
 function drivePreview(u){let id=driveId(u);return id?`https://drive.google.com/file/d/${id}/preview`:u||''}
 Promise.all([
- fetch('./content.json?v='+Date.now()).then(r=>{if(!r.ok)throw new Error('content.json '+r.status);return r.json()}),
- fetch('./colossus-reels.json?v='+Date.now()).then(r=>r.ok?r.json():{entries:[]}).catch(()=>({entries:[]}))
+ fetch('./content.json?v='+Date.now()).then(r=>r.json()),
+ fetch('./colossus-reels.json?v='+Date.now()).then(r=>r.json())
 ]).then(([c,reels])=>{
- const now=bangkokParts(),cal=(c.calendar||[]).filter(x=>String(x.title||'').startsWith('CS-')).filter(x=>x.date>='2026-09-08');
+ const todayDate=bangkok(),cal=(c.calendar||[]).filter(x=>/^CS-/.test(String(x.title||''))).filter(x=>x.date>='2026-09-08');
  const reelMap=Object.fromEntries((reels.entries||[]).map(x=>[x.id,x]));
- const today=cal.find(x=>x.date===now.date);
+ const today=cal.find(x=>x.date===todayDate);
  if(today){
-   document.getElementById('todayTitle').textContent=today.title;
-   let m=String(today.title||'').match(/^(CS-\d+)/),id=m?m[1]:'',r=reelMap[id]||{},published=String(r.status||'').toUpperCase()==='PUBLISHED';
-   let rs=document.getElementById('reelStatus');rs.textContent=published?'✓ PUBLISHED':'ตรวจสถานะการโพสต์';if(published)rs.classList.add('published');
-   let ss=document.getElementById('stillStatus');if(isStillScheduled(today.date)){ss.textContent='✓ SCHEDULED 23:30';ss.classList.add('scheduled')}else{ss.textContent=now.mins<1410?'รอ 23:30':'ถึงเวลาแล้ว / ตรวจว่าโพสต์แล้วหรือยัง'}
-   if(r.media_url){document.getElementById('todayVideo').innerHTML=`<div class="videoBox"><div class="videoHead"><b>${esc(id)} FINAL REEL</b><span class="status ${published?'published':''}">${esc(r.status||'READY')}</span></div><iframe src="${esc(drivePreview(r.media_url))}" allow="autoplay; fullscreen"></iframe><div class="videoActions"><a href="${esc(r.media_url)}" target="_blank">OPEN FINAL REEL</a><a href="./#${esc(id)}">OPEN IN CONTENT DESK</a></div></div>`}
- }else{document.getElementById('todayTitle').textContent='ไม่มีรายการใน Calendar วันนี้';document.getElementById('reelStatus').textContent='—';document.getElementById('stillStatus').textContent='—'}
- document.getElementById('schedule').innerHTML=cal.map(x=>{let m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,r=reelMap[ep]||{},done=String(r.status||'').toUpperCase()==='PUBLISHED',stillScheduled=isStillScheduled(x.date);return `<div class="row ${x.date===now.date?'todayrow':''} ${done?'done':''}"><div class="date">${esc(thaiDate(x.date))}</div><div class="ep">${esc(ep)}</div><div class="title">${esc(title)}</div><div class="tReel">${done?'✓ PUBLISHED':'06:00 REEL'}</div><div class="tStill">${stillScheduled?'✓ SCHEDULED':'23:30 STILL'}</div></div>`}).join('')||'<div class="error">ไม่พบข้อมูล Calendar</div>';
-}).catch(e=>{document.getElementById('schedule').innerHTML=`<div class="error">LOAD ERROR: ${esc(e.message)}</div>`;document.getElementById('todayTitle').textContent='โหลดข้อมูลไม่สำเร็จ'});
-</script>
-</body>
-</html>
+  document.getElementById('todayTitle').textContent=today.title;
+  const id=(String(today.title).match(/^(CS-\d+)/)||[])[1]||'',r=reelMap[id]||{},done=String(today.publish_status||'').toUpperCase()==='PUBLISHED';
+  const rs=document.getElementById('reelStatus'),ss=document.getElementById('stillStatus');
+  rs.textContent=done?'✓ PUBLISHED':'06:00';ss.textContent=done?'✓ PUBLISHED':'23:00';rs.className='status '+(done?'done':'wait');ss.className='status '+(done?'done':'wait');
+  if(r.media_url)document.getElementById('todayVideo').innerHTML=`<div class="video"><iframe src="${esc(drivePreview(r.media_url))}" allow="autoplay; fullscreen"></iframe><a href="${esc(r.media_url)}" target="_blank">OPEN FINAL REEL</a></div>`;
+ }else document.getElementById('todayTitle').textContent='ไม่มีรายการใน Calendar วันนี้';
+ document.getElementById('schedule').innerHTML=cal.map(x=>{const m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,done=String(x.publish_status||'').toUpperCase()==='PUBLISHED';return `<div class="row ${x.date===todayDate?'current':''}"><div class="date">${esc(thaiDate(x.date))}</div><div class="ep">${esc(ep)}</div><div class="title">${esc(title)}</div><div class="rtime">${done?'✓ PUBLISHED':'06:00 REEL'}</div><div class="stime">${done?'✓ PUBLISHED':'23:00 STILL'}</div></div>`}).join('');
+}).catch(e=>document.getElementById('schedule').innerHTML='<div class="note">LOAD ERROR: '+esc(e.message)+'</div>');
+</script></body></html>

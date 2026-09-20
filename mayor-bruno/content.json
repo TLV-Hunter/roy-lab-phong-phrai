@@ -91,12 +91,14 @@
       "filename": "mayor_bruno_speech.mp4",
       "media_url": "https://drive.google.com/file/d/1Uroja1kVR4zg2SO_aA8NjCM_TKBrFY-7/view",
       "source_filename": "24189.mp4",
-      "caption": "Willow Creek elected a mayor who still shows up for the morning briefing. 🏛️🐾\nMayor Bruno’s first rule: if the town needs help, he shows up himself.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "Bruno won the election because he knew every street, every shop, and nearly every name in town. Next stop: the Post Office. 📮",
+      "caption": "Meet Mayor Bruno. He still delivers the mail at 8AM. Willow Creek's smallest mayor with the biggest heart. Day one — and his to-do list is longer than his tail. Imagined with Meta AI. Original story & characters. #MayorBruno #WillowCreek #GoldenRetriever",
+      "first_comment": "He didn't run for office. The town just started listening to him. Every morning at 8AM Town Hall opens after the mail run. Next: USPS waving on Main Street.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 1
+      "publish_order": 1,
+      "csv_title": "Mayor Inauguration",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-002",
@@ -105,12 +107,14 @@
       "filename": "bruno_usps_waving.mp4",
       "media_url": "https://drive.google.com/file/d/1a8laqm21EcPPvQZNLXzWZv0inF3fm4xF/view",
       "source_filename": "24203.mp4",
-      "caption": "Willow Creek’s mayor still works the 8AM mail route. 📮🐾\nBruno says nobody should wait on a package just because City Hall is busy.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "Bruno has walked this route so many times he knows which porch squeaks before he steps on it. Next: morning class at Willow Creek School. 📚",
+      "caption": "Main Street 7:58 AM. The mail is early because Bruno is early. One paw wave whole town waves back. Imagined with Meta AI. #USPSBruno #WillowCreek",
+      "first_comment": "50 houses 50 names 50 tail wags. He remembers who gets extra cookie. Next: classroom duty.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 2
+      "publish_order": 2,
+      "csv_title": "USPS Waving Main Street",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-003",
@@ -119,12 +123,14 @@
       "filename": "puppy_classroom_lesson.mp4",
       "media_url": "https://drive.google.com/file/d/1G4uy8KRYAfcVNqyW8P2kg0n5CTn19Ryg/view",
       "source_filename": "24205.mp4",
-      "caption": "Mayor at 8. Teacher by 10. 📚🐾\nBruno’s lesson today: be kind, be helpful, stay curious.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "The puppies call him Mayor Bruno in the hallway and Mr. Bruno once class starts. Next shift: Willow Creek’s garage needs an extra pair of paws. 🔧",
+      "caption": "Today's lesson: How to be a good boy. 101. Professor Bruno never gives homework only belly rubs. Imagined with Meta AI. #TeacherBruno #WillowCreek",
+      "first_comment": "Subject: Sharing napping and not chewing chair. All pups passed with extra treats. Next: sky delivery.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 3
+      "publish_order": 3,
+      "csv_title": "Teacher Bruno",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-004",
@@ -133,12 +139,14 @@
       "filename": "bruno_parachute_delivery.mp4",
       "media_url": "https://drive.google.com/file/d/156SHR3gOZUqwfpRNl3F73AIqnjtTmaMm/view",
       "source_filename": "24235.mp4",
-      "caption": "When the road ends, Bruno finds another route. 🪂📦\nToday’s delivery needed a parachute and one very calm mayor.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "The package made it down safely. Bruno says the landing was the easy part. Willow Creek will need him somewhere else tomorrow. 🐾",
+      "caption": "When the road ends delivery doesn't. 10,000 ft drop one perfect landing. Willow Creek mail goes everywhere. Imagined with Meta AI. #BrunoDelivers #AirDrop",
+      "first_comment": "This package was for ranger station on HWY 3. Trucks couldn't make it so Bruno did. He says snow is just extra packing material. Next: traffic duty.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 6
+      "publish_order": 6,
+      "csv_title": "Parachute Delivery Alaska",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-005",
@@ -147,18 +155,26 @@
       "filename": "police_dog_traffic.mp4",
       "media_url": "https://drive.google.com/file/d/16TUkoAJiHxE7TwWUOGmIujysNJy-5mGW/view",
       "source_filename": "24239.mp4",
-      "caption": "Rush hour in Willow Creek has one very furry traffic officer. 🚦🐾\nBruno traded the mayor’s desk for Main Street until everyone got home safely.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "His whistle is official. The tail wag is not part of department procedure. Next mission: a delivery where the road ends. 🪂📦",
+      "caption": "Directing Main Street traffic. No ticket today just reminder to slow down and sniff flowers. Imagined with Meta AI. #PoliceBruno #WillowCreek",
+      "first_comment": "Willow Creek rule: Ducks always have right of way. Bruno waits until whole family crosses. Next: lunch shift at diner.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 5
+      "publish_order": 5,
+      "csv_title": "Officer Bruno Traffic",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-006",
       "title": "Burger Chef",
       "season": "Season 1",
-      "filename": "chef_dog_flipping_burger.mp4"
+      "filename": "chef_dog_flipping_burger.mp4",
+      "publish_order": 7,
+      "csv_title": "Chef Bruno Diner",
+      "caption": "Lunch duty at Willow Creek Diner. One paw on spatula one eye on fries. Today's special: Extra cheese extra tail wags. Imagined with Meta AI. #ChefBruno",
+      "first_comment": "He flips with style but never forgets pickles. Best burger on Main Street. Next: Miller's Garage.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-007",
@@ -167,90 +183,170 @@
       "filename": "mechanic_dog_wrenching.mp4",
       "media_url": "https://drive.google.com/file/d/1-LTwf8myB2nkuZ4oaqImPuc_AN5vEPM0/view",
       "source_filename": "24233.mp4",
-      "caption": "City Hall called. Then the garage did. 🔧🐾\nBruno says a small town can’t wait three weeks for a simple repair.\nImagined with Meta AI. Original story & characters.\n#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-      "first_comment": "He knows every pothole in Willow Creek, so he says learning every bolt was only fair. Next: Main Street traffic duty. 🚦",
+      "caption": "Afternoon at Miller's Garage. If it rattles Bruno fixes it. The USPS truck gets priority of course. Imagined with Meta AI. #MechanicBruno",
+      "first_comment": "That blue truck has seen every road to Alaska and back. Bruno knows every bolt by heart. Next: beach patrol.",
       "copy_qa": "PASS",
       "media_status": "DRIVE_LINKED",
       "visual_qa": "PENDING_FULL_REVIEW",
-      "publish_order": 4
+      "publish_order": 4,
+      "csv_title": "Mechanic Bruno Garage",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-008",
       "title": "Lifeguard",
       "season": "Season 1",
-      "filename": "lifeguard_bruno_beach.mp4"
+      "filename": "lifeguard_bruno_beach.mp4",
+      "publish_order": 8,
+      "csv_title": "Lifeguard Bruno Lake",
+      "caption": "Beach patrol Willow Lake. Whistle on sunglasses on paws in sand. No running by water — unless it's for ice cream. Imagined with Meta AI. #LifeguardBruno",
+      "first_comment": "Bruno's rescue technique: swim fast bark loud bring floatie. Lake is safe today. Next: snow run on HWY 3.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-009",
       "title": "Snow Route HWY 3",
       "season": "Season 1",
-      "filename": "image_1.mp4"
+      "filename": "image_1.mp4",
+      "publish_order": 9,
+      "csv_title": "Snow Run HWY 3",
+      "caption": "HWY 3 whiteout -20F. Mail doesn't wait for weather. 12 miles through snow — Willow Creek still gets its mail. Imagined with Meta AI. #SnowDay #AlaskaHWY",
+      "first_comment": "This was the run that got him elected. He says cold paws warm heart. Final post of Season 1: back at Town Hall.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-010",
       "title": "Town Hall Budget",
       "season": "Season 1",
-      "filename": "image.mp4"
+      "filename": "image.mp4",
+      "publish_order": 10,
+      "csv_title": "Town Hall Budget Day",
+      "caption": "Town Hall budget day. Every dollar counted every treat accounted for. Mayor Bruno makes sure Willow Creek runs on time and on budget. Imagined with Meta AI. #MayorBruno #TownHall",
+      "first_comment": "Season 1 done — 10 jobs 1 town 1 good dog. Which job should Bruno try in Season 2? Firefighter farmer or pilot?",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-011",
       "title": "Firefighter",
       "season": "Season 2",
-      "filename": "image_20260919_225358_1.mp4"
+      "filename": "image_20260919_225358_1.mp4",
+      "publish_order": 11,
+      "csv_title": "Firefighter FIXED",
+      "caption": "Slide down hose ready. Fire Station 12 Willow Creek. Ready for duty. Imagined with Meta AI. #FirefighterBruno",
+      "first_comment": "Engine 12 is always ready. The pole is his favorite part. Next: morning shift at farm.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-012",
       "title": "Farmer Tractor",
       "season": "Season 2",
-      "filename": "image_20260919_225358.mp4"
+      "filename": "image_20260919_225358.mp4",
+      "publish_order": 12,
+      "csv_title": "Farmer FIXED",
+      "caption": "Sunrise on Willow Creek Farm. Corn is high coffee is hot. Morning chores start early here. Imagined with Meta AI. #FarmerBruno",
+      "first_comment": "He drives tractor slow so crows can keep up. Next: flight over town.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-013",
       "title": "Pilot Cessna",
       "season": "Season 2",
-      "filename": "image_20260919_225609.mp4"
+      "filename": "image_20260919_225609.mp4",
+      "publish_order": 13,
+      "csv_title": "Pilot Air Mail FIXED - บินส่งของ",
+      "caption": "Alaska run today. When roads close Willow Creek mail still flies. 12 miles over HWY 3 -20F whiteout below. One town one promise: mail gets through. Imagined with Meta AI. #PilotBruno #AirMail",
+      "first_comment": "Cruising smoothly over Willow Creek now. This package is for ranger station — trucks couldn't make it so Bruno did. Next: library duty as Librarian Bruno.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-014",
       "title": "Librarian",
       "season": "Season 2",
-      "filename": "image_20260919_205507_2.mp4"
+      "filename": "image_20260919_205507_2.mp4",
+      "publish_order": 14,
+      "csv_title": "Librarian Bruno",
+      "caption": "Just placing new arrivals back on shelf. Quiet please. Cozy corner warm light. Imagined with Meta AI. #LibrarianBruno",
+      "first_comment": "The kids section is his favorite. He reads with paws and heart. Next: latte art.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-015",
       "title": "Barista Latte",
       "season": "Season 2",
-      "filename": "image_20260919_210628.mp4"
+      "filename": "image_20260919_210628.mp4",
+      "publish_order": 15,
+      "csv_title": "Barista Bruno",
+      "caption": "Morning brew leaf rosetta on top. One paw pour. Extra foam for extra tail wags. Imagined with Meta AI. #BaristaBruno",
+      "first_comment": "There we go. He says good coffee is like good town — warm and made with care. Next: blueprint duty.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-016",
       "title": "Construction",
       "season": "Season 2",
-      "filename": "image_20260919_205507.mp4"
+      "filename": "image_20260919_205507.mp4",
+      "publish_order": 16,
+      "csv_title": "Builder Bruno",
+      "caption": "Looks like we're right on schedule. New porch for Town Hall. Supervisor Bruno checks every beam. Imagined with Meta AI. #BuilderBruno",
+      "first_comment": "That porch will hold 50 pups at once. He measured it with his tail. Next: vet clinic.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-017",
       "title": "Vet",
       "season": "Season 2",
-      "filename": "image_20260919_205506_1.mp4"
+      "filename": "image_20260919_205506_1.mp4",
+      "publish_order": 17,
+      "csv_title": "Vet Bruno",
+      "caption": "There we go little one you're doing great. Just a quick check. Dr. Bruno DVM on duty. Imagined with Meta AI. #VetBruno",
+      "first_comment": "Bravest pup award today. He gives sticker that says I was good. Next: town square concert.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-018",
       "title": "Musician Guitar",
       "season": "Season 2",
-      "filename": "image_20260919_205508_1.mp4"
+      "filename": "image_20260919_205508_1.mp4",
+      "publish_order": 18,
+      "csv_title": "Musician Bruno 100 Sec Concert",
+      "caption": "Yeah this is the place where I feel alive tonight. Willow Square live. Part 1-10 of 10 — 100 second folk set. Well it's another evening here in our little town... Imagined with Meta AI. #MusicianBruno",
+      "first_comment": "Part 1/10 Intro: Well it's another evening here in our little town... Same song same guitar 10 parts continuous. Follow for Part 2. Breakdown: P1 Intro P2 Verse1 P3 Verse2 P4 Chorus1 P5 Verse3 P6 Chorus2 P7 Bridge P8 Solo P9 Final Chorus P10 Outro.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-019",
       "title": "School Bus",
       "season": "Season 2",
-      "filename": "image_20260919_225400.mp4"
+      "filename": "image_20260919_225400.mp4",
+      "publish_order": 19,
+      "csv_title": "School Bus Driver FIXED",
+      "caption": "Morning kids! Watch your step now. Ducks cross first then pups. Safety first tail wags second. Imagined with Meta AI. #BusDriverBruno",
+      "first_comment": "50 backpacks 50 names 50 high-fives at door. Safety first tail wags second. Last case: detective.",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     },
     {
       "id": "MB-020",
       "title": "Detective Bakery",
       "season": "Season 2",
-      "filename": "image_20260919_205511.mp4"
+      "filename": "image_20260919_205511.mp4",
+      "publish_order": 20,
+      "csv_title": "Detective Bruno Cookie Case",
+      "caption": "Hmm... these crumbs don't match the usual chocolate chip pattern. Noir but cute at Willow Creek Bakery. Imagined with Meta AI. #DetectiveBruno #CookieMystery",
+      "first_comment": "Case of missing cookie — solved by sniffing. Turns out it was baker's pup. Season 2 done. What job next for Season 3?",
+      "copy_qa": "PASS",
+      "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv"
     }
   ],
   "character_qa": [
@@ -265,37 +361,134 @@
   "caption_footer": "Imagined with Meta AI. Original story & characters.",
   "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
   "last_updated": "2026-09-20",
-  "update_note": "Published order corrected per user: 1 Mayor, 2 Post Office, 3 Teacher, 4 Mechanic, 5 Traffic, 6 Parachute Delivery. Canonical episode IDs preserved.",
+  "update_note": "Imported all 20 captions and pinned first comments from user CSV. Preserved corrected publish order: 1 Mayor, 2 Post Office, 3 Teacher, 4 Mechanic, 5 Traffic, 6 Parachute Delivery, then original sequence.",
   "published_sequence": [
     {
       "order": 1,
       "id": "MB-001",
-      "title": "Mayor Speech"
+      "title": "Mayor Speech",
+      "csv_title": "Mayor Inauguration"
     },
     {
       "order": 2,
       "id": "MB-002",
-      "title": "Post Office"
+      "title": "Post Office",
+      "csv_title": "USPS Waving Main Street"
     },
     {
       "order": 3,
       "id": "MB-003",
-      "title": "Teacher"
+      "title": "Teacher",
+      "csv_title": "Teacher Bruno"
     },
     {
       "order": 4,
       "id": "MB-007",
-      "title": "Mechanic"
+      "title": "Mechanic",
+      "csv_title": "Mechanic Bruno Garage"
     },
     {
       "order": 5,
       "id": "MB-005",
-      "title": "Police Traffic"
+      "title": "Police Traffic",
+      "csv_title": "Officer Bruno Traffic"
     },
     {
       "order": 6,
       "id": "MB-004",
-      "title": "Parachute Delivery / Transport"
+      "title": "Parachute Delivery",
+      "csv_title": "Parachute Delivery Alaska"
+    },
+    {
+      "order": 7,
+      "id": "MB-006",
+      "title": "Burger Chef",
+      "csv_title": "Chef Bruno Diner"
+    },
+    {
+      "order": 8,
+      "id": "MB-008",
+      "title": "Lifeguard",
+      "csv_title": "Lifeguard Bruno Lake"
+    },
+    {
+      "order": 9,
+      "id": "MB-009",
+      "title": "Snow Route HWY 3",
+      "csv_title": "Snow Run HWY 3"
+    },
+    {
+      "order": 10,
+      "id": "MB-010",
+      "title": "Town Hall Budget",
+      "csv_title": "Town Hall Budget Day"
+    },
+    {
+      "order": 11,
+      "id": "MB-011",
+      "title": "Firefighter",
+      "csv_title": "Firefighter FIXED"
+    },
+    {
+      "order": 12,
+      "id": "MB-012",
+      "title": "Farmer Tractor",
+      "csv_title": "Farmer FIXED"
+    },
+    {
+      "order": 13,
+      "id": "MB-013",
+      "title": "Pilot Cessna",
+      "csv_title": "Pilot Air Mail FIXED - บินส่งของ"
+    },
+    {
+      "order": 14,
+      "id": "MB-014",
+      "title": "Librarian",
+      "csv_title": "Librarian Bruno"
+    },
+    {
+      "order": 15,
+      "id": "MB-015",
+      "title": "Barista Latte",
+      "csv_title": "Barista Bruno"
+    },
+    {
+      "order": 16,
+      "id": "MB-016",
+      "title": "Construction",
+      "csv_title": "Builder Bruno"
+    },
+    {
+      "order": 17,
+      "id": "MB-017",
+      "title": "Vet",
+      "csv_title": "Vet Bruno"
+    },
+    {
+      "order": 18,
+      "id": "MB-018",
+      "title": "Musician Guitar",
+      "csv_title": "Musician Bruno 100 Sec Concert"
+    },
+    {
+      "order": 19,
+      "id": "MB-019",
+      "title": "School Bus",
+      "csv_title": "School Bus Driver FIXED"
+    },
+    {
+      "order": 20,
+      "id": "MB-020",
+      "title": "Detective Bakery",
+      "csv_title": "Detective Bruno Cookie Case"
     }
-  ]
+  ],
+  "caption_import": {
+    "source_file": "Bruno-All-Episodes-Caption-Pinned.csv",
+    "imported_rows": 20,
+    "matched_episodes": 20,
+    "imported_at": "2026-09-20",
+    "status": "COMPLETE"
+  }
 }

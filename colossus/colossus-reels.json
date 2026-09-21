@@ -183,14 +183,15 @@
     {
       "id": "CS-019",
       "title": "THE HAND UNDER EARTH'S SHADOW",
-      "status": "READY",
+      "status": "PUBLISHED",
       "qa": "PASS",
       "copy_qa": "PASS 96/100",
       "paired_starter_id": "CS-019",
       "pairing_qa": "PASS",
       "media_url": "https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk",
       "caption": "We only saw the hand after Earth's shadow crossed it.\n\nIt was already there.\n\nBelow the planet.\nStill.\n\nWaiting in the dark.\n\nCOLOSSUS SIGNAL // CS-019",
-      "pinned_comment": "SHADOW NOTE:\n\nThe structure did not emerge when the light changed.\n\nThe light only revealed what was already underneath."
+      "pinned_comment": "SHADOW NOTE:\n\nThe structure did not emerge when the light changed.\n\nThe light only revealed what was already underneath.",
+      "publish_confirmation": "USER CONFIRMED REEL CS-019 PUBLISHED ON 2026-09-21"
     },
     {
       "id": "CS-020",

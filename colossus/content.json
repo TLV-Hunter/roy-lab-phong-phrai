@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T11:03:00+07:00",
+  "updated_at": "2026-09-21T12:57:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -175,7 +175,7 @@
       "format": "REEL + LINKED STILL",
       "title": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "READY"
+      "publish_status": "REEL PUBLISHED / STILL READY"
     },
     {
       "date": "2026-09-22",
@@ -862,10 +862,11 @@
         "height": 3840
       },
       "reel": {
-        "status": "ready",
+        "status": "published",
         "final_exists": true,
         "final_media_url": "https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk",
-        "final_qa": "PASS"
+        "final_qa": "PASS",
+        "publish_confirmation": "USER CONFIRMED REEL CS-019 PUBLISHED ON 2026-09-21"
       },
       "schedule": {
         "timezone": "Asia/Bangkok",

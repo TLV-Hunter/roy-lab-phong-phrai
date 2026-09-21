@@ -45,7 +45,7 @@ header{position:sticky;top:0;z-index:10;background:#061018f3;border-bottom:1px s
 
 <main class="wrap">
 <section id="plan" class="view active">
-  <div class="panel"><div class="title">Campaign Checklist</div><div class="sub">Reel 08:30 / Linked Still 20:30 • Global market</div></div>
+  <div class="panel"><div class="title">Campaign Checklist</div><div class="sub">Reel 06:00 / Linked Still 23:00 • Global market</div></div>
   <div id="days" class="list"></div>
 </section>
 
@@ -85,7 +85,7 @@ header{position:sticky;top:0;z-index:10;background:#061018f3;border-bottom:1px s
 
       <div class="row2">
         <div class="field"><label>วันที่โพสต์</label><input id="postDate" type="date"></div>
-        <div class="field"><label>เวลาโพสต์ Still (Thailand)</label><input id="postTime" type="time" value="20:30"></div>
+        <div class="field"><label>เวลาโพสต์ Still (Thailand)</label><input id="postTime" type="time" value="23:00"></div>
       </div>
 
       <div class="panel" style="margin:0">
@@ -164,7 +164,7 @@ async function init(){
   DATA=await(await fetch('./content.json?x='+Date.now(),{cache:'no-store'})).json();
   try{OV=await(await fetch('./qa-overrides.json?x='+Date.now(),{cache:'no-store'})).json()}catch{}
   DATA.episodes.filter(e=>/^CS-0(0[2-9]|1\d|2\d)$/.test(e.id)).forEach(e=>episode.add(new Option(e.id+' — '+e.title,e.id)));
-  episode.value='CS-004';
+  let nextReady=(String(DATA.calendar.find(x=>String(x.publish_status||'').toUpperCase()==='READY')?.title||'').match(/CS-\d{3}/)||[])[0];\n  episode.value=nextReady||'CS-004';
   episode.onchange=loadEpisode;
   renderDays();
   renderVaultState();
@@ -176,7 +176,7 @@ async function init(){
 function renderDays(){
   $('days').innerHTML=DATA.calendar.map(x=>{
     let id=(String(x.title).match(/CS-\d{3}/)||[])[0],e=item(id),s=e?.still||{},copy=copyFor(e||{}),rs=reelStatus(e),ss=s.status||'ready';
-    return `<div class="day" onclick="openEp('${id}')"><div><b>${x.date}</b><small>Reel 08:30</small><small>Still 20:30</small></div><div><b>${x.title}</b><small>${s.master_filename||'Master URL not archived'}</small></div><div><span class="badge ${String(x.asset_status).includes('MASTER PASS')?'g':'a'}">${x.asset_status}</span></div><div><span class="badge ${copy.caption&&copy.comment?'g':'a'}">${copy.caption&&copy.comment?'COPY READY':'COPY MISSING'}</span><small>STILL ${ss.toUpperCase()} / REEL ${rs.toUpperCase()}</small></div></div>`;
+    return `<div class="day" onclick="openEp('${id}')"><div><b>${x.date}</b><small>Reel ${e?.schedule?.reel||'06:00'}</small><small>Still ${e?.schedule?.linked_still||'23:00'}</small></div><div><b>${x.title}</b><small>${s.master_filename||'Master URL not archived'}</small></div><div><span class="badge ${String(x.asset_status).includes('MASTER PASS')?'g':'a'}">${x.asset_status}</span></div><div><span class="badge ${copy.caption&&copy.comment?'g':'a'}">${copy.caption&&copy.comment?'COPY READY':'COPY MISSING'}</span><small>STILL ${ss.toUpperCase()} / REEL ${rs.toUpperCase()}</small></div></div>`;
   }).join('');
 }
 window.openEp=id=>{episode.value=id;loadEpisode();setTab('publisher')};
@@ -245,7 +245,7 @@ async function loadEpisode(){
   let e=item(episode.value);if(!e)return;
   let c=copyFor(e),s=e.still||{},x=cal(e.id),expected=s.master_filename||e.id+'_MASTER_STILL_4K.jpg';
   caption.value=c.caption;comment.value=c.comment;$('pairId').textContent=e.id;$('pairTitle').textContent=e.title;$('expectedFile').textContent='Expected: '+expected;
-  if(x){$('postDate').value=x.date;$('postTime').value='20:30'}
+  if(x){$('postDate').value=x.date;$('postTime').value=e?.schedule?.linked_still||'23:00'}
   imageBlob=null;imageName='';remoteMaster={ready:false,url:'',sourceUrl:'',name:'',width:0,height:0};$('copy4k').disabled=true;preview.hidden=true;drop.classList.remove('has-image');
   $('resolutionState').className='result';$('resolutionState').textContent='4K NOT LOADED';
   let mu=s.media_url||'';
@@ -359,7 +359,7 @@ $('fbForget').onclick=()=>{
 };
 
 function qas(){
-  let e=item(episode.value),expected=e?.still?.master_filename||e?.id+'_MASTER_STILL_4K.jpg',th=/[ก-๙]/;
+  let e=item(episode.value),expected=e?.still?.master_filename||e?.id+'_MASTER_STILL_4K.jpg',expectedStill=e?.schedule?.linked_still||'23:00',th=/[ก-๙]/;
   const masterReady=!!imageBlob||remoteMaster.ready;
   return [
     ['FB',fb.ok,'Facebook connected'],
@@ -368,7 +368,7 @@ function qas(){
     ['CAPTION',!!caption.value.trim()&&!th.test(caption.value),'English caption'],
     ['COMMENT',!!comment.value.trim()&&!th.test(comment.value),'English comment'],
     ['AI INFO',$('aiInfo').checked,'AI disclosure checked'],
-    ['TIME',!!$('postDate').value&&$('postTime').value==='20:30','Still 20:30']
+    ['TIME',!!$('postDate').value&&$('postTime').value===expectedStill,'Still '+expectedStill]
   ];
 }
 function runQA(show=true){

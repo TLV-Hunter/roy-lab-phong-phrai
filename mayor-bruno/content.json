@@ -110,6 +110,20 @@
       "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
+      "id": "MB-008",
+      "title": "Lifeguard",
+      "job": "Lifeguard",
+      "source_filename": "BRUNO_LIFEGUARD_EDIT_12S.mp4",
+      "planned_filename": "lifeguard_bruno_beach.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/18RJyea_qd4SuPLzGnbTKwm50HYCT8HtS/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 8,
+      "playback_ready": true
+    },
+    {
       "id": "MB-009",
       "title": "Snow Route HWY 3",
       "job": "Snow Route",
@@ -153,6 +167,34 @@
       "publish_order": 11,
       "web_preview_url": "../mayor-bruno/videos/MB-011.mp4",
       "web_preview_status": "GITHUB_PAGES_READY"
+    },
+    {
+      "id": "MB-012",
+      "title": "Farmer Tractor",
+      "job": "Farmer Tractor",
+      "source_filename": "BRUNO_FARMER_EDIT_12S.mp4",
+      "planned_filename": "image_20260919_225358.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1vHSY5wU1OuF-w_msQPA5YXpL2xxpCvrr/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 12,
+      "playback_ready": true
+    },
+    {
+      "id": "MB-013",
+      "title": "Pilot Cessna",
+      "job": "Pilot Cessna",
+      "source_filename": "BRUNO_PILOT_EDIT_12S.mp4",
+      "planned_filename": "image_20260919_225609.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1BDxVTGmrJcheQLNET1m8WF1aM6ogSTYa/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 13,
+      "playback_ready": true
     },
     {
       "id": "MB-014",
@@ -230,6 +272,20 @@
       "web_preview_status": "GITHUB_PAGES_READY"
     },
     {
+      "id": "MB-019",
+      "title": "School Bus",
+      "job": "School Bus",
+      "source_filename": "BRUNO_SCHOOLBUS_EDIT_12S.mp4",
+      "planned_filename": "image_20260919_225400.mp4",
+      "status": "DRIVE_LINKED",
+      "duration_sec": 12,
+      "media_url": "https://drive.google.com/file/d/1yE0j3hMIAw_CVz7Tyxq1EubjRrUy5Apx/view",
+      "copy_qa": "PASS",
+      "visual_qa": "VISUAL_MATCHED",
+      "publish_order": 19,
+      "playback_ready": true
+    },
+    {
       "id": "MB-020",
       "title": "Detective Bakery",
       "job": "Detective",
@@ -264,7 +320,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-001.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-002",
@@ -284,7 +341,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-002.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-003",
@@ -304,7 +362,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-003.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-004",
@@ -324,7 +383,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-004.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-005",
@@ -344,7 +404,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-005.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-006",
@@ -364,7 +425,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-006.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-007",
@@ -384,7 +446,8 @@
       "web_preview_url": "../mayor-bruno/videos/MB-007.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
       "duration_sec": 12,
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-008",
@@ -397,7 +460,13 @@
       "first_comment": "Bruno's rescue technique: swim fast bark loud bring floatie. Lake is safe today. Next: snow run on HWY 3.",
       "copy_qa": "PASS",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
-      "data_complete": false
+      "data_complete": true,
+      "source_filename": "BRUNO_LIFEGUARD_EDIT_12S.mp4",
+      "media_url": "https://drive.google.com/file/d/18RJyea_qd4SuPLzGnbTKwm50HYCT8HtS/view",
+      "duration_sec": 12,
+      "visual_qa": "VISUAL_MATCHED",
+      "media_status": "DRIVE_LINKED",
+      "playback_ready": true
     },
     {
       "id": "MB-009",
@@ -417,7 +486,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-009.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-010",
@@ -437,7 +507,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-010.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-011",
@@ -457,7 +528,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-011.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-012",
@@ -470,7 +542,13 @@
       "first_comment": "He drives tractor slow so crows can keep up. Next: flight over town.",
       "copy_qa": "PASS",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
-      "data_complete": false
+      "data_complete": true,
+      "source_filename": "BRUNO_FARMER_EDIT_12S.mp4",
+      "media_url": "https://drive.google.com/file/d/1vHSY5wU1OuF-w_msQPA5YXpL2xxpCvrr/view",
+      "duration_sec": 12,
+      "visual_qa": "VISUAL_MATCHED",
+      "media_status": "DRIVE_LINKED",
+      "playback_ready": true
     },
     {
       "id": "MB-013",
@@ -483,7 +561,13 @@
       "first_comment": "Cruising smoothly over Willow Creek now. This package is for ranger station — trucks couldn't make it so Bruno did. Next: library duty as Librarian Bruno.",
       "copy_qa": "PASS",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
-      "data_complete": false
+      "data_complete": true,
+      "source_filename": "BRUNO_PILOT_EDIT_12S.mp4",
+      "media_url": "https://drive.google.com/file/d/1BDxVTGmrJcheQLNET1m8WF1aM6ogSTYa/view",
+      "duration_sec": 12,
+      "visual_qa": "VISUAL_MATCHED",
+      "media_status": "DRIVE_LINKED",
+      "playback_ready": true
     },
     {
       "id": "MB-014",
@@ -503,7 +587,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-014.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-015",
@@ -523,7 +608,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-015.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-016",
@@ -543,7 +629,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-016.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-017",
@@ -563,7 +650,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-017.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-018",
@@ -583,7 +671,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-018.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     },
     {
       "id": "MB-019",
@@ -596,7 +685,13 @@
       "first_comment": "50 backpacks 50 names 50 high-fives at door. Safety first tail wags second. Last case: detective.",
       "copy_qa": "PASS",
       "caption_source": "Bruno-All-Episodes-Caption-Pinned.csv",
-      "data_complete": false
+      "data_complete": true,
+      "source_filename": "BRUNO_SCHOOLBUS_EDIT_12S.mp4",
+      "media_url": "https://drive.google.com/file/d/1yE0j3hMIAw_CVz7Tyxq1EubjRrUy5Apx/view",
+      "duration_sec": 12,
+      "visual_qa": "VISUAL_MATCHED",
+      "media_status": "DRIVE_LINKED",
+      "playback_ready": true
     },
     {
       "id": "MB-020",
@@ -616,7 +711,8 @@
       "duration_sec": 12,
       "web_preview_url": "../mayor-bruno/videos/MB-020.mp4",
       "web_preview_status": "GITHUB_PAGES_READY",
-      "data_complete": true
+      "data_complete": true,
+      "playback_ready": true
     }
   ],
   "character_qa": [
@@ -630,8 +726,8 @@
   ],
   "caption_footer": "Imagined with Meta AI. Original story & characters.",
   "hashtags": "#MayorBruno #WillowCreek #GoldenRetriever #SmallTownDog #CozyStories",
-  "last_updated": "2026-09-20",
-  "update_note": "Added 10 newly uploaded clips to Google Drive and linked them to Mayor Bruno episodes. Total media-linked episodes should now be 16/20.",
+  "last_updated": "2026-09-21",
+  "update_note": "Recovered MB-008, MB-012, MB-013, MB-019 from prior Library folder, visually verified all four final 12s clips, linked Drive media, and restored 20/20 playable episodes.",
   "published_sequence": [
     {
       "order": 1,
@@ -778,16 +874,18 @@
     "captions_complete": 20,
     "first_comments_complete": 20,
     "copy_qa_pass": 20,
-    "source_files_linked": 16,
-    "original_media_linked": 16,
-    "web_previews_ready": 16,
-    "visual_qa_present": 16,
-    "durations_present": 16,
-    "missing_video_episode_ids": [
+    "source_files_linked": 20,
+    "original_media_linked": 20,
+    "playback_ready": 20,
+    "web_previews_local": 16,
+    "drive_embed_only": [
       "MB-008",
       "MB-012",
       "MB-013",
       "MB-019"
-    ]
+    ],
+    "visual_qa_present": 20,
+    "durations_present": 20,
+    "missing_video_episode_ids": []
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T22:36:00+07:00",
+  "updated_at": "2026-09-21T11:03:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -850,7 +850,7 @@
       "still_pinned": "SHADOW NOTE:\n\nThe hand is visible only on Earth's night side.\n\nNo matching structure appears in daylight imaging.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -883,7 +883,7 @@
       "still_pinned": "LIGHT CURVE NOTE:\n\nThe second pulse was brighter than the first.\n\nIts spectrum does not match any known star.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -913,7 +913,7 @@
       "still_pinned": "SOLAR OBSERVATION:\n\nThe silhouette remained fixed while the Sun rotated.\n\nIts distance is still unknown.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -946,7 +946,7 @@
       "still_pinned": "ACOUSTIC NOTE:\n\nThe signal is below normal human hearing.\n\nWhen accelerated, the pattern resembles breathing.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -979,7 +979,7 @@
       "still_pinned": "STRUCTURE NOTE:\n\nThe outer shell is segmented.\n\nSeveral sections are moving independently beneath the atmosphere.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1012,7 +1012,7 @@
       "still_pinned": "ECLIPSE NOTE:\n\nThe Moon explains the central shadow.\n\nIt does not explain the structure surrounding it.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1045,7 +1045,7 @@
       "still_pinned": "ATMOSPHERIC NOTE:\n\nThe eye rotates independently of Jupiter's surrounding cloud bands.\n\nIts pupil remains aligned with Earth.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1078,7 +1078,7 @@
       "still_pinned": "GRAVITY NOTE:\n\nNo matching mass has been detected.\n\nThe distortion is centered on Earth, not on the entity.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1111,7 +1111,7 @@
       "still_pinned": "ORBITAL NOTE:\n\nNo known gravitational event explains the change.\n\nEarth's orbit remained untouched.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1144,7 +1144,7 @@
       "still_pinned": "SOURCE NOTE:\n\nThe signal passed upward through Earth before reaching the satellites.\n\nIts origin remains below the mapped crust.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1177,7 +1177,7 @@
       "still_pinned": "FINAL TRANSMISSION NOTE:\n\nThe movement was not directed toward the Moon.\nNot toward the Sun.\n\nThe trajectory is Earth.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",

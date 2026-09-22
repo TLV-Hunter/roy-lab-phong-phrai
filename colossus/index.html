@@ -35,16 +35,18 @@ function colossusMonthSummary(){
   const em=Object.fromEntries((C.episodes||[]).map(e=>[e.id,e]));
   const ids=(C.calendar||[]).filter(x=>String(x.date||'')>='2026-09-01'&&String(x.date||'')<='2026-09-30').map(x=>(String(x.title||'').match(/CS-\d{3}/)||[])[0]).filter(Boolean);
   const isPub=v=>String(v||'').toLowerCase()==='published';
+  const isSkip=v=>String(v||'').toLowerCase()==='skipped';
+  const isClosed=v=>isPub(v)||isSkip(v);
   const num=id=>Number(String(id||'').replace('CS-',''))||0;
   const maxId=a=>a.length?'CS-'+String(Math.max(...a.map(num))).padStart(3,'0'):'—';
   const rp=ids.filter(id=>isPub(em[id]?.reel?.status)),sp=ids.filter(id=>isPub(em[id]?.still?.status));
   const finalMissing=[],linkMissing=[];
   ids.filter(id=>num(id)>=19).forEach(id=>{
-    let e=em[id]||{},r=colReelEntry(id),exists=e.reel?.final_exists===true||!!r.media_url||/^published$/i.test(String(r.status||''))||/final exists|v3 final|final generated/i.test(String(r.qa||'')+' '+String(r.media_link_status||'')+' '+String(r.local_file||'')),url=e.reel?.final_media_url||r.media_url||'';
+    let e=em[id]||{},r=colReelEntry(id);if(isSkip(e.reel?.status))return;let exists=e.reel?.final_exists===true||!!r.media_url||/^published$/i.test(String(r.status||''))||/final exists|v3 final|final generated/i.test(String(r.qa||'')+' '+String(r.media_link_status||'')+' '+String(r.local_file||'')),url=e.reel?.final_media_url||r.media_url||'';
     if(!exists)finalMissing.push(id);else if(!url)linkMissing.push(id)
   });
-  const next=ids.find(id=>!isPub(em[id]?.reel?.status))||'—';
-  return{reelThrough:maxId(rp),stillThrough:maxId(sp),next,finalMissing,linkMissing,pendingReels:ids.filter(id=>!isPub(em[id]?.reel?.status)),pendingStills:ids.filter(id=>!isPub(em[id]?.still?.status))}
+  const next=ids.find(id=>!isClosed(em[id]?.reel?.status))||'—';
+  return{reelThrough:maxId(rp),stillThrough:maxId(sp),next,finalMissing,linkMissing,pendingReels:ids.filter(id=>!isClosed(em[id]?.reel?.status)),pendingStills:ids.filter(id=>!isClosed(em[id]?.still?.status))}
 }
 function source(){return CAM==='rls'?R:CAM==='bruno'?B:C}
 function eps(){let a=(source().episodes||[]).slice();if(CAM==='bruno'){return a.sort((x,y)=>{let nx=parseInt(String(x.id||'').replace(/\D/g,''))||9999,ny=parseInt(String(y.id||'').replace(/\D/g,''))||9999;return nx-ny})}return a.sort((x,y)=>String(x.date||'').localeCompare(String(y.date||'')))}

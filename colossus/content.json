@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:38:36+07:00",
+  "updated_at": "2026-09-22T22:46:51+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -35,7 +35,7 @@
   "calendar": [
     {
       "date": "2026-09-04",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-002 — THE EYE BEHIND THE MOON",
       "asset_status": "MASTER PASS",
@@ -43,7 +43,7 @@
     },
     {
       "date": "2026-09-05",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-003 — THE SHADOW THAT TURNED",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -51,7 +51,7 @@
     },
     {
       "date": "2026-09-06",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-004 — EARTH BETWEEN GODS",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -59,7 +59,7 @@
     },
     {
       "date": "2026-09-07",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-005 — THE PLANET EATER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-006 — IT DIDN'T NOTICE US",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -75,7 +75,7 @@
     },
     {
       "date": "2026-09-09",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-007 — THE MOON WAS IN ITS HAND",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -83,7 +83,7 @@
     },
     {
       "date": "2026-09-10",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-008 — THE FIRST SIGNAL WAS A HEARTBEAT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -91,7 +91,7 @@
     },
     {
       "date": "2026-09-11",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-009 — THE SHADOW BEHIND JUPITER",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -99,7 +99,7 @@
     },
     {
       "date": "2026-09-12",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-010 — THE OBJECT THAT BLOCKED THE SUN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -107,7 +107,7 @@
     },
     {
       "date": "2026-09-13",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-011 — THE FACE INSIDE THE NEBULA",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -115,7 +115,7 @@
     },
     {
       "date": "2026-09-14",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-012 — THE FINGER NEAR ORBIT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -123,7 +123,7 @@
     },
     {
       "date": "2026-09-15",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-013 — THE WORLD THAT OPENED ITS EYE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -131,7 +131,7 @@
     },
     {
       "date": "2026-09-16",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-014 — THE SIGNAL BENEATH SATURN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -139,7 +139,7 @@
     },
     {
       "date": "2026-09-17",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-015 — THE THING BEYOND MARS",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -147,7 +147,7 @@
     },
     {
       "date": "2026-09-18",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-016 — THE STARS MOVED FIRST",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -155,7 +155,7 @@
     },
     {
       "date": "2026-09-19",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-017 — THE RING WAS NOT SATURN'S",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -163,7 +163,7 @@
     },
     {
       "date": "2026-09-20",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-018 — THE MOUTH BEYOND NEPTUNE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -171,7 +171,7 @@
     },
     {
       "date": "2026-09-21",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -179,7 +179,7 @@
     },
     {
       "date": "2026-09-22",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-020 — THE STAR THAT BLINKED BACK",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -187,7 +187,7 @@
     },
     {
       "date": "2026-09-23",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-021 — SOMETHING SAT BEHIND THE SUN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -195,7 +195,7 @@
     },
     {
       "date": "2026-09-24",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-022 — EARTH HEARD IT BREATHE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -203,7 +203,7 @@
     },
     {
       "date": "2026-09-25",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-023 — THE PLANET THAT WASN'T A PLANET",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -211,7 +211,7 @@
     },
     {
       "date": "2026-09-26",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-024 — IT WORE THE ECLIPSE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -219,7 +219,7 @@
     },
     {
       "date": "2026-09-27",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-025 — THE EYE INSIDE JUPITER'S STORM",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -227,7 +227,7 @@
     },
     {
       "date": "2026-09-28",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-026 — IT FOLDED SPACE AROUND EARTH",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -235,7 +235,7 @@
     },
     {
       "date": "2026-09-29",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-027 — THE MOON CHANGED ORBIT FOR IT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -243,7 +243,7 @@
     },
     {
       "date": "2026-09-30",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "REEL + LINKED STILL",
       "title": "CS-028 — THE SIGNAL CAME FROM BELOW",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -251,7 +251,7 @@
     },
     {
       "date": "2026-10-01",
-      "time": "08:30 / 20:30",
+      "time": "06:00 / 23:00",
       "format": "SEASON FINALE",
       "title": "CS-029 — IT FINALLY MOVED",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -275,9 +275,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -298,9 +298,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -328,9 +328,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -358,9 +358,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -390,9 +390,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -422,9 +422,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -454,9 +454,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -486,9 +486,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -521,9 +521,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -556,9 +556,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -591,9 +591,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -626,9 +626,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -661,9 +661,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -696,9 +696,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -731,9 +731,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -766,9 +766,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -801,9 +801,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -836,9 +836,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -850,7 +850,7 @@
       "still_pinned": "SHADOW NOTE:\n\nThe hand is visible only on Earth's night side.\n\nNo matching structure appears in daylight imaging.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -870,9 +870,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -884,7 +884,7 @@
       "still_pinned": "LIGHT CURVE NOTE:\n\nThe second pulse was brighter than the first.\n\nIts spectrum does not match any known star.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -900,9 +900,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -914,7 +914,7 @@
       "still_pinned": "SOLAR OBSERVATION:\n\nThe silhouette remained fixed while the Sun rotated.\n\nIts distance is still unknown.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -933,9 +933,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -947,7 +947,7 @@
       "still_pinned": "ACOUSTIC NOTE:\n\nThe signal is below normal human hearing.\n\nWhen accelerated, the pattern resembles breathing.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -968,9 +968,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -982,7 +982,7 @@
       "still_pinned": "STRUCTURE NOTE:\n\nThe outer shell is segmented.\n\nSeveral sections are moving independently beneath the atmosphere.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1001,9 +1001,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1015,7 +1015,7 @@
       "still_pinned": "ECLIPSE NOTE:\n\nThe Moon explains the central shadow.\n\nIt does not explain the structure surrounding it.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1034,9 +1034,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1048,7 +1048,7 @@
       "still_pinned": "ATMOSPHERIC NOTE:\n\nThe eye rotates independently of Jupiter's surrounding cloud bands.\n\nIts pupil remains aligned with Earth.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1067,9 +1067,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1081,7 +1081,7 @@
       "still_pinned": "GRAVITY NOTE:\n\nNo matching mass has been detected.\n\nThe distortion is centered on Earth, not on the entity.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1100,9 +1100,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1114,7 +1114,7 @@
       "still_pinned": "ORBITAL NOTE:\n\nNo known gravitational event explains the change.\n\nEarth's orbit remained untouched.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1141,9 +1141,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1155,7 +1155,7 @@
       "still_pinned": "SOURCE NOTE:\n\nThe signal passed upward through Earth before reaching the satellites.\n\nIts origin remains below the mapped crust.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1182,9 +1182,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     },
     {
@@ -1196,7 +1196,7 @@
       "still_pinned": "FINAL TRANSMISSION NOTE:\n\nThe movement was not directed toward the Moon.\nNot toward the Sun.\n\nThe trajectory is Earth.",
       "still": {
         "status": "ready",
-        "post_time": "20:30",
+        "post_time": "23:00",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1212,21 +1212,21 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "08:30",
-        "linked_still": "20:30",
-        "baseline_status": "TESTABLE"
+        "reel": "06:00",
+        "linked_still": "23:00",
+        "baseline_status": "CURRENT"
       }
     }
   ],
   "schedule_baseline": {
     "timezone": "Asia/Bangkok",
-    "reel": "08:30",
-    "linked_still": "20:30",
-    "status": "TESTABLE",
-    "note": "Current controlled-test baseline; not a permanent publishing schedule."
+    "reel": "06:00",
+    "linked_still": "23:00",
+    "status": "CURRENT",
+    "note": "Locked current publishing schedule per latest verified Colossus state."
   },
   "production_summary": {
-    "as_of": "2026-09-22T22:38:36+07:00",
+    "as_of": "2026-09-22T22:46:51+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:14:05+07:00",
+  "updated_at": "2026-09-22T23:29:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -964,10 +964,9 @@
       "reel": {
         "status": "ready",
         "final_exists": true,
-        "final_qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+        "final_qa": "PASS — V3 VISUAL REVERIFIED 2026-09-22",
         "media_link_status": "VERIFIED MAPPED",
-        "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
-        "final_note": "Current user upload 23727.mp4 visually matches the locked CS-022 starter (tiny Earth, concentric pressure ripples, immense dark rib structures). Rebuilt V3: removed incorrect legacy ring text by clean reframe, applied episode-correct Signal Bar text, preserved source motion/audio, normalized audio, technical QA passed. Old Drive mapping 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD remains rejected and must not be restored.",
+        "final_note": "23727.mp4 visually matches the locked CS-022 starter exactly. The earlier non-V3 Drive file used the correct visual source but had episode-wrong RING on-screen copy, so it is not Final authority. Current V3 has corrected CS-022 Signal Bar copy: EARTH HEARD IT BREATHE / THEN IT BREATHED AGAIN.",
         "final_media_url": "https://drive.google.com/file/d/1iKlWZ7VVfc8Kp5_zbdiXhUdx54o46JEd/view?usp=drivesdk",
         "local_file": "CS-022_FINAL_COLOSSUS_SIGNAL_V3.mp4",
         "source_upload": "23727.mp4",

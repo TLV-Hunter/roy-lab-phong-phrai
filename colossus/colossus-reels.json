@@ -196,14 +196,15 @@
     {
       "id": "CS-020",
       "title": "THE STAR THAT BLINKED BACK",
-      "status": "COPY READY / VIDEO PENDING",
-      "qa": "FINAL VIDEO PENDING",
+      "status": "SKIPPED",
+      "qa": "SKIPPED — POSTING WINDOW PASSED",
       "copy_qa": "PASS 95/100",
       "paired_starter_id": "CS-020",
       "pairing_qa": "PASS",
       "media_url": "",
       "caption": "We aimed at a star.\n\nThe star brightened.\nThen dimmed.\nThen opened again.\n\nThe timing matched our observation window.\n\nIt blinked back.\n\nCOLOSSUS SIGNAL // CS-020",
-      "pinned_comment": "STELLAR NOTE:\n\nThe event repeated once.\n\nSame interval.\n\nThe second cycle began after observation started."
+      "pinned_comment": "STELLAR NOTE:\n\nThe event repeated once.\n\nSame interval.\n\nThe second cycle began after observation started.",
+      "skip_reason": "USER CONFIRMED CS-020 NO LONGER NEEDED ON 2026-09-22"
     },
     {
       "id": "CS-021",

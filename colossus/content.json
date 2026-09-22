@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:00:00+07:00",
+  "updated_at": "2026-09-22T22:47:20+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -1229,7 +1229,7 @@
     "note": "Locked current publishing schedule per latest verified Colossus state."
   },
   "production_summary": {
-    "as_of": "2026-09-22T22:46:51+07:00",
+    "as_of": "2026-09-22T22:47:20+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1238,11 +1238,11 @@
       "reel_production": "COMPLETE",
       "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
       "today_reel_status": "PUBLISHED",
-      "ready_note": "CS-020 skipped by user after posting window passed. CS-022 final exists but correct media mapping is still pending.",
+      "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
       "remaining_reels": "NONE",
       "remaining_reel_count": 0,
       "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "September Reel production has no required generation gaps. CS-022 still needs correct Final media mapping."
+    "note": "Still production is complete. September Reel production has 0 unresolved episode(s): none."
   }
 }

@@ -31,6 +31,21 @@ function copyEntry(id){return(Q.entries||[]).find(x=>x.id===id)||{}}
 function starterEntry(id){return(S.entries||[]).find(x=>x.id===id)||{}}
 function colStarterEntry(id){return(CS.entries||[]).find(x=>x.id===id)||{}}
 function colReelEntry(id){return(CR.entries||[]).find(x=>x.id===id)||{}}
+function colossusMonthSummary(){
+  const em=Object.fromEntries((C.episodes||[]).map(e=>[e.id,e]));
+  const ids=(C.calendar||[]).filter(x=>String(x.date||'')>='2026-09-01'&&String(x.date||'')<='2026-09-30').map(x=>(String(x.title||'').match(/CS-\d{3}/)||[])[0]).filter(Boolean);
+  const isPub=v=>String(v||'').toLowerCase()==='published';
+  const num=id=>Number(String(id||'').replace('CS-',''))||0;
+  const maxId=a=>a.length?'CS-'+String(Math.max(...a.map(num))).padStart(3,'0'):'—';
+  const rp=ids.filter(id=>isPub(em[id]?.reel?.status)),sp=ids.filter(id=>isPub(em[id]?.still?.status));
+  const finalMissing=[],linkMissing=[];
+  ids.filter(id=>num(id)>=19).forEach(id=>{
+    let e=em[id]||{},r=colReelEntry(id),exists=e.reel?.final_exists===true||!!r.media_url||/^published$/i.test(String(r.status||''))||/final exists|v3 final|final generated/i.test(String(r.qa||'')+' '+String(r.media_link_status||'')+' '+String(r.local_file||'')),url=e.reel?.final_media_url||r.media_url||'';
+    if(!exists)finalMissing.push(id);else if(!url)linkMissing.push(id)
+  });
+  const next=ids.find(id=>!isPub(em[id]?.reel?.status))||'—';
+  return{reelThrough:maxId(rp),stillThrough:maxId(sp),next,finalMissing,linkMissing,pendingReels:ids.filter(id=>!isPub(em[id]?.reel?.status)),pendingStills:ids.filter(id=>!isPub(em[id]?.still?.status))}
+}
 function source(){return CAM==='rls'?R:CAM==='bruno'?B:C}
 function eps(){let a=(source().episodes||[]).slice();if(CAM==='bruno'){return a.sort((x,y)=>{let nx=parseInt(String(x.id||'').replace(/\D/g,''))||9999,ny=parseInt(String(y.id||'').replace(/\D/g,''))||9999;return nx-ny})}return a.sort((x,y)=>String(x.date||'').localeCompare(String(y.date||'')))}
 function syncPublisher(){let a=$('publisherLink');if(!a)return;a.href=CAM==='rls'?'./rls-daily-queue.html':CAM==='bruno'?'../publisher.html?brand=bruno':'./plan.html'}
@@ -84,6 +99,11 @@ function renderBatch(){if(CAM==='bruno'){let ready=(B.imported_clips||[]).length
 function renderStrategy(){
   if(CAM==='bruno'){
     $('strategyView').innerHTML=`<div class="batchcard"><b>MAYOR BRUNO</b><div class="kv"><b>Core</b><span>Cozy Small Town Americana • healing animal stories</span></div><div class="kv"><b>Audience</b><span>US 25–55 • animals • small-town life</span></div><div class="kv"><b>Format</b><span>${esc(B.format||'9:16 • 10s')}</span></div></div><div class="batchcard"><b>CHARACTER LOCKS</b><div class="kv"><b>Anatomy</b><span>ONLY 2 hind legs + 2 front paws • total 4 paws</span></div><div class="kv"><b>Wardrobe</b><span>Pants always • thin round glasses</span></div><div class="kv"><b>Publishing</b><span>Original story + Meta AI disclosure</span></div></div>`;return
+  }
+  if(CAM==='colossus'){
+    let m=colossusMonthSummary();
+    $('strategyView').innerHTML=`<div class="batchcard"><b>COLOSSUS SIGNAL</b><div class="kv"><b>Core</b><span>Awe Before Fear • Scale Before Exposition</span></div><div class="kv"><b>Audience</b><span>Global / foreign-market first</span></div><div class="kv"><b>Schedule</b><span>06:00 Reel • 23:00 Linked Still</span></div><div class="kv"><b>Next Reel</b><span>${esc(m.next)}</span></div></div><div class="batchcard"><b>SEPTEMBER STATUS</b><div class="kv"><b>Published</b><span>Reel ${esc(m.reelThrough)} • Still ${esc(m.stillThrough)}</span></div><div class="kv"><b>Final missing</b><span>${esc(m.finalMissing.join(' • ')||'NONE')}</span></div><div class="kv"><b>Drive link missing</b><span>${esc(m.linkMissing.join(' • ')||'NONE')}</span></div><div class="kv"><b>Publish remaining</b><span>${m.pendingReels.length} Reels • ${m.pendingStills.length} Stills</span></div></div>`;
+    return
   }
   $('strategyView').innerHTML=CAM==='rls'?`<div class="batchcard"><b>RLS CURRENT DIRECTION</b><div class="kv"><b>Core</b><span>Evidence Before Explanation</span></div><div class="kv"><b>Mix</b><span>Evidence Mystery 45% • Creature 30% • Uncanny 25%</span></div><div class="kv"><b>Audience</b><span>International-first • Public copy English</span></div></div><div class="batchcard"><b>PRODUCTION LOCKS</b><div class="kv"><b>Still</b><span>24/24 QA PASS</span></div><div class="kv"><b>Starter</b><span>24/24 QA PASS</span></div><div class="kv"><b>Prompt</b><span>24/24 QA PASS</span></div><div class="kv"><b>Final Reels</b><span>Generate + QA + upload next</span></div></div>`:`<div class="batchcard"><b>COLOSSUS SIGNAL</b><div class="kv"><b>Core</b><span>Awe Before Fear • Scale Before Exposition</span></div><div class="kv"><b>Audience</b><span>Global / foreign-market first</span></div><div class="kv"><b>Workflow</b><span>Master Still → Starter → Prompt → Final Reel → Publish</span></div></div><div class="batchcard"><b>CURRENT PRODUCTION</b><div class="kv"><b>CS-005</b><span>${esc(colReelEntry('CS-005').status||'—')}</span></div><div class="kv"><b>CS-006</b><span>${esc(colReelEntry('CS-006').status||'—')}</span></div></div>`
 }

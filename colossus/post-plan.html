@@ -52,25 +52,28 @@ Promise.all([
  const eps=Object.fromEntries((c.episodes||[]).map(x=>[x.id,x]));
  const reelMap=Object.fromEntries((reels.entries||[]).map(x=>[x.id,x]));
  const isPub=v=>String(v||'').toLowerCase()==='published';
+ const isSkip=v=>String(v||'').toLowerCase()==='skipped';
+ const isClosed=v=>isPub(v)||isSkip(v);
  const epNum=id=>Number(String(id||'').replace('CS-',''))||0;
  const maxId=ids=>ids.length?'CS-'+String(Math.max(...ids.map(epNum))).padStart(3,'0'):'—';
  const pubReels=Object.values(eps).filter(e=>isPub(e.reel?.status)).map(e=>e.id);
  const pubStills=Object.values(eps).filter(e=>isPub(e.still?.status)).map(e=>e.id);
- const nextReel=(allCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean).find(id=>!isPub(eps[id]?.reel?.status)))||'—';
+ const nextReel=(allCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean).find(id=>!isClosed(eps[id]?.reel?.status)))||'—';
  document.getElementById('publishHead').textContent=maxId(pubReels)+' REEL';
  document.getElementById('publishLabel').textContent='REEL ลงแล้วถึง '+maxId(pubReels)+' • STILL ลงแล้วถึง '+maxId(pubStills);
  document.getElementById('publishSub').textContent='Next Reel = '+nextReel;
 
  const seasonIds=Array.from({length:25},(_,i)=>'CS-'+String(i+5).padStart(3,'0'));
- const finalConfirmed=seasonIds.filter(id=>{const e=eps[id]||{},r=reelMap[id]||{};return e.reel?.final_exists===true||!!r.media_url||(!String(r.qa||'').includes('PENDING')&&String(r.qa||'').trim()!=='')});
- const finalMapped=seasonIds.filter(id=>!!((eps[id]?.reel?.final_media_url)||reelMap[id]?.media_url));
- document.getElementById('finalHead').textContent=finalConfirmed.length+' / '+seasonIds.length;
+ const requiredSeasonIds=seasonIds.filter(id=>!isSkip(eps[id]?.reel?.status));
+ const finalConfirmed=requiredSeasonIds.filter(id=>{const e=eps[id]||{},r=reelMap[id]||{};return e.reel?.final_exists===true||!!r.media_url||(!String(r.qa||'').includes('PENDING')&&String(r.qa||'').trim()!=='')});
+ const finalMapped=requiredSeasonIds.filter(id=>!!((eps[id]?.reel?.final_media_url)||reelMap[id]?.media_url));
+ document.getElementById('finalHead').textContent=finalConfirmed.length+' / '+requiredSeasonIds.length;
  document.getElementById('finalSub').textContent=finalMapped.length+' ตอนมีลิงก์ Final บนเว็บ';
 
  const sepCal=allCal.filter(x=>x.date>='2026-09-01'&&x.date<='2026-09-30');
  const sepIds=sepCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean);
- const pendingReels=sepIds.filter(id=>!isPub(eps[id]?.reel?.status));
- const pendingStills=sepIds.filter(id=>!isPub(eps[id]?.still?.status));
+ const pendingReels=sepIds.filter(id=>!isClosed(eps[id]?.reel?.status));
+ const pendingStills=sepIds.filter(id=>!isClosed(eps[id]?.still?.status));
  document.getElementById('sepReels').textContent=String(pendingReels.length);
  document.getElementById('sepReelIds').textContent=pendingReels.join(' • ')||'ครบแล้ว';
  document.getElementById('sepStills').textContent=String(pendingStills.length);
@@ -79,7 +82,7 @@ Promise.all([
  const gaps=[];
  for(const id of sepIds){
    const e=eps[id]||{},r=reelMap[id]||{},n=epNum(id);
-   if(n<19)continue;
+   if(n<19||isSkip(e.reel?.status))continue;
    const finalExists=e.reel?.final_exists===true||!!r.media_url||(!String(r.qa||'').includes('PENDING')&&String(r.qa||'').trim()!=='');
    const finalUrl=(e.reel?.final_media_url)||r.media_url||'';
    if(!finalExists)gaps.push({cls:'gapBad',text:'<b>'+id+'</b> — FINAL REEL MISSING'});
@@ -91,14 +94,14 @@ Promise.all([
  const today=cal.find(x=>x.date===todayDate);
  if(today){
   document.getElementById('todayTitle').textContent=today.title;
-  const id=(String(today.title).match(/^(CS-\d+)/)||[])[1]||'',r=reelMap[id]||{},e=eps[id]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status);
+  const id=(String(today.title).match(/^(CS-\d+)/)||[])[1]||'',r=reelMap[id]||{},e=eps[id]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status),rk=isSkip(e.reel?.status),sk=isSkip(e.still?.status);
   const rs=document.getElementById('reelStatus'),ss=document.getElementById('stillStatus');
-  rs.textContent=rp?'✓ PUBLISHED':(r.media_url?'READY • 06:00':'FINAL NEEDED');
-  ss.textContent=sp?'✓ PUBLISHED':'READY • 23:00';
-  rs.className='status '+(rp?'done':'wait');ss.className='status '+(sp?'done':'wait');
+  rs.textContent=rk?'SKIPPED':(rp?'✓ PUBLISHED':(r.media_url?'READY • 06:00':'FINAL NEEDED'));
+  ss.textContent=sk?'SKIPPED':(sp?'✓ PUBLISHED':'READY • 23:00');
+  rs.className='status '+((rp||rk)?'done':'wait');ss.className='status '+((sp||sk)?'done':'wait');
   if(r.media_url)document.getElementById('todayVideo').innerHTML='<div class="video"><iframe src="'+esc(drivePreview(r.media_url))+'" allow="autoplay; fullscreen"></iframe><a href="'+esc(r.media_url)+'" target="_blank">OPEN FINAL REEL</a></div>';
  }else document.getElementById('todayTitle').textContent='ไม่มีรายการใน Calendar วันนี้';
 
- document.getElementById('schedule').innerHTML=cal.map(x=>{const m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,e=eps[ep]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status);return '<div class="row '+(x.date===todayDate?'current':'')+'"><div class="date">'+esc(thaiDate(x.date))+'</div><div class="ep">'+esc(ep)+'</div><div class="title">'+esc(title)+'</div><div class="rtime">'+(rp?'✓ PUBLISHED':'06:00 REEL')+'</div><div class="stime">'+(sp?'✓ PUBLISHED':'23:00 STILL')+'</div></div>'}).join('');
+ document.getElementById('schedule').innerHTML=cal.map(x=>{const m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,e=eps[ep]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status),rk=isSkip(e.reel?.status),sk=isSkip(e.still?.status);return '<div class="row '+(x.date===todayDate?'current':'')+'"><div class="date">'+esc(thaiDate(x.date))+'</div><div class="ep">'+esc(ep)+'</div><div class="title">'+esc(title)+'</div><div class="rtime">'+(rk?'SKIPPED':(rp?'✓ PUBLISHED':'06:00 REEL'))+'</div><div class="stime">'+(sk?'SKIPPED':(sp?'✓ PUBLISHED':'23:00 STILL'))+'</div></div>'}).join('');
 }).catch(e=>document.getElementById('schedule').innerHTML='<div class="note">LOAD ERROR: '+esc(e.message)+'</div>');
 </script></body></html>

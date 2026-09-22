@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T12:57:00+07:00",
+  "updated_at": "2026-09-22T22:34:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -962,7 +962,9 @@
         "status": "ready",
         "final_exists": true,
         "final_qa": "FINAL EXISTS — USER CONFIRMED",
-        "media_link_status": "PENDING CORRECT MAPPING"
+        "media_link_status": "PENDING CORRECT MAPPING — OLD DRIVE FILE VISUALLY REJECTED 2026-09-22",
+        "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
+        "final_note": "Drive file 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD was visually verified WRONG on 2026-09-22: it shows Earth inside a ring structure, not CS-022 EARTH HEARD IT BREATHE. Keep media URL empty until correct final is found."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1126,8 +1128,16 @@
       "reel": {
         "status": "ready",
         "final_exists": true,
-        "final_qa": "PASS — V3 FINAL",
-        "media_link_status": "FINAL GENERATED — DRIVE URL PENDING"
+        "final_qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+        "media_link_status": "VERIFIED MAPPED",
+        "final_media_url": "https://drive.google.com/file/d/110UptrMntfUS1n-jrmTKNQ0UAxcm5s_z/view?usp=drivesdk",
+        "local_file": "CS-027_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+        "source_upload": "23899.mp4",
+        "duration_seconds": 11.1,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "sha256": "3404a12bd643e20d087c6f8ad3f2308aa35883cb0968073c7f26d85fc41cfd86",
+        "final_note": "Current user re-upload visually matched CS-027 starter exactly. Rebuilt V3 from 23899.mp4; Dola AI removed by clean reframe/crop; episode-correct Signal Bar copy applied; technical QA passed. Old Drive file 1lgOTfyX377FvHEDfsJUVXszbU46ZTtA2 was visually verified WRONG and must not be restored."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1159,8 +1169,16 @@
       "reel": {
         "status": "ready",
         "final_exists": true,
-        "final_qa": "PASS — V3 FINAL",
-        "media_link_status": "FINAL GENERATED — DRIVE URL PENDING"
+        "final_qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+        "media_link_status": "VERIFIED MAPPED",
+        "final_media_url": "https://drive.google.com/file/d/12jf76PqvweVoBSKc58I2TWy8LHb4jqrc/view?usp=drivesdk",
+        "local_file": "CS-028_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+        "source_upload": "23898.mp4",
+        "duration_seconds": 11.1,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "sha256": "53ee6e93a73280c548363707c36e99eb6f9277b1cdad37632f9e838d5366de78",
+        "final_note": "Current user re-upload visually matched CS-028 starter exactly. Rebuilt V3 from 23898.mp4; Dola AI removed by clean reframe/crop; technical QA passed."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",

@@ -77,11 +77,17 @@
     {
       "id": "CS-022",
       "status": "READY",
-      "qa": "FINAL EXISTS — USER CONFIRMED",
-      "media_url": "",
-      "media_link_status": "PENDING CORRECT MAPPING — OLD DRIVE FILE VISUALLY REJECTED 2026-09-22",
-      "note": "Do not restore rejected Drive file 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD; visually verified wrong on 2026-09-22.",
-      "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk"
+      "qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+      "media_url": "https://drive.google.com/file/d/1iKlWZ7VVfc8Kp5_zbdiXhUdx54o46JEd/view?usp=drivesdk",
+      "media_link_status": "VERIFIED MAPPED",
+      "note": "Current V3 rebuilt from visually verified user upload 23727.mp4. Legacy wrong mapping remains rejected.",
+      "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
+      "local_file": "CS-022_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+      "source_upload": "23727.mp4",
+      "duration_seconds": 11.1,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "sha256": "fe634dd3d2b97a39f6d2d819697a9632900141b709f8c919b7450bb5f468b2c4"
     },
     {
       "id": "CS-023",

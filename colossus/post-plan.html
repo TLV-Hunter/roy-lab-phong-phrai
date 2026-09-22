@@ -7,7 +7,7 @@
 :root{--bg:#05090e;--panel:#08131c;--line:#1d4054;--text:#effbff;--muted:#8da6b5;--cyan:#5ee7ff;--green:#80f0a8;--amber:#ffd36b;--red:#ff9baa}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#102d3d,#05090e 44%);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{max-width:1500px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.brand h1{font-size:clamp(34px,5vw,68px);margin:0;line-height:.95}.brand p{font-size:18px;color:var(--muted);margin:10px 0}.nav{display:flex;gap:9px;flex-wrap:wrap}.btn{background:#0a3041;border:1px solid #2e718f;color:#eafdff;text-decoration:none;border-radius:11px;padding:12px 16px;font-weight:900}
 .hero,.panel{border:1px solid var(--line);background:linear-gradient(135deg,#0a1721,#071019);border-radius:20px;padding:20px;margin-top:16px}.hero h2,.panel h2{margin:0 0 14px;font-size:clamp(24px,3vw,38px)}.times,.summary{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.timeCard,.sumCard{border:1px solid #29556c;background:#061019;border-radius:16px;padding:18px;text-align:center}.clock{font-size:clamp(46px,8vw,90px);font-weight:1000;line-height:1}.kind{font-size:clamp(22px,3vw,32px);font-weight:1000;margin-top:7px}.reel .clock,.reel .kind{color:var(--green)}.still .clock,.still .kind{color:var(--amber)}.big{font-size:clamp(30px,5vw,56px);font-weight:1000;color:var(--cyan)}.label{font-size:17px;font-weight:900;margin-top:5px}.sub{color:var(--muted);margin-top:7px;line-height:1.5}.note{margin-top:14px;border:1px dashed #665827;background:#171407;color:#ffe9a5;border-radius:14px;padding:14px 16px;font-size:17px;line-height:1.55}.todayTitle{font-size:clamp(28px,4vw,48px);font-weight:1000}.todayGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.todayCard{background:#061019;border:1px solid #285268;border-radius:15px;padding:16px}.todayCard b{display:block;font-size:28px}.status{display:inline-block;margin-top:8px;padding:7px 10px;border-radius:999px;border:1px solid #3a6175;font-weight:900}.done{color:#baffd0;border-color:#37764e;background:#0a2417}.wait{color:#ffe9a5;border-color:#76652b;background:#221d08}.video{margin-top:14px;border:1px solid #285268;border-radius:15px;overflow:hidden;background:#020609}.video iframe{width:100%;height:min(70vh,800px);border:0}.video a{display:block;text-align:center;padding:12px;color:#eafdff;text-decoration:none;font-weight:900;background:#0a3041}
-.schedule{display:grid;gap:10px}.row{display:grid;grid-template-columns:150px 110px 1fr 190px 190px;gap:10px;align-items:center;border:1px solid var(--line);background:#07111a;border-radius:14px;padding:14px}.row.current{border:2px solid var(--cyan)}.date{font-size:19px;font-weight:1000}.ep{font-size:22px;font-weight:1000;color:var(--cyan)}.title{font-size:19px;font-weight:900}.rtime,.stime{text-align:center;font-size:18px;font-weight:1000;padding:9px;border-radius:10px}.rtime{color:var(--green);background:#0a2216}.stime{color:var(--amber);background:#211d09}.footer{text-align:center;color:var(--muted);padding:26px 0;font-size:14px}@media(max-width:850px){.times,.summary,.todayGrid{grid-template-columns:1fr}.row{grid-template-columns:1fr 1fr}.title{grid-column:1/3}.wrap{padding:13px}}
+.schedule{display:grid;gap:10px}.row{display:grid;grid-template-columns:150px 110px 1fr 190px 190px;gap:10px;align-items:center;border:1px solid var(--line);background:#07111a;border-radius:14px;padding:14px}.row.current{border:2px solid var(--cyan)}.date{font-size:19px;font-weight:1000}.ep{font-size:22px;font-weight:1000;color:var(--cyan)}.title{font-size:19px;font-weight:900}.rtime,.stime{text-align:center;font-size:18px;font-weight:1000;padding:9px;border-radius:10px}.rtime{color:var(--green);background:#0a2216}.stime{color:var(--amber);background:#211d09}.gapList{display:grid;gap:10px}.gapItem{border:1px solid #355064;background:#08121b;border-radius:12px;padding:12px 14px;line-height:1.5}.gapItem b{color:#eafdff}.gapBad{border-color:#7b3f3f;background:#1b0c0c}.gapWarn{border-color:#756228;background:#1c1808}.gapGood{border-color:#2f6947;background:#0b1a12}.footer{text-align:center;color:var(--muted);padding:26px 0;font-size:14px}@media(max-width:850px){.times,.summary,.todayGrid{grid-template-columns:1fr}.row{grid-template-columns:1fr 1fr}.title{grid-column:1/3}.wrap{padding:13px}}
 </style>
 </head>
 <body><div class="wrap">
@@ -19,16 +19,24 @@
 </div></section>
 
 <section class="panel"><h2>CURRENT STATE</h2><div class="summary">
-<div class="sumCard"><div class="big">CS-019 REEL</div><div class="label">REEL ลงแล้วถึง CS-019 • STILL ลงแล้วถึง CS-018</div><div class="sub">CS-019 Linked Still รอ 23:00 • Next Reel = CS-020</div></div>
-<div class="sumCard"><div class="big">23 / 25</div><div class="label">FINAL REEL ยืนยันว่ามีแล้ว</div><div class="sub">20 ตอนมีลิงก์ Final บนเว็บ • CS-022 / 027 / 028 รอลิงก์ • CS-020 / 029 ยังไม่ยืนยัน Final</div></div>
+<div class="sumCard"><div class="big" id="publishHead">กำลังโหลด...</div><div class="label" id="publishLabel">กำลังอ่านสถานะ Reel / Still ล่าสุด</div><div class="sub" id="publishSub">—</div></div>
+<div class="sumCard"><div class="big" id="finalHead">—</div><div class="label">FINAL REEL ยืนยันว่ามีแล้ว</div><div class="sub" id="finalSub">—</div></div>
 </div><div class="note"><b>Special Content:</b> พักทั้งหมดไว้ก่อนจนกว่าจะสั่งใหม่ • ไม่ต้องย้อนหลังเวลาโพสต์เก่า</div></section>
+
+<section class="panel"><h2>SEPTEMBER REMAINING / GAPS</h2>
+<div class="summary">
+<div class="sumCard"><div class="big" id="sepReels">—</div><div class="label">Reels ที่ยังไม่ Published ภายใน ก.ย.</div><div class="sub" id="sepReelIds">—</div></div>
+<div class="sumCard"><div class="big" id="sepStills">—</div><div class="label">Linked Stills ที่ยังไม่ Published ภายใน ก.ย.</div><div class="sub" id="sepStillIds">—</div></div>
+</div>
+<div id="monthGaps" class="gapList" style="margin-top:12px"></div>
+</section>
 
 <section id="todayBox" class="panel"><h2>TODAY</h2><div id="todayTitle" class="todayTitle">กำลังโหลด...</div>
 <div class="todayGrid"><div class="todayCard"><b style="color:var(--green)">06:00 REEL</b><span id="reelStatus" class="status">—</span></div>
 <div class="todayCard"><b style="color:var(--amber)">23:00 STILL</b><span id="stillStatus" class="status">—</span></div></div><div id="todayVideo"></div></section>
 
 <section class="panel"><h2>แผนทั้งหมด</h2><div id="schedule" class="schedule"></div></section>
-<div class="footer">Source: content.json + colossus-reels.json • Current schedule 06:00 / 23:00 • Reel published through CS-019 • Still published through CS-018</div>
+<div class="footer">Source: live content.json + colossus-reels.json • Current schedule 06:00 / 23:00 • Reel/Still status rendered separately</div>
 </div>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -40,16 +48,57 @@ Promise.all([
  fetch('./content.json?v='+Date.now()).then(r=>r.json()),
  fetch('./colossus-reels.json?v='+Date.now()).then(r=>r.json())
 ]).then(([c,reels])=>{
- const todayDate=bangkok(),cal=(c.calendar||[]).filter(x=>/^CS-/.test(String(x.title||''))).filter(x=>x.date>='2026-09-08');
+ const todayDate=bangkok(),allCal=(c.calendar||[]).filter(x=>/^CS-/.test(String(x.title||''))),cal=allCal.filter(x=>x.date>='2026-09-08');
+ const eps=Object.fromEntries((c.episodes||[]).map(x=>[x.id,x]));
  const reelMap=Object.fromEntries((reels.entries||[]).map(x=>[x.id,x]));
+ const isPub=v=>String(v||'').toLowerCase()==='published';
+ const epNum=id=>Number(String(id||'').replace('CS-',''))||0;
+ const maxId=ids=>ids.length?'CS-'+String(Math.max(...ids.map(epNum))).padStart(3,'0'):'—';
+ const pubReels=Object.values(eps).filter(e=>isPub(e.reel?.status)).map(e=>e.id);
+ const pubStills=Object.values(eps).filter(e=>isPub(e.still?.status)).map(e=>e.id);
+ const nextReel=(allCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean).find(id=>!isPub(eps[id]?.reel?.status)))||'—';
+ document.getElementById('publishHead').textContent=maxId(pubReels)+' REEL';
+ document.getElementById('publishLabel').textContent='REEL ลงแล้วถึง '+maxId(pubReels)+' • STILL ลงแล้วถึง '+maxId(pubStills);
+ document.getElementById('publishSub').textContent='Next Reel = '+nextReel;
+
+ const seasonIds=Array.from({length:25},(_,i)=>'CS-'+String(i+5).padStart(3,'0'));
+ const finalConfirmed=seasonIds.filter(id=>{const e=eps[id]||{},r=reelMap[id]||{};return e.reel?.final_exists===true||!!r.media_url||(!String(r.qa||'').includes('PENDING')&&String(r.qa||'').trim()!=='')});
+ const finalMapped=seasonIds.filter(id=>!!((eps[id]?.reel?.final_media_url)||reelMap[id]?.media_url));
+ document.getElementById('finalHead').textContent=finalConfirmed.length+' / '+seasonIds.length;
+ document.getElementById('finalSub').textContent=finalMapped.length+' ตอนมีลิงก์ Final บนเว็บ';
+
+ const sepCal=allCal.filter(x=>x.date>='2026-09-01'&&x.date<='2026-09-30');
+ const sepIds=sepCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean);
+ const pendingReels=sepIds.filter(id=>!isPub(eps[id]?.reel?.status));
+ const pendingStills=sepIds.filter(id=>!isPub(eps[id]?.still?.status));
+ document.getElementById('sepReels').textContent=String(pendingReels.length);
+ document.getElementById('sepReelIds').textContent=pendingReels.join(' • ')||'ครบแล้ว';
+ document.getElementById('sepStills').textContent=String(pendingStills.length);
+ document.getElementById('sepStillIds').textContent=pendingStills.join(' • ')||'ครบแล้ว';
+
+ const gaps=[];
+ for(const id of sepIds){
+   const e=eps[id]||{},r=reelMap[id]||{},n=epNum(id);
+   if(n<19)continue;
+   const finalExists=e.reel?.final_exists===true||!!r.media_url||(!String(r.qa||'').includes('PENDING')&&String(r.qa||'').trim()!=='');
+   const finalUrl=(e.reel?.final_media_url)||r.media_url||'';
+   if(!finalExists)gaps.push({cls:'gapBad',text:'<b>'+id+'</b> — FINAL REEL MISSING'});
+   else if(!finalUrl)gaps.push({cls:'gapWarn',text:'<b>'+id+'</b> — FINAL EXISTS / DRIVE URL MISSING'});
+ }
+ if(!gaps.length)gaps.push({cls:'gapGood',text:'<b>Production assets complete</b> — ไม่มี Final/Drive gap ภายในเดือนกันยายน'});
+ document.getElementById('monthGaps').innerHTML=gaps.map(g=>'<div class="gapItem '+g.cls+'">'+g.text+'</div>').join('');
+
  const today=cal.find(x=>x.date===todayDate);
  if(today){
   document.getElementById('todayTitle').textContent=today.title;
-  const id=(String(today.title).match(/^(CS-\d+)/)||[])[1]||'',r=reelMap[id]||{},done=String(today.publish_status||'').toUpperCase()==='PUBLISHED';
+  const id=(String(today.title).match(/^(CS-\d+)/)||[])[1]||'',r=reelMap[id]||{},e=eps[id]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status);
   const rs=document.getElementById('reelStatus'),ss=document.getElementById('stillStatus');
-  rs.textContent=done?'✓ PUBLISHED':'06:00';ss.textContent=done?'✓ PUBLISHED':'23:00';rs.className='status '+(done?'done':'wait');ss.className='status '+(done?'done':'wait');
-  if(r.media_url)document.getElementById('todayVideo').innerHTML=`<div class="video"><iframe src="${esc(drivePreview(r.media_url))}" allow="autoplay; fullscreen"></iframe><a href="${esc(r.media_url)}" target="_blank">OPEN FINAL REEL</a></div>`;
+  rs.textContent=rp?'✓ PUBLISHED':(r.media_url?'READY • 06:00':'FINAL NEEDED');
+  ss.textContent=sp?'✓ PUBLISHED':'READY • 23:00';
+  rs.className='status '+(rp?'done':'wait');ss.className='status '+(sp?'done':'wait');
+  if(r.media_url)document.getElementById('todayVideo').innerHTML='<div class="video"><iframe src="'+esc(drivePreview(r.media_url))+'" allow="autoplay; fullscreen"></iframe><a href="'+esc(r.media_url)+'" target="_blank">OPEN FINAL REEL</a></div>';
  }else document.getElementById('todayTitle').textContent='ไม่มีรายการใน Calendar วันนี้';
- document.getElementById('schedule').innerHTML=cal.map(x=>{const m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,done=String(x.publish_status||'').toUpperCase()==='PUBLISHED';return `<div class="row ${x.date===todayDate?'current':''}"><div class="date">${esc(thaiDate(x.date))}</div><div class="ep">${esc(ep)}</div><div class="title">${esc(title)}</div><div class="rtime">${done?'✓ PUBLISHED':'06:00 REEL'}</div><div class="stime">${done?'✓ PUBLISHED':'23:00 STILL'}</div></div>`}).join('');
+
+ document.getElementById('schedule').innerHTML=cal.map(x=>{const m=String(x.title||'').match(/^(CS-\d+)\s+—\s+(.*)$/),ep=m?m[1]:'',title=m?m[2]:x.title,e=eps[ep]||{},rp=isPub(e.reel?.status),sp=isPub(e.still?.status);return '<div class="row '+(x.date===todayDate?'current':'')+'"><div class="date">'+esc(thaiDate(x.date))+'</div><div class="ep">'+esc(ep)+'</div><div class="title">'+esc(title)+'</div><div class="rtime">'+(rp?'✓ PUBLISHED':'06:00 REEL')+'</div><div class="stime">'+(sp?'✓ PUBLISHED':'23:00 STILL')+'</div></div>'}).join('');
 }).catch(e=>document.getElementById('schedule').innerHTML='<div class="note">LOAD ERROR: '+esc(e.message)+'</div>');
 </script></body></html>

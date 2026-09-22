@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:34:00+07:00",
+  "updated_at": "2026-09-22T22:34:38+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -171,15 +171,15 @@
     },
     {
       "date": "2026-09-21",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
-      "publish_status": "REEL PUBLISHED / STILL READY"
+      "publish_status": "REEL PUBLISHED • STILL READY"
     },
     {
       "date": "2026-09-22",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-020 — THE STAR THAT BLINKED BACK",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -187,7 +187,7 @@
     },
     {
       "date": "2026-09-23",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-021 — SOMETHING SAT BEHIND THE SUN",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -195,7 +195,7 @@
     },
     {
       "date": "2026-09-24",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-022 — EARTH HEARD IT BREATHE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -203,7 +203,7 @@
     },
     {
       "date": "2026-09-25",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-023 — THE PLANET THAT WASN'T A PLANET",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -211,7 +211,7 @@
     },
     {
       "date": "2026-09-26",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-024 — IT WORE THE ECLIPSE",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -219,7 +219,7 @@
     },
     {
       "date": "2026-09-27",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-025 — THE EYE INSIDE JUPITER'S STORM",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -227,7 +227,7 @@
     },
     {
       "date": "2026-09-28",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-026 — IT FOLDED SPACE AROUND EARTH",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -235,7 +235,7 @@
     },
     {
       "date": "2026-09-29",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-027 — THE MOON CHANGED ORBIT FOR IT",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -243,7 +243,7 @@
     },
     {
       "date": "2026-09-30",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "REEL + LINKED STILL",
       "title": "CS-028 — THE SIGNAL CAME FROM BELOW",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -251,7 +251,7 @@
     },
     {
       "date": "2026-10-01",
-      "time": "06:00 / 23:00",
+      "time": "08:30 / 20:30",
       "format": "SEASON FINALE",
       "title": "CS-029 — IT FINALLY MOVED",
       "asset_status": "MASTER PASS / ARCHIVED / COPY READY",
@@ -850,7 +850,7 @@
       "still_pinned": "SHADOW NOTE:\n\nThe hand is visible only on Earth's night side.\n\nNo matching structure appears in daylight imaging.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -870,9 +870,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -884,7 +884,7 @@
       "still_pinned": "LIGHT CURVE NOTE:\n\nThe second pulse was brighter than the first.\n\nIts spectrum does not match any known star.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -900,9 +900,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -914,7 +914,7 @@
       "still_pinned": "SOLAR OBSERVATION:\n\nThe silhouette remained fixed while the Sun rotated.\n\nIts distance is still unknown.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -933,9 +933,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -947,7 +947,7 @@
       "still_pinned": "ACOUSTIC NOTE:\n\nThe signal is below normal human hearing.\n\nWhen accelerated, the pattern resembles breathing.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -962,15 +962,15 @@
         "status": "ready",
         "final_exists": true,
         "final_qa": "FINAL EXISTS — USER CONFIRMED",
-        "media_link_status": "PENDING CORRECT MAPPING — OLD DRIVE FILE VISUALLY REJECTED 2026-09-22",
+        "media_link_status": "PENDING CORRECT MAPPING",
         "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
         "final_note": "Drive file 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD was visually verified WRONG on 2026-09-22: it shows Earth inside a ring structure, not CS-022 EARTH HEARD IT BREATHE. Keep media URL empty until correct final is found."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -982,7 +982,7 @@
       "still_pinned": "STRUCTURE NOTE:\n\nThe outer shell is segmented.\n\nSeveral sections are moving independently beneath the atmosphere.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1001,9 +1001,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1015,7 +1015,7 @@
       "still_pinned": "ECLIPSE NOTE:\n\nThe Moon explains the central shadow.\n\nIt does not explain the structure surrounding it.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1034,9 +1034,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1048,7 +1048,7 @@
       "still_pinned": "ATMOSPHERIC NOTE:\n\nThe eye rotates independently of Jupiter's surrounding cloud bands.\n\nIts pupil remains aligned with Earth.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1067,9 +1067,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1081,7 +1081,7 @@
       "still_pinned": "GRAVITY NOTE:\n\nNo matching mass has been detected.\n\nThe distortion is centered on Earth, not on the entity.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1100,9 +1100,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1114,7 +1114,7 @@
       "still_pinned": "ORBITAL NOTE:\n\nNo known gravitational event explains the change.\n\nEarth's orbit remained untouched.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1141,9 +1141,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1155,7 +1155,7 @@
       "still_pinned": "SOURCE NOTE:\n\nThe signal passed upward through Earth before reaching the satellites.\n\nIts origin remains below the mapped crust.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1182,9 +1182,9 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     },
     {
@@ -1196,7 +1196,7 @@
       "still_pinned": "FINAL TRANSMISSION NOTE:\n\nThe movement was not directed toward the Moon.\nNot toward the Sun.\n\nThe trajectory is Earth.",
       "still": {
         "status": "ready",
-        "post_time": "23:00",
+        "post_time": "20:30",
         "qa1": "PASS",
         "qa2": "PASS",
         "copy_qa": "PASS",
@@ -1212,57 +1212,34 @@
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
-        "reel": "06:00",
-        "linked_still": "23:00",
-        "baseline_status": "CURRENT"
+        "reel": "08:30",
+        "linked_still": "20:30",
+        "baseline_status": "TESTABLE"
       }
     }
   ],
   "schedule_baseline": {
     "timezone": "Asia/Bangkok",
-    "reel": "06:00",
-    "linked_still": "23:00",
-    "status": "CURRENT",
-    "note": "Current publishing schedule confirmed by user on 2026-09-20. Foreign-market-first cadence."
+    "reel": "08:30",
+    "linked_still": "20:30",
+    "status": "TESTABLE",
+    "note": "Current controlled-test baseline; not a permanent publishing schedule."
   },
   "production_summary": {
-    "as_of": "2026-09-20T22:36:00+07:00",
+    "as_of": "2026-09-22T22:34:38+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
       "still_master_batch": "CS-004–CS-029 = 26/26 PASS / ARCHIVED",
-      "still_publish_caught_up_through": "CS-018 — THE MOUTH BEYOND NEPTUNE",
+      "still_publish_caught_up_through": "2026-09-10",
       "reel_production": "IN PROGRESS",
       "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
       "today_reel_status": "PUBLISHED",
       "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
       "remaining_reels": "CS-020",
       "remaining_reel_count": 1,
-      "season_finale": "CS-029 — 2026-10-01",
-      "reel_publish_caught_up_through": "CS-018 — THE MOUTH BEYOND NEPTUNE",
-      "latest_user_confirmed_reel": "CS-018",
-      "latest_user_confirmed_reel_status": "PUBLISHED",
-      "next_main_reel": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
-      "remaining_main_reels_to_publish": "CS-019–CS-029",
-      "remaining_main_reel_count": 11,
-      "special_reels_status": "PAUSED / NOT STARTED",
-      "latest_user_confirmed_still": "CS-018",
-      "latest_user_confirmed_status": "REEL + STILL PUBLISHED THROUGH CS-018",
-      "next_main_still": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
-      "remaining_main_stills_to_publish": "CS-019–CS-029",
-      "remaining_main_still_count": 11,
-      "special_images_status": "PAUSED / WAITING FOR USER",
-      "current_schedule": "06:00 REEL / 23:00 STILL (Asia/Bangkok)",
-      "final_media_mapping": "CS-005–CS-008 mapped in colossus-reels.json; CS-009–CS-018 are published but final media URLs are not archived there; CS-019–CS-029 final media availability is not verified from Desk data.",
-      "final_reel_scope": "CS-005–CS-029",
-      "final_reel_confirmed_count": 23,
-      "final_reel_total_count": 25,
-      "final_reel_media_url_mapped_count": 20,
-      "final_media_url_pending": "CS-022, CS-027, CS-028",
-      "final_not_confirmed": "CS-020, CS-029",
-      "next_main_episode": "CS-019 — THE HAND UNDER EARTH'S SHADOW",
-      "special_content_status": "PAUSED UNTIL USER RESTARTS"
+      "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "Reel + Still published through CS-018. Final Reel assets are confirmed for 23/25 episodes in CS-005–CS-029; 20/25 have mapped media URLs; CS-022/027/028 have finals but links pending; CS-020/029 are not confirmed final in the current registry."
+    "note": "Still production is complete. September Reel production has 1 unresolved episode(s): CS-020."
   }
 }

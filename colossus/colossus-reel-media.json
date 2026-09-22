@@ -77,11 +77,10 @@
     {
       "id": "CS-022",
       "status": "READY",
-      "qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+      "qa": "PASS — V3 VISUAL REVERIFIED 2026-09-22",
       "media_url": "https://drive.google.com/file/d/1iKlWZ7VVfc8Kp5_zbdiXhUdx54o46JEd/view?usp=drivesdk",
       "media_link_status": "VERIFIED MAPPED",
-      "note": "Current V3 rebuilt from visually verified user upload 23727.mp4. Legacy wrong mapping remains rejected.",
-      "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
+      "note": "Verified against locked CS-022 starter. Current V3 is Final authority; old non-V3 RING-copy file is superseded.",
       "local_file": "CS-022_FINAL_COLOSSUS_SIGNAL_V3.mp4",
       "source_upload": "23727.mp4",
       "duration_seconds": 11.1,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:00:00+07:00",
+  "updated_at": "2026-09-22T22:38:36+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -1226,7 +1226,7 @@
     "note": "Current controlled-test baseline; not a permanent publishing schedule."
   },
   "production_summary": {
-    "as_of": "2026-09-22T22:34:38+07:00",
+    "as_of": "2026-09-22T22:38:36+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",

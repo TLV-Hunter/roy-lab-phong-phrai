@@ -84,8 +84,12 @@ for (const ep of data.episodes || []) {
   }
   if (ep.id === 'CS-022') {
     ep.reel.final_exists = true;
-    ep.reel.media_link_status = 'PENDING CORRECT MAPPING';
-    ep.reel.final_qa = 'FINAL EXISTS — USER CONFIRMED';
+    // Only keep the legacy pending state when no verified media URL exists.
+    // If the media registry has a mapped URL, preserve its QA/link status copied above.
+    if (!ep.reel.final_media_url) {
+      ep.reel.media_link_status = 'PENDING CORRECT MAPPING';
+      ep.reel.final_qa = 'FINAL EXISTS — USER CONFIRMED';
+    }
   }
 
   if (!['published','skipped'].includes(ep.reel.status) && 'post_time' in ep.reel) ep.reel.post_time = '06:00';
@@ -124,7 +128,9 @@ data.production_summary = {
     reel_production: missingSeptemberReels.length ? 'IN PROGRESS' : 'COMPLETE',
     today_reel: 'CS-009 — THE SHADOW BEHIND JUPITER',
     today_reel_status: 'PUBLISHED',
-    ready_note: 'CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.',
+    ready_note: byId.get('CS-022')?.reel?.final_media_url
+      ? 'CS-022 Final is visually verified and mapped to the current Drive URL.'
+      : 'CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.',
     remaining_reels: missingSeptemberReels.join(', ') || 'NONE',
     remaining_reel_count: missingSeptemberReels.length,
     season_finale: 'CS-029 — 2026-10-01'

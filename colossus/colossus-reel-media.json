@@ -2,24 +2,138 @@
   "updated_at": "2026-09-11T22:20:00+07:00",
   "status": "FINAL REEL MEDIA REGISTRY — VERIFIED / USER-CORRECTED",
   "entries": [
-    {"id":"CS-009","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk"},
-    {"id":"CS-010","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk"},
-    {"id":"CS-011","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1wUe5LVw1iFonQYxRTTRnwlHkrS9VQCuu/view?usp=drivesdk"},
-    {"id":"CS-012","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1tFicqcXgttycQv-QjEB42DgWeFtP68fv/view?usp=drivesdk"},
-    {"id":"CS-013","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1ygAkcKbd5uJ-9eeXWCzATn3chVUvRRmS/view?usp=drivesdk"},
-    {"id":"CS-014","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1AOEjp0HnhMkI9-wklxc8YsK1t5LwLIYN/view?usp=drivesdk"},
-    {"id":"CS-015","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/186YPUuOMFQiNoemdgHopxdrPgZIEICon/view?usp=drivesdk"},
-    {"id":"CS-016","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1t_YMQWp9zn18lhGogtF6Kvk4TOOhKnOy/view?usp=drivesdk"},
-    {"id":"CS-017","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1Fsr19op9zM15VT7r5YkTzuLeIk3ouJH9/view?usp=drivesdk"},
-    {"id":"CS-018","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk"},
-    {"id":"CS-019","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk"},
-    {"id":"CS-021","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1QGytSw6nGrvmvM4QCvHWl_y8z0jjYfai/view?usp=drivesdk"},
-    {"id":"CS-022","status":"READY","qa":"FINAL EXISTS — USER CONFIRMED","media_url":"","media_link_status":"PENDING CORRECT MAPPING","note":"Do not restore the previously rejected CS-022 Drive mapping without visual re-verification."},
-    {"id":"CS-023","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1StYFNrXCKESHl_x9PkNh7HurW9rGiRS-/view?usp=drivesdk"},
-    {"id":"CS-024","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1IhKeoDBQahbRUmr1SnFjDiq2bIOzK8vp/view?usp=drivesdk"},
-    {"id":"CS-025","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1LavKIYcVKy_REXkbuEPOTFHKK_4_oqrU/view?usp=drivesdk"},
-    {"id":"CS-026","status":"READY","qa":"PASS","media_url":"https://drive.google.com/file/d/1U1Lk_9AX5v7Hk_56OZYkSffUKDhMjEmQ/view?usp=drivesdk"},
-    {"id":"CS-027","status":"READY","qa":"PASS — V3 FINAL","media_url":"","media_link_status":"FINAL GENERATED — DRIVE URL PENDING","local_file":"CS-027_FINAL_COLOSSUS_SIGNAL_V3.mp4","source_upload":"23879.mp4","duration_seconds":11.1,"resolution":"1080x1920","fps":24,"sha256":"2fe8b4fd028e547e3762bbe65a577b1024a743ab0cb4e63bd2177283960f8ff2","note":"Visual match verified against CS-027 starter/source. DOLA AI removed by clean reframe/crop; English Signal Bar text applied; three-pass QA passed."},
-    {"id":"CS-028","status":"READY","qa":"PASS — V3 FINAL","media_url":"","media_link_status":"FINAL GENERATED — DRIVE URL PENDING","local_file":"CS-028_FINAL_COLOSSUS_SIGNAL_V3.mp4","source_upload":"23880.mp4","duration_seconds":11.1,"resolution":"1080x1920","fps":24,"sha256":"85a0287a94810fb186e10bfa38473e2ee88dcf277e2ef3ef4983fc337a018b27","note":"Visual match verified against CS-028 starter/source. DOLA AI removed by clean reframe/crop; English Signal Bar text applied; three-pass QA passed."}
+    {
+      "id": "CS-009",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1gtYucZjvM7rLLNmgYEm-WUHUXvDW2NyR/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-010",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/167aVdlF8lF1Wm0JK9QZlnA10jDp5Z_-s/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-011",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1wUe5LVw1iFonQYxRTTRnwlHkrS9VQCuu/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-012",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1tFicqcXgttycQv-QjEB42DgWeFtP68fv/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-013",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1ygAkcKbd5uJ-9eeXWCzATn3chVUvRRmS/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-014",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1AOEjp0HnhMkI9-wklxc8YsK1t5LwLIYN/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-015",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/186YPUuOMFQiNoemdgHopxdrPgZIEICon/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-016",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1t_YMQWp9zn18lhGogtF6Kvk4TOOhKnOy/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-017",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1Fsr19op9zM15VT7r5YkTzuLeIk3ouJH9/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-018",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1YjPd3sqhoMVt1KVtWK7Ik1t21DHtk0La/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-019",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1SZZWBh8EcM3KyVifoHJ0TBpyP3WGkvUh/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-021",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1QGytSw6nGrvmvM4QCvHWl_y8z0jjYfai/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-022",
+      "status": "READY",
+      "qa": "FINAL EXISTS — USER CONFIRMED",
+      "media_url": "",
+      "media_link_status": "PENDING CORRECT MAPPING — OLD DRIVE FILE VISUALLY REJECTED 2026-09-22",
+      "note": "Do not restore rejected Drive file 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD; visually verified wrong on 2026-09-22.",
+      "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-023",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1StYFNrXCKESHl_x9PkNh7HurW9rGiRS-/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-024",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1IhKeoDBQahbRUmr1SnFjDiq2bIOzK8vp/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-025",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1LavKIYcVKy_REXkbuEPOTFHKK_4_oqrU/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-026",
+      "status": "READY",
+      "qa": "PASS",
+      "media_url": "https://drive.google.com/file/d/1U1Lk_9AX5v7Hk_56OZYkSffUKDhMjEmQ/view?usp=drivesdk"
+    },
+    {
+      "id": "CS-027",
+      "status": "READY",
+      "qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+      "media_url": "https://drive.google.com/file/d/110UptrMntfUS1n-jrmTKNQ0UAxcm5s_z/view?usp=drivesdk",
+      "media_link_status": "VERIFIED MAPPED",
+      "local_file": "CS-027_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+      "source_upload": "23899.mp4",
+      "duration_seconds": 11.1,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "sha256": "3404a12bd643e20d087c6f8ad3f2308aa35883cb0968073c7f26d85fc41cfd86",
+      "note": "Current V3 rebuilt from verified re-upload 23899.mp4. Old Drive file 1lgOTfyX377FvHEDfsJUVXszbU46ZTtA2 is rejected/wrong."
+    },
+    {
+      "id": "CS-028",
+      "status": "READY",
+      "qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+      "media_url": "https://drive.google.com/file/d/12jf76PqvweVoBSKc58I2TWy8LHb4jqrc/view?usp=drivesdk",
+      "media_link_status": "VERIFIED MAPPED",
+      "local_file": "CS-028_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+      "source_upload": "23898.mp4",
+      "duration_seconds": 11.1,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "sha256": "53ee6e93a73280c548363707c36e99eb6f9277b1cdad37632f9e838d5366de78",
+      "note": "Current V3 rebuilt from verified re-upload 23898.mp4."
+    }
   ]
 }

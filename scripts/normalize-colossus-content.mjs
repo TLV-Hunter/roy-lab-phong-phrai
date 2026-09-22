@@ -21,6 +21,7 @@ function bangkokIsoNow(){
 function publishState(ep){
   const r = String(ep?.reel?.status || 'waiting').toLowerCase();
   const s = String(ep?.still?.status || 'ready').toLowerCase();
+  if (r === 'skipped' && s === 'skipped') return 'SKIPPED';
   if (r === 'published' && s === 'published') return 'PUBLISHED';
   if (r === 'published') return `REEL PUBLISHED • STILL ${s.toUpperCase()}`;
   if (s === 'published') return `STILL PUBLISHED • REEL ${r.toUpperCase()}`;
@@ -49,10 +50,10 @@ data.updated_at = bangkokIsoNow();
 data.mode = 'CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET';
 data.schedule_baseline = {
   timezone: 'Asia/Bangkok',
-  reel: '08:30',
-  linked_still: '20:30',
-  status: 'TESTABLE',
-  note: 'Current controlled-test baseline; not a permanent publishing schedule.'
+  reel: '06:00',
+  linked_still: '23:00',
+  status: 'CURRENT',
+  note: 'Locked current publishing schedule per latest verified Colossus state.'
 };
 
 for (const ep of data.episodes || []) {
@@ -67,7 +68,7 @@ for (const ep of data.episodes || []) {
   if (confirmedStill.has(ep.id)) ep.still.status = 'published';
   if (confirmedReel.has(ep.id)) ep.reel.status = 'published';
 
-  if (ep.reel.status !== 'published' && (registryReady.has(ep.id) || legacyReady.has(ep.id))) {
+  if (!['published','skipped'].includes(ep.reel.status) && (registryReady.has(ep.id) || legacyReady.has(ep.id))) {
     ep.reel.status = 'ready';
   }
 
@@ -87,19 +88,19 @@ for (const ep of data.episodes || []) {
     ep.reel.final_qa = 'FINAL EXISTS — USER CONFIRMED';
   }
 
-  if (ep.reel.status !== 'published' && 'post_time' in ep.reel) ep.reel.post_time = '08:30';
-  if (ep.still.status !== 'published' && 'post_time' in ep.still) ep.still.post_time = '20:30';
+  if (!['published','skipped'].includes(ep.reel.status) && 'post_time' in ep.reel) ep.reel.post_time = '06:00';
+  if (!['published','skipped'].includes(ep.still.status) && 'post_time' in ep.still) ep.still.post_time = '23:00';
 
   ep.schedule ||= {};
   ep.schedule.timezone = 'Asia/Bangkok';
-  ep.schedule.reel = '08:30';
-  ep.schedule.linked_still = '20:30';
-  ep.schedule.baseline_status = 'TESTABLE';
+  ep.schedule.reel = '06:00';
+  ep.schedule.linked_still = '23:00';
+  ep.schedule.baseline_status = 'CURRENT';
 }
 
 const byId = new Map((data.episodes || []).map(ep => [ep.id, ep]));
 for (const row of data.calendar || []) {
-  row.time = '08:30 / 20:30';
+  row.time = '06:00 / 23:00';
   const id = String(row.title || '').match(/CS-\d{3}/)?.[0];
   if (id && byId.has(id)) row.publish_status = publishState(byId.get(id));
 }
@@ -110,7 +111,7 @@ const septemberIds = (data.calendar || [])
   .filter(Boolean);
 const missingSeptemberReels = septemberIds.filter(id => {
   const ep = byId.get(id);
-  return !['ready','published'].includes(String(ep?.reel?.status || '').toLowerCase());
+  return !['ready','published','skipped'].includes(String(ep?.reel?.status || '').toLowerCase());
 });
 
 data.production_summary = {

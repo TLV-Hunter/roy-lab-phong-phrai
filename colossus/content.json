@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:13:08+07:00",
+  "updated_at": "2026-09-22T23:14:05+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -964,8 +964,8 @@
       "reel": {
         "status": "ready",
         "final_exists": true,
-        "final_qa": "FINAL EXISTS — USER CONFIRMED",
-        "media_link_status": "PENDING CORRECT MAPPING",
+        "final_qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
+        "media_link_status": "VERIFIED MAPPED",
         "rejected_drive_url": "https://drive.google.com/file/d/1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD/view?usp=drivesdk",
         "final_note": "Current user upload 23727.mp4 visually matches the locked CS-022 starter (tiny Earth, concentric pressure ripples, immense dark rib structures). Rebuilt V3: removed incorrect legacy ring text by clean reframe, applied episode-correct Signal Bar text, preserved source motion/audio, normalized audio, technical QA passed. Old Drive mapping 1kW_W8IFNlZsY8tOv14aPyjhVqexyICeD remains rejected and must not be restored.",
         "final_media_url": "https://drive.google.com/file/d/1iKlWZ7VVfc8Kp5_zbdiXhUdx54o46JEd/view?usp=drivesdk",
@@ -1236,7 +1236,7 @@
     "note": "Locked current publishing schedule per latest verified Colossus state."
   },
   "production_summary": {
-    "as_of": "2026-09-22T23:13:08+07:00",
+    "as_of": "2026-09-22T23:14:05+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1245,7 +1245,7 @@
       "reel_production": "COMPLETE",
       "today_reel": "CS-009 — THE SHADOW BEHIND JUPITER",
       "today_reel_status": "PUBLISHED",
-      "ready_note": "CS-022 Final exists per latest user confirmation; correct media URL still requires safe re-mapping.",
+      "ready_note": "CS-022 Final is visually verified and mapped to the current Drive URL.",
       "remaining_reels": "NONE",
       "remaining_reel_count": 0,
       "season_finale": "CS-029 — 2026-10-01"

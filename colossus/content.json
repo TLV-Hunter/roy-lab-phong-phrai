@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:34:38+07:00",
+  "updated_at": "2026-09-22T22:00:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -1169,16 +1169,16 @@
       "reel": {
         "status": "ready",
         "final_exists": true,
-        "final_qa": "PASS — V3 REBUILT + VISUAL REVERIFIED 2026-09-22",
-        "media_link_status": "VERIFIED MAPPED",
-        "final_media_url": "https://drive.google.com/file/d/12jf76PqvweVoBSKc58I2TWy8LHb4jqrc/view?usp=drivesdk",
+        "final_qa": "PASS — V3 REBUILT FINAL",
+        "media_link_status": "MAPPED — DRIVE VERIFIED",
+        "final_media_url": "https://drive.google.com/file/d/1clJwvaWhTvPIJckADStFmOHwH1ZW88WP/view?usp=drivesdk",
         "local_file": "CS-028_FINAL_COLOSSUS_SIGNAL_V3.mp4",
         "source_upload": "23898.mp4",
         "duration_seconds": 11.1,
         "resolution": "1080x1920",
         "fps": 24,
-        "sha256": "53ee6e93a73280c548363707c36e99eb6f9277b1cdad37632f9e838d5366de78",
-        "final_note": "Current user re-upload visually matched CS-028 starter exactly. Rebuilt V3 from 23898.mp4; Dola AI removed by clean reframe/crop; technical QA passed."
+        "sha256": "dac8e7d2b5b49a885d8e40b6a3a72f43fb931311ab29ba09f7b73eeed2989c0c",
+        "final_note": "Rebuilt from visually verified upload 23898.mp4. DOLA AI removed by clean reframe/crop; English Signal Bar/title preserved; three-pass QA passed; Drive mapping restored."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",

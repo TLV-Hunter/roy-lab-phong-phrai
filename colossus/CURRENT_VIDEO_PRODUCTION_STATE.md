@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-12
+Updated: 2026-09-23
 
 ## Authority correction
 
@@ -43,6 +43,36 @@ Current state combines the visual re-check of the actual edited Final Reel files
   - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps source-preserving CFR exception.
   - DOLA AI removed by clean reframe/crop; English Signal Bar text added; three-pass QA passed.
   - Drive/media URL still pending registration.
+
+
+### Unmapped V3 Final Batch — 2026-09-23
+The following user-uploaded sources were visually inspected and passed V3 source QA, then edited to 12.00s Final delivery. **They are NOT assigned to a CS episode yet** because episode identity was not verified from project authority; do not infer episode IDs from filenames.
+
+Common Final treatment:
+- 1080x1920 vertical FHD upscale from 720x1280 using high-quality resampling and mild detail recovery; no fake 4K claim.
+- 12.00 seconds using continuous speed adjustment rather than frozen-frame padding.
+- 30fps CFR delivery, H.264 + AAC 48kHz.
+- Dola AI corner contamination removed by clean reframe/crop.
+- English-only two-beat Colossus hook text with cyan Signal Bar; hero visual left unobstructed in the final section.
+- Audio normalized to the Colossus social target range.
+- QA-A Technical / QA-B Story-Continuity / QA-C Delivery all PASS; no accidental black/frozen frames detected.
+
+Finals:
+- 24493.mp4 -> `24493_COLOSSUS_FINAL_12S_V3.mp4`
+- 24495.mp4 -> `24495_COLOSSUS_FINAL_12S_V3.mp4`
+- 24496.mp4 -> `24496_COLOSSUS_FINAL_12S_V3.mp4`
+- 24503.mp4 -> `24503_COLOSSUS_FINAL_12S_V3.mp4`
+- 24504.mp4 -> `24504_COLOSSUS_FINAL_12S_V3.mp4`
+- 24505.mp4 -> `24505_COLOSSUS_FINAL_12S_V3.mp4`
+- 24506.mp4 -> `24506_COLOSSUS_FINAL_12S_V3.mp4`
+- 24507.mp4 -> `24507_COLOSSUS_FINAL_12S_V3.mp4`
+- 24508.mp4 -> `24508_COLOSSUS_FINAL_12S_V3.mp4`
+- 24509.mp4 -> `24509_COLOSSUS_FINAL_12S_V3.mp4`
+
+Authority rule for this batch:
+- Final existence and QA PASS are verified.
+- Episode mapping remains UNASSIGNED / PENDING SOURCE MATCH.
+- Do not register these files in `colossus-reel-media.json` under a CS episode until visual/source authority confirms the mapping.
 
 ### Latest user-confirmed Final existence
 - **CS-022 — READY / FINAL EXISTS — user confirmed 2026-09-11**

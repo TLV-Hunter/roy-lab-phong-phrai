@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-23
+Updated: 2026-09-24
 
 ## Authority correction
 
@@ -138,6 +138,50 @@ These are distinct from Reel Caption / Reel Pinned Comment and follow the SS1 pa
 - FINAL REEL + Reel Caption + Reel Pinned Comment
 
 All 10 Master Still copy pairs are registered in `colossus/august-season.json` and displayed on `colossus/august-season.html`.
+
+
+## 2026-09-24 QA-GATED V3 BATCH — SOURCES 24543 / 24545 / 24546 / 24550 / 24552 / 24554
+
+Reference still supplied with the batch: `24553.png`. It was treated as visual context only; no episode identity was inferred from the filename or from the still alone.
+
+### PASS -> FINAL GENERATED
+- **24543.mp4** -> `24543_COLOSSUS_FINAL_12S_V3.mp4`
+  - Source QA: PASS WITH REPAIR
+  - Viral read: colossal formation above Earth gives immediate anomaly + escalating formation readability.
+  - Final: 12.00s, 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - Dola AI removed by clean reframe/crop.
+  - English Signal Bar text: `THEY FORMED A LINE` -> `ABOVE EARTH`.
+  - SHA-256: `2367b949b3c32eef87ca346ead84bb8668aee9a02e6625aa4ffe8fd36fffeece`
+  - QA-A / QA-B / QA-C: PASS.
+
+- **24546.mp4** -> `24546_COLOSSUS_FINAL_12S_V3.mp4`
+  - Source QA: PASS WITH REPAIR
+  - Viral read: three colossal figures establish a strong opening contradiction; one leaves the visible frame mid-beat and returns later.
+  - Final: 12.00s, 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - Dola AI removed by clean reframe/crop.
+  - English Signal Bar text: `THREE GIANTS` -> `THEN ONE WAS GONE`.
+  - Audio final integrated loudness approximately -14.36 LUFS, true peak -1.54 dBTP.
+  - SHA-256: `436fd69610bb0ceddeaace8a18b08b5627385efcb5b92f731d2b64968129f434`
+  - QA-A / QA-B / QA-C: PASS.
+
+- **24552.mp4** -> `24552_COLOSSUS_FINAL_12S_V3.mp4`
+  - Source QA: PASS WITH REPAIR
+  - Viral read: two opposing colossal entities frame a moon, giving an immediate relationship/tension read.
+  - Final: 12.00s, 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - Dola AI removed by clean reframe/crop.
+  - English Signal Bar text: `THE MOON WAS BETWEEN THEM` -> `NEITHER TURNED AWAY`.
+  - Low-motion detector flags short near-static windows, but frame-MD5 verification found zero adjacent exact duplicate frames in the flagged opening and ending windows; visual QA confirms intentional slow motion rather than an accidental frozen frame.
+  - SHA-256: `27eaf9d2190600181cd5478b96386ed761167db6918b279e168f5255ecb239fa`
+  - QA-A / QA-B / QA-C: PASS.
+
+### REJECT FOR STANDALONE 12s VIRAL FINAL — NOT EDITED
+- **24545.mp4** — technically usable but fails the V3 standalone viral/story threshold: asteroid-field spectacle without a clear entity behavior, consequence, or intent beat.
+- **24550.mp4** — technically usable Earth/cloud establishing shot, but no readable Colossus anomaly/behavior/payoff strong enough for a standalone Reel.
+- **24554.mp4** — technically usable ringed-planet/asteroid establishing spectacle, but insufficient story change or intent for a standalone V3 Reel.
+
+Authority note:
+- No CS / CS-AUG episode mapping has been assigned to this batch yet.
+- Do not register these Finals in `colossus-reel-media.json` under an episode until episode/source authority confirms the mapping.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

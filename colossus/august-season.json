@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-09-23T14:23:00+07:00",
+  "updated_at": "2026-09-23T16:10:00+07:00",
   "season_id": "CS-AUG",
   "season_title": "THE GIANTS OUTSIDE",
   "project": "COLOSSUS SIGNAL",
@@ -17,7 +17,8 @@
     "starter_frame": "10/10 PASS",
     "copy": "10/10 PASS",
     "video_prompt": "10/10 PASS",
-    "final_reel": "10/10 PASS"
+    "final_reel": "10/10 PASS",
+    "still_copy": "10/10 PASS"
   },
   "drive_folder": "https://drive.google.com/drive/folders/1FaOX2ovzGLg1XY2xQ9MYHATPfYO_2h-z",
   "episodes": [
@@ -40,7 +41,10 @@
       "final_fps": 30,
       "source_upload": "24493.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "Earth and the Moon were both where they were supposed to be.\n\nThe background was not.\n\nA dark distortion stretched through the starfield without hiding it.\n\nThe farther we measured, the less distance behaved like distance.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-001",
+      "still_comment": "SPATIAL NOTE:\n\nThe stars remain visible through the anomaly.\n\nTheir positions bend along both edges.\n\nThe distortion appears to affect space rather than block it.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-002",
@@ -61,7 +65,10 @@
       "final_fps": 30,
       "source_upload": "24495.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "The asteroid field should have filled the frame.\n\nInstead, one region stayed empty.\n\nThousands of fragments surrounded it.\n\nNone explained why the darkness kept the same shape.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-002",
+      "still_comment": "FIELD NOTE:\n\nNo visible body occupies the center.\n\nThe surrounding debris defines a boundary around empty space.\n\nThe gap remains structurally consistent.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-003",
@@ -82,7 +89,10 @@
       "final_fps": 30,
       "source_upload": "24496.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "There was nothing at the center of the image.\n\nThat was the problem.\n\nBackground light curved around an empty region large enough to dwarf the nearby planet.\n\nSomething had mass without a visible surface.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-003",
+      "still_comment": "LENSING NOTE:\n\nMultiple background sources bend around the same location.\n\nNo star, planet, or visible object sits at the center.\n\nThe mass is inferred only from its effect on light.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-004",
@@ -103,7 +113,10 @@
       "final_fps": 30,
       "source_upload": "24503.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "The aurora should have wrapped around Earth.\n\nIn this frame, it points away from it.\n\nEvery visible ribbon leans toward the same dark region above the planet.\n\nThe atmosphere was showing us where to look.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-004",
+      "still_comment": "MAGNETIC NOTE:\n\nThe visible streams share the same outward orientation.\n\nThe pattern extends across a region too large to read as a local disturbance.\n\nThe source remains outside the frame.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-005",
@@ -124,7 +137,10 @@
       "final_fps": 30,
       "source_upload": "24504.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "Different satellites.\nDifferent orbits.\nDifferent operators.\n\nYet the same region of space dominates the frame.\n\nEarth is below them.\n\nWhatever drew their attention is not.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-005",
+      "still_comment": "ORBITAL NOTE:\n\nThe satellites remain on separate trajectories around Earth.\n\nTheir instruments share a common direction of interest.\n\nNo visible object has been confirmed at that point.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-006",
@@ -145,7 +161,10 @@
       "final_fps": 30,
       "source_upload": "24505.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "The planet was our scale reference.\n\nThat made the image worse.\n\nOnce the full structure cleared the limb, its body extended far beyond anything we had classified as an object.\n\nThe planet beside it looked small.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-006",
+      "still_comment": "FULL-VISUAL NOTE:\n\nThe visible structure combines geological and organic forms.\n\nIts full body can be read in a single frame.\n\nNo conventional propulsion system is visible.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-007",
@@ -166,7 +185,10 @@
       "final_fps": 30,
       "source_upload": "24506.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "We found the same star pattern twice.\n\nSame spacing.\nSame brightness.\n\nBetween them sat a darkness large enough to separate two identical views of the sky.\n\nThe repetition was not the strangest part.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-007",
+      "still_comment": "DEEP-FIELD NOTE:\n\nThe matching star patterns occupy physically separate regions of the image.\n\nA massive dark formation lies between them.\n\nIts complete outline remains unresolved.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-008",
@@ -187,7 +209,10 @@
       "final_fps": 30,
       "source_upload": "24507.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "Six disturbances surrounded Earth.\n\nNone came from the same direction.\n\nAll six shared one geometry.\n\nEvery path pointed inward.\n\nOur planet sat at the center of the pattern.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-008",
+      "still_comment": "SIGNAL NOTE:\n\nSix independent wavefronts are visible around Earth.\n\nTheir paths converge on the same central point.\n\nNo connecting source is visible between them.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-009",
@@ -208,7 +233,10 @@
       "final_fps": 30,
       "source_upload": "24508.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "The asteroid belt did not look broken.\n\nIt looked organized.\n\nThousands of rocks formed two walls around a corridor that should not have been empty.\n\nNothing occupied the lane.\n\nNot yet.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-009",
+      "still_comment": "TRAJECTORY NOTE:\n\nThe central corridor remains clear across the visible depth of the field.\n\nObjects on both sides define the same open path.\n\nIts destination is outside the frame.",
+      "still_copy_qa": "PASS"
     },
     {
       "id": "CS-AUG-010",
@@ -229,7 +257,10 @@
       "final_fps": 30,
       "source_upload": "24509.mp4",
       "status": "READY / FINAL",
-      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment.",
+      "still_caption": "Two colossal bodies entered the same frame with the Moon between them.\n\nOne reached.\n\nThe other intercepted.\n\nEarth remained far behind the contact point.\n\nFor once, we were not the center of the event.\n\nCOLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-010",
+      "still_comment": "CONFLICT NOTE:\n\nExactly two entities are visible.\n\nTheir contact occurs around the Moon, not Earth.\n\nThe second structure appears to stop the first from reaching the lunar surface.",
+      "still_copy_qa": "PASS"
     }
   ],
   "season_label": "SS2"

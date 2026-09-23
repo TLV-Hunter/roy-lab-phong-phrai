@@ -7,7 +7,7 @@
 :root{--bg:#05090e;--p:#0a121b;--line:#173142;--c:#58d9ff;--t:#e9faff;--m:#7894a6;--g:#76efa2;--a:#ffd477}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#0e2b3b,#05090e 42%);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
 a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{padding:12px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.brand a,.btn{color:#dff8ff;text-decoration:none;font-weight:900}.btn,select,button{background:#07131c;color:#dff8ff;border:1px solid #28506a;border-radius:9px;padding:8px 10px}
+.brand{display:flex;align-items:center;gap:10px}.brand a{color:#dff8ff;text-decoration:none;font-weight:900}.brand small{display:block;color:var(--m);font-size:10px}.controls{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.btn,.controls select,button{background:#07131c;color:#dff8ff;border:1px solid #28506a;border-radius:9px;padding:8px 10px;font-weight:800;text-decoration:none}.controls select{min-width:260px}
 .wrap{padding:14px}.hero,.card,.slot{background:linear-gradient(#0a121b,#071019);border:1px solid var(--line);border-radius:14px}.hero{padding:14px;margin-bottom:12px}.hero h1{margin:0 0 5px}.sub{color:var(--m);font-size:12px}.ok{color:var(--g)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.toolbar select{min-width:360px}
 .card{margin-bottom:16px;overflow:hidden}.head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.head h2{margin:0;font-size:19px}
 .badges{display:flex;gap:6px;flex-wrap:wrap}.pill{border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;color:var(--g)}
@@ -16,11 +16,11 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:8px}.actions a,.actions button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:8px;text-align:center;text-decoration:none;font-size:10px;font-weight:800}
 .box{padding:10px;white-space:pre-wrap;line-height:1.5;font-size:12px;background:#061018;border-top:1px solid var(--line)}.copy{float:right}.source{color:var(--c);font-size:11px;margin-top:4px}
 @media(max-width:1350px){.grid{grid-template-columns:1fr 1fr}.slot.reel{grid-column:1/3}.viewer{height:58vh;min-height:480px}}
-@media(max-width:850px){.grid{grid-template-columns:1fr}.slot.reel{grid-column:auto}.viewer{height:64vh;min-height:430px}.toolbar select{min-width:0;width:100%}}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.slot.reel{grid-column:auto}.viewer{height:64vh;min-height:430px}.toolbar select{min-width:0;width:100%}.controls{width:100%}.controls select,.controls .btn{flex:1}}
 </style>
 </head>
 <body>
-<header><div class="top"><div class="brand"><a href="./">← CONTENT DESK</a><div><b>COLOSSUS SIGNAL</b><div class="sub">SS2 • AUGUST • THE GIANTS OUTSIDE • V2.0</div></div></div><a class="btn" href="./plan.html">PUBLISHER</a></div></header>
+<header><div class="top"><div class="brand"><a href="../">🏠 HOME</a><div><b>TALENTVEE CONTENT DESK</b><small>เลือกชื่อเพจเดียว • ข้อมูลเปลี่ยนตามเพจอัตโนมัติ</small></div></div><div class="controls"><select id="campaign"><option value="colossus">COLOSSUS SIGNAL — CURRENT SEASON</option><option value="colossus-august" selected>COLOSSUS SIGNAL — SS2 / AUGUST • THE GIANTS OUTSIDE</option><option value="rls">RLS — รอยลับพงไพร</option><option value="bruno">MAYOR BRUNO — WILLOW CREEK</option></select><a class="btn" href="./?campaign=colossus">DESK</a><a class="btn" href="./plan.html">PUBLISHER</a></div></div></header>
 <main class="wrap">
 <div class="hero"><h1>SS2 / AUGUST — THE GIANTS OUTSIDE</h1><div id="status" class="sub">Loading...</div><div class="toolbar"><select id="ep"></select><button id="all">SHOW ALL 10</button><a class="btn" id="drive" target="_blank">OPEN AUGUST DRIVE FOLDER</a></div></div>
 <div id="list"></div>
@@ -37,6 +37,14 @@ window.mobileImgFallback=function(img){const step=Number(img.dataset.step||'0');
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function copy(id){navigator.clipboard.writeText($(id).innerText)} window.copy=copy;
 let D={episodes:[]},showAll=false;
+const campaign=$('campaign');
+campaign.onchange=e=>{
+  const v=e.target.value;
+  if(v==='colossus-august') return;
+  if(v==='colossus') location.href='./?campaign=colossus';
+  if(v==='rls') location.href='./?campaign=rls';
+  if(v==='bruno') location.href='./?campaign=bruno';
+};
 function imageSlot(title,url,qa,id,key,extra=''){const p=imgPrimary(url),a=imgAlt(url),d=imgDirect(url),v=preview(url);return '<div class="slot"><h3>'+title+' <span class="pill">'+esc(qa)+'</span></h3><div class="viewer"><img src="'+esc(p)+'" data-alt="'+esc(a)+'" data-direct="'+esc(d)+'" data-step="0" loading="eager" referrerpolicy="no-referrer" onerror="mobileImgFallback(this)" alt="'+esc(id+' '+key)+'"><iframe src="'+esc(v)+'" allow="autoplay" loading="lazy" style="display:none"></iframe></div><div class="actions"><a href="'+esc(url)+'" target="_blank" rel="noopener">OPEN DRIVE</a><a href="'+esc(d)+'" target="_blank" rel="noopener">OPEN IMAGE</a></div>'+extra+'</div>'}
 function textBox(title,text,id){return '<div class="box"><b>'+title+'</b><button class="copy" onclick="copy(\''+id+'\')">COPY</button><div id="'+id+'">'+esc(text||'')+'</div></div>'}
 function finalSlot(e){const u=e.final_reel||'';return '<div class="slot reel"><h3>FINAL REEL • 12.00s <span class="pill">'+esc(e.final_qa||'WAITING')+'</span></h3><div class="viewer">'+(u?'<iframe src="'+esc(preview(u))+'" allow="autoplay; fullscreen" loading="lazy"></iframe>':'<div class="sub">FINAL REEL NOT READY</div>')+'</div><div class="actions">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">OPEN FINAL REEL</a><a href="'+esc(download(u))+'" target="_blank" rel="noopener">DOWNLOAD FINAL</a>':'')+'</div>'+textBox('REEL CAPTION',e.caption,'cap-'+e.id)+textBox('REEL PINNED COMMENT',e.comment,'pin-'+e.id)+'</div>'}

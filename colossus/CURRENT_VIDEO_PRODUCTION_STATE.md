@@ -45,34 +45,36 @@ Current state combines the visual re-check of the actual edited Final Reel files
   - Drive/media URL still pending registration.
 
 
-### Unmapped V3 Final Batch — 2026-09-23
-The following user-uploaded sources were visually inspected and passed V3 source QA, then edited to 12.00s Final delivery. **They are NOT assigned to a CS episode yet** because episode identity was not verified from project authority; do not infer episode IDs from filenames.
+### August / SS2 V3 Final Batch — 2026-09-23
+User clarified that the August season is **SS2**; the first month is **SS1**. The 10 V3 Finals below are therefore not a separate season namespace and are no longer UNASSIGNED.
 
-Common Final treatment:
-- 1080x1920 vertical FHD upscale from 720x1280 using high-quality resampling and mild detail recovery; no fake 4K claim.
-- 12.00 seconds using continuous speed adjustment rather than frozen-frame padding.
-- 30fps CFR delivery, H.264 + AAC 48kHz.
-- Dola AI corner contamination removed by clean reframe/crop.
-- English-only two-beat Colossus hook text with cyan Signal Bar; hero visual left unobstructed in the final section.
-- Audio normalized to the Colossus social target range.
-- QA-A Technical / QA-B Story-Continuity / QA-C Delivery all PASS; no accidental black/frozen frames detected.
+Canonical season/source:
+- Season: **SS2 / AUGUST — THE GIANTS OUTSIDE**
+- Data source: `colossus/august-season.json`
+- Web desk: `colossus/august-season.html`
+- Drive folder: existing August folder `1FaOX2ovzGLg1XY2xQ9MYHATPfYO_2h-z`
+- Display/workflow matches SS1: MASTER STILL + STARTER FRAME + FINAL REEL, with approved Reel Caption and Pinned Comment on the Final Reel card.
 
-Finals:
-- 24493.mp4 -> `24493_COLOSSUS_FINAL_12S_V3.mp4`
-- 24495.mp4 -> `24495_COLOSSUS_FINAL_12S_V3.mp4`
-- 24496.mp4 -> `24496_COLOSSUS_FINAL_12S_V3.mp4`
-- 24503.mp4 -> `24503_COLOSSUS_FINAL_12S_V3.mp4`
-- 24504.mp4 -> `24504_COLOSSUS_FINAL_12S_V3.mp4`
-- 24505.mp4 -> `24505_COLOSSUS_FINAL_12S_V3.mp4`
-- 24506.mp4 -> `24506_COLOSSUS_FINAL_12S_V3.mp4`
-- 24507.mp4 -> `24507_COLOSSUS_FINAL_12S_V3.mp4`
-- 24508.mp4 -> `24508_COLOSSUS_FINAL_12S_V3.mp4`
-- 24509.mp4 -> `24509_COLOSSUS_FINAL_12S_V3.mp4`
+Verified Final mapping:
+- CS-AUG-001 <- 24493.mp4 -> `CS-AUG-001_FINAL_12S_V3.mp4`
+- CS-AUG-002 <- 24495.mp4 -> `CS-AUG-002_FINAL_12S_V3.mp4`
+- CS-AUG-003 <- 24496.mp4 -> `CS-AUG-003_FINAL_12S_V3.mp4`
+- CS-AUG-004 <- 24503.mp4 -> `CS-AUG-004_FINAL_12S_V3.mp4`
+- CS-AUG-005 <- 24504.mp4 -> `CS-AUG-005_FINAL_12S_V3.mp4`
+- CS-AUG-006 <- 24505.mp4 -> `CS-AUG-006_FINAL_12S_V3.mp4`
+- CS-AUG-007 <- 24506.mp4 -> `CS-AUG-007_FINAL_12S_V3.mp4`
+- CS-AUG-008 <- 24507.mp4 -> `CS-AUG-008_FINAL_12S_V3.mp4`
+- CS-AUG-009 <- 24508.mp4 -> `CS-AUG-009_FINAL_12S_V3.mp4`
+- CS-AUG-010 <- 24509.mp4 -> `CS-AUG-010_FINAL_12S_V3.mp4`
 
-Authority rule for this batch:
-- Final existence and QA PASS are verified.
-- Episode mapping remains UNASSIGNED / PENDING SOURCE MATCH.
-- Do not register these files in `colossus-reel-media.json` under a CS episode until visual/source authority confirms the mapping.
+Common delivery:
+- 12.00s
+- 1080x1920
+- 30fps CFR
+- H.264 + AAC 48kHz
+- Dola AI removed by clean reframe/crop
+- QA-A / QA-B / QA-C PASS
+- Episode copy remains the existing QA-passed August caption/comment; do not substitute the temporary duplicate SS2 copy.
 
 ### Latest user-confirmed Final existence
 - **CS-022 — READY / FINAL EXISTS — user confirmed 2026-09-11**
@@ -110,39 +112,18 @@ For CS-027 and CS-028 until Drive upload/URL registration:
 - local filenames are registered in `colossus-reel-media.json`
 
 
-## SS2 WEB PACKAGING — 2026-09-23
+## SS2 / AUGUST WEB PACKAGING — CORRECTED 2026-09-23
 
-A new 10-reel SS2 working set has been packaged in the same card-style operating format as SS1 / August Season, without overwriting verified CS-episode authority.
-
-Files:
-- `colossus/ss2-season.html` — SS2 Final Reel Desk
-- `colossus/ss2-season.json` — paired Final Reel + Caption + Pinned Comment source
-- Google Drive folder: `COLOSSUS_SIGNAL/SS2_2026-09-23`
-- Main Content Desk selector now includes `COLOSSUS SIGNAL — SS2 • 10 FINAL REELS`
-
-SS2 mapping:
-- SS2-001 <- 24493.mp4 — THE VOID CLOSED THE LOOP
-- SS2-002 <- 24495.mp4 — THE EMPTY CENTER
-- SS2-003 <- 24496.mp4 — EARTH WAS INSIDE THE BEND
-- SS2-004 <- 24503.mp4 — THE AURORA WENT UP
-- SS2-005 <- 24504.mp4 — EVERY SATELLITE TURNED AT ONCE
-- SS2-006 <- 24505.mp4 — IT WAS ALREADY BEHIND EARTH
-- SS2-007 <- 24506.mp4 — THE CONSTELLATION HAD A BODY
-- SS2-008 <- 24507.mp4 — FOUR SIGNALS MET AT EARTH
-- SS2-009 <- 24508.mp4 — THE ASTEROIDS LEFT A CORRIDOR
-- SS2-010 <- 24509.mp4 — THEY MET AT THE MOON
-
-Each SS2 card contains:
-- verified 12.00s V3 Final Reel
-- English viewer-facing caption
-- English pinned comment
-- copy buttons and Drive open/download links
-- V3 QA status
-
-Authority note:
-- SS2 IDs are a separate season namespace.
-- Do not relabel these as existing CS-021–CS-029 episodes without a later explicit authority decision.
-- Existing verified Season 1 / CS media mappings remain unchanged.
+Canonical rule:
+- **August = SS2.**
+- The first month = **SS1**.
+- Do not create a separate `SS2-001`–`SS2-010` content namespace for this batch.
+- Canonical IDs remain `CS-AUG-001`–`CS-AUG-010`.
+- Canonical web link remains `colossus/august-season.html`.
+- The main Content Desk has a single selector entry for **COLOSSUS SIGNAL — SS2 / AUGUST • THE GIANTS OUTSIDE**.
+- The accidental duplicate `ss2-season.json` was removed.
+- The accidental `ss2-season.html` path now redirects to the canonical August/SS2 page to prevent broken old links.
+- All 10 Final videos were moved into the existing August Drive folder and renamed to their `CS-AUG-xxx_FINAL_12S_V3.mp4` identities.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

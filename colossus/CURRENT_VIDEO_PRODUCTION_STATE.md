@@ -125,6 +125,20 @@ Canonical rule:
 - The accidental `ss2-season.html` path now redirects to the canonical August/SS2 page to prevent broken old links.
 - All 10 Final videos were moved into the existing August Drive folder and renamed to their `CS-AUG-xxx_FINAL_12S_V3.mp4` identities.
 
+
+### SS2 / AUGUST MASTER STILL COPY — 2026-09-23
+The August / SS2 desk now includes separate Master Still copy for all 10 episodes:
+- `still_caption`
+- `still_comment`
+- `still_copy_qa = PASS`
+
+These are distinct from Reel Caption / Reel Pinned Comment and follow the SS1 packaging pattern:
+- MASTER STILL + Still Caption + Still Pinned Comment
+- STARTER FRAME + Reel Video Prompt
+- FINAL REEL + Reel Caption + Reel Pinned Comment
+
+All 10 Master Still copy pairs are registered in `colossus/august-season.json` and displayed on `colossus/august-season.html`.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

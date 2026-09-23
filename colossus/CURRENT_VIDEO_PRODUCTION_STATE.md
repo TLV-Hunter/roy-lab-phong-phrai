@@ -151,7 +151,7 @@ Reference still supplied with the batch: `24553.png`. It was treated as visual c
   - Final: 12.00s, 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
   - Dola AI removed by clean reframe/crop.
   - English Signal Bar text: `THEY FORMED A LINE` -> `ABOVE EARTH`.
-  - SHA-256: `2367b949b3c32eef87ca346ead84bb8668aee9a02e6625aa4ffe8fd36fffeece`
+  - SHA-256: `7f2fd2c1fb1ccce87b70df70b7e45f16cf96eeeb0ad742c1627fcb5714968f54`
   - QA-A / QA-B / QA-C: PASS.
 
 - **24546.mp4** -> `24546_COLOSSUS_FINAL_12S_V3.mp4`
@@ -161,7 +161,7 @@ Reference still supplied with the batch: `24553.png`. It was treated as visual c
   - Dola AI removed by clean reframe/crop.
   - English Signal Bar text: `THREE GIANTS` -> `THEN ONE WAS GONE`.
   - Audio final integrated loudness approximately -14.36 LUFS, true peak -1.54 dBTP.
-  - SHA-256: `436fd69610bb0ceddeaace8a18b08b5627385efcb5b92f731d2b64968129f434`
+  - SHA-256: `c4051dc1a7b2d2cef6003ac2bd3eed61a99926ee64995af0b6908646f73daf5f`
   - QA-A / QA-B / QA-C: PASS.
 
 - **24552.mp4** -> `24552_COLOSSUS_FINAL_12S_V3.mp4`
@@ -171,7 +171,7 @@ Reference still supplied with the batch: `24553.png`. It was treated as visual c
   - Dola AI removed by clean reframe/crop.
   - English Signal Bar text: `THE MOON WAS BETWEEN THEM` -> `NEITHER TURNED AWAY`.
   - Low-motion detector flags short near-static windows, but frame-MD5 verification found zero adjacent exact duplicate frames in the flagged opening and ending windows; visual QA confirms intentional slow motion rather than an accidental frozen frame.
-  - SHA-256: `27eaf9d2190600181cd5478b96386ed761167db6918b279e168f5255ecb239fa`
+  - SHA-256: `0181dbbca9ad0349a8b8a6f52ef5fc3a36771ce7efcc658985682db10d1ac548`
   - QA-A / QA-B / QA-C: PASS.
 
 ### REJECT FOR STANDALONE 12s VIRAL FINAL — NOT EDITED

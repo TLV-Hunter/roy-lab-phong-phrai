@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COLOSSUS SIGNAL — SS2</title>
+<style>
+:root{--bg:#05090e;--p:#0a121b;--line:#173142;--c:#58d9ff;--t:#e9faff;--m:#7894a6;--g:#76efa2;--a:#ffd477}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#0e2b3b,#05090e 42%);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{padding:12px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand a,.btn{color:#dff8ff;text-decoration:none;font-weight:900}.btn,select,button{background:#07131c;color:#dff8ff;border:1px solid #28506a;border-radius:9px;padding:8px 10px}
+.wrap{padding:14px}.hero,.card,.slot{background:linear-gradient(#0a121b,#071019);border:1px solid var(--line);border-radius:14px}.hero{padding:14px;margin-bottom:12px}.hero h1{margin:0 0 5px}.sub{color:var(--m);font-size:12px}.ok{color:var(--g)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.toolbar select{min-width:320px}
+.card{margin-bottom:16px;overflow:hidden}.head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.head h2{margin:0;font-size:19px}
+.badges{display:flex;gap:6px;flex-wrap:wrap}.pill{border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;color:var(--g)}
+.grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:12px;padding:12px}.slot{overflow:hidden}.slot h3{font-size:13px;margin:0;padding:9px 10px;border-bottom:1px solid var(--line)}
+.viewer{height:62vh;min-height:520px;background:#020609;display:flex;align-items:center;justify-content:center}.viewer iframe{width:100%;height:100%;border:0;background:#020609}
+.actions{display:flex;gap:7px;padding:8px;flex-wrap:wrap}.actions a,.actions button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:8px;text-decoration:none;font-size:10px;font-weight:800}
+.box{padding:12px;white-space:pre-wrap;line-height:1.6;font-size:13px;background:#061018;min-height:260px}.copy{float:right}.source{color:var(--c);font-size:11px;margin-top:4px}
+@media(max-width:1100px){.grid{grid-template-columns:1fr}.viewer{height:65vh;min-height:430px}}
+</style>
+</head>
+<body>
+<header><div class="top"><div class="brand"><a href="./">← CONTENT DESK</a><div><b>COLOSSUS SIGNAL</b><div class="sub">SS2 • 10 FINAL REELS • V3</div></div></div><a class="btn" href="./plan.html">PUBLISHER</a></div></header>
+<main class="wrap">
+<div class="hero"><h1>SS2 — FINAL REEL DESK</h1><div id="status" class="sub">Loading...</div><div class="toolbar"><select id="ep"></select><button id="all">SHOW ALL 10</button><a class="btn" id="drive" target="_blank">OPEN DRIVE FOLDER</a></div></div>
+<div id="list"></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+function did(u){return (String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
+function preview(u){const id=did(u);return id?'https://drive.google.com/file/d/'+id+'/preview':u}
+function download(u){const id=did(u);return id?'https://drive.google.com/uc?export=download&id='+id:u}
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function copy(id){navigator.clipboard.writeText($(id).innerText)} window.copy=copy;
+let D={episodes:[]},showAll=false;
+function reelSlot(e){return '<div class="slot"><h3>FINAL REEL <span class="pill">'+esc(e.qa)+'</span></h3><div class="viewer"><iframe src="'+esc(preview(e.media_url))+'" allow="autoplay; fullscreen" loading="lazy"></iframe></div><div class="actions"><a href="'+esc(e.media_url)+'" target="_blank" rel="noopener">OPEN DRIVE</a><a href="'+esc(download(e.media_url))+'" target="_blank" rel="noopener">DOWNLOAD</a></div></div>'}
+function textSlot(title,text,id){return '<div class="slot"><h3>'+title+' <span class="pill">COPY PASS</span></h3><div class="box"><button class="copy" onclick="copy(\''+id+'\')">COPY</button><div id="'+id+'">'+esc(text)+'</div></div></div>'}
+function card(e){return '<article class="card"><div class="head"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="source">'+esc(e.source)+' • '+esc(e.status)+'</div></div><div class="badges"><span class="pill">FINAL '+esc(e.qa)+'</span><span class="pill">CAPTION PASS</span><span class="pill">PIN PASS</span></div></div><div class="grid">'+reelSlot(e)+textSlot('CAPTION',e.caption,'c-'+e.id)+textSlot('PINNED COMMENT',e.pinned_comment,'p-'+e.id)+'</div></article>'}
+function render(){let arr=showAll?D.episodes:D.episodes.filter(x=>x.id===$('ep').value);$('list').innerHTML=arr.map(card).join('')}
+fetch('./ss2-season.json?x='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(d=>{D=d;$('status').innerHTML='<span class="ok">'+esc(d.qa_summary.final_reels)+' • '+esc(d.qa_summary.copy)+' • '+esc(d.qa_summary.pinned_comments)+'</span><br>Final Reel + Caption + Pinned Comment paired per episode';$('drive').href=d.drive_folder;D.episodes.forEach(e=>$('ep').add(new Option(e.id+' — '+e.title,e.id)));$('ep').onchange=()=>{showAll=false;render()};$('all').onclick=()=>{showAll=!showAll;$('all').textContent=showAll?'SHOW ONE':'SHOW ALL 10';render()};render()}).catch(e=>$('status').textContent='LOAD ERROR: '+e.message);
+</script>
+</body></html>

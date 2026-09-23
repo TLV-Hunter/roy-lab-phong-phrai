@@ -1,22 +1,23 @@
 {
-  "version": "1.2",
-  "updated_at": "2026-09-23T11:07:00+07:00",
+  "version": "2.0",
+  "updated_at": "2026-09-23T14:23:00+07:00",
   "season_id": "CS-AUG",
   "season_title": "THE GIANTS OUTSIDE",
   "project": "COLOSSUS SIGNAL",
-  "status": "BATCH AUG-001–010 QA PASS • READY FOR VIDEO GENERATION",
+  "status": "SS2 / AUGUST • 10/10 FINAL REELS QA PASS • READY",
   "timezone": "Asia/Bangkok",
   "publish_baseline": {
     "reel": "06:00",
     "linked_still": "23:00",
     "status": "TESTABLE"
   },
-  "global_video_rules": "9:16 vertical • 10 seconds • photoreal cinematic sci-fi • colossal scale • slow heavy motion • mystery → escalation → payoff near end • no text/subtitles/logos/UI/infographic/watermark • no chaotic camera shake • no unnecessary fast spin/cuts/morphing • restrained cosmic sound if supported",
+  "global_video_rules": "9:16 vertical • current Final delivery 12.00 seconds • photoreal cinematic sci-fi • colossal scale • slow heavy motion • mystery → escalation → payoff near end • English viewer-facing identity • no DOLA AI/watermark in Final • no chaotic camera shake • no unnecessary fast spin/cuts/morphing • restrained cosmic sound",
   "qa_summary": {
     "master_still": "10/10 PASS",
     "starter_frame": "10/10 PASS",
     "copy": "10/10 PASS",
-    "video_prompt": "10/10 PASS"
+    "video_prompt": "10/10 PASS",
+    "final_reel": "10/10 PASS"
   },
   "drive_folder": "https://drive.google.com/drive/folders/1FaOX2ovzGLg1XY2xQ9MYHATPfYO_2h-z",
   "episodes": [
@@ -31,7 +32,15 @@
       "prompt_qa": "PASS 97/100",
       "caption": "Nothing moved.\n\nEarth remained where it was.\nThe Moon remained where it was.\n\nBut the space beyond them stretched into something our maps could no longer measure.\n\nThe first anomaly wasn't an object.\n\nIt was distance itself.\n\nCOLOSSUS SIGNAL // CS-AUG-001",
       "comment": "SPATIAL NOTE:\n\nThe distortion crosses the background starfield without hiding it.\n\nLight bends along both edges.\n\nWhatever changed here may not be occupying space.\n\nIt may be changing space.",
-      "prompt": "Use the approved starter frame as the opening composition: Earth in the lower-left area, the Moon nearby, and a gigantic dark spatial distortion stretching upward through space. Create a 10-second vertical cinematic shot.\n\n0–2s: Start almost still. Earth and Moon appear normal. The dark spatial rift looms in the background. Camera slowly pushes in.\n\n2–5s: The background stars begin to warp more noticeably along both edges of the distortion. Space itself seems to stretch. Earth and Moon remain visually stable, but the area beyond them looks like the distance is being pulled apart.\n\n5–8s: The invisible distortion intensifies. Light bends harder. The apparent gap between Earth and the deep background subtly expands in an impossible way, as if space is elongating rather than objects moving.\n\n8–10s: End on the strongest moment of spatial tension: the cosmic rift towering over Earth, starfields distorted and elongated, with the sense that distance itself has changed. Keep the source unseen. No creature reveal. Preserve awe and realism."
+      "prompt": "Use the approved starter frame as the opening composition: Earth in the lower-left area, the Moon nearby, and a gigantic dark spatial distortion stretching upward through space. Create a 10-second vertical cinematic shot.\n\n0–2s: Start almost still. Earth and Moon appear normal. The dark spatial rift looms in the background. Camera slowly pushes in.\n\n2–5s: The background stars begin to warp more noticeably along both edges of the distortion. Space itself seems to stretch. Earth and Moon remain visually stable, but the area beyond them looks like the distance is being pulled apart.\n\n5–8s: The invisible distortion intensifies. Light bends harder. The apparent gap between Earth and the deep background subtly expands in an impossible way, as if space is elongating rather than objects moving.\n\n8–10s: End on the strongest moment of spatial tension: the cosmic rift towering over Earth, starfields distorted and elongated, with the sense that distance itself has changed. Keep the source unseen. No creature reveal. Preserve awe and realism.",
+      "final_reel": "https://drive.google.com/file/d/1cW1dDJsVWQj1uKm1qsdv5nAWNWg4N4bm/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24493.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-002",
@@ -44,7 +53,15 @@
       "prompt_qa": "PASS 96/100",
       "caption": "Every fragment was moving.\n\nThousands of rocks drifted inward from both sides.\n\nBut the darkness between them never became smaller.\n\nThe debris could enter the region.\n\nThe distance couldn't.\n\nCOLOSSUS SIGNAL // CS-AUG-002",
       "comment": "FIELD NOTE:\n\nNo visible object occupies the center.\n\nThe surrounding debris continues to behave normally until it reaches the boundary.\n\nThe empty region maintains the same width.",
-      "prompt": "Use the approved starter frame with a vast asteroid field and a dark central gap. Create a 10-second vertical cinematic deep-space shot.\n\n0–2s: Begin with a slow forward drift toward the dark central region. The asteroid field surrounds the frame. The gap is visible but calm.\n\n2–5s: Small and medium asteroids from both sides begin drifting inward toward the dark gap. Motion is smooth and believable, like gravity is acting on them.\n\n5–8s: More debris moves inward, but the central darkness never shrinks. Rocks approach the boundary, curve or slide past, while the empty region maintains the same width.\n\n8–10s: The asteroid motion becomes unmistakable: everything is moving, but the gap refuses to close. End on the impossible stillness of the central void. No text, no reveal of a visible object inside it."
+      "prompt": "Use the approved starter frame with a vast asteroid field and a dark central gap. Create a 10-second vertical cinematic deep-space shot.\n\n0–2s: Begin with a slow forward drift toward the dark central region. The asteroid field surrounds the frame. The gap is visible but calm.\n\n2–5s: Small and medium asteroids from both sides begin drifting inward toward the dark gap. Motion is smooth and believable, like gravity is acting on them.\n\n5–8s: More debris moves inward, but the central darkness never shrinks. Rocks approach the boundary, curve or slide past, while the empty region maintains the same width.\n\n8–10s: The asteroid motion becomes unmistakable: everything is moving, but the gap refuses to close. End on the impossible stillness of the central void. No text, no reveal of a visible object inside it.",
+      "final_reel": "https://drive.google.com/file/d/1yAxF1cJgC3L3msSKNV6oLV_CfcJ1nEoj/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24495.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-003",
@@ -57,7 +74,15 @@
       "prompt_qa": "PASS 98/100",
       "caption": "At first, there was nothing to photograph.\n\nThen the galaxies behind it began to bend.\n\nLight curved around an empty region thousands of times larger than the planet beside it.\n\nSomething was there.\n\nWe just couldn't see the thing itself.\n\nCOLOSSUS SIGNAL // CS-AUG-003",
       "comment": "LENSING NOTE:\n\nThe distortion is not centered on any visible star, planet, or known object.\n\nMultiple background sources bend around the same region.\n\nThere is mass where the image shows nothing.",
-      "prompt": "Use the approved starter frame showing a huge gravitational distortion in deep space. Make a 10-second vertical photoreal cosmic shot.\n\n0–2s: Open with a serene cosmic view. Camera drifts gently. The warped region is subtle at first.\n\n2–5s: Galaxies and distant stars behind the region begin bending more clearly. Light arcs around an apparently empty center. The effect should feel like enormous gravitational lensing.\n\n5–8s: The lensing grows stronger and more beautiful and disturbing. Multiple background light sources stretch and curve around the same unseen mass.\n\n8–10s: Hold on the clearest impossible moment: a vast invisible presence defined only by distorted light. Do not reveal the object itself. The payoff is the undeniable mass in empty space."
+      "prompt": "Use the approved starter frame showing a huge gravitational distortion in deep space. Make a 10-second vertical photoreal cosmic shot.\n\n0–2s: Open with a serene cosmic view. Camera drifts gently. The warped region is subtle at first.\n\n2–5s: Galaxies and distant stars behind the region begin bending more clearly. Light arcs around an apparently empty center. The effect should feel like enormous gravitational lensing.\n\n5–8s: The lensing grows stronger and more beautiful and disturbing. Multiple background light sources stretch and curve around the same unseen mass.\n\n8–10s: Hold on the clearest impossible moment: a vast invisible presence defined only by distorted light. Do not reveal the object itself. The payoff is the undeniable mass in empty space.",
+      "final_reel": "https://drive.google.com/file/d/1LzpuQ8kEpUjgDb39eJVO26RV0q4ziXlw/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24496.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-004",
@@ -70,7 +95,15 @@
       "prompt_qa": "PASS 97/100",
       "caption": "Earth's aurora normally follows the planet.\n\nThis time, it reached away from it.\n\nAcross the night side, every stream stretched toward the same dark point above Earth.\n\nSomething outside the atmosphere was pulling on the field.\n\nCOLOSSUS SIGNAL // CS-AUG-004",
       "comment": "MAGNETIC NOTE:\n\nThe displacement appeared across a region too large to be explained by a local disturbance.\n\nEvery visible stream shares the same orientation.\n\nThe source appears to be beyond Earth.",
-      "prompt": "Use the approved starter frame with Earth and abnormal aurora behavior. Create a 10-second vertical cinematic shot.\n\n0–2s: Begin with Earth's night side visible, aurora present but subtle. Camera slowly glides.\n\n2–5s: The aurora streams intensify and begin bending away from Earth instead of following the normal planetary field. Their motion is elegant, fluid, and unnatural.\n\n5–8s: Nearly all visible aurora ribbons stretch toward the same dark point above Earth. The effect should feel magnetic, not explosive.\n\n8–10s: End with the aurora fully oriented outward, as if something beyond the planet is pulling the field into space. Keep the source unseen. The payoff is the field behavior, not a monster reveal."
+      "prompt": "Use the approved starter frame with Earth and abnormal aurora behavior. Create a 10-second vertical cinematic shot.\n\n0–2s: Begin with Earth's night side visible, aurora present but subtle. Camera slowly glides.\n\n2–5s: The aurora streams intensify and begin bending away from Earth instead of following the normal planetary field. Their motion is elegant, fluid, and unnatural.\n\n5–8s: Nearly all visible aurora ribbons stretch toward the same dark point above Earth. The effect should feel magnetic, not explosive.\n\n8–10s: End with the aurora fully oriented outward, as if something beyond the planet is pulling the field into space. Keep the source unseen. The payoff is the field behavior, not a monster reveal.",
+      "final_reel": "https://drive.google.com/file/d/195OdwqGIXpsjWF9pGv5b6nx29t-n7lQh/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24503.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-005",
@@ -83,7 +116,15 @@
       "prompt_qa": "PASS 98/100",
       "caption": "One satellite turned.\n\nThen another.\n\nThen hundreds more.\n\nDifferent orbits.\nDifferent systems.\nDifferent operators.\n\nEvery instrument ended up facing the same place.\n\nAnd none of them received the command to do it.\n\nCOLOSSUS SIGNAL // CS-AUG-005",
       "comment": "ORBITAL NOTE:\n\nThe satellites did not leave their assigned trajectories.\n\nOnly their orientation changed.\n\nWhatever attracted their instruments was far beyond Earth.\n\nWe still cannot identify it.",
-      "prompt": "Use the approved starter frame as the opening composition: Earth centered below, a huge anomaly in the upper-right distance, and many satellites in different normal orientations. Create a 10-second vertical shot.\n\n0–2s: Start with the satellite swarm mostly behaving normally. Only one satellite begins a subtle rotation toward the distant anomaly. Camera slowly drifts forward.\n\n2–4s: A second and third satellite begin turning. The rest still face their original directions. Keep the motion readable and sequential.\n\n4–7s: The turning spreads through the orbital field. More satellites rotate one after another, not instantly. Earth remains steady below, the anomaly looming far away.\n\n7–10s: By the final moment, nearly every visible satellite has reoriented toward the same point in space. End on the eerie unified alignment. This is the payoff. No arrows, no graphics, no text."
+      "prompt": "Use the approved starter frame as the opening composition: Earth centered below, a huge anomaly in the upper-right distance, and many satellites in different normal orientations. Create a 10-second vertical shot.\n\n0–2s: Start with the satellite swarm mostly behaving normally. Only one satellite begins a subtle rotation toward the distant anomaly. Camera slowly drifts forward.\n\n2–4s: A second and third satellite begin turning. The rest still face their original directions. Keep the motion readable and sequential.\n\n4–7s: The turning spreads through the orbital field. More satellites rotate one after another, not instantly. Earth remains steady below, the anomaly looming far away.\n\n7–10s: By the final moment, nearly every visible satellite has reoriented toward the same point in space. End on the eerie unified alignment. This is the payoff. No arrows, no graphics, no text.",
+      "final_reel": "https://drive.google.com/file/d/1kgePJCTB7GfL65Cb9r5f5Ey2ofkAHB4p/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24504.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-006",
@@ -96,7 +137,15 @@
       "prompt_qa": "PASS 98/100",
       "caption": "For days, the planet hid most of the structure.\n\nThen it moved.\n\nNot the planet.\n\nThe thing behind it.\n\nFor the first time, nothing blocked our view.\n\nWe could see the entire body.\n\nAnd the planet beside it looked small.\n\nCOLOSSUS SIGNAL // CS-AUG-006",
       "comment": "FULL-VISUAL NOTE:\n\nThis is the first observation in which the complete structure was recorded.\n\nIts surface appears geological in places and organic in others.\n\nNo propulsion system has been identified.\n\nCurrent classification:\n\nUNKNOWN LIVING STRUCTURE.",
-      "prompt": "Use the approved starter frame: the planet blocks roughly two-thirds of the colossal entity, with only its upper structure and several appendages visible above the planetary limb. Create a 10-second vertical cinematic shot.\n\n0–2s: Hold the starter composition almost still. The planet dominates the foreground while the hidden entity moves with barely perceptible, enormous inertia behind it.\n\n2–5s: The entity itself slowly drifts laterally and upward from behind the planet. Reveal more anatomy through its own movement; avoid a large camera move.\n\n5–8s: Long skeletal-organic appendages and the lower body gradually clear the planetary edge. Keep scale stable and preserve the same creature design without morphing.\n\n8–10s: Payoff: the complete colossal body finally clears the planet and becomes readable in a single wide composition, dwarfing the planet and nearby moon. Camera remains restrained. No sudden zoom, no fast spin, no transformation."
+      "prompt": "Use the approved starter frame: the planet blocks roughly two-thirds of the colossal entity, with only its upper structure and several appendages visible above the planetary limb. Create a 10-second vertical cinematic shot.\n\n0–2s: Hold the starter composition almost still. The planet dominates the foreground while the hidden entity moves with barely perceptible, enormous inertia behind it.\n\n2–5s: The entity itself slowly drifts laterally and upward from behind the planet. Reveal more anatomy through its own movement; avoid a large camera move.\n\n5–8s: Long skeletal-organic appendages and the lower body gradually clear the planetary edge. Keep scale stable and preserve the same creature design without morphing.\n\n8–10s: Payoff: the complete colossal body finally clears the planet and becomes readable in a single wide composition, dwarfing the planet and nearby moon. Camera remains restrained. No sudden zoom, no fast spin, no transformation.",
+      "final_reel": "https://drive.google.com/file/d/1ofiHpbyLjKqmGiVuUKFgX3MDYmZ9PNRB/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24505.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-007",
@@ -109,7 +158,15 @@
       "prompt_qa": "PASS 97/100",
       "caption": "We found the same constellation twice.\n\nSame shape.\nSame spacing.\nSame brightness.\n\nThere was only one problem.\n\nThose two groups of stars were nowhere near each other.\n\nThen we noticed the darkness between them.\n\nCOLOSSUS SIGNAL // CS-AUG-007",
       "comment": "DEEP-FIELD NOTE:\n\nIndependent measurements confirm the two patterns are physically separate.\n\nThe duplication cannot be explained by ordinary perspective.\n\nA massive dark structure occupies the region between them.\n\nIts complete outline remains unresolved.",
-      "prompt": "Use the approved starter frame showing two matching star patterns and a huge dark central formation. Create a 10-second vertical deep-space shot.\n\n0–2s: Begin on the strange sky composition. Camera gently pushes inward. The repeated constellations are visible but not yet emphasized.\n\n2–5s: Subtle parallax and changing star brightness make the viewer gradually recognize that the two patterns on opposite sides match exactly.\n\n5–8s: Slight illumination and drifting particles clarify that the matching patterns are physically separated by an enormous dark mass between them.\n\n8–10s: End by holding both identical star patterns in frame with the central dark presence looming between them. The complete outline remains unresolved. No text or graphic lines."
+      "prompt": "Use the approved starter frame showing two matching star patterns and a huge dark central formation. Create a 10-second vertical deep-space shot.\n\n0–2s: Begin on the strange sky composition. Camera gently pushes inward. The repeated constellations are visible but not yet emphasized.\n\n2–5s: Subtle parallax and changing star brightness make the viewer gradually recognize that the two patterns on opposite sides match exactly.\n\n5–8s: Slight illumination and drifting particles clarify that the matching patterns are physically separated by an enormous dark mass between them.\n\n8–10s: End by holding both identical star patterns in frame with the central dark presence looming between them. The complete outline remains unresolved. No text or graphic lines.",
+      "final_reel": "https://drive.google.com/file/d/19Bncwjc1IvzQhEnJ7wD9LQb98GBVjbIA/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24506.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-008",
@@ -122,7 +179,15 @@
       "prompt_qa": "PASS 97/100",
       "caption": "The first disturbance came from deep space.\n\nThen another.\n\nThen four more.\n\nSix enormous pulses.\n\nSix different directions.\n\nOne destination.\n\nEarth.\n\nCOLOSSUS SIGNAL // CS-AUG-008",
       "comment": "SIGNAL NOTE:\n\nAll six events were detected independently.\n\nTheir arrival times differ by less than the measurement margin.\n\nNo known natural source connects them.\n\nFor the first time, the pattern appears centered on Earth.",
-      "prompt": "Use the approved starter frame: Earth centered, one pulse already closer, five others farther away from different directions. Create a 10-second vertical cinematic shot.\n\n0–2s: Start with Earth suspended in space. The six blue-white wavefronts remain separated by distance, with one noticeably closer than the others.\n\n2–5s: The remaining pulses advance inward at matching speed. Their movement should feel synchronized and deliberate, with no laser-beam appearance.\n\n5–8s: All six wavefronts close in around Earth, clearly converging while remaining soft, volumetric spatial disturbances rather than solid energy projectiles.\n\n8–10s: Payoff: the six pulses arrive almost simultaneously around Earth, forming a symmetric convergence without exploding or damaging the planet. End just as the alignment completes."
+      "prompt": "Use the approved starter frame: Earth centered, one pulse already closer, five others farther away from different directions. Create a 10-second vertical cinematic shot.\n\n0–2s: Start with Earth suspended in space. The six blue-white wavefronts remain separated by distance, with one noticeably closer than the others.\n\n2–5s: The remaining pulses advance inward at matching speed. Their movement should feel synchronized and deliberate, with no laser-beam appearance.\n\n5–8s: All six wavefronts close in around Earth, clearly converging while remaining soft, volumetric spatial disturbances rather than solid energy projectiles.\n\n8–10s: Payoff: the six pulses arrive almost simultaneously around Earth, forming a symmetric convergence without exploding or damaging the planet. End just as the alignment completes.",
+      "final_reel": "https://drive.google.com/file/d/1i43RooH_3nL8fPeNwWad-6FJoZPX2_jd/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24507.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-009",
@@ -135,7 +200,15 @@
       "prompt_qa": "PASS 98/100",
       "caption": "The asteroids didn't scatter.\n\nThey moved aside.\n\nThousands of objects slowly separated into two walls…\n\nleaving an empty corridor through the middle.\n\nNothing had entered it yet.\n\nSomething was being given a path.\n\nCOLOSSUS SIGNAL // CS-AUG-009",
       "comment": "TRAJECTORY NOTE:\n\nNo collision initiated the movement.\n\nObjects on opposite sides changed course in coordinated directions.\n\nThe corridor continues beyond the observed field.\n\nIts destination is unknown.",
-      "prompt": "Use the approved starter frame showing a dense asteroid field with only a narrow emerging corridor down the center. Create a 10-second vertical shot.\n\n0–2s: Begin with the corridor still narrow and incomplete. Asteroids remain densely packed. Camera slowly advances along the center line.\n\n2–5s: Small rocks on both sides begin drifting outward in coordinated motion. The lane becomes more visible but remains constricted.\n\n5–8s: Larger asteroids respond and move aside with slow heavy inertia. The central path progressively widens and extends farther into deep space.\n\n8–10s: Payoff: a massive clear corridor is finally open through the asteroid field, stretching into the distance as if something enormous is expected to pass. The expected object never appears."
+      "prompt": "Use the approved starter frame showing a dense asteroid field with only a narrow emerging corridor down the center. Create a 10-second vertical shot.\n\n0–2s: Begin with the corridor still narrow and incomplete. Asteroids remain densely packed. Camera slowly advances along the center line.\n\n2–5s: Small rocks on both sides begin drifting outward in coordinated motion. The lane becomes more visible but remains constricted.\n\n5–8s: Larger asteroids respond and move aside with slow heavy inertia. The central path progressively widens and extends farther into deep space.\n\n8–10s: Payoff: a massive clear corridor is finally open through the asteroid field, stretching into the distance as if something enormous is expected to pass. The expected object never appears.",
+      "final_reel": "https://drive.google.com/file/d/1No-zx4IFVgZzdh7YiIIfHYt32DtPGh9K/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24508.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     },
     {
       "id": "CS-AUG-010",
@@ -148,7 +221,16 @@
       "prompt_qa": "PASS 99/100 HERO",
       "caption": "The first one reached for the Moon.\n\nIts hand was almost there.\n\nThen another colossal body entered the frame.\n\nIt caught the arm before it could touch the surface.\n\nNeither of them looked at Earth.\n\nThat was when we understood.\n\nThey are not all on the same side.\n\nCOLOSSUS SIGNAL // CS-AUG-010",
       "comment": "CONFLICT NOTE:\n\nThe second entity did not attack first.\n\nIt intervened only when contact with the Moon became imminent.\n\nIt made no movement toward Earth afterward.\n\nWe do not know whether it protected the Moon…\n\nor prevented the other entity from taking it.",
-      "prompt": "Use the approved starter frame showing exactly two colossal entities and the Moon between them: a dark Harvester reaching toward the Moon from the left, and a Guardian approaching from the right, not yet making contact. Earth remains small in the distant background. Create a 10-second vertical cinematic shot.\n\n0–2s: Hold the confrontation clearly. The Harvester continues a slow reach toward the Moon. The Guardian advances with enormous restrained momentum.\n\n2–5s: The Harvester's claw comes dangerously close to the lunar surface. The Guardian closes the remaining distance. Both bodies move slowly enough to feel planetary in scale.\n\n5–8s: Just before contact with the Moon, the Guardian makes one heavy intercepting movement across the final gap—powerful but not acrobatic, with massive inertia and no rapid punching.\n\n8–10s: Payoff: the Guardian locks and stops the Harvester's reaching forearm before it touches the Moon. Hold the blocked contact as the ending image. Exactly two entities remain visible; no third creature, no beam weapons, no explosion."
+      "prompt": "Use the approved starter frame showing exactly two colossal entities and the Moon between them: a dark Harvester reaching toward the Moon from the left, and a Guardian approaching from the right, not yet making contact. Earth remains small in the distant background. Create a 10-second vertical cinematic shot.\n\n0–2s: Hold the confrontation clearly. The Harvester continues a slow reach toward the Moon. The Guardian advances with enormous restrained momentum.\n\n2–5s: The Harvester's claw comes dangerously close to the lunar surface. The Guardian closes the remaining distance. Both bodies move slowly enough to feel planetary in scale.\n\n5–8s: Just before contact with the Moon, the Guardian makes one heavy intercepting movement across the final gap—powerful but not acrobatic, with massive inertia and no rapid punching.\n\n8–10s: Payoff: the Guardian locks and stops the Harvester's reaching forearm before it touches the Moon. Hold the blocked contact as the ending image. Exactly two entities remain visible; no third creature, no beam weapons, no explosion.",
+      "final_reel": "https://drive.google.com/file/d/1m3Hc5Ep1QLAhtHhVZLeY_fxEcVw8YPPn/view?usp=drivesdk",
+      "final_qa": "PASS — V3 FINAL",
+      "final_duration_seconds": 12,
+      "final_resolution": "1080x1920",
+      "final_fps": 30,
+      "source_upload": "24509.mp4",
+      "status": "READY / FINAL",
+      "final_note": "Visual pairing verified against this CS-AUG episode; V3 Final uses existing QA-passed episode caption and pinned comment."
     }
-  ]
+  ],
+  "season_label": "SS2"
 }

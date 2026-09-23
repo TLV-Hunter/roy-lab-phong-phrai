@@ -109,6 +109,41 @@ For CS-027 and CS-028 until Drive upload/URL registration:
 - media link = FINAL GENERATED — DRIVE URL PENDING
 - local filenames are registered in `colossus-reel-media.json`
 
+
+## SS2 WEB PACKAGING — 2026-09-23
+
+A new 10-reel SS2 working set has been packaged in the same card-style operating format as SS1 / August Season, without overwriting verified CS-episode authority.
+
+Files:
+- `colossus/ss2-season.html` — SS2 Final Reel Desk
+- `colossus/ss2-season.json` — paired Final Reel + Caption + Pinned Comment source
+- Google Drive folder: `COLOSSUS_SIGNAL/SS2_2026-09-23`
+- Main Content Desk selector now includes `COLOSSUS SIGNAL — SS2 • 10 FINAL REELS`
+
+SS2 mapping:
+- SS2-001 <- 24493.mp4 — THE VOID CLOSED THE LOOP
+- SS2-002 <- 24495.mp4 — THE EMPTY CENTER
+- SS2-003 <- 24496.mp4 — EARTH WAS INSIDE THE BEND
+- SS2-004 <- 24503.mp4 — THE AURORA WENT UP
+- SS2-005 <- 24504.mp4 — EVERY SATELLITE TURNED AT ONCE
+- SS2-006 <- 24505.mp4 — IT WAS ALREADY BEHIND EARTH
+- SS2-007 <- 24506.mp4 — THE CONSTELLATION HAD A BODY
+- SS2-008 <- 24507.mp4 — FOUR SIGNALS MET AT EARTH
+- SS2-009 <- 24508.mp4 — THE ASTEROIDS LEFT A CORRIDOR
+- SS2-010 <- 24509.mp4 — THEY MET AT THE MOON
+
+Each SS2 card contains:
+- verified 12.00s V3 Final Reel
+- English viewer-facing caption
+- English pinned comment
+- copy buttons and Drive open/download links
+- V3 QA status
+
+Authority note:
+- SS2 IDs are a separate season namespace.
+- Do not relabel these as existing CS-021–CS-029 episodes without a later explicit authority decision.
+- Existing verified Season 1 / CS media mappings remain unchanged.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

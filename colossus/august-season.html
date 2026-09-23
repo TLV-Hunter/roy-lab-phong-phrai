@@ -12,7 +12,7 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 .card{margin-bottom:16px;overflow:hidden}.head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.head h2{margin:0;font-size:19px}
 .badges{display:flex;gap:6px;flex-wrap:wrap}.pill{border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;color:var(--g)}
 .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;padding:12px}.slot{overflow:hidden}.slot h3{font-size:13px;margin:0;padding:9px 10px;border-bottom:1px solid var(--line)}
-.viewer{height:62vh;min-height:520px;background:#020609;display:flex;align-items:center;justify-content:center}.viewer img{width:100%;height:100%;object-fit:contain}
+.viewer{height:62vh;min-height:520px;background:#020609;display:flex;align-items:center;justify-content:center}.viewer img,.viewer iframe{width:100%;height:100%;object-fit:contain;border:0;background:#020609}.mobilehint{display:none;padding:10px;color:var(--a);font-size:11px}
 .actions{display:flex;gap:7px;padding:8px;flex-wrap:wrap}.actions a,.actions button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:8px;text-decoration:none;font-size:10px;font-weight:800}
 .box{padding:10px;white-space:pre-wrap;line-height:1.5;font-size:12px;background:#061018;border-top:1px solid var(--line);max-height:360px;overflow:auto}.copy{float:right}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}.viewer{height:65vh;min-height:430px}}
@@ -27,12 +27,26 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 <script>
 const $=id=>document.getElementById(id);
 function did(u){return (String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
-function thumb(u){const id=did(u);return id?'https://drive.google.com/thumbnail?id='+id+'&sz=w2048':u}
+function imgPrimary(u){const id=did(u);return id?'https://lh3.googleusercontent.com/d/'+id+'=w2048':u}
+function imgAlt(u){const id=did(u);return id?'https://drive.google.com/thumbnail?id='+id+'&sz=w2048':u}
+function imgDirect(u){const id=did(u);return id?'https://drive.google.com/uc?export=view&id='+id:u}
+function preview(u){const id=did(u);return id?'https://drive.google.com/file/d/'+id+'/preview':u}
+window.mobileImgFallback=function(img){
+  const step=Number(img.dataset.step||'0');
+  if(step===0){img.dataset.step='1';img.src=img.dataset.alt;return}
+  if(step===1){img.dataset.step='2';img.src=img.dataset.direct;return}
+  img.style.display='none';
+  const frame=img.nextElementSibling;
+  if(frame){frame.style.display='block'}
+}
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function copy(id){navigator.clipboard.writeText($(id).innerText)}
 window.copy=copy;
 let D={episodes:[]},showAll=false;
-function slotImage(title,url,qa,id,key){return '<div class="slot"><h3>'+title+' <span class="pill">'+esc(qa)+'</span></h3><div class="viewer"><img src="'+esc(thumb(url))+'" onerror="this.style.opacity=.25" alt="'+esc(id+' '+key)+'"></div><div class="actions"><a href="'+esc(url)+'" target="_blank">OPEN DRIVE</a></div></div>'}
+function slotImage(title,url,qa,id,key){
+  const p=imgPrimary(url),a=imgAlt(url),d=imgDirect(url),v=preview(url);
+  return '<div class="slot"><h3>'+title+' <span class="pill">'+esc(qa)+'</span></h3><div class="viewer"><img src="'+esc(p)+'" data-alt="'+esc(a)+'" data-direct="'+esc(d)+'" data-step="0" loading="eager" referrerpolicy="no-referrer" onerror="mobileImgFallback(this)" alt="'+esc(id+' '+key)+'"><iframe src="'+esc(v)+'" allow="autoplay" loading="lazy" style="display:none"></iframe></div><div class="actions"><a href="'+esc(url)+'" target="_blank" rel="noopener">OPEN DRIVE</a><a href="'+esc(d)+'" target="_blank" rel="noopener">OPEN IMAGE</a></div></div>'
+}
 function textSlot(e){let pid='p-'+e.id,cid='c-'+e.id,mid='m-'+e.id;return '<div class="slot"><h3>READY COPY + VIDEO PROMPT <span class="pill">'+esc(e.prompt_qa)+'</span></h3><div class="box"><b>CAPTION</b><button class="copy" onclick="copy(\''+cid+'\')">COPY</button><div id="'+cid+'">'+esc(e.caption)+'</div></div><div class="box"><b>PINNED COMMENT</b><button class="copy" onclick="copy(\''+mid+'\')">COPY</button><div id="'+mid+'">'+esc(e.comment)+'</div></div><div class="box"><b>MASTER VIDEO PROMPT</b><button class="copy" onclick="copy(\''+pid+'\')">COPY</button><div id="'+pid+'">'+esc(D.global_video_rules+'\n\n'+e.prompt)+'</div></div></div>'}
 function card(e){return '<article class="card"><div class="head"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="sub">READY FOR VIDEO GENERATION</div></div><div class="badges"><span class="pill">MASTER '+esc(e.master_qa)+'</span><span class="pill">STARTER '+esc(e.starter_qa)+'</span><span class="pill">COPY '+esc(e.copy_qa)+'</span><span class="pill">PROMPT '+esc(e.prompt_qa)+'</span></div></div><div class="grid">'+slotImage('MASTER STILL',e.master,e.master_qa,e.id,'master')+slotImage('STARTER FRAME',e.starter,e.starter_qa,e.id,'starter')+textSlot(e)+'</div></article>'}
 function render(){let arr=showAll?D.episodes:D.episodes.filter(x=>x.id===$('ep').value);$('list').innerHTML=arr.map(card).join('')}

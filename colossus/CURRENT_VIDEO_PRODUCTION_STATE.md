@@ -186,49 +186,54 @@ Authority note:
 
 ## 2026-09-26 ACTION BATTLE V3 BATCH — SOURCES 24665 / 24666
 
-User requested three no-text deliverables:
-1. 24665 standalone Final at 20 seconds.
-2. 24666 standalone Final at 20 seconds.
-3. One combined story cut alternating both sources for maximum continuity.
+User correction after first delivery:
+- Prior three outputs from this batch are **SUPERSEDED / QA FAIL for delivery** because visible DOLA AI watermark remained in portions of the video.
+- They must not be treated as current Final authority.
+- Rebuilt from the original user uploads with explicit moving-watermark removal and no on-screen text.
 
 Source QA:
 - 24665.mp4 — PASS WITH REPAIR.
 - 24666.mp4 — PASS WITH REPAIR.
-- Shared visual continuity is sufficient for a single battle narrative: blue armored sword fighter versus red/black horned giant, with compatible cosmic-platform environments and matching combat direction.
-- No structural black/freeze failure in the usable source regions.
+- Shared continuity supports one combined battle narrative: blue armored sword fighter versus red/black horned giant.
+- DOLA AI watermark relocates over time, so fixed crop was insufficient. Current repair uses time-aware dynamic reframe to exclude the moving watermark without blur/black-box treatment.
 
-### Finals
-- `24665_FINAL_20S_UPSCALE_V3.mp4`
+### CURRENT FINALS — SUPERSEDE ALL EARLIER 24665 / 24666 DELIVERY FILES
+- `24665_FINAL_20S_NOWM_UPSCALE_V3_REDO2.mp4`
   - Duration: 20.00s.
-  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
-  - No on-screen text per current user instruction.
-  - Source tail containing an accidental dark/black interval was excluded before final retime; final black/freeze QA PASS.
-  - Integrated loudness approximately -15.0 LUFS.
-  - SHA-256: `5747144fe911e739fe5abd31d02680342b7628f34e16ecb07dd0c66810e22a60`.
-
-- `24666_FINAL_20S_UPSCALE_V3.mp4`
-  - Duration: 20.00s.
-  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
-  - No on-screen text per current user instruction.
-  - Integrated loudness approximately -15.0 LUFS after final audio trim.
-  - SHA-256: `15cb5816a68f8acc0d61142b579ddf9004f7ab28e9c3bce813b8727b9c1b74d9`.
-
-- `24665_24666_STORY_CUT_FINAL_V3.mp4`
-  - Duration: 22.30s.
-  - Alternating story edit from both sources rather than simple head-to-tail concatenation.
-  - Story order: confrontation -> giant initiates -> first clash -> counter -> aerial movement -> return strike -> final impact.
-  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps.
+  - 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
   - No on-screen text.
-  - Integrated loudness approximately -14.6 LUFS.
-  - SHA-256: `9246089f726870844d268256c853a5486a1abcdec3f1e4a548407b81fcd9b4ed`.
+  - Source washout tail trimmed before retime; ends on impact rather than extended white-out.
+  - Loudness approximately -15.4 LUFS; peak approximately -2.5 dBFS.
+  - DOLA AI: REMOVED via dynamic reframe.
+  - SHA-256: `25c4b425697fe397190e1dae9fed43346e9329c1e8997138fdd4451d5f24fdf3`.
 
-Final QA:
-- QA-A Technical: PASS for all three.
-- QA-B Story / continuity: PASS for all three.
-- QA-C Delivery: PASS for all three.
-- No accidental black/freeze intervals after repair.
-- No >0.5s abnormal silence detected.
-- Optical-flow interpolation was intentionally not used after test because fast combat edges / weapons / debris presented unnecessary ghost-artifact risk; source-preserving retime was used instead.
+- `24666_FINAL_20S_NOWM_UPSCALE_V3_REDO2.mp4`
+  - Duration: 20.00s.
+  - 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - No on-screen text.
+  - Source washout tail trimmed before retime; ending preserves the final sword-impact beat.
+  - Loudness approximately -14.2 LUFS; peak approximately -1.2 dBFS.
+  - DOLA AI: REMOVED via dynamic reframe.
+  - SHA-256: `ec961038881ca5870ee95be016d7e317548ce2421006a975d3e26db013b52f3a`.
+
+- `24665_24666_STORY_CUT_30S_NOWM_UPSCALE_V3_REDO2.mp4`
+  - Duration: 30.00s.
+  - Alternating edit using both sources; longer than the superseded 22.3s cut.
+  - Story progression: lone fighter / threat reveal -> first clash -> giant pressure -> hero recovery -> counterattack -> aerial setup -> downward sword finish / impact.
+  - 1080x1920, H.264, AAC 48kHz, 24fps.
+  - No on-screen text.
+  - Loudness approximately -14.2 LUFS; peak approximately -1.1 dBFS.
+  - DOLA AI: REMOVED from all source sections via dynamic reframe.
+  - SHA-256: `6ae87f94be4a2b8eaa50d7da69d4af894944b8e49ddf64536a91092617e3bea4`.
+
+Final QA for the current three:
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- Watermark QA: PASS at start / 25% / 50% / 75% / ending, at the watermark relocation transitions, and additional high-motion samples.
+- No detected accidental black interval or freeze interval.
+- No text added, per user instruction.
+- Optical-flow interpolation remains intentionally disabled because weapon/debris edges present ghost-artifact risk; source-preserving retime is used instead.
 
 Authority note:
 - No CS / CS-AUG episode ID is assigned from filename alone.

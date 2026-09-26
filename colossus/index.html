@@ -133,10 +133,13 @@ function renderStrategy(){
 function renderPerformance(){let a=eps();$('performanceView').innerHTML=`<div class="metricgrid"><div class="metric"><small>EPISODE</small><select id="perfEp" style="width:100%;margin-top:6px;background:#050d13;color:white;border:1px solid #23475b;border-radius:7px;padding:7px">${a.map(e=>`<option>${esc(e.id)}</option>`).join('')}</select></div><div class="metric"><small>VIEWS</small><input id="pv" type="number"></div><div class="metric"><small>SHARES</small><input id="ps" type="number"></div><div class="metric"><small>FOLLOWS</small><input id="pf" type="number"></div><div class="metric"><small>AVG WATCH / SEC</small><input id="pw" type="number" step="0.1"></div><div class="metric"><small>NOTES</small><textarea id="pn"></textarea></div></div><div class="navrow" style="margin-top:10px"><button class="btn" id="savePerf">SAVE LOCAL</button></div>`;let load=()=>{let k=`perf_${CAM}_${$('perfEp').value}`,d=JSON.parse(localStorage.getItem(k)||'{}');$('pv').value=d.v||'';$('ps').value=d.s||'';$('pf').value=d.f||'';$('pw').value=d.w||'';$('pn').value=d.n||''};$('perfEp').onchange=load;$('savePerf').onclick=()=>{let k=`perf_${CAM}_${$('perfEp').value}`;localStorage.setItem(k,JSON.stringify({v:$('pv').value,s:$('ps').value,f:$('pf').value,w:$('pw').value,n:$('pn').value}));alert('Saved')};load()}
 
 const BAICHA_OVERRIDE_KEY='baicha_content_overrides_v1';
+const BAICHA_LOCAL_RECORDS_KEY='baicha_content_local_records_v1';
 const BAICHA_STATUSES=['READY TO POST','APPROVED','DRAFT','INCOMPLETE','NEEDS IMAGE','NEEDS CAPTION','REJECTED','ARCHIVED'];
 function baichaOverrides(){try{return JSON.parse(localStorage.getItem(BAICHA_OVERRIDE_KEY)||'{}')}catch{return{}}}
 function baichaSaveOverrides(v){localStorage.setItem(BAICHA_OVERRIDE_KEY,JSON.stringify(v))}
-function baichaRecords(){let o=baichaOverrides();return (A.records||[]).map(r=>({...r,...(o[r.id]||{}),id:r.id,history:r.history||[],supporting_images:r.supporting_images||[]}))}
+function baichaLocalRecords(){try{let a=JSON.parse(localStorage.getItem(BAICHA_LOCAL_RECORDS_KEY)||'[]');return Array.isArray(a)?a:[]}catch{return[]}}
+function baichaSaveLocalRecords(v){localStorage.setItem(BAICHA_LOCAL_RECORDS_KEY,JSON.stringify(v))}
+function baichaRecords(){let o=baichaOverrides(),base=[...(A.records||[]),...baichaLocalRecords()];return base.map(r=>({...r,...(o[r.id]||{}),id:r.id,history:r.history||[],supporting_images:r.supporting_images||[]}))}
 function baichaHasAsset(r){return !!String(r.media_url||r.thumbnail||'').trim()}
 function baichaHasCopy(r){return !!String(r.caption||'').trim()&&Array.isArray(r.hashtags)&&r.hashtags.length>0&&!!String(r.pinned_comment||'').trim()}
 function baichaComplete(r){return baichaHasAsset(r)&&baichaHasCopy(r)}
@@ -209,7 +212,7 @@ function renderBaichaDesk(){
   $('modeText').textContent=A.mode||'CONTENT LIBRARY • READY-TO-POST ARCHIVE • NO SCHEDULING';
   let all=baichaRecords(),cats=[...new Set(all.map(x=>x.category).filter(Boolean))].sort(),types=[...new Set(all.map(x=>x.content_type).filter(Boolean))].sort(),sts=[...new Set(all.map(x=>x.status).filter(Boolean))].sort();
   let ready=all.filter(baichaReady).length,withAsset=all.filter(r=>r.asset_ref&&r.asset_ref!=='MISSING'&&!String(r.asset_ref).startsWith('UNKNOWN')).length;
-  $('deskToolbar').innerHTML='<div class="baicha-shell"><div class="baicha-hero"><div><h2>ใบชา — BAICHA CONTENT LIBRARY</h2><p>คลังคอนเทนต์ + Ready-to-Post Archive • ไม่มี Calendar / Date / Posting Time</p></div><div class="baicha-summary"><span>'+all.length+' RECORDS</span><span>'+withAsset+' ASSET REF</span><span>'+ready+' READY TO POST</span><span id="baichaCount">'+all.length+' รายการ</span></div></div><div class="baicha-filterbar"><div class="baicha-tabs"><button class="baicha-tab on" data-bt="all" onclick="baichaSetTab(\'all\')">ALL</button><button class="baicha-tab" data-bt="idea" onclick="baichaSetTab(\'idea\')">มุข / IDEA</button><button class="baicha-tab" data-bt="image" onclick="baichaSetTab(\'image\')">ภาพนิ่ง</button><button class="baicha-tab" data-bt="caption" onclick="baichaSetTab(\'caption\')">แคปชั่น</button><button class="baicha-tab" data-bt="ready" onclick="baichaSetTab(\'ready\')">READY TO POST</button><button class="baicha-tab" data-bt="draft" onclick="baichaSetTab(\'draft\')">DRAFT / INCOMPLETE</button></div><div class="baicha-filterrow"><input id="baichaSearch" placeholder="ค้นชื่อ / caption / มุข / category / tag"><select id="baichaType"><option value="">CONTENT TYPE — ALL</option>'+types.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaStatus"><option value="">STATUS — ALL</option>'+sts.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaCategory"><option value="">CATEGORY — ALL</option>'+cats.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select></div></div></div>';
+  $('deskToolbar').innerHTML='<div class="baicha-shell"><div class="baicha-hero"><div><h2>ใบชา — BAICHA CONTENT LIBRARY</h2><p>คลังคอนเทนต์ + Ready-to-Post Archive • ไม่มี Calendar / Date / Posting Time</p></div><div><div class="baicha-summary"><span>'+all.length+' RECORDS</span><span>'+withAsset+' ASSET REF</span><span>'+ready+' READY TO POST</span><span id="baichaCount">'+all.length+' รายการ</span></div><div class="navrow" style="margin-top:8px;justify-content:flex-end"><button class="btn" onclick="baichaNew()">+ ADD CONTENT</button></div></div></div><div class="baicha-filterbar"><div class="baicha-tabs"><button class="baicha-tab on" data-bt="all" onclick="baichaSetTab(\'all\')">ALL</button><button class="baicha-tab" data-bt="idea" onclick="baichaSetTab(\'idea\')">มุข / IDEA</button><button class="baicha-tab" data-bt="image" onclick="baichaSetTab(\'image\')">ภาพนิ่ง</button><button class="baicha-tab" data-bt="caption" onclick="baichaSetTab(\'caption\')">แคปชั่น</button><button class="baicha-tab" data-bt="ready" onclick="baichaSetTab(\'ready\')">READY TO POST</button><button class="baicha-tab" data-bt="draft" onclick="baichaSetTab(\'draft\')">DRAFT / INCOMPLETE</button></div><div class="baicha-filterrow"><input id="baichaSearch" placeholder="ค้นชื่อ / caption / มุข / category / tag"><select id="baichaType"><option value="">CONTENT TYPE — ALL</option>'+types.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaStatus"><option value="">STATUS — ALL</option>'+sts.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaCategory"><option value="">CATEGORY — ALL</option>'+cats.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select></div></div></div>';
   $('deskList').className='baicha-grid';$('deskList').innerHTML='';
   $('baichaSearch').oninput=baichaDraw;$('baichaType').onchange=baichaDraw;$('baichaStatus').onchange=baichaDraw;$('baichaCategory').onchange=baichaDraw;
   BAITAB='all';baichaDraw()
@@ -224,6 +227,10 @@ function baichaDetails(id){
   let fields=[['ID',r.id],['TYPE / CATEGORY',(r.content_type||'')+' / '+(r.category||'')],['STATUS',r.status],['ASSET STATUS',r.asset_status],['ASSET REF',r.asset_ref],['SOURCE CHAT',r.source_chat],['SOURCE REFERENCE',r.source_reference],['CREATED / RECOVERED FROM',r.created_recovered_from],['CONCEPT / JOKE',r.concept],['CAPTION',r.caption],['PINNED COMMENT',r.pinned_comment],['HASHTAGS',baichaHashText(r)],['PROMPT',r.prompt],['NOTES',r.notes],['SUPPORTING IMAGES',(r.supporting_images||[]).length?JSON.stringify(r.supporting_images,null,2):'MISSING'],['HISTORY',(r.history||[]).length?JSON.stringify(r.history,null,2):'—']];
   baichaOverlay('<h2>'+esc(r.title||r.id)+'</h2><div class="baicha-detail">'+fields.filter(x=>x[1]).map(x=>'<div><b>'+esc(x[0])+'</b><pre>'+esc(x[1])+'</pre></div>').join('')+'</div>')
 }
+function baichaNew(){
+  let id='BAI-LOCAL-'+Date.now(),r={id,title:'',content_type:'IDEA',category:'Lifestyle',tags:[],thumbnail:null,media_url:null,asset_ref:'MISSING',asset_status:'MISSING',concept:'',caption:null,pinned_comment:null,hashtags:[],prompt:null,supporting_images:[],source_chat:'Added in BAICHA Content Library',source_reference:'LOCAL USER ENTRY',status:'DRAFT',notes:'',created_recovered_from:'Added in website',history:[]};
+  let a=baichaLocalRecords();a.unshift(r);baichaSaveLocalRecords(a);baichaEdit(id)
+}
 function baichaEdit(id){
   let r=baichaRecords().find(x=>x.id===id);if(!r)return;
   let h='<h2>EDIT — '+esc(r.id)+'</h2><p class="hint">บันทึกเฉพาะ browser นี้ด้วย localStorage; Base migration ใน repo ไม่ถูกเดา/เปลี่ยนอัตโนมัติ</p><div class="baicha-editgrid">'+
@@ -237,17 +244,24 @@ function baichaEdit(id){
   '<label class="wide">Pinned Comment<textarea id="bePinned">'+esc(r.pinned_comment||'')+'</textarea></label>'+
   '<label class="wide">Hashtags — คั่นด้วยเว้นวรรค<textarea id="beHash">'+esc(baichaHashText(r))+'</textarea></label>'+
   '<label class="wide">Prompt<textarea id="bePrompt">'+esc(r.prompt||'')+'</textarea></label>'+
-  '<label class="wide">Notes<textarea id="beNotes">'+esc(r.notes||'')+'</textarea></label></div><div class="navrow" style="margin-top:12px"><button class="btn on" onclick="baichaSaveEdit(\''+r.id+'\')">SAVE LOCAL</button><button class="btn" onclick="baichaResetEdit(\''+r.id+'\')">RESET LOCAL OVERRIDE</button></div>';
+  '<label class="wide">Notes<textarea id="beNotes">'+esc(r.notes||'')+'</textarea></label></div><div class="navrow" style="margin-top:12px"><button class="btn on" onclick="baichaSaveEdit(\''+r.id+'\')">SAVE LOCAL</button><button class="btn" onclick="baichaResetEdit(\''+r.id+'\')">'+((A.records||[]).some(x=>x.id===r.id)?'RESET LOCAL OVERRIDE':'DELETE LOCAL RECORD')+'</button></div>';
   baichaOverlay(h)
 }
 function baichaSaveEdit(id){
-  let o=baichaOverrides(),base=(A.records||[]).find(x=>x.id===id);if(!base)return;
+  let o=baichaOverrides(),base=(A.records||[]).find(x=>x.id===id),locals=baichaLocalRecords(),local=locals.find(x=>x.id===id);
   let hs=$('beHash').value.trim().split(/[\s,]+/).filter(Boolean).map(x=>x.startsWith('#')?x:'#'+x);
-  o[id]={title:$('beTitle').value.trim(),category:$('beCategory').value.trim(),status:$('beStatus').value,content_type:$('beType').value.trim(),media_url:$('beMedia').value.trim()||null,thumbnail:$('beMedia').value.trim()||null,asset_ref:$('beAsset').value.trim()||'MISSING',caption:$('beCaption').value.trim()||null,pinned_comment:$('bePinned').value.trim()||null,hashtags:hs,prompt:$('bePrompt').value.trim()||null,notes:$('beNotes').value.trim()};
-  if(o[id].media_url&&!String(base.asset_status||'').includes('VERIFIED'))o[id].asset_status='USER-LINKED / NEEDS SOURCE QA';
-  baichaSaveOverrides(o);document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()
+  let patch={title:$('beTitle').value.trim()||id,category:$('beCategory').value.trim()||'UNKNOWN',status:$('beStatus').value,content_type:$('beType').value.trim()||'IDEA',media_url:$('beMedia').value.trim()||null,thumbnail:$('beMedia').value.trim()||null,asset_ref:$('beAsset').value.trim()||'MISSING',caption:$('beCaption').value.trim()||null,pinned_comment:$('bePinned').value.trim()||null,hashtags:hs,prompt:$('bePrompt').value.trim()||null,notes:$('beNotes').value.trim()};
+  if(patch.media_url&&!String((base||local)?.asset_status||'').includes('VERIFIED'))patch.asset_status='USER-LINKED / NEEDS SOURCE QA';
+  if(base){o[id]=patch;baichaSaveOverrides(o)}
+  else if(local){locals=locals.map(x=>x.id===id?{...x,...patch}:x);baichaSaveLocalRecords(locals)}
+  document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()
 }
-function baichaResetEdit(id){let o=baichaOverrides();delete o[id];baichaSaveOverrides(o);document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()}
+function baichaResetEdit(id){
+  let base=(A.records||[]).some(x=>x.id===id);
+  if(base){let o=baichaOverrides();delete o[id];baichaSaveOverrides(o)}
+  else{baichaSaveLocalRecords(baichaLocalRecords().filter(x=>x.id!==id));let o=baichaOverrides();delete o[id];baichaSaveOverrides(o)}
+  document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()
+}
 function baichaMarkReady(id){
   let r=baichaRecords().find(x=>x.id===id);if(!r||!baichaComplete(r)||['REJECTED','ARCHIVED'].includes(r.status))return alert('ยัง MARK READY ไม่ได้: ต้องมี Asset + Caption + Hashtags + Pinned Comment และห้ามเป็น REJECTED/ARCHIVED');
   let o=baichaOverrides();o[id]={...(o[id]||{}),status:'READY TO POST'};baichaSaveOverrides(o);renderBaichaDesk()

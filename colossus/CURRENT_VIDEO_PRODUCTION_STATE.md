@@ -239,6 +239,43 @@ Authority note:
 - No CS / CS-AUG episode ID is assigned from filename alone.
 - Do not register these three Finals in `colossus-reel-media.json` under an episode until episode/source authority confirms the mapping.
 
+
+## 2026-09-26 — 60S CINEMATIC MV / TEASER REBUILD — SOURCES 24665 + 24666
+
+User requested a smoother combined edit using MV / teaser technique, approximately one minute, with music.
+
+Research / edit direction:
+- Trailer/MV pacing follows long-form musical phrasing rather than rapid back-and-forth shot switching.
+- Current cut uses six ~10s narrative sections with only five major transitions.
+- Story progression: hero reveal -> threat reveal -> first clash -> giant pressure -> hero counter -> aerial rise -> final sword impact.
+- No on-screen text.
+- The previous 30s combined edit is superseded for this purpose.
+
+Music:
+- External free-music catalogs were reviewed.
+- Pixabay examples can be free to use but some are Content ID registered.
+- To avoid claim risk, the delivered cut uses a new original cinematic battle score created specifically for this edit; no external music track is embedded.
+
+Current Final:
+- `COLOSSUS_BATTLE_MV_TEASER_60S_V4.mp4`
+- Duration: 60.00s.
+- Delivery: 1080x1920, H.264, AAC 48kHz, 24fps CFR.
+- Built from the watermark-clean 24665 / 24666 V3 masters.
+- No DOLA AI visible in final QA samples.
+- Visual structure: six long sections with 0.25s transition bridges.
+- Retiming uses frame-blend interpolation for the 1.5x cinematic slow-motion expansion; heavy optical-flow interpolation was avoided to reduce weapon/debris warping risk.
+- Final integrated loudness: approximately -14.3 LUFS.
+- Final peak: approximately -0.8 dBFS.
+- SHA-256: `3c29bd2476a6a9aa908ecec6dbd83058c3ef6fd7a331b3dfab5b65d7b603414f`.
+
+QA:
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- Watermark QA: PASS.
+- No accidental black/freeze interval detected.
+- No abnormal silence interval detected.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

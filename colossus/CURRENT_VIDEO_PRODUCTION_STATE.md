@@ -276,6 +276,43 @@ QA:
 - No accidental black/freeze interval detected.
 - No abnormal silence interval detected.
 
+
+## 2026-09-26 — 60S MV AUDIO REBUILD V5
+
+User approved the V4 picture edit but rejected the stretched / elongated audio character.
+
+V5 audio correction:
+- V4 video picture stream is preserved bit-for-bit at the encoded stream level; video-stream MD5 matches V4: `da301902765bc18036cdbdd07e1de2fa`.
+- All V4/source audio was discarded. No time-stretched source audio is present in V5.
+- A new 60-second soundtrack was built from scratch specifically for this cut.
+- Music structure is locked to the six 10-second picture sections at 96 BPM (16 beats per 10 seconds).
+- New layers include low cosmic ambience, tonal pads, rhythmic bass pulse, cinematic percussion, transition risers, whooshes, metallic clash accents, debris/rumble textures, sub impacts and a final-strike crescendo.
+- Major sync accents are placed at the main story transitions near 10 / 20 / 30 / 40 / 50 seconds, with denser action accents in the final 10 seconds.
+- A short pre-impact dip is used before the final strike to restore punch rather than stretching sound across the hit.
+
+Current audio-corrected Final:
+- `COLOSSUS_BATTLE_MV_TEASER_60S_V5_FINAL.mp4`
+- Duration: 60.00s.
+- Video: 1080x1920, H.264, 24fps CFR.
+- Audio: AAC stereo, 48kHz, rebuilt from zero.
+- Integrated loudness: -14.5 LUFS.
+- True peak: -1.0 dBTP.
+- No abnormal silence >0.7s detected.
+- No accidental black/freeze interval detected; picture is unchanged from QA-passed V4.
+- Watermark state remains unchanged from QA-passed V4 because the video bitstream itself is unchanged.
+- SHA-256: `63b33566a3a83685474061d2915cc532b6e02c29dd36e65bb224dd377ebdbbb7`.
+
+Standalone rebuilt soundtrack:
+- `COLOSSUS_BATTLE_SCORE_SFX_60S_V5_FINAL.wav`
+- 60.00s, 48kHz stereo.
+- SHA-256: `d1c12b780c3fccb0de269fa2f91e1457889cc7263aeac8c26b0c0a614696d3f9`.
+
+QA:
+- QA-A Technical: PASS.
+- QA-B Story / picture continuity: PASS (same encoded picture stream as V4).
+- QA-C Audio / delivery: PASS.
+- Audio-stretch defect from V4: RESOLVED.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-09-26T22:00:00+07:00",
+  "project": "COLOSSUS SIGNAL",
+  "collection_id": "CS-SPECIAL",
+  "collection_title": "SPECIAL TRANSMISSIONS",
+  "timezone": "Asia/Bangkok",
+  "status": "ACTIVE",
+  "episodes": [
+    {
+      "id": "CS-SPECIAL-001",
+      "title": "THE GIANTS FINALLY FOUGHT",
+      "type": "SPECIAL EPISODE / 60S CINEMATIC MV",
+      "publish_date": "2026-09-26",
+      "publish_time": "23:00",
+      "publish_note": "SPECIAL EVENT SLOT — use instead of the normal linked-still slot tonight.",
+      "source_uploads": [
+        "24665.mp4",
+        "24666.mp4"
+      ],
+      "final_file": "COLOSSUS_BATTLE_MV_TEASER_60S_V6_HYBRID_FINAL.mp4",
+      "final_duration_seconds": 60,
+      "final_resolution": "1080x1920",
+      "final_fps": 24,
+      "final_audio": "V6 HYBRID — original source impact/SFX events re-synced at native speed + generated fill/rumble/whoosh + low-level score bed",
+      "final_qa": "PASS — QA-A / QA-B / QA-C",
+      "watermark_qa": "PASS",
+      "copy_qa": "PASS 98/100",
+      "caption": "They had ignored each other for too long.\n\nThen one of them raised a blade.\n\nThe first strike scattered the field.\nThe second changed the direction of the fight.\n\nFor the first time, the giants weren't moving past each other.\n\nThey were trying to stop each other.\n\nCOLOSSUS SIGNAL // SPECIAL TRANSMISSION 001",
+      "comment": "COMBAT NOTE:\n\nTwo colossal entities remained locked in the same engagement zone.\n\nNo movement toward Earth was detected during the encounter.\n\nNo signal was directed at us.\n\nFor once, we were not the subject of the observation.\n\nWe were only watching.",
+      "final_reel": "",
+      "final_media_status": "FINAL QA PASS — GOOGLE DRIVE UPLOAD PENDING",
+      "website_status": "LIVE METADATA / VIDEO LINK PENDING DRIVE UPLOAD"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-26T22:35:00+07:00",
+  "updated_at": "2026-09-26T22:55:00+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "ใบชา — BAICHA",
   "mode": "CONTENT LIBRARY • READY-TO-POST ARCHIVE • NO SCHEDULING",
@@ -11,6 +11,964 @@
   },
   "ready_rule": "READY requires a verified web-viewable media_url + Caption + Hashtags + Pinned Comment. DRAFT/REJECTED are never auto-promoted.",
   "records": [
+    {
+      "id": "BAI-012",
+      "title": "รีโมตหยุดพี่",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Remote",
+        "Flirt",
+        "Latest 3 Jokes"
+      ],
+      "thumbnail": "https://drive.google.com/file/d/11p4Pdb5A7ejTIhIHaSsxOrqW5Z2ienZy/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/11p4Pdb5A7ejTIhIHaSsxOrqW5Z2ienZy/view?usp=drivesdk",
+      "asset_ref": "สตอรี่บอร์ดใบชากับรีโมตหยุดพี่.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาหารีโมต เจอแล้วกดสั่งพี่ให้หยุด/ห้ามไปไหน ก่อนเฉลยว่าปุ่มใช้กับพี่ไม่ได้ เลยจับไว้เอง.",
+      "caption": "รีโมตอันนี้กดหยุดทุกอย่างได้…ยกเว้นพี่ 😏📺\nงั้นวันนี้ใบชาขอใช้วิธีจับไว้เองแล้วกันนะ 🤍",
+      "pinned_comment": "ถ้าใบชากดปุ่ม “ห้ามไปไหน” พี่จะยอมค้างอยู่ตรงนี้ไหมคะ 😂",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#มุขจีบ",
+        "#สายแซว",
+        "#คลิปตลก",
+        "#ReelsThailand"
+      ],
+      "prompt": null,
+      "supporting_images": [
+        {
+          "ref": "สตอรี่บอร์ดใบชากับรีโมตหยุดพี่.png",
+          "file_id": "file_0000000081688211b0e9a762827209c8",
+          "status": "RECOVERED LIBRARY STORYBOARD / UNCONFIRMED"
+        },
+        {
+          "ref": "ใบชากับรีโมตหยุดพี่.png",
+          "file_id": "file_00000000e81881f8a488e1d97e3ac97a",
+          "status": "RECOVERED LIBRARY IMAGE / UNCONFIRMED"
+        },
+        {
+          "ref": "ค้นหาของสำคัญในโซฟา.png",
+          "file_id": "file_000000007d98822fa4b6e698eb62e2e4",
+          "status": "RECOVERED LIBRARY IMAGE / UNCONFIRMED"
+        }
+      ],
+      "source_chat": "BAICHA COMEDY — recovered Project chat",
+      "source_reference": "Latest 3 jokes recovery / 2026-09-24",
+      "status": "DRAFT",
+      "notes": "Dialogue recovered from BAICHA chat. Caption/pinned/hashtags were newly paired for Content Library on 2026-09-26; not claimed as historical copy.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "เมื่อกี้อยู่ไหนนะ… / เจอแล้ว / หยุดเลย…วันนี้ห้ามไปไหน / อ้าว… / ทำไมปุ่มนี้ใช้กับพี่ไม่ได้อะ / งั้นใบชาจับไว้เองก็ได้"
+        }
+      ],
+      "drive_file_id": "11p4Pdb5A7ejTIhIHaSsxOrqW5Z2ienZy"
+    },
+    {
+      "id": "BAI-013",
+      "title": "คืนนี้รีบนอนนะ",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Goodnight",
+        "Flirt",
+        "Latest 3 Jokes"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / NO EXACT ASSET MAPPING RECOVERED",
+      "concept": "ใบชาบอกให้พี่รีบนอน เพราะจองคิวเข้าไปในฝันไว้แล้ว และคิวแน่น.",
+      "caption": "คืนนี้รีบนอนนะคะ 😌🌙\nใบชาจองคิวเข้าไปในฝันไว้แล้ว…มาสายไม่ได้นะ คิวแน่น 🤭",
+      "pinned_comment": "ใครนอนช้า ระวังคิวความฝันของใบชาเต็มก่อนนะคะ 😂🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#มุขจีบ",
+        "#ฝันดี",
+        "#GoodNight",
+        "#ReelsThailand"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
+      "source_reference": "Latest 3 jokes recovery",
+      "status": "DRAFT",
+      "notes": "Dialogue recovered. No exact matching generated asset was verified. Caption/pinned/hashtags newly paired on 2026-09-26.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "คืนนี้พี่รีบนอนนะ…ใบชาจองคิวเข้าไปในฝันพี่ไว้แล้ว…มาสายไม่ได้นะ…คิวแน่น"
+        }
+      ]
+    },
+    {
+      "id": "BAI-014",
+      "title": "เลิกคุยกับพี่แล้ว",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Flirt",
+        "Latest 3 Jokes"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / NO EXACT ASSET MAPPING RECOVERED",
+      "concept": "ประกาศว่าจะเลิกคุย แต่ผ่านไปสองวินาทีก็คิดถึงแล้ว ขอคุยต่อ.",
+      "caption": "ใบชาตัดสินใจแล้วนะ…จะเลิกคุยกับพี่ 😌\n…ครบสองวิแล้ว\nคิดถึงแล้วอะ 😂 กลับมาคุยต่อเถอะ",
+      "pinned_comment": "สองวินาทีถือว่านานมากแล้วนะคะ ใครจะเถียง 😌😂",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#มุขจีบ",
+        "#สายแซว",
+        "#คลิปตลก",
+        "#ReelsThailand"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
+      "source_reference": "Latest 3 jokes recovery",
+      "status": "DRAFT",
+      "notes": "Dialogue recovered. No exact matching generated asset was verified. Caption/pinned/hashtags newly paired on 2026-09-26.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "ใบชาตัดสินใจแล้วนะ…จะเลิกคุยกับพี่แล้ว…ครบแล้ว…คิดถึงแล้วอะ…คุยต่อเถอะ…สองวิก็นานเกิน"
+        }
+      ]
+    },
+    {
+      "id": "BAI-WK-0914-BEACH",
+      "title": "Blue Floral Beach Set — 14 Sep",
+      "content_type": "IMAGE",
+      "category": "Travel",
+      "tags": [
+        "Previous Week",
+        "Beach",
+        "Travel",
+        "Fashion"
+      ],
+      "asset_ref": "image-gen-1.png → image-gen-10.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ชุดภาพใบชาริมทะเลน้ำสีฟ้า ชุดว่ายน้ำลายดอกฟ้า-ขาว หลายมุม 10 ภาพ.",
+      "caption": "ขอฝากแดด ทะเล แล้วก็รอยยิ้มของใบชาไว้ตรงนี้หน่อยนะคะ 🌊☀️💙\nบางวันแค่ได้ยืนรับลม ฟังเสียงคลื่น แล้วไม่รีบไปไหน ก็รู้สึกเหมือนได้ชาร์จพลังกลับมาเต็ม ๆ เลย",
+      "pinned_comment": "ถ้าให้เลือกหนึ่งอย่างตอนนี้—ทะเล ลมเย็น หรือวันหยุด—พี่ ๆ จะเลือกอะไรก่อนคะ 🌊🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#BeachDay",
+        "#ทะเล",
+        "#TravelMood",
+        "#Lifestyle"
+      ],
+      "supporting_images": [
+        {
+          "ref": "image-gen-1.png",
+          "file_id": "file_000000001bcc8211af8d59007031f958",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-2.png",
+          "file_id": "file_00000000acec8211a32581e3d44fb57b",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-3.png",
+          "file_id": "file_00000000a5f88211a55cd31151878e24",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-4.png",
+          "file_id": "file_0000000077688211b639c9975929e618",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-5.png",
+          "file_id": "file_00000000d5a082119c27c15ff0bc352b",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-6.png",
+          "file_id": "file_00000000f7388209b3e03df621223d86",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-7.png",
+          "file_id": "file_00000000796c82088e8d95eda03b9ef6",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-8.png",
+          "file_id": "file_000000009c18820698173f2eadd4ffa8",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-9.png",
+          "file_id": "file_000000008fb48211b394d8392d465a3a",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-10.png",
+          "file_id": "file_000000009cb88211bcc4560df94bd486",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-14",
+      "notes": "Caption/pinned/hashtags newly paired for archive on 2026-09-26. Exact historical Facebook copy not recovered.",
+      "thumbnail": "https://drive.google.com/file/d/10tTyMO_MHcKq9iB9e4-YV5BxQPkBkVg1/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/10tTyMO_MHcKq9iB9e4-YV5BxQPkBkVg1/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "10tTyMO_MHcKq9iB9e4-YV5BxQPkBkVg1"
+    },
+    {
+      "id": "BAI-WK-0915-MORNING",
+      "title": "อรุณสวัสดิ์หน้าโต๊ะเครื่องแป้ง — 15 Sep",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Previous Week",
+        "Morning",
+        "Bedroom"
+      ],
+      "asset_ref": "image-gen-1(1).png → image-gen-3(1).png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ชุด Good Morning ห้องนอน/โต๊ะเครื่องแป้ง 3 โทนสี พร้อมข้อความอรุณสวัสดิ์.",
+      "caption": "อรุณสวัสดิ์นะคะ ☀️🤍\nขอให้วันนี้เป็นวันที่ใจเบา เจอแต่เรื่องดี ๆ และมีเหตุผลให้ยิ้มได้ทั้งวันนะคะ",
+      "pinned_comment": "ตื่นกันหรือยังคะ ☀️ วันนี้ใบชาขอส่งพลังดี ๆ ให้ก่อนหนึ่งกอดนะ 🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#GoodMorning",
+        "#MorningMood",
+        "#อรุณสวัสดิ์"
+      ],
+      "supporting_images": [
+        {
+          "ref": "image-gen-1(1).png",
+          "file_id": "file_000000005414820781daf0093efa0b61",
+          "status": "DRAFT / UNCONFIRMED"
+        },
+        {
+          "ref": "image-gen-2(1).png",
+          "file_id": "file_000000003c948211a1c2e38c85658326",
+          "status": "DRAFT / UNCONFIRMED"
+        },
+        {
+          "ref": "image-gen-3(1).png",
+          "file_id": "file_00000000d8548211a21994022608d9b1",
+          "status": "DRAFT / UNCONFIRMED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-15",
+      "notes": "Image-set existence recovered; Project memory explicitly classifies these variants as DRAFT/UNCONFIRMED. Copy paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1gp07iNirgTCgjHJ5P7u9teyE1_z3FJMw/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1gp07iNirgTCgjHJ5P7u9teyE1_z3FJMw/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1gp07iNirgTCgjHJ5P7u9teyE1_z3FJMw"
+    },
+    {
+      "id": "BAI-WK-0915-GOODNIGHT",
+      "title": "Goodnight Pink Bedroom — 15 Sep",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Previous Week",
+        "Goodnight",
+        "Night",
+        "Bedroom"
+      ],
+      "asset_ref": "image-gen-1(2).png → image-gen-3(2).png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ชุด Goodnight ห้องนอนโทนอุ่น ชุดนอนสีชมพู 3 ภาพ พร้อมข้อความฝันดี.",
+      "caption": "คืนนี้พักให้เต็มที่นะคะ 🌙🤍\nเรื่องเหนื่อย ๆ ของวันนี้วางไว้ก่อน แล้วพรุ่งนี้ค่อยเริ่มใหม่ด้วยรอยยิ้มนะ\nGoodnight ค่ะ ✨",
+      "pinned_comment": "ก่อนนอนคืนนี้ ขอให้ทุกคนได้นอนแบบไม่ต้องคิดอะไรเยอะนะคะ ฝันดีค่ะ 🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#GoodNight",
+        "#ฝันดี",
+        "#NightMood"
+      ],
+      "supporting_images": [
+        {
+          "ref": "image-gen-1(2).png",
+          "file_id": "file_000000007d1481f4b1eaa7320fdc4106",
+          "status": "RECOVERED / UNCONFIRMED"
+        },
+        {
+          "ref": "image-gen-2(2).png",
+          "file_id": "file_00000000b61882469666fd198aaf9837",
+          "status": "RECOVERED / UNCONFIRMED"
+        },
+        {
+          "ref": "image-gen-3(2).png",
+          "file_id": "file_00000000d72c81f9a90f2b1e69885882",
+          "status": "RECOVERED / UNCONFIRMED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-15",
+      "notes": "Caption/pinned/hashtags newly paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1zpiaHO-G3LI2RHB42egpgXR3WyNwVEO3/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1zpiaHO-G3LI2RHB42egpgXR3WyNwVEO3/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1zpiaHO-G3LI2RHB42egpgXR3WyNwVEO3"
+    },
+    {
+      "id": "BAI-WK-0916-BEACH",
+      "title": "Beach Photo Set — 16 Sep",
+      "content_type": "IMAGE",
+      "category": "Travel",
+      "tags": [
+        "Previous Week",
+        "Beach",
+        "Photo Set"
+      ],
+      "asset_ref": "image-gen-1(3).png … image-gen-10(2).png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ภาพใบชาริมทะเลชุดลายดอกฟ้า-ขาวหลายมุม; มีหลาย generation batch ในวันเดียวกัน จัดเป็น Current Set + History แทนสร้าง Card ซ้ำ.",
+      "caption": "ทะเลรอบนี้แสงสวยมากจนอยากเก็บทุกมุมเลยค่ะ 🌊💙\nรูปเยอะหน่อยไม่ว่ากันนะ…เพราะเลือกเองไม่ลงจริง ๆ 😅",
+      "pinned_comment": "ถ้าให้พี่เลือกภาพเดียวเป็นรูปโปรไฟล์จากเซตนี้ จะเลือกมุมไหนคะ 📸🌊",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#BeachLook",
+        "#PhotoSet",
+        "#ทะเล"
+      ],
+      "supporting_images": [
+        {
+          "ref": "image-gen-1(3).png",
+          "file_id": "file_00000000c74c820e849005cca6d0645f",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "image-gen-1(4).png",
+          "file_id": "file_00000000f21081f58b70471db29fbccb",
+          "status": "PREVIOUS/ALTERNATE BATCH"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-16",
+      "notes": "Deduplicated as one photo-set card; full batch filenames remain in Asset Ref/History rather than duplicate cards.",
+      "thumbnail": "https://drive.google.com/file/d/19pdZorvfDeBu7J5LvQUwBXO4JWHO9Ztv/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/19pdZorvfDeBu7J5LvQUwBXO4JWHO9Ztv/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "19pdZorvfDeBu7J5LvQUwBXO4JWHO9Ztv"
+    },
+    {
+      "id": "BAI-WK-0917-LUNCH",
+      "title": "พักเที่ยงแซ่บ — ซอยลาดพร้าว 64",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "Previous Week",
+        "Lunch",
+        "Food",
+        "Friends"
+      ],
+      "asset_ref": "พักเที่ยงแซ่บซอยลาดพร้าว 64.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชานั่งกินส้มตำ ไก่ย่าง ข้าวเหนียวกับเพื่อนสองคนที่ร้านริมทาง.",
+      "caption": "พักเที่ยงวันนี้ขอแซ่บหน่อยค่ะ 🌶️😋\nส้มตำ ไก่ย่าง ข้าวเหนียว ครบโต๊ะแบบนี้…บ่ายนี้น่าจะมีแรงทำงานต่อแล้วล่ะ 😂",
+      "pinned_comment": "ทีมเผ็ดน้อย หรือเผ็ดแบบน้ำตาไหลคะ 🌶️😂 ใบชาขอแซ่บกลาง ๆ ก่อนนะ",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#มื้อเที่ยง",
+        "#ส้มตำ",
+        "#Lifestyle",
+        "#FoodMood"
+      ],
+      "supporting_images": [
+        {
+          "ref": "พักเที่ยงแซ่บซอยลาดพร้าว 64.png",
+          "file_id": "file_000000006ed48211bb4ea93414d2dcdd",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "มื้อส้มตำในซอยลาดพร้าว.png",
+          "file_id": "file_000000008ea082118de6015dfc31aa60",
+          "status": "ALTERNATE"
+        },
+        {
+          "ref": "มื้อเที่ยงตำรวจไทยริมทาง.png",
+          "file_id": "file_00000000775881f896a86bd0d71d2759",
+          "status": "ALTERNATE"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-17",
+      "notes": "Activity-inappropriate chin-rest pose was later recorded as a failure lesson; asset is preserved historically, not promoted to authority. Copy paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1hFo_RHdq5fqIhG6mGK1hXVg3ob7qGmpw/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1hFo_RHdq5fqIhG6mGK1hXVg3ob7qGmpw/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1hFo_RHdq5fqIhG6mGK1hXVg3ob7qGmpw"
+    },
+    {
+      "id": "BAI-WK-0917-NIGHTSHIFT",
+      "title": "รอยยิ้มเวรดึก",
+      "content_type": "IMAGE",
+      "category": "Night",
+      "tags": [
+        "Previous Week",
+        "Night",
+        "Police Look",
+        "Lifestyle"
+      ],
+      "asset_ref": "รอยยิ้มเวรดึกในห้องควบคุม.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาเวรดึกในห้องควบคุม โทนอบอุ่น/มืด มีวิทยุ โต๊ะเอกสาร และคำ Good Night.",
+      "caption": "เข้าเวรคืนนี้ งานไม่หนักหรอกค่ะ…\nที่ยากคือทำเป็นไม่คิดถึงใครบางคน 😌🖤",
+      "pinned_comment": "แล้วคืนนี้…มีใครแกล้งทำเป็นไม่คิดถึงใครบ้าง 😏",
+      "hashtags": [
+        "#ใบชา",
+        "#BAICHA",
+        "#เวรดึก",
+        "#คลิปสั้น",
+        "#Reels"
+      ],
+      "supporting_images": [
+        {
+          "ref": "รอยยิ้มเวรดึกในห้องควบคุม.png",
+          "file_id": "file_00000000b41482119deac38377ada106",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "สาวตำรวจเวรดึกยิ้มละมุน.png",
+          "file_id": "file_00000000074482118dcd8aa9c7913ec4",
+          "status": "ALTERNATE"
+        }
+      ],
+      "source_reference": "BAICHA chat + Library / 2026-09-17",
+      "notes": "Caption/pinned recovered from prior BAICHA Facebook package; visual is task-specific police look, not canon.",
+      "thumbnail": "https://drive.google.com/file/d/1fX_HWFEoJHNoYaxSrbj49cjZvNQRDbOU/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1fX_HWFEoJHNoYaxSrbj49cjZvNQRDbOU/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1fX_HWFEoJHNoYaxSrbj49cjZvNQRDbOU"
+    },
+    {
+      "id": "BAI-WK-0917-MORNINGRUN",
+      "title": "สวัสดีตอนเช้า — วิ่งสวนริมทะเลสาบ",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Previous Week",
+        "Morning",
+        "Running",
+        "Lifestyle"
+      ],
+      "asset_ref": "สาวนักวิ่งทักทายยามเช้าในสวน.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาในชุดวิ่งสีอ่อน เดิน/พักริมทะเลสาบตอนเช้า พร้อมข้อความสวัสดี.",
+      "caption": "เช้านี้ออกมารับแดดเบา ๆ ให้ร่างกายตื่นก่อนค่ะ ☀️🏃🏻‍♀️\nขอให้วันนี้ของทุกคนสดใส มีพลังดี ๆ และมีเรื่องให้ยิ้มเยอะ ๆ นะคะ 🤍",
+      "pinned_comment": "เช้านี้ใครได้ขยับตัวแล้วบ้างคะ เดินนิดเดียวก็ถือว่าเริ่มแล้วนะ ☀️",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#GoodMorning",
+        "#MorningRun",
+        "#MorningMood"
+      ],
+      "supporting_images": [
+        {
+          "ref": "สาวนักวิ่งทักทายยามเช้าในสวน.png",
+          "file_id": "file_000000001f5c82119cde31a6f36614b6",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "สาวนักวิ่งยามเช้าพร้อมคำทักทายไทย.png",
+          "file_id": "file_00000000eb2082119a6e12b2dc06d04c",
+          "status": "ALTERNATE"
+        },
+        {
+          "ref": "สาวไทยยิ้มหวานริมทะเลสาบ.png",
+          "file_id": "file_00000000a4848211bffd675a7b2b3622",
+          "status": "ALTERNATE"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-17",
+      "notes": "Copy paired for archive based on image content; no historical exact pinned-comment record recovered.",
+      "thumbnail": "https://drive.google.com/file/d/1GUk6YI3XeE1XbY7ZmCmSeHKotCIFmZBS/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1GUk6YI3XeE1XbY7ZmCmSeHKotCIFmZBS/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1GUk6YI3XeE1XbY7ZmCmSeHKotCIFmZBS"
+    },
+    {
+      "id": "BAI-WK-0918-COFFEE",
+      "title": "กาแฟเย็นระหว่างพัก",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "Previous Week",
+        "Coffee",
+        "Police Look",
+        "Day"
+      ],
+      "asset_ref": "ตำรวจสาวกับกาแฟเย็นในสวน.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาในลุคตำรวจถือกาแฟเย็นและสมุดโน้ตในสวนกลางวัน.",
+      "caption": "พักสั้น ๆ กับกาแฟเย็นหนึ่งแก้ว ☕🤎\nเติมพลังให้ตัวเองก่อน แล้วค่อยกลับไปลุยต่อค่ะ",
+      "pinned_comment": "ทีมกาแฟเย็นเหมือนใบชา หรือทีมร้อนคะ ☕😆",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#CoffeeBreak",
+        "#Lifestyle",
+        "#พักก่อน"
+      ],
+      "supporting_images": [
+        {
+          "ref": "ตำรวจสาวกับกาแฟเย็นในสวน.png",
+          "file_id": "file_000000001d108206a040d74f061e05d5",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-18",
+      "notes": "Copy paired for archive; task-specific outfit only.",
+      "thumbnail": "https://drive.google.com/file/d/1HXJtaiNMpI8V_JQuxINwvYALdeHGnJnU/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1HXJtaiNMpI8V_JQuxINwvYALdeHGnJnU/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1HXJtaiNMpI8V_JQuxINwvYALdeHGnJnU"
+    },
+    {
+      "id": "BAI-WK-0918-GOODNIGHT",
+      "title": "ฝันดี — Pink Satin Bedroom",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Previous Week",
+        "Goodnight",
+        "Bedroom",
+        "Night"
+      ],
+      "asset_ref": "image-gen-1(5).png / image-gen-1(6).png sets",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ภาพฝันดีห้องนอนโทนอุ่น ชุดนอนชมพู มีทั้งเวอร์ชันภาพสะอาดและเวอร์ชันข้อความ.",
+      "caption": "คืนนี้พักผ่อนให้เต็มอิ่มนะคะ 🌙🤍\nหลับสบาย ตื่นมาสดใส แล้วพรุ่งนี้ค่อยเจอกันใหม่ค่ะ",
+      "pinned_comment": "วางมือถือแล้วหลับได้แล้วนะคะ 😌 ฝันดีค่ะพี่ ๆ 🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#GoodNight",
+        "#ฝันดี",
+        "#NightMood"
+      ],
+      "supporting_images": [
+        {
+          "ref": "image-gen-1(5).png",
+          "file_id": "file_00000000c054821188a34a9213e880a4",
+          "status": "CLEAN VERSION"
+        },
+        {
+          "ref": "image-gen-1(6).png",
+          "file_id": "file_000000009b0482078b6d313e52956062",
+          "status": "TEXT VERSION"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-18",
+      "notes": "Copy paired for archive. Approval not recovered.",
+      "thumbnail": "https://drive.google.com/file/d/1c52zOdYfYvmHfcejKI9EsR_fPs_61QW0/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1c52zOdYfYvmHfcejKI9EsR_fPs_61QW0/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1c52zOdYfYvmHfcejKI9EsR_fPs_61QW0"
+    },
+    {
+      "id": "BAI-WK-0919-RAIN",
+      "title": "เช้าวันฝนตกกับกาแฟแก้วโปรด",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Previous Week",
+        "Rain",
+        "Coffee",
+        "Morning"
+      ],
+      "asset_ref": "หญิงสาวจิบกาแฟท่ามกลางสายฝน.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชานั่งข้างหน้าต่างฝนตก ถือแก้วกาแฟในห้องนอนโทนอุ่น.",
+      "caption": "เช้าวันฝนตกแบบนี้ ขอเริ่มช้า ๆ กับกาแฟแก้วโปรดก่อนนะคะ ☕🌧️\nข้างนอกครึ้มหน่อย แต่ขอให้ในใจทุกคนยังอบอุ่นเหมือนเดิมนะ 🤍",
+      "pinned_comment": "ฝนตกแบบนี้อยากนอนต่อ หรืออยากได้กาแฟเพิ่มอีกแก้วคะ ☕😂",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#RainyMorning",
+        "#CoffeeMood",
+        "#MorningVibes"
+      ],
+      "supporting_images": [
+        {
+          "ref": "หญิงสาวจิบกาแฟท่ามกลางสายฝน.png",
+          "file_id": "file_00000000b51c8211b6407ed7d3d70eb3",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "เช้าวันฝนตกกับกาแฟแก้วโปรด.png",
+          "file_id": "file_000000000f908211b6b032c632186b75",
+          "status": "ALTERNATE"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-19",
+      "notes": "Copy paired for archive; no exact historical copy recovered.",
+      "thumbnail": "https://drive.google.com/file/d/19PG8jYiCenBeHz_pmMxOl0-Q2JxXKBnS/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/19PG8jYiCenBeHz_pmMxOl0-Q2JxXKBnS/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "19PG8jYiCenBeHz_pmMxOl0-Q2JxXKBnS"
+    },
+    {
+      "id": "BAI-WK-0919-PIZZA",
+      "title": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต",
+      "content_type": "IMAGE",
+      "category": "Travel",
+      "tags": [
+        "Previous Week",
+        "Beach",
+        "Lunch",
+        "Phuket"
+      ],
+      "asset_ref": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชากินพิซซ่าริมทะเลภูเก็ต โทนสดใส พร้อมข้อความชวนทานมื้อเที่ยง.",
+      "caption": "มื้อเที่ยงของใบชาวันนี้ 🍕🌴☀️\nนั่งกินพิซซ่าริมทะเลแบบนี้\nจากที่ตั้งใจว่าจะกินแค่ชิ้นเดียว…\nตอนนี้เริ่มมองชิ้นที่สองแล้วค่ะ 😂\nทะเลสวย ลมดี ของกินอร่อย\nบางทีความสุขก็ไม่ได้ต้องซับซ้อนเลยเนอะ 🤍\nช่วงบ่ายใครกำลังทำงานอยู่\nใบชาขอส่งวิวทะเลเย็น ๆ ไปให้พักสายตาสักแป๊บนะคะ 🌊",
+      "pinned_comment": "พิซซ่าร้อน ๆ + วิวทะเลแบบนี้ 🍕🌊\nใบชาว่ามื้อนี้นั่งยาวได้จนเย็นเลยค่ะ 😂🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#เที่ยวทะเล",
+        "#มื้อเที่ยงวันนี้"
+      ],
+      "supporting_images": [
+        {
+          "ref": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต.png",
+          "file_id": "file_00000000806c8207892dada18ccdd462",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA chat + Library / 2026-09-19",
+      "notes": "Caption + pinned + hashtags recovered from prior copy package.",
+      "thumbnail": "https://drive.google.com/file/d/1p1tGlF2lA5vu3N-yXu4lm3zPD1w6Mpy3/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1p1tGlF2lA5vu3N-yXu4lm3zPD1w6Mpy3/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1p1tGlF2lA5vu3N-yXu4lm3zPD1w6Mpy3"
+    },
+    {
+      "id": "BAI-WK-0919-WEDDING",
+      "title": "ไปงานแต่งเพื่อน — Pink Satin",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "Previous Week",
+        "Wedding",
+        "Fashion",
+        "Lifestyle"
+      ],
+      "asset_ref": "สาวงามในงานวิวาห์แสนโรแมนติก.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาใส่ชุดเดรสซาตินชมพูไปงานแต่งเพื่อน ท่ามกลางซุ้มดอกไม้.",
+      "caption": "ตั้งใจมางานแต่งในฐานะแขกดี ๆ นี่แหละค่ะ 🤍\nแต่พอเจอแสงสวย ๆ กับมุมดอกไม้แบบนี้ ก็อดถ่ายรูปเก็บไว้ไม่ได้เลย 🌸\n— ใบชา",
+      "pinned_comment": "วันนี้ใบชาให้คะแนนชุดนี้ 9/10 ค่ะ 🌸 หัก 1 คะแนน เพราะคนถ่ายรูปยังไม่ยอมชมว่าสวยเลย 😌 แต่ถ้าเป็นพี่ ๆ จะให้กี่คะแนนคะ หรือจะเพิ่มคะแนนเพราะเจ้าของชุดแทนก็ได้นะ 🤭",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#WeddingGuest",
+        "#PinkDress",
+        "#Lifestyle"
+      ],
+      "supporting_images": [
+        {
+          "ref": "สาวงามในงานวิวาห์แสนโรแมนติก.png",
+          "file_id": "file_0000000087cc821191074ac528a8664b",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA chat + Library / 2026-09-19",
+      "notes": "Opening/ending of caption and exact pinned recovered; middle sentence in this archive version was reconstructed to match the recovered wedding context and is not claimed verbatim.",
+      "thumbnail": "https://drive.google.com/file/d/1gF4bND9gZCT-cygkxdQNswRfaz7Yd3VI/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1gF4bND9gZCT-cygkxdQNswRfaz7Yd3VI/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1gF4bND9gZCT-cygkxdQNswRfaz7Yd3VI"
+    },
+    {
+      "id": "BAI-WK-0919-SKINCARE",
+      "title": "Night Routine — หลับฝันดีนะคะ",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Previous Week",
+        "Goodnight",
+        "Skincare",
+        "Night Routine"
+      ],
+      "asset_ref": "ค่ำคืนละมุนกับสกินแคร์และคำฝันดี.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาโพกผ้าขนหนู ทาสกินแคร์ก่อนนอน พร้อมข้อความหลับฝันดี.",
+      "caption": "คืนนี้ใบชาขอปิดวันแบบเบา ๆ ค่ะ 🌙🤍\nล้างหน้า ทาครีม แล้วปล่อยให้เรื่องวุ่น ๆ ของวันนี้จบลงตรงนี้\nพักให้เต็มที่นะคะ พรุ่งนี้ค่อยเริ่มใหม่อีกครั้ง\nหลับฝันดีนะคะ\n— ใบชา",
+      "pinned_comment": "สกินแคร์เสร็จแล้ว เหลืออย่างเดียวคือวางมือถือแล้วนอนจริง ๆ ค่ะ 😂🌙 ฝันดีนะคะ",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#ฝันดีนะคะ",
+        "#NightRoutine",
+        "#ก่อนนอน"
+      ],
+      "supporting_images": [
+        {
+          "ref": "ค่ำคืนละมุนกับสกินแคร์และคำฝันดี.png",
+          "file_id": "file_0000000068cc821191074ac528a8664b",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA chat + Library / 2026-09-19",
+      "notes": "Caption framing/hashtags recovered; pinned comment newly paired on 2026-09-26 because no historical pinned comment was recovered.",
+      "thumbnail": "https://drive.google.com/file/d/103wbZFY4MDr7rHS-B392qHS4_FSmnzmf/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/103wbZFY4MDr7rHS-B392qHS4_FSmnzmf/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "103wbZFY4MDr7rHS-B392qHS4_FSmnzmf"
+    },
+    {
+      "id": "BAI-WK-0920-BRUNCH",
+      "title": "Breakfast With Friends — The Riverton",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "Previous Week",
+        "Breakfast",
+        "Brunch",
+        "Friends"
+      ],
+      "asset_ref": "บรันช์หรูใต้แสงอบอุ่น.png / มื้อเช้าหรูหราที่เดอะริเวอร์ตัน.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "มื้อเช้าโรงแรม 5 ดาวกับเพื่อน โต๊ะอาหารเต็ม แสงเช้าหรูและเป็นธรรมชาติ.",
+      "caption": "เช้านี้ขอเติมพลังแบบดีต่อใจหน่อย ☕🥐✨\nอาหารอร่อย บรรยากาศดี แล้วได้นั่งคุยกับเพื่อนแบบไม่รีบ…แค่นี้ก็เป็นเช้าที่มีความสุขแล้วค่ะ 🤍",
+      "pinned_comment": "โต๊ะนี้ให้เลือกได้หนึ่งอย่างก่อนเลย—กาแฟ ครัวซองต์ หรือเม้าท์กับเพื่อนคะ 😂☕🥐",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#อาหารเช้า",
+        "#BreakfastTime",
+        "#MorningVibes",
+        "#BrunchWithFriends",
+        "#วันดีๆ",
+        "#ไลฟ์สไตล์",
+        "#เที่ยวโรงแรม",
+        "#ความสุขเล็กๆ"
+      ],
+      "supporting_images": [
+        {
+          "ref": "บรันช์หรูใต้แสงอบอุ่น.png",
+          "file_id": "file_000000003bf882118728b76bf55fb0c4",
+          "status": "RECOVERED"
+        },
+        {
+          "ref": "มื้อเช้าหรูหราที่เดอะริเวอร์ตัน.png",
+          "file_id": "file_0000000024e48207bb73033633cd1f9f",
+          "status": "ALTERNATE"
+        }
+      ],
+      "source_reference": "BAICHA chat + Library / 2026-09-20",
+      "notes": "Caption opening and hashtag set recovered; pinned comment newly paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1IlySuxuMiEzZgrSlqvH5ZdQUdM-k8Z_a/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1IlySuxuMiEzZgrSlqvH5ZdQUdM-k8Z_a/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1IlySuxuMiEzZgrSlqvH5ZdQUdM-k8Z_a"
+    },
+    {
+      "id": "BAI-WK-0920-SHOPPING",
+      "title": "Shopping Day With Friends",
+      "content_type": "IMAGE",
+      "category": "Fashion",
+      "tags": [
+        "Previous Week",
+        "Shopping",
+        "Fashion",
+        "Friends"
+      ],
+      "asset_ref": "ช้อปปิ้งสุดหรูในวันของสามสาว…png + multi-angle batches",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชากับเพื่อนสองคนเดินช้อปปิ้งในห้าง ลุคแฟชั่นหรู ถือถุงช้อปปิ้ง.",
+      "caption": "วันช้อปปิ้งกับเพื่อนนี่อันตรายต่อใจ…และกระเป๋าสตางค์มากค่ะ 😂🛍️✨\nแต่ได้เดินเล่น คุยกัน แล้วลองลุคใหม่ ๆ ก็ถือว่าเป็นวันพักที่คุ้มอยู่นะ 🤍",
+      "pinned_comment": "พี่ ๆ เป็นสายเดินดูเฉย ๆ หรือเข้าไปแล้วต้องได้อะไรติดมือกลับมาคะ 😂🛍️",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#ShoppingDay",
+        "#Fashion",
+        "#Lifestyle",
+        "#วันว่าง"
+      ],
+      "supporting_images": [
+        {
+          "ref": "ช้อปปิ้งสุดหรูในวันของสามสาว.png",
+          "file_id": "file_00000000aedc8211b7aa57d5cc6034f3",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-20",
+      "notes": "Large same-session image batches are treated as set history/supporting versions, not duplicate cards. Copy newly paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1y8HJa6k8233V4q6_1zh-YJFMuNBp6u9D/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1y8HJa6k8233V4q6_1zh-YJFMuNBp6u9D/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1y8HJa6k8233V4q6_1zh-YJFMuNBp6u9D"
+    },
+    {
+      "id": "BAI-WK-0920-PATTAYA",
+      "title": "Pattaya Day → Dinner → Pool Night",
+      "content_type": "IMAGE",
+      "category": "Travel",
+      "tags": [
+        "Previous Week",
+        "Pattaya",
+        "Friends",
+        "Travel"
+      ],
+      "asset_ref": "3 named Pattaya images",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "วันเที่ยวพัทยากับเพื่อน: มื้อริมทะเลช่วงกลางวัน → ดินเนอร์กลางคืน → ปาร์ตี้ริมสระ.",
+      "caption": "จากมื้อริมทะเลตอนแดดสวย ๆ ไปจนถึงไฟเมืองตอนกลางคืน 🌴🌊✨\nทริปกับเพื่อนคือแพลนหนึ่งอย่าง แล้วจบอีกอย่างตลอดเลยค่ะ 😂 แต่แบบนี้แหละถึงจำได้นาน",
+      "pinned_comment": "ถ้าต้องเลือกแค่หนึ่งช่วง—มื้อริมทะเล ดินเนอร์กลางคืน หรือริมสระ—พี่ ๆ เลือกอันไหนคะ 🌊🌙",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#Pattaya",
+        "#เที่ยวกับเพื่อน",
+        "#TravelMood",
+        "#Lifestyle"
+      ],
+      "supporting_images": [
+        {
+          "ref": "สาวสามคนกับมื้ออร่อยริมทะเลพัทยา.png",
+          "file_id": "file_00000000347482068588930e004236db",
+          "status": "DAY"
+        },
+        {
+          "ref": "สาวสวยสามคนดินเนอร์ริมทะเลพัทยา.png",
+          "file_id": "file_0000000081c4821182fb0801b68e97cb",
+          "status": "DINNER"
+        },
+        {
+          "ref": "ปาร์ตี้ริมสระใต้แสงเมืองพัทยา.png",
+          "file_id": "file_000000004e6c82118a824f0bb5fd82ce",
+          "status": "POOL NIGHT"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-20",
+      "notes": "Grouped as one continuity post/set instead of 3 duplicate concept cards. Copy newly paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1JR34ViQi4urLqooe3AYrOetoJm2ZP1eN/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1JR34ViQi4urLqooe3AYrOetoJm2ZP1eN/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1JR34ViQi4urLqooe3AYrOetoJm2ZP1eN"
+    },
+    {
+      "id": "BAI-WK-0920-GOODNIGHT",
+      "title": "ฝันดีในคืนอบอุ่น — 20 Sep",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Previous Week",
+        "Goodnight",
+        "Night",
+        "Bedroom"
+      ],
+      "asset_ref": "ฝันดีในคืนอบอุ่น.png",
+      "asset_status": "RECOVERED LIBRARY ASSET → GOOGLE DRIVE WEB ARCHIVE / DRAFT-UNCONFIRMED",
+      "concept": "ใบชาในห้องนอนกลางคืน ชุดนอนสีม่วง พร้อมข้อความฝันดีและกำลังใจสำหรับวันพรุ่งนี้.",
+      "caption": "คืนนี้ขอให้พักผ่อนเต็มอิ่มนะคะ 🌙💜\nหลับสบาย ฝันหวาน แล้วพรุ่งนี้ตื่นมาเจอแต่เรื่องดี ๆ นะ\nฝันดีค่ะ 🤍",
+      "pinned_comment": "ก่อนนอนคืนนี้ ขอฝากรอยยิ้มไว้หนึ่งทีนะคะ แล้วเจอกันพรุ่งนี้ 💜🌙",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#ฝันดี",
+        "#GoodNight",
+        "#NightMood"
+      ],
+      "supporting_images": [
+        {
+          "ref": "ฝันดีในคืนอบอุ่น.png",
+          "file_id": "file_00000000c8308206b234b4727c13a659",
+          "status": "RECOVERED"
+        }
+      ],
+      "source_reference": "BAICHA Library / 2026-09-20 (Thailand local day)",
+      "notes": "Last recovered BAICHA still before Monday 2026-09-21 local rollover. Copy newly paired for archive.",
+      "thumbnail": "https://drive.google.com/file/d/1bzQHgh_hqSgRhB-70PLe03IySzGynOj8/view?usp=drivesdk",
+      "media_url": "https://drive.google.com/file/d/1bzQHgh_hqSgRhB-70PLe03IySzGynOj8/view?usp=drivesdk",
+      "prompt": null,
+      "status": "DRAFT",
+      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
+      "created_recovered_from": "BAICHA Library + relevant Project conversations",
+      "history": [],
+      "drive_file_id": "1bzQHgh_hqSgRhB-70PLe03IySzGynOj8"
+    },
     {
       "id": "BAI-001",
       "title": "Fashion Set 1 — Ivory Lace",
@@ -39,9 +997,10 @@
       "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
       "source_reference": "Fashion Set 1 / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-002",
@@ -70,9 +1029,10 @@
       "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
       "source_reference": "Fashion Set 2 / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-003",
@@ -101,9 +1061,10 @@
       "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
       "source_reference": "Fashion Set 3 / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-004",
@@ -134,7 +1095,7 @@
       "source_chat": "BAICHA ภาพนิ่ง/แคปชั่น — recovered Project chat",
       "source_reference": "Rose garden package / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "Latest recovered long-form copy retained as Current Version; shorter alternate kept in history.",
+      "notes": "Latest recovered long-form copy retained as Current Version; shorter alternate kept in history. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
       "history": [
         {
@@ -142,7 +1103,8 @@
           "caption": "วันนี้ไม่ได้หวานนะ\nแค่กุหลาบมันเข้ากับชุดเฉยๆ 🌹",
           "status": "HISTORICAL COPY"
         }
-      ]
+      ],
+      "visible": false
     },
     {
       "id": "BAI-005",
@@ -172,9 +1134,10 @@
       "source_chat": "BAICHA IMAGE / Morning — recovered Project chat",
       "source_reference": "Lazy Morning / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "Copy QA was recovered as passed, but exact web asset was not verified.",
+      "notes": "Copy QA was recovered as passed, but exact web asset was not verified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-006",
@@ -204,9 +1167,10 @@
       "source_chat": "BAICHA IMAGE / Caption — recovered Project chat",
       "source_reference": "Morning quote / 2026-09-24",
       "status": "NEEDS IMAGE",
-      "notes": "Text package recovered; image QA notes existed but exact web asset mapping remains unverified.",
+      "notes": "Text package recovered; image QA notes existed but exact web asset mapping remains unverified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-007",
@@ -236,9 +1200,10 @@
       "source_chat": "BAICHA IMAGE / Lifestyle — recovered Project chat",
       "source_reference": "After Work / 2026-09-24",
       "status": "NEEDS IMAGE",
-      "notes": "Copy package recovered. Police styling remains task-specific only.",
+      "notes": "Copy package recovered. Police styling remains task-specific only. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-008",
@@ -268,9 +1233,10 @@
       "source_chat": "BAICHA IMAGE / Night — recovered Project chat",
       "source_reference": "Play With Fire / 2026-09-21",
       "status": "NEEDS IMAGE",
-      "notes": "No explicit approval or exact web asset was recovered.",
+      "notes": "No explicit approval or exact web asset was recovered. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-009",
@@ -378,141 +1344,6 @@
         {
           "version": "story lock",
           "note": "9:16, ~9–11s, solo Baicha; take selfie twice → shift side → pat empty seat."
-        }
-      ]
-    },
-    {
-      "id": "BAI-012",
-      "title": "รีโมตหยุดพี่",
-      "content_type": "IDEA",
-      "category": "Comedy",
-      "tags": [
-        "Comedy",
-        "Remote",
-        "Flirt",
-        "Latest 3 Jokes"
-      ],
-      "thumbnail": null,
-      "media_url": null,
-      "asset_ref": "สตอรี่บอร์ดใบชากับรีโมตหยุดพี่.png",
-      "asset_status": "LIBRARY ASSET RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาหารีโมต เจอแล้วกดสั่งพี่ให้หยุด/ห้ามไปไหน ก่อนเฉลยว่าปุ่มใช้กับพี่ไม่ได้ เลยจับไว้เอง.",
-      "caption": "รีโมตอันนี้กดหยุดทุกอย่างได้…ยกเว้นพี่ 😏📺\nงั้นวันนี้ใบชาขอใช้วิธีจับไว้เองแล้วกันนะ 🤍",
-      "pinned_comment": "ถ้าใบชากดปุ่ม “ห้ามไปไหน” พี่จะยอมค้างอยู่ตรงนี้ไหมคะ 😂",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#มุขจีบ",
-        "#สายแซว",
-        "#คลิปตลก",
-        "#ReelsThailand"
-      ],
-      "prompt": null,
-      "supporting_images": [
-        {
-          "ref": "สตอรี่บอร์ดใบชากับรีโมตหยุดพี่.png",
-          "file_id": "file_0000000081688211b0e9a762827209c8",
-          "status": "RECOVERED LIBRARY STORYBOARD / UNCONFIRMED"
-        },
-        {
-          "ref": "ใบชากับรีโมตหยุดพี่.png",
-          "file_id": "file_00000000e81881f8a488e1d97e3ac97a",
-          "status": "RECOVERED LIBRARY IMAGE / UNCONFIRMED"
-        },
-        {
-          "ref": "ค้นหาของสำคัญในโซฟา.png",
-          "file_id": "file_000000007d98822fa4b6e698eb62e2e4",
-          "status": "RECOVERED LIBRARY IMAGE / UNCONFIRMED"
-        }
-      ],
-      "source_chat": "BAICHA COMEDY — recovered Project chat",
-      "source_reference": "Latest 3 jokes recovery / 2026-09-24",
-      "status": "DRAFT",
-      "notes": "Dialogue recovered from BAICHA chat. Caption/pinned/hashtags were newly paired for Content Library on 2026-09-26; not claimed as historical copy.",
-      "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": [
-        {
-          "version": "dialogue",
-          "note": "เมื่อกี้อยู่ไหนนะ… / เจอแล้ว / หยุดเลย…วันนี้ห้ามไปไหน / อ้าว… / ทำไมปุ่มนี้ใช้กับพี่ไม่ได้อะ / งั้นใบชาจับไว้เองก็ได้"
-        }
-      ]
-    },
-    {
-      "id": "BAI-013",
-      "title": "คืนนี้รีบนอนนะ",
-      "content_type": "IDEA",
-      "category": "Comedy",
-      "tags": [
-        "Comedy",
-        "Goodnight",
-        "Flirt",
-        "Latest 3 Jokes"
-      ],
-      "thumbnail": null,
-      "media_url": null,
-      "asset_ref": "MISSING",
-      "asset_status": "MISSING / NO EXACT ASSET MAPPING RECOVERED",
-      "concept": "ใบชาบอกให้พี่รีบนอน เพราะจองคิวเข้าไปในฝันไว้แล้ว และคิวแน่น.",
-      "caption": "คืนนี้รีบนอนนะคะ 😌🌙\nใบชาจองคิวเข้าไปในฝันไว้แล้ว…มาสายไม่ได้นะ คิวแน่น 🤭",
-      "pinned_comment": "ใครนอนช้า ระวังคิวความฝันของใบชาเต็มก่อนนะคะ 😂🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#มุขจีบ",
-        "#ฝันดี",
-        "#GoodNight",
-        "#ReelsThailand"
-      ],
-      "prompt": null,
-      "supporting_images": [],
-      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
-      "source_reference": "Latest 3 jokes recovery",
-      "status": "DRAFT",
-      "notes": "Dialogue recovered. No exact matching generated asset was verified. Caption/pinned/hashtags newly paired on 2026-09-26.",
-      "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": [
-        {
-          "version": "dialogue",
-          "note": "คืนนี้พี่รีบนอนนะ…ใบชาจองคิวเข้าไปในฝันพี่ไว้แล้ว…มาสายไม่ได้นะ…คิวแน่น"
-        }
-      ]
-    },
-    {
-      "id": "BAI-014",
-      "title": "เลิกคุยกับพี่แล้ว",
-      "content_type": "IDEA",
-      "category": "Comedy",
-      "tags": [
-        "Comedy",
-        "Flirt",
-        "Latest 3 Jokes"
-      ],
-      "thumbnail": null,
-      "media_url": null,
-      "asset_ref": "MISSING",
-      "asset_status": "MISSING / NO EXACT ASSET MAPPING RECOVERED",
-      "concept": "ประกาศว่าจะเลิกคุย แต่ผ่านไปสองวินาทีก็คิดถึงแล้ว ขอคุยต่อ.",
-      "caption": "ใบชาตัดสินใจแล้วนะ…จะเลิกคุยกับพี่ 😌\n…ครบสองวิแล้ว\nคิดถึงแล้วอะ 😂 กลับมาคุยต่อเถอะ",
-      "pinned_comment": "สองวินาทีถือว่านานมากแล้วนะคะ ใครจะเถียง 😌😂",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#มุขจีบ",
-        "#สายแซว",
-        "#คลิปตลก",
-        "#ReelsThailand"
-      ],
-      "prompt": null,
-      "supporting_images": [],
-      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
-      "source_reference": "Latest 3 jokes recovery",
-      "status": "DRAFT",
-      "notes": "Dialogue recovered. No exact matching generated asset was verified. Caption/pinned/hashtags newly paired on 2026-09-26.",
-      "created_recovered_from": "Recovered from BAICHA Project conversations",
-      "history": [
-        {
-          "version": "dialogue",
-          "note": "ใบชาตัดสินใจแล้วนะ…จะเลิกคุยกับพี่แล้ว…ครบแล้ว…คิดถึงแล้วอะ…คุยต่อเถอะ…สองวิก็นานเกิน"
         }
       ]
     },
@@ -679,7 +1510,7 @@
       "source_chat": "BAICHA CURRENT STATE — IMAGE",
       "source_reference": "Project Current Index / 2026-09-25",
       "status": "DRAFT",
-      "notes": "Latest replacement Goodnight image = DRAFT / UNCONFIRMED. Do not promote to APPROVED. A similarly named Library image exists but was not mapped as the latest replacement.",
+      "notes": "Latest replacement Goodnight image = DRAFT / UNCONFIRMED. Do not promote to APPROVED. A similarly named Library image exists but was not mapped as the latest replacement. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "BAICHA Project Source",
       "history": [
         {
@@ -687,7 +1518,8 @@
           "status": "REJECTED",
           "note": "Rejected as unnatural/distorted/wrong tone; never authority."
         }
-      ]
+      ],
+      "visible": false
     },
     {
       "id": "BAI-020",
@@ -713,9 +1545,10 @@
       "source_chat": "BAICHA IMAGE continuity history",
       "source_reference": "Project Current Index historical note",
       "status": "DRAFT",
-      "notes": "Historical DRAFT/UNCONFIRMED unless individual approval evidence is recovered.",
+      "notes": "Historical DRAFT/UNCONFIRMED unless individual approval evidence is recovered. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "BAICHA Project Source",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-021",
@@ -741,9 +1574,10 @@
       "source_chat": "BAICHA IMAGE migration pack",
       "source_reference": "Studio Set 1 current draft",
       "status": "DRAFT",
-      "notes": "Temporary styling only; no exact web asset mapping or explicit approval recovered.",
+      "notes": "Temporary styling only; no exact web asset mapping or explicit approval recovered. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA prior migration pack",
-      "history": []
+      "history": [],
+      "visible": false
     },
     {
       "id": "BAI-022",
@@ -878,814 +1712,10 @@
       "source_chat": "BAICHA prior migration pack",
       "source_reference": "Breakfast food-only 3-angle set",
       "status": "ARCHIVED",
-      "notes": "Operationally completed historical task, but not a universal template and no web asset URLs are verified.",
+      "notes": "Operationally completed historical task, but not a universal template and no web asset URLs are verified. Hidden from current IMAGE library view per 2026-09-26 instruction: show previous complete week only.",
       "created_recovered_from": "Recovered from BAICHA migration pack",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0914-BEACH",
-      "title": "Blue Floral Beach Set — 14 Sep",
-      "content_type": "IMAGE",
-      "category": "Travel",
-      "tags": [
-        "Previous Week",
-        "Beach",
-        "Travel",
-        "Fashion"
-      ],
-      "asset_ref": "image-gen-1.png → image-gen-10.png",
-      "asset_status": "10 LIBRARY IMAGES RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ชุดภาพใบชาริมทะเลน้ำสีฟ้า ชุดว่ายน้ำลายดอกฟ้า-ขาว หลายมุม 10 ภาพ.",
-      "caption": "ขอฝากแดด ทะเล แล้วก็รอยยิ้มของใบชาไว้ตรงนี้หน่อยนะคะ 🌊☀️💙\nบางวันแค่ได้ยืนรับลม ฟังเสียงคลื่น แล้วไม่รีบไปไหน ก็รู้สึกเหมือนได้ชาร์จพลังกลับมาเต็ม ๆ เลย",
-      "pinned_comment": "ถ้าให้เลือกหนึ่งอย่างตอนนี้—ทะเล ลมเย็น หรือวันหยุด—พี่ ๆ จะเลือกอะไรก่อนคะ 🌊🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#BeachDay",
-        "#ทะเล",
-        "#TravelMood",
-        "#Lifestyle"
-      ],
-      "supporting_images": [
-        {
-          "ref": "image-gen-1.png",
-          "file_id": "file_000000001bcc8211af8d59007031f958",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-2.png",
-          "file_id": "file_00000000acec8211a32581e3d44fb57b",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-3.png",
-          "file_id": "file_00000000a5f88211a55cd31151878e24",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-4.png",
-          "file_id": "file_0000000077688211b639c9975929e618",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-5.png",
-          "file_id": "file_00000000d5a082119c27c15ff0bc352b",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-6.png",
-          "file_id": "file_00000000f7388209b3e03df621223d86",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-7.png",
-          "file_id": "file_00000000796c82088e8d95eda03b9ef6",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-8.png",
-          "file_id": "file_000000009c18820698173f2eadd4ffa8",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-9.png",
-          "file_id": "file_000000008fb48211b394d8392d465a3a",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-10.png",
-          "file_id": "file_000000009cb88211bcc4560df94bd486",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-14",
-      "notes": "Caption/pinned/hashtags newly paired for archive on 2026-09-26. Exact historical Facebook copy not recovered.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0915-MORNING",
-      "title": "อรุณสวัสดิ์หน้าโต๊ะเครื่องแป้ง — 15 Sep",
-      "content_type": "IMAGE",
-      "category": "Morning",
-      "tags": [
-        "Previous Week",
-        "Morning",
-        "Bedroom"
-      ],
-      "asset_ref": "image-gen-1(1).png → image-gen-3(1).png",
-      "asset_status": "3 LIBRARY IMAGES RECOVERED / WEB URL MISSING / DRAFT-UNCONFIRMED",
-      "concept": "ชุด Good Morning ห้องนอน/โต๊ะเครื่องแป้ง 3 โทนสี พร้อมข้อความอรุณสวัสดิ์.",
-      "caption": "อรุณสวัสดิ์นะคะ ☀️🤍\nขอให้วันนี้เป็นวันที่ใจเบา เจอแต่เรื่องดี ๆ และมีเหตุผลให้ยิ้มได้ทั้งวันนะคะ",
-      "pinned_comment": "ตื่นกันหรือยังคะ ☀️ วันนี้ใบชาขอส่งพลังดี ๆ ให้ก่อนหนึ่งกอดนะ 🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#GoodMorning",
-        "#MorningMood",
-        "#อรุณสวัสดิ์"
-      ],
-      "supporting_images": [
-        {
-          "ref": "image-gen-1(1).png",
-          "file_id": "file_000000005414820781daf0093efa0b61",
-          "status": "DRAFT / UNCONFIRMED"
-        },
-        {
-          "ref": "image-gen-2(1).png",
-          "file_id": "file_000000003c948211a1c2e38c85658326",
-          "status": "DRAFT / UNCONFIRMED"
-        },
-        {
-          "ref": "image-gen-3(1).png",
-          "file_id": "file_00000000d8548211a21994022608d9b1",
-          "status": "DRAFT / UNCONFIRMED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-15",
-      "notes": "Image-set existence recovered; Project memory explicitly classifies these variants as DRAFT/UNCONFIRMED. Copy paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0915-GOODNIGHT",
-      "title": "Goodnight Pink Bedroom — 15 Sep",
-      "content_type": "IMAGE",
-      "category": "Goodnight",
-      "tags": [
-        "Previous Week",
-        "Goodnight",
-        "Night",
-        "Bedroom"
-      ],
-      "asset_ref": "image-gen-1(2).png → image-gen-3(2).png",
-      "asset_status": "3 LIBRARY IMAGES RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ชุด Goodnight ห้องนอนโทนอุ่น ชุดนอนสีชมพู 3 ภาพ พร้อมข้อความฝันดี.",
-      "caption": "คืนนี้พักให้เต็มที่นะคะ 🌙🤍\nเรื่องเหนื่อย ๆ ของวันนี้วางไว้ก่อน แล้วพรุ่งนี้ค่อยเริ่มใหม่ด้วยรอยยิ้มนะ\nGoodnight ค่ะ ✨",
-      "pinned_comment": "ก่อนนอนคืนนี้ ขอให้ทุกคนได้นอนแบบไม่ต้องคิดอะไรเยอะนะคะ ฝันดีค่ะ 🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#GoodNight",
-        "#ฝันดี",
-        "#NightMood"
-      ],
-      "supporting_images": [
-        {
-          "ref": "image-gen-1(2).png",
-          "file_id": "file_000000007d1481f4b1eaa7320fdc4106",
-          "status": "RECOVERED / UNCONFIRMED"
-        },
-        {
-          "ref": "image-gen-2(2).png",
-          "file_id": "file_00000000b61882469666fd198aaf9837",
-          "status": "RECOVERED / UNCONFIRMED"
-        },
-        {
-          "ref": "image-gen-3(2).png",
-          "file_id": "file_00000000d72c81f9a90f2b1e69885882",
-          "status": "RECOVERED / UNCONFIRMED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-15",
-      "notes": "Caption/pinned/hashtags newly paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0916-BEACH",
-      "title": "Beach Photo Set — 16 Sep",
-      "content_type": "IMAGE",
-      "category": "Travel",
-      "tags": [
-        "Previous Week",
-        "Beach",
-        "Photo Set"
-      ],
-      "asset_ref": "image-gen-1(3).png … image-gen-10(2).png",
-      "asset_status": "MULTI-ANGLE LIBRARY SETS RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ภาพใบชาริมทะเลชุดลายดอกฟ้า-ขาวหลายมุม; มีหลาย generation batch ในวันเดียวกัน จัดเป็น Current Set + History แทนสร้าง Card ซ้ำ.",
-      "caption": "ทะเลรอบนี้แสงสวยมากจนอยากเก็บทุกมุมเลยค่ะ 🌊💙\nรูปเยอะหน่อยไม่ว่ากันนะ…เพราะเลือกเองไม่ลงจริง ๆ 😅",
-      "pinned_comment": "ถ้าให้พี่เลือกภาพเดียวเป็นรูปโปรไฟล์จากเซตนี้ จะเลือกมุมไหนคะ 📸🌊",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#BeachLook",
-        "#PhotoSet",
-        "#ทะเล"
-      ],
-      "supporting_images": [
-        {
-          "ref": "image-gen-1(3).png",
-          "file_id": "file_00000000c74c820e849005cca6d0645f",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "image-gen-1(4).png",
-          "file_id": "file_00000000f21081f58b70471db29fbccb",
-          "status": "PREVIOUS/ALTERNATE BATCH"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-16",
-      "notes": "Deduplicated as one photo-set card; full batch filenames remain in Asset Ref/History rather than duplicate cards.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0917-LUNCH",
-      "title": "พักเที่ยงแซ่บ — ซอยลาดพร้าว 64",
-      "content_type": "IMAGE",
-      "category": "Lifestyle",
-      "tags": [
-        "Previous Week",
-        "Lunch",
-        "Food",
-        "Friends"
-      ],
-      "asset_ref": "พักเที่ยงแซ่บซอยลาดพร้าว 64.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชานั่งกินส้มตำ ไก่ย่าง ข้าวเหนียวกับเพื่อนสองคนที่ร้านริมทาง.",
-      "caption": "พักเที่ยงวันนี้ขอแซ่บหน่อยค่ะ 🌶️😋\nส้มตำ ไก่ย่าง ข้าวเหนียว ครบโต๊ะแบบนี้…บ่ายนี้น่าจะมีแรงทำงานต่อแล้วล่ะ 😂",
-      "pinned_comment": "ทีมเผ็ดน้อย หรือเผ็ดแบบน้ำตาไหลคะ 🌶️😂 ใบชาขอแซ่บกลาง ๆ ก่อนนะ",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#มื้อเที่ยง",
-        "#ส้มตำ",
-        "#Lifestyle",
-        "#FoodMood"
-      ],
-      "supporting_images": [
-        {
-          "ref": "พักเที่ยงแซ่บซอยลาดพร้าว 64.png",
-          "file_id": "file_000000006ed48211bb4ea93414d2dcdd",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "มื้อส้มตำในซอยลาดพร้าว.png",
-          "file_id": "file_000000008ea082118de6015dfc31aa60",
-          "status": "ALTERNATE"
-        },
-        {
-          "ref": "มื้อเที่ยงตำรวจไทยริมทาง.png",
-          "file_id": "file_00000000775881f896a86bd0d71d2759",
-          "status": "ALTERNATE"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-17",
-      "notes": "Activity-inappropriate chin-rest pose was later recorded as a failure lesson; asset is preserved historically, not promoted to authority. Copy paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0917-NIGHTSHIFT",
-      "title": "รอยยิ้มเวรดึก",
-      "content_type": "IMAGE",
-      "category": "Night",
-      "tags": [
-        "Previous Week",
-        "Night",
-        "Police Look",
-        "Lifestyle"
-      ],
-      "asset_ref": "รอยยิ้มเวรดึกในห้องควบคุม.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาเวรดึกในห้องควบคุม โทนอบอุ่น/มืด มีวิทยุ โต๊ะเอกสาร และคำ Good Night.",
-      "caption": "เข้าเวรคืนนี้ งานไม่หนักหรอกค่ะ…\nที่ยากคือทำเป็นไม่คิดถึงใครบางคน 😌🖤",
-      "pinned_comment": "แล้วคืนนี้…มีใครแกล้งทำเป็นไม่คิดถึงใครบ้าง 😏",
-      "hashtags": [
-        "#ใบชา",
-        "#BAICHA",
-        "#เวรดึก",
-        "#คลิปสั้น",
-        "#Reels"
-      ],
-      "supporting_images": [
-        {
-          "ref": "รอยยิ้มเวรดึกในห้องควบคุม.png",
-          "file_id": "file_00000000b41482119deac38377ada106",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "สาวตำรวจเวรดึกยิ้มละมุน.png",
-          "file_id": "file_00000000074482118dcd8aa9c7913ec4",
-          "status": "ALTERNATE"
-        }
-      ],
-      "source_reference": "BAICHA chat + Library / 2026-09-17",
-      "notes": "Caption/pinned recovered from prior BAICHA Facebook package; visual is task-specific police look, not canon.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0917-MORNINGRUN",
-      "title": "สวัสดีตอนเช้า — วิ่งสวนริมทะเลสาบ",
-      "content_type": "IMAGE",
-      "category": "Morning",
-      "tags": [
-        "Previous Week",
-        "Morning",
-        "Running",
-        "Lifestyle"
-      ],
-      "asset_ref": "สาวนักวิ่งทักทายยามเช้าในสวน.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาในชุดวิ่งสีอ่อน เดิน/พักริมทะเลสาบตอนเช้า พร้อมข้อความสวัสดี.",
-      "caption": "เช้านี้ออกมารับแดดเบา ๆ ให้ร่างกายตื่นก่อนค่ะ ☀️🏃🏻‍♀️\nขอให้วันนี้ของทุกคนสดใส มีพลังดี ๆ และมีเรื่องให้ยิ้มเยอะ ๆ นะคะ 🤍",
-      "pinned_comment": "เช้านี้ใครได้ขยับตัวแล้วบ้างคะ เดินนิดเดียวก็ถือว่าเริ่มแล้วนะ ☀️",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#GoodMorning",
-        "#MorningRun",
-        "#MorningMood"
-      ],
-      "supporting_images": [
-        {
-          "ref": "สาวนักวิ่งทักทายยามเช้าในสวน.png",
-          "file_id": "file_000000001f5c82119cde31a6f36614b6",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "สาวนักวิ่งยามเช้าพร้อมคำทักทายไทย.png",
-          "file_id": "file_00000000eb2082119a6e12b2dc06d04c",
-          "status": "ALTERNATE"
-        },
-        {
-          "ref": "สาวไทยยิ้มหวานริมทะเลสาบ.png",
-          "file_id": "file_00000000a4848211bffd675a7b2b3622",
-          "status": "ALTERNATE"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-17",
-      "notes": "Copy paired for archive based on image content; no historical exact pinned-comment record recovered.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0918-COFFEE",
-      "title": "กาแฟเย็นระหว่างพัก",
-      "content_type": "IMAGE",
-      "category": "Lifestyle",
-      "tags": [
-        "Previous Week",
-        "Coffee",
-        "Police Look",
-        "Day"
-      ],
-      "asset_ref": "ตำรวจสาวกับกาแฟเย็นในสวน.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาในลุคตำรวจถือกาแฟเย็นและสมุดโน้ตในสวนกลางวัน.",
-      "caption": "พักสั้น ๆ กับกาแฟเย็นหนึ่งแก้ว ☕🤎\nเติมพลังให้ตัวเองก่อน แล้วค่อยกลับไปลุยต่อค่ะ",
-      "pinned_comment": "ทีมกาแฟเย็นเหมือนใบชา หรือทีมร้อนคะ ☕😆",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#CoffeeBreak",
-        "#Lifestyle",
-        "#พักก่อน"
-      ],
-      "supporting_images": [
-        {
-          "ref": "ตำรวจสาวกับกาแฟเย็นในสวน.png",
-          "file_id": "file_000000001d108206a040d74f061e05d5",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-18",
-      "notes": "Copy paired for archive; task-specific outfit only.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0918-GOODNIGHT",
-      "title": "ฝันดี — Pink Satin Bedroom",
-      "content_type": "IMAGE",
-      "category": "Goodnight",
-      "tags": [
-        "Previous Week",
-        "Goodnight",
-        "Bedroom",
-        "Night"
-      ],
-      "asset_ref": "image-gen-1(5).png / image-gen-1(6).png sets",
-      "asset_status": "6 LIBRARY IMAGES RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ภาพฝันดีห้องนอนโทนอุ่น ชุดนอนชมพู มีทั้งเวอร์ชันภาพสะอาดและเวอร์ชันข้อความ.",
-      "caption": "คืนนี้พักผ่อนให้เต็มอิ่มนะคะ 🌙🤍\nหลับสบาย ตื่นมาสดใส แล้วพรุ่งนี้ค่อยเจอกันใหม่ค่ะ",
-      "pinned_comment": "วางมือถือแล้วหลับได้แล้วนะคะ 😌 ฝันดีค่ะพี่ ๆ 🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#GoodNight",
-        "#ฝันดี",
-        "#NightMood"
-      ],
-      "supporting_images": [
-        {
-          "ref": "image-gen-1(5).png",
-          "file_id": "file_00000000c054821188a34a9213e880a4",
-          "status": "CLEAN VERSION"
-        },
-        {
-          "ref": "image-gen-1(6).png",
-          "file_id": "file_000000009b0482078b6d313e52956062",
-          "status": "TEXT VERSION"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-18",
-      "notes": "Copy paired for archive. Approval not recovered.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0919-RAIN",
-      "title": "เช้าวันฝนตกกับกาแฟแก้วโปรด",
-      "content_type": "IMAGE",
-      "category": "Morning",
-      "tags": [
-        "Previous Week",
-        "Rain",
-        "Coffee",
-        "Morning"
-      ],
-      "asset_ref": "หญิงสาวจิบกาแฟท่ามกลางสายฝน.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชานั่งข้างหน้าต่างฝนตก ถือแก้วกาแฟในห้องนอนโทนอุ่น.",
-      "caption": "เช้าวันฝนตกแบบนี้ ขอเริ่มช้า ๆ กับกาแฟแก้วโปรดก่อนนะคะ ☕🌧️\nข้างนอกครึ้มหน่อย แต่ขอให้ในใจทุกคนยังอบอุ่นเหมือนเดิมนะ 🤍",
-      "pinned_comment": "ฝนตกแบบนี้อยากนอนต่อ หรืออยากได้กาแฟเพิ่มอีกแก้วคะ ☕😂",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#RainyMorning",
-        "#CoffeeMood",
-        "#MorningVibes"
-      ],
-      "supporting_images": [
-        {
-          "ref": "หญิงสาวจิบกาแฟท่ามกลางสายฝน.png",
-          "file_id": "file_00000000b51c8211b6407ed7d3d70eb3",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "เช้าวันฝนตกกับกาแฟแก้วโปรด.png",
-          "file_id": "file_000000000f908211b6b032c632186b75",
-          "status": "ALTERNATE"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-19",
-      "notes": "Copy paired for archive; no exact historical copy recovered.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0919-PIZZA",
-      "title": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต",
-      "content_type": "IMAGE",
-      "category": "Travel",
-      "tags": [
-        "Previous Week",
-        "Beach",
-        "Lunch",
-        "Phuket"
-      ],
-      "asset_ref": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING",
-      "concept": "ใบชากินพิซซ่าริมทะเลภูเก็ต โทนสดใส พร้อมข้อความชวนทานมื้อเที่ยง.",
-      "caption": "มื้อเที่ยงของใบชาวันนี้ 🍕🌴☀️\nนั่งกินพิซซ่าริมทะเลแบบนี้\nจากที่ตั้งใจว่าจะกินแค่ชิ้นเดียว…\nตอนนี้เริ่มมองชิ้นที่สองแล้วค่ะ 😂\nทะเลสวย ลมดี ของกินอร่อย\nบางทีความสุขก็ไม่ได้ต้องซับซ้อนเลยเนอะ 🤍\nช่วงบ่ายใครกำลังทำงานอยู่\nใบชาขอส่งวิวทะเลเย็น ๆ ไปให้พักสายตาสักแป๊บนะคะ 🌊",
-      "pinned_comment": "พิซซ่าร้อน ๆ + วิวทะเลแบบนี้ 🍕🌊\nใบชาว่ามื้อนี้นั่งยาวได้จนเย็นเลยค่ะ 😂🤍",
-      "hashtags": [
-        "#ใบชา",
-        "#เที่ยวทะเล",
-        "#มื้อเที่ยงวันนี้"
-      ],
-      "supporting_images": [
-        {
-          "ref": "พิซซ่ามื้อเที่ยงริมทะเลภูเก็ต.png",
-          "file_id": "file_00000000806c8207892dada18ccdd462",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA chat + Library / 2026-09-19",
-      "notes": "Caption + pinned + hashtags recovered from prior copy package.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0919-WEDDING",
-      "title": "ไปงานแต่งเพื่อน — Pink Satin",
-      "content_type": "IMAGE",
-      "category": "Lifestyle",
-      "tags": [
-        "Previous Week",
-        "Wedding",
-        "Fashion",
-        "Lifestyle"
-      ],
-      "asset_ref": "สาวงามในงานวิวาห์แสนโรแมนติก.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาใส่ชุดเดรสซาตินชมพูไปงานแต่งเพื่อน ท่ามกลางซุ้มดอกไม้.",
-      "caption": "ตั้งใจมางานแต่งในฐานะแขกดี ๆ นี่แหละค่ะ 🤍\nแต่พอเจอแสงสวย ๆ กับมุมดอกไม้แบบนี้ ก็อดถ่ายรูปเก็บไว้ไม่ได้เลย 🌸\n— ใบชา",
-      "pinned_comment": "วันนี้ใบชาให้คะแนนชุดนี้ 9/10 ค่ะ 🌸 หัก 1 คะแนน เพราะคนถ่ายรูปยังไม่ยอมชมว่าสวยเลย 😌 แต่ถ้าเป็นพี่ ๆ จะให้กี่คะแนนคะ หรือจะเพิ่มคะแนนเพราะเจ้าของชุดแทนก็ได้นะ 🤭",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#WeddingGuest",
-        "#PinkDress",
-        "#Lifestyle"
-      ],
-      "supporting_images": [
-        {
-          "ref": "สาวงามในงานวิวาห์แสนโรแมนติก.png",
-          "file_id": "file_0000000087cc821191074ac528a8664b",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA chat + Library / 2026-09-19",
-      "notes": "Opening/ending of caption and exact pinned recovered; middle sentence in this archive version was reconstructed to match the recovered wedding context and is not claimed verbatim.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0919-SKINCARE",
-      "title": "Night Routine — หลับฝันดีนะคะ",
-      "content_type": "IMAGE",
-      "category": "Goodnight",
-      "tags": [
-        "Previous Week",
-        "Goodnight",
-        "Skincare",
-        "Night Routine"
-      ],
-      "asset_ref": "ค่ำคืนละมุนกับสกินแคร์และคำฝันดี.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาโพกผ้าขนหนู ทาสกินแคร์ก่อนนอน พร้อมข้อความหลับฝันดี.",
-      "caption": "คืนนี้ใบชาขอปิดวันแบบเบา ๆ ค่ะ 🌙🤍\nล้างหน้า ทาครีม แล้วปล่อยให้เรื่องวุ่น ๆ ของวันนี้จบลงตรงนี้\nพักให้เต็มที่นะคะ พรุ่งนี้ค่อยเริ่มใหม่อีกครั้ง\nหลับฝันดีนะคะ\n— ใบชา",
-      "pinned_comment": "สกินแคร์เสร็จแล้ว เหลืออย่างเดียวคือวางมือถือแล้วนอนจริง ๆ ค่ะ 😂🌙 ฝันดีนะคะ",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#ฝันดีนะคะ",
-        "#NightRoutine",
-        "#ก่อนนอน"
-      ],
-      "supporting_images": [
-        {
-          "ref": "ค่ำคืนละมุนกับสกินแคร์และคำฝันดี.png",
-          "file_id": "file_0000000068cc821191074ac528a8664b",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA chat + Library / 2026-09-19",
-      "notes": "Caption framing/hashtags recovered; pinned comment newly paired on 2026-09-26 because no historical pinned comment was recovered.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0920-BRUNCH",
-      "title": "Breakfast With Friends — The Riverton",
-      "content_type": "IMAGE",
-      "category": "Lifestyle",
-      "tags": [
-        "Previous Week",
-        "Breakfast",
-        "Brunch",
-        "Friends"
-      ],
-      "asset_ref": "บรันช์หรูใต้แสงอบอุ่น.png / มื้อเช้าหรูหราที่เดอะริเวอร์ตัน.png",
-      "asset_status": "2 LIBRARY IMAGES RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "มื้อเช้าโรงแรม 5 ดาวกับเพื่อน โต๊ะอาหารเต็ม แสงเช้าหรูและเป็นธรรมชาติ.",
-      "caption": "เช้านี้ขอเติมพลังแบบดีต่อใจหน่อย ☕🥐✨\nอาหารอร่อย บรรยากาศดี แล้วได้นั่งคุยกับเพื่อนแบบไม่รีบ…แค่นี้ก็เป็นเช้าที่มีความสุขแล้วค่ะ 🤍",
-      "pinned_comment": "โต๊ะนี้ให้เลือกได้หนึ่งอย่างก่อนเลย—กาแฟ ครัวซองต์ หรือเม้าท์กับเพื่อนคะ 😂☕🥐",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#อาหารเช้า",
-        "#BreakfastTime",
-        "#MorningVibes",
-        "#BrunchWithFriends",
-        "#วันดีๆ",
-        "#ไลฟ์สไตล์",
-        "#เที่ยวโรงแรม",
-        "#ความสุขเล็กๆ"
-      ],
-      "supporting_images": [
-        {
-          "ref": "บรันช์หรูใต้แสงอบอุ่น.png",
-          "file_id": "file_000000003bf882118728b76bf55fb0c4",
-          "status": "RECOVERED"
-        },
-        {
-          "ref": "มื้อเช้าหรูหราที่เดอะริเวอร์ตัน.png",
-          "file_id": "file_0000000024e48207bb73033633cd1f9f",
-          "status": "ALTERNATE"
-        }
-      ],
-      "source_reference": "BAICHA chat + Library / 2026-09-20",
-      "notes": "Caption opening and hashtag set recovered; pinned comment newly paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0920-SHOPPING",
-      "title": "Shopping Day With Friends",
-      "content_type": "IMAGE",
-      "category": "Fashion",
-      "tags": [
-        "Previous Week",
-        "Shopping",
-        "Fashion",
-        "Friends"
-      ],
-      "asset_ref": "ช้อปปิ้งสุดหรูในวันของสามสาว…png + multi-angle batches",
-      "asset_status": "LIBRARY IMAGE + MULTI-ANGLE SETS RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชากับเพื่อนสองคนเดินช้อปปิ้งในห้าง ลุคแฟชั่นหรู ถือถุงช้อปปิ้ง.",
-      "caption": "วันช้อปปิ้งกับเพื่อนนี่อันตรายต่อใจ…และกระเป๋าสตางค์มากค่ะ 😂🛍️✨\nแต่ได้เดินเล่น คุยกัน แล้วลองลุคใหม่ ๆ ก็ถือว่าเป็นวันพักที่คุ้มอยู่นะ 🤍",
-      "pinned_comment": "พี่ ๆ เป็นสายเดินดูเฉย ๆ หรือเข้าไปแล้วต้องได้อะไรติดมือกลับมาคะ 😂🛍️",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#ShoppingDay",
-        "#Fashion",
-        "#Lifestyle",
-        "#วันว่าง"
-      ],
-      "supporting_images": [
-        {
-          "ref": "ช้อปปิ้งสุดหรูในวันของสามสาว.png",
-          "file_id": "file_00000000aedc8211b7aa57d5cc6034f3",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-20",
-      "notes": "Large same-session image batches are treated as set history/supporting versions, not duplicate cards. Copy newly paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0920-PATTAYA",
-      "title": "Pattaya Day → Dinner → Pool Night",
-      "content_type": "IMAGE",
-      "category": "Travel",
-      "tags": [
-        "Previous Week",
-        "Pattaya",
-        "Friends",
-        "Travel"
-      ],
-      "asset_ref": "3 named Pattaya images",
-      "asset_status": "3 LIBRARY IMAGES RECOVERED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "วันเที่ยวพัทยากับเพื่อน: มื้อริมทะเลช่วงกลางวัน → ดินเนอร์กลางคืน → ปาร์ตี้ริมสระ.",
-      "caption": "จากมื้อริมทะเลตอนแดดสวย ๆ ไปจนถึงไฟเมืองตอนกลางคืน 🌴🌊✨\nทริปกับเพื่อนคือแพลนหนึ่งอย่าง แล้วจบอีกอย่างตลอดเลยค่ะ 😂 แต่แบบนี้แหละถึงจำได้นาน",
-      "pinned_comment": "ถ้าต้องเลือกแค่หนึ่งช่วง—มื้อริมทะเล ดินเนอร์กลางคืน หรือริมสระ—พี่ ๆ เลือกอันไหนคะ 🌊🌙",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#Pattaya",
-        "#เที่ยวกับเพื่อน",
-        "#TravelMood",
-        "#Lifestyle"
-      ],
-      "supporting_images": [
-        {
-          "ref": "สาวสามคนกับมื้ออร่อยริมทะเลพัทยา.png",
-          "file_id": "file_00000000347482068588930e004236db",
-          "status": "DAY"
-        },
-        {
-          "ref": "สาวสวยสามคนดินเนอร์ริมทะเลพัทยา.png",
-          "file_id": "file_0000000081c4821182fb0801b68e97cb",
-          "status": "DINNER"
-        },
-        {
-          "ref": "ปาร์ตี้ริมสระใต้แสงเมืองพัทยา.png",
-          "file_id": "file_000000004e6c82118a824f0bb5fd82ce",
-          "status": "POOL NIGHT"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-20",
-      "notes": "Grouped as one continuity post/set instead of 3 duplicate concept cards. Copy newly paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
-    },
-    {
-      "id": "BAI-WK-0920-GOODNIGHT",
-      "title": "ฝันดีในคืนอบอุ่น — 20 Sep",
-      "content_type": "IMAGE",
-      "category": "Goodnight",
-      "tags": [
-        "Previous Week",
-        "Goodnight",
-        "Night",
-        "Bedroom"
-      ],
-      "asset_ref": "ฝันดีในคืนอบอุ่น.png",
-      "asset_status": "LIBRARY IMAGE VERIFIED / WEB URL MISSING / APPROVAL NOT VERIFIED",
-      "concept": "ใบชาในห้องนอนกลางคืน ชุดนอนสีม่วง พร้อมข้อความฝันดีและกำลังใจสำหรับวันพรุ่งนี้.",
-      "caption": "คืนนี้ขอให้พักผ่อนเต็มอิ่มนะคะ 🌙💜\nหลับสบาย ฝันหวาน แล้วพรุ่งนี้ตื่นมาเจอแต่เรื่องดี ๆ นะ\nฝันดีค่ะ 🤍",
-      "pinned_comment": "ก่อนนอนคืนนี้ ขอฝากรอยยิ้มไว้หนึ่งทีนะคะ แล้วเจอกันพรุ่งนี้ 💜🌙",
-      "hashtags": [
-        "#ใบชา",
-        "#Baicha",
-        "#ฝันดี",
-        "#GoodNight",
-        "#NightMood"
-      ],
-      "supporting_images": [
-        {
-          "ref": "ฝันดีในคืนอบอุ่น.png",
-          "file_id": "file_00000000c8308206b234b4727c13a659",
-          "status": "RECOVERED"
-        }
-      ],
-      "source_reference": "BAICHA Library / 2026-09-20 (Thailand local day)",
-      "notes": "Last recovered BAICHA still before Monday 2026-09-21 local rollover. Copy newly paired for archive.",
-      "thumbnail": null,
-      "media_url": null,
-      "prompt": null,
-      "status": "INCOMPLETE",
-      "source_chat": "BAICHA IMAGE / PHOTO — previous-week recovery",
-      "created_recovered_from": "BAICHA Library + relevant Project conversations",
-      "history": []
+      "history": [],
+      "visible": false
     }
   ],
   "migration_notes": {
@@ -1696,6 +1726,6 @@
     ],
     "previous_complete_week_thailand": "2026-09-14 through 2026-09-20",
     "previous_week_photo_cards": 17,
-    "asset_delivery_note": "Library image identities were recovered and visually verified. Public/web-viewable image URLs were not available from the current file surface, so records preserve real asset refs and remain INCOMPLETE rather than inventing URLs or approval."
+    "asset_delivery_note": "Previous-week primary images were copied from verified BAICHA Library assets into the existing Google Drive-backed asset workflow and linked to BAICHA cards. They remain DRAFT/UNCONFIRMED unless explicit approval evidence exists. Older IMAGE records are retained in data but hidden from the current website view."
   }
 }

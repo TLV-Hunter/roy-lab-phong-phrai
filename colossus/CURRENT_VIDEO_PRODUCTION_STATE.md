@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-24
+Updated: 2026-09-26
 
 ## Authority correction
 
@@ -182,6 +182,57 @@ Reference still supplied with the batch: `24553.png`. It was treated as visual c
 Authority note:
 - No CS / CS-AUG episode mapping has been assigned to this batch yet.
 - Do not register these Finals in `colossus-reel-media.json` under an episode until episode/source authority confirms the mapping.
+
+
+## 2026-09-26 ACTION BATTLE V3 BATCH — SOURCES 24665 / 24666
+
+User requested three no-text deliverables:
+1. 24665 standalone Final at 20 seconds.
+2. 24666 standalone Final at 20 seconds.
+3. One combined story cut alternating both sources for maximum continuity.
+
+Source QA:
+- 24665.mp4 — PASS WITH REPAIR.
+- 24666.mp4 — PASS WITH REPAIR.
+- Shared visual continuity is sufficient for a single battle narrative: blue armored sword fighter versus red/black horned giant, with compatible cosmic-platform environments and matching combat direction.
+- No structural black/freeze failure in the usable source regions.
+
+### Finals
+- `24665_FINAL_20S_UPSCALE_V3.mp4`
+  - Duration: 20.00s.
+  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - No on-screen text per current user instruction.
+  - Source tail containing an accidental dark/black interval was excluded before final retime; final black/freeze QA PASS.
+  - Integrated loudness approximately -15.0 LUFS.
+  - SHA-256: `5747144fe911e739fe5abd31d02680342b7628f34e16ecb07dd0c66810e22a60`.
+
+- `24666_FINAL_20S_UPSCALE_V3.mp4`
+  - Duration: 20.00s.
+  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps source-preserving cinematic delivery.
+  - No on-screen text per current user instruction.
+  - Integrated loudness approximately -15.0 LUFS after final audio trim.
+  - SHA-256: `15cb5816a68f8acc0d61142b579ddf9004f7ab28e9c3bce813b8727b9c1b74d9`.
+
+- `24665_24666_STORY_CUT_FINAL_V3.mp4`
+  - Duration: 22.30s.
+  - Alternating story edit from both sources rather than simple head-to-tail concatenation.
+  - Story order: confrontation -> giant initiates -> first clash -> counter -> aerial movement -> return strike -> final impact.
+  - Delivery: 1080x1920, H.264, AAC 48kHz, 24fps.
+  - No on-screen text.
+  - Integrated loudness approximately -14.6 LUFS.
+  - SHA-256: `9246089f726870844d268256c853a5486a1abcdec3f1e4a548407b81fcd9b4ed`.
+
+Final QA:
+- QA-A Technical: PASS for all three.
+- QA-B Story / continuity: PASS for all three.
+- QA-C Delivery: PASS for all three.
+- No accidental black/freeze intervals after repair.
+- No >0.5s abnormal silence detected.
+- Optical-flow interpolation was intentionally not used after test because fast combat edges / weapons / debris presented unnecessary ghost-artifact risk; source-preserving retime was used instead.
+
+Authority note:
+- No CS / CS-AUG episode ID is assigned from filename alone.
+- Do not register these three Finals in `colossus-reel-media.json` under an episode until episode/source authority confirms the mapping.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

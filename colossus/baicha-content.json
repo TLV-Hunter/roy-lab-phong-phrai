@@ -1,0 +1,846 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-26T21:01:00+07:00",
+  "timezone": "Asia/Bangkok",
+  "brand": "ใบชา — BAICHA",
+  "mode": "CONTENT LIBRARY • READY-TO-POST ARCHIVE • NO SCHEDULING",
+  "storage": {
+    "base": "Static JSON in existing GitHub Pages repository",
+    "local_overrides_key": "baicha_content_overrides_v1",
+    "note": "Base migration is versioned in repo. Edits/mark-ready persist in browser localStorage without creating a parallel backend."
+  },
+  "ready_rule": "READY requires a verified web-viewable media_url + Caption + Hashtags + Pinned Comment. DRAFT/REJECTED are never auto-promoted.",
+  "records": [
+    {
+      "id": "BAI-001",
+      "title": "Fashion Set 1 — Ivory Lace",
+      "content_type": "IMAGE",
+      "category": "Fashion",
+      "tags": [
+        "Fashion",
+        "Ivory Lace",
+        "Soft",
+        "Lifestyle"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "ลุค ivory lace โทนนุ่ม แสงอุ่น 3 มุม/3 ภาพ ตาม Fashion workflow ของใบชา",
+      "caption": "วันนี้ใบชามาในลุค ivory lace ที่หวานแบบไม่ต้องพยายาม 🤍 Soft details, warm light, and a little confidence in every pose.",
+      "pinned_comment": "มุมไหนของลุคนี้เข้ากับใบชาที่สุด—ยืนข้างหน้าต่าง นั่งเก้าอี้วินเทจ หรือเดินผ่านสวนดอกไม้? Which view feels most like Baicha? 🤍",
+      "hashtags": [
+        "#Baicha",
+        "#IvoryLace",
+        "#แฟชั่นละมุน"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
+      "source_reference": "Fashion Set 1 / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-002",
+      "title": "Fashion Set 2 — Leopard Power Look",
+      "content_type": "IMAGE",
+      "category": "Fashion",
+      "tags": [
+        "Fashion",
+        "Leopard",
+        "Bold"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "Leopard power look — bold print, clean tailoring, golden attitude.",
+      "caption": "เปลี่ยนโหมดนุ่ม ๆ มาเป็น leopard power look 🐆 ลุคนี้ไม่ได้ดุ แต่เพิ่มความมั่นใจขึ้นอีกนิด Bold print, clean tailoring, and a little golden attitude.",
+      "pinned_comment": "ลุคลายเสือกับใบชาให้คะแนนความมั่นใจกี่คะแนนจาก 10? For me, the beret makes the whole look complete. 🐆",
+      "hashtags": [
+        "#Baicha",
+        "#LeopardLook",
+        "#แฟชั่นลายเสือ"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
+      "source_reference": "Fashion Set 2 / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-003",
+      "title": "Fashion Set 3 — Red & White Café",
+      "content_type": "IMAGE",
+      "category": "Fashion",
+      "tags": [
+        "Fashion",
+        "Retro",
+        "Cafe"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "แฟชั่นขาวแดงในคาเฟ่ retro แสงธรรมชาติ 3 มุม.",
+      "caption": "ขาวแดงในคาเฟ่แบบ retro วันนี้ใบชาดูสดใสขึ้นเป็นพิเศษ ❤️ Clean lines, soft sunlight, and a little classic café mood.",
+      "pinned_comment": "ลุคนี้เหมาะกับกาแฟแก้วแรกตอนเช้า หรือเดินเล่นในเมืองช่วงบ่ายมากกว่ากัน? Coffee or sunshine? ❤️",
+      "hashtags": [
+        "#Baicha",
+        "#RetroCafeStyle",
+        "#แฟชั่นขาวแดง"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA แฟชั่น/ภาพนิ่ง — recovered Project chat",
+      "source_reference": "Fashion Set 3 / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "Copy package recovered. Exact web-viewable image asset/path is not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-004",
+      "title": "Rose Garden — นั่งรับแดดเบา ๆ",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "Lifestyle",
+        "Garden",
+        "Rose",
+        "Cute"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "ภาพไลฟ์สไตล์นั่งรับแดดเบา ๆ กับดอกกุหลาบหนึ่งดอก โทนสบายและหวานธรรมชาติ.",
+      "caption": "วันนี้ขอเป็นโหมดนั่งรับแดดเบา ๆ กับดอกกุหลาบหนึ่งดอก 🌹\nบางวันก็ไม่ต้องมีอะไรพิเศษมาก แค่ได้ใส่ชุดที่ชอบ นั่งมุมสวย ๆ แล้วปล่อยใจให้สบายขึ้นนิดนึงก็พอแล้ว\nรูปนี้ฟีลดีจนอยากเก็บไว้ดูเองหลายรอบเลย 🤍",
+      "pinned_comment": "ช่วงนี้ชอบรูปแนวสบาย ๆ แต่ยังมีความหวานเบา ๆ มากเลย\nเดี๋ยวค่อยหามุมใหม่ ๆ มาให้ดูอีกนะ 🌹🤍",
+      "hashtags": [
+        "#Baicha",
+        "#ใบชา",
+        "#LifestyleVibes",
+        "#GardenMood"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA ภาพนิ่ง/แคปชั่น — recovered Project chat",
+      "source_reference": "Rose garden package / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "Latest recovered long-form copy retained as Current Version; shorter alternate kept in history.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "previous/alternate",
+          "caption": "วันนี้ไม่ได้หวานนะ\nแค่กุหลาบมันเข้ากับชุดเฉยๆ 🌹",
+          "status": "HISTORICAL COPY"
+        }
+      ]
+    },
+    {
+      "id": "BAI-005",
+      "title": "Lazy Morning — ขออีก 5 นาที",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Morning",
+        "Lazy Morning",
+        "Cute"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "เช้าแบบเพิ่งตื่น ยังไม่พร้อมลุก ภาษากาย casual ไม่โพสแข็ง.",
+      "caption": "ตื่นแล้ว…แต่ยังไม่พร้อมลุกอะ 😴💜",
+      "pinned_comment": "ขออีก 5 นาทีได้มั้ย…พูดแบบนี้มา 4 รอบแล้ว 😂",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#MorningMood",
+        "#LazyMorning"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE / Morning — recovered Project chat",
+      "source_reference": "Lazy Morning / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "Copy QA was recovered as passed, but exact web asset was not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-006",
+      "title": "Good Morning — Thoreau Quote",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Morning",
+        "Good Morning",
+        "Quote"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "โพสต์ Good Morning โทนใจเบา พร้อม quote ที่เคยจัดไว้.",
+      "caption": "เช้านี้ขอให้ใจเบา ๆ แล้วเจอแต่เรื่องดีนะ ☀️🤍\n“Morning is when I am awake and there is a dawn in me.”\n— Henry David Thoreau, Walden",
+      "pinned_comment": "ตื่นแล้วก็ขอให้วันนี้ใจดีกับเราหน่อยนะ 🫶🏻☀️",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#GoodMorning",
+        "#MorningMood"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE / Caption — recovered Project chat",
+      "source_reference": "Morning quote / 2026-09-24",
+      "status": "NEEDS IMAGE",
+      "notes": "Text package recovered; image QA notes existed but exact web asset mapping remains unverified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-007",
+      "title": "After Work — พักก่อนก็ได้",
+      "content_type": "IMAGE",
+      "category": "Lifestyle",
+      "tags": [
+        "After Work",
+        "Lifestyle",
+        "Police look"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "ใบชาหลังเลิกงาน วางหมวก/วิทยุ พักบนโซฟา — task-specific police look, not canon.",
+      "caption": "เหนื่อยก็พักก่อน\nไม่ต้องเก่งตลอดเวลาก็ได้ 🤍\n“Almost everything will work again if you unplug it for a few minutes, including you.”\n— Anne Lamott",
+      "pinned_comment": "โหมดนี้คือเลิกงานแล้วจริง ๆ\nขอวางหมวก วางวิทยุ แล้ววางตัวบนโซฟาก่อน 555 😮‍💨",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#AfterWork",
+        "#พักก่อน"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE / Lifestyle — recovered Project chat",
+      "source_reference": "After Work / 2026-09-24",
+      "status": "NEEDS IMAGE",
+      "notes": "Copy package recovered. Police styling remains task-specific only.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-008",
+      "title": "Goodnight — Play With Fire",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Night",
+        "Goodnight",
+        "Romantic"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / WEB ASSET NOT VERIFIED",
+      "concept": "Goodnight / night mood แนวขี้เล่น มีประโยค Play with fire.",
+      "caption": "เล่นกับไฟ…ก็ต้องยอมรับความร้อนหน่อยนะ 🔥\nแต่บางที ความอันตรายนิด ๆ ก็ทำให้คืนนี้น่าจดจำกว่าเดิม 😉\nPlay with fire, you might get burned.\nBut maybe that’s what makes it exciting. Ready? 🔥",
+      "pinned_comment": "คืนนี้ใครยังไม่นอน ระวังเผลอเล่นกับไฟนะคะ 😏🔥\nฝันดีค่ะ 🤍",
+      "hashtags": [
+        "#Baicha",
+        "#NightMood",
+        "#PlayWithFire",
+        "#GoodNight"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE / Night — recovered Project chat",
+      "source_reference": "Play With Fire / 2026-09-21",
+      "status": "NEEDS IMAGE",
+      "notes": "No explicit approval or exact web asset was recovered.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-009",
+      "title": "Beach Pizza Lunch",
+      "content_type": "REEL",
+      "category": "Travel",
+      "tags": [
+        "Travel",
+        "Beach",
+        "Lunch",
+        "Lifestyle"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "BAICHA_24250_UPSCALE_COLOR_AUDIO_LOOP30_FINAL.mp4",
+      "asset_status": "RECOVERED FILENAME / WEB URL MISSING",
+      "concept": "มื้อเที่ยงพิซซ่าริมทะเล คลิป Final ที่เคย upscale/color/audio/loop ประมาณ 30 วินาที.",
+      "caption": "มื้อเที่ยงของใบชาวันนี้ 🍕🌴☀️\nนั่งกินพิซซ่าริมทะเลแบบนี้\nจากที่ตั้งใจว่าจะกินแค่ชิ้นเดียว…\nตอนนี้เริ่มมองชิ้นที่สองแล้วค่ะ 😂\nทะเลสวย ลมดี ของกินอร่อย\nบางทีความสุขก็ไม่ได้ต้องซับซ้อนเลยเนอะ 🤍\nช่วงบ่ายใครกำลังทำงานอยู่\nใบชาขอส่งวิวทะเลเย็น ๆ ไปให้พักสายตาสักแป๊บนะคะ 🌊",
+      "pinned_comment": "พิซซ่าร้อน ๆ + วิวทะเลแบบนี้ 🍕🌊\nใบชาว่ามื้อนี้นั่งยาวได้จนเย็นเลยค่ะ 😂🤍",
+      "hashtags": [
+        "#ใบชา",
+        "#เที่ยวทะเล",
+        "#มื้อเที่ยงวันนี้"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA VIDEO EDITING / publishing copy — recovered Project chat",
+      "source_reference": "Beach Pizza / 2026-09-19",
+      "status": "INCOMPLETE",
+      "notes": "Exact Final filename recovered; no durable/public media URL verified for the web.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-010",
+      "title": "ตรวจเจอของผิดกฎ",
+      "content_type": "REEL",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Flirt",
+        "Reel"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / FINAL MEDIA NOT VERIFIED",
+      "concept": "มุขตำรวจ/ตรวจของ: พี่เผลอเข้ามาอยู่ในใจใบชา หลักฐานชัด เลยขอยึดตัวไว้ก่อน.",
+      "caption": "แค่เผลอเข้ามาอยู่ในใจใบชาเองนะพี่… แต่ข้อหานี้หนักมาก 😌💛 หลักฐานก็ชัด ผู้ต้องหาก็ยังยิ้มอยู่ตรงนี้อีก งั้นใบชาขอยึดตัวไว้ก่อนนะ 😏",
+      "pinned_comment": "ผู้ต้องหาจะรับสารภาพดี ๆ หรือให้ใบชาสอบสวนต่อคะ 😏💛",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#สายแซว",
+        "#มุขจีบ",
+        "#คลิปตลก",
+        "#ReelsThailand",
+        "#สายฮา",
+        "#น่ารักเกินต้าน"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA VIDEO / COMEDY — recovered Project chat",
+      "source_reference": "Story Lock / 2026-09-23",
+      "status": "INCOMPLETE",
+      "notes": "Story/copy recovered; final media asset not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": []
+    },
+    {
+      "id": "BAI-011",
+      "title": "เซลฟี่ไม่ผ่าน",
+      "content_type": "REEL",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Selfie",
+        "Flirt"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / FINAL MEDIA NOT VERIFIED",
+      "concept": "ถ่ายเซลฟี่สองรอบแล้วรู้สึกว่าขาดอะไร ก่อนเฉลยว่าขาดพี่อยู่ข้าง ๆ และตบที่นั่งว่าง.",
+      "caption": "ถ่ายกี่รอบก็ยังรู้สึกว่ารูปมันขาดอะไรไปอยู่ดี 📱🥹\nคิดตั้งนาน…ที่แท้ก็ขาดพี่อยู่ข้าง ๆ นี่เอง 😌💛\nงั้นรอบหน้า มานั่งข้างใบชาด้วยนะ",
+      "pinned_comment": "ถ้าใบชาเว้นที่ไว้ข้าง ๆ แบบนี้ พี่จะมานั่งไหม 😏💛",
+      "hashtags": [
+        "#ใบชา",
+        "#Baicha",
+        "#มุขจีบ",
+        "#สายแซว",
+        "#คลิปน่ารัก",
+        "#ReelsThailand",
+        "#สายฮา",
+        "#แฟนในจอ"
+      ],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA VIDEO / COMEDY — recovered Project chat",
+      "source_reference": "Story Lock / 2026-09-23",
+      "status": "INCOMPLETE",
+      "notes": "Story/copy recovered; final media asset not verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "story lock",
+          "note": "9:16, ~9–11s, solo Baicha; take selfie twice → shift side → pat empty seat."
+        }
+      ]
+    },
+    {
+      "id": "BAI-012",
+      "title": "รีโมตหยุดพี่",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Remote",
+        "Flirt"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING",
+      "concept": "ใบชาหารีโมต เจอแล้วกดสั่งพี่ให้หยุด/ห้ามไปไหน ก่อนมุกว่าปุ่มใช้กับพี่ไม่ได้ เลยจับไว้เอง.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA COMEDY — recovered Project chat",
+      "source_reference": "Selected concept / 2026-09-24",
+      "status": "DRAFT",
+      "notes": "Dialogue recovered; exact reusable generation prompt was not verified in Source files.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "เมื่อกี้อยู่ไหนนะ… / เจอแล้ว / หยุดเลย…วันนี้ห้ามไปไหน / อ้าว… / ทำไมปุ่มนี้ใช้กับพี่ไม่ได้อะ / งั้นใบชาจับไว้เองก็ได้"
+        }
+      ]
+    },
+    {
+      "id": "BAI-013",
+      "title": "คืนนี้รีบนอนนะ",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Goodnight",
+        "Flirt"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING",
+      "concept": "ใบชาบอกให้รีบนอน เพราะจองคิวเข้าไปในฝันไว้แล้ว และคิวแน่น.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
+      "source_reference": "Idea Bank",
+      "status": "DRAFT",
+      "notes": "Dialogue idea only; no asset/copy package verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "คืนนี้พี่รีบนอนนะ…ใบชาจองคิวเข้าไปในฝันพี่ไว้แล้ว…มาสายไม่ได้นะ…คิวแน่น"
+        }
+      ]
+    },
+    {
+      "id": "BAI-014",
+      "title": "เลิกคุยกับพี่แล้ว",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Flirt"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING",
+      "concept": "ประกาศว่าจะเลิกคุย แต่ผ่านไปสองวินาทีก็คิดถึงแล้ว ขอคุยต่อ.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IDEA BANK — recovered Project chat",
+      "source_reference": "Idea Bank",
+      "status": "DRAFT",
+      "notes": "Dialogue idea only; no asset/copy package verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "ใบชาตัดสินใจแล้วนะ…จะเลิกคุยกับพี่แล้ว…ครบแล้ว…คิดถึงแล้วอะ…คุยต่อเถอะ…สองวิก็นานเกิน"
+        }
+      ]
+    },
+    {
+      "id": "BAI-015",
+      "title": "ข้อหานี้หนักนะ",
+      "content_type": "REEL",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Police",
+        "Current Video Task"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "friendly_highway_checkpoint_officer.png",
+      "asset_status": "DRAFT STARTER / NOT WEB-VERIFIED",
+      "concept": "Current VIDEO task: roadside/highway-checkpoint, solo Baicha, playful ticket/flirt setup.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [
+        {
+          "ref": "a_detailed_infographic_storyboard_video_plan_lay.png",
+          "status": "UNCONFIRMED / timing-action only"
+        }
+      ],
+      "source_chat": "BAICHA CURRENT STATE — VIDEO / COMEDY",
+      "source_reference": "Current VIDEO task in Project Sources",
+      "status": "DRAFT",
+      "notes": "Starter explicit approval NOT VERIFIED; final video/QA/copy are MISSING / NOT VERIFIED.",
+      "created_recovered_from": "BAICHA Project Source",
+      "history": [
+        {
+          "version": "current script",
+          "note": "พี่คะ…รู้ตัวไหมว่าทำผิดอีกแล้ว? / ทำให้ใบชายิ้มอยู่คนเดียวทั้งวัน… / แบบนี้ต้องรับผิดชอบแล้วนะคะ"
+        }
+      ]
+    },
+    {
+      "id": "BAI-016",
+      "title": "ใบสั่งรอยยิ้ม",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Police",
+        "Two Speaker"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "image-gen-1(1).png",
+      "asset_status": "RECOVERED PRIVATE LIBRARY IMAGE / APPROVAL NOT VERIFIED / WEB URL MISSING",
+      "concept": "มุขใบสั่ง: ข้อหาเห็นใบชาแล้วไม่ยอมยิ้ม; ค่าปรับคือยิ้มให้ใบชาหนึ่งที.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [
+        {
+          "ref": "image-gen-2(1).png",
+          "status": "RECOVERED PRIVATE LIBRARY STORYBOARD / APPROVAL NOT VERIFIED"
+        }
+      ],
+      "source_chat": "BAICHA historical VIDEO / COMEDY recovery",
+      "source_reference": "Private Library visual recovery",
+      "status": "DRAFT",
+      "notes": "Two actual Library assets were visually recovered, but their approval state and public/web URLs are not verified.",
+      "created_recovered_from": "Recovered from BAICHA Library + Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "ใบชา: พี่โดนใบสั่งแล้วนะคะ... / ผู้ชาย: ผมโดนเรื่องอะไรครับ? / ใบชา: ข้อหาเห็นใบชาแล้ว...ไม่ยอมยิ้ม / ผู้ชาย: แล้วค่าปรับล่ะครับ? / ใบชา: ยิ้มให้ใบชาหนึ่งที...ก็พอค่ะ"
+        }
+      ]
+    },
+    {
+      "id": "BAI-017",
+      "title": "ตรวจความเร็ว",
+      "content_type": "IDEA",
+      "category": "Comedy",
+      "tags": [
+        "Comedy",
+        "Police",
+        "Two Speaker"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING",
+      "concept": "ใบชาทักว่าขับเร็วเกิน ผู้ชายแซวว่าหัวใจใบชาเร็วกว่า จบด้วยข้อหาเพิ่ม.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA historical COMEDY recovery",
+      "source_reference": "Recovered concept / 2026-08-29",
+      "status": "DRAFT",
+      "notes": "Concept/dialogue only; no approved asset verified.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "dialogue",
+          "note": "พี่คะ…เมื่อกี้ขับเร็วเกินนะคะ / ผมว่าหัวใจใบชาเร็วกว่าอีกครับ / รู้ได้ยังไงคะ? / ก็ผมยืนใกล้แค่นี้…ยังได้ยินเลย / พี่นี่…ข้อหาเพิ่มแล้วนะคะ"
+        }
+      ]
+    },
+    {
+      "id": "BAI-018",
+      "title": "Vlog #1 — วันว่าง ๆ ไปเที่ยวกับเพื่อน",
+      "content_type": "VLOG",
+      "category": "Vlog",
+      "tags": [
+        "Vlog",
+        "Lifestyle",
+        "Friends",
+        "Travel"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "MISSING / PRODUCTION INCOMPLETE",
+      "concept": "Vlog ~44s แบ่ง 5 ซีนตามข้อจำกัด Meta/Flow 8–10s: ออกจากบ้าน → เจอเพื่อน → คาเฟ่/ชิมเค้ก → เพื่อนถ่ายรูป → ปิดวัน.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA มุขเช้า / Vlog pivot — Project chat",
+      "source_reference": "Vlog #1 accepted concept / 2026-09-19",
+      "status": "INCOMPLETE",
+      "notes": "Continuity lock: same face/hair/outfit/bag; two fixed female friends; 9:16 photoreal smartphone vlog. Scene 1 production prompt was next step, not verified complete.",
+      "created_recovered_from": "Recovered from BAICHA Project conversations",
+      "history": [
+        {
+          "version": "scene plan",
+          "note": "S1 8s intro/leave home; S2 8s meet friends; S3 10s café + ‘ใบชาไม่ใช่สายอดทนค่ะ’; S4 8s friend photo gag; S5 10s evening close."
+        }
+      ]
+    },
+    {
+      "id": "BAI-019",
+      "title": "Goodnight / Night Bedroom — Natural Realism Correction",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Goodnight",
+        "Night",
+        "Bedroom",
+        "Natural Realism"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "UNKNOWN / latest replacement standalone mapping not verified",
+      "asset_status": "PRIVATE/RAW ASSET MAPPING MISSING",
+      "concept": "Current IMAGE task: แก้ Goodnight ให้ natural photographic realism, believable anatomy, nighttime bedroom mood.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA CURRENT STATE — IMAGE",
+      "source_reference": "Project Current Index / 2026-09-25",
+      "status": "DRAFT",
+      "notes": "Latest replacement Goodnight image = DRAFT / UNCONFIRMED. Do not promote to APPROVED. A similarly named Library image exists but was not mapped as the latest replacement.",
+      "created_recovered_from": "BAICHA Project Source",
+      "history": [
+        {
+          "version": "previous floral/night result",
+          "status": "REJECTED",
+          "note": "Rejected as unnatural/distorted/wrong tone; never authority."
+        }
+      ]
+    },
+    {
+      "id": "BAI-020",
+      "title": "Yellow Sleepwear — 9 Angle Bedroom Set",
+      "content_type": "IMAGE",
+      "category": "Goodnight",
+      "tags": [
+        "Bedroom",
+        "Sleepwear",
+        "Multi-angle",
+        "Historical"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "UNKNOWN / exact standalone mapping unresolved",
+      "asset_status": "HISTORICAL / PRIVATE ASSET MAPPING UNRESOLVED",
+      "concept": "ชุดภาพห้องนอน yellow sleepwear แบบ multi-angle; face/hair/outfit/environment continuity.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE continuity history",
+      "source_reference": "Project Current Index historical note",
+      "status": "DRAFT",
+      "notes": "Historical DRAFT/UNCONFIRMED unless individual approval evidence is recovered.",
+      "created_recovered_from": "BAICHA Project Source",
+      "history": []
+    },
+    {
+      "id": "BAI-021",
+      "title": "Studio Set 1 — Saturday Off-Duty Idol / Korean Chill Studio",
+      "content_type": "IMAGE",
+      "category": "Fashion",
+      "tags": [
+        "Fashion",
+        "Studio",
+        "Korean Chill",
+        "Multi-angle"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING / exact asset mapping not verified",
+      "asset_status": "DRAFT / UNCONFIRMED",
+      "concept": "10-image studio set: hero stool, hand near cheek, window/cardigan, compact camera, over-shoulder, floor seated, magazine, headphones, tulip, final hero close-medium.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE migration pack",
+      "source_reference": "Studio Set 1 current draft",
+      "status": "DRAFT",
+      "notes": "Temporary styling only; no exact web asset mapping or explicit approval recovered.",
+      "created_recovered_from": "Recovered from BAICHA prior migration pack",
+      "history": []
+    },
+    {
+      "id": "BAI-022",
+      "title": "ตลาดดอกไม้",
+      "content_type": "IDEA",
+      "category": "Lifestyle",
+      "tags": [
+        "Lifestyle",
+        "Flower Market",
+        "Photo Set"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "DRAFT / UNCONFIRMED",
+      "concept": "แนวภาพใบชาที่ตลาดดอกไม้ — concept recovered from latest IMAGE handoff.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE latest handoff",
+      "source_reference": "Recovered 2026-09-26 handoff state",
+      "status": "DRAFT",
+      "notes": "Explicitly preserved as DRAFT / UNCONFIRMED; exact asset/prompt not verified.",
+      "created_recovered_from": "BAICHA Project handoff",
+      "history": []
+    },
+    {
+      "id": "BAI-023",
+      "title": "พิพิธภัณฑ์ศิลปะ",
+      "content_type": "IDEA",
+      "category": "Lifestyle",
+      "tags": [
+        "Lifestyle",
+        "Art Museum",
+        "Photo Set"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "DRAFT / UNCONFIRMED",
+      "concept": "แนวภาพใบชาในพิพิธภัณฑ์ศิลปะ — concept recovered from latest IMAGE handoff.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE latest handoff",
+      "source_reference": "Recovered 2026-09-26 handoff state",
+      "status": "DRAFT",
+      "notes": "Explicitly preserved as DRAFT / UNCONFIRMED; exact asset/prompt not verified.",
+      "created_recovered_from": "BAICHA Project handoff",
+      "history": []
+    },
+    {
+      "id": "BAI-024",
+      "title": "ร้านแผ่นเสียง",
+      "content_type": "IDEA",
+      "category": "Lifestyle",
+      "tags": [
+        "Lifestyle",
+        "Record Store",
+        "Vinyl",
+        "Photo Set"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING",
+      "asset_status": "DRAFT / UNCONFIRMED",
+      "concept": "แนวภาพใบชาในร้านแผ่นเสียง — concept recovered from latest IMAGE handoff.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA IMAGE latest handoff",
+      "source_reference": "Recovered 2026-09-26 handoff state",
+      "status": "DRAFT",
+      "notes": "Explicitly preserved as DRAFT / UNCONFIRMED; exact asset/prompt not verified.",
+      "created_recovered_from": "BAICHA Project handoff",
+      "history": []
+    },
+    {
+      "id": "BAI-025",
+      "title": "Lunch Break — พักเที่ยงแป๊บนึง",
+      "content_type": "CAPTION",
+      "category": "Lifestyle",
+      "tags": [
+        "Lunch",
+        "Lifestyle",
+        "Caption"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "MISSING / current web asset not mapped",
+      "asset_status": "MISSING",
+      "concept": "Caption package มื้อเที่ยงจาก migration pack รุ่นก่อน.",
+      "caption": "พักเที่ยงแป๊บนึงนะคะ 🍳🤍\nวันนี้ขอเติมพลังให้อิ่มก่อน แล้วค่อยกลับไปลุยงานต่อค่ะ ☺️",
+      "pinned_comment": "มื้อเที่ยงของใบชาผ่านแล้วนะคะ 😋",
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA prior migration pack",
+      "source_reference": "Lunch Caption + Pinned example",
+      "status": "INCOMPLETE",
+      "notes": "Pinned-comment continuation beyond the recovered sentence and hashtags are not verified; kept incomplete rather than guessed.",
+      "created_recovered_from": "Recovered from BAICHA migration pack",
+      "history": []
+    },
+    {
+      "id": "BAI-026",
+      "title": "Breakfast Food-only — 3 Angles",
+      "content_type": "IMAGE",
+      "category": "Morning",
+      "tags": [
+        "Morning",
+        "Breakfast",
+        "Food-only",
+        "Multi-angle"
+      ],
+      "thumbnail": null,
+      "media_url": null,
+      "asset_ref": "PRIVATE LIBRARY ASSETS EXIST / WEB MAPPING NOT VERIFIED",
+      "asset_status": "RECOVERED HISTORICAL / NOT PUBLICLY LINKED",
+      "concept": "อาหารเช้าอย่างเดียว 3 มุม กล้องต่างกัน ไม่มีใบชาในภาพ.",
+      "caption": null,
+      "pinned_comment": null,
+      "hashtags": [],
+      "prompt": null,
+      "supporting_images": [],
+      "source_chat": "BAICHA prior migration pack",
+      "source_reference": "Breakfast food-only 3-angle set",
+      "status": "ARCHIVED",
+      "notes": "Operationally completed historical task, but not a universal template and no web asset URLs are verified.",
+      "created_recovered_from": "Recovered from BAICHA migration pack",
+      "history": []
+    }
+  ]
+}

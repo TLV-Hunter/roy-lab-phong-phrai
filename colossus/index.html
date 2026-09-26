@@ -4,27 +4,6 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#05090e"><title>RLS AI Studio Content Desk</title>
 <style>
 :root{--b:#05090e;--p:#09131c;--p2:#061018;--l:#173142;--c:#58d9ff;--t:#e9faff;--m:#7894a6;--g:#76efa2;--a:#ffd477;--r:#ff9aa8}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#0e2b3b,#05090e 42%);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}button,input,select,textarea,a{font:inherit}button{cursor:pointer}.top,.wrap{max-width:1760px;margin:auto}.top{padding:12px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:10px}.brand a{color:#dff8ff;text-decoration:none;font-weight:900}.brand small{display:block;color:var(--m);font-size:10px}.controls,.toolbar,.navrow{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.btn,.controls select,.toolbar select{background:#07131c;color:#dff8ff;border:1px solid #28506a;border-radius:9px;padding:8px 10px;font-weight:800;text-decoration:none}.btn.on{background:#0b4058;color:#fff}.controls select{min-width:195px}.wrap{padding:14px}.view{display:none}.view.on{display:block}.panel,.mode,.episode,.slot{background:linear-gradient(#0a121b,#071019);border:1px solid var(--l);border-radius:14px}.mode,.panel{padding:11px 13px;margin-bottom:12px}.mode b{font-size:14px}.mode small{display:block;color:var(--a);margin-top:3px}.toolbar select{min-width:470px;max-width:100%}.statusline{color:#bff2ff;font-size:11px;margin-top:8px}.search{width:100%;background:#071019;border:1px solid #203a4b;color:#fff;padding:11px;border-radius:10px;margin:10px 0}.episodes{display:grid;gap:14px}.episode{overflow:hidden}.ephead{padding:12px 14px;border-bottom:1px solid var(--l);display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.ephead h2{margin:0;font-size:19px}.date{color:var(--c);font-size:11px;margin-top:3px}.badges{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.pill{display:inline-block;border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;white-space:nowrap}.g{color:var(--g)}.a{color:var(--a)}.r{color:var(--r)}.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:12px}.slot{overflow:hidden;min-width:0}.slothead{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:9px 10px;border-bottom:1px solid var(--l);background:#07131b}.slothead b{font-size:13px}.viewer{height:68vh;min-height:560px;max-height:900px;background:#020609;display:flex;align-items:center;justify-content:center;position:relative}.viewer iframe,.viewer video,.viewer img.assetimg{width:100%;height:100%;border:0;background:#020609}.viewer video,.viewer img.assetimg{object-fit:contain}.viewer img.assetimg{display:block;user-select:auto;-webkit-user-drag:auto}.waiting{padding:28px;text-align:center;color:#6f8da0;line-height:1.7}.waiting b{display:block;color:var(--a);font-size:16px;margin-bottom:8px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:8px}.actions.imageactions{grid-template-columns:repeat(3,1fr)}.actions a,.actions button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:8px;text-align:center;text-decoration:none;font-size:10px;font-weight:800}.copybox{padding:0 8px 8px}.copyhead{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:8px 0 5px}.copyhead button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:5px 8px;font-size:10px;font-weight:800}.text{white-space:pre-wrap;background:#061018;border:1px solid #1c3545;padding:10px;border-radius:9px;line-height:1.48;font-size:12px;min-height:64px}.pending{padding:10px;border:1px dashed #5a4d20;background:#171408;color:#ffe49a;border-radius:9px;font-size:11px}.all .viewer{height:430px;min-height:430px}.all .three{grid-template-columns:repeat(3,minmax(0,1fr))}table{width:100%;border-collapse:collapse;min-width:980px}th,td{padding:9px;border-bottom:1px solid var(--l);text-align:left;font-size:11px}.tablewrap{overflow:auto}.batchgrid,.metricgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.batchcard,.metric{background:#071019;border:1px solid var(--l);border-radius:11px;padding:11px}.metric input,.metric textarea{width:100%;margin-top:6px;background:#050d13;color:white;border:1px solid #23475b;border-radius:7px;padding:7px}.metric textarea{min-height:80px}.strategygrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.kv{border-bottom:1px solid #173142;padding:8px 0}.kv b{color:#bfefff}.hint{font-size:11px;color:var(--a);margin-top:8px}@media(max-width:1350px){.three,.all .three{grid-template-columns:1fr 1fr}.slot.reelslot{grid-column:1/3}.viewer{height:64vh;min-height:520px}}@media(max-width:850px){.three,.all .three{grid-template-columns:1fr}.slot.reelslot{grid-column:auto}.viewer,.all .viewer{height:68vh;min-height:430px}.toolbar select{min-width:0;width:100%}.toolbar .btn{flex:1}.batchgrid,.metricgrid,.strategygrid{grid-template-columns:1fr}.ephead{flex-direction:column}.badges{justify-content:flex-start}.controls{width:100%}.controls .btn,.controls select{flex:1}.actions.imageactions{grid-template-columns:1fr}}
-
-/* BAICHA Content Library — extension of existing Content Desk */
-body.baicha-mode{background:radial-gradient(circle at 82% 0,#2b1722,#05090e 44%)}
-body.baicha-mode .mode{border-color:#5b3048;background:linear-gradient(#171018,#0d0a10)}
-.baicha-shell{display:grid;gap:12px}
-.baicha-hero{display:flex;justify-content:space-between;gap:14px;align-items:flex-end;flex-wrap:wrap;padding:14px;border:1px solid #5b3048;border-radius:14px;background:linear-gradient(135deg,#191018,#0b1017)}
-.baicha-hero h2{margin:0 0 4px;font-size:22px}.baicha-hero p{margin:0;color:#d7adbf;font-size:12px}
-.baicha-summary{display:flex;gap:8px;flex-wrap:wrap}.baicha-summary span{border:1px solid #67405a;border-radius:999px;padding:6px 9px;font-size:10px;font-weight:900;color:#ffd8e8}
-.baicha-filterbar{padding:11px;border:1px solid var(--l);border-radius:14px;background:#071019}
-.baicha-tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:9px}.baicha-tab{border:1px solid #5b3a50;background:#130b11;color:#f6dce7;border-radius:999px;padding:7px 10px;font-weight:900;font-size:11px}.baicha-tab.on{background:#5a2440;color:#fff}
-.baicha-filterrow{display:grid;grid-template-columns:minmax(180px,1fr) repeat(3,minmax(135px,220px));gap:8px}.baicha-filterrow input,.baicha-filterrow select{width:100%;background:#071019;border:1px solid #294151;color:#fff;padding:9px;border-radius:9px}
-.baicha-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.baicha-card{background:linear-gradient(#0b1219,#071019);border:1px solid #283c49;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
-.baicha-thumb{height:280px;background:#020609;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.baicha-thumb img,.baicha-thumb video{width:100%;height:100%;object-fit:cover}.baicha-missing{text-align:center;color:#7994a5;font-size:11px;line-height:1.6;padding:22px}.baicha-missing b{display:block;color:#ffc9dc;font-size:15px}
-.baicha-body{padding:12px;display:grid;gap:8px;flex:1}.baicha-body h3{font-size:16px;margin:0}.baicha-meta{display:flex;gap:6px;flex-wrap:wrap}.baicha-meta .pill{font-size:9px}.baicha-preview{color:#c9d9e2;font-size:11px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;min-height:34px}.baicha-asset-note{font-size:10px;color:#8fa4b1}
-.baicha-actions{display:flex;gap:6px;flex-wrap:wrap}.baicha-actions button,.baicha-actions a{border:1px solid #345a70;background:#0a2634;color:#e6f7ff;border-radius:7px;padding:7px 8px;font-size:9px;font-weight:900;text-decoration:none}.baicha-actions .pink{border-color:#78435e;background:#351525;color:#ffe4ef}.baicha-actions .ready{border-color:#39774f;background:#123321;color:#bfffd1}
-.baicha-empty{padding:34px;text-align:center;border:1px dashed #405766;border-radius:14px;color:#819aaa}
-.baicha-overlay{position:fixed;inset:0;background:rgba(0,0,0,.74);z-index:9999;display:flex;align-items:center;justify-content:center;padding:18px}.baicha-modal{width:min(860px,100%);max-height:92vh;overflow:auto;background:#071019;border:1px solid #5b3a50;border-radius:16px;padding:16px;box-shadow:0 20px 80px #000}.baicha-modal h2{margin:0 0 5px}.baicha-modal .close{float:right}.baicha-detail{display:grid;gap:10px}.baicha-detail pre{white-space:pre-wrap;word-break:break-word;background:#040b10;border:1px solid #213744;padding:10px;border-radius:9px;color:#dceef7}.baicha-editgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.baicha-editgrid .wide{grid-column:1/3}.baicha-editgrid label{display:grid;gap:4px;font-size:10px;color:#9bb0bd}.baicha-editgrid input,.baicha-editgrid select,.baicha-editgrid textarea{width:100%;background:#050d13;color:#fff;border:1px solid #29495b;border-radius:8px;padding:8px}.baicha-editgrid textarea{min-height:92px}
-@media(max-width:1100px){.baicha-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.baicha-filterrow{grid-template-columns:1fr 1fr}}
-@media(max-width:700px){.baicha-grid{grid-template-columns:1fr}.baicha-filterrow{grid-template-columns:1fr}.baicha-thumb{height:330px}.baicha-editgrid{grid-template-columns:1fr}.baicha-editgrid .wide{grid-column:auto}}
-
 </style>
 </head>
 <body>
@@ -40,7 +19,7 @@ body.baicha-mode .mode{border-color:#5b3048;background:linear-gradient(#171018,#
 </main>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-let C={},R={},B={},A={records:[]},S={entries:[]},Q={entries:[]},CS={entries:[]},CR={entries:[]},URLCAM=new URLSearchParams(location.search).get('campaign'),CAM=['colossus','rls','bruno','baicha'].includes(URLCAM)?URLCAM:(localStorage.getItem('rls_desk_campaign')||'rls'),MODE='single',BAITAB='all';
+let C={},R={},B={},S={entries:[]},Q={entries:[]},CS={entries:[]},CR={entries:[]},URLCAM=new URLSearchParams(location.search).get('campaign'),CAM=['colossus','rls','bruno'].includes(URLCAM)?URLCAM:(localStorage.getItem('rls_desk_campaign')||'rls'),MODE='single';
 function pass(v){return /pass|locked|published|scheduled/i.test(String(v||''))}
 function cls(v){v=String(v||'').toLowerCase();return /pass|ready|locked|published/.test(v)?'g':/pending|planned|waiting|scheduled|next/.test(v)?'a':'r'}
 function driveId(u){return(String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
@@ -69,9 +48,9 @@ function colossusMonthSummary(){
   const next=ids.find(id=>!isClosed(em[id]?.reel?.status))||'—';
   return{reelThrough:maxId(rp),stillThrough:maxId(sp),next,finalMissing,linkMissing,pendingReels:ids.filter(id=>!isClosed(em[id]?.reel?.status)),pendingStills:ids.filter(id=>!isClosed(em[id]?.still?.status))}
 }
-function source(){return CAM==='rls'?R:CAM==='bruno'?B:CAM==='baicha'?A:C}
+function source(){return CAM==='rls'?R:CAM==='bruno'?B:C}
 function eps(){let a=(source().episodes||[]).slice();if(CAM==='bruno'){return a.sort((x,y)=>{let nx=parseInt(String(x.id||'').replace(/\D/g,''))||9999,ny=parseInt(String(y.id||'').replace(/\D/g,''))||9999;return nx-ny})}return a.sort((x,y)=>String(x.date||'').localeCompare(String(y.date||'')))}
-function syncPublisher(){let a=$('publisherLink');if(!a)return;if(CAM==='baicha'){a.style.display='none';return}a.style.display='';a.href=CAM==='rls'?'./rls-daily-queue.html':CAM==='bruno'?'../publisher.html?brand=bruno':'./plan.html'}
+function syncPublisher(){let a=$('publisherLink');if(!a)return;a.href=CAM==='rls'?'./rls-daily-queue.html':CAM==='bruno'?'../publisher.html?brand=bruno':'./plan.html'}
 function brunoImported(id){return(B.imported_clips||[]).find(x=>x.id===id)||{}}
 function copyBlock(title,text,qa,key){if(!pass(qa))return `<div class="copybox"><div class="copyhead"><b>${title}</b><span class="pill a">COPY QA PENDING</span></div><div class="pending">ซ่อนข้อความไว้จนกว่า COPY QA จะ PASS</div></div>`;return `<div class="copybox"><div class="copyhead"><b>${title}</b><button onclick="copyText('${key}')">COPY</button></div><div class="text" id="${key}">${esc(text||'')}</div></div>`}
 window.copyText=async id=>{let t=$(id)?.innerText||'';try{await navigator.clipboard.writeText(t)}catch{prompt('Copy:',t)}};
@@ -131,145 +110,9 @@ function renderStrategy(){
   $('strategyView').innerHTML=CAM==='rls'?`<div class="batchcard"><b>RLS CURRENT DIRECTION</b><div class="kv"><b>Core</b><span>Evidence Before Explanation</span></div><div class="kv"><b>Mix</b><span>Evidence Mystery 45% • Creature 30% • Uncanny 25%</span></div><div class="kv"><b>Audience</b><span>International-first • Public copy English</span></div></div><div class="batchcard"><b>PRODUCTION LOCKS</b><div class="kv"><b>Still</b><span>24/24 QA PASS</span></div><div class="kv"><b>Starter</b><span>24/24 QA PASS</span></div><div class="kv"><b>Prompt</b><span>24/24 QA PASS</span></div><div class="kv"><b>Final Reels</b><span>Generate + QA + upload next</span></div></div>`:`<div class="batchcard"><b>COLOSSUS SIGNAL</b><div class="kv"><b>Core</b><span>Awe Before Fear • Scale Before Exposition</span></div><div class="kv"><b>Audience</b><span>Global / foreign-market first</span></div><div class="kv"><b>Workflow</b><span>Master Still → Starter → Prompt → Final Reel → Publish</span></div></div><div class="batchcard"><b>CURRENT PRODUCTION</b><div class="kv"><b>CS-005</b><span>${esc(colReelEntry('CS-005').status||'—')}</span></div><div class="kv"><b>CS-006</b><span>${esc(colReelEntry('CS-006').status||'—')}</span></div></div>`
 }
 function renderPerformance(){let a=eps();$('performanceView').innerHTML=`<div class="metricgrid"><div class="metric"><small>EPISODE</small><select id="perfEp" style="width:100%;margin-top:6px;background:#050d13;color:white;border:1px solid #23475b;border-radius:7px;padding:7px">${a.map(e=>`<option>${esc(e.id)}</option>`).join('')}</select></div><div class="metric"><small>VIEWS</small><input id="pv" type="number"></div><div class="metric"><small>SHARES</small><input id="ps" type="number"></div><div class="metric"><small>FOLLOWS</small><input id="pf" type="number"></div><div class="metric"><small>AVG WATCH / SEC</small><input id="pw" type="number" step="0.1"></div><div class="metric"><small>NOTES</small><textarea id="pn"></textarea></div></div><div class="navrow" style="margin-top:10px"><button class="btn" id="savePerf">SAVE LOCAL</button></div>`;let load=()=>{let k=`perf_${CAM}_${$('perfEp').value}`,d=JSON.parse(localStorage.getItem(k)||'{}');$('pv').value=d.v||'';$('ps').value=d.s||'';$('pf').value=d.f||'';$('pw').value=d.w||'';$('pn').value=d.n||''};$('perfEp').onchange=load;$('savePerf').onclick=()=>{let k=`perf_${CAM}_${$('perfEp').value}`;localStorage.setItem(k,JSON.stringify({v:$('pv').value,s:$('ps').value,f:$('pf').value,w:$('pw').value,n:$('pn').value}));alert('Saved')};load()}
-
-const BAICHA_OVERRIDE_KEY='baicha_content_overrides_v1';
-const BAICHA_LOCAL_RECORDS_KEY='baicha_content_local_records_v1';
-const BAICHA_STATUSES=['READY TO POST','APPROVED','DRAFT','INCOMPLETE','NEEDS IMAGE','NEEDS CAPTION','REJECTED','ARCHIVED'];
-function baichaOverrides(){try{return JSON.parse(localStorage.getItem(BAICHA_OVERRIDE_KEY)||'{}')}catch{return{}}}
-function baichaSaveOverrides(v){localStorage.setItem(BAICHA_OVERRIDE_KEY,JSON.stringify(v))}
-function baichaLocalRecords(){try{let a=JSON.parse(localStorage.getItem(BAICHA_LOCAL_RECORDS_KEY)||'[]');return Array.isArray(a)?a:[]}catch{return[]}}
-function baichaSaveLocalRecords(v){localStorage.setItem(BAICHA_LOCAL_RECORDS_KEY,JSON.stringify(v))}
-function baichaRecords(){let o=baichaOverrides(),base=[...(A.records||[]),...baichaLocalRecords()];return base.map(r=>({...r,...(o[r.id]||{}),id:r.id,history:r.history||[],supporting_images:r.supporting_images||[]}))}
-function baichaHasAsset(r){return !!String(r.media_url||r.thumbnail||'').trim()}
-function baichaHasCopy(r){return !!String(r.caption||'').trim()&&Array.isArray(r.hashtags)&&r.hashtags.length>0&&!!String(r.pinned_comment||'').trim()}
-function baichaComplete(r){return baichaHasAsset(r)&&baichaHasCopy(r)}
-function baichaReady(r){return baichaComplete(r)&&['READY TO POST','APPROVED'].includes(String(r.status||''))}
-function baichaStatusCls(v){v=String(v||'').toUpperCase();return /READY TO POST|APPROVED/.test(v)?'g':/DRAFT|INCOMPLETE|NEEDS/.test(v)?'a':'r'}
-function baichaCopyText(text,label='COPIED'){navigator.clipboard?.writeText(text).then(()=>{}).catch(()=>prompt('Copy:',text));return text}
-function baichaHashText(r){return (r.hashtags||[]).join(' ')}
-function baichaCopy(id,kind){
-  let r=baichaRecords().find(x=>x.id===id);if(!r)return;
-  let t='';
-  if(kind==='caption')t=r.caption||'';
-  if(kind==='pinned')t=r.pinned_comment||'';
-  if(kind==='hashtags')t=baichaHashText(r);
-  if(kind==='prompt')t=r.prompt||'';
-  if(kind==='all')t='[CAPTION]\n\n'+(r.caption||'')+'\n\n'+baichaHashText(r)+'\n\n[PINNED COMMENT]\n\n'+(r.pinned_comment||'');
-  if(t)baichaCopyText(t);
-}
-function baichaOpenMedia(id){let r=baichaRecords().find(x=>x.id===id);if(r?.media_url)window.open(r.media_url,'_blank','noopener')}
-function baichaMedia(r){
-  let u=r.thumbnail||r.media_url||'';
-  if(!u)return '<div class="baicha-missing"><b>THUMBNAIL MISSING</b>Asset ยังไม่มี URL ที่ยืนยันได้สำหรับเว็บ<br>'+esc(r.asset_status||'MISSING')+'</div>';
-  if(/\.(mp4|webm|mov)(\?|$)/i.test(u))return '<video src="'+esc(u)+'" muted controls preload="metadata"></video>';
-  let src=driveId(u)?driveImg(u):u,alt=driveId(u)?driveImgAlt(u):'';
-  return '<img src="'+esc(src)+'" '+(alt?'data-alt="'+esc(alt)+'" onerror="imageFallback(this)"':'')+' alt="'+esc(r.title||r.id)+'" loading="lazy">';
-}
-function baichaBtn(r,label,fn,klass=''){return '<button class="'+klass+'" onclick="'+fn+'">'+label+'</button>'}
-function baichaCard(r){
-  let act=[];
-  act.push(baichaBtn(r,'ดูรายละเอียด',"baichaDetails('"+r.id+"')",'pink'));
-  if(r.media_url)act.push(baichaBtn(r,'ดูรูป',"baichaOpenMedia('"+r.id+"')"));
-  if(r.caption)act.push(baichaBtn(r,'COPY CAPTION',"baichaCopy('"+r.id+"','caption')"));
-  if(r.pinned_comment)act.push(baichaBtn(r,'COPY PINNED COMMENT',"baichaCopy('"+r.id+"','pinned')"));
-  if((r.hashtags||[]).length)act.push(baichaBtn(r,'COPY HASHTAGS',"baichaCopy('"+r.id+"','hashtags')"));
-  if(baichaHasCopy(r))act.push(baichaBtn(r,'COPY ALL',"baichaCopy('"+r.id+"','all')",'pink'));
-  if(r.prompt)act.push(baichaBtn(r,'COPY PROMPT',"baichaCopy('"+r.id+"','prompt')"));
-  act.push(baichaBtn(r,'EDIT',"baichaEdit('"+r.id+"')"));
-  if(baichaComplete(r)&&!baichaReady(r)&&!['REJECTED','ARCHIVED'].includes(r.status))act.push(baichaBtn(r,'MARK READY',"baichaMarkReady('"+r.id+"')",'ready'));
-  let prev=r.caption||r.concept||r.notes||'';
-  return '<article class="baicha-card"><div class="baicha-thumb">'+baichaMedia(r)+'</div><div class="baicha-body"><div class="baicha-meta"><span class="pill">'+esc(r.content_type||'UNKNOWN')+'</span><span class="pill">'+esc(r.category||'UNKNOWN')+'</span><span class="pill '+baichaStatusCls(r.status)+'">'+esc(r.status||'UNKNOWN')+'</span></div><h3>'+esc(r.title||r.id)+'</h3><div class="baicha-preview">'+esc(prev)+'</div><div class="baicha-asset-note">ASSET: '+esc(r.asset_status||'UNKNOWN')+'</div><div class="baicha-actions">'+act.join('')+'</div></div></article>';
-}
-function baichaFiltered(){
-  let a=baichaRecords(),q=String($('baichaSearch')?.value||'').trim().toLowerCase(),ty=$('baichaType')?.value||'',st=$('baichaStatus')?.value||'',cat=$('baichaCategory')?.value||'';
-  a=a.filter(r=>{
-    if(BAITAB==='idea'&&!(r.content_type==='IDEA'||r.category==='Comedy'))return false;
-    if(BAITAB==='image'&&r.content_type!=='IMAGE')return false;
-    if(BAITAB==='caption'&&!r.caption)return false;
-    if(BAITAB==='ready'&&!baichaReady(r))return false;
-    if(BAITAB==='draft'&&!['DRAFT','INCOMPLETE','NEEDS IMAGE','NEEDS CAPTION'].includes(r.status))return false;
-    if(ty&&r.content_type!==ty)return false;if(st&&r.status!==st)return false;if(cat&&r.category!==cat)return false;
-    if(q){let hay=[r.id,r.title,r.content_type,r.category,r.concept,r.caption,r.pinned_comment,r.notes,(r.tags||[]).join(' '),(r.hashtags||[]).join(' ')].join(' ').toLowerCase();if(!hay.includes(q))return false}
-    return true
-  });
-  return a
-}
-function baichaDraw(){
-  let a=baichaFiltered(),g=$('baichaGrid'),count=$('baichaCount');if(count)count.textContent=a.length+' รายการ';
-  if(g)g.innerHTML=a.length?a.map(baichaCard).join(''):'<div class="baicha-empty">ไม่พบรายการตาม Search / Filter นี้</div>'
-}
-function baichaSetTab(t){BAITAB=t;document.querySelectorAll('.baicha-tab').forEach(b=>b.classList.toggle('on',b.dataset.bt===t));baichaDraw()}
-function baichaChrome(){
-  let on=CAM==='baicha';document.body.classList.toggle('baicha-mode',on);
-  document.querySelectorAll('[data-view]').forEach(b=>b.style.display=on&&b.dataset.view!=='desk'?'none':'');
-  if(on){
-    document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('on',x.dataset.view==='desk'));
-    document.querySelectorAll('.view').forEach(v=>v.classList.toggle('on',v.id==='desk'));
-  }
-}
-function renderBaichaDesk(){
-  $('brandName').textContent=A.brand||'ใบชา — BAICHA';
-  $('modeText').textContent=A.mode||'CONTENT LIBRARY • READY-TO-POST ARCHIVE • NO SCHEDULING';
-  let all=baichaRecords(),cats=[...new Set(all.map(x=>x.category).filter(Boolean))].sort(),types=[...new Set(all.map(x=>x.content_type).filter(Boolean))].sort(),sts=[...new Set(all.map(x=>x.status).filter(Boolean))].sort();
-  let ready=all.filter(baichaReady).length,withAsset=all.filter(r=>r.asset_ref&&r.asset_ref!=='MISSING'&&!String(r.asset_ref).startsWith('UNKNOWN')).length;
-  $('deskToolbar').innerHTML='<div class="baicha-shell"><div class="baicha-hero"><div><h2>ใบชา — BAICHA CONTENT LIBRARY</h2><p>คลังคอนเทนต์ + Ready-to-Post Archive • ไม่มี Calendar / Date / Posting Time</p></div><div><div class="baicha-summary"><span>'+all.length+' RECORDS</span><span>'+withAsset+' ASSET REF</span><span>'+ready+' READY TO POST</span><span id="baichaCount">'+all.length+' รายการ</span></div><div class="navrow" style="margin-top:8px;justify-content:flex-end"><button class="btn" onclick="baichaNew()">+ ADD CONTENT</button></div></div></div><div class="baicha-filterbar"><div class="baicha-tabs"><button class="baicha-tab on" data-bt="all" onclick="baichaSetTab(\'all\')">ALL</button><button class="baicha-tab" data-bt="idea" onclick="baichaSetTab(\'idea\')">มุข / IDEA</button><button class="baicha-tab" data-bt="image" onclick="baichaSetTab(\'image\')">ภาพนิ่ง</button><button class="baicha-tab" data-bt="caption" onclick="baichaSetTab(\'caption\')">แคปชั่น</button><button class="baicha-tab" data-bt="ready" onclick="baichaSetTab(\'ready\')">READY TO POST</button><button class="baicha-tab" data-bt="draft" onclick="baichaSetTab(\'draft\')">DRAFT / INCOMPLETE</button></div><div class="baicha-filterrow"><input id="baichaSearch" placeholder="ค้นชื่อ / caption / มุข / category / tag"><select id="baichaType"><option value="">CONTENT TYPE — ALL</option>'+types.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaStatus"><option value="">STATUS — ALL</option>'+sts.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select><select id="baichaCategory"><option value="">CATEGORY — ALL</option>'+cats.map(v=>'<option>'+esc(v)+'</option>').join('')+'</select></div></div></div>';
-  $('deskList').className='baicha-grid';$('deskList').innerHTML='';
-  $('baichaSearch').oninput=baichaDraw;$('baichaType').onchange=baichaDraw;$('baichaStatus').onchange=baichaDraw;$('baichaCategory').onchange=baichaDraw;
-  BAITAB='all';baichaDraw()
-}
-function baichaOverlay(html){
-  document.getElementById('baichaOverlay')?.remove();
-  let d=document.createElement('div');d.id='baichaOverlay';d.className='baicha-overlay';d.innerHTML='<div class="baicha-modal"><button class="btn close" onclick="document.getElementById(\'baichaOverlay\').remove()">ปิด</button>'+html+'</div>';
-  d.addEventListener('click',e=>{if(e.target===d)d.remove()});document.body.appendChild(d)
-}
-function baichaDetails(id){
-  let r=baichaRecords().find(x=>x.id===id);if(!r)return;
-  let fields=[['ID',r.id],['TYPE / CATEGORY',(r.content_type||'')+' / '+(r.category||'')],['STATUS',r.status],['ASSET STATUS',r.asset_status],['ASSET REF',r.asset_ref],['SOURCE CHAT',r.source_chat],['SOURCE REFERENCE',r.source_reference],['CREATED / RECOVERED FROM',r.created_recovered_from],['CONCEPT / JOKE',r.concept],['CAPTION',r.caption],['PINNED COMMENT',r.pinned_comment],['HASHTAGS',baichaHashText(r)],['PROMPT',r.prompt],['NOTES',r.notes],['SUPPORTING IMAGES',(r.supporting_images||[]).length?JSON.stringify(r.supporting_images,null,2):'MISSING'],['HISTORY',(r.history||[]).length?JSON.stringify(r.history,null,2):'—']];
-  baichaOverlay('<h2>'+esc(r.title||r.id)+'</h2><div class="baicha-detail">'+fields.filter(x=>x[1]).map(x=>'<div><b>'+esc(x[0])+'</b><pre>'+esc(x[1])+'</pre></div>').join('')+'</div>')
-}
-function baichaNew(){
-  let id='BAI-LOCAL-'+Date.now(),r={id,title:'',content_type:'IDEA',category:'Lifestyle',tags:[],thumbnail:null,media_url:null,asset_ref:'MISSING',asset_status:'MISSING',concept:'',caption:null,pinned_comment:null,hashtags:[],prompt:null,supporting_images:[],source_chat:'Added in BAICHA Content Library',source_reference:'LOCAL USER ENTRY',status:'DRAFT',notes:'',created_recovered_from:'Added in website',history:[]};
-  let a=baichaLocalRecords();a.unshift(r);baichaSaveLocalRecords(a);baichaEdit(id)
-}
-function baichaEdit(id){
-  let r=baichaRecords().find(x=>x.id===id);if(!r)return;
-  let h='<h2>EDIT — '+esc(r.id)+'</h2><p class="hint">บันทึกเฉพาะ browser นี้ด้วย localStorage; Base migration ใน repo ไม่ถูกเดา/เปลี่ยนอัตโนมัติ</p><div class="baicha-editgrid">'+
-  '<label>Title<input id="beTitle" value="'+esc(r.title||'')+'"></label>'+
-  '<label>Category<input id="beCategory" value="'+esc(r.category||'')+'"></label>'+
-  '<label>Status<select id="beStatus">'+BAICHA_STATUSES.map(v=>'<option '+(v===r.status?'selected':'')+'>'+v+'</option>').join('')+'</select></label>'+
-  '<label>Content Type<input id="beType" value="'+esc(r.content_type||'')+'"></label>'+
-  '<label class="wide">Media URL / Thumbnail URL<input id="beMedia" value="'+esc(r.media_url||'')+'" placeholder="ใส่เฉพาะ URL asset จริง"></label>'+
-  '<label class="wide">Asset Ref<input id="beAsset" value="'+esc(r.asset_ref||'')+'"></label>'+
-  '<label class="wide">Caption<textarea id="beCaption">'+esc(r.caption||'')+'</textarea></label>'+
-  '<label class="wide">Pinned Comment<textarea id="bePinned">'+esc(r.pinned_comment||'')+'</textarea></label>'+
-  '<label class="wide">Hashtags — คั่นด้วยเว้นวรรค<textarea id="beHash">'+esc(baichaHashText(r))+'</textarea></label>'+
-  '<label class="wide">Prompt<textarea id="bePrompt">'+esc(r.prompt||'')+'</textarea></label>'+
-  '<label class="wide">Notes<textarea id="beNotes">'+esc(r.notes||'')+'</textarea></label></div><div class="navrow" style="margin-top:12px"><button class="btn on" onclick="baichaSaveEdit(\''+r.id+'\')">SAVE LOCAL</button><button class="btn" onclick="baichaResetEdit(\''+r.id+'\')">'+((A.records||[]).some(x=>x.id===r.id)?'RESET LOCAL OVERRIDE':'DELETE LOCAL RECORD')+'</button></div>';
-  baichaOverlay(h)
-}
-function baichaSaveEdit(id){
-  let o=baichaOverrides(),base=(A.records||[]).find(x=>x.id===id),locals=baichaLocalRecords(),local=locals.find(x=>x.id===id);
-  let hs=$('beHash').value.trim().split(/[\s,]+/).filter(Boolean).map(x=>x.startsWith('#')?x:'#'+x);
-  let patch={title:$('beTitle').value.trim()||id,category:$('beCategory').value.trim()||'UNKNOWN',status:$('beStatus').value,content_type:$('beType').value.trim()||'IDEA',media_url:$('beMedia').value.trim()||null,thumbnail:$('beMedia').value.trim()||null,asset_ref:$('beAsset').value.trim()||'MISSING',caption:$('beCaption').value.trim()||null,pinned_comment:$('bePinned').value.trim()||null,hashtags:hs,prompt:$('bePrompt').value.trim()||null,notes:$('beNotes').value.trim()};
-  if(patch.media_url&&!String((base||local)?.asset_status||'').includes('VERIFIED'))patch.asset_status='USER-LINKED / NEEDS SOURCE QA';
-  if(base){o[id]=patch;baichaSaveOverrides(o)}
-  else if(local){locals=locals.map(x=>x.id===id?{...x,...patch}:x);baichaSaveLocalRecords(locals)}
-  document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()
-}
-function baichaResetEdit(id){
-  let base=(A.records||[]).some(x=>x.id===id);
-  if(base){let o=baichaOverrides();delete o[id];baichaSaveOverrides(o)}
-  else{baichaSaveLocalRecords(baichaLocalRecords().filter(x=>x.id!==id));let o=baichaOverrides();delete o[id];baichaSaveOverrides(o)}
-  document.getElementById('baichaOverlay')?.remove();renderBaichaDesk()
-}
-function baichaMarkReady(id){
-  let r=baichaRecords().find(x=>x.id===id);if(!r||!baichaComplete(r)||['REJECTED','ARCHIVED'].includes(r.status))return alert('ยัง MARK READY ไม่ได้: ต้องมี Asset + Caption + Hashtags + Pinned Comment และห้ามเป็น REJECTED/ARCHIVED');
-  let o=baichaOverrides();o[id]={...(o[id]||{}),status:'READY TO POST'};baichaSaveOverrides(o);renderBaichaDesk()
-}
-
-function renderAll(){syncPublisher();baichaChrome();if(CAM==='baicha'){renderBaichaDesk();return}renderDesk();renderChecklist();renderCalendar();renderBatch();renderStrategy();renderPerformance()}
-$('campaign').value=CAM;$('campaign').onchange=e=>{if(e.target.value==='colossus-august'){location.href='./august-season.html';return}CAM=e.target.value;localStorage.setItem('rls_desk_campaign',CAM);MODE='single';renderAll()};document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-view]').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.querySelectorAll('.view').forEach(v=>v.classList.remove('on'));$(b.dataset.view).classList.add('on')});
+function renderAll(){syncPublisher();renderDesk();renderChecklist();renderCalendar();renderBatch();renderStrategy();renderPerformance()}
+$('campaign').value=CAM;$('campaign').onchange=e=>{if(e.target.value==='colossus-august'){location.href='./august-season.html';return}if(e.target.value==='baicha'){location.href='./baicha.html';return}CAM=e.target.value;localStorage.setItem('rls_desk_campaign',CAM);MODE='single';renderAll()};document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-view]').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.querySelectorAll('.view').forEach(v=>v.classList.remove('on'));$(b.dataset.view).classList.add('on')});
 const getJson=u=>fetch(u+'?v='+Date.now()).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
-Promise.all([getJson('./content.json'),getJson('./rls-content.json'),getJson('../mayor-bruno/content.json'),getJson('./baicha-content.json').catch(()=>({records:[]})),getJson('./rls-starters.json'),getJson('./rls-copy-qa.json'),getJson('./colossus-starters.json').catch(()=>({entries:[]})),getJson('./colossus-reels.json').catch(()=>({entries:[]})),getJson('./colossus-reel-media.json').catch(()=>({entries:[]}))]).then(([c,r,b,a,s,q,cs,cr,crm])=>{C=c;R=r;B=b;A=a;S=s;Q=q;CS=cs;let mm=new Map((crm.entries||[]).map(x=>[x.id,x]));CR={...cr,entries:(cr.entries||[]).map(x=>{let m=mm.get(x.id)||{},pub=/^published$/i.test(String(x.status||''));return {...x,...m,status:pub?x.status:(m.status||x.status)}})};for(let m of crm.entries||[]){if(!(CR.entries||[]).some(x=>x.id===m.id))CR.entries.push(m)}renderAll()}).catch(e=>{$('deskList').innerHTML=`<div class="panel r">LOAD ERROR: ${esc(e.message)}</div>`});
+Promise.all([getJson('./content.json'),getJson('./rls-content.json'),getJson('../mayor-bruno/content.json'),getJson('./rls-starters.json'),getJson('./rls-copy-qa.json'),getJson('./colossus-starters.json').catch(()=>({entries:[]})),getJson('./colossus-reels.json').catch(()=>({entries:[]})),getJson('./colossus-reel-media.json').catch(()=>({entries:[]}))]).then(([c,r,b,s,q,cs,cr,crm])=>{C=c;R=r;B=b;S=s;Q=q;CS=cs;let mm=new Map((crm.entries||[]).map(x=>[x.id,x]));CR={...cr,entries:(cr.entries||[]).map(x=>{let m=mm.get(x.id)||{},pub=/^published$/i.test(String(x.status||''));return {...x,...m,status:pub?x.status:(m.status||x.status)}})};for(let m of crm.entries||[]){if(!(CR.entries||[]).some(x=>x.id===m.id))CR.entries.push(m)}renderAll()}).catch(e=>{$('deskList').innerHTML=`<div class="panel r">LOAD ERROR: ${esc(e.message)}</div>`});
 </script>
 </body></html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COLOSSUS SIGNAL — SPECIAL TRANSMISSIONS</title>
+<style>
+:root{--bg:#05090e;--p:#0a121b;--line:#173142;--c:#58d9ff;--t:#e9faff;--m:#7894a6;--g:#76efa2;--a:#ffd477}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#0e2b3b,#05090e 42%);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+a,button,select{font:inherit}.top,.wrap{max-width:1380px;margin:auto}.top{padding:12px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}.brand a{color:#dff8ff;text-decoration:none;font-weight:900}.brand small{display:block;color:var(--m);font-size:10px}
+.controls{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.btn,.controls select,button{background:#07131c;color:#dff8ff;border:1px solid #28506a;border-radius:9px;padding:8px 10px;font-weight:800;text-decoration:none}
+.wrap{padding:14px}.hero,.card,.slot{background:linear-gradient(#0a121b,#071019);border:1px solid var(--line);border-radius:14px}.hero{padding:14px;margin-bottom:12px}.hero h1{margin:0 0 5px}.sub{color:var(--m);font-size:12px}.ok{color:var(--g)}.warn{color:var(--a)}
+.card{overflow:hidden}.head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.head h2{margin:0;font-size:21px}
+.badges{display:flex;gap:6px;flex-wrap:wrap}.pill{border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;color:var(--g)}
+.grid{display:grid;grid-template-columns:1.25fr .75fr;gap:12px;padding:12px}.viewer{min-height:600px;background:#020609;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.viewer iframe{width:100%;height:600px;border:0}.waiting{padding:28px;text-align:center;color:var(--a);line-height:1.6}.side{display:flex;flex-direction:column;gap:12px}.box{padding:12px;border:1px solid var(--line);border-radius:12px;background:#061018;white-space:pre-wrap;line-height:1.55;font-size:13px}
+.copy{float:right;background:#0a3041;color:#dff8ff;border:1px solid #2e708e;border-radius:7px;padding:6px 8px;font-size:10px;font-weight:900}.meta{display:grid;grid-template-columns:1fr 1fr;gap:8px}.kv{padding:9px;border:1px solid var(--line);border-radius:9px;background:#071019}.kv small{display:block;color:var(--m);font-size:10px}.kv b{font-size:12px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.viewer,.viewer iframe{min-height:500px;height:500px}.controls{width:100%}.controls select,.controls .btn{flex:1}}
+</style>
+</head>
+<body>
+<header><div class="top"><div class="brand"><a href="../">🏠 HOME</a><div><b>TALENTVEE CONTENT DESK</b><small>COLOSSUS SIGNAL • SPECIAL TRANSMISSIONS</small></div></div><div class="controls">
+<select id="campaign">
+<option value="colossus">COLOSSUS SIGNAL — CURRENT SEASON</option>
+<option value="colossus-august">COLOSSUS SIGNAL — SS2 / AUGUST • THE GIANTS OUTSIDE</option>
+<option value="colossus-special" selected>COLOSSUS SIGNAL — SPECIAL TRANSMISSIONS</option>
+<option value="rls">RLS — รอยลับพงไพร</option>
+<option value="baicha">ใบชา — BAICHA</option>
+<option value="bruno">MAYOR BRUNO — WILLOW CREEK</option>
+</select>
+<a class="btn" href="./?campaign=colossus">DESK</a></div></div></header>
+<main class="wrap">
+<div class="hero"><h1>SPECIAL TRANSMISSIONS</h1><div id="status" class="sub">Loading...</div></div>
+<div id="list"></div>
+</main>
+<script>
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function did(u){return (String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
+function preview(u){const id=did(u);return id?'https://drive.google.com/file/d/'+id+'/preview':u}
+window.copyText=async id=>{const t=$(id)?.innerText||'';try{await navigator.clipboard.writeText(t)}catch{prompt('Copy:',t)}}
+function render(d){
+ $('status').innerHTML='Collection: <b>'+esc(d.collection_title)+'</b> • <span class="ok">'+esc(d.status)+'</span>';
+ $('list').innerHTML=(d.episodes||[]).map((e,i)=>{
+  const media=e.final_reel?'<iframe src="'+esc(preview(e.final_reel))+'" allow="autoplay; fullscreen"></iframe>':'<div class="waiting"><b>FINAL VIDEO QA PASS</b><br>Drive upload/link is still pending.<br><small>'+esc(e.final_file||'')+'</small></div>';
+  return '<section class="card"><div class="head"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="sub">'+esc(e.type||'')+'</div></div><div class="badges"><span class="pill">'+esc(e.final_qa||'')+'</span><span class="pill">'+esc(e.copy_qa||'')+'</span></div></div><div class="grid"><div class="viewer">'+media+'</div><div class="side"><div class="meta"><div class="kv"><small>PUBLISH</small><b>'+esc(e.publish_date)+' • '+esc(e.publish_time)+' TH</b></div><div class="kv"><small>DURATION</small><b>'+esc(e.final_duration_seconds)+'s</b></div><div class="kv"><small>VIDEO</small><b>'+esc(e.final_resolution)+' • '+esc(e.final_fps)+'fps</b></div><div class="kv"><small>WATERMARK</small><b>'+esc(e.watermark_qa)+'</b></div></div><div class="box"><button class="copy" onclick="copyText(\'cap'+i+'\')">COPY</button><b>CAPTION</b><div id="cap'+i+'" style="margin-top:8px">'+esc(e.caption)+'</div></div><div class="box"><button class="copy" onclick="copyText(\'com'+i+'\')">COPY</button><b>PINNED COMMENT</b><div id="com'+i+'" style="margin-top:8px">'+esc(e.comment)+'</div></div><div class="box"><b>STATUS</b><div style="margin-top:8px" class="'+(e.final_reel?'ok':'warn')+'">'+esc(e.website_status||e.final_media_status||'')+'</div></div></div></div></section>'
+ }).join('');
+}
+$('campaign').onchange=e=>{
+ const v=e.target.value;
+ if(v==='colossus-august')location.href='./august-season.html';
+ else if(v==='colossus-special')location.href='./special-episodes.html';
+ else if(v==='baicha')location.href='./baicha.html';
+ else location.href='./?campaign='+encodeURIComponent(v);
+};
+fetch('./special-episodes.json?v='+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(render).catch(e=>$('list').innerHTML='<div class="hero warn">LOAD ERROR: '+esc(e.message)+'</div>');
+</script>
+</body>
+</html>

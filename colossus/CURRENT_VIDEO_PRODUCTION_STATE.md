@@ -352,6 +352,62 @@ QA:
 - Stretched-source-audio defect: RESOLVED.
 - V6 supersedes V5 as the current audio authority for this 60s MV/teaser cut.
 
+
+## 2026-09-26 — SPECIAL TRANSMISSION 001 WEB / COPY PACKAGE
+
+Special episode identity:
+- ID: `CS-SPECIAL-001`
+- Title: `THE GIANTS FINALLY FOUGHT`
+- Type: SPECIAL EPISODE / 60S CINEMATIC MV
+- Final authority: `COLOSSUS_BATTLE_MV_TEASER_60S_V6_HYBRID_FINAL.mp4`
+- Sources: 24665.mp4 + 24666.mp4
+- Final QA: QA-A / QA-B / QA-C PASS
+- Watermark QA: PASS
+- Copy QA: PASS 98/100
+
+Publishing:
+- Tonight special-event slot: **2026-09-26 23:00 Asia/Bangkok**
+- This is a one-off special test, not a replacement for the normal Reel baseline.
+- Use the special Reel in place of the normal 23:00 linked-still slot tonight to avoid same-hour post collision.
+
+Caption:
+```
+They had ignored each other for too long.
+
+Then one of them raised a blade.
+
+The first strike scattered the field.
+The second changed the direction of the fight.
+
+For the first time, the giants weren't moving past each other.
+
+They were trying to stop each other.
+
+COLOSSUS SIGNAL // SPECIAL TRANSMISSION 001
+```
+
+Pinned comment:
+```
+COMBAT NOTE:
+
+Two colossal entities remained locked in the same engagement zone.
+
+No movement toward Earth was detected during the encounter.
+
+No signal was directed at us.
+
+For once, we were not the subject of the observation.
+
+We were only watching.
+```
+
+Website:
+- Added `colossus/special-episodes.json`.
+- Added `colossus/special-episodes.html`.
+- Added `COLOSSUS SIGNAL — SPECIAL TRANSMISSIONS` selector entry to the main Colossus desk.
+- Special page exposes caption, pinned comment, publish time, Final QA and watermark QA.
+- Final video Drive URL is **PENDING**. Google Drive upload was attempted but the connected upload path returned a provider upload failure. Do not claim the V6 Final is on Drive until a verified Drive URL exists.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

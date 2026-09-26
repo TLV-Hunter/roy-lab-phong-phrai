@@ -313,6 +313,45 @@ QA:
 - QA-C Audio / delivery: PASS.
 - Audio-stretch defect from V4: RESOLVED.
 
+
+## 2026-09-26 — 60S MV HYBRID SOURCE-AUDIO REBUILD V6
+
+User correction:
+- V5's fully rebuilt soundtrack was technically clean but did not preserve enough of the original source-audio character.
+- V6 therefore restores the strongest original source sound events from 24665 / 24666 at their native speed and syncs them to the corresponding slowed picture moments.
+- Original impact / sword / collision events are **not time-stretched**.
+- Where the picture was extended in slow motion, the extra duration is filled with newly created reverb tails, low rumble, debris texture and whoosh transitions matched to the source sound character rather than elongating the source event itself.
+- V5 music/SFX bed is retained only at low level as glue underneath the restored source events.
+
+Picture authority:
+- V4 picture edit remains unchanged.
+- Encoded video-stream MD5 V4 = V6: `da301902765bc18036cdbdd07e1de2fa`.
+- Therefore prior V4 picture / continuity / watermark QA remains valid.
+
+Current Final:
+- `COLOSSUS_BATTLE_MV_TEASER_60S_V6_HYBRID_FINAL.mp4`
+- Duration: 60.00s.
+- Video: 1080x1920, H.264, 24fps CFR.
+- Audio: AAC stereo 48kHz, hybrid original-source SFX + generated fill + low-level score bed.
+- Final integrated loudness after AAC: approximately -15.4 LUFS.
+- Final true peak: approximately -0.8 dBTP.
+- No abnormal silence >0.7s detected.
+- Major transient / sync accents verified around 5.4, 9.4, 11.4, 14.4, 18.6, 22.3, 26.2, 29.4, 38.0, 47.3, 51.8 and 55.4 seconds.
+- SHA-256: `a82ad91a250e20a2eacdf0889559875edb55590e0edece95d85a996d70f92279`.
+
+Standalone hybrid master:
+- `COLOSSUS_HYBRID_SOURCE_SFX_V6_MASTER.wav`
+- 60.00s, PCM 24-bit, 48kHz stereo.
+- SHA-256: `5c52f3a99b4f7c19351b86872a9e75d3c37428c17a2868df22d576519daa43c2`.
+
+QA:
+- QA-A Technical: PASS.
+- QA-B Picture / continuity: PASS (same encoded picture stream as V4).
+- QA-C Audio / delivery: PASS.
+- Watermark QA: PASS by inherited identical V4 picture stream.
+- Stretched-source-audio defect: RESOLVED.
+- V6 supersedes V5 as the current audio authority for this 60s MV/teaser cut.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

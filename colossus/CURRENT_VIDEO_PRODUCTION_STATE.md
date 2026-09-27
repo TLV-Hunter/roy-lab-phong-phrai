@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-26
+Updated: 2026-09-27
 
 ## Authority correction
 
@@ -407,6 +407,46 @@ Website:
 - Added `COLOSSUS SIGNAL — SPECIAL TRANSMISSIONS` selector entry to the main Colossus desk.
 - Special page exposes caption, pinned comment, publish time, Final QA and watermark QA.
 - Final video Drive URL is **PENDING**. Google Drive upload was attempted but the connected upload path returned a provider upload failure. Do not claim the V6 Final is on Drive until a verified Drive URL exists.
+
+
+## 2026-09-27 — COMBINED ACTION EDIT — SOURCES 24734 / 24735
+
+User requested:
+- join both clips into one continuous edit
+- upscale
+- remove DOLA AI watermark
+- add transition/effects between scenes
+- preserve natural source audio character
+
+Source QA:
+- 24734.mp4 — PASS WITH REPAIR.
+- 24735.mp4 — PASS WITH REPAIR.
+- Both sources: 1280x720, 24fps, HEVC + AAC 44.1kHz, ~15.07s each.
+- Visual continuity supports direct continuation: same two female fighters, same courtyard, same wardrobe/color identity and compatible fight direction.
+- DOLA AI relocates during both sources (bottom-right -> left side -> top-right), so fixed crop alone was rejected during QA.
+
+Current Final:
+- `24734_24735_FINAL_TRANSITION_UPSCALED_NOWM.mp4`
+- Duration: 29.50s.
+- Delivery: 1920x1080, 16:9, H.264, AAC 48kHz, 24fps CFR.
+- Watermark removal: time-aware dynamic reframe with eased crop-position changes; no blur/black box.
+- Transition: match-action cross dissolve, short energy flash, whoosh + low impact SFX.
+- Source audio preserved as the main bed; 0.5s audio crossfade used at the join.
+- Final loudness: approximately -15.5 LUFS.
+- Final true peak: approximately -1.1 dBTP.
+- SHA-256: `44e4dcfc442ac4dce4396821cb1ea8c9141dfc4b325a01447bc5105d5dc1d8ca`.
+
+QA:
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- Watermark QA: PASS at repeated 2-second visual scan plus transition/high-motion checks.
+- No accidental black interval or freeze interval detected.
+- No abnormal silence >0.5s detected.
+
+Authority note:
+- No CS / CS-AUG episode mapping assigned from filename alone.
+- Do not register in `colossus-reel-media.json` until episode/source authority confirms mapping.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

@@ -329,8 +329,8 @@
     {
       "id": "CS-029",
       "title": "IT FINALLY MOVED",
-      "status": "WEB READY / VIDEO PENDING",
-      "qa": "COPY + PAIRING PASS / FINAL VIDEO PENDING",
+      "status": "READY",
+      "qa": "PASS — V3 FINAL",
       "copy_qa": "PASS 98/100",
       "paired_starter_id": "CS-029",
       "pairing_qa": "PASS",
@@ -340,7 +340,14 @@
       "publish_date": "2026-10-01",
       "publish_time": "06:00",
       "web_status": "LIVE",
-      "final_note": "Season Finale package is live on the Content Desk. Master Still, Starter, prompt and QA-passed Reel copy are available; Final Reel remains pending and no media URL is assigned."
+      "final_note": "Built directly from the locked CS-029 starter frame after external video-generation providers were unavailable. Motion/composite preserves the starter identity: slow camera creep, a single tiny late orientation shift, delayed debris reaction, one brightening vertical seam, restrained low-frequency sound design, and English Signal Bar copy. QA-A / QA-B / QA-C PASS. Drive/media URL remains pending; do not map an unrelated file.",
+      "media_link_status": "FINAL GENERATED — DRIVE URL PENDING",
+      "local_file": "CS-029_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+      "source_upload": "CS-029_STARTER_FRAME.png",
+      "duration_seconds": 11.083333,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "sha256": "e23e163c40745c33366de7c860848ace413acdf1ac2ab1e46911eb80616910a3"
     }
   ],
   "media_mapping_status": {

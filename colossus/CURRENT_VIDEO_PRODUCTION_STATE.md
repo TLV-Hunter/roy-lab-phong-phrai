@@ -468,6 +468,44 @@ Website changes:
 - Direct `colossus/colossus-desk.html` also auto-focuses today's scheduled episode.
 - The web card exposes the existing Master Still, Starter Frame, prompt, Reel caption and first comment while clearly retaining Final Reel as pending.
 
+
+## 2026-10-01 — CS-029 V3 FINAL GENERATED
+
+Episode:
+- **CS-029 — IT FINALLY MOVED**
+- Role: **SEASON FINALE**
+
+Generation / edit path:
+- Locked starter authority: `CS-029_STARTER_FRAME.png`.
+- External image-to-video providers were unavailable on the connected accounts at execution time, so the Final was built directly from the locked starter with controlled motion/compositing rather than substituting an unrelated generated clip.
+- Picture treatment: slow cinematic camera creep; single tiny late orientation shift of the colossal structure; delayed debris reaction; one vertical seam brightens; restrained cool grade.
+- Signal Bar copy:
+  - `IT FINALLY MOVED`
+  - `THE STARS MOVED WITH IT`
+- Sound: custom low cosmic drone + restrained structural groan + delayed debris ticks; no stretched source audio.
+
+Current Final:
+- `CS-029_FINAL_COLOSSUS_SIGNAL_V3.mp4`
+- Duration: **11.083333s**
+- Delivery: **1080x1920, H.264, 24fps CFR, AAC 48kHz stereo**
+- Integrated loudness: approximately **-14.8 LUFS**
+- True peak measured below **-1.2 dBTP** target ceiling.
+- SHA-256: `e23e163c40745c33366de7c860848ace413acdf1ac2ab1e46911eb80616910a3`
+
+QA:
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- No accidental black interval detected.
+- No freeze interval detected.
+- Identity / geometry remains anchored to the verified CS-029 starter.
+- No DOLA AI / source watermark exists in this Final.
+
+Website:
+- `content.json`, `colossus-reels.json`, and `colossus-reel-media.json` now mark CS-029 Final as READY / QA PASS.
+- Main web desk auto-focuses CS-029 on 2026-10-01 and displays SEASON FINALE.
+- Final media link remains **DRIVE URL PENDING** because the connected Drive upload handoff failed; website correctly shows FINAL EXISTS / MEDIA LINK PENDING rather than a wrong video.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

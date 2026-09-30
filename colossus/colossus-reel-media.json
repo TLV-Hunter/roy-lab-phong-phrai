@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T22:20:00+07:00",
-  "status": "FINAL REEL MEDIA REGISTRY — VERIFIED / USER-CORRECTED",
+  "updated_at": "2026-10-01T06:26:00+07:00",
+  "status": "FINAL REEL MEDIA REGISTRY — VERIFIED / CURRENT",
   "entries": [
     {
       "id": "CS-009",
@@ -139,6 +139,21 @@
       "fps": 24,
       "sha256": "dac8e7d2b5b49a885d8e40b6a3a72f43fb931311ab29ba09f7b73eeed2989c0c",
       "note": "Rebuilt from visually verified upload 23898.mp4. DOLA AI removed by clean reframe/crop; English Signal Bar/title preserved; three-pass QA passed; Drive mapping restored."
+    },
+    {
+      "id": "CS-029",
+      "status": "READY",
+      "qa": "PASS — V3 FINAL",
+      "copy_qa": "PASS 98/100",
+      "media_url": "",
+      "media_link_status": "FINAL GENERATED — DRIVE URL PENDING",
+      "local_file": "CS-029_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+      "source_upload": "CS-029_STARTER_FRAME.png",
+      "duration_seconds": 11.083333,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "sha256": "e23e163c40745c33366de7c860848ace413acdf1ac2ab1e46911eb80616910a3",
+      "note": "Season-finale Final exists and passed technical/story/delivery QA. Website must show FINAL EXISTS / MEDIA LINK PENDING until the exact Drive URL is verified."
     }
   ]
 }

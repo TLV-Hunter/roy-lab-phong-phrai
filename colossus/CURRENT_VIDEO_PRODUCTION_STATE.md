@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-09-27
+Updated: 2026-10-01
 
 ## Authority correction
 
@@ -447,6 +447,26 @@ QA:
 Authority note:
 - No CS / CS-AUG episode mapping assigned from filename alone.
 - Do not register in `colossus-reel-media.json` until episode/source authority confirms mapping.
+
+
+## 2026-10-01 — CS-029 SEASON FINALE WEB ACTIVATION
+
+- Episode: **CS-029 — IT FINALLY MOVED**
+- Publish date: **2026-10-01**
+- Role: **SEASON FINALE**
+- Master Still: READY / QA PASS / Drive mapped.
+- Starter Frame: READY / QA PASS / Drive mapped.
+- Reel Prompt: PASS.
+- Reel Caption + First Comment: COPY QA PASS 98/100.
+- Final Reel: **VIDEO PENDING**. No Final media URL has been assigned and no unrelated clip may be mapped to CS-029.
+
+Website changes:
+- `colossus/content.json` now marks CS-029 with date `2026-10-01`, phase `SEASON FINALE`, and web status `LIVE / VIDEO PENDING`.
+- `colossus/colossus-reels.json` now marks the package `WEB READY / VIDEO PENDING` with publish date/time.
+- Main `colossus/index.html` auto-focuses the Colossus episode scheduled for the current date; on 2026-10-01 this resolves to CS-029 even if an older localStorage selection exists.
+- CS-029 receives a visible `SEASON FINALE` badge.
+- Direct `colossus/colossus-desk.html` also auto-focuses today's scheduled episode.
+- The web card exposes the existing Master Still, Starter Frame, prompt, Reel caption and first comment while clearly retaining Final Reel as pending.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

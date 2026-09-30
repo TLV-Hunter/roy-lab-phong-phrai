@@ -1217,10 +1217,20 @@
         "height": 3840
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "06:00",
-        "final_exists": false,
-        "web_status": "LIVE / VIDEO PENDING"
+        "final_exists": true,
+        "web_status": "LIVE / VIDEO PENDING",
+        "final_qa": "PASS — V3 FINAL",
+        "media_link_status": "FINAL GENERATED — DRIVE URL PENDING",
+        "final_media_url": "",
+        "local_file": "CS-029_FINAL_COLOSSUS_SIGNAL_V3.mp4",
+        "source_upload": "CS-029_STARTER_FRAME.png",
+        "duration_seconds": 11.083333,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "sha256": "e23e163c40745c33366de7c860848ace413acdf1ac2ab1e46911eb80616910a3",
+        "final_note": "CS-029 V3 Final generated and QA passed. Exact Drive/media URL remains pending."
       },
       "schedule": {
         "timezone": "Asia/Bangkok",
@@ -1240,7 +1250,7 @@
     "note": "Locked current publishing schedule per latest verified Colossus state."
   },
   "production_summary": {
-    "as_of": "2026-10-01T06:29:09+07:00",
+    "as_of": "2026-10-01T06:26:00+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1254,6 +1264,7 @@
       "remaining_reel_count": 0,
       "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "Still production is complete. September Reel production has 0 unresolved episode(s): none."
+    "note": "Still production is complete. September Reel production has 0 unresolved episode(s): none.",
+    "current_focus": "CS-029 — IT FINALLY MOVED — SEASON FINALE — FINAL QA PASS / DRIVE LINK PENDING"
   }
 }

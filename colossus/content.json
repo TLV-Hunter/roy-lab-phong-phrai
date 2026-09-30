@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:36:20+07:00",
+  "updated_at": "2026-10-01T06:29:09+07:00",
   "timezone": "Asia/Bangkok",
   "brand": "COLOSSUS SIGNAL",
   "mode": "CONTROLLED TEST • REEL + LINKED STILL • GLOBAL MARKET",
@@ -1240,7 +1240,7 @@
     "note": "Locked current publishing schedule per latest verified Colossus state."
   },
   "production_summary": {
-    "as_of": "2026-10-01T06:26:00+07:00",
+    "as_of": "2026-10-01T06:29:09+07:00",
     "september": {
       "still_production": "COMPLETE",
       "still_scope": "CS-002–CS-028",
@@ -1254,7 +1254,6 @@
       "remaining_reel_count": 0,
       "season_finale": "CS-029 — 2026-10-01"
     },
-    "note": "Still production is complete. September Reel production has 0 unresolved episode(s): none.",
-    "current_focus": "CS-029 — IT FINALLY MOVED — SEASON FINALE — WEBSITE LIVE / FINAL VIDEO PENDING"
+    "note": "Still production is complete. September Reel production has 0 unresolved episode(s): none."
   }
 }

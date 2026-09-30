@@ -329,14 +329,18 @@
     {
       "id": "CS-029",
       "title": "IT FINALLY MOVED",
-      "status": "COPY READY / VIDEO PENDING",
-      "qa": "FINAL VIDEO PENDING",
+      "status": "WEB READY / VIDEO PENDING",
+      "qa": "COPY + PAIRING PASS / FINAL VIDEO PENDING",
       "copy_qa": "PASS 98/100",
       "paired_starter_id": "CS-029",
       "pairing_qa": "PASS",
       "media_url": "",
       "caption": "It had been motionless in every frame.\n\nEvery scan.\nEvery pass.\n\nThen one section moved.\n\nBarely.\n\nThe stars around it moved with it.\n\nCOLOSSUS SIGNAL // CS-029",
-      "pinned_comment": "FINAL ARCHIVE NOTE:\n\nThis is the first confirmed movement.\n\nNo acceleration followed.\n\nIt only changed position once.\n\nThat was enough."
+      "pinned_comment": "FINAL ARCHIVE NOTE:\n\nThis is the first confirmed movement.\n\nNo acceleration followed.\n\nIt only changed position once.\n\nThat was enough.",
+      "publish_date": "2026-10-01",
+      "publish_time": "06:00",
+      "web_status": "LIVE",
+      "final_note": "Season Finale package is live on the Content Desk. Master Still, Starter, prompt and QA-passed Reel copy are available; Final Reel remains pending and no media URL is assigned."
     }
   ],
   "media_mapping_status": {

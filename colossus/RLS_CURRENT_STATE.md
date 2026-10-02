@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 18:10 Asia/Bangkok
+Updated: 2026-10-02 19:06 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -192,3 +192,19 @@ Source: 24980.mp4
 - Dola AI watermark is present in raw generation and this clip is not Final.
 - Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
 - Exact next action: regenerate with V3 prompt that preserves the successful early shark turn/escape, hard-blocks cloud/smoke/ink/plume/blob/silt-cloud visuals, delays anomaly until after ~10s, and renders only broad edge-less background light loss plus particles/fish reaction.
+
+
+## SS2 RLS-S2-001 — DOLA / SEEDANCE 2.5 15s TEST V3 QA
+Source: 24981.mp4
+- Technical: 15.104s, 720×1280, HEVC, 24fps, AAC stereo 44.1kHz.
+- Audio technical: approx -23.9 LUFS integrated, -6.5 dBTP true peak.
+- No black-frame or freeze event detected.
+- Story/content QA: FAIL / REVISE, score 93/100.
+- PASS: approach / sense / decisive turn timing is now correct around 3–4.5s.
+- PASS: escape beat is clearly readable through ~4.5–7.5s.
+- PASS: clean-water hold is improved; no black ink/blob anomaly in the 7.5–10.5s section.
+- CRITICAL FAIL: from ~12.5s onward the late anomaly resolves into a large biological silhouette with a readable body contour. By ~13.5–14.8s it no longer reads as edge-less light loss; it reads as an enormous animal-like body.
+- Dola AI watermark remains present in raw generation; this test is not Final.
+- Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
+- Workflow decision: stop iterating text-heavy prompt alone. Move to Seedance 2.5 6-BEAT visual control / storyboard anchors for the next generation.
+- Beat plan: 01 Approach, 02 Sense+Turn, 03 Escape, 04 Empty Water Reaction, 05 Broad Edge-less Light Loss, 06 Mystery End with no anatomy.

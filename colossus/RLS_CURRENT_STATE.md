@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 18:01 Asia/Bangkok
+Updated: 2026-10-02 18:10 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -175,3 +175,20 @@ Source: 24979.mp4
 - Positive: cage continuity, shark continuity, basic underwater realism and scale setup are usable.
 - Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
 - Exact next action: regenerate RLS-S2-001 with a repaired 15-second prompt that forces the turn by ~3–4s and forbids any identifiable shark anatomy in the giant background presence; QA the regenerated clip before continuing to RLS-S2-002.
+
+
+## SS2 RLS-S2-001 — DOLA / SEEDANCE 2.5 15s TEST V2 QA
+Source: 24980.mp4
+- Technical: 15.104s, 720×1280, HEVC, 24fps, AAC stereo 44.1kHz.
+- Audio technical: approx -20.7 LUFS integrated, -8.7 dBTP true peak.
+- No black-frame or freeze event detected.
+- Story/content QA: FAIL / REVISE, but materially improved over 24979.mp4.
+- PASS: great white turn now occurs in the intended ~3.5–4.5s window.
+- PASS: shark escape is clearly readable by ~5–7.5s.
+- PASS: no second giant shark / megalodon anatomy appears.
+- FAIL: the late anomaly resolves as a dense localized black smoke / ink / silt-like plume beginning around ~8s and growing into a large blob. This does not read as natural broad light occlusion caused by an unseen massive presence.
+- FAIL: the anomaly appears too early and with too-defined cloud edges; it should remain diffuse background darkening with no cloud/plume/blob behavior.
+- Minor: fish-scatter / environmental reaction is not strong enough before the darkening.
+- Dola AI watermark is present in raw generation and this clip is not Final.
+- Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
+- Exact next action: regenerate with V3 prompt that preserves the successful early shark turn/escape, hard-blocks cloud/smoke/ink/plume/blob/silt-cloud visuals, delays anomaly until after ~10s, and renders only broad edge-less background light loss plus particles/fish reaction.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 15:14 Asia/Bangkok
+Updated: 2026-10-02 16:42 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -148,3 +148,14 @@ Milestone: 2026-10-02
 - Website SS2 Desk: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss2.html
 - Website SS2 Production Queue: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss2-daily-queue.html
 - Exact next production action: generate RLS-S2-001 — The Shark Turned Around from its locked full-frame Starter and 10-second prompt; QA the real video before proceeding to RLS-S2-002.
+
+
+## SS2 4K WEBSITE CORRECTION — 2026-10-02
+- Previous SS2 website upload was WRONG: it exposed 144×256 Adobe preview thumbnails instead of production assets.
+- The bad 20 thumbnails are no longer referenced by SS2 data.
+- Rebuilt 20 website image assets at exact 2160×3840: 10 Master Stills + 10 Starter Frames.
+- Source truth: SS2 Master source files were QA-passed 1080×1920; these website files are high-quality 4K UPSCALED deliveries, not native 4K capture/generation.
+- Starter source compositions are the QA-passed full-frame versions; 05 and 08 use the final full-frame replacements. Full-frame preservation is locked.
+- GitHub Actions verified exactly 20 files and exact 2160×3840 dimensions before commit.
+- Website SS2 data now points directly to the 4K asset folder.
+- Final Reels remain 0/10; publication remains 0/10 PUBLISHED and 0/10 SCHEDULED.

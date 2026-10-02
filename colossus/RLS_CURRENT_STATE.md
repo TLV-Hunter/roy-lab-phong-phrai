@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 16:42 Asia/Bangkok
+Updated: 2026-10-02 18:01 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -160,3 +160,18 @@ Milestone: 2026-10-02
 - GitHub Actions verified exactly 20 files and exact 2160×3840 dimensions before commit.
 - Website SS2 data now points directly to the 4K asset folder.
 - Final Reels remain 0/10; publication remains 0/10 PUBLISHED and 0/10 SCHEDULED.
+
+
+## SS2 RLS-S2-001 — DOLA / SEEDANCE 2.5 15s TEST QA
+Source: 24979.mp4
+- Technical: 15.104s, 720×1280, HEVC, 24fps, AAC stereo 44.1kHz.
+- Audio: approx -20.3 LUFS integrated, -2.0 dBTP true peak; no technical clipping issue detected.
+- No black-frame or freeze event detected.
+- Story/content QA: FAIL / REVISE.
+- Main failure 1: the great white approaches for too long and does not perform the intended decisive turn early enough; the escape beat lands late.
+- Main failure 2: the final giant presence resolves into a clearly recognizable giant shark / megalodon-like body with visible shark anatomy, violating the locked requirement for an unidentified partial shadow only.
+- Main failure 3: the giant presence is shown too completely across the late sequence instead of remaining a partial obscured mass.
+- Dola AI watermark is present in the raw generation and must not appear in Final delivery; this test clip is not Final.
+- Positive: cage continuity, shark continuity, basic underwater realism and scale setup are usable.
+- Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
+- Exact next action: regenerate RLS-S2-001 with a repaired 15-second prompt that forces the turn by ~3–4s and forbids any identifiable shark anatomy in the giant background presence; QA the regenerated clip before continuing to RLS-S2-002.

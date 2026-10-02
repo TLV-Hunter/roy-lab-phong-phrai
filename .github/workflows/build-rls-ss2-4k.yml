@@ -1,0 +1,122 @@
+name: Build RLS SS2 4K assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-rls-ss2-4k.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow and requests
+        run: pip install pillow requests
+      - name: Download approved sources and create 2160x3840 4K-upscaled assets
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageOps
+          from io import BytesIO
+          import requests, os, sys, re
+          from urllib.parse import urljoin
+
+          masters = [
+            "https://at.adobe.com/3uBR0fj1cTItzpos",
+            "https://at.adobe.com/80kud13MQeGSG7GG",
+            "https://at.adobe.com/0K5YDuMDdvwR1ZRn",
+            "https://at.adobe.com/n2dAwyrc4xhqvbEQ",
+            "https://at.adobe.com/1KeY3wT82EXB2Rka",
+            "https://at.adobe.com/mkxqk4rK3QwzPLLq",
+            "https://at.adobe.com/CCPgxl5usxPibABC",
+            "https://at.adobe.com/F7FyU9VyYcXaUOMm",
+            "https://at.adobe.com/rdWDg3XarGpkvEqk",
+            "https://at.adobe.com/c2YIJwcrpu15kvBp"
+          ]
+          starters = [
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:30ebce45-9ce1-49b0-805d-08c0547b823d",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:82ef68f4-d97f-4f1d-8b8f-0d52fdc392d2",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:8ec2dde7-3d70-4ad4-8d09-878dd39be855",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:56f92a1d-3492-4c98-8295-eec9316a1382",
+            "https://at.adobe.com/RDqq60pcmXH5AC9c",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:541ae60f-61d3-4013-91ab-194c3d5c974e",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:e8ae6125-c646-413a-994b-70ca9ccf4a71",
+            "https://at.adobe.com/oMKJRZCYTmTOh6xj",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:e0c01802-7324-4c0a-9b23-d8278dca9a88",
+            "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:b5a37c39-8ec1-4a6c-8b1d-ae1422ccc06f"
+          ]
+
+          def fetch_image(url):
+            h={"User-Agent":"Mozilla/5.0"}
+            r=requests.get(url,headers=h,timeout=90,allow_redirects=True)
+            r.raise_for_status()
+            ct=(r.headers.get("content-type") or "").lower()
+            data=r.content
+            if "image/" in ct:
+              return Image.open(BytesIO(data)).convert("RGB"), r.url
+            text=r.text
+            candidates=[]
+            for pat in [
+              r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+              r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+              r'<img[^>]+src=["\']([^"\']+)'
+            ]:
+              m=re.search(pat,text,re.I)
+              if m: candidates.append(urljoin(r.url,m.group(1)))
+            for u in candidates:
+              rr=requests.get(u,headers=h,timeout=90,allow_redirects=True)
+              if rr.ok and "image/" in (rr.headers.get("content-type") or "").lower():
+                return Image.open(BytesIO(rr.content)).convert("RGB"), rr.url
+            raise RuntimeError(f"Could not resolve image source: {url} content-type={ct} final={r.url}")
+
+          outdir="colossus/assets/rls-ss2/4k"
+          os.makedirs(outdir,exist_ok=True)
+          report=[]
+          for kind,urls in [("master",masters),("starter",starters)]:
+            for i,url in enumerate(urls,1):
+              im,final_url=fetch_image(url)
+              sw,sh=im.size
+              # Preserve full frame: fit entire source inside exact 9:16 canvas.
+              # For approved near-9:16 starters, any difference is limited to a hairline border.
+              fit=ImageOps.contain(im,(2160,3840),method=Image.Resampling.LANCZOS)
+              canvas=Image.new("RGB",(2160,3840),(0,0,0))
+              x=(2160-fit.width)//2; y=(3840-fit.height)//2
+              canvas.paste(fit,(x,y))
+              path=f"{outdir}/{i:02d}-{kind}-4k.jpg"
+              canvas.save(path,"JPEG",quality=95,optimize=True,progressive=True,subsampling=0)
+              chk=Image.open(path)
+              if chk.size!=(2160,3840):
+                raise RuntimeError(f"Bad output size {path}: {chk.size}")
+              report.append((path,sw,sh,final_url))
+          print("Generated",len(report),"assets")
+          for row in report: print(row)
+          PY
+      - name: Verify 20 files and dimensions
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          import glob,sys,os
+          files=sorted(glob.glob("colossus/assets/rls-ss2/4k/*-4k.jpg"))
+          assert len(files)==20, f"Expected 20 files, got {len(files)}"
+          for f in files:
+            with Image.open(f) as im:
+              assert im.size==(2160,3840), (f,im.size)
+              assert os.path.getsize(f)>300000, (f,os.path.getsize(f))
+          print("QA PASS: 20/20 assets are 2160x3840")
+          PY
+      - name: Commit generated 4K assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add colossus/assets/rls-ss2/4k
+          git commit -m "Build RLS SS2 4K-upscaled image assets"
+          git push

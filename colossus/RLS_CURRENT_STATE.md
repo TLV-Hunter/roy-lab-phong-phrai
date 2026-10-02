@@ -153,6 +153,7 @@ Milestone: 2026-10-02
 ## SS2 4K WEBSITE CORRECTION — 2026-10-02
 - Previous SS2 website upload was WRONG: it exposed 144×256 Adobe preview thumbnails instead of production assets.
 - The bad 20 thumbnails are no longer referenced by SS2 data.
+- Compatibility repair: the original SS2 asset paths (`01-master.jpg` … `10-starter.jpg`) were atomically replaced with the same verified 2160×3840 blobs, so even a cached/previous Pages data file cannot load the old 144×256 thumbnails.
 - Rebuilt 20 website image assets at exact 2160×3840: 10 Master Stills + 10 Starter Frames.
 - Source truth: SS2 Master source files were QA-passed 1080×1920; these website files are high-quality 4K UPSCALED deliveries, not native 4K capture/generation.
 - Starter source compositions are the QA-passed full-frame versions; 05 and 08 use the final full-frame replacements. Full-frame preservation is locked.

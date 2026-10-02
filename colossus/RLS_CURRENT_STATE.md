@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 19:15 Asia/Bangkok
+Updated: 2026-10-02 22:30 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -208,3 +208,21 @@ Source: 24981.mp4
 - Result: DO NOT COUNT as Final Reel. RLS-S2-001 remains 0/1 Final PASS.
 - Workflow decision: stop iterating text-heavy prompt alone. Move to Seedance 2.5 6-BEAT visual control / storyboard anchors for the next generation.
 - Beat plan: 01 Approach, 02 Sense+Turn, 03 Escape, 04 Empty Water Reaction, 05 Broad Edge-less Light Loss, 06 Mystery End with no anatomy.
+
+
+## SS2 RLS-S2-001 — 6-BEAT VISUAL CONTROL PACK
+Milestone: 2026-10-02
+- After V3 text-only generation failed, production switched to visual beat control as planned.
+- Six separate 9:16 control images were created from the strongest continuity states of the real 24981.mp4 generation; no collage counts as an asset.
+- Output size: 1080×1920 per image.
+- Beat 1: APPROACH — same great white close to cage.
+- Beat 2: SENSE + TURN — decisive turn state.
+- Beat 3: ESCAPE — same shark clearly farther away.
+- Beat 4: EMPTY WATER REACTION — clean water/cage authority with no creature reveal.
+- Beat 5: LIGHT LOSS — broad diffuse background dimming only, no visible creature anatomy.
+- Beat 6: MYSTERY END — stronger edge-less ambient light loss, no visible creature, no blob/cloud/smoke silhouette.
+- Dola watermark was removed from the control references; control images contain no embedded labels/text.
+- QA: 6/6 PASS as visual-control references.
+- These six images are production references only, not public post assets and not Final Reels.
+- RLS-S2-001 Final Reel remains 0/1 PASS.
+- Exact next action: write the Seedance 2.5 15-second prompt that explicitly assigns Starter Frame = Frame 0 and Beat 1→6 as sequential visual authorities, then regenerate RLS-S2-001 and QA the real result before proceeding to RLS-S2-002.

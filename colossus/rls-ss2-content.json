@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 10s • 9:16 • FINAL REELS NOT GENERATED",
-  "updated_at": "2026-10-02T15:14:00+07:00",
+  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 10s • 9:16 • 20/20 IMAGE ASSETS 2160×3840 • FINAL REELS NOT GENERATED",
+  "updated_at": "2026-10-02T16:42:00+07:00",
   "publication_truth": "0/10 PUBLISHED • 0/10 SCHEDULED",
   "episodes": [
     {
@@ -16,8 +16,10 @@
         "qa1": "93/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 99/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/01-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/01-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -43,8 +45,10 @@
         "qa1": "90/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/02-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/02-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -70,8 +74,10 @@
         "qa1": "96/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/03-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/03-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -97,8 +103,10 @@
         "qa1": "96/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 97/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/04-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/04-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -124,8 +132,10 @@
         "qa1": "95/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/05-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/05-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -151,8 +161,10 @@
         "qa1": "96/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/06-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/06-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -178,8 +190,10 @@
         "qa1": "95/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/07-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/07-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -205,8 +219,10 @@
         "qa1": "94/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 95/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/08-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/08-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -232,8 +248,10 @@
         "qa1": "95/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/09-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/09-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",
@@ -259,8 +277,10 @@
         "qa1": "94/100 PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/10-master.jpg",
-        "publication": "NOT PUBLISHED"
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/10-master-4k.jpg",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840",
+        "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
         "status": "waiting",

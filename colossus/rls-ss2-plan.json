@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "status": "PRE-PRODUCTION READY / NOT SCHEDULED",
+  "status": "PRE-PRODUCTION READY / 20 IMAGE ASSETS 4K UPSCALED / NOT SCHEDULED",
   "publication_truth": "0 PUBLISHED / 0 SCHEDULED",
   "inventory": {
     "mainline_stills": "10/10 QA PASS",
@@ -20,7 +20,10 @@
       "RLS-S2-008",
       "RLS-S2-009",
       "RLS-S2-010"
-    ]
+    ],
+    "image_assets_4k": "20/20 QA PASS • 2160×3840",
+    "master_stills_4k": "10/10",
+    "starter_frames_4k": "10/10"
   },
   "metricool_schedules": [],
   "production_order": [

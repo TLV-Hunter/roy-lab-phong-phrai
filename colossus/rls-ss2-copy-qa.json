@@ -1,0 +1,136 @@
+{
+  "updated_at": "2026-10-02T15:14:00+07:00",
+  "status": "10/10 STILL COPY PASS • 10/10 REEL COPY PASS",
+  "entries": [
+    {
+      "id": "RLS-S2-001",
+      "still": {
+        "copy_qa": "PASS 99/100",
+        "caption": "The shark didn’t charge.\nIt turned and ran.\n\nThen we saw what was behind it.\n\nFictional AI wildlife concept.\n#OceanMystery #WildlifeCinema",
+        "comment": "If a great white suddenly turned away from your cage… would you look behind you?"
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "A great white was coming straight toward the cage.\n\nThen it changed its mind.\n\nFictional AI-generated wildlife scene.\n\n#OceanMystery #WildlifeCinema #AICinema",
+        "comment": "What makes a great white turn around that fast?"
+      }
+    },
+    {
+      "id": "RLS-S2-002",
+      "still": {
+        "copy_qa": "PASS 98/100",
+        "caption": "The water was clear enough to see it coming.\n\nThat somehow made it worse.\n\nFictional AI wildlife concept.\n#WildEncounter #Kayak",
+        "comment": "Freeze completely… or start paddling?"
+      },
+      "reel": {
+        "copy_qa": "PASS 99/100",
+        "caption": "I stopped paddling when the shadow reached the kayak.\n\nThen I realized it was still getting longer.\n\nFictional AI-generated wildlife scene.\n\n#WildEncounter #Kayaking #AICinema",
+        "comment": "Stay completely still—or start paddling for shore?"
+      }
+    },
+    {
+      "id": "RLS-S2-003",
+      "still": {
+        "copy_qa": "PASS 98/100",
+        "caption": "The ROV was there to inspect the rig.\n\nThe tuna gave us the scale.\n\nFictional AI deep-sea concept.\n#DeepOcean #ROV",
+        "comment": "Would you send the ROV closer—or bring it back immediately?"
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The tuna were normal.\n\nThat’s what made the next thing impossible to ignore.\n\nFictional AI-generated deep-ocean scene.\n\n#DeepOcean #ROV #AICinema",
+        "comment": "Would you send the ROV closer—or bring it back immediately?"
+      }
+    },
+    {
+      "id": "RLS-S2-004",
+      "still": {
+        "copy_qa": "PASS 97/100",
+        "caption": "The airboat was moving fast.\n\nThe alligator was keeping pace.\n\nFictional AI wildlife concept.\n#WildEncounter #Swamp",
+        "comment": "The scary part isn’t the head.\nLook how far the body keeps going."
+      },
+      "reel": {
+        "copy_qa": "PASS 98/100",
+        "caption": "The wake kept pace with the airboat.\n\nThen the back broke the surface.\n\nFictional AI-generated wildlife scene.\n\n#Alligator #WildEncounter #AICinema",
+        "comment": "Keep the throttle open—or slow down and let it pass?"
+      }
+    },
+    {
+      "id": "RLS-S2-005",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "A buoy shouldn’t disappear like that.\n\nEspecially straight down.\n\nFictional AI ocean concept.\n#OceanMystery #DeepWater",
+        "comment": "What would make you more nervous—the buoy disappearing or the shadow underneath the boat?"
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The buoy dipped twice.\n\nThe third movement took it straight down.\n\nFictional AI-generated ocean scene.\n\n#OceanMystery #DeepWater #AICinema",
+        "comment": "Forget the buoy for a second.\n\nWhat could pull that much rope straight down?"
+      }
+    },
+    {
+      "id": "RLS-S2-006",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "Every dog in the park stopped.\n\nThen this walked through the gate.\n\nFictional AI animal concept.\n#GiantAnimals #DogPark",
+        "comment": "Okay… who’s holding the leash?"
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "Every dog in the park stopped playing before the gate opened.\n\nThen we understood why.\n\nFictional AI-generated animal scene.\n\n#GiantDog #DogPark #AICinema",
+        "comment": "Be honest—would you be scared, or would you try to pet him?"
+      }
+    },
+    {
+      "id": "RLS-S2-007",
+      "still": {
+        "copy_qa": "PASS 98/100",
+        "caption": "The SUV looked perfectly normal.\n\nUntil the moose stepped out.\n\nFictional AI wildlife concept.\n#Moose #WildEncounter",
+        "comment": "You’re in the car.\nDo you reverse—or stay completely still?"
+      },
+      "reel": {
+        "copy_qa": "PASS 99/100",
+        "caption": "The first moose looked completely normal.\n\nThe second one made the SUV look small.\n\nFictional AI-generated wildlife scene.\n\n#Moose #WildEncounter #AICinema",
+        "comment": "You’re behind the wheel.\n\nStay put—or slowly back away?"
+      }
+    },
+    {
+      "id": "RLS-S2-008",
+      "still": {
+        "copy_qa": "PASS 95/100",
+        "caption": "The helicopter crew noticed the wake first.\n\nThen the river moved.\n\nFictional AI creature concept.\n#GiantSnake #WildEncounter",
+        "comment": "Watch the boat for scale.\nThat’s the part that makes this uncomfortable."
+      },
+      "reel": {
+        "copy_qa": "PASS 98/100",
+        "caption": "The helicopter crew noticed the water moving first.\n\nThen something started crossing the river.\n\nFictional AI-generated creature scene.\n\n#GiantSnake #RiverMystery #AICinema",
+        "comment": "Watch the boat for scale.\n\nHow much of that body do you think stayed underwater?"
+      }
+    },
+    {
+      "id": "RLS-S2-009",
+      "still": {
+        "copy_qa": "PASS 98/100",
+        "caption": "At first, we were watching the elk.\n\nThen we realized why they were running.\n\nFictional AI wildlife concept.\n#Grizzly #WildEncounter",
+        "comment": "When an entire herd runs in the same direction… you probably shouldn’t stay to see why."
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "At first, we were filming the elk.\n\nThen we realized the entire herd knew something we didn’t.\n\nFictional AI-generated wildlife scene.\n\n#GrizzlyBear #Wildlife #AICinema",
+        "comment": "The moment the whole herd changes direction—do you keep filming?"
+      }
+    },
+    {
+      "id": "RLS-S2-010",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "He made it only a few steps inside.\n\nThen the cave moved.\n\nFictional AI prehistoric survival concept.\n#PrimalSurvival #LostWorld",
+        "comment": "Torch in one hand.\nNo clear way out behind you.\n\nWhat’s your first move?"
+      },
+      "reel": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The bones were the first warning.\n\nThe footprints should have been enough.\n\nFictional AI-generated prehistoric survival scene.\n\n#PrimalSurvival #LostWorld #AICinema",
+        "comment": "The rocks fall somewhere ahead of you.\n\nDo you back out immediately—or look one more time?"
+      }
+    }
+  ]
+}

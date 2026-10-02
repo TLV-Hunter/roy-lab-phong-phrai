@@ -1,0 +1,288 @@
+{
+  "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
+  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 10s • 9:16 • FINAL REELS NOT GENERATED",
+  "updated_at": "2026-10-02T15:14:00+07:00",
+  "publication_truth": "0/10 PUBLISHED • 0/10 SCHEDULED",
+  "episodes": [
+    {
+      "id": "RLS-S2-001",
+      "title": "The Shark Turned Around",
+      "date": "PILOT 01",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s great white approaches cage → 1.5–3.5s hesitates and turns → 3.5–6s accelerates away → 6–8.5s enormous deep shadow crosses behind cage → 8.5–10s camera follows partial shadow and cuts.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "93/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 99/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/01-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-002",
+      "title": "Something Under the Kayak",
+      "date": "PILOT 02",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1s kayak drifts over entering shadow → 1–3.5s paddling stops → 3.5–6s one giant alligator surfaces parallel → 6–8.5s camera reveals one continuous body under clear water → 8.5–10s tail passes beneath kayak and rocks it slightly.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "90/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/02-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 99/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-003",
+      "title": "ROV-12 Behind the Oil Rig",
+      "date": "PILOT 03",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s ROV passes rig with normal tuna → 1.5–4s lights turn toward dark gap → 4–6s normal tuna scatter → 6–8.5s gigantic tuna-like fish passes behind column → 8.5–10s ROV reverses and signal flickers.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/03-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-004",
+      "title": "The Alligator Beside the Airboat",
+      "date": "PILOT 04",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1s airboat already moving → 1–3s broad wake forms beside it → 3–6s one giant alligator surfaces and keeps pace → 6–8.5s camera tracks its scale vs boat → 8.5–10s alligator moves ahead and submerges.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 97/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/04-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-005",
+      "title": "The Buoy Went Straight Down",
+      "date": "PILOT 05",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s buoy floats with tightening rope → 1.5–3.5s exactly two short downward jerks → 3.5–5s buoy is pulled straight under → 5–7.5s rope stays taut and water bulges → 7.5–9.5s huge indistinct shadow crosses below boat → 9.5–10s boat tilts slightly and cuts.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/05-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-006",
+      "title": "That Is Not a Normal Dog",
+      "date": "PILOT 06",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1s normal dog park → 1–2.5s dogs stop and look at gate → 2.5–5s owner enters → 5–8s giant but realistic Great Pyrenees walks in → 8–10s small dog barks once and giant dog tilts its head.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/06-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-007",
+      "title": "The Moose Was Taller Than the SUV",
+      "date": "PILOT 07",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–2s normal moose finishes crossing → 2–4s roadside vegetation moves → 4–7s giant second moose steps from trees → 7–9s stands beside SUV for scale → 9–10s turns toward dashcam.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/07-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 99/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-008",
+      "title": "Something Crossed Behind the Boat",
+      "date": "PILOT 08",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s helicopter tracks boat with abnormal disturbance already visible → 1.5–3.5s disturbance approaches path → 3.5–6s one python body section surfaces → 6–8.5s two connected sections surface sequentially → 8.5–10s final section submerges behind boat.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "94/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 95/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/08-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-009",
+      "title": "The Elk Stopped Running",
+      "date": "PILOT 09",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s elk herd runs → 1.5–3.5s entire herd veers together → 3.5–5s branch snaps/tree line moves → 5–7.5s giant realistic grizzly steps out → 7.5–9s elk scatter → 9–10s bear stops and looks toward camera.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 98/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/09-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-010",
+      "title": "The Cave Wasn't Empty",
+      "date": "PILOT 10",
+      "phase": "SS2 / USA PILOT SET 01",
+      "story_lock": "0–1.5s hunter enters deeper → 1.5–3s bones and oversized tracks → 3–5s stones fall and torch flickers → 5–7.5s giant realistic cave bear rises from darkness → 7.5–9s hunter backs away → 9–10s bear takes one step and cut.",
+      "still": {
+        "status": "ready",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "94/100 PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/10-master.jpg",
+        "publication": "NOT PUBLISHED"
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "PRE-PRODUCTION PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS 100/100",
+        "resolution": "1080×1920 TARGET",
+        "duration_sec": "10.000 TARGET",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    }
+  ],
+  "batch_status": [
+    {
+      "batch": "SS2 SET 01",
+      "range": "RLS-S2-001 → RLS-S2-010",
+      "status": "10/10 PRE-PRODUCTION QA PASS",
+      "passed": 10,
+      "total": 10,
+      "note": "Master Still + Starter Frame + Story Lock + 10s Video Prompt + Still/Reel Copy passed. Final Reels 0/10; publication not scheduled."
+    }
+  ]
+}

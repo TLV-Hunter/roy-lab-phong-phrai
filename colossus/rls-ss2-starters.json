@@ -1,0 +1,108 @@
+{
+  "updated_at": "2026-10-02T15:14:00+07:00",
+  "timezone": "Asia/Bangkok",
+  "status": "10/10 STARTER FRAMES QA PASS • 10/10 VIDEO PROMPTS QA PASS",
+  "rule": "Only QA-passed full-frame starter assets are exposed. Discarded collages, crop-only repairs, wrong-target generations and failed variants are excluded.",
+  "entries": [
+    {
+      "id": "RLS-S2-001",
+      "date": "PILOT 01",
+      "title": "The Shark Turned Around",
+      "starter_qa": "PASS 96/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/01-starter.jpg",
+      "story_lock": "0–1.5s great white approaches cage → 1.5–3.5s hesitates and turns → 3.5–6s accelerates away → 6–8.5s enormous deep shadow crosses behind cage → 8.5–10s camera follows partial shadow and cuts.",
+      "prompt": "SEEDANCE 2.5 / DOLA\nDURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: ultra-photorealistic live-action underwater documentary footage, natural action-camera realism, not CGI.\n\nREFERENCE ASSIGNMENT:\nUse the supplied STARTER FRAME as the exact FRAME 0. Preserve the same shark cage, great white shark identity, shark size, diver/camera position, water color, lighting, visibility and depth. Do not redesign the shark or environment.\n\nTIMELINE:\n0.0–1.5s: The great white swims naturally toward the cage at moderate speed.\n1.5–3.5s: The shark slows, hesitates, then makes one sharp biologically believable turn away.\n3.5–6.0s: The shark accelerates away rapidly with stronger turbulence and bubbles.\n6.0–8.5s: Only now, a huge indistinct dark mass moves through deeper water behind the cage. Never show a complete creature.\n8.5–10.0s: Camera turns slightly to follow only part of the enormous silhouette disappearing through blue haze. Hard cut.\n\nPHYSICS / SCALE LOCK:\nNatural shark swimming physics. Same shark throughout. No morphing, teleporting or size change. Unknown mass stays deeper and farther away.\n\nCAMERA:\nUnderwater action camera inside shark cage. Small human handheld imperfections only.\n\nSOUND:\nRegulator breathing, bubbles, cage-metal creaks, water movement, stronger bubble rush on turn. No monster roar.\n\nNEGATIVE:\nno extra sharks, no attack, no blood, no gore, no recognizable whale or dinosaur, no fantasy spikes, no morphing, no teleportation, no text, no subtitles, no watermark."
+    },
+    {
+      "id": "RLS-S2-002",
+      "date": "PILOT 02",
+      "title": "Something Under the Kayak",
+      "starter_qa": "PASS 98/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/02-starter.jpg",
+      "story_lock": "0–1s kayak drifts over entering shadow → 1–3.5s paddling stops → 3.5–6s one giant alligator surfaces parallel → 6–8.5s camera reveals one continuous body under clear water → 8.5–10s tail passes beneath kayak and rocks it slightly.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic smartphone / action-camera POV, natural swamp daylight.\n\nREFERENCE ASSIGNMENT:\nSTARTER FRAME = exact FRAME 0. Keep identical kayak, hands, legs, paddle, water clarity, shoreline and lighting.\n\nTIMELINE:\n0.0–1.0s: Kayak drifts slowly forward; indistinct long shadow begins entering beneath the bow.\n1.0–3.5s: Kayaker stops paddling; shadow grows closer.\n3.5–6.0s: EXACTLY ONE gigantic American alligator begins surfacing beside the kayak, swimming parallel.\n6.0–8.5s: Camera tilts down; clear water reveals one continuous anatomically correct body from head through torso to one long tail, several times longer than kayak.\n8.5–10.0s: Tail passes beneath rear kayak, creating believable displacement and small rocking motion. Cut before attack.\n\nANATOMY LOCK:\nexactly one alligator; one head; one torso; four limbs; one tail; continuous body.\n\nPHYSICS:\nNatural water push; no teleporting; no size change; no collision or attack.\n\nSOUND:\npaddle drip, gentle water, hull creak, increasing displacement, small tail splash.\n\nNEGATIVE:\nno second alligator, no duplicate anatomy, no attack, no blood, no giant splash explosion, no monster roar, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-003",
+      "date": "PILOT 03",
+      "title": "ROV-12 Behind the Oil Rig",
+      "starter_qa": "PASS 97/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/03-starter.jpg",
+      "story_lock": "0–1.5s ROV passes rig with normal tuna → 1.5–4s lights turn toward dark gap → 4–6s normal tuna scatter → 6–8.5s gigantic tuna-like fish passes behind column → 8.5–10s ROV reverses and signal flickers.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: authentic deep-sea industrial ROV footage, photorealistic.\n\nREFERENCE:\nSTARTER FRAME = FRAME 0. Preserve ROV, rig columns, corrosion, water visibility, normal tuna and lighting.\n\nTIMELINE:\n0.0–1.5s: ROV moves slowly beside rig; one normal tuna crosses lights for scale.\n1.5–4.0s: ROV rotates lights toward dark structural gap.\n4.0–6.0s: Several normal tuna abruptly scatter.\n6.0–8.5s: A gigantic anatomically believable tuna-like fish, about 10–15 times normal tuna length, passes behind rig column while structure remains visible for scale.\n8.5–10.0s: ROV reverses; slight camera vibration and brief signal flicker before cut.\n\nCAMERA:\nMounted ROV camera, slow mechanical pan only.\n\nPHYSICS:\nReal underwater inertia. Large fish moves slowly from mass. No instant appearance or morphing.\n\nSOUND:\nthruster hum, servo movement, faint sonar ping, underwater mechanical noise, brief signal distortion.\n\nNEGATIVE:\nno fantasy monster anatomy, no giant teeth, no glowing eyes, no multiple giant fish, no ROV attack, no CGI look, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-004",
+      "date": "PILOT 04",
+      "title": "The Alligator Beside the Airboat",
+      "starter_qa": "PASS 96/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/04-starter.jpg",
+      "story_lock": "0–1s airboat already moving → 1–3s broad wake forms beside it → 3–6s one giant alligator surfaces and keeps pace → 6–8.5s camera tracks its scale vs boat → 8.5–10s alligator moves ahead and submerges.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic action-camera wildlife footage.\n\nREFERENCE:\nSTARTER FRAME = FRAME 0. Preserve exact airboat, passengers, swamp geography, daylight and camera position.\n\nTIMELINE:\n0.0–1.0s: Airboat already moves quickly; normal vibration and wake.\n1.0–3.0s: Broad unusual wake develops beside boat; one passenger turns.\n3.0–6.0s: EXACTLY ONE gigantic American alligator gradually surfaces and swims parallel.\n6.0–8.5s: Camera tracks from head toward torso/tail, revealing animal about 1.5–2 times airboat length.\n8.5–10.0s: Alligator accelerates slightly ahead and smoothly submerges, leaving physically believable wake. Cut.\n\nLOCK:\nOne alligator only, consistent size, realistic anatomy, no attack.\n\nSOUND:\nairboat fan/engine, wind buffeting, water spray, heavy displacement, slight engine pitch rise.\n\nNEGATIVE:\nno multiplying crocodiles, no biting boat, no falling passengers, no blood, no monster roar, no morph, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-005",
+      "date": "PILOT 05",
+      "title": "The Buoy Went Straight Down",
+      "starter_qa": "PASS 98/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/05-starter.jpg",
+      "story_lock": "0–1.5s buoy floats with tightening rope → 1.5–3.5s exactly two short downward jerks → 3.5–5s buoy is pulled straight under → 5–7.5s rope stays taut and water bulges → 7.5–9.5s huge indistinct shadow crosses below boat → 9.5–10s boat tilts slightly and cuts.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic fisherman POV, consumer action-camera realism.\n\nREFERENCE:\nUse the approved full-frame STARTER 05 as exact FRAME 0. Preserve boat rail, arm, rope, buoy, ocean and daylight.\n\nTIMELINE:\n0.0–1.5s: Buoy floats normally; rope becomes noticeably tighter.\n1.5–3.5s: Buoy gives exactly TWO sudden short downward jerks.\n3.5–5.0s: Buoy is pulled STRAIGHT DOWN below surface and disappears.\n5.0–7.5s: Rope remains taut and cuts through water; water beside hull bulges and swirls.\n7.5–9.5s: Very large indistinct shadow passes beneath boat; never reveal identifiable creature.\n9.5–10.0s: Boat tilts gently several degrees from displaced water. Hard cut.\n\nPHYSICS LOCK:\nBuoy cannot teleport. Rope remains continuously connected. Tension transfers naturally. Boat reacts only slightly. Creature never surfaces.\n\nSOUND:\nrope fibers straining, two small jerks/splashes, final splash, hull creak, low underwater pressure rumble.\n\nNEGATIVE:\nno visible whale, no visible shark, no tentacles, no sea-monster reveal, no snapped rope, no capsizing, no blood, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-006",
+      "date": "PILOT 06",
+      "title": "That Is Not a Normal Dog",
+      "starter_qa": "PASS 97/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/06-starter.jpg",
+      "story_lock": "0–1s normal dog park → 1–2.5s dogs stop and look at gate → 2.5–5s owner enters → 5–8s giant but realistic Great Pyrenees walks in → 8–10s small dog barks once and giant dog tilts its head.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: casual photorealistic smartphone video at a USA dog park.\n\nREFERENCE:\nSTARTER FRAME = exact FRAME 0. Keep same park, gate, people, normal dogs, daylight and smartphone camera position.\n\nTIMELINE:\n0.0–1.0s: Normal dog-park activity continues.\n1.0–2.5s: Several dogs stop and turn toward entrance gate nearly together.\n2.5–5.0s: Gate opens; adult owner walks through first.\n5.0–8.0s: Gigantic Great Pyrenees calmly walks through behind owner. Anatomy stays realistic; scale extraordinary, with head around owner chest-to-shoulder level and clearly larger than normal dogs.\n8.0–10.0s: One small dog barks once. Giant dog stops calmly and tilts head. Cut.\n\nBEHAVIOR:\nFriendly, calm, curious. No aggression or panic.\n\nSCALE LOCK:\nOwner and normal dogs remain visible. Giant dog never changes size.\n\nSOUND:\ndog-park ambience, collar jingles, footsteps, one small bark, subtle crowd reaction.\n\nNEGATIVE:\nno monster dog, no extra limbs, no deformed paws, no aggression, no attack, no roaring, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-007",
+      "date": "PILOT 07",
+      "title": "The Moose Was Taller Than the SUV",
+      "starter_qa": "PASS 95/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/07-starter.jpg",
+      "story_lock": "0–2s normal moose finishes crossing → 2–4s roadside vegetation moves → 4–7s giant second moose steps from trees → 7–9s stands beside SUV for scale → 9–10s turns toward dashcam.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: realistic dashcam video.\n\nREFERENCE:\nSTARTER FRAME = FRAME 0. Preserve mountain highway, stopped SUV, normal moose, forest, mountains and dashcam.\n\nTIMELINE:\n0.0–2.0s: Normal-size moose finishes crossing toward opposite shoulder.\n2.0–4.0s: Roadside vegetation behind SUV moves; brake lights stay on.\n4.0–7.0s: Second gigantic moose slowly steps from tree line; realistic anatomy, shoulder height clearly above SUV roofline.\n7.0–9.0s: It takes two slow steps and stands beside SUV for unmistakable scale.\n9.0–10.0s: Giant moose calmly turns head toward dashcam. Cut.\n\nPHYSICS:\nAll four hooves contact ground naturally. No floating, jumping on vehicles or collision.\n\nSOUND:\nidling engine, wind, light brake/tire sound, hooves on pavement, forest ambience.\n\nNEGATIVE:\nno moose on car, no floating animal, no attack, no collision, no antler morphing, no extra legs, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-008",
+      "date": "PILOT 08",
+      "title": "Something Crossed Behind the Boat",
+      "starter_qa": "PASS 93/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/08-starter.jpg",
+      "story_lock": "0–1.5s helicopter tracks boat with abnormal disturbance already visible → 1.5–3.5s disturbance approaches path → 3.5–6s one python body section surfaces → 6–8.5s two connected sections surface sequentially → 8.5–10s final section submerges behind boat.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic helicopter observation footage over a tropical river.\n\nIMPORTANT FRAME-0 ALIGNMENT:\nUse approved full-frame helicopter STARTER 08 exactly as Frame 0. The unusual long surface disturbance already visible is INTENTIONAL. The snake itself must NOT yet be visible.\n\nTIMELINE:\n0.0–1.5s: Helicopter tracks small boat; existing abnormal disturbance acts as hook.\n1.5–3.5s: Disturbance changes direction slightly and approaches boat path, behaving like a huge submerged animal rather than speedboat wake.\n3.5–6.0s: One short section of gigantic python body breaks surface at distance; keep boat visible for scale.\n6.0–8.5s: Two more connected sections of SAME python surface sequentially. Never reveal whole animal at once.\n8.5–10.0s: Final body section submerges behind moving boat; broad wake crosses behind it. Cut.\n\nSCALE / CONTINUITY:\nExactly one python. Sections belong to same continuous animal. Consistent diameter/scale. Boat unchanged.\n\nCAMERA:\nReal helicopter observation camera; small rotor vibration; slow tracking only.\n\nSOUND:\nhelicopter rotor, wind, brief radio chatter, boat engine, large water displacement.\n\nNEGATIVE:\nno multiple snakes, no instant full snake, no attack on boat, no dragon head, no oversized fangs, no blood, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-009",
+      "date": "PILOT 09",
+      "title": "The Elk Stopped Running",
+      "starter_qa": "PASS 98/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/09-starter.jpg",
+      "story_lock": "0–1.5s elk herd runs → 1.5–3.5s entire herd veers together → 3.5–5s branch snaps/tree line moves → 5–7.5s giant realistic grizzly steps out → 7.5–9s elk scatter → 9–10s bear stops and looks toward camera.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic handheld wildlife footage in North American mountain forest.\n\nREFERENCE:\nSTARTER FRAME = exact FRAME 0. Preserve elk herd, forest, stream/terrain, mountain geography and daylight.\n\nTIMELINE:\n0.0–1.5s: Elk herd continues running quickly.\n1.5–3.5s: Entire herd abruptly veers in same direction.\n3.5–5.0s: Thick branch snaps and tree-line vegetation shakes.\n5.0–7.5s: Gigantic grizzly steps naturally from trees; realistic anatomy, roughly 2.5–3 times normal adult mass; elk remain visible for scale.\n7.5–9.0s: Elk scatter in multiple directions.\n9.0–10.0s: Bear does NOT chase. It stops, raises head and looks toward camera. Cut.\n\nSOUND:\nrapid hoofbeats, stream/wind ambience, branch snap, heavy footsteps, natural bear breathing.\n\nNEGATIVE:\nno bear attack, no biting elk, no gore, no monster roar, no size change, no extra bears, no text, no watermark."
+    },
+    {
+      "id": "RLS-S2-010",
+      "date": "PILOT 10",
+      "title": "The Cave Wasn't Empty",
+      "starter_qa": "PASS 98/100",
+      "prompt_qa": "PASS",
+      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/10-starter.jpg",
+      "story_lock": "0–1.5s hunter enters deeper → 1.5–3s bones and oversized tracks → 3–5s stones fall and torch flickers → 5–7.5s giant realistic cave bear rises from darkness → 7.5–9s hunter backs away → 9–10s bear takes one step and cut.",
+      "prompt": "DURATION: EXACTLY 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: photorealistic prehistoric survival cinema with grounded naturalism.\n\nREFERENCE:\nSTARTER FRAME = exact FRAME 0. Preserve adult hunter, torch, clothing, cave entrance, rock geometry, bones and lighting.\n\nTIMELINE:\n0.0–1.5s: Hunter takes careful steps deeper holding torch forward.\n1.5–3.0s: Camera briefly reveals old bones and unusually large footprints.\n3.0–5.0s: Small stones fall deeper inside; torch flickers from subtle air movement; hunter stops.\n5.0–7.5s: From darkness, gigantic prehistoric cave bear slowly rises onto all fours and becomes visible, anatomically realistic, body nearly filling passage width.\n7.5–9.0s: Hunter backs away several steps; torch/camera shake increase naturally.\n9.0–10.0s: Bear takes exactly ONE heavy step forward. Cut before confrontation.\n\nPHYSICS:\nBear emerges gradually into torchlight. No teleporting or instant reveal. Hunter identity/clothes stay fixed.\n\nSOUND:\ntorch crackle, cave ambience, falling stones, gravel footsteps, natural bear breathing, one heavy step.\n\nNEGATIVE:\nno attack, no bite, no blood, no gore, no weapon fight, no fantasy bear, no extra limbs, no text, no watermark."
+    }
+  ]
+}

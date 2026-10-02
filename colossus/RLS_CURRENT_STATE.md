@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-09-10 23:10 Asia/Bangkok
+Updated: 2026-10-02 15:14 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -131,3 +131,20 @@ Publication truth remains independent from website readiness.
 2. Do not count 23790 as a new authority; it is an alternate RLS-025 take.
 3. Keep publication truth synchronized only with actual confirmed posts.
 4. Continue Facebook Page Step 3 — COVER V2 independently, or execute the next publication/catch-up action from the Official Daily Queue when requested.
+
+
+## SS2 — EXTREME ENCOUNTERS / USA PILOT SET 01
+Milestone: 2026-10-02
+- Market-pivot pilot ACTIVE as SS2 test; SS1 / The Hidden Forest Archive is preserved.
+- SS2 Master Stills: 10/10 QA PASS.
+- SS2 Starter Frames: 10/10 QA PASS.
+- Discarded / wrong-target / collage / crop-only repair images are NOT counted and are NOT exposed on the website.
+- SS2 Story Reel locks: 10/10 QA PASS, exactly 10 seconds each.
+- SS2 Video Prompts: 10/10 QA PASS, 9:16, exact 10-second target, camera/physics/scale/anatomy/negative locks included.
+- SS2 Still Caption + Pinned Comment: 10/10 QA PASS.
+- SS2 Reel Caption + Pinned Comment: 10/10 QA PASS.
+- SS2 Final Reels: 0/10 generated.
+- SS2 Publication: 0/10 PUBLISHED; 0/10 SCHEDULED.
+- Website SS2 Desk: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss2.html
+- Website SS2 Production Queue: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss2-daily-queue.html
+- Exact next production action: generate RLS-S2-001 — The Shark Turned Around from its locked full-frame Starter and 10-second prompt; QA the real video before proceeding to RLS-S2-002.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-02 22:30 Asia/Bangkok
+Updated: 2026-10-03 23:15 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -226,3 +226,21 @@ Milestone: 2026-10-02
 - These six images are production references only, not public post assets and not Final Reels.
 - RLS-S2-001 Final Reel remains 0/1 PASS.
 - Exact next action: write the Seedance 2.5 15-second prompt that explicitly assigns Starter Frame = Frame 0 and Beat 1→6 as sequential visual authorities, then regenerate RLS-S2-001 and QA the real result before proceeding to RLS-S2-002.
+
+
+## SS2 RLS-S2-002 — 15s STORYBOARD CONTROL PACK
+Milestone: 2026-10-03
+- Master Still authority rechecked: first-person green kayak POV in clear mangrove water; giant single alligator runs parallel beside the kayak as reveal-state / scale authority.
+- Starter authority rechecked from locked project state: same kayak POV / paddler / paddle / water / shoreline, but pre-reveal; only a long submerged shadow is visible near/beneath the bow.
+- Previous crocodile-river external-camera storyboard was discarded as wrong continuity.
+- Rebuilt 6-beat 15-second storyboard:
+  1) submerged shadow approaching,
+  2) paddle stop + shadow parallel,
+  3) armored back surfaces,
+  4) continuous body reveal,
+  5) same tail passes under/occluded by kayak,
+  6) tail exits behind with wake.
+- Exactly one alligator is the continuity authority throughout. No attack / no duplicate animal / no disconnected tail.
+- Combined storyboard delivery: RLS_S2_002_STORYBOARD_6BEAT_FINAL_V2_9x16.png
+- QA: PASS as Seedance 2.5 visual-control reference.
+- Exact next action: use Starter Frame 02 as IMAGE 1 and the corrected 6-beat storyboard as IMAGE 2 with the 15-second RLS-S2-002 prompt; generate real clip and QA before moving to RLS-S2-003.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-03 23:15 Asia/Bangkok
+Updated: 2026-10-04 21:55 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -244,3 +244,19 @@ Milestone: 2026-10-03
 - Combined storyboard delivery: RLS_S2_002_STORYBOARD_6BEAT_FINAL_V2_9x16.png
 - QA: PASS as Seedance 2.5 visual-control reference.
 - Exact next action: use Starter Frame 02 as IMAGE 1 and the corrected 6-beat storyboard as IMAGE 2 with the 15-second RLS-S2-002 prompt; generate real clip and QA before moving to RLS-S2-003.
+
+
+## SS2 RLS-S2-003 — 15s STORYBOARD QA PASS
+Milestone: 2026-10-04
+- Concept: ROV-12 Behind the Oil Rig.
+- Format: 15 seconds, 9:16, 6 continuous beats.
+- Beat 1 0.0–2.5s: ROV inspection + normal tuna scale reference.
+- Beat 2 2.5–5.0s: ROV turns light into dark gap between rig pillars.
+- Beat 3 5.0–7.5s: normal tuna scatter.
+- Beat 4 7.5–10.0s: giant realistic tuna begins to pass from behind pillar; partial head/front-body reveal.
+- Beat 5 10.0–12.5s: same giant tuna mid-body continues behind pillar; rig remains scale/occlusion reference.
+- Beat 6 12.5–15.0s: tail/rear section passes; ROV backs away; subtle signal glitch; cut.
+- QA result: PASS for story order, continuity, scale logic, single-animal continuity, realistic tuna anatomy, ROV camera logic, and 15-second timing.
+- Storyboard is a planning/temporal-control reference, not a Final Reel.
+- Publication status unchanged.
+- Exact next action: build the Seedance 2.5 15-second prompt for RLS-S2-003 using the approved 6-beat timing and then QA the real generated clip before progressing.

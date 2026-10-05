@@ -1,12 +1,12 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "status": "PRE-PRODUCTION READY / 20 IMAGE ASSETS 4K UPSCALED / NOT SCHEDULED",
+  "status": "PRE-PRODUCTION READY / 15s PROMPTS LOCKED / 20 IMAGE ASSETS 4K UPSCALED / NOT SCHEDULED",
   "publication_truth": "0 PUBLISHED / 0 SCHEDULED",
   "inventory": {
     "mainline_stills": "10/10 QA PASS",
     "starter_frames": "10/10 QA PASS",
-    "story_locks": "10/10 QA PASS",
-    "video_prompts": "10/10 QA PASS",
+    "story_locks": "10/10 QA PASS • 15s / 6-BEAT",
+    "video_prompts": "10/10 QA PASS • SEEDANCE 2.5 / DOLA • EXACT 15s",
     "copy_packages": "10/10 QA PASS",
     "final_reels_ready": "0/10",
     "remaining_reels": [

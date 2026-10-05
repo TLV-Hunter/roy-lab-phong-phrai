@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 12:20 Asia/Bangkok
+Updated: 2026-10-05 22:25 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -303,3 +303,21 @@ Milestone: 2026-10-05
 - IMAGE roles locked: Master Still = reveal/scale/world authority; Starter Frame = exact Frame 0 authority; Storyboard = temporal/action authority; Prompt = motion/physics/timing authority.
 - Publication/final-reel status unchanged.
 - Exact next action: wait for command to continue to STEP 3 — 15-second Beat Map for EP04. Do not generate storyboard or upload website assets before that step.
+
+
+## SS2 WORKFLOW REVIEW — EP04 STEP 3 BEAT MAP LOCK
+Milestone: 2026-10-05
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS.
+- STEP 3 15-second Beat Map: PASS / LOCKED.
+- Episode: RLS-S2-004 — The Alligator Beside the Airboat.
+- Beat timing:
+  1) 0.0–2.5s FAST AIRBOAT / establish speed and normality.
+  2) 2.5–5.0s UNUSUAL WAKE / anomaly beside right side; no full animal reveal.
+  3) 5.0–7.5s SURFACE / exactly one giant alligator gradually reveals armored back + partial head, parallel to boat.
+  4) 7.5–10.0s SCALE SWEEP / same animal; connected head→torso→beginning tail; airboat remains scale anchor.
+  5) 10.0–12.5s MOVES AHEAD / same animal slightly overtakes while remaining parallel; no attack.
+  6) 12.5–15.0s SUBMERGE / same animal smoothly submerges, tail last; believable wake; hard cut.
+- Continuity locks: one alligator only; same airboat/passengers/camera/world; scale approx 1.5–2× airboat length; no external camera; no attack; no teleport/morph/size drift.
+- Storyboard generation is NOT started yet in this review flow.
+- Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP04 (panel-by-panel visual authority), before generating any storyboard image.

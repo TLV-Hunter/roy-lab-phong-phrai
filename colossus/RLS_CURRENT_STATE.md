@@ -292,3 +292,14 @@ Milestone: 2026-10-05
 - Storyboards are temporal-control references for Seedance 2.5, not public post assets and not Final Reels.
 - Final Reel status remains unchanged until real generated clips pass clip QA.
 - Exact next action: generate and QA the next real 15-second clip using IMAGE 1 Starter Frame + IMAGE 2 final storyboard + locked 15-second prompt.
+
+
+## SS2 WORKFLOW REVIEW OVERRIDE — EP04
+Milestone: 2026-10-05
+- The earlier EP04–EP10 storyboard batch milestone is superseded for current operations. Any in-progress/recent batch regeneration or upload attempts are cancelled and must not be treated as final production truth.
+- Current operating mode: document and validate the RLS SS2 workflow one step at a time using RLS-S2-004 as the live use case.
+- STEP 1 Story Lock: PASS / LOCKED.
+- STEP 2 Visual Authority: Master Still 04 = READY, QA 96/100 PASS, 2160×3840 4K-upscaled from QA-passed 1080×1920 master; Starter Frame 04 = QA 96/100 PASS, 2160×3840 4K-upscaled, full frame preserved.
+- IMAGE roles locked: Master Still = reveal/scale/world authority; Starter Frame = exact Frame 0 authority; Storyboard = temporal/action authority; Prompt = motion/physics/timing authority.
+- Publication/final-reel status unchanged.
+- Exact next action: wait for command to continue to STEP 3 — 15-second Beat Map for EP04. Do not generate storyboard or upload website assets before that step.

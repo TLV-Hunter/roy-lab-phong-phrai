@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 22:48 Asia/Bangkok
+Updated: 2026-10-05 22:55 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -370,3 +370,16 @@ Milestone: 2026-10-05
 - Discard earlier failed storyboard attempts from this step; do not count them.
 - Website upload has NOT happened yet under this reviewed workflow.
 - Exact next action: wait for user command to continue to STEP 6 — Seedance 2.5 Generation Prompt Assembly using Starter Frame 04 as IMAGE 1 and this storyboard as IMAGE 2. Website upload remains a later step after the planned workflow reaches it.
+
+
+## SS2 WORKFLOW REVIEW — EP04 STEP 5 QA CORRECTION
+Milestone: 2026-10-05
+- The previously recorded STEP 5 PASS is superseded by direct visual QA of the final storyboard image.
+- Current STEP 5 result: REVISE / NOT FINAL.
+- PASS: Beat 1 establishes normal fast airboat; Beat 2 is wake-only with no readable alligator anatomy; Beat 6 has a tail-last submerge direction and no attack.
+- REVISE: Beat 3 reveals too much of the head/front body and is too close to the boat/camera versus the locked gradual partial-reveal spec. It should primarily show armored back + limited partial head, with 50%+ of the animal still hidden by water and slightly farther from the boat.
+- REVISE: Beat 4 reads as another close creature portrait more than a clean scale-sweep. The airboat remains visible, but the frame should better emphasize continuous head→torso→beginning-tail and the boat/alligator length relationship rather than face proximity.
+- Beat 5 is directionally acceptable as the same animal moving ahead, but must be rechecked after Beat 3–4 repair for continuous body position and scale.
+- Earlier generated versions remain discarded.
+- Do not upload this storyboard to the website as Final.
+- Exact next action: repair Beat 3 and Beat 4 only, preserve Beats 1–2 and 5–6, then QA the complete six-panel storyboard again before Step 6.

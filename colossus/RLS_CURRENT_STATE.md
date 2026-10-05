@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 11:50 Asia/Bangkok
+Updated: 2026-10-05 12:20 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -274,3 +274,21 @@ Milestone: 2026-10-05
 - Final Reels remain unconfirmed until real generated clips pass clip QA; publication truth is unchanged.
 - Canonical prompt pack: RLS_SET01_SEEDANCE25_15S_PROMPT_PACK_FINAL.md in the current production chat.
 - Exact next action: continue generation/QA sequentially from the current episode using the 15-second prompt, then build/repair storyboard control only where the real generation needs it.
+
+
+## SS2 SET 01 — STORYBOARD 15s / 6-BEAT PACK COMPLETED FOR EP04–EP10
+Milestone: 2026-10-05
+- EP04 through EP10 were rebuilt as 15-second visual-control storyboards using six 2.5-second beats.
+- Production method: generate each beat as its own image first, QA each beat, repair failed beats only, then assemble a 2×3 storyboard with exact Beat/Timecode labels.
+- Failed multi-episode collages and wrong-target generations were discarded and are NOT counted.
+- EP04 — The Alligator Beside the Airboat: 6/6 beat images PASS; final storyboard assembled.
+- EP05 — The Buoy Went Straight Down: 6/6 beat images PASS; mystery/rope continuity retained; final storyboard assembled.
+- EP06 — That Is Not a Normal Dog: 6/6 beat images PASS; exactly one giant Great Pyrenees, friendly/cute payoff; final storyboard assembled.
+- EP07 — The Moose Was Taller Than the SUV: repaired Beat 2 to remove premature giant-moose reveal and Beat 3 to keep the giant moose on the ground beside the SUV; 6/6 PASS; final storyboard assembled.
+- EP08 — Something Crossed Behind the Boat: repaired Beat 2–6 to preserve helicopter river geography, disturbance-first reveal, connected python body sections and no head/full-snake reveal; 6/6 PASS; final storyboard assembled.
+- EP09 — The Elk Stopped Running: repaired Beat 2 for natural herd spacing; 6/6 PASS; final storyboard assembled.
+- EP10 — The Cave Wasn't Empty: 6/6 PASS; hunter/bones/warning/bear reveal/retreat/one-step sequence preserved; final storyboard assembled.
+- All final storyboard canvases: 1080×1920, 2 columns × 3 rows, with exact labels: 0.0–2.5 / 2.5–5.0 / 5.0–7.5 / 7.5–10.0 / 10.0–12.5 / 12.5–15.0.
+- Storyboards are temporal-control references for Seedance 2.5, not public post assets and not Final Reels.
+- Final Reel status remains unchanged until real generated clips pass clip QA.
+- Exact next action: generate and QA the next real 15-second clip using IMAGE 1 Starter Frame + IMAGE 2 final storyboard + locked 15-second prompt.

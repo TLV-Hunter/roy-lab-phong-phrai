@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 22:55 Asia/Bangkok
+Updated: 2026-10-05 23:18 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -383,3 +383,20 @@ Milestone: 2026-10-05
 - Earlier generated versions remain discarded.
 - Do not upload this storyboard to the website as Final.
 - Exact next action: repair Beat 3 and Beat 4 only, preserve Beats 1–2 and 5–6, then QA the complete six-panel storyboard again before Step 6.
+
+
+## SS2 WORKFLOW REVIEW — EP04 STEP 5 FINAL STORYBOARD PASS
+Milestone: 2026-10-05
+- Previous STEP 5 REVISE state is superseded by repaired storyboard QA.
+- Final storyboard candidate: latest repaired 6-panel EP04 storyboard generated after Beat 3–4 corrections.
+- QA result: PASS / LOCKED for production reference use.
+- Beat 1: fast airboat, normality established, no creature reveal.
+- Beat 2: wake-only anomaly on right side, no readable alligator anatomy.
+- Beat 3: gradual partial reveal, armored back + limited head visible, still parallel to boat.
+- Beat 4: main scale-sweep state, same alligator body continuity and airboat retained as scale anchor.
+- Beat 5: same animal advances slightly while remaining parallel, no contact/attack.
+- Beat 6: tail-last submerge with broad believable wake and no second animal.
+- Continuity PASS: one alligator only; onboard camera logic preserved; same swamp world; right-side reveal path; no teleport/morph/size jump; no attack.
+- Earlier failed/revise storyboard generations from STEP 5 remain discarded and must not be reused.
+- Website upload has NOT happened yet under reviewed workflow.
+- Exact next action: wait for user command to continue to STEP 6 — assemble/QA final Seedance 2.5 15-second generation prompt using Starter Frame 04 as IMAGE 1 and this final storyboard as IMAGE 2.

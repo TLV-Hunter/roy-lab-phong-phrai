@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-04 21:55 Asia/Bangkok
+Updated: 2026-10-05 11:50 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -260,3 +260,17 @@ Milestone: 2026-10-04
 - Storyboard is a planning/temporal-control reference, not a Final Reel.
 - Publication status unchanged.
 - Exact next action: build the Seedance 2.5 15-second prompt for RLS-S2-003 using the approved 6-beat timing and then QA the real generated clip before progressing.
+
+
+## SS2 SET 01 — ALL VIDEO PROMPTS UPDATED TO 15s
+Milestone: 2026-10-05
+- All RLS-S2-001 through RLS-S2-010 video prompts are now updated from 10 seconds to EXACTLY 15 seconds.
+- Standard structure: 9:16, Audio ON, 6 chronological beats of 2.5 seconds each unless an episode-specific control requires equivalent timing.
+- IMAGE 1 remains Starter Frame / exact Frame 0 authority.
+- IMAGE 2, when available, is storyboard temporal guidance only and must never be rendered as a grid/panel layout.
+- 001, 002 and 003 preserve their tested/approved special controls from current production QA.
+- 004–010 are converted to the same 15-second 6-beat continuity model with episode-specific anatomy/physics/camera/negative locks.
+- Prompt QA: 10/10 PASS for pre-production use.
+- Final Reels remain unconfirmed until real generated clips pass clip QA; publication truth is unchanged.
+- Canonical prompt pack: RLS_SET01_SEEDANCE25_15S_PROMPT_PACK_FINAL.md in the current production chat.
+- Exact next action: continue generation/QA sequentially from the current episode using the 15-second prompt, then build/repair storyboard control only where the real generation needs it.

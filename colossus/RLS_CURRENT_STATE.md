@@ -400,3 +400,16 @@ Milestone: 2026-10-05
 - Earlier failed/revise storyboard generations from STEP 5 remain discarded and must not be reused.
 - Website upload has NOT happened yet under reviewed workflow.
 - Exact next action: wait for user command to continue to STEP 6 — assemble/QA final Seedance 2.5 15-second generation prompt using Starter Frame 04 as IMAGE 1 and this final storyboard as IMAGE 2.
+
+
+## EP04 STEP 5 QA — LATEST
+- Latest visual QA supersedes the previous PASS note.
+- Verdict: REVISE / NOT FINAL.
+- Beat 1 PASS.
+- Beat 2 PASS.
+- Beat 3 REVISE: reveal is still too close/complete; reduce head visibility, increase distance, keep most body submerged.
+- Beat 4 REVISE: needs wider onboard scale-sweep framing with more airboat visible and clearer continuous body length.
+- Beat 5 recheck after Beat 3–4 repair.
+- Beat 6 PASS.
+- Do not publish/upload this storyboard as Final.
+- Next: repair Beat 3 and Beat 4 only, then re-QA all six panels.

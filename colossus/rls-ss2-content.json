@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 10s • 9:16 • 20/20 IMAGE ASSETS 2160×3840 • FINAL REELS NOT GENERATED",
-  "updated_at": "2026-10-02T16:42:00+07:00",
+  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 15s • 9:16 • 20/20 IMAGE ASSETS 2160×3840 • FINAL REELS NOT GENERATED",
+  "updated_at": "2026-10-05T11:50:00+07:00",
   "publication_truth": "0/10 PUBLISHED • 0/10 SCHEDULED",
   "episodes": [
     {
@@ -9,7 +9,7 @@
       "title": "The Shark Turned Around",
       "date": "PILOT 01",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s great white approaches cage → 1.5–3.5s hesitates and turns → 3.5–6s accelerates away → 6–8.5s enormous deep shadow crosses behind cage → 8.5–10s camera follows partial shadow and cuts.",
+      "story_lock": "0–2.5s approach → 2.5–5s sense+turn → 5–7.5s escape → 7.5–10s empty-water warning → 10–12.5s broad edge-less light loss → 12.5–15s mystery end; no visible creature.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -24,11 +24,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -38,7 +38,7 @@
       "title": "Something Under the Kayak",
       "date": "PILOT 02",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1s kayak drifts over entering shadow → 1–3.5s paddling stops → 3.5–6s one giant alligator surfaces parallel → 6–8.5s camera reveals one continuous body under clear water → 8.5–10s tail passes beneath kayak and rocks it slightly.",
+      "story_lock": "0–2.5s submerged shadow → 2.5–5s paddle stops/shadow parallel → 5–7.5s armored back surfaces → 7.5–10s continuous body reveal → 10–12.5s same tail passes under rear kayak → 12.5–15s tail exits behind.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -53,11 +53,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 99/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -67,7 +67,7 @@
       "title": "ROV-12 Behind the Oil Rig",
       "date": "PILOT 03",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s ROV passes rig with normal tuna → 1.5–4s lights turn toward dark gap → 4–6s normal tuna scatter → 6–8.5s gigantic tuna-like fish passes behind column → 8.5–10s ROV reverses and signal flickers.",
+      "story_lock": "0–2.5s ROV+normal tuna scale → 2.5–5s light probes dark gap → 5–7.5s tuna scatter → 7.5–10s partial giant tuna front behind pillar → 10–12.5s same mid-body continues behind pillar → 12.5–15s tail exits/ROV retreats/subtle glitch.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -82,11 +82,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -96,7 +96,7 @@
       "title": "The Alligator Beside the Airboat",
       "date": "PILOT 04",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1s airboat already moving → 1–3s broad wake forms beside it → 3–6s one giant alligator surfaces and keeps pace → 6–8.5s camera tracks its scale vs boat → 8.5–10s alligator moves ahead and submerges.",
+      "story_lock": "0–2.5s fast airboat → 2.5–5s unusual wake → 5–7.5s one giant alligator surfaces parallel → 7.5–10s scale sweep → 10–12.5s same alligator moves ahead → 12.5–15s smooth submerge, no attack.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -111,11 +111,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -125,7 +125,7 @@
       "title": "The Buoy Went Straight Down",
       "date": "PILOT 05",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s buoy floats with tightening rope → 1.5–3.5s exactly two short downward jerks → 3.5–5s buoy is pulled straight under → 5–7.5s rope stays taut and water bulges → 7.5–9.5s huge indistinct shadow crosses below boat → 9.5–10s boat tilts slightly and cuts.",
+      "story_lock": "0–2.5s rope tension builds → 2.5–5s exactly two buoy jerks → 5–7.5s buoy pulled straight down → 7.5–10s taut rope/water bulge → 10–12.5s huge indistinct shadow below → 12.5–15s slight boat tilt/cut; no creature reveal.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -140,11 +140,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -154,7 +154,7 @@
       "title": "That Is Not a Normal Dog",
       "date": "PILOT 06",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1s normal dog park → 1–2.5s dogs stop and look at gate → 2.5–5s owner enters → 5–8s giant but realistic Great Pyrenees walks in → 8–10s small dog barks once and giant dog tilts its head.",
+      "story_lock": "0–2.5s normal dog park → 2.5–5s dogs notice gate → 5–7.5s owner enters → 7.5–10s giant Great Pyrenees reveal → 10–12.5s calm scale reaction → 12.5–15s one small bark/giant head tilt.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -169,11 +169,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -183,7 +183,7 @@
       "title": "The Moose Was Taller Than the SUV",
       "date": "PILOT 07",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–2s normal moose finishes crossing → 2–4s roadside vegetation moves → 4–7s giant second moose steps from trees → 7–9s stands beside SUV for scale → 9–10s turns toward dashcam.",
+      "story_lock": "0–2.5s normal moose crosses → 2.5–5s vegetation moves → 5–7.5s giant second moose emerges → 7.5–10s SUV scale lock → 10–12.5s calm hold → 12.5–15s moose turns toward dashcam.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -198,11 +198,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 99/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -212,7 +212,7 @@
       "title": "Something Crossed Behind the Boat",
       "date": "PILOT 08",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s helicopter tracks boat with abnormal disturbance already visible → 1.5–3.5s disturbance approaches path → 3.5–6s one python body section surfaces → 6–8.5s two connected sections surface sequentially → 8.5–10s final section submerges behind boat.",
+      "story_lock": "0–2.5s helicopter tracks boat with existing disturbance → 2.5–5s disturbance changes course → 5–7.5s first python section surfaces → 7.5–10s connected section → 10–12.5s more connected body for scale → 12.5–15s final section submerges behind boat.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -227,11 +227,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -241,7 +241,7 @@
       "title": "The Elk Stopped Running",
       "date": "PILOT 09",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s elk herd runs → 1.5–3.5s entire herd veers together → 3.5–5s branch snaps/tree line moves → 5–7.5s giant realistic grizzly steps out → 7.5–9s elk scatter → 9–10s bear stops and looks toward camera.",
+      "story_lock": "0–2.5s elk run → 2.5–5s herd veers → 5–7.5s branch/tree-line warning → 7.5–10s giant grizzly emerges → 10–12.5s elk scatter/no chase → 12.5–15s bear stops and looks.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -256,11 +256,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
@@ -270,7 +270,7 @@
       "title": "The Cave Wasn't Empty",
       "date": "PILOT 10",
       "phase": "SS2 / USA PILOT SET 01",
-      "story_lock": "0–1.5s hunter enters deeper → 1.5–3s bones and oversized tracks → 3–5s stones fall and torch flickers → 5–7.5s giant realistic cave bear rises from darkness → 7.5–9s hunter backs away → 9–10s bear takes one step and cut.",
+      "story_lock": "0–2.5s hunter enters → 2.5–5s bones/large paw prints → 5–7.5s stones/torch warning → 7.5–10s giant cave bear emerges gradually → 10–12.5s hunter backs away → 12.5–15s bear takes one heavy step/cut.",
       "still": {
         "status": "ready",
         "post_time": "NOT SCHEDULED",
@@ -285,11 +285,11 @@
       "reel": {
         "status": "waiting",
         "post_time": "NOT SCHEDULED",
-        "qa1": "PRE-PRODUCTION PASS",
+        "qa1": "15s PRE-PRODUCTION PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
         "resolution": "1080×1920 TARGET",
-        "duration_sec": "10.000 TARGET",
+        "duration_sec": "15.000 TARGET",
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }

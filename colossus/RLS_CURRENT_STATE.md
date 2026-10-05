@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 22:25 Asia/Bangkok
+Updated: 2026-10-05 22:32 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -321,3 +321,30 @@ Milestone: 2026-10-05
 - Continuity locks: one alligator only; same airboat/passengers/camera/world; scale approx 1.5–2× airboat length; no external camera; no attack; no teleport/morph/size drift.
 - Storyboard generation is NOT started yet in this review flow.
 - Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP04 (panel-by-panel visual authority), before generating any storyboard image.
+
+
+## SS2 WORKFLOW REVIEW — EP04 STEP 4 STORYBOARD DESIGN SPEC LOCK
+Milestone: 2026-10-05
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Specification: PASS / LOCKED.
+- Storyboard format: one 9:16 storyboard image, 2 columns × 3 rows, read top-left → top-right → middle-left → middle-right → bottom-left → bottom-right.
+- Each panel represents the END-STATE / key control state of its 2.5-second beat, not a separate camera setup.
+- IMAGE authority:
+  - Starter Frame 04 controls Beat 1 opening geography/camera/boat/passengers/world.
+  - Master Still 04 controls alligator anatomy, reveal scale, swamp look and creature-world consistency from Beat 3 onward.
+- Panel design:
+  1) Beat 1 0.0–2.5s FAST AIRBOAT — onboard action-camera, boat moving fast, normal wake, passengers stable, no alligator reveal.
+  2) Beat 2 2.5–5.0s UNUSUAL WAKE — same camera/boat; broad heavy wake forms on RIGHT side, one passenger reacts; no readable head/body yet.
+  3) Beat 3 5.0–7.5s SURFACE — same right-side geography; exactly one giant alligator, armored back + partial head only, parallel to boat, 50%+ body still hidden by water.
+  4) Beat 4 7.5–10.0s SCALE SWEEP — same animal; connected head→torso→beginning tail visible; airboat retained in frame as scale anchor; no external camera.
+  5) Beat 5 10.0–12.5s MOVES AHEAD — same animal slightly ahead of boat while still parallel; same scale/proportions; no charge/contact.
+  6) Beat 6 12.5–15.0s SUBMERGE — same animal submerging ahead/right, tail last visible, broad believable wake, boat continues.
+- Camera rule: every panel must be interpretable as frames from one continuous onboard airboat action-camera shot; no drone/external/underwater camera.
+- Continuity rule: same airboat, same passenger positions, same swamp world, same right-side reveal path, exactly one alligator, scale approx 1.5–2× airboat length.
+- Reveal discipline: Beat 1 no creature; Beat 2 wake only; Beat 3 partial reveal; Beat 4 main scale payoff; Beat 5 progression; Beat 6 tail-last exit.
+- Storyboard labels allowed: Beat number + exact timecode only. No explanatory paragraph text embedded in reference image.
+- QA gate before image generation: reject any panel that reveals early, changes camera/world/boat, duplicates the alligator, changes scale, shows attack/contact, or uses a separate cinematic shot.
+- No storyboard image has been generated yet under this reviewed workflow.
+- Exact next action: wait for user command, then STEP 5 — generate storyboard control asset for EP04 from this locked design spec, QA each panel, repair until PASS, then only after PASS consider website upload.

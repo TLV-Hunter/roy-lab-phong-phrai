@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 22:32 Asia/Bangkok
+Updated: 2026-10-05 22:48 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -348,3 +348,25 @@ Milestone: 2026-10-05
 - QA gate before image generation: reject any panel that reveals early, changes camera/world/boat, duplicates the alligator, changes scale, shows attack/contact, or uses a separate cinematic shot.
 - No storyboard image has been generated yet under this reviewed workflow.
 - Exact next action: wait for user command, then STEP 5 — generate storyboard control asset for EP04 from this locked design spec, QA each panel, repair until PASS, then only after PASS consider website upload.
+
+
+## SS2 WORKFLOW REVIEW — EP04 STEP 5 STORYBOARD GENERATION
+Milestone: 2026-10-05
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Storyboard Generation: PASS / LOCKED.
+- Final storyboard asset: RLS_S2_004_STORYBOARD_6BEAT_FINAL.png
+- Format: 9:16 vertical, 2 columns × 3 rows, six timed panels:
+  Beat 1 0.0–2.5s FAST AIRBOAT
+  Beat 2 2.5–5.0s UNUSUAL WAKE
+  Beat 3 5.0–7.5s PARTIAL SURFACE
+  Beat 4 7.5–10.0s SCALE SWEEP
+  Beat 5 10.0–12.5s MOVES AHEAD
+  Beat 6 12.5–15.0s SUBMERGE
+- QA repair history in this step: first generation failed because Beat 2 revealed the alligator too early. Repaired Beat 2 to wake-only. Second QA found Beat 3 too close/aggressive; repaired to a more gradual partial reveal. Final QA PASS.
+- Final storyboard continuity: same onboard airboat perspective, same swamp geography, anomaly on right side, exactly one giant alligator, no attack, no external camera, tail-last submerge ending.
+- Discard earlier failed storyboard attempts from this step; do not count them.
+- Website upload has NOT happened yet under this reviewed workflow.
+- Exact next action: wait for user command to continue to STEP 6 — Seedance 2.5 Generation Prompt Assembly using Starter Frame 04 as IMAGE 1 and this storyboard as IMAGE 2. Website upload remains a later step after the planned workflow reaches it.

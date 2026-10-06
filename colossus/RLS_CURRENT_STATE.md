@@ -581,3 +581,14 @@ Milestone: 2026-10-06
   5) Beat 5 uses only a broad diffuse edgeless darkening under the water — no whale/fish body, no readable anatomy;
   6) Beat 6 adds only a subtle few-degree hull tilt then hard cut.
 - Exact next action: create a corrected FULL Seedance 2.5 prompt for EP05 emphasizing buoy identity lock and abstract non-animal shadow, regenerate, then repeat real-clip QA.
+
+
+## SS2 EP05 REPAIR PROMPT V2
+- Previous real clip QA: FAIL.
+- Active repair: preserve one buoy identity from Starter Frame; exactly two short jerks; then one straight-down disappearance by 7.5s; buoy never returns.
+- 7.5–10.0s: water bulge/swirl only.
+- 10.0–12.5s: broad diffuse underwater darkening only, with no identifiable animal form.
+- 12.5–15.0s: slight hull tilt, darkening fades, hard cut.
+- IMAGE 1 Starter controls buoy/rope/boat/camera identity. IMAGE 2 storyboard controls timing only.
+- Final Reel remains NOT FINAL until regenerated clip passes QA.
+- Exact next action: regenerate EP05 with Repair Prompt V2 and repeat real-clip QA.

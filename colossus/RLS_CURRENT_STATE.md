@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:36 Asia/Bangkok
+Updated: 2026-10-06 20:40 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -458,3 +458,23 @@ Milestone: 2026-10-06
 - Hard continuity: same boat, same camera side/height, same rope/buoy, same ocean/light; no external/drone/underwater third-person camera; no identifiable creature at any time.
 - Ready for STEP 3 — 15-second Beat Map.
 - Exact next action: wait for user command to continue to STEP 3 for EP05.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 3 BEAT MAP LOCK
+Milestone: 2026-10-06
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS.
+- STEP 3 15-second Beat Map: PASS / LOCKED.
+- Episode: RLS-S2-005 — The Buoy Went Straight Down.
+- Beat timing:
+  1) 0.0–2.5s TENSION BUILDS — buoy floats normally; same rope gradually becomes taut; no shadow/creature reveal.
+  2) 2.5–5.0s TWO JERKS — same buoy makes exactly two short downward jerks; rope tightens with each; small splashes only.
+  3) 5.0–7.5s STRAIGHT DOWN — same buoy is pulled vertically straight down in one believable motion and disappears completely; rope remains connected and taut.
+  4) 7.5–10.0s WATER BULGE — buoy remains gone; taut rope cuts through water beside hull; water bulges/swirls; still no visible animal.
+  5) 10.0–12.5s HUGE SHADOW — one very large diffuse indistinct shadow crosses beneath the boat, seen only through the surface from onboard POV; no recognizable anatomy.
+  6) 12.5–15.0s BOAT REACTS — displaced water tilts boat only a few degrees; rope remains taut; shadow fades/departs beneath boat; hard cut.
+- Continuity locks: one buoy only; one continuous rope; same boat/rail/arm/camera/ocean/light; buoy never reappears after Beat 3; no external/drone/underwater third-person camera.
+- Reveal discipline: no creature anatomy at any time; Beat 5 shadow must not read clearly as whale, shark, tentacle, fish, serpent or other known animal.
+- Physics locks: rope tension must precede jerks; two jerks must precede straight-down pull; water reaction follows disappearance; boat reaction remains subtle.
+- Storyboard generation has NOT started yet in this reviewed EP05 flow.
+- Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP05 before generating any storyboard image.

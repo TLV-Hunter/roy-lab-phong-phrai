@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-05 23:25 Asia/Bangkok
+Updated: 2026-10-06 20:33 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -429,3 +429,17 @@ Milestone: 2026-10-05
 - Failed intermediate storyboard generations and the Adobe repair attempt are discarded and must not be reused.
 - Website upload has NOT happened yet in the reviewed workflow.
 - Exact next action: wait for user command to continue to STEP 6 — assemble and QA the final Seedance 2.5 15-second generation prompt using Starter Frame 04 as IMAGE 1 and this final storyboard as IMAGE 2.
+
+
+## SS2 WORKFLOW REVIEW — EP05 START
+Milestone: 2026-10-06
+- User moved production focus from EP04 to EP05.
+- Episode: RLS-S2-005 — The Buoy Went Straight Down.
+- Operating mode remains step-by-step; do not advance until user says to continue.
+- STEP 1 Episode Brief / Story Lock: PASS / LOCKED.
+- Core story: fisherman POV sees a bright buoy on open water; rope tension builds; buoy makes exactly two short downward jerks; buoy is then pulled vertically straight down and disappears; taut line and water bulge imply something huge below; a very large indistinct shadow crosses beneath the boat; boat tilts only slightly; creature is never identified or surfaced.
+- Reveal discipline: no creature anatomy at any time. The mystery is the downward pull + scale under the boat.
+- Camera: one continuous fisherman/action-camera POV from the same boat.
+- Physics: continuous rope connection and tension, realistic water displacement, subtle boat reaction only.
+- Hard negatives: no whale/shark/tentacles/monster reveal, no snapped rope, no capsize, no attack, no gore, no external/drone/underwater third-person camera.
+- Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP05 Master Still + Starter Frame before storyboard design.

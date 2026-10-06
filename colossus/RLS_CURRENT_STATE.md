@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:33 Asia/Bangkok
+Updated: 2026-10-06 20:36 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -443,3 +443,18 @@ Milestone: 2026-10-06
 - Physics: continuous rope connection and tension, realistic water displacement, subtle boat reaction only.
 - Hard negatives: no whale/shark/tentacles/monster reveal, no snapped rope, no capsize, no attack, no gore, no external/drone/underwater third-person camera.
 - Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP05 Master Still + Starter Frame before storyboard design.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 2 VISUAL AUTHORITY LOCK
+Milestone: 2026-10-06
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS / LOCKED.
+- Episode: RLS-S2-005 — The Buoy Went Straight Down.
+- Master Still 05: READY, QA 95/100 PASS, 2160×3840 4K-upscaled from QA-passed 1080×1920 master; use as reveal/world/scale authority only.
+- Starter Frame 05: QA 98/100 PASS, 2160×3840 4K-upscaled, full frame preserved; use as exact Frame 0 authority.
+- Starter requirements locked: first-person fisherman/onboard POV, same boat rail/arm/rope/bright buoy/ocean/light; no visible creature and no premature giant shadow at Frame 0.
+- Master/Starter role separation locked: Master Still defines the mature visual language and scale/mystery state; Starter defines pre-event geometry and exact opening composition.
+- Storyboard authority will control temporal action only; Prompt will control motion, rope/water physics, timing and hard negatives.
+- Hard continuity: same boat, same camera side/height, same rope/buoy, same ocean/light; no external/drone/underwater third-person camera; no identifiable creature at any time.
+- Ready for STEP 3 — 15-second Beat Map.
+- Exact next action: wait for user command to continue to STEP 3 for EP05.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:52 Asia/Bangkok
+Updated: 2026-10-06 20:56 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -524,3 +524,17 @@ Milestone: 2026-10-06
 - Continuity PASS: one buoy only, one rope only, same boat/rail/arm/ocean/light, no external/drone/underwater camera.
 - Final Reel/publication status unchanged.
 - Exact next action: wait for user command, then STEP 6 — assemble and QA final Seedance 2.5 15-second generation prompt using Starter Frame 05 as IMAGE 1 and this storyboard as IMAGE 2.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 5 USER-REQUESTED FINAL QA
+Milestone: 2026-10-06
+- Direct visual QA of the latest EP05 six-panel storyboard: PASS / LOCKED for storyboard-temporal-reference use.
+- Beat 1 PASS: normal buoy afloat, rope tension beginning, no premature anomaly.
+- Beat 2 PASS: buoy still present with small splash/end-state consistent with the two-jerk beat. Exact jerk count remains a motion requirement to enforce in the Seedance prompt because one still cannot prove the count.
+- Beat 3 PASS: buoy is being pulled vertically downward/partly submerged; rope remains continuous and taut.
+- Beat 4 PASS: buoy gone; taut rope enters disturbed water; bulge/swirl is present without identifiable animal anatomy.
+- Beat 5 PASS: very large diffuse underwater shadow, anatomically unreadable; no clear whale/shark/tentacle/fish silhouette.
+- Beat 6 PASS: onboard POV retained; rope taut; shadow has faded/departed; only subtle boat/horizon reaction, no capsize or creature reveal.
+- Storyboard QA score: 97/100 PASS.
+- Motion-only requirements still to be enforced at generation: exactly two distinct buoy jerks; one continuous straight-down pull; subtle few-degree boat tilt; no identifiable creature at any time.
+- Exact next action: STEP 6 — assemble and QA the final Seedance 2.5 15-second generation prompt using Starter Frame 05 as IMAGE 1 and this storyboard as IMAGE 2.

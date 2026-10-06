@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:56 Asia/Bangkok
+Updated: 2026-10-06 21:05 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -538,3 +538,22 @@ Milestone: 2026-10-06
 - Storyboard QA score: 97/100 PASS.
 - Motion-only requirements still to be enforced at generation: exactly two distinct buoy jerks; one continuous straight-down pull; subtle few-degree boat tilt; no identifiable creature at any time.
 - Exact next action: STEP 6 — assemble and QA the final Seedance 2.5 15-second generation prompt using Starter Frame 05 as IMAGE 1 and this storyboard as IMAGE 2.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 6 SEEDANCE 2.5 PROMPT LOCK
+Milestone: 2026-10-06
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Storyboard Generation + Final QA: PASS 97/100.
+- STEP 6 Final Seedance 2.5 Generation Prompt: PASS / LOCKED.
+- Generation reference assignment:
+  - IMAGE 1 = Starter Frame 05 / exact Frame 0 authority.
+  - IMAGE 2 = latest QA-PASS EP05 6-beat storyboard / temporal guide only.
+  - Master Still 05 remains QA authority for world/mystery-scale realism; do not add as a third generation reference on the first run.
+- Duration exactly 15 seconds, 9:16 vertical, audio on, one continuous fisherman/onboard POV.
+- Motion locks: exactly two distinct buoy jerks in Beat 2; one continuous vertical straight-down pull in Beat 3; buoy never reappears after disappearance; rope remains physically connected and taut; water reaction follows disappearance; Beat 5 shadow stays diffuse/anatomically unreadable; Beat 6 boat tilt only a few degrees.
+- Hard negatives: no identifiable whale/shark/fish/serpent/tentacles/monster, no snapped rope, no buoy duplication, no capsize, no external/drone/underwater third-person camera, no attack/gore, no text/logo/watermark.
+- Final Reel/publication status unchanged; real generated clip still requires timecode QA before acceptance.
+- Exact next action: generate EP05 with Starter Frame 05 + QA-PASS Storyboard + locked 15-second prompt, then perform real-clip QA before moving to EP06.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 21:05 Asia/Bangkok
+Updated: 2026-10-06 23:14 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -557,3 +557,27 @@ Milestone: 2026-10-06
 - Hard negatives: no identifiable whale/shark/fish/serpent/tentacles/monster, no snapped rope, no buoy duplication, no capsize, no external/drone/underwater third-person camera, no attack/gore, no text/logo/watermark.
 - Final Reel/publication status unchanged; real generated clip still requires timecode QA before acceptance.
 - Exact next action: generate EP05 with Starter Frame 05 + QA-PASS Storyboard + locked 15-second prompt, then perform real-clip QA before moving to EP06.
+
+
+## SS2 EP05 REAL CLIP QA — BUOY DISAPPEARANCE MYSTERY
+Milestone: 2026-10-06
+- Source clip: Buoy Disappearance Mystery.mp4.
+- Technical probe: 720×1280, duration 15.105s.
+- REAL CLIP QA verdict: FAIL / REGENERATE. Do not count as Final Reel.
+- Visual sample QA:
+  - ~1.0s: opening POV/boat/rope/buoy environment is usable.
+  - ~3.0–4.4s: buoy identity/continuity breaks; a large orange/red buoy and a separate small yellow buoy are simultaneously/serially visible, creating duplicate/morph behavior instead of one locked buoy.
+  - ~6.0s: the small yellow buoy remains visible above water, so the required 5.0–7.5s straight-down disappearance is not achieved.
+  - ~8.5s: a huge recognizable whale-like animal/body appears clearly beneath the surface, too early and far too identifiable; violates the no-creature-reveal rule and Beat 4 water-bulge-only state.
+  - ~11.0s: recognizable whale-like anatomy remains visible, so Beat 5 is not an anatomically unreadable diffuse shadow.
+  - ~13.5–14.8s: large form fades/departs, but the required subtle boat-tilt payoff is not visually clear enough to rescue the sequence.
+- Exact two-jerk count cannot be proven from static frame samples alone; however the clip already fails decisively on object continuity, disappearance timing, and creature-concealment rules.
+- Watermark visible in sampled frames; treat as post-production cleanup issue, not the primary story-QA failure.
+- Required repair priorities for next generation:
+  1) one buoy only, fixed color/size/shape throughout;
+  2) exactly two short jerks while buoy remains the same object;
+  3) buoy fully disappears by ~7.5s and never reappears;
+  4) Beat 4 contains water pressure/bulge only;
+  5) Beat 5 uses only a broad diffuse edgeless darkening under the water — no whale/fish body, no readable anatomy;
+  6) Beat 6 adds only a subtle few-degree hull tilt then hard cut.
+- Exact next action: create a corrected FULL Seedance 2.5 prompt for EP05 emphasizing buoy identity lock and abstract non-animal shadow, regenerate, then repeat real-clip QA.

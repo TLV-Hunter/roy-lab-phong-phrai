@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:45 Asia/Bangkok
+Updated: 2026-10-06 20:52 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -505,3 +505,22 @@ Milestone: 2026-10-06
 - QA gate before image generation: reject any panel that introduces early shadow, more than two jerk logic, diagonal buoy pull, disconnected/snapped rope, underwater camera, identifiable creature anatomy, giant splash, capsize, or buoy reappearance.
 - No storyboard image has been generated yet under this reviewed EP05 workflow.
 - Exact next action: wait for user command, then STEP 5 — generate the EP05 storyboard control asset from this locked design spec, QA each panel, repair until PASS, and only then move onward.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 5 STORYBOARD GENERATION PASS
+Milestone: 2026-10-06
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Storyboard Generation: PASS / LOCKED.
+- Final storyboard candidate generated as a 9:16 vertical 2×3 six-panel temporal guide with exact beat/time labels.
+- Beat 1 PASS: same fisherman/onboard POV; buoy afloat; rope tension visible; no creature/shadow reveal.
+- Beat 2 PASS: same buoy/rope with small splash state consistent with the locked two-jerk action; buoy remains present.
+- Beat 3 PASS: buoy pulled vertically downward and partially below surface; rope remains connected and taut; no lateral drag.
+- Beat 4 PASS: buoy gone; taut rope continues into water; water bulge/swirl visible; no readable creature anatomy.
+- Beat 5 PASS: one enormous diffuse underwater shadow beneath the boat; no readable head/fin/tail/tentacle or known-animal silhouette.
+- Beat 6 PASS: same onboard POV; rope still taut; large shadow fades/departs; subtle boat/horizon reaction only; no capsize or reveal.
+- Continuity PASS: one buoy only, one rope only, same boat/rail/arm/ocean/light, no external/drone/underwater camera.
+- Final Reel/publication status unchanged.
+- Exact next action: wait for user command, then STEP 6 — assemble and QA final Seedance 2.5 15-second generation prompt using Starter Frame 05 as IMAGE 1 and this storyboard as IMAGE 2.

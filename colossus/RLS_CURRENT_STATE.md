@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 20:40 Asia/Bangkok
+Updated: 2026-10-06 20:45 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -478,3 +478,30 @@ Milestone: 2026-10-06
 - Physics locks: rope tension must precede jerks; two jerks must precede straight-down pull; water reaction follows disappearance; boat reaction remains subtle.
 - Storyboard generation has NOT started yet in this reviewed EP05 flow.
 - Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP05 before generating any storyboard image.
+
+
+## SS2 WORKFLOW REVIEW — EP05 STEP 4 STORYBOARD DESIGN SPEC LOCK
+Milestone: 2026-10-06
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Specification: PASS / LOCKED.
+- Storyboard format: one 9:16 storyboard image, 2 columns × 3 rows, read top-left → top-right → middle-left → middle-right → bottom-left → bottom-right.
+- Each panel represents the END-STATE / key control state of its 2.5-second beat, not a separate camera setup.
+- IMAGE authority:
+  - Starter Frame 05 controls Beat 1 opening geography/camera/boat rail/fisher arm/rope/buoy/ocean/light.
+  - Master Still 05 controls later mystery scale, water look and visual realism; it must not force an identifiable creature.
+- Panel design:
+  1) Beat 1 0.0–2.5s TENSION BUILDS — same fisherman POV; buoy still afloat; rope visibly more taut by end-state; no giant shadow or creature.
+  2) Beat 2 2.5–5.0s TWO JERKS — same buoy/rope; depict the end-state after exactly two short downward jerks; small splashes only; buoy still present.
+  3) Beat 3 5.0–7.5s STRAIGHT DOWN — buoy being/just pulled vertically below surface; rope remains connected and taut; buoy may be disappearing but no lateral drag.
+  4) Beat 4 7.5–10.0s WATER BULGE — buoy fully gone; taut rope cuts down beside hull; water bulges/swirls from below; no readable creature anatomy.
+  5) Beat 5 10.0–12.5s HUGE SHADOW — same onboard POV; one enormous diffuse shadow under boat through surface; no head/fin/tail/tentacle/known-animal silhouette.
+  6) Beat 6 12.5–15.0s BOAT REACTS — same boat/camera; horizon/rail indicate only a slight few-degree tilt; rope still taut; shadow fading/departing; no capsize or reveal.
+- Camera rule: every panel must read as frames from one continuous fisherman/onboard action-camera shot; no drone/external/underwater camera.
+- Object continuity: one buoy only, one rope only, same rail/arm/boat/ocean/light; buoy cannot reappear after Beat 3.
+- Mystery discipline: no identifiable creature in any panel; Beat 5 shadow must be diffuse and anatomically unreadable.
+- Storyboard labels allowed: Beat number + exact timecode only. No explanatory paragraph text embedded in the reference image.
+- QA gate before image generation: reject any panel that introduces early shadow, more than two jerk logic, diagonal buoy pull, disconnected/snapped rope, underwater camera, identifiable creature anatomy, giant splash, capsize, or buoy reappearance.
+- No storyboard image has been generated yet under this reviewed EP05 workflow.
+- Exact next action: wait for user command, then STEP 5 — generate the EP05 storyboard control asset from this locked design spec, QA each panel, repair until PASS, and only then move onward.

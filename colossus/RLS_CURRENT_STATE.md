@@ -626,3 +626,23 @@ Milestone: 2026-10-07
 - Camera lock: one continuous casual smartphone view in the same dog-park/gate world.
 - Final Reel/publication status unchanged.
 - Exact next action: wait for user command, then STEP 3 — 15-second Beat Map for EP06.
+
+
+## SS2 WORKFLOW REVIEW — EP06 STEP 3 BEAT MAP LOCK
+Milestone: 2026-10-07
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS.
+- STEP 3 15-second Beat Map: PASS / LOCKED.
+- Episode: RLS-S2-006 — That Is Not a Normal Dog.
+- Beat timing:
+  1) 0.0–2.5s NORMAL PARK — normal dogs play casually; giant dog not visible.
+  2) 2.5–5.0s DOGS NOTICE — several normal dogs pause and look toward the gate; curiosity, not panic; giant dog still hidden.
+  3) 5.0–7.5s OWNER ENTERS — gate opens; adult owner enters first; giant dog remains mostly/fully obscured outside the gate.
+  4) 7.5–10.0s GIANT DOG REVEAL — exactly one gigantic but anatomically realistic Great Pyrenees calmly follows; head roughly owner chest-to-shoulder height; owner and normal dogs remain visible as scale anchors.
+  5) 10.0–12.5s CALM SCALE REACTION — same giant dog takes a few calm steps into the park; normal dogs pause or cautiously approach; scale remains constant; no aggression.
+  6) 12.5–15.0s CUTE BUTTON — one small dog barks exactly once; giant dog stops, looks toward it, gently tilts head; hard cut.
+- Continuity locks: one giant dog only; same owner, gate, normal dogs, park, daylight and smartphone camera; no teleport/morph/scale drift.
+- Behavior locks: friendly/calm/curious throughout; no growl, snarl, chase, charge, panic, crowd flight or monster posture.
+- Reveal discipline: no giant dog in Beats 1–2; owner leads in Beat 3; giant dog reveal starts only in Beat 4.
+- Storyboard generation has NOT started yet in this reviewed EP06 flow.
+- Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP06 before generating any storyboard image.

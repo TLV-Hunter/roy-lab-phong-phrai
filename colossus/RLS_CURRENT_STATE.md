@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-06 23:14 Asia/Bangkok
+Updated: 2026-10-07 18:31 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -592,3 +592,18 @@ Milestone: 2026-10-06
 - IMAGE 1 Starter controls buoy/rope/boat/camera identity. IMAGE 2 storyboard controls timing only.
 - Final Reel remains NOT FINAL until regenerated clip passes QA.
 - Exact next action: regenerate EP05 with Repair Prompt V2 and repeat real-clip QA.
+
+
+## SS2 WORKFLOW REVIEW — EP06 START
+Milestone: 2026-10-07
+- Production focus moves to RLS-S2-006 — That Is Not a Normal Dog.
+- Operating mode remains one step at a time.
+- STEP 1 Episode Brief / Story Lock: PASS / LOCKED.
+- Core story: normal USA dog park → several dogs notice the entrance gate → adult owner enters first → exactly one gigantic but realistic Great Pyrenees calmly follows → normal dogs/owner provide scale → one small dog barks exactly once → giant dog gently tilts its head.
+- Tone: cute/WTF and surprising, not horror and not dangerous.
+- Reveal discipline: no giant dog visible in Beats 1–2; owner enters before the giant dog; giant dog reveal begins only in Beat 4.
+- Scale lock: giant Great Pyrenees head roughly owner chest-to-shoulder height; scale remains constant after reveal.
+- Behavior lock: calm/friendly/curious; no aggression, attack, panic, roaring, charging, or monster behavior.
+- Camera lock: one continuous casual smartphone view in the same dog park/gate world.
+- Final Reel/publication status unchanged: waiting / not published.
+- Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP06 Master Still + Starter Frame.

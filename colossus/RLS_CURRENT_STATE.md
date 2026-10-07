@@ -674,3 +674,29 @@ Milestone: 2026-10-07
 - QA gate before generation: reject early giant-dog reveal, owner/giant-dog entering simultaneously, duplicate giant dog, scale drift, extra limbs, deformed paws, camera change, panic/aggression, or a Beat 6 pose that does not clearly support one-bark → head-tilt timing.
 - No storyboard image has been generated yet under this reviewed EP06 flow.
 - Exact next action: wait for user command, then STEP 5 — generate EP06 storyboard control asset from this locked design spec, QA each panel, repair until PASS, then move onward.
+
+
+## SS2 WORKFLOW REVIEW — EP06 STEP 5 STORYBOARD GENERATION PASS
+Milestone: 2026-10-07
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Storyboard Generation + QA: PASS / LOCKED.
+- Final local control asset: RLS_S2_006_STORYBOARD_6BEAT_FINAL.png, exact 1080×1920, 2×3 vertical layout.
+- Generation repair history:
+  - initial storyboard imagery was acceptable but caption bars violated the locked label-only rule;
+  - a second generation still kept descriptive titles;
+  - final control asset was rebuilt from the generated panel imagery with exact allowed labels only: Beat number + exact timecode.
+- Final visual QA:
+  - Beat 1 PASS: normal dog park; no giant dog reveal.
+  - Beat 2 PASS: normal dogs orient toward the gate; curiosity, not panic; giant dog hidden.
+  - Beat 3 PASS: same owner enters first through gate; giant dog not yet readable.
+  - Beat 4 PASS: exactly one gigantic, anatomically realistic Great Pyrenees appears calmly beside owner; normal dogs remain scale anchors.
+  - Beat 5 PASS: same giant dog, calm/curious, constant perceived scale with perspective-only change; normal dogs approach/pause; no aggression.
+  - Beat 6 PASS: small dog staged facing giant dog; giant dog gently tilts head, supporting the one-bark → head-tilt ending.
+- Continuity PASS: same park/gate/daylight/camera side, same owner, one giant dog, no duplicate giant dog, no extra limbs, no monster posture, no panic.
+- Storyboard label QA: PASS — beat number + exact timecode only.
+- AI-person disclosure footer added beneath the storyboard.
+- Storyboard has NOT been uploaded to the website/repository asset directory yet under this reviewed flow.
+- Exact next action: wait for user command, then STEP 6 — assemble and QA the final Seedance 2.5 15-second generation prompt using Starter Frame 06 as Frame-0 authority, Master Still 06 as giant-dog identity/scale authority, and this storyboard as temporal guide.

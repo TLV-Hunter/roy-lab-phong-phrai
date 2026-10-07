@@ -709,3 +709,30 @@ Milestone: 2026-10-07
 - Giant dog must tower well above the gate/fence and dramatically dwarf adult humans and normal dogs while keeping realistic canine anatomy.
 - Beats 1–2: giant dog not visible. Beat 3: owner enters first; giant dog remains mostly outside/off-frame. Beat 4: first full readable reveal. Beats 4–6: keep the same colossal scale without growth or shrinkage.
 - Exact next action: generate EP06 with Starter + Master Still + corrected storyboard + scale-corrected prompt, then perform real-clip QA.
+
+
+## SS2 EP06 REAL CLIP QA — Dola.mp4
+Milestone: 2026-10-07
+- Source: Dola.mp4.
+- Technical probe: 720×1280, 24 fps, duration 15.104s.
+- REAL CLIP QA verdict: FAIL / DO NOT UPSCALE OR FINALIZE.
+- PASS points:
+  - correct 9:16 framing and stable casual dog-park smartphone view;
+  - exactly one colossal white Great Pyrenees;
+  - colossal scale is visually strong and close to Master Still authority;
+  - anatomy/fur remain believable and scale is broadly stable;
+  - owner/normal dogs remain useful scale anchors;
+  - final head-tilt payoff is visually present.
+- FAIL points:
+  - reveal occurs too early: by ~5.5s the giant dog's head is clearly readable and by ~6.5s most of the colossal dog is already visible, violating the locked rule that Beat 3 (5.0–7.5s) keeps the giant dog mostly outside/off-frame and Beat 4 (7.5–10.0s) is the first full readable reveal;
+  - Beat 2 curiosity build is too weak/brief because the owner/gate event begins before the intended suspense window fully lands;
+  - clip duration is 15.104s rather than exact 15.000s;
+  - Dola AI watermark remains visible at bottom-right.
+- Editing rule: because story QA failed, do not upscale, remove watermark, trim, or mark final. Fix generation first.
+- Required repair for next generation:
+  1) 0.0–5.0s no giant dog visible at all;
+  2) 5.0–7.5s owner enters alone; giant dog fully concealed off-frame/outside gate;
+  3) first readable giant-dog appearance only at 7.5s or later;
+  4) keep current colossal Master-Still scale/anatomy and final cute head tilt;
+  5) exact 15.000s target.
+- Exact next action: regenerate EP06 with stronger delayed-reveal lock, then repeat real-clip QA. Only after PASS: upscale to 1080×1920, remove/crop/cover the Dola watermark per approved editing method, trim to exact 15.000s, then final QA.

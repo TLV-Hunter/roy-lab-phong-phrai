@@ -736,3 +736,15 @@ Milestone: 2026-10-07
   4) keep current colossal Master-Still scale/anatomy and final cute head tilt;
   5) exact 15.000s target.
 - Exact next action: regenerate EP06 with stronger delayed-reveal lock, then repeat real-clip QA. Only after PASS: upscale to 1080×1920, remove/crop/cover the Dola watermark per approved editing method, trim to exact 15.000s, then final QA.
+
+
+## EP06 DELAYED-REVEAL REPAIR V3
+- Keep the current successful colossal Great Pyrenees scale, anatomy, fur, calm behavior, and final head-tilt payoff.
+- Change only reveal timing:
+  - 0.0–5.0s: absolutely no giant dog visible, including head, fur, paws, shadow, or partial body.
+  - 5.0–7.5s: owner enters alone; giant dog remains completely off-screen/outside the gate and must not be readable.
+  - 7.5–10.0s: first readable giant-dog reveal begins only after 7.5s.
+- Use Starter Frame as exact opening authority; Master Still as dog identity/scale authority; storyboard as timing guide only.
+- Add a hard anti-early-reveal negative: no giant dog before 7.5s; no white fur behind owner; no giant head peeking through gate; no pre-reveal shadow/paw.
+- Preserve exact one-bark -> gentle head-tilt ending.
+- Exact next action: regenerate EP06 with Delayed-Reveal Repair V3 and repeat real-clip QA; only after PASS proceed to upscale/final edit.

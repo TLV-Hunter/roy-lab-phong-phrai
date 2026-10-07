@@ -748,3 +748,26 @@ Milestone: 2026-10-07
 - Add a hard anti-early-reveal negative: no giant dog before 7.5s; no white fur behind owner; no giant head peeking through gate; no pre-reveal shadow/paw.
 - Preserve exact one-bark -> gentle head-tilt ending.
 - Exact next action: regenerate EP06 with Delayed-Reveal Repair V3 and repeat real-clip QA; only after PASS proceed to upscale/final edit.
+
+
+## EP06 V4 REAL CLIP QA — TELEPORT / FADE-IN FAILURE
+Milestone: 2026-10-07
+- Source: RLS-S2-006_giant_pyrenees_15s_with_audio.mp4.
+- Technical: 720×1280, 24 fps, 15.042s.
+- Verdict: FAIL / DO NOT FINALIZE.
+- Dense frame QA confirms the user's observation: the giant dog does not physically walk into frame. It materializes/fades in at a nearly fixed position.
+- Exact reveal failure window:
+  - ~3.9–4.0s: no giant dog.
+  - ~4.1–4.3s: faint semi-transparent/ghost giant-dog form begins appearing behind the gate.
+  - ~4.4–4.6s: opacity increases and the giant dog's head/body become readable while still appearing to materialize rather than walk.
+  - ~4.7–5.0s: giant dog is already substantially/full visible.
+- This violates both locked requirements: zero giant dog visible before 7.5s, and first reveal must be a physical walk-in from outside the gate rather than a dissolve/pop-in.
+- Root-cause hypothesis from the control assets: corrected storyboard Beat 4 already shows a fully revealed centered giant dog, while Starter has no giant dog. The model is bridging those states by dissolving/materializing the dog instead of constructing a spatial entrance. Prompt-only repair is insufficient.
+- Later 8–12s: giant dog scale/anatomy are broadly stable; movement is mostly continuous but limited. 12–15s head-lowering/interaction is smoother and usable as a behavior reference.
+- Required control-asset repair BEFORE another generation:
+  1) replace Storyboard Beat 4 with a partial-entry state at the gate (front paw/chest/shoulder crossing frame edge; head not yet fully centered);
+  2) move full colossal reveal to late Beat 4 / Beat 5;
+  3) keep Master Still only as identity/scale authority, never as temporal pose authority;
+  4) strengthen no-dissolve/no-opacity-fade/no-materialization language in prompt;
+  5) regenerate and re-QA before upscale/final edit.
+- Exact next action: repair EP06 storyboard timing/control asset first, then rebuild Prompt V5 around that storyboard.

@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-07 18:31 Asia/Bangkok
+Updated: 2026-10-07 18:34 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -607,3 +607,22 @@ Milestone: 2026-10-07
 - Camera lock: one continuous casual smartphone view in the same dog park/gate world.
 - Final Reel/publication status unchanged: waiting / not published.
 - Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP06 Master Still + Starter Frame.
+
+
+## SS2 WORKFLOW REVIEW — EP06 STEP 2 VISUAL AUTHORITY LOCK
+Milestone: 2026-10-07
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS / LOCKED based on the current production source records.
+- Master Still 06: READY, QA 96/100 PASS, delivery 2160×3840, 4K-upscaled from QA-passed 1080×1920 master; use as giant Great Pyrenees identity / reveal-scale / world-style authority.
+- Starter Frame 06: QA 97/100 PASS, delivery 2160×3840, full frame preserved; use as exact Frame 0 authority.
+- Role separation:
+  - Starter Frame 06 controls opening dog-park geometry, camera position, normal dogs, gate, daylight and pre-reveal state.
+  - Master Still 06 controls giant Great Pyrenees anatomy, coat/fur identity, reveal-scale and cute/non-threatening visual tone.
+  - Storyboard (future Step 5) will control chronological action only.
+  - Prompt will control motion, timing, behavior and hard negatives.
+- Reveal discipline remains locked: Beat 1–2 no giant dog visible; Beat 3 owner enters first; Beat 4 giant dog follows.
+- Scale lock remains: giant dog's head roughly owner chest-to-shoulder level; scale must not grow after reveal.
+- Behavior lock remains: calm/friendly/curious; no aggression, attack, panic, roar, monster anatomy or crowd flight.
+- Camera lock: one continuous casual smartphone view in the same dog-park/gate world.
+- Final Reel/publication status unchanged.
+- Exact next action: wait for user command, then STEP 3 — 15-second Beat Map for EP06.

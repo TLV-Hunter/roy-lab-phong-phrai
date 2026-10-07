@@ -700,3 +700,12 @@ Milestone: 2026-10-07
 - AI-person disclosure footer added beneath the storyboard.
 - Storyboard has NOT been uploaded to the website/repository asset directory yet under this reviewed flow.
 - Exact next action: wait for user command, then STEP 6 — assemble and QA the final Seedance 2.5 15-second generation prompt using Starter Frame 06 as Frame-0 authority, Master Still 06 as giant-dog identity/scale authority, and this storyboard as temporal guide.
+
+
+## EP06 SCALE-CORRECTED PROMPT ACTIVE
+- Starter Frame 06 = exact opening frame and dog-park camera/geography authority.
+- Master Still 06 = giant Great Pyrenees identity, anatomy, fur, and colossal scale authority.
+- Corrected EP06 storyboard = timing guide only.
+- Giant dog must tower well above the gate/fence and dramatically dwarf adult humans and normal dogs while keeping realistic canine anatomy.
+- Beats 1–2: giant dog not visible. Beat 3: owner enters first; giant dog remains mostly outside/off-frame. Beat 4: first full readable reveal. Beats 4–6: keep the same colossal scale without growth or shrinkage.
+- Exact next action: generate EP06 with Starter + Master Still + corrected storyboard + scale-corrected prompt, then perform real-clip QA.

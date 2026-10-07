@@ -646,3 +646,31 @@ Milestone: 2026-10-07
 - Reveal discipline: no giant dog in Beats 1–2; owner leads in Beat 3; giant dog reveal starts only in Beat 4.
 - Storyboard generation has NOT started yet in this reviewed EP06 flow.
 - Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP06 before generating any storyboard image.
+
+
+## SS2 WORKFLOW REVIEW — EP06 STEP 4 STORYBOARD DESIGN SPEC LOCK
+Milestone: 2026-10-07
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Specification: PASS / LOCKED.
+- Storyboard format: one 9:16 vertical storyboard, 2 columns × 3 rows, read top-left → top-right → middle-left → middle-right → bottom-left → bottom-right.
+- Each panel represents the key END-STATE of its 2.5-second beat and must read as frames from ONE continuous casual smartphone shot, not six separate camera setups.
+- Authority:
+  - Starter Frame 06 controls Beat 1 camera/geography/gate/normal-dog layout/daylight/pre-reveal state.
+  - Master Still 06 controls giant Great Pyrenees identity, coat/anatomy, reveal scale, and cute/non-threatening tone from Beat 4 onward.
+- Panel design:
+  1) Beat 1 0.0–2.5s NORMAL PARK — normal dogs playing casually; same gate/world/camera as Starter; giant dog not visible.
+  2) Beat 2 2.5–5.0s DOGS NOTICE — several normal dogs pause/turn toward gate; reactions curious, not fearful; giant dog still completely hidden.
+  3) Beat 3 5.0–7.5s OWNER ENTERS — gate opens; adult owner steps through first; giant dog still outside/obscured by gate or frame edge; no giant head/body reveal yet.
+  4) Beat 4 7.5–10.0s GIANT DOG REVEAL — exactly one enormous realistic Great Pyrenees calmly follows owner; head roughly chest-to-shoulder height; owner and normal dogs remain visible as scale anchors.
+  5) Beat 5 10.0–12.5s CALM SCALE REACTION — same giant dog advances 2–3 calm steps; normal dogs pause or cautiously approach; scale/proportions unchanged; no aggression.
+  6) Beat 6 12.5–15.0s CUTE BUTTON — one small dog is positioned facing the giant dog; exactly one bark is the motion/audio event; giant dog stops, looks at the small dog, gently tilts head; hard cut.
+- Composition continuity: same dog park, same gate, same owner, same normal dogs where practical, same daylight direction, same smartphone camera side/height; no drone/external/low-angle monster framing.
+- Giant-dog continuity: exactly one giant Great Pyrenees, four legs, one head, one tail, realistic paws/fur/anatomy, constant scale after reveal.
+- Reveal discipline: no giant dog in Beat 1–2; Beat 3 owner first; Beat 4 first readable giant-dog reveal.
+- Tone discipline: cute/WTF, calm/friendly/curious; no panic, snarl, growl, charge, chase, crowd flight, roar, or monster posture.
+- Storyboard labels allowed: Beat number + exact timecode only; no explanatory paragraphs inside the image.
+- QA gate before generation: reject early giant-dog reveal, owner/giant-dog entering simultaneously, duplicate giant dog, scale drift, extra limbs, deformed paws, camera change, panic/aggression, or a Beat 6 pose that does not clearly support one-bark → head-tilt timing.
+- No storyboard image has been generated yet under this reviewed EP06 flow.
+- Exact next action: wait for user command, then STEP 5 — generate EP06 storyboard control asset from this locked design spec, QA each panel, repair until PASS, then move onward.

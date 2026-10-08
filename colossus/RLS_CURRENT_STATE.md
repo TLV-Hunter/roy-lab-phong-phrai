@@ -876,3 +876,19 @@ Milestone: 2026-10-08
 - Anti-teleport control PASS: storyboard no longer jumps directly from empty tree line to a fully centered giant moose; Beat 3 explicitly provides a partial emergence state.
 - Final Reel/publication status unchanged.
 - Exact next action: wait for user command, then STEP 6 — build final Seedance 2.5 15-second generation prompt using Starter Frame 07 + Master Still 07 + this QA-PASS storyboard.
+
+
+## EP07 STORYBOARD FINAL QA — CORRECTED BOARD PASS
+Milestone: 2026-10-08
+- Corrected six-panel EP07 storyboard re-QA completed.
+- Verdict: PASS / LOCKED, 96/100 for temporal-control use.
+- Beat 1 PASS: normal first moose crossing; dashcam/SUV/road geometry stable; no giant moose.
+- Beat 2 PASS: first moose is leaving the roadway into the left brush; no giant second-moose anatomy is visible. Vegetation disturbance is subtle and should be enforced as motion in the video prompt.
+- Beat 3 PASS: proper partial physical emergence from the same left tree line; only giant front-leg/chest/body portions are visible, with head/antlers still concealed. This is a valid anti-teleport bridge state.
+- Beat 4 PASS: first full readable giant-moose reveal; SUV, hooves and ground remain visible; shoulder clearly above SUV roofline.
+- Beat 5 PASS: same giant moose holds beside SUV with stable body scale/anatomy and planted hooves.
+- Beat 6 PASS: body remains essentially planted while head turns toward dashcam; scale is stable. Antler topology must remain explicitly locked in the motion prompt because perspective changes can otherwise trigger morphing.
+- Count continuity PASS: exactly two moose roles — normal first moose, then giant second moose; no morph between them.
+- Camera continuity PASS: same dashcam, SUV, road, forest and daylight throughout.
+- Remaining motion-only locks for Prompt V1: Beat 2 vegetation movement must read clearly; Beat 3 must be real walking from vegetation with no dissolve/fade/materialization; Beat 6 head turn only, with antlers structurally unchanged.
+- Exact next action: STEP 6 — assemble final Seedance 2.5 15-second prompt using Starter Frame 07, Master Still 07, and this corrected QA-PASS storyboard.

@@ -931,3 +931,33 @@ Milestone: 2026-10-08
   2) Master Still 07 = giant second-moose identity / antlers / anatomy / scale.
   3) Corrected storyboard = timing / emergence path only.
 - Exact next action: use the new Starter Frame + Master Still 07 + corrected storyboard + locked Step 6 prompt to generate EP07, then perform real-clip QA before any upscale/final edit.
+
+
+## EP07 REAL CLIP QA — EARLY REVEAL / WRONG EMERGENCE PATH
+Milestone: 2026-10-08
+- Source clip inspected from actual footage (filename ignored as authority per editing rules).
+- Technical: 720×1280, 24 fps, duration 15.104s.
+- Verdict: FAIL / DO NOT UPSCALE OR FINALIZE.
+- PASS points:
+  - one normal first moose is present at the opening;
+  - one giant second moose is used later;
+  - giant-moose scale beside SUV is strong and remains broadly stable;
+  - anatomy and antlers are mostly stable after full reveal;
+  - late head-turn toward dashcam is present;
+  - continuous dashcam viewpoint is preserved.
+- FAIL points:
+  - giant second moose begins appearing far too early: first antler tip becomes visible around 2.9–3.0s, during Beat 2, when giant-moose anatomy must be completely absent until Beat 3;
+  - by ~3.6–4.0s the giant head/antlers are clearly readable, before the locked 5.0s emergence window;
+  - giant moose emerges from frame-right / behind the SUV instead of from the separately disturbed tree-line area established by Beat 2;
+  - reveal begins with antlers/head rather than partial front-leg/chest/shoulder physical emergence, weakening the anti-teleport bridge state;
+  - Beat 2 vegetation-only suspense is effectively skipped;
+  - source duration is 15.104s rather than exact 15.000s;
+  - Dola AI watermark remains visible.
+- Editing gate: because story/continuity QA failed, do not upscale, watermark-clean, trim, or mark final.
+- Required regeneration repair:
+  1) 0.0–5.0s: zero giant-moose anatomy visible;
+  2) Beat 2: clear vegetation movement in a distinct tree-line zone only;
+  3) 5.0–7.5s: giant second moose must physically emerge from that same zone, with front leg/chest/shoulder first and head/antlers still partly concealed;
+  4) full head/antlers become readable only later in Beat 3 / Beat 4;
+  5) preserve current successful SUV scale, anatomy, antlers and late head-turn.
+- Exact next action: repair EP07 prompt/control timing and regenerate; repeat real-clip QA before any post-production.

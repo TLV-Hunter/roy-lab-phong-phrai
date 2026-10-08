@@ -961,3 +961,28 @@ Milestone: 2026-10-08
   4) full head/antlers become readable only later in Beat 3 / Beat 4;
   5) preserve current successful SUV scale, anatomy, antlers and late head-turn.
 - Exact next action: repair EP07 prompt/control timing and regenerate; repeat real-clip QA before any post-production.
+
+
+## EP07 REAL CLIP QA — SECOND ATTEMPT FAIL
+Milestone: 2026-10-08
+- Source clip: Buoy Disappearance Mystery (3).mp4 (filename not treated as content authority).
+- Technical probe: 720×1280, 24 fps, AAC stereo 44.1 kHz, duration 15.104s.
+- Verdict: FAIL / DO NOT UPSCALE OR FINALIZE.
+- Dense 0.1s reveal QA:
+  - 0.0–2.5s: normal first moose crossing is usable.
+  - ~3.2s: first giant antler becomes visible during Beat 2.
+  - ~3.3–3.8s: giant antlers/head become increasingly readable.
+  - ~4.0s onward: giant second moose is clearly present before the locked 5.0s emergence window.
+- Story failures:
+  1) Beat 2 is not vegetation-only; giant-moose anatomy appears too early.
+  2) Reveal begins with antlers/head rather than the required front-leg/chest/shoulder physical emergence.
+  3) The giant emerges from nearly the same left-side zone where the first moose is exiting, creating residual morph/identity-confusion risk.
+  4) Beat 2 suspense is shortened/skipped.
+- PASS points:
+  - dashcam continuity is stable;
+  - giant-moose scale beside SUV is strong;
+  - later anatomy/antlers are broadly stable;
+  - late head turn is present;
+  - no collision/attack.
+- Post-production gate: because story continuity failed, do not upscale, trim, watermark-clean, or mark final.
+- Exact next action: repair generation timing again so 0.0–5.0s contains zero giant-moose anatomy, move the second-moose emergence to a clearly separate tree-line zone, and make the first visible giant body part front leg/chest/shoulder after 5.0s.

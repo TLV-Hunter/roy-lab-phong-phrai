@@ -919,3 +919,15 @@ Milestone: 2026-10-08
 - Camera lock: one continuous stopped-SUV dashcam shot; no external/drone/cutaway camera.
 - Final Reel/publication status unchanged: NOT FINAL / NOT PUBLISHED until a generated clip passes real timecode QA.
 - Exact next action: generate EP07 with Starter 07 + Master Still 07 + corrected storyboard + locked 15-second prompt, then perform real-clip QA before any upscale/final edit.
+
+
+## EP07 STARTER FRAME REGENERATED AFTER STORYBOARD UPDATE
+Milestone: 2026-10-08
+- A new EP07 Starter Frame has been generated to match the corrected storyboard geometry and Beat 1 state.
+- New Starter Frame content: one normal-size first moose crossing the road, stopped SUV at frame-right with brake lights, same dashcam hood/road/forest/daylight composition, no giant second moose visible, no disturbed vegetation reveal yet.
+- Purpose: replace the earlier Starter Frame 07 for generation runs that use the corrected storyboard, so Frame 0 and storyboard continuity align.
+- Authority order for EP07 generation now:
+  1) New Starter Frame = exact Frame 0 / dashcam / road / SUV / normal first moose / lighting.
+  2) Master Still 07 = giant second-moose identity / antlers / anatomy / scale.
+  3) Corrected storyboard = timing / emergence path only.
+- Exact next action: use the new Starter Frame + Master Still 07 + corrected storyboard + locked Step 6 prompt to generate EP07, then perform real-clip QA before any upscale/final edit.

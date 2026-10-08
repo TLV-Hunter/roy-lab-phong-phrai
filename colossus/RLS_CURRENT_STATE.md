@@ -805,3 +805,25 @@ Milestone: 2026-10-08
 - Camera lock: one continuous stopped-SUV dashcam view; no drone/external/cutaway camera.
 - Final Reel/publication status unchanged.
 - Exact next action: wait for user command, then STEP 3 — 15-second Beat Map for EP07.
+
+
+## SS2 WORKFLOW REVIEW — EP07 STEP 3 BEAT MAP LOCK
+Milestone: 2026-10-08
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS / LOCKED.
+- Episode: RLS-S2-007 — The Moose Was Taller Than the SUV.
+- Beat timing:
+  1) 0.0–2.5s NORMAL MOOSE CROSSING — the normal first moose finishes crossing ahead of the stopped SUV; same dashcam view; brake lights stay on.
+  2) 2.5–5.0s VEGETATION MOVES — the normal moose continues off the road; branches/brush at the tree line move unnaturally; no giant moose visible yet.
+  3) 5.0–7.5s GIANT MOOSE EMERGES — exactly one giant second moose physically steps out from the tree line; partial body/leg/shoulder appears first, then continued real walking motion; no fade-in/pop-in/teleport.
+  4) 7.5–10.0s SUV SCALE LOCK — same giant moose takes 1–2 slow steps beside the SUV; shoulder clearly above SUV roofline; keep SUV, hooves and ground visible as scale anchors.
+  5) 10.0–12.5s CALM HOLD — giant moose pauses, breathes, shifts weight naturally; antlers/anatomy/scale remain stable.
+  6) 12.5–15.0s LOOK BACK — giant moose slowly turns head toward dashcam and holds briefly; hard cut.
+- Count lock: exactly TWO moose total — one normal first moose and one giant second moose.
+- Emergence continuity: Beat 3 starts with partial physical entry from tree line before the full giant moose becomes readable.
+- Scale lock: giant moose remains the same size from Beat 3 onward; no growth/shrinkage.
+- Camera lock: one continuous stopped-SUV dashcam view, no cutaways.
+- Behavior lock: calm wildlife behavior; no collision, charge, attack, panic, gore, or moose climbing onto vehicle.
+- Storyboard generation has NOT started in this reviewed EP07 flow.
+- Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP07.

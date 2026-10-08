@@ -827,3 +827,32 @@ Milestone: 2026-10-08
 - Behavior lock: calm wildlife behavior; no collision, charge, attack, panic, gore, or moose climbing onto vehicle.
 - Storyboard generation has NOT started in this reviewed EP07 flow.
 - Exact next action: wait for user command, then STEP 4 — Storyboard Design Specification for EP07.
+
+
+## SS2 WORKFLOW REVIEW — EP07 STEP 4 STORYBOARD DESIGN SPEC LOCK
+Milestone: 2026-10-08
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Specification: PASS / LOCKED.
+- Storyboard format: one 9:16 vertical storyboard, 2 columns × 3 rows, read top-left → top-right → middle-left → middle-right → bottom-left → bottom-right.
+- Each panel represents the key END-STATE of its 2.5-second beat and must read as frames from ONE continuous stopped-SUV dashcam view, not six separate camera setups.
+- Authority:
+  - Starter Frame 07 controls Beat 1 dashcam position, road, forest/tree-line geometry, SUV, normal first moose, daylight and pre-reveal composition.
+  - Master Still 07 controls giant second-moose anatomy, antlers, coat/body identity and giant scale relative to the SUV.
+- Panel design:
+  1) Beat 1 0.0–2.5s NORMAL MOOSE CROSSING — normal first moose finishing its crossing ahead of the stopped SUV; road, SUV and dashcam geometry match Starter; no giant moose visible.
+  2) Beat 2 2.5–5.0s VEGETATION MOVES — first moose continues off-road; one specific section of brush/tree-line visibly bends or parts; no readable giant-moose body part yet.
+  3) Beat 3 5.0–7.5s GIANT MOOSE EMERGES — the second giant moose begins a physical walk-out from the SAME disturbed tree-line; only a partial entry state is shown first (front leg/shoulder/chest crossing vegetation edge), with the rest of body still partly concealed; never show a suddenly complete giant moose in this panel.
+  4) Beat 4 7.5–10.0s SUV SCALE LOCK — same giant moose has continued 1–2 real steps into the open beside SUV; full body is now readable; shoulder clearly above SUV roofline; SUV, hooves and ground visible together as scale anchors.
+  5) Beat 5 10.0–12.5s CALM HOLD — same giant moose pauses beside SUV, stable anatomy/antlers/scale; subtle weight shift/breathing posture; no forward charge.
+  6) Beat 6 12.5–15.0s LOOK BACK — same giant moose remains in place and slowly turns its head toward dashcam; body/legs stay planted and unchanged; calm stare; hard cut.
+- Continuity locks: exactly TWO moose total; normal first moose exits and does not morph into the giant second moose; same giant moose remains from Beat 3 onward; same SUV/road/forest/dashcam/light throughout.
+- Anti-teleport lock: Beat 3 must visually show partial physical emergence from vegetation; no fade-in, dissolve, opacity transition, materialization, pop-in, position jump or already-complete giant moose.
+- Scale lock: giant moose shoulder above SUV roofline; do not make the moose building-sized; preserve realistic moose proportions while clearly larger than normal.
+- Antler/anatomy lock: one head, two ears, four legs, four hooves, stable antlers; no antler branching morph, extra legs, fused limbs, stretched torso or floating feet.
+- Behavior lock: calm wildlife behavior only; no charge, attack, collision, panic, gore or moose climbing onto the SUV.
+- Storyboard labels allowed: Beat number + exact timecode only; no explanatory paragraphs inside image.
+- QA reject conditions: giant moose appears in Beat 2, Beat 3 shows a fully revealed centered moose with no emergence path, first moose morphs into giant moose, SUV disappears during scale beat, hooves/ground lost, antlers morph, extra limbs, camera angle changes, or aggression appears.
+- No storyboard image has been generated yet under this reviewed EP07 flow.
+- Exact next action: wait for user command, then STEP 5 — generate EP07 storyboard control asset from this locked design spec and QA/repair until PASS.

@@ -986,3 +986,12 @@ Milestone: 2026-10-08
   - no collision/attack.
 - Post-production gate: because story continuity failed, do not upscale, trim, watermark-clean, or mark final.
 - Exact next action: repair generation timing again so 0.0–5.0s contains zero giant-moose anatomy, move the second-moose emergence to a clearly separate tree-line zone, and make the first visible giant body part front leg/chest/shoulder after 5.0s.
+
+
+## EP07 SOURCE SELECTION — PREVIOUS ATTEMPT CHOSEN
+Milestone: 2026-10-08
+- User stopped regeneration and requested a direct choice between the previous and latest EP07 generated clips.
+- Selected source: previous attempt, Buoy Disappearance Mystery (2).mp4.
+- Reason: although its giant-moose reveal is too early and its emergence path is imperfect, it separates the giant second moose more clearly from the normal first moose. The latest attempt, Buoy Disappearance Mystery (3).mp4, introduces stronger identity/morph ambiguity because the giant moose emerges from nearly the same left-side zone as the first moose.
+- Tradeoff accepted: use the previous clip as the better available source rather than regenerate again.
+- Exact next action: proceed to post-production on the selected previous EP07 source under project editing rules, then perform final QA before any publication claim.

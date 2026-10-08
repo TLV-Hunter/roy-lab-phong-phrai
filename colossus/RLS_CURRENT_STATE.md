@@ -856,3 +856,23 @@ Milestone: 2026-10-08
 - QA reject conditions: giant moose appears in Beat 2, Beat 3 shows a fully revealed centered moose with no emergence path, first moose morphs into giant moose, SUV disappears during scale beat, hooves/ground lost, antlers morph, extra limbs, camera angle changes, or aggression appears.
 - No storyboard image has been generated yet under this reviewed EP07 flow.
 - Exact next action: wait for user command, then STEP 5 — generate EP07 storyboard control asset from this locked design spec and QA/repair until PASS.
+
+
+## SS2 WORKFLOW REVIEW — EP07 STEP 5 STORYBOARD FINAL PASS
+Milestone: 2026-10-08
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Storyboard Generation + Final QA: PASS / LOCKED.
+- Final storyboard file: RLS_S2_007_STORYBOARD_6BEAT_FINAL.png, 1080×1920.
+- Beat 1 PASS: normal first moose crossing ahead of stopped SUV; no giant moose.
+- Beat 2 PASS: first moose continues off-road/into vegetation; no readable giant second-moose anatomy.
+- Beat 3 PASS: giant second moose appears as a partial physical emergence from the disturbed tree line; body remains partly concealed; no fade-in/pop-in state.
+- Beat 4 PASS: same giant moose fully readable beside SUV; shoulder clearly above SUV roofline; SUV, hooves and ground visible as scale anchors.
+- Beat 5 PASS: same giant moose holds beside SUV with stable anatomy, antlers and scale.
+- Beat 6 PASS: same giant moose turns toward dashcam while remaining grounded; SUV and road remain continuous.
+- Continuity PASS: same dashcam side/height, same road/forest/SUV/light, exactly two moose across the story, no morph from normal moose to giant moose.
+- Anti-teleport control PASS: storyboard no longer jumps directly from empty tree line to a fully centered giant moose; Beat 3 explicitly provides a partial emergence state.
+- Final Reel/publication status unchanged.
+- Exact next action: wait for user command, then STEP 6 — build final Seedance 2.5 15-second generation prompt using Starter Frame 07 + Master Still 07 + this QA-PASS storyboard.

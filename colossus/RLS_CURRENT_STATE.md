@@ -995,3 +995,26 @@ Milestone: 2026-10-08
 - Reason: although its giant-moose reveal is too early and its emergence path is imperfect, it separates the giant second moose more clearly from the normal first moose. The latest attempt, Buoy Disappearance Mystery (3).mp4, introduces stronger identity/morph ambiguity because the giant moose emerges from nearly the same left-side zone as the first moose.
 - Tradeoff accepted: use the previous clip as the better available source rather than regenerate again.
 - Exact next action: proceed to post-production on the selected previous EP07 source under project editing rules, then perform final QA before any publication claim.
+
+
+## EP07 SELECTED SOURCE FINAL POST-PRODUCTION COMPLETE
+Milestone: 2026-10-08
+- Selected source: Buoy Disappearance Mystery (2).mp4, previously chosen by user as the better available EP07 take.
+- User explicitly chose to stop regeneration and proceed with this source despite known story-timing imperfections.
+- Post-production completed:
+  - trimmed to exact 15.000s;
+  - output resized/upscaled from 720×1280 to 1080×1920 using high-quality Lanczos scaling (not AI super-resolution; do not label as AI 4K);
+  - mild denoise + conservative sharpening applied;
+  - bottom-right Dola AI watermark area cleaned;
+  - original audio preserved/re-encoded to AAC 192 kbps;
+  - H.264, yuv420p, faststart.
+- Final technical verification:
+  - 1080×1920 vertical;
+  - 24 fps;
+  - duration 15.000000s;
+  - AAC stereo 44.1 kHz;
+  - file opens and sampled late frames show no visible Dola AI watermark.
+- Final output: RLS_S2_007_FINAL_1080x1920.mp4.
+- Status: FINAL POST-PRODUCTION CANDIDATE READY. Publication remains NOT PUBLISHED until separately confirmed.
+- Known accepted creative tradeoff: early giant-moose reveal/emergence path from the chosen source remains imperfect versus the locked storyboard, but user explicitly selected this take over the latest alternative and requested post-production rather than further regeneration.
+- Exact next action: review/download final candidate; only after explicit publication action update publication status.

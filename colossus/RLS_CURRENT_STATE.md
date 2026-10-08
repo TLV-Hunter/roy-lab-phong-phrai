@@ -771,3 +771,18 @@ Milestone: 2026-10-07
   4) strengthen no-dissolve/no-opacity-fade/no-materialization language in prompt;
   5) regenerate and re-QA before upscale/final edit.
 - Exact next action: repair EP06 storyboard timing/control asset first, then rebuild Prompt V5 around that storyboard.
+
+
+## SS2 WORKFLOW REVIEW — EP07 START
+Milestone: 2026-10-08
+- Production focus moves to RLS-S2-007 — The Moose Was Taller Than the SUV.
+- EP06 remains unresolved at V4 real-clip QA FAIL due teleport/fade-in reveal; do not count it as final.
+- Operating mode remains one step at a time.
+- STEP 1 Episode Brief / Story Lock: PASS / LOCKED.
+- Core story: normal moose crosses road first → vegetation moves → exactly one gigantic second moose emerges from tree line → SUV becomes the scale anchor → giant moose calmly holds → giant moose slowly turns toward dashcam.
+- Animal count lock: exactly TWO moose total — one normal moose first, then one giant realistic moose.
+- Scale lock: giant moose shoulder clearly above SUV roofline; vehicle, hooves and ground must remain visible whenever possible so scale reads physically.
+- Behavior lock: calm wildlife behavior; no attack, collision, charging, gore, moose on car, floating, or panic.
+- Camera lock: one continuous dashcam view from the same stopped vehicle; no drone/external/third-person cutaway.
+- Final Reel/publication status unchanged: waiting / not published.
+- Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP07 Master Still + Starter Frame.

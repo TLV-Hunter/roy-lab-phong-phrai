@@ -892,3 +892,30 @@ Milestone: 2026-10-08
 - Camera continuity PASS: same dashcam, SUV, road, forest and daylight throughout.
 - Remaining motion-only locks for Prompt V1: Beat 2 vegetation movement must read clearly; Beat 3 must be real walking from vegetation with no dissolve/fade/materialization; Beat 6 head turn only, with antlers structurally unchanged.
 - Exact next action: STEP 6 — assemble final Seedance 2.5 15-second prompt using Starter Frame 07, Master Still 07, and this corrected QA-PASS storyboard.
+
+
+## SS2 WORKFLOW REVIEW — EP07 STEP 6 FINAL SEEDANCE PROMPT LOCK
+Milestone: 2026-10-08
+- STEP 1 Story Lock: PASS.
+- STEP 2 Visual Authority: PASS.
+- STEP 3 15-second Beat Map: PASS.
+- STEP 4 Storyboard Design Spec: PASS.
+- STEP 5 Corrected Storyboard Final QA: PASS 96/100.
+- STEP 6 Final Seedance 2.5 Prompt: PASS / LOCKED.
+- Reference assignment:
+  - IMAGE 1 = Starter Frame 07 / exact Frame 0, dashcam, road, forest, SUV, normal first moose authority.
+  - IMAGE 2 = Master Still 07 / giant second-moose identity, anatomy, antlers, coat and SUV-relative scale authority.
+  - IMAGE 3 = corrected EP07 storyboard / temporal progression only.
+- Motion locks:
+  - exactly TWO moose total;
+  - normal first moose exits and never morphs into the giant second moose;
+  - Beat 2 shows vegetation movement only, with no giant-moose anatomy;
+  - Beat 3 is real physical emergence from the same disturbed tree line with partial body first;
+  - no fade-in, dissolve, opacity transition, materialization, pop-in or teleport;
+  - Beat 4 first full readable giant-moose reveal beside SUV;
+  - giant-moose shoulder remains above SUV roofline and scale stays constant;
+  - Beat 5 calm hold / subtle breathing and weight shift only;
+  - Beat 6 head turns toward dashcam while body/legs remain planted and antler topology stays unchanged.
+- Camera lock: one continuous stopped-SUV dashcam shot; no external/drone/cutaway camera.
+- Final Reel/publication status unchanged: NOT FINAL / NOT PUBLISHED until a generated clip passes real timecode QA.
+- Exact next action: generate EP07 with Starter 07 + Master Still 07 + corrected storyboard + locked 15-second prompt, then perform real-clip QA before any upscale/final edit.

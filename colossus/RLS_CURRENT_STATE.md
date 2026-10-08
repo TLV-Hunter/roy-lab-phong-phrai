@@ -786,3 +786,22 @@ Milestone: 2026-10-08
 - Camera lock: one continuous dashcam view from the same stopped vehicle; no drone/external/third-person cutaway.
 - Final Reel/publication status unchanged: waiting / not published.
 - Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP07 Master Still + Starter Frame.
+
+
+## SS2 WORKFLOW REVIEW — EP07 STEP 2 VISUAL AUTHORITY LOCK
+Milestone: 2026-10-08
+- STEP 1 Episode Brief / Story Lock: PASS.
+- STEP 2 Visual Authority Check: PASS / LOCKED based on current QA-passed production sources.
+- Master Still 07: QA 95/100 PASS; use as giant second-moose identity, antlers/anatomy, reveal scale, and SUV-scale authority.
+- Starter Frame 07: QA 95/100 PASS; use as exact Frame 0 authority for dashcam position, road, forest, SUV, normal first moose, lighting, and pre-reveal geometry.
+- Authority separation:
+  - Starter Frame controls opening scene and the normal first-moose state.
+  - Master Still controls the giant second moose from reveal onward, especially size relative to SUV.
+  - Future storyboard controls chronology/blocking only.
+  - Prompt controls motion, emergence path, timing, physics, and negatives.
+- Scale lock: giant moose shoulder remains clearly above SUV roofline; hooves/ground and SUV remain visible when possible to preserve physical scale.
+- Count lock: exactly TWO moose total — one normal moose first, one giant second moose later.
+- Emergence continuity lock: giant moose must physically step out from the tree line; no fade-in, teleport, pop-in, opacity transition, or sudden fully-visible appearance.
+- Camera lock: one continuous stopped-SUV dashcam view; no drone/external/cutaway camera.
+- Final Reel/publication status unchanged.
+- Exact next action: wait for user command, then STEP 3 — 15-second Beat Map for EP07.

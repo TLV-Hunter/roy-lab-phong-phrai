@@ -1103,3 +1103,23 @@ Milestone: 2026-10-09
   5) never expose a continuous full S-shaped body;
   6) final rear/tail section must visibly submerge and disappear behind boat by 15.0s.
 - Exact next action: regenerate EP08 with stronger no-head/no-full-body/sequential-section locks before any upscale or watermark cleanup.
+
+
+## EP08 REPAIR PROMPT V2 — SEQUENTIAL SINGLE-SECTION REVEAL
+Milestone: 2026-10-09
+- Previous EP08 generated clip failed real-clip QA because python body surfaced too early, too much body remained continuously visible, head/anterior anatomy became readable, and tail-submerge payoff was weak.
+- Repair strategy: reduce generation references to avoid full-body priming.
+  - IMAGE 1 = Starter Frame 08 only for Frame 0 / helicopter / river / boat / opening disturbance.
+  - IMAGE 2 = QA-PASS storyboard only for timing/order.
+  - Omit Master Still 08 from the next generation run because its long exposed body can bias the model toward an early/full-snake reveal.
+- Core V2 motion rules:
+  - 0.0–5.0s: water disturbance only; zero visible scales/body/anatomy.
+  - At any moment after 5.0s, show only ONE short exposed body window at a time.
+  - A surfaced section must fully submerge before the next section appears farther along the same hidden underwater path.
+  - Never show two exposed sections simultaneously.
+  - Never show a continuous S-shaped body.
+  - Never show head, neck, eyes, mouth or fangs.
+  - Visible section endpoints must disappear beneath water so no anatomical head/tail endpoint is readable until the final tapering rear section.
+  - Final 12.5–15.0s rear/tail section narrows and fully submerges behind the boat.
+- Final Reel remains NOT FINAL / NOT PUBLISHED until a regenerated clip passes real timecode QA.
+- Exact next action: regenerate EP08 with Starter Frame 08 + Storyboard Final only + Repair Prompt V2, then perform real-clip QA; if PASS, proceed automatically to 1080×1920 upscale, watermark cleanup, exact 15.000s trim and final QA.

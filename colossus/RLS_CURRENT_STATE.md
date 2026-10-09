@@ -1123,3 +1123,33 @@ Milestone: 2026-10-09
   - Final 12.5–15.0s rear/tail section narrows and fully submerges behind the boat.
 - Final Reel remains NOT FINAL / NOT PUBLISHED until a regenerated clip passes real timecode QA.
 - Exact next action: regenerate EP08 with Starter Frame 08 + Storyboard Final only + Repair Prompt V2, then perform real-clip QA; if PASS, proceed automatically to 1080×1920 upscale, watermark cleanup, exact 15.000s trim and final QA.
+
+
+## EP08 V2 REAL CLIP QA — EARLY BODY / FULL-BODY REVEAL
+Milestone: 2026-10-09
+- Source: Buoy Disappearance Mystery (2)(1).mp4.
+- Technical probe: 720×1280, 24 fps, HEVC video, AAC stereo 44.1 kHz, duration 15.104s.
+- Verdict: FAIL / DO NOT UPSCALE OR FINALIZE.
+- Dense visual QA:
+  - 0.0–1.4s: opening water disturbance and boat tracking are usable.
+  - ~1.6s: first readable python form begins rising; ~1.8–2.2s body/scales become clearly visible. This violates the V2 0.0–5.0s water-only rule.
+  - ~2.2–5.0s: a long continuous body section remains above water. Beat 2 suspense is lost and the one-short-section rule is broken.
+  - ~5.1–5.7s: body disappears completely, creating a hard discontinuity.
+  - ~5.9–6.5s: body reappears from beneath water but again as a long contiguous section; transition feels like respawn/reappearance rather than one short body window.
+  - ~8.5–9.3s: previous section sinks; ~9.5–10.5s another long section rises, again exposing too much body and a readable front/head-like endpoint.
+  - ~10.1–13.1s: large continuous S-curved body remains visible, effectively full-snake reveal. This violates the one-section-at-a-time and no-full-body rules.
+  - ~13.3–13.7s: visible dissolve/ghosting transition occurs, with boat/river imagery partially double-exposed; this violates no-dissolve/no-camera-transition continuity.
+  - ~13.7–15.0s: returns to water-only/boat view, but the intended final tapering tail-submerge payoff is not clearly shown.
+- PASS points:
+  - one primary python identity / pattern is broadly stable;
+  - boat remains a useful scale reference;
+  - aerial camera direction remains broadly consistent outside the dissolve;
+  - no attack/collision/gore.
+- Root cause / repair direction:
+  1) current storyboard still visually primes long exposed body sections; prompt-only restriction is not strong enough;
+  2) next control asset should show only short cropped mid-body windows, never long continuous curves;
+  3) remove any storyboard panel that depicts a long S-shaped or near-full body;
+  4) enforce explicit water-only separator frames between section events;
+  5) make every surfaced section appear far enough apart in space/time so the model cannot stitch them into one exposed body;
+  6) final beat must show a clearly tapering rear section that fully submerges, not a dissolve back to water-only.
+- Exact next action: rebuild EP08 storyboard/control asset around truly short single-section windows + water-only gaps, then rebuild prompt V3 around that asset before regenerating.

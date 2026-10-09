@@ -1018,3 +1018,20 @@ Milestone: 2026-10-08
 - Status: FINAL POST-PRODUCTION CANDIDATE READY. Publication remains NOT PUBLISHED until separately confirmed.
 - Known accepted creative tradeoff: early giant-moose reveal/emergence path from the chosen source remains imperfect versus the locked storyboard, but user explicitly selected this take over the latest alternative and requested post-production rather than further regeneration.
 - Exact next action: review/download final candidate; only after explicit publication action update publication status.
+
+
+## SS2 WORKFLOW REVIEW — EP08 START
+Milestone: 2026-10-09
+- Production focus moves to RLS-S2-008 — Something Crossed Behind the Boat.
+- EP07 post-production candidate exists; publication remains unconfirmed / not published.
+- Operating mode remains one step at a time.
+- STEP 1 Episode Brief / Story Lock: PASS / LOCKED.
+- Core story: helicopter tracks a small boat over a tropical river while an abnormal long disturbance already exists at Frame 0 → disturbance changes course toward/behind the boat path → exactly one gigantic python begins revealing through short sequential connected body sections → more connected body appears to establish extraordinary length → final visible section/tail submerges behind the moving boat.
+- Creature count lock: exactly ONE giant python. Every surfaced section belongs to the same continuous animal.
+- Reveal discipline: Beat 1–2 water anomaly only; Beat 3 first short body section; never show full snake, giant head or fangs.
+- Scale lock: boat remains visible as scale reference during body reveals whenever practical.
+- Continuity lock: all surfaced sections must share the same body diameter, skin identity, direction of travel, and continuous path; no teleport or multiple snakes.
+- Behavior lock: no attack, chase, collision, gore, dragon features, monster behavior or boat damage.
+- Camera lock: one continuous helicopter observation shot with natural rotor vibration; no underwater/boat POV/cutaway.
+- Final Reel/publication status unchanged: waiting / not published.
+- Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP08 Master Still + Starter Frame.

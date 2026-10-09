@@ -1035,3 +1035,42 @@ Milestone: 2026-10-09
 - Camera lock: one continuous helicopter observation shot with natural rotor vibration; no underwater/boat POV/cutaway.
 - Final Reel/publication status unchanged: waiting / not published.
 - Exact next action: wait for user command, then STEP 2 — Visual Authority Check for EP08 Master Still + Starter Frame.
+
+
+## SS2 WORKFLOW MODE UPDATE — AUTONOMOUS PREPRODUCTION
+Milestone: 2026-10-09
+- User no longer wants manual "ต่อ" gating for each pre-production step.
+- From EP008 onward, run Story Lock → Visual Authority → Beat Map → Storyboard Design → Storyboard Generation/Repair → Prompt Assembly autonomously.
+- QA internally at every gate and repair/regenerate until PASS before delivery.
+- User-facing delivery should contain only the final generation assets actually needed plus the final 15-second prompt.
+- Stop only at a genuine decision point or after final generation pack delivery.
+
+
+## EP08 FINAL GENERATION PACK READY
+Milestone: 2026-10-09
+- Episode: RLS-S2-008 — Something Crossed Behind the Boat.
+- Autonomous pre-production completed through final generation pack.
+- Story Lock: PASS.
+- Visual Authority: PASS.
+- 15-second Beat Map: PASS.
+- Storyboard Design: PASS.
+- Storyboard Generation initial attempt: FAIL because Beat 2 revealed too much body and Beats 4–5 approached full-snake exposure.
+- Storyboard repaired automatically and re-QA: PASS 96/100 for temporal-control use.
+- Final generation assets prepared at 1080×1920:
+  - RLS_S2_008_STARTER_FINAL.png
+  - RLS_S2_008_MASTER_FINAL.png
+  - RLS_S2_008_STORYBOARD_FINAL.png
+- Starter authority: exact Frame 0 / helicopter composition / same boat / tropical river / existing abnormal disturbance only / no visible snake body.
+- Master authority: python skin/body identity, diameter, scale relative to boat; no head authority and not a timing pose.
+- Storyboard authority: chronological action only.
+- Temporal locks:
+  1) 0.0–2.5s existing abnormal disturbance, no body;
+  2) 2.5–5.0s disturbance changes course, no readable snake anatomy;
+  3) 5.0–7.5s first short mid-body section surfaces;
+  4) 7.5–10.0s second connected section surfaces farther along same hidden curve;
+  5) 10.0–12.5s additional connected mid/rear section for scale, never full snake;
+  6) 12.5–15.0s tapering final section/tail submerges behind boat.
+- Exactly one giant python; all surfaced sections share same skin identity, diameter, direction and continuous hidden path.
+- Hard negatives: no head, eyes, mouth, fangs, full-snake reveal, multiple snakes, teleport, opacity fade/materialization, attack, collision, dragon features, diameter drift, or camera cutaway.
+- Final Reel/publication status unchanged: NOT FINAL / NOT PUBLISHED until generated video passes real-clip QA.
+- Exact next action: generate EP008 using the final three reference images plus the locked 15-second prompt, then perform real-clip QA before post-production.

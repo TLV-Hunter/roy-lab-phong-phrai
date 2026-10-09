@@ -1074,3 +1074,32 @@ Milestone: 2026-10-09
 - Hard negatives: no head, eyes, mouth, fangs, full-snake reveal, multiple snakes, teleport, opacity fade/materialization, attack, collision, dragon features, diameter drift, or camera cutaway.
 - Final Reel/publication status unchanged: NOT FINAL / NOT PUBLISHED until generated video passes real-clip QA.
 - Exact next action: generate EP008 using the final three reference images plus the locked 15-second prompt, then perform real-clip QA before post-production.
+
+
+## EP08 REAL CLIP QA — FULL-SNAKE EARLY REVEAL FAILURE
+Milestone: 2026-10-09
+- Source: Python River Encounter.mp4.
+- Technical probe: 720×1280, 24 fps, HEVC video, AAC stereo 44.1 kHz, duration 15.104s.
+- Verdict: FAIL / DO NOT UPSCALE OR FINALIZE.
+- Actual visual QA:
+  - 0.0–~1.0s: water anomaly / boat tracking is usable.
+  - ~1.5–2.0s: readable python body begins surfacing far too early, violating Beat 1–2 water-anomaly-only rule.
+  - 2.5–5.0s: exposed body rapidly expands into a long continuous surfaced snake section; Beat 2 suspense is lost.
+  - 5.0–10.0s: most of the snake is already continuously visible above water, rather than short sequential connected sections separated by submerged gaps.
+  - Head/forward anatomy becomes readable during the clip, violating the hard no-head rule.
+  - 10.0–14.5s: the snake remains almost fully exposed in an S-curve; this is effectively a full-snake reveal and breaks the core concept.
+  - Tail/submerge payoff is weak because the body stays exposed instead of progressively disappearing beneath the surface behind the boat.
+- PASS points:
+  - one snake identity appears broadly consistent;
+  - body diameter and scale pattern remain fairly stable;
+  - boat remains visible as scale reference;
+  - camera remains a continuous aerial/helicopter-style view;
+  - no attack/collision/gore.
+- Required repair:
+  1) 0.0–5.0s = water disturbance only, zero readable snake scales/body;
+  2) first visible body section only after 5.0s;
+  3) each surfaced section must be short, with submerged gaps between them;
+  4) never show head/neck/eyes/mouth;
+  5) never expose a continuous full S-shaped body;
+  6) final rear/tail section must visibly submerge and disappear behind boat by 15.0s.
+- Exact next action: regenerate EP08 with stronger no-head/no-full-body/sequential-section locks before any upscale or watermark cleanup.

@@ -1236,3 +1236,30 @@ Milestone: 2026-10-10
   - creature behavior remains calm/observational, not attack-focused;
   - reveal must be physically continuous with no fade/pop-in/teleport.
 - Exact next action: choose/start EP011 and produce the full Final Generation Pack autonomously (references + QA + 15s prompt) without step-by-step user confirmations.
+
+
+## SS2 SET 02 MASTER STILL BATCH QA — EP011–EP020 ROUND 1
+Milestone: 2026-10-10
+- User requested 10 separate Master Still files for EP011–EP020, QA of all 10, and captions/pinned comments only after all 10 pass.
+- Round-1 visual/content QA:
+  - EP011 PASS 96/100 — giant bison, ranger truck and oversized muddy tracks establish scale clearly; anatomy/scene continuity acceptable.
+  - EP012 VISUAL PASS 95/100 but DELIVERY FAIL — giant sturgeon-under-ice concept and anatomy read well; missing required disclosure footer.
+  - EP013 VISUAL PASS 95/100 but DELIVERY FAIL — giant wolf vs normal pack gives strong scale and stable anatomy; missing required disclosure footer.
+  - EP014 PASS 93/100 — giant elk/redwood/hiker scale reads clearly; antlers are exaggerated but remain usable; image functions as payoff Master Still.
+  - EP015 FAIL 86/100 — elk antlers are excessively distorted/overgrown and read as fantasy anatomy rather than grounded documentary wildlife.
+  - EP016 PASS 95/100 — giant manatee-like aquatic herbivore beside dock has strong dock/person scale and believable water interaction.
+  - EP017 FAIL 87/100 — moose does not read sufficiently colossal versus horses; scale payoff is too weak for the episode premise.
+  - EP018 PASS 97/100 — giant black bear/trail-camera framing is strong; deer gives clear scale; anatomy reads naturally.
+  - EP019 PASS 93/100 — polar bear / snowcat concept reads clearly with believable snow environment and stable anatomy; scale is acceptable though less extreme than some episodes.
+  - EP020 FAIL 80/100 — bighorn ram horn anatomy is malformed/duplicated (extra horn-like structure), violating realistic-anatomy lock.
+- Batch visual/content status: 5 clean PASS, 2 visual PASS needing disclosure repair, 3 visual FAIL needing regeneration.
+- Technical delivery status: current generated files are 941×1672, not final MASTER STILL • 4K. No image is counted as final 4K delivery yet. After visual repairs, all 10 must be standardized/upscaled to 2160×3840 without cropping and re-QA'd.
+- Caption/pinned-comment creation is intentionally blocked until all 10 Master Stills pass visual + disclosure + 4K delivery QA.
+- Required repair set:
+  1) EP012 add required disclosure footer only; preserve image content.
+  2) EP013 add required disclosure footer only; preserve image content.
+  3) EP015 regenerate grounded giant bull elk with realistic symmetrical elk antlers and pickup scale anchor.
+  4) EP017 regenerate a clearly colossal moose so horses/rider read much smaller, while preserving realistic moose anatomy.
+  5) EP020 regenerate giant bighorn ram with exactly two anatomically correct curled horns, no extra horn structures.
+  6) After repairs pass, standardize all 10 to 2160×3840 full-frame 4K delivery and QA again.
+- Exact next action: repair the five affected assets, re-QA the complete 10-image batch to PASS, then create QA-passed English-first captions and pinned comments for EP011–EP020.

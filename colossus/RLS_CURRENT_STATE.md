@@ -1360,3 +1360,20 @@ Milestone: 2026-10-11
   - /mnt/data/RLS_SET02_EP011_EP020_FINAL_DELIVERY.zip
 - Publication status remains NOT PUBLISHED.
 - Exact next action: proceed to Set 02 starter/storyboard/video-generation production only when requested; Master Still + copy batch is complete and locked.
+
+
+## SS2 SET 02 MASTER STILL COPY DEPLOYED TO GITHUB CONTENT DESK — EP011–EP020
+Milestone: 2026-10-11 Asia/Bangkok
+- User instructed: prepare Caption + Pinned Comment for all 10 Set 02 Master Stills; QA and put on project website only if all PASS.
+- Reused and re-QA'd previously finalized English-first source copy pack (no unapproved invention of visual details).
+- COPY QA: 10/10 captions PASS; 10/10 pinned comments PASS; 10/10 AI-fiction disclosure PASS; 30/30 scene-relevant hashtags PASS; unique caption and pinned comment hooks; no fake real-event claims.
+- Website code/data updated on GitHub main:
+  - colossus/rls-ss2-content.json: 10 Set 02 episode records appended (20 total); Set 01 records retained.
+  - colossus/rls-ss2-copy-qa.json: 10 Set 02 QA-passed Still caption/comment entries appended (20 total); Reel copies remain PENDING.
+  - colossus/rls-ss2.html: Set 02 deep-link/quick link and explicit QA-passed image-unlinked message. Existing Desk/Checklist/Calendar/Batch/Strategy/Performance/Publisher retained.
+- Commits: content fbb1dbcf9826897d500c16bf40156d66a5a46908; copy 7bf1862cea2c885f88b2b37523b9fb86f402a59b; desk 0e9b3523112f0d1257499643d863dd379dc086ba.
+- QA: 20 content episodes, 20 copy entries; Set 01 IDs untouched; 10/10 Set 02 copy QA and publication safeguards verified from readback.
+- Site target: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss2.html?episode=RLS-S2-011
+- Explicit delivery boundary: Set 02 final Master Still image files were QA-passed in the previous production record but are NOT available under verified public web URLs; images are NOT visually embedded on site yet. Do not substitute mismatched image, do not claim live-image deployment. The GitHub changes are committed; direct public Pages load could not be independently confirmed by this session.
+- Publication truth: Set 02 STILL and REEL remain NOT PUBLISHED; updating internal website is not social publishing.
+- Exact next action: obtain/host the approved EP011–EP020 Final 4K Master Still files at verified URLs, link to their existing SS2 content entries, verify image/copy pairing per episode, then continue Set 02 Starter Frame/Video Generation beginning EP011.

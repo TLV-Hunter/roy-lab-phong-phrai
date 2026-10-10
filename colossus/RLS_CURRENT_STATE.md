@@ -1203,3 +1203,36 @@ Milestone: 2026-10-10
 - Camera: one continuous prehistoric survival POV / over-shoulder shot; same hunter, clothes, torch, cave and camera throughout.
 - Final Reel remains NOT FINAL / NOT PUBLISHED until generated clip passes real timecode QA.
 - Exact next action: generate EP10 with Starter Frame 10 + Master Still 10 + locked 15-second prompt, then real-clip QA; if PASS, proceed automatically to upscale/watermark cleanup/exact 15.000s/final QA.
+
+
+## SS2 SET 02 CONCEPT SLATE — EP011–EP020
+Milestone: 2026-10-10
+- A second 10-episode concept slate has been created for the USA EXTREME ENCOUNTERS direction.
+- Format target remains 15.0s, 9:16, AI cinematic wildlife/extreme encounter, grounded documentary realism, no gore/fake rescue/fantasy anatomy.
+- EP011 — The Tracks Were Bigger Than the Truck
+  Story: ranger truck stops at huge muddy tracks → fresh mud collapses → vegetation parts → one gigantic bison emerges → pauses beside truck → turns toward camera.
+- EP012 — Something Moved Under the Ice
+  Story: ice-fishing POV → long shadow under clear ice → crack races outward → one massive sturgeon silhouette passes below → ice flexes → shadow disappears into dark water.
+- EP013 — The Wolf Pack Stopped First
+  Story: trail-cam/wildlife POV follows running wolves → pack stops simultaneously → ears forward → one enormous realistic wolf steps from fog/tree line → pack backs away → giant wolf holds and watches.
+- EP014 — The Tree Was Breathing
+  Story: hikers film giant hollow redwood → bark/dust shifts → tree cavity expands with breathing-like movement → one gigantic elk slowly steps out from behind trunk → full scale reveal → calm stare.
+- EP015 — It Was Standing in the Corn
+  Story: pickup headlights scan cornfield at dusk → rows shake in one line → antlers rise above corn → one enormous bull elk steps onto dirt road → truck remains scale anchor → elk turns away.
+- EP016 — The Water Rose Beside the Dock
+  Story: fixed marina/security camera → calm lake → water bulges beside dock → one gigantic manatee-like herbivore back breaks surface briefly → dock posts show scale → body sinks → broad wake leaves.
+- EP017 — The Horses Wouldn't Cross
+  Story: ranch POV → horses refuse creek crossing → all stare upstream → one colossal moose walks through shallow creek from behind bend → water depth + horse scale establish size → moose stops.
+- EP018 — The Camera Trap Was Too Low
+  Story: static trail-cam → normal deer passes → branches move above usual head height → giant black bear chest/legs enter frame, forcing camera to capture only lower torso at first → bear lowers head to camera → sniff → leaves.
+- EP019 — Something Followed the Snowcat
+  Story: rear-facing snowcat action cam → clean snow trail → second parallel trench appears → huge polar bear emerges from snow haze at distance → walks parallel, no chase → stops while snowcat continues.
+- EP020 — The Ridge Started Moving
+  Story: telephoto mountain POV → herd of mountain goats crosses ridge → a 'rock' section shifts → one enormous realistic bighorn ram stands up from camouflage → goats move away → ram remains silhouetted at ridge edge.
+- Selection principles:
+  - each episode has a clear scale anchor (truck, ice hole, wolf pack, redwood, pickup, dock, horses, trail cam, snowcat, ridge);
+  - avoid repeating exact reveal mechanics from Set 01;
+  - keep one continuous camera style per episode;
+  - creature behavior remains calm/observational, not attack-focused;
+  - reveal must be physically continuous with no fade/pop-in/teleport.
+- Exact next action: choose/start EP011 and produce the full Final Generation Pack autonomously (references + QA + 15s prompt) without step-by-step user confirmations.

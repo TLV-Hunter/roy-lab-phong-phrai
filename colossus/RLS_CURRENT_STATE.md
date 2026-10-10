@@ -1153,3 +1153,28 @@ Milestone: 2026-10-09
   5) make every surfaced section appear far enough apart in space/time so the model cannot stitch them into one exposed body;
   6) final beat must show a clearly tapering rear section that fully submerges, not a dissolve back to water-only.
 - Exact next action: rebuild EP08 storyboard/control asset around truly short single-section windows + water-only gaps, then rebuild prompt V3 around that asset before regenerating.
+
+
+## EP09 FINAL GENERATION PACK — TWO-REFERENCE LOCK
+Milestone: 2026-10-10
+- Episode: RLS-S2-009 — The Elk Stopped Running.
+- Pre-production reviewed internally through final generation pack.
+- Existing QA-passed production authorities retained:
+  - Starter Frame 09: PASS 98/100 — exact Frame 0 / elk herd / terrain / camera / pre-reveal authority.
+  - Master Still 09: PASS 95/100 — giant grizzly identity / anatomy / scale / fur authority.
+- Two unrelated image-generation attempts produced wrong scenes and were discarded; they do not count as EP09 assets.
+- Final generation strategy intentionally uses TWO references only:
+  1) Starter Frame 09
+  2) Master Still 09
+- No storyboard reference is used in the first EP09 generation run, to reduce reference-conflict and teleport/pop-in risk. Timing and physical emergence are enforced in the prompt.
+- Story lock:
+  0.0–2.5s elk herd running;
+  2.5–5.0s herd veers together;
+  5.0–7.5s branch snap / tree-line warning only, zero bear anatomy;
+  7.5–10.0s exactly one giant realistic grizzly physically walks out from tree line with partial body first, no pop-in/fade/materialization;
+  10.0–12.5s elk scatter while bear takes only limited heavy steps and does not chase;
+  12.5–15.0s bear stops, raises head and looks toward camera, no roar, hard cut.
+- Giant bear scale: roughly 2.5–3× normal adult mass, realistic grizzly anatomy, scale constant after reveal.
+- Camera: one continuous handheld wildlife shot; no cutaway/drone/external camera.
+- Final Reel remains NOT FINAL / NOT PUBLISHED until generated clip passes real timecode QA.
+- Exact next action: generate EP09 with Starter Frame 09 + Master Still 09 + locked 15-second prompt, then real-clip QA; if PASS, proceed automatically to upscale/watermark cleanup/exact 15.000s/final QA.

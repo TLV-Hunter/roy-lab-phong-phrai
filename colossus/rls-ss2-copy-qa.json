@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T15:14:00+07:00",
-  "status": "10/10 STILL COPY PASS • 10/10 REEL COPY PASS",
+  "updated_at": "2026-10-11",
+  "status": "SET 01 10/10 STILL + REEL COPY PASS • SET 02 10/10 MASTER STILL CAPTION + PINNED COMMENT COPY PASS • SET 02 REEL COPY PENDING",
   "entries": [
     {
       "id": "RLS-S2-001",
@@ -130,6 +130,136 @@
         "copy_qa": "PASS 100/100",
         "caption": "The bones were the first warning.\n\nThe footprints should have been enough.\n\nFictional AI-generated prehistoric survival scene.\n\n#PrimalSurvival #LostWorld #AICinema",
         "comment": "The rocks fall somewhere ahead of you.\n\nDo you back out immediately—or look one more time?"
+      }
+    },
+    {
+      "id": "RLS-S2-011",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "Those tracks were already bigger than the truck.\n\nThen the owner of them stepped out of the trees.\n\nFictional AI wildlife concept.\n#WildlifeMystery #Bison #ExtremeEncounter",
+        "comment": "Would you stay inside the truck—or slowly back away?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-012",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The ice looked solid…\n\nuntil something massive moved underneath it.\n\nFictional AI wildlife concept.\n#UnderTheIce #Sturgeon #WildlifeMystery",
+        "comment": "What would make you more nervous—the cracking ice or the shadow below?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-013",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The pack didn’t run first.\n\nIt stopped—and every wolf looked in the same direction.\n\nFictional AI wildlife concept.\n#WolfPack #ForestMystery #ExtremeEncounter",
+        "comment": "If the whole pack stopped at once, would you keep filming?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-014",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "At first, it looked like the tree was moving.\n\nThen something enormous stepped out from behind it.\n\nFictional AI wildlife concept.\n#RedwoodForest #GiantElk #WildlifeMystery",
+        "comment": "How long would it take you to realize the tree wasn’t the thing moving?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-015",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The headlights caught the antlers first.\n\nThen the rest of the animal stepped onto the road.\n\nFictional AI wildlife concept.\n#CornfieldMystery #BullElk #NightEncounter",
+        "comment": "Would you stop the truck—or reverse immediately?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-016",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The water beside the dock didn’t splash.\n\nIt simply started rising.\n\nFictional AI aquatic-wildlife concept.\n#LakeMystery #AquaticEncounter #DeepWater",
+        "comment": "Would you stay on the dock long enough to see what surfaced?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-017",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The horses refused to cross the creek.\n\nA few seconds later, everyone understood why.\n\nFictional AI wildlife concept.\n#MooseEncounter #HorseTrail #WildlifeMystery",
+        "comment": "When every horse refuses at once, do you trust them and turn around?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-018",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "The trail camera was set for deer.\n\nWhatever walked up to it was much, much taller.\n\nFictional AI wildlife concept.\n#TrailCam #BlackBear #ForestEncounter",
+        "comment": "Would you go back to retrieve this camera after seeing the footage?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-019",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "A second track appeared beside the snowcat.\n\nThen something stepped out of the blowing snow.\n\nFictional AI wildlife concept.\n#PolarBear #ArcticEncounter #SnowMystery",
+        "comment": "Keep moving—or stop and let it pass?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
+      }
+    },
+    {
+      "id": "RLS-S2-020",
+      "still": {
+        "copy_qa": "PASS 100/100",
+        "caption": "Everyone thought it was part of the ridge…\n\nuntil it stood up above the herd.\n\nFictional AI wildlife concept.\n#BighornRam #MountainWildlife #ExtremeEncounter",
+        "comment": "Would you notice it before the rest of the herd moved away?"
+      },
+      "reel": {
+        "copy_qa": "PENDING",
+        "caption": "",
+        "comment": ""
       }
     }
   ]

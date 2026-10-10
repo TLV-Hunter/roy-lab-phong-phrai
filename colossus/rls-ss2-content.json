@@ -1,8 +1,8 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 • High-Stakes Visual Encounter • 15s • 9:16 • 20/20 IMAGE ASSETS 2160×3840 • FINAL REELS NOT GENERATED",
-  "updated_at": "2026-10-05T11:50:00+07:00",
-  "publication_truth": "0/10 PUBLISHED • 0/10 SCHEDULED",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES NOT LINKED • NO POSTS CONFIRMED",
+  "updated_at": "2026-10-11",
+  "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
     {
       "id": "RLS-S2-001",
@@ -293,6 +293,276 @@
         "media_url": "",
         "publication": "NOT PUBLISHED"
       }
+    },
+    {
+      "id": "RLS-S2-011",
+      "title": "The Tracks Were Bigger Than the Truck",
+      "date": "SET 02 • 011",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Ranger truck stops at oversized muddy tracks; vegetation parts; one gigantic realistic bison emerges; truck remains scale anchor; bison pauses and turns toward camera.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-012",
+      "title": "Something Moved Under the Ice",
+      "date": "SET 02 • 012",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Ice-fishing perspective; vast moving sturgeon silhouette under ice; crack spreads; same fish disappears into deep water.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-013",
+      "title": "The Wolf Pack Stopped First",
+      "date": "SET 02 • 013",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Running wolf pack stops as one; one enormous realistic wolf steps out of misty tree line; pack backs away; giant wolf watches.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-014",
+      "title": "The Tree Was Breathing",
+      "date": "SET 02 • 014",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Hikers notice unusual hollow redwood movement; one giant elk emerges from behind tree; hikers and tree anchor scale.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "93/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-015",
+      "title": "It Was Standing in the Corn",
+      "date": "SET 02 • 015",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Pickup headlights reveal antlers above corn; one enormous elk steps onto road; antlers anatomically realistic; pickup anchors scale.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-016",
+      "title": "The Water Rose Beside the Dock",
+      "date": "SET 02 • 016",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Calm dock water swells; one enormous manatee-like herbivore surfaces briefly; dock pilings anchor scale; large wake remains.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "95/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-017",
+      "title": "The Horses Wouldn’t Cross",
+      "date": "SET 02 • 017",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Horses refuse creek; one colossal anatomically realistic moose walks from upstream bend; horses anchor scale.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "96/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-018",
+      "title": "The Camera Trap Was Too Low",
+      "date": "SET 02 • 018",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Trail camera films deer; one giant black bear approaches; camera is too low for full frame; bear lowers head to sniff.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "97/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-019",
+      "title": "Something Followed the Snowcat",
+      "date": "SET 02 • 019",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Snowcat rear camera sees unusual trench; a large polar bear walks parallel at a distance; no chase.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "93/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
+    },
+    {
+      "id": "RLS-S2-020",
+      "title": "The Ridge Started Moving",
+      "date": "SET 02 • 020",
+      "phase": "SS2 / USA PILOT SET 02",
+      "story_lock": "Mountain goats on ridge; a camouflaged colossal bighorn ram stands with exactly two anatomically correct curled horns.",
+      "still": {
+        "status": "qa_pass_local",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "97/100 PASS",
+        "qa2": "PASS (FINAL BATCH RECORD)",
+        "copy_qa": "PASS 100/100",
+        "media_url": "",
+        "publication": "NOT PUBLISHED",
+        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
+        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+      },
+      "reel": {
+        "status": "waiting",
+        "post_time": "NOT SCHEDULED",
+        "qa1": "NOT STARTED",
+        "qa2": "PENDING",
+        "copy_qa": "PENDING",
+        "media_url": "",
+        "publication": "NOT PUBLISHED"
+      }
     }
   ],
   "batch_status": [
@@ -303,6 +573,14 @@
       "passed": 10,
       "total": 10,
       "note": "Master Still + Starter Frame + Story Lock + 10s Video Prompt + Still/Reel Copy passed. Final Reels 0/10; publication not scheduled."
+    },
+    {
+      "batch": "SS2 SET 02 • MASTER STILL + COPY",
+      "range": "RLS-S2-011 → RLS-S2-020",
+      "status": "10/10 MASTER + COPY QA PASS • WEB IMAGE HOSTING PENDING",
+      "passed": 10,
+      "total": 10,
+      "note": "10 local Final 2160×3840 Master Stills approved in previous QA record; still captions and pinned comments 10/10 COPY QA PASS. Final image URLs not linked; starters/reels not started; NOT PUBLISHED."
     }
   ]
 }

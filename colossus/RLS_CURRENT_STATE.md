@@ -1178,3 +1178,28 @@ Milestone: 2026-10-10
 - Camera: one continuous handheld wildlife shot; no cutaway/drone/external camera.
 - Final Reel remains NOT FINAL / NOT PUBLISHED until generated clip passes real timecode QA.
 - Exact next action: generate EP09 with Starter Frame 09 + Master Still 09 + locked 15-second prompt, then real-clip QA; if PASS, proceed automatically to upscale/watermark cleanup/exact 15.000s/final QA.
+
+
+## EP10 FINAL GENERATION PACK — TWO-REFERENCE LOCK
+Milestone: 2026-10-10
+- Episode: RLS-S2-010 — The Cave Wasn't Empty.
+- Pre-production completed internally through final generation pack.
+- Existing QA-passed authorities retained:
+  - Starter Frame 10: PASS 98/100 — exact Frame 0 / hunter / torch / cave / camera / pre-reveal authority.
+  - Master Still 10: PASS 94/100 — giant prehistoric cave bear identity / anatomy / fur / scale authority.
+- Final first-run generation strategy uses TWO references only:
+  1) Starter Frame 10
+  2) Master Still 10
+- No storyboard reference in the first generation run, to reduce panel-state interpolation, pop-in, fade-in and teleport risk. Timing and physical emergence are enforced in prompt.
+- Story lock:
+  0.0–2.5s hunter advances deeper;
+  2.5–5.0s bones + oversized paw prints;
+  5.0–7.5s stones fall / torch flickers / zero bear anatomy;
+  7.5–10.0s exactly one giant realistic cave bear physically emerges gradually from darkness with paw/chest/shoulder first;
+  10.0–12.5s hunter backs away carefully; bear does not attack;
+  12.5–15.0s bear takes exactly one heavy step forward; cut before confrontation.
+- Hard reveal lock: zero bear anatomy before 7.5s; no glowing eyes, silhouette teaser, fur, paw, head or shadow shaped like bear.
+- Anti-warp lock: no dissolve, opacity fade, materialization, teleport or sudden full-body appearance. Bear must physically move from darkness into torchlight.
+- Camera: one continuous prehistoric survival POV / over-shoulder shot; same hunter, clothes, torch, cave and camera throughout.
+- Final Reel remains NOT FINAL / NOT PUBLISHED until generated clip passes real timecode QA.
+- Exact next action: generate EP10 with Starter Frame 10 + Master Still 10 + locked 15-second prompt, then real-clip QA; if PASS, proceed automatically to upscale/watermark cleanup/exact 15.000s/final QA.

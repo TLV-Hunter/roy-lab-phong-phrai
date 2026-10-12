@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 10/10 • NO POSTS CONFIRMED",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER + COPY PASS 10/10 • STARTER FRAME QA PASS 10/10 (1440×2560) • VIDEO PROMPTS/REELS PENDING • NO POSTS CONFIRMED",
   "updated_at": "2026-10-12",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
@@ -577,10 +577,10 @@
     {
       "batch": "SS2 SET 02 • MASTER STILL + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • 10/10 WEB IMAGES LINKED",
+      "status": "10/10 MASTER + COPY QA PASS • 10/10 MASTER + STARTER WEB LINKED",
       "passed": 10,
       "total": 10,
-      "note": "EP011–EP020 approved original JPEGs verified and linked. All Set 02 images linked. Captions and pinned comments retained. Social publication not confirmed."
+      "note": "EP011–EP020 approved Master JPEGs linked. Ten clean individual native 1440×2560 pre-reveal Starter Frame JPEGs linked with image QA PASS. Set 02 video prompts/reels PENDING; publication NOT CONFIRMED."
     }
   ]
 }

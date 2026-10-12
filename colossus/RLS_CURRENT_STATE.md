@@ -1420,3 +1420,15 @@ Milestone: 2026-10-12
 - Website content summary: 10/10 WEB IMAGES LINKED.
 - Social publication remains NOT PUBLISHED / NOT SCHEDULED; website upload is not a social post.
 - Exact next action: Set 02 Starter Frame / storyboard / generation-pack production beginning EP011 when requested. Do not recreate approved Master Stills.
+
+
+## SS2 SET 02 — STARTER FRAMES EP011–EP020 COMPLETE (2026-10-12)
+- User requested all ten Starter Frame 0 images, rejected drafts excluded and all creative+technical QA completed before handoff.
+- Result: 10/10 QA PASS, individual full-frame 9:16 JPEG 1440×2560 files at `colossus/assets/rls-ss2/starters/11-starter-2560.jpg` through `20-starter-2560.jpg`.
+- Resolution truth: native generated 1440×2560 JPEG, **NOT 4K**. Do not label or advertise these assets as 4K.
+- Image content depicts pre-reveal Frame 0, distinct from the matching public Master Still. Human/animal anatomy, scale, realism, story sequencing, and camera logic visually checked; any discarded collage/wrong-target generations excluded.
+- QA1 scores EP011→EP020: 94, 94, 93, 95, 95, 94, 95, 93, 95, 94 out of 100. QA2 all PASS; technical GitHub readback verified 10 distinct image blob SHAs and correct URL metadata.
+- GitHub image commit: `2e27ade06bb76217a0cff3864d0830437e4ac68f`. Starter dataset and SS2 content/UI now linked; original Set 01 and site functions preserved.
+- QA report: `colossus/assets/rls-ss2/starters/QA_EP011_EP020.md`.
+- Set 02 *video prompts* NOT STARTED / PENDING. No Set 02 generated Final Reels or Facebook/Metricool publication confirmed; website asset upload must not be counted as a social post.
+- Exact next action: Build and QA per-episode 15-second 6-beat video prompts beginning EP011 using the approved Starter as exact Frame 0 and Master Still as later payoff authority. Do not change Frame 0 geometry or use the discarded asset set.

@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 1/10 • NO POSTS CONFIRMED",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 2/10 • NO POSTS CONFIRMED",
   "updated_at": "2026-10-12",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
@@ -328,15 +328,15 @@
       "phase": "SS2 / USA PILOT SET 02",
       "story_lock": "Ice-fishing perspective; vast moving sturgeon silhouette under ice; crack spreads; same fish disappears into deep water.",
       "still": {
-        "status": "qa_pass_local",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
         "qa1": "95/100 PASS",
         "qa2": "PASS (FINAL BATCH RECORD)",
         "copy_qa": "PASS 100/100",
-        "media_url": "",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/12-master-4k.jpg",
         "publication": "NOT PUBLISHED",
-        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
-        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+        "delivery_resolution": "2160×3840",
+        "quality_note": "Verified original Final Master Still JPEG (2160×3840) hosted in GitHub; original binary preserved."
       },
       "reel": {
         "status": "waiting",
@@ -577,10 +577,10 @@
     {
       "batch": "SS2 SET 02 • MASTER STILL + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • 1/10 WEB IMAGES LINKED",
+      "status": "10/10 MASTER + COPY QA PASS • 2/10 WEB IMAGES LINKED",
       "passed": 10,
       "total": 10,
-      "note": "EP011 verified original JPEG (2160×3840) is linked to GitHub; EP012–020 final stills remain unlinked. Master Still QA 10/10 PASS; still captions and pinned comments 10/10 COPY QA PASS. Starters/reels not started; NOT PUBLISHED."
+      "note": "EP011–EP012 verified full-size Final Master Still JPEG files are hosted and linked on GitHub. EP013–EP020 not yet linked. QA-passed copy remains intact. No posts confirmed."
     }
   ]
 }

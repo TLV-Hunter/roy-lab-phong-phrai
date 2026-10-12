@@ -1377,3 +1377,25 @@ Milestone: 2026-10-11 Asia/Bangkok
 - Explicit delivery boundary: Set 02 final Master Still image files were QA-passed in the previous production record but are NOT available under verified public web URLs; images are NOT visually embedded on site yet. Do not substitute mismatched image, do not claim live-image deployment. The GitHub changes are committed; direct public Pages load could not be independently confirmed by this session.
 - Publication truth: Set 02 STILL and REEL remain NOT PUBLISHED; updating internal website is not social publishing.
 - Exact next action: obtain/host the approved EP011–EP020 Final 4K Master Still files at verified URLs, link to their existing SS2 content entries, verify image/copy pairing per episode, then continue Set 02 Starter Frame/Video Generation beginning EP011.
+
+
+## SS2 SET 02 MASTER STILLS + COPY — FINAL DELIVERY PASS
+Milestone: 2026-10-12
+- User required autonomous completion before handoff: repair/regenerate until all 10 Master Stills pass, then create captions + pinned comments, QA copy, then stop and deliver.
+- Final Master Still batch EP011–EP020: PASS 10/10.
+- Delivery format: 10 separate image files, never combined; each standardized to 2160×3840 full-frame delivery with the required disclosure footer.
+- Final image QA:
+  - EP011 PASS 96/100.
+  - EP012 PASS 95/100; disclosure repaired.
+  - EP013 PASS 95/100; disclosure repaired.
+  - EP014 PASS 93/100.
+  - EP015 PASS 94/100 after regeneration; grounded giant bull elk, pickup scale anchor, acceptable realistic two-antler structure.
+  - EP016 PASS 95/100.
+  - EP017 PASS 95/100 after regeneration; moose now clearly colossal versus horses/rider.
+  - EP018 PASS 97/100.
+  - EP019 PASS 93/100.
+  - EP020 PASS 95/100 after regeneration; exactly two anatomically correct curled bighorn horns.
+- Caption + pinned-comment pack EP011–EP020 created in English-first public RLS style.
+- Copy QA: PASS 10/10; each caption includes fictional-AI framing and unique episode hook; pinned comments are distinct and engagement-oriented without presenting the scene as real footage.
+- Publication status remains NOT PUBLISHED.
+- Exact next action: begin Starter Frame / generation-pack production for Set 02 when requested; do not recreate Master Stills or captions unless a specific episode is revised.

@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES NOT LINKED • NO POSTS CONFIRMED",
-  "updated_at": "2026-10-11",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 1/10 • NO POSTS CONFIRMED",
+  "updated_at": "2026-10-12",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
     {
@@ -301,15 +301,15 @@
       "phase": "SS2 / USA PILOT SET 02",
       "story_lock": "Ranger truck stops at oversized muddy tracks; vegetation parts; one gigantic realistic bison emerges; truck remains scale anchor; bison pauses and turns toward camera.",
       "still": {
-        "status": "qa_pass_local",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
         "qa1": "96/100 PASS",
         "qa2": "PASS (FINAL BATCH RECORD)",
         "copy_qa": "PASS 100/100",
-        "media_url": "",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/11-master-4k.jpg",
         "publication": "NOT PUBLISHED",
-        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
-        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+        "delivery_resolution": "2160×3840",
+        "quality_note": "Verified full-size Final Master Still JPEG (2160×3840) hosted in GitHub. Source-native vs upscale origin not independently verified."
       },
       "reel": {
         "status": "waiting",
@@ -577,10 +577,10 @@
     {
       "batch": "SS2 SET 02 • MASTER STILL + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • WEB IMAGE HOSTING PENDING",
+      "status": "10/10 MASTER + COPY QA PASS • 1/10 WEB IMAGES LINKED",
       "passed": 10,
       "total": 10,
-      "note": "10 local Final 2160×3840 Master Stills approved in previous QA record; still captions and pinned comments 10/10 COPY QA PASS. Final image URLs not linked; starters/reels not started; NOT PUBLISHED."
+      "note": "EP011 verified original JPEG (2160×3840) is linked to GitHub; EP012–020 final stills remain unlinked. Master Still QA 10/10 PASS; still captions and pinned comments 10/10 COPY QA PASS. Starters/reels not started; NOT PUBLISHED."
     }
   ]
 }

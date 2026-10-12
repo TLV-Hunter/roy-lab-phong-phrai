@@ -1432,3 +1432,11 @@ Milestone: 2026-10-12
 - QA report: `colossus/assets/rls-ss2/starters/QA_EP011_EP020.md`.
 - Set 02 *video prompts* NOT STARTED / PENDING. No Set 02 generated Final Reels or Facebook/Metricool publication confirmed; website asset upload must not be counted as a social post.
 - Exact next action: Build and QA per-episode 15-second 6-beat video prompts beginning EP011 using the approved Starter as exact Frame 0 and Master Still as later payoff authority. Do not change Frame 0 geometry or use the discarded asset set.
+
+
+## SS2 SET 02 — EP011 STARTER QA REVERSAL / REPAIR REQUIRED — 2026-10-12
+- User inspected EP011 latest Starter and requested more rigorous gait QA. Independent visible reinspection confirmed critical error: one hoof impression has extra large primary lobes (>2), and tracks are repetitive / too centrally aligned instead of a plausible staggered left/right walking path for a four-legged bison.
+- Follow-up repair images failed (wrong warm jungle scene; retained four-lobed hoofprints), and an additional targeted edit still failed. All rejected candidates excluded.
+- CORRECTION to earlier 10/10 Starter PASS milestone: EP011 **FAIL/REVISE**, Set 02 Starter status **9/10 PASS**, not 10/10.
+- Existing EP011 Starter JPEG at colossus/assets/rls-ss2/starters/11-starter-2560.jpg is *AUDIT ONLY*, NOT a deliverable. Its active URL in the website starter dataset has been cleared; original Master Still remains unaffected.
+- Exact next action: regenerate a true physically grounded EP011 Frame 0 consistent with the North American overcast conifer Master, with staggered left/right stepping and exactly two primary cloven hoof lobes per print; visually QA twice. Only after PASS replace file using latest blob SHA and restore link and 10/10 delivery count. Other episodes/still/reel/publication state unchanged.

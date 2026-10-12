@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER + COPY PASS 10/10 • STARTER FRAME QA PASS 10/10 (1440×2560) • VIDEO PROMPTS/REELS PENDING • NO POSTS CONFIRMED",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER + COPY PASS 10/10 • STARTER FRAME QA PASS 9/10 • EP011 REVISE (1440×2560) • VIDEO PROMPTS/REELS PENDING • NO POSTS CONFIRMED",
   "updated_at": "2026-10-12",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
@@ -577,10 +577,10 @@
     {
       "batch": "SS2 SET 02 • MASTER STILL + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • 10/10 MASTER + STARTER WEB LINKED",
+      "status": "10/10 MASTER + COPY QA PASS • 10/10 MASTER LINKED • 9/10 STARTERS QA PASS (EP011 REVISE)",
       "passed": 10,
       "total": 10,
-      "note": "EP011–EP020 approved Master JPEGs linked. Ten clean individual native 1440×2560 pre-reveal Starter Frame JPEGs linked with image QA PASS. Set 02 video prompts/reels PENDING; publication NOT CONFIRMED."
+      "note": "All ten Master JPEGs remain linked. Starter Frames EP012–EP020 retain their existing QA record and links, but EP011 Starter is rejected for incorrect hoofprint anatomy and unnatural gait; EP011 image hidden until repaired/reverified. All video prompts and final reels PENDING; publication NOT CONFIRMED."
     }
   ]
 }

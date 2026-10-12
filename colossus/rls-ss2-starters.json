@@ -1,8 +1,8 @@
 {
   "updated_at": "2026-10-12",
   "timezone": "Asia/Bangkok",
-  "status": "SET 01 10/10 STARTERS QA PASS • SET 02 10/10 STARTERS QA PASS • SET 02 VIDEO PROMPTS PENDING",
-  "rule": "Only QA-passed full-frame starters are exposed. Set 02 is native 1440×2560 (not 4K); disclosures shown outside the clean Frame 0. Failed/collage assets excluded.",
+  "status": "SET 01 10/10 STARTERS QA PASS • SET 02 9/10 STARTERS PASS, EP011 FAIL/REVISE • SET 02 VIDEO PROMPTS PENDING",
+  "rule": "Only QA-passed Starter images are linked on the Desk. Set 02 EP011 QA-rejected and its active image URL is blank pending correction; published image stored for audit only. Native Set 02 Starter files 1440×2560, NOT 4K. Publication unconfirmed.",
   "entries": [
     {
       "id": "RLS-S2-001",
@@ -148,14 +148,14 @@
       "id": "RLS-S2-011",
       "date": "SET 02 • 011",
       "title": "The Tracks Were Bigger Than the Truck",
-      "starter_qa": "PASS 94/100",
-      "qa2": "PASS — story lock, pre-reveal, realistic anatomy/scale, camera continuity and clean 9:16 image",
+      "starter_qa": "FAIL — REVISE (HOOF ANATOMY / TRACKWAY GAIT)",
+      "qa2": "FAIL — foreground imprint shows >2 primary lobes; overly repeated center-line tracks inconsistent with believable four-legged bison walking trackway; rejected correction attempts also failed",
       "prompt_qa": "PENDING",
-      "starter_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/starters/11-starter-2560.jpg",
+      "starter_url": "",
       "story_lock": "Ranger truck stops at oversized muddy tracks; vegetation parts; one gigantic realistic bison emerges; truck remains scale anchor; bison pauses and turns toward camera.",
       "prompt": "",
       "delivery_resolution": "1440×2560",
-      "quality_note": "NATIVE-GENERATED 1440×2560 JPEG, NOT 4K; clean Frame 0. AI disclosure belongs beneath the image, not inside it.",
+      "quality_note": "EP011 original file retained in GitHub for audit ONLY; EXCLUDED from QA-passed starter delivery and hidden from public Desk pending a genuine visually QA-passed replacement. Final Starter Frame 0 NOT READY; no 4K claim.",
       "prompt_duration_sec": 15,
       "prompt_version": "NOT STARTED"
     },

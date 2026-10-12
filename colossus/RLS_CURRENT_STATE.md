@@ -1,5 +1,5 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-07 18:34 Asia/Bangkok
+Updated: 2026-10-12 Asia/Bangkok
 
 ## PUBLICATION TRUTH
 Published so far:
@@ -1410,3 +1410,13 @@ Milestone: 2026-10-12
 - Prepared handoff: `RLS_SS2_EP012-EP020_GITHUB_READY.zip`, containing exact original JPEG bytes at GitHub filenames `12-master-4k.jpg` through `20-master-4k.jpg`; source SHA256 manifest also prepared.
 - Do not mark EP012–EP020 as hosted or published until GitHub contains real verified image files.
 - EXACT NEXT ACTION: use an authorized binary-file upload path to push EP012 first, verify GitHub blob SHA and visual render, then proceed one image at a time EP013–EP020 and update only each verified corresponding `colossus/rls-ss2-content.json` entry. If no binary upload action is available, request user to perform GitHub web Upload Files with the already prepared files, then continue linking/QA autonomously.
+
+
+## SS2 SET 02 WEBSITE IMAGE COMPLETION — 2026-10-12
+- Latest authoritative milestone supersedes the EP012 upload-blocker record above.
+- Set 02 EP011–EP020: 10/10 approved original 2160×3840 Master Still JPEGs hosted and linked to their matching episode records.
+- This session completed EP017–EP020 sequentially; local Git blob hashes matched uploaded and read-back GitHub SHAs exactly. No recompression, replacement generation, or collage used.
+- English-first QA-passed Still captions and pinned comments retained for all 10 episodes; Set 01 and unrelated site features preserved.
+- Website content summary: 10/10 WEB IMAGES LINKED.
+- Social publication remains NOT PUBLISHED / NOT SCHEDULED; website upload is not a social post.
+- Exact next action: Set 02 Starter Frame / storyboard / generation-pack production beginning EP011 when requested. Do not recreate approved Master Stills.

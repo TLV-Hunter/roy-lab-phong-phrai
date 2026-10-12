@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 2/10 • NO POSTS CONFIRMED",
+  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER STILLS + COPY QA PASS 10/10 • SET 02 WEB IMAGES LINKED 3/10 • NO POSTS CONFIRMED",
   "updated_at": "2026-10-12",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
@@ -355,15 +355,15 @@
       "phase": "SS2 / USA PILOT SET 02",
       "story_lock": "Running wolf pack stops as one; one enormous realistic wolf steps out of misty tree line; pack backs away; giant wolf watches.",
       "still": {
-        "status": "qa_pass_local",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
         "qa1": "95/100 PASS",
         "qa2": "PASS (FINAL BATCH RECORD)",
         "copy_qa": "PASS 100/100",
-        "media_url": "",
+        "media_url": "https://raw.githubusercontent.com/TLV-Hunter/roy-lab-phong-phrai/main/colossus/assets/rls-ss2/4k/13-master-4k.jpg",
         "publication": "NOT PUBLISHED",
-        "delivery_resolution": "2160×3840 (FINAL QA RECORD)",
-        "quality_note": "QA-passed Final Master Still exists in prior production delivery. No verified public image URL is connected to this website."
+        "delivery_resolution": "2160×3840",
+        "quality_note": "Original approved Final Master Still JPEG (2160×3840) hosted on GitHub; source binary SHA verified."
       },
       "reel": {
         "status": "waiting",
@@ -577,10 +577,10 @@
     {
       "batch": "SS2 SET 02 • MASTER STILL + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • 2/10 WEB IMAGES LINKED",
+      "status": "10/10 MASTER + COPY QA PASS • 3/10 WEB IMAGES LINKED",
       "passed": 10,
       "total": 10,
-      "note": "EP011–EP012 verified full-size Final Master Still JPEG files are hosted and linked on GitHub. EP013–EP020 not yet linked. QA-passed copy remains intact. No posts confirmed."
+      "note": "EP011–EP013 verified original JPEG assets hosted and linked; EP014–EP020 still pending. QA-passed captions/pinned comments intact. No social posts confirmed."
     }
   ]
 }

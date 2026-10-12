@@ -1399,3 +1399,14 @@ Milestone: 2026-10-12
 - Copy QA: PASS 10/10; each caption includes fictional-AI framing and unique episode hook; pinned comments are distinct and engagement-oriented without presenting the scene as real footage.
 - Publication status remains NOT PUBLISHED.
 - Exact next action: begin Starter Frame / generation-pack production for Set 02 when requested; do not recreate Master Stills or captions unless a specific episode is revised.
+
+
+## SS2 SET 02 — EP012–EP020 GITHUB BINARY UPLOAD BLOCKER — 2026-10-12
+- Explicit user order: upload previously QA-passed EP012–EP020 Final Master Still images sequentially to GitHub; report exact blocked episode, never skip silently.
+- EP011: existing GitHub file `colossus/assets/rls-ss2/4k/11-master-4k.jpg` verified at SHA f4f479f6cc094db7d0f3dc516675e126817cefe5; content record linked; social publication NOT PUBLISHED.
+- EP012–EP020: all nine original final JPEGs available in Project Library and prepared as individual full-frame 2160×3840 files; no replacements, recompressions or collages counted.
+- Target GitHub folder contains EP011, but not EP012–EP020 at last verified listing; SS2 data records correctly have blank `media_url` and status `qa_pass_local` for those nine.
+- BLOCKED at EP012: the connected GitHub write actions accept UTF-8 text and text/base64 payloads, but cannot directly ingest Project Library binary bytes; an attempted alternative file transfer returned `BLOCKED_FILE_REFERENCE`. This is a transfer-access limitation, NOT an image/QA failure.
+- Prepared handoff: `RLS_SS2_EP012-EP020_GITHUB_READY.zip`, containing exact original JPEG bytes at GitHub filenames `12-master-4k.jpg` through `20-master-4k.jpg`; source SHA256 manifest also prepared.
+- Do not mark EP012–EP020 as hosted or published until GitHub contains real verified image files.
+- EXACT NEXT ACTION: use an authorized binary-file upload path to push EP012 first, verify GitHub blob SHA and visual render, then proceed one image at a time EP013–EP020 and update only each verified corresponding `colossus/rls-ss2-content.json` entry. If no binary upload action is available, request user to perform GitHub web Upload Files with the already prepared files, then continue linking/QA autonomously.

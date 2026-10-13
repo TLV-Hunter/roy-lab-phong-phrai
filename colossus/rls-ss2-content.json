@@ -384,11 +384,11 @@
         "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS — EDITORIAL TEXT QA; FINAL VIDEO QA PASS",
-        "media_url": "https://drive.google.com/file/d/1aoWYEBy5lk93d9ABP3Aq5R709HGBsVHQ/view?usp=drivesdk",
+        "media_url": "https://drive.google.com/file/d/1FWHIZsVPiO9QJVDHXgAC4V_NfgVCLwVX/view?usp=drivesdk",
         "publication": "NOT PUBLISHED",
         "resolution": "1080×1920",
-        "duration_sec": "12.042",
-        "quality_note": "Final post-production QA PASS; 12.04s; 1080×1920 Lanczos upscale from 704×1248 source after minimal 9:16 crop; Dola AI removed; no black/freeze/exact duplicate run; source had no audio stream and Final intentionally remains silent."
+        "duration_sec": "15.116",
+        "quality_note": "AUTHORITATIVE V2 Final post-production QA PASS; 15.116s; 1080×1920 Lanczos upscale from 720×1280 after minimal 9:16 crop; Dola AI removed; no black/freeze/exact duplicate-frame run; original audio retained and raised to about -20.2 LUFS / -2.9 dBTP. Supersedes prior 12.042s silent EP013 Final."
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • 15s • SET 02 MASTER + COPY PASS 10/10 • STARTER FRAME QA PASS 9/10 • EP011 REVISE (1440×2560) • VIDEO PROMPTS/REELS PENDING • NO POSTS CONFIRMED",
-  "updated_at": "2026-10-12",
+  "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 1/10 READY (EP012) • NO POSTS CONFIRMED",
+  "updated_at": "2026-10-13",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
     {
@@ -22,15 +22,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.000",
+        "media_url": "https://drive.google.com/file/d/1-KiHJvk0G-YIF93bHozCJxDRn7dWBV6j/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -51,15 +52,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 99/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "11.300",
+        "media_url": "https://drive.google.com/file/d/1q6cRRFTcNuz0wMTdkJynM7MRF3Yofgjb/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final repaired to RLS hard-rule duration 11.30s via natural continuous speed adjustment; no freeze/loop; 1080×1920; final audio about -21.1 LUFS / -1.9 dBTP; NOT PUBLISHED."
       }
     },
     {
@@ -80,15 +82,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "14.750",
+        "media_url": "https://drive.google.com/file/d/1VcDBuiuhQTKAiNy8dESK4U0PtFdZwW_7/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -109,15 +112,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.116",
+        "media_url": "https://drive.google.com/file/d/1JfTkB8vN6_guev9RuD5orP38EGcRlWwh/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -138,15 +142,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.200",
+        "media_url": "https://drive.google.com/file/d/1xKbnVqrazY2TSDhV2ZwC5fS0b8AWLkN7/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -167,15 +172,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.100",
+        "media_url": "https://drive.google.com/file/d/15_oDHq5bah7U5lhynufelxGRDRmy9F7e/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; continuous Great Pyrenees reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -196,15 +202,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL TECHNICAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 99/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.000",
+        "media_url": "https://drive.google.com/file/d/1nDD6BTYHgSva-KQSpvqDtVoRBwTbajrM/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production candidate with technical QA PASS; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -225,15 +232,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 98/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.116",
+        "media_url": "https://drive.google.com/file/d/1tRAd0cyaO2GEelL4e5YjW3HnyH2D3cJr/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; connected giant river-creature/python reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -254,15 +262,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.116",
+        "media_url": "https://drive.google.com/file/d/18IrrBQ-6LZv2QTWEvYalK2VlEvZXIs7V/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; elk-to-grizzly continuity retained; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -283,15 +292,16 @@
         "quality_note": "4K UPSCALED FROM QA-PASSED 1080×1920 MASTER; NOT NATIVE 4K"
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "15s PRE-PRODUCTION PASS",
+        "qa1": "FINAL PASS",
         "qa2": "PASS",
         "copy_qa": "PASS 100/100",
-        "resolution": "1080×1920 TARGET",
-        "duration_sec": "15.000 TARGET",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "resolution": "1080×1920",
+        "duration_sec": "15.116",
+        "media_url": "https://drive.google.com/file/d/1iPmkxnQDxOVmo9Z8GJZIDxXmtS5553aY/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "quality_note": "Final post-production QA PASS; gradual cave-bear reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {
@@ -339,13 +349,16 @@
         "quality_note": "Verified original Final Master Still JPEG (2160×3840) hosted in GitHub; original binary preserved."
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "NOT STARTED",
-        "qa2": "PENDING",
-        "copy_qa": "PASS — TEXT ONLY; VIDEO NOT GENERATED",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "qa1": "FINAL PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS — EDITORIAL TEXT QA; FINAL VIDEO QA PASS",
+        "media_url": "https://drive.google.com/file/d/1_bPU3JgBaJMUYrgjO99gOf1V98mmqdD0/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "resolution": "1080×1920",
+        "duration_sec": "15.200",
+        "quality_note": "Final post-production QA PASS; sturgeon-under-ice continuity retained; 1080×1920; watermark removed; NOT PUBLISHED."
       }
     },
     {

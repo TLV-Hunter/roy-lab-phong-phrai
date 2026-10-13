@@ -1450,3 +1450,11 @@ Milestone: 2026-10-12
 - EP012 Final Reel has NOT been generated/uploaded/QA'd or published; reel.status remains waiting and media_url empty. Dola 15-second mode requires confirmation in target UI.
 - EP011 Starter remains FAIL/REVISE; no change to other episodes.
 - NEXT ACTION: user to generate EP012 15-second video from Frame 0 and Master in Dola; run real video QA1/QA2, revise prompt only if actual video shows violations; then produce/postprocess Final Reel and update media_url only after verified file upload.
+
+
+## SS2 SET 02 — REEL COPY EP011–EP020 COMPLETE (2026-10-13)
+- All ten Set 02 EP011–EP020 Reel captions and pinned comments now contain separate English-first text, grounded in each current 1-sentence episode Story Lock. Disclosure is present in all ten captions. QA1: nonduplicated copy, concise hook, correct reel animal/setting, actionable question, 3–5 tags. QA2: per-episode core story anchor and no contradiction to story lock.
+- 9 missing Reel text pairs drafted (EP011 and EP013–020); approved EP012 Reel pair preserved unchanged. Distinct 10/10 Reel copy pairs in `colossus/rls-ss2-copy-qa.json`.
+- ALL Set 02 Master Still captions and pinned comments preserved byte-for-byte. Set 01 captions preserved; website, image paths, starter QA (EP011 still FAIL), video prompts and Reel media statuses not modified.
+- Copy approval is **EDITORIAL TEXT QA ONLY**; not certification of generated Reel video. Final Reel video generation, verification, scheduling and publication remain PENDING/NOT PUBLISHED across Set 02.
+- Exact next action: generate and QA EP012 Final Reel from its existing Starter + Master reference and current eight-beat prompt, then check its caption against the actual final cut before posting. EP011 Starter stays FAIL/REVISE pending corrected hoof gait.

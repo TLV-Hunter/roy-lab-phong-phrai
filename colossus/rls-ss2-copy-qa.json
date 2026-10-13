@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11",
-  "status": "SET 01 10/10 STILL + REEL COPY PASS • SET 02 10/10 MASTER STILL CAPTION + PINNED COMMENT COPY PASS • SET 02 REEL COPY PENDING",
+  "updated_at": "2026-10-13",
+  "status": "SET 01 10/10 STILL + REEL COPY PASS • SET 02 10/10 STILL COPY PASS • EP012 REEL COPY PASS (TEXT ONLY); REMAINING SET 02 REEL COPY PENDING",
   "entries": [
     {
       "id": "RLS-S2-001",
@@ -153,9 +153,9 @@
         "comment": "What would make you more nervous—the cracking ice or the shadow below?"
       },
       "reel": {
-        "copy_qa": "PENDING",
-        "caption": "",
-        "comment": ""
+        "copy_qa": "PASS — EDITORIAL TEXT QA ONLY (VIDEO PENDING)",
+        "caption": "The fishing hole was tiny.\n\nThe shadow moving beneath the ice wasn't. 🧊🎣\n\nThen we heard the first crack.\n\n🎬 Fictional AI-generated wildlife scene. Not real footage.\n\n#UnderTheIce #GiantSturgeon #WildlifeMystery #AICinema #RLS",
+        "comment": "You see that enormous shadow beneath your boots—and the ice starts cracking. 🧊\n\nWould you keep filming or carefully move away?"
       }
     },
     {

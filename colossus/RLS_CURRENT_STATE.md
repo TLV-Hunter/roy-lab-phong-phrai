@@ -1440,3 +1440,13 @@ Milestone: 2026-10-12
 - CORRECTION to earlier 10/10 Starter PASS milestone: EP011 **FAIL/REVISE**, Set 02 Starter status **9/10 PASS**, not 10/10.
 - Existing EP011 Starter JPEG at colossus/assets/rls-ss2/starters/11-starter-2560.jpg is *AUDIT ONLY*, NOT a deliverable. Its active URL in the website starter dataset has been cleared; original Master Still remains unaffected.
 - Exact next action: regenerate a true physically grounded EP011 Frame 0 consistent with the North American overcast conifer Master, with staggered left/right stepping and exactly two primary cloven hoof lobes per print; visually QA twice. Only after PASS replace file using latest blob SHA and restore link and 10/10 delivery count. Other episodes/still/reel/publication state unchanged.
+
+
+## SS2 SET 02 — EP012 PRE-PRODUCTION 15s / 8 BEATS (2026-10-13)
+- User requested EP012 immediately after EP011 pre-production. Kept existing QA-approved EP012 Master Still (2160×3840) and Starter Frame (1440×2560) unchanged.
+- EP012 story lock: ice-fishing POV; one enormous realistic sturgeon moves under solid clear ice; localized hairline crack; same fish dives into deeper water. 15-second Seedance 2.5 / Dola one-take 8-beat prompt fully drafted and saved to rls-ss2-starters.json (preflight QA1 + QA2 PASS — prompt only).
+- Master is the LATER fish identity/reveal authority, Starter is Frame 0. Physically consistent 4-barbel sturgeon anatomy, one connected tail, continuous frozen lake, no fish breaking through ice, no split camera, no extra animal, restrained crack physics, realistic continuous fish recession.
+- Separate English Reel caption and pinned comment prepared, text QA PASS, saved to rls-ss2-copy-qa.json. Existing Still caption/pinned copy retained without changes.
+- EP012 Final Reel has NOT been generated/uploaded/QA'd or published; reel.status remains waiting and media_url empty. Dola 15-second mode requires confirmation in target UI.
+- EP011 Starter remains FAIL/REVISE; no change to other episodes.
+- NEXT ACTION: user to generate EP012 15-second video from Frame 0 and Master in Dola; run real video QA1/QA2, revise prompt only if actual video shows violations; then produce/postprocess Final Reel and update media_url only after verified file upload.

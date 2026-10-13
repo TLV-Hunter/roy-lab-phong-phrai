@@ -1500,3 +1500,18 @@ Milestone: 2026-10-12
 - Publication truth unchanged: NOT PUBLISHED / NOT SCHEDULED.
 - Website commits: content ed5ace94128ef7987795d9f6b778ee71593acab4; copy QA 863fe1b57bf3508635d54fbe014e6b2c790d801a.
 - Exact next action: continue with the next actual Set 02 Final Reel when supplied; EP011 still requires Starter Frame repair before authoritative Final generation.
+
+
+## SS2 EP013 AUTHORITATIVE FINAL V2 — 2026-10-13
+- User supplied a newer EP013 source despite a misleading filename.
+- Real source: 15.104s, HEVC 720×1280, 24fps, AAC 44.1k stereo.
+- Story QA: PASS — wolf pack foreground, one colossal anatomically stable wolf gradually appears from snowy mist/tree line and approaches continuously; no prominent pop-in/teleport or anatomy break in sampled motion.
+- Post-production: minimal 9:16 crop 675×1200 removed fixed lower-right Dola AI watermark; Lanczos upscale to 1080×1920; H.264 24fps; AAC 48k stereo; original ambience retained.
+- Final technical QA: 15.116s; no black frame; no freeze event; no exact adjacent duplicate frames; audio about -20.2 LUFS / -2.9 dBTP; watermark zoom-check PASS.
+- Drive authoritative Final V2: https://drive.google.com/file/d/1FWHIZsVPiO9QJVDHXgAC4V_NfgVCLwVX/view?usp=drivesdk
+- Website RLS-S2-013 Reel slot replaced with Final V2.
+- Prior 12.042s silent EP013 Final is SUPERSEDED and must not be counted as the authoritative Final.
+- Publication truth unchanged: READY / NOT PUBLISHED / NOT SCHEDULED.
+- Website content commit: eab946c4fd7572037f0e62f165cffe2a0fc0e2b6.
+- Set 02 authoritative Final Reel inventory remains 2/10 READY: EP012 + EP013.
+- Exact next action: continue processing the next supplied Set 02 Reel; EP011 still requires a genuine QA-passed Starter Frame repair before authoritative Final generation.

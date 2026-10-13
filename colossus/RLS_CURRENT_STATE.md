@@ -1458,3 +1458,29 @@ Milestone: 2026-10-12
 - ALL Set 02 Master Still captions and pinned comments preserved byte-for-byte. Set 01 captions preserved; website, image paths, starter QA (EP011 still FAIL), video prompts and Reel media statuses not modified.
 - Copy approval is **EDITORIAL TEXT QA ONLY**; not certification of generated Reel video. Final Reel video generation, verification, scheduling and publication remain PENDING/NOT PUBLISHED across Set 02.
 - Exact next action: generate and QA EP012 Final Reel from its existing Starter + Master reference and current eight-beat prompt, then check its caption against the actual final cut before posting. EP011 Starter stays FAIL/REVISE pending corrected hoof gait.
+
+
+## SS2 FINAL REELS WEBSITE SYNC — 2026-10-13
+- User instructed: put every QA-passed RLS SS2 Final Reel that is still missing onto the project website.
+- Website Final Reel wiring completed for:
+  - RLS-S2-001 — The Shark Turned Around — 15.000s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-002 — Something Under the Kayak — repaired from 10.005s to 11.300s via continuous natural speed adjustment; no freeze/loop; 1080×1920; audio about -21.1 LUFS / -1.9 dBTP — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-003 — ROV-12 Behind the Oil Rig — 14.750s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-004 — The Alligator Beside the Airboat — 15.116s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-005 — The Buoy Went Straight Down — 15.200s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-006 — That Is Not a Normal Dog — 15.100s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-007 — The Moose Was Taller Than the SUV — 15.000s — 1080×1920 — Drive-backed; technical Final QA PASS — READY / NOT PUBLISHED.
+  - RLS-S2-008 — Something Crossed Behind the Boat — 15.116s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-009 — The Elk Stopped Running — 15.116s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-010 — The Cave Wasn't Empty — 15.116s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+  - RLS-S2-012 — Something Moved Under the Ice — 15.200s — 1080×1920 — Drive-backed — READY / NOT PUBLISHED.
+- Set 01 Final Reel inventory is now 10/10 READY and website-linked.
+- Set 02 Final Reel inventory is now 1/10 READY (EP012); EP011 and EP013–EP020 remain without Final Reels.
+- SS2 publication truth remains unchanged: NO SS2 social publication or scheduling is confirmed. Website upload is not social publishing.
+- The obsolete 10-second EP002 Final is NOT counted; it was superseded by the 11.30-second rule-compliant Final.
+- Existing Set 01/Set 02 Master Stills, Starter Frames, captions, pinned comments, and unrelated website behavior were preserved.
+- Website data synchronized:
+  - colossus/rls-ss2-content.json
+  - colossus/rls-ss2-copy-qa.json (EP012 stale VIDEO PENDING wording corrected)
+  - colossus/rls-ss2-starters.json (EP012 Final-video state synchronized)
+- Exact next action: produce remaining Set 02 Final Reels EP013–EP020; EP011 must first receive a genuine QA-passed Starter Frame repair before Final Reel generation. Keep publication truth confirmed-only.

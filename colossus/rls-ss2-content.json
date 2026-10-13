@@ -1,6 +1,6 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 1/10 READY (EP012) • NO POSTS CONFIRMED",
+  "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 2/10 READY (EP012–EP013) • NO POSTS CONFIRMED",
   "updated_at": "2026-10-13",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
@@ -379,13 +379,16 @@
         "quality_note": "Original approved Final Master Still JPEG (2160×3840) hosted on GitHub; source binary SHA verified."
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "NOT STARTED",
-        "qa2": "PENDING",
-        "copy_qa": "PENDING",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "qa1": "FINAL PASS",
+        "qa2": "PASS",
+        "copy_qa": "PASS — EDITORIAL TEXT QA; FINAL VIDEO QA PASS",
+        "media_url": "https://drive.google.com/file/d/1aoWYEBy5lk93d9ABP3Aq5R709HGBsVHQ/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "resolution": "1080×1920",
+        "duration_sec": "12.042",
+        "quality_note": "Final post-production QA PASS; 12.04s; 1080×1920 Lanczos upscale from 704×1248 source after minimal 9:16 crop; Dola AI removed; no black/freeze/exact duplicate run; source had no audio stream and Final intentionally remains silent."
       }
     },
     {

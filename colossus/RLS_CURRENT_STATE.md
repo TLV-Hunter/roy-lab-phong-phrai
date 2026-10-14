@@ -1526,3 +1526,12 @@ Milestone: 2026-10-12
 - Reel caption/pinned-comment copy for EP014 already QA PASS in rls-ss2-copy-qa.json, unchanged.
 - Set 02 previously confirmed Final Reel readiness EP012 + EP013 remains untouched; EP014 reel remains WAITING / NOT PUBLISHED. EP011 Starter still FAIL/REVISE. Website unrelated features untouched.
 - Exact next action: generate EP014 15s video from exact EP014 Starter (Frame 0) and Master elk identity; after user provides final footage, review anatomy, antler/tree clearance, foot physics, human identity, eight-beat sequence and audio QA before postproduction or publication.
+
+
+## RLS SS2 EP015 — 8-BEAT PREPRODUCTION PROMPT / 2026-10-14
+- Continued with EP015 “It Was Standing in the Corn,” using the already QA-approved original Master Still 2160×3840 and original Starter Frame 0 1440×2560 without regeneration/replacement. Each asset is a separate image file.
+- Live EP015 scene: dark pickup parked on the LEFT, headlights across ripe corn, purple-blue wet road at dusk. ONE enormous genuine bull elk (natural branching antlers, not moose or bison) appears from RIGHT corn rows; stops next to same pickup for scale.
+- Initial newly generated 8-panel Storyboard wrong-species/wrong-world (bison on snow) was rejected completely and not counted. Repaired as one separate 1748×2940 8-panel storyboard reference PNG composed exclusively of crops from the QA-approved existing Master Still. Crops are planning/composition guides, NOT 8 independently generated sequential video frames; the true Frame 0 source remains the separate approved Starter. Current local asset: RLS_S2_EP015_STORYBOARD_8_BEATS_REFERENCE.png. Detailed 15s 8-beat prompt local file: RLS_S2_EP015_DOLA_SEEDANCE25_15S_8BEATS_PROMPT.txt.
+- 8-beat 15s video generation prompt QA1+QA2 PASS and added to rls-ss2-starters.json; Dola 15s engine setting still requires UI verification. Reel NOT generated / waiting / NOT PUBLISHED. Original 10/10 Set02 Reel caption/pinned text unchanged.
+- Set02 authoritative Final EP012–013 previously verified and retained; EP011 starter still FAIL/REVISE. No unrelated website or image changes.
+- Exact next action: generate EP015 from its approved Starter (Frame0) and Master (elk identity), optionally storyboard, then receive Final footage and QA continuity, exact antler anatomy, four-legged gait, corn displacement, scale, audio and 15s runtime before Final Reel approval/upload.

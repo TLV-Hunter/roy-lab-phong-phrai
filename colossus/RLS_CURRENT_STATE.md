@@ -1535,3 +1535,16 @@ Milestone: 2026-10-12
 - 8-beat 15s video generation prompt QA1+QA2 PASS and added to rls-ss2-starters.json; Dola 15s engine setting still requires UI verification. Reel NOT generated / waiting / NOT PUBLISHED. Original 10/10 Set02 Reel caption/pinned text unchanged.
 - Set02 authoritative Final EP012–013 previously verified and retained; EP011 starter still FAIL/REVISE. No unrelated website or image changes.
 - Exact next action: generate EP015 from its approved Starter (Frame0) and Master (elk identity), optionally storyboard, then receive Final footage and QA continuity, exact antler anatomy, four-legged gait, corn displacement, scale, audio and 15s runtime before Final Reel approval/upload.
+
+
+## RLS SS2 EP015 — SEPARATE NEW GENERATED VISUAL REFERENCE PACK (2026-10-14)
+- User reiterated EP015 requires new images made in-chat and separate files; no ZIP and no joined Master+Starter+Storyboard delivery.
+- New in-chat image generation produced a visual 8-beat elk/cornfield board, but subsequent calls attempting individual Master and Starter repeatedly returned unwanted multi-panel compositions. Those multi-panel source layouts are rejected AS DELIVERABLES and not counted.
+- To recover separate assets, cropped the new in-chat generated EP015 scene illustrations into three independently usable local image files. Deliverables in chat runtime (not uploaded to GitHub and not swapped into live RLS SS2 website):
+  * /mnt/data/RLS_S2_EP015_MASTER_NEW_9x16.jpg — 1080x1920 JPEG; elk alone in scene with truck/field (no text).
+  * /mnt/data/RLS_S2_EP015_STARTER_FRAME0_NEW_9x16.jpg — 1080x1920 JPEG; same dusk cornfield/truck location BEFORE elk appears (no text).
+  * /mnt/data/RLS_S2_EP015_STORYBOARD_8_BEATS_NEW.png — 1172x1850 PNG; one eight-panel labeled storyboard sheet only.
+- IMPORTANT QUALITY TRUTH: The two 1080x1920 images are Lanczos upscales of original approximately 475x844 generated-panel crops. Not native 1080p, not 4K, and not individually generated full-resolution assets. The storyboard sheet was similarly extracted/upscaled. QA for file integrity/visual preproduction reference, not Final 4K certification or movement/video QA.
+- File readback: 3 distinct image signatures, no collages among deliverable file contents except the intended 8-panel storyboard; correct EP015 bull elk / dark pickup / cornfield dusk subject continuity.
+- Existing web-approved original EP015 Master and Starter remain untouched; current new local reference files are not yet hosted/published. Original reel status unchanged.
+- NEXT ACTION: use separately delivered EP015 files as optional visual references for Dola/Seedance 2.5; if a truly full-resolution native generation is required, re-render each reference separately in a dedicated single-image request, then QA, replacing local candidate only after verification. Continue EP015 Reel video QA after actual generated footage is supplied.

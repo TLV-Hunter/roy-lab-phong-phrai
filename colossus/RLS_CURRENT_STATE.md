@@ -1515,3 +1515,14 @@ Milestone: 2026-10-12
 - Website content commit: eab946c4fd7572037f0e62f165cffe2a0fc0e2b6.
 - Set 02 authoritative Final Reel inventory remains 2/10 READY: EP012 + EP013.
 - Exact next action: continue processing the next supplied Set 02 Reel; EP011 still requires a genuine QA-passed Starter Frame repair before authoritative Final generation.
+
+
+## SS2 SET 02 — EP014 PRE-PRODUCTION PACK / 2026-10-14
+- User resumed EP014 following EP013, requiring separate necessary reference images and a Dola/Seedance 2.5 15s prompt.
+- Existing verified EP014 Master Still 2160x3840 and existing approved Starter Frame 0 1440x2560 reused UNCHANGED; 1 image = 1 file. No duplicated or replaced Master/Starter.
+- Storyboard guide prepared as ONE separate 8-beat graphic based ONLY on selected crops of EP014's approved Master Still, to prevent independent image hallucinations. It is a composition/beat planning sheet, NOT eight new generated actual video frames and NOT a replacement for Starter Frame 0. Local deliverable: RLS_S2_EP014_STORYBOARD_8_BEATS_REFERENCE.png (1640x3220). Two generated wrong-species storyboard attempts (polar bear on ice; moose at snowy river) REJECTED and NOT counted.
+- Video prompt 15s, 8 beats, natural sound, one continuous shot, exact Master elk identity + Starter hikers/Frame0 position, saved in `colossus/rls-ss2-starters.json` and provided as separate downloadable text file. Editorial/preflight QA1+QA2 PASS, final motion video not yet generated or QA'd.
+- Elk story: hikers notice hollow redwood disturbance; one colossal naturally antlered elk emerges from BEHIND trunk; weighty hoof step, tree/hikers anchor scale, elk pauses and watches. Redwood never turns into animal.
+- Reel caption/pinned-comment copy for EP014 already QA PASS in rls-ss2-copy-qa.json, unchanged.
+- Set 02 previously confirmed Final Reel readiness EP012 + EP013 remains untouched; EP014 reel remains WAITING / NOT PUBLISHED. EP011 Starter still FAIL/REVISE. Website unrelated features untouched.
+- Exact next action: generate EP014 15s video from exact EP014 Starter (Frame 0) and Master elk identity; after user provides final footage, review anatomy, antler/tree clearance, foot physics, human identity, eight-beat sequence and audio QA before postproduction or publication.

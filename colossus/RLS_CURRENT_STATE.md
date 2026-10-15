@@ -1548,3 +1548,11 @@ Milestone: 2026-10-12
 - File readback: 3 distinct image signatures, no collages among deliverable file contents except the intended 8-panel storyboard; correct EP015 bull elk / dark pickup / cornfield dusk subject continuity.
 - Existing web-approved original EP015 Master and Starter remain untouched; current new local reference files are not yet hosted/published. Original reel status unchanged.
 - NEXT ACTION: use separately delivered EP015 files as optional visual references for Dola/Seedance 2.5; if a truly full-resolution native generation is required, re-render each reference separately in a dedicated single-image request, then QA, replacing local candidate only after verification. Continue EP015 Reel video QA after actual generated footage is supplied.
+
+
+## RLS SS2 EP015 — 10-SECOND VIDEO PROMPT REVISION (2026-10-15)
+- User changed video TARGET length of EP015 to EXACT 10 seconds, superseding previous 15s 8-beat prompt. New compact 8 beats range 0.0–10.0s, preserve reveal order: empty Frame0 > moving corn > two elk antlers > head > shoulders > single physically correct step > full truck-scale reveal > silent stare.
+- User requested use of newly created separate EP015 Master/Starter/Storyboard references, not old references. Image 1 = NEW separate Starter Frame 0; Image 2 = NEW separate Master character; Image 3 = new storyboard optional ordering reference ONLY; old 15s storyboard labels ignored for this 10s rendition. New images are local artifacts, not falsely claimed uploaded to GitHub.
+- Video prompt QA1+QA2 preflight PASS: eight contiguous beat intervals sum to 10.0s, one bull elk, one dark pickup, branching non-palmate antlers, four legs, two-lobed cloven hooves, consistent dusk and cornfield, real sound. No claim Dola 10s mode confirmed or video rendered.
+- Revised latest prompt saved to colossus/rls-ss2-starters.json; only EP015 prompt fields updated, asset paths/other episodes/actual Final Reel statuses and publication truth unchanged.
+- NEXT ACTION: generate actual 10s EP015 Reel in Dola if 10-second mode is selectable, using the newly delivered separate images; review the rendered video for anatomy/scene continuity and action timing; mark final only after media QA.

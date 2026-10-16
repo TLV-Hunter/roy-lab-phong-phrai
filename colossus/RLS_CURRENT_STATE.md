@@ -2,6 +2,20 @@
 Updated: 2026-10-16 Asia/Bangkok
 
 
+
+## EDITED REELS WIRED TO REAL WEB PLAYERS — 2026-10-16
+This milestone supersedes the earlier unassigned/mapping-pending entries for these two files.
+- Visual file inspection confirmed RLS_REAL_LIFE_STORIES_FINAL_QA_PASS_CLEAN_1080x1920.mp4 = EP015 cornfield bull elk, 11.203s / 1080×1920.
+- Visual file inspection confirmed RLS_REAL_LIFE_STORIES_DELOGO_UPSCALED_FINAL_1080x1920.mp4 = EP016 dock/woman/child + gray manatee-like animal, 15.200s / 1080×1920.
+- Both edited originals full-decoded successfully and uploaded unmodified to Drive:
+  - EP015: https://drive.google.com/file/d/1rjFpcD85xxC8nsHArxz24h_pnGE9z5v8/view?usp=drivesdk
+  - EP016: https://drive.google.com/file/d/1tKPcUZoPQftNys3nR7D1YJaUEjZAl1xo/view?usp=drivesdk
+- Original Drive files retain owner access. Public website playback does not depend on Drive permissions: separate bandwidth-optimized 1080×1920 H.264/AAC viewing copies are hosted under colossus/assets/rls-ss2/reels and use native HTML video players.
+- Viewing-copy full decode PASS; original master bytes not replaced. File Git blob hashes verified before hosting.
+- SS2 Set02 Final Reels: 4/10 ready — EP012, EP013 V2, EP015, EP016. SS2 total: 14/20 linked. Remaining six: EP011, EP014, EP017–EP020.
+- Editorial copy retained; these are website uploads, NOT social posts or schedules.
+- Exact next action: continue remaining six Set02 Reels. EP015/EP016 are no longer mapping-pending and must not be regenerated merely due to stale prior status.
+
 ## CURRENT OPERATIONAL SNAPSHOT — 2026-10-16
 This snapshot supersedes older inventory / next-action statements below; historical QA logs are retained.
 - SS1: 24/24 Final Reels recorded ready and linked; social publication remains confirmed-only.

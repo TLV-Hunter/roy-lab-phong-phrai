@@ -217,7 +217,9 @@
       "delivery_resolution": "1440×2560",
       "quality_note": "NATIVE-GENERATED 1440×2560 JPEG, NOT 4K; clean Frame 0. AI disclosure belongs beneath the image, not inside it.",
       "prompt_duration_sec": 10,
-      "prompt_version": "DOLA / SEEDANCE 2.5 • 10s • 8 BEATS • NEW SEPARATE MASTER + STARTER"
+      "prompt_version": "DOLA / SEEDANCE 2.5 • 10s • 8 BEATS • NEW SEPARATE MASTER + STARTER",
+      "final_video_status": "READY",
+      "final_video_url": "https://drive.google.com/file/d/1rjFpcD85xxC8nsHArxz24h_pnGE9z5v8/view?usp=drivesdk"
     },
     {
       "id": "RLS-S2-016",
@@ -232,7 +234,9 @@
       "delivery_resolution": "1440×2560",
       "quality_note": "NATIVE-GENERATED 1440×2560 JPEG, NOT 4K; clean Frame 0. AI disclosure belongs beneath the image, not inside it.",
       "prompt_duration_sec": 15,
-      "prompt_version": "DOLA / SEEDANCE 2.5 • 15s • 8 BEATS • USER STARTER+MASTER • 10s STORYBOARD TIMECODES SUPERSEDED"
+      "prompt_version": "DOLA / SEEDANCE 2.5 • 15s • 8 BEATS • USER STARTER+MASTER • 10s STORYBOARD TIMECODES SUPERSEDED",
+      "final_video_status": "READY",
+      "final_video_url": "https://drive.google.com/file/d/1tKPcUZoPQftNys3nR7D1YJaUEjZAl1xo/view?usp=drivesdk"
     },
     {
       "id": "RLS-S2-017",

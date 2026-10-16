@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 2/10 READY (EP012–EP013) • NO POSTS CONFIRMED",
-  "updated_at": "2026-10-16T21:52:32+07:00",
+  "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 4/10 READY (EP012, EP013, EP015, EP016) • NO POSTS CONFIRMED",
+  "updated_at": "2026-10-16T22:08:31+07:00",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
     {
@@ -444,15 +444,20 @@
         "quality_note": "Approved original full-frame Final Master Still JPEG 2160×3840; binary SHA verified."
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "NOT STARTED",
-        "qa2": "PENDING",
-        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "qa1": "FINAL PASS (EDITING ROOM RECORD)",
+        "qa2": "PASS — file identity, episode match and full decode reverified",
+        "copy_qa": "PASS — EDITORIAL COPY; FINAL MEDIA MATCH VERIFIED",
+        "media_url": "https://drive.google.com/file/d/1rjFpcD85xxC8nsHArxz24h_pnGE9z5v8/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "web_preview_url": "./assets/rls-ss2/reels/rls-s2-015-web-1080p.mp4",
+        "resolution": "1080×1920",
+        "duration_sec": "11.203",
+        "source_filename": "RLS_REAL_LIFE_STORIES_FINAL_QA_PASS_CLEAN_1080x1920.mp4",
+        "quality_note": "Edited Final original preserved on Drive. Direct website player uses a bandwidth-optimized 1080×1920 H.264/AAC viewing copy; not the original master bytes."
       },
-      "production_note": "Latest target: 10s / 8 beats, superseding 15s. Prompt uses NEW separate reference pack; displayed hosted originals are not that new pack. New crop-upscaled references are not native 1080p or 4K. Actual video pending; >=11s Final delivery rule remains applicable.",
+      "production_note": "Edited Final matched to EP015 by visual inspection and full decode. Original 11.203s, 1080×1920; direct web viewing copy linked. Prior preproduction notes are historical; no social publication confirmed.",
       "generation_target_sec": 10
     },
     {
@@ -473,15 +478,20 @@
         "quality_note": "Approved original full-frame Final Master Still JPEG 2160×3840; binary SHA verified."
       },
       "reel": {
-        "status": "waiting",
+        "status": "ready",
         "post_time": "NOT SCHEDULED",
-        "qa1": "NOT STARTED",
-        "qa2": "PENDING",
-        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
-        "media_url": "",
-        "publication": "NOT PUBLISHED"
+        "qa1": "FINAL PASS (EDITING ROOM RECORD)",
+        "qa2": "PASS — file identity, episode match and full decode reverified",
+        "copy_qa": "PASS — EDITORIAL COPY; FINAL MEDIA MATCH VERIFIED",
+        "media_url": "https://drive.google.com/file/d/1tKPcUZoPQftNys3nR7D1YJaUEjZAl1xo/view?usp=drivesdk",
+        "publication": "NOT PUBLISHED",
+        "web_preview_url": "./assets/rls-ss2/reels/rls-s2-016-web-1080p.mp4",
+        "resolution": "1080×1920",
+        "duration_sec": "15.200",
+        "source_filename": "RLS_REAL_LIFE_STORIES_DELOGO_UPSCALED_FINAL_1080x1920.mp4",
+        "quality_note": "Edited Final original preserved on Drive. Direct website player uses a bandwidth-optimized 1080×1920 H.264/AAC viewing copy; not the original master bytes."
       },
-      "production_note": "Latest target: 15s / 8 beats, superseding 10s. USER Starter controls dock + one woman in white + one child in blue; USER Master controls creature only. Storyboard 10s labels superseded: use action order only. User references/storyboard not hosted here; displayed original assets are not the revised user pack. Actual video pending.",
+      "production_note": "Edited Final matched to EP016 by visual inspection and full decode. Original 15.200s, 1080×1920; direct web viewing copy linked. Prior preproduction notes are historical; no social publication confirmed.",
       "generation_target_sec": 15
     },
     {
@@ -637,33 +647,12 @@
     {
       "batch": "SS2 SET 02 • FINAL REELS",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "2/10 READY • 8/10 WAITING",
-      "passed": 2,
+      "status": "4/10 READY • 6/10 WAITING",
+      "passed": 4,
       "total": 10,
-      "note": "EP012 + EP013 authoritative Final V2 linked. EP011, EP014–EP020 pending. No new publication/scheduling confirmed."
+      "note": "EP012 + EP013 V2 + EP015 + EP016 linked. EP015 and EP016 have direct web players and original Final backups. No social publication confirmed."
     }
   ],
-  "recent_unassigned_deliverables": [
-    {
-      "filename": "RLS_REAL_LIFE_STORIES_FINAL_QA_PASS_CLEAN_1080x1920.mp4",
-      "date": "2026-10-15",
-      "status": "FILE LOCATED • EPISODE MAPPING / WEB MEDIA LINK PENDING",
-      "reported_duration_sec": 11.203,
-      "reported_resolution": "1080×1920",
-      "qa": "Prior editing room reports QA PASS; not re-inspected in this website sync.",
-      "media_url": "",
-      "publication": "NOT CONFIRMED"
-    },
-    {
-      "filename": "RLS_REAL_LIFE_STORIES_DELOGO_UPSCALED_FINAL_1080x1920.mp4",
-      "date": "2026-10-15",
-      "status": "FILE LOCATED • EPISODE MAPPING / WEB MEDIA LINK PENDING",
-      "reported_duration_sec": 15.2,
-      "reported_resolution": "1080×1920",
-      "qa": "Prior editing room reports watermark removal + QA PASS; not re-inspected in this website sync.",
-      "media_url": "",
-      "publication": "NOT CONFIRMED"
-    }
-  ],
-  "next_action": "Repair EP011 Starter; complete EP017 new visual references; generate/review pending Set 02 Reels using each episode's latest reference and duration locks. Map recent REAL LIFE STORIES deliverables before assigning episode Final slots."
+  "recent_unassigned_deliverables": [],
+  "next_action": "Continue pending Set 02 production: EP011 Starter repair, EP014 actual Final media, EP017 correct new reference pack, EP018–EP020 prompts/video. EP015 and EP016 edited Final Reels are now linked."
 }

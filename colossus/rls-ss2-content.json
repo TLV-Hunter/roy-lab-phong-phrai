@@ -1,7 +1,7 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
   "mode": "USA PILOT SET 01 + SET 02 • SET 01 FINAL REELS 10/10 READY • SET 02 FINAL REELS 2/10 READY (EP012–EP013) • NO POSTS CONFIRMED",
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-16T21:52:32+07:00",
   "publication_truth": "No SS2 publication or scheduling confirmed in project records (SETS 01–02)",
   "episodes": [
     {
@@ -326,10 +326,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Starter FAIL/REVISE: incorrect cloven hoof lobes and trackway gait. Active Starter URL remains cleared; regenerate and QA twice before generation.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-012",
@@ -359,7 +361,9 @@
         "resolution": "1080×1920",
         "duration_sec": "15.200",
         "quality_note": "Final post-production QA PASS; sturgeon-under-ice continuity retained; 1080×1920; watermark removed; NOT PUBLISHED."
-      }
+      },
+      "production_note": "Authoritative 15.200s Final Reel ready, 1080×1920. Existing Master/Starter retained.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-013",
@@ -389,7 +393,9 @@
         "resolution": "1080×1920",
         "duration_sec": "15.116",
         "quality_note": "AUTHORITATIVE V2 Final post-production QA PASS; 15.116s; 1080×1920 Lanczos upscale from 720×1280 after minimal 9:16 crop; Dola AI removed; no black/freeze/exact duplicate-frame run; original audio retained and raised to about -20.2 LUFS / -2.9 dBTP. Supersedes prior 12.042s silent EP013 Final."
-      }
+      },
+      "production_note": "Authoritative Final V2 ready. Superseded silent 12.042s take excluded. No new prompt is claimed.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-014",
@@ -413,10 +419,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "15s / 8-beat prompt passed preflight QA1+QA2. Original Master and Starter retained. Actual video pending.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-015",
@@ -440,10 +448,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Latest target: 10s / 8 beats, superseding 15s. Prompt uses NEW separate reference pack; displayed hosted originals are not that new pack. New crop-upscaled references are not native 1080p or 4K. Actual video pending; >=11s Final delivery rule remains applicable.",
+      "generation_target_sec": 10
     },
     {
       "id": "RLS-S2-016",
@@ -467,10 +477,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Latest target: 15s / 8 beats, superseding 10s. USER Starter controls dock + one woman in white + one child in blue; USER Master controls creature only. Storyboard 10s labels superseded: use action order only. User references/storyboard not hosted here; displayed original assets are not the revised user pack. Actual video pending.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-017",
@@ -494,10 +506,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "15s / 8-beat SCRIPT QA PASS. NEW image attempts failed (wrong EP016 subject), excluded. Existing original moose/horse/creek images remain interim authorities. New separate pack incomplete; actual video pending.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-018",
@@ -521,10 +535,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-019",
@@ -548,10 +564,12 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel.",
+      "generation_target_sec": 15
     },
     {
       "id": "RLS-S2-020",
@@ -575,28 +593,77 @@
         "post_time": "NOT SCHEDULED",
         "qa1": "NOT STARTED",
         "qa2": "PENDING",
-        "copy_qa": "PENDING",
+        "copy_qa": "PASS — QA1 + QA2 EDITORIAL COPY ONLY (FINAL REEL PENDING)",
         "media_url": "",
         "publication": "NOT PUBLISHED"
-      }
+      },
+      "production_note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel.",
+      "generation_target_sec": 15
     }
   ],
   "batch_status": [
     {
-      "batch": "SS2 SET 01",
+      "batch": "SS2 SET 01 • FINAL REELS",
       "range": "RLS-S2-001 → RLS-S2-010",
-      "status": "10/10 PRE-PRODUCTION QA PASS",
+      "status": "10/10 READY • NOT PUBLISHED",
       "passed": 10,
       "total": 10,
-      "note": "Master Still + Starter Frame + Story Lock + 10s Video Prompt + Still/Reel Copy passed. Final Reels 0/10; publication not scheduled."
+      "note": "10 Master Stills, Starters, 15s prompts and Still/Reel copy packages available. 10 linked Final Reels; EP007 has technical-only Final QA qualification. No social publication confirmed."
     },
     {
-      "batch": "SS2 SET 02 • MASTER STILL + COPY",
+      "batch": "SS2 SET 02 • MASTER + COPY",
       "range": "RLS-S2-011 → RLS-S2-020",
-      "status": "10/10 MASTER + COPY QA PASS • 10/10 MASTER LINKED • 9/10 STARTERS QA PASS (EP011 REVISE)",
+      "status": "10/10 MASTER LINKED • 10/10 STILL + REEL COPY PASS",
       "passed": 10,
       "total": 10,
-      "note": "All ten Master JPEGs remain linked. Starter Frames EP012–EP020 retain their existing QA record and links, but EP011 Starter is rejected for incorrect hoofprint anatomy and unnatural gait; EP011 image hidden until repaired/reverified. All video prompts and final reels PENDING; publication NOT CONFIRMED."
+      "note": "Approved original Master assets and all Still/Reel captions + pinned comments retained. Editorial copy approval is not video approval."
+    },
+    {
+      "batch": "SS2 SET 02 • STARTERS",
+      "range": "RLS-S2-011 → RLS-S2-020",
+      "status": "9/10 PASS • EP011 REVISE",
+      "passed": 9,
+      "total": 10,
+      "note": "EP011 failed hoofprint/gait QA; active URL remains blank. Existing EP012–EP020 originals retained. New EP015/EP016 references are not substituted; new EP017 image pack failed and excluded."
+    },
+    {
+      "batch": "SS2 SET 02 • VIDEO PROMPTS",
+      "range": "RLS-S2-011 → RLS-S2-020",
+      "status": "5/10 SCRIPT PREFLIGHT PASS",
+      "passed": 5,
+      "total": 10,
+      "note": "EP012 15s; EP014 15s; EP015 10s; EP016 15s; EP017 15s. EP017 new visual pack incomplete. EP013 Final exists independently of an archived prompt. Script QA is not media QA."
+    },
+    {
+      "batch": "SS2 SET 02 • FINAL REELS",
+      "range": "RLS-S2-011 → RLS-S2-020",
+      "status": "2/10 READY • 8/10 WAITING",
+      "passed": 2,
+      "total": 10,
+      "note": "EP012 + EP013 authoritative Final V2 linked. EP011, EP014–EP020 pending. No new publication/scheduling confirmed."
     }
-  ]
+  ],
+  "recent_unassigned_deliverables": [
+    {
+      "filename": "RLS_REAL_LIFE_STORIES_FINAL_QA_PASS_CLEAN_1080x1920.mp4",
+      "date": "2026-10-15",
+      "status": "FILE LOCATED • EPISODE MAPPING / WEB MEDIA LINK PENDING",
+      "reported_duration_sec": 11.203,
+      "reported_resolution": "1080×1920",
+      "qa": "Prior editing room reports QA PASS; not re-inspected in this website sync.",
+      "media_url": "",
+      "publication": "NOT CONFIRMED"
+    },
+    {
+      "filename": "RLS_REAL_LIFE_STORIES_DELOGO_UPSCALED_FINAL_1080x1920.mp4",
+      "date": "2026-10-15",
+      "status": "FILE LOCATED • EPISODE MAPPING / WEB MEDIA LINK PENDING",
+      "reported_duration_sec": 15.2,
+      "reported_resolution": "1080×1920",
+      "qa": "Prior editing room reports watermark removal + QA PASS; not re-inspected in this website sync.",
+      "media_url": "",
+      "publication": "NOT CONFIRMED"
+    }
+  ],
+  "next_action": "Repair EP011 Starter; complete EP017 new visual references; generate/review pending Set 02 Reels using each episode's latest reference and duration locks. Map recent REAL LIFE STORIES deliverables before assigning episode Final slots."
 }

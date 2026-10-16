@@ -1,18 +1,27 @@
 {
   "brand": "RLS — SS2 / EXTREME ENCOUNTERS",
-  "status": "SET 01 FINAL REELS 10/10 READY / WEBSITE-LINKED / NOT SCHEDULED",
+  "status": "SETS 01–02 • 12/20 LINKED FINAL REELS • PUBLICATION UNCONFIRMED",
   "publication_truth": "0 PUBLISHED / 0 SCHEDULED",
   "inventory": {
-    "mainline_stills": "10/10 QA PASS",
-    "starter_frames": "10/10 QA PASS",
+    "mainline_stills": "20/20 QA PASS / LINKED",
+    "starter_frames": "19/20 QA PASS • EP011 FAIL/REVISE",
     "story_locks": "10/10 QA PASS • 15s / 6-BEAT",
-    "video_prompts": "10/10 QA PASS • SEEDANCE 2.5 / DOLA • EXACT 15s",
-    "copy_packages": "10/10 QA PASS",
-    "final_reels_ready": "10/10",
-    "remaining_reels": [],
-    "image_assets_4k": "20/20 QA PASS • 2160×3840",
-    "master_stills_4k": "10/10",
-    "starter_frames_4k": "10/10"
+    "video_prompts": "15/20 SCRIPT PREFLIGHT PASS • EP017 NEW VISUAL PACK INCOMPLETE",
+    "copy_packages": "20/20 STILL + REEL EDITORIAL COPY PASS",
+    "final_reels_ready": "12/20",
+    "remaining_reels": [
+      "RLS-S2-011",
+      "RLS-S2-014",
+      "RLS-S2-015",
+      "RLS-S2-016",
+      "RLS-S2-017",
+      "RLS-S2-018",
+      "RLS-S2-019",
+      "RLS-S2-020"
+    ],
+    "image_assets_4k": "20 MASTER DELIVERIES + 10 SET01 STARTER DELIVERIES; NOT NATIVE 4K",
+    "master_stills_4k": "20/20 2160×3840 DELIVERIES",
+    "starter_frames_4k": "SET 01 10/10 UPSCALED • SET 02 9/10 1440×2560 PASS"
   },
   "metricool_schedules": [],
   "production_order": [
@@ -21,100 +30,241 @@
       "id": "RLS-S2-001",
       "title": "The Shark Turned Around",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 96/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 2,
       "id": "RLS-S2-002",
       "title": "Something Under the Kayak",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 98/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final repaired to RLS hard-rule duration 11.30s via natural continuous speed adjustment; no freeze/loop; 1080×1920; final audio about -21.1 LUFS / -1.9 dBTP; NOT PUBLISHED."
     },
     {
       "order": 3,
       "id": "RLS-S2-003",
       "title": "ROV-12 Behind the Oil Rig",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 97/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 4,
       "id": "RLS-S2-004",
       "title": "The Alligator Beside the Airboat",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 96/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 5,
       "id": "RLS-S2-005",
       "title": "The Buoy Went Straight Down",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 98/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; 1080×1920 delivery; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 6,
       "id": "RLS-S2-006",
       "title": "That Is Not a Normal Dog",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 97/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; continuous Great Pyrenees reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 7,
       "id": "RLS-S2-007",
       "title": "The Moose Was Taller Than the SUV",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
-      "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "starter": "PASS 95/100",
+      "prompt": "PASS — 15s",
+      "reel": "READY • TECHNICAL QA ONLY",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production candidate with technical QA PASS; 1080×1920; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 8,
       "id": "RLS-S2-008",
       "title": "Something Crossed Behind the Boat",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 93/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; connected giant river-creature/python reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 9,
       "id": "RLS-S2-009",
       "title": "The Elk Stopped Running",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 98/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; elk-to-grizzly continuity retained; 1080×1920; watermark removed; NOT PUBLISHED."
     },
     {
       "order": 10,
       "id": "RLS-S2-010",
       "title": "The Cave Wasn't Empty",
       "still": "READY",
-      "starter": "READY",
-      "prompt": "READY",
+      "starter": "PASS 98/100",
+      "prompt": "PASS — 15s",
       "reel": "READY",
-      "publish": "NOT SCHEDULED"
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Final post-production QA PASS; gradual cave-bear reveal retained; 1080×1920; watermark removed; NOT PUBLISHED."
+    },
+    {
+      "order": 11,
+      "id": "RLS-S2-011",
+      "title": "The Tracks Were Bigger Than the Truck",
+      "still": "READY",
+      "starter": "FAIL — REVISE (HOOF ANATOMY / TRACKWAY GAIT)",
+      "prompt": "PENDING",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Starter FAIL/REVISE: incorrect cloven hoof lobes and trackway gait. Active Starter URL remains cleared; regenerate and QA twice before generation."
+    },
+    {
+      "order": 12,
+      "id": "RLS-S2-012",
+      "title": "Something Moved Under the Ice",
+      "still": "READY",
+      "starter": "PASS 94/100",
+      "prompt": "PASS — PREFLIGHT QA1 + QA2 / 15s 8 BEATS • FINAL VIDEO QA PASS",
+      "reel": "READY",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Authoritative 15.200s Final Reel ready, 1080×1920. Existing Master/Starter retained."
+    },
+    {
+      "order": 13,
+      "id": "RLS-S2-013",
+      "title": "The Wolf Pack Stopped First",
+      "still": "READY",
+      "starter": "PASS 93/100",
+      "prompt": "PENDING",
+      "reel": "READY",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Authoritative Final V2 ready. Superseded silent 12.042s take excluded. No new prompt is claimed."
+    },
+    {
+      "order": 14,
+      "id": "RLS-S2-014",
+      "title": "The Tree Was Breathing",
+      "still": "READY",
+      "starter": "PASS 95/100",
+      "prompt": "PASS — QA1+QA2 PROMPT/CONTINUITY • 15s / 8 BEATS (VIDEO NOT GENERATED)",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "15s / 8-beat prompt passed preflight QA1+QA2. Original Master and Starter retained. Actual video pending."
+    },
+    {
+      "order": 15,
+      "id": "RLS-S2-015",
+      "title": "It Was Standing in the Corn",
+      "still": "READY",
+      "starter": "PASS 95/100",
+      "prompt": "PASS — QA1+QA2 PROMPT / 10s, 8 BEATS (ACTUAL VIDEO PENDING)",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 10,
+      "note": "Latest target: 10s / 8 beats, superseding 15s. Prompt uses NEW separate reference pack; displayed hosted originals are not that new pack. New crop-upscaled references are not native 1080p or 4K. Actual video pending; >=11s Final delivery rule remains applicable."
+    },
+    {
+      "order": 16,
+      "id": "RLS-S2-016",
+      "title": "The Water Rose Beside the Dock",
+      "still": "READY",
+      "starter": "PASS 94/100",
+      "prompt": "PASS — QA1+QA2 PROMPT/CONTINUITY 15s 8 BEATS; VIDEO NOT GENERATED",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Latest target: 15s / 8 beats, superseding 10s. USER Starter controls dock + one woman in white + one child in blue; USER Master controls creature only. Storyboard 10s labels superseded: use action order only. User references/storyboard not hosted here; displayed original assets are not the revised user pack. Actual video pending."
+    },
+    {
+      "order": 17,
+      "id": "RLS-S2-017",
+      "title": "The Horses Wouldn’t Cross",
+      "still": "READY",
+      "starter": "PASS 95/100",
+      "prompt": "PASS SCRIPT QA1+QA2 15s / 8 BEATS; NEW IMAGE GENERATION FAILED — VISUAL PACK NOT COMPLETE; VIDEO PENDING",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "15s / 8-beat SCRIPT QA PASS. NEW image attempts failed (wrong EP016 subject), excluded. Existing original moose/horse/creek images remain interim authorities. New separate pack incomplete; actual video pending."
+    },
+    {
+      "order": 18,
+      "id": "RLS-S2-018",
+      "title": "The Camera Trap Was Too Low",
+      "still": "READY",
+      "starter": "PASS 93/100",
+      "prompt": "PENDING",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel."
+    },
+    {
+      "order": 19,
+      "id": "RLS-S2-019",
+      "title": "Something Followed the Snowcat",
+      "still": "READY",
+      "starter": "PASS 95/100",
+      "prompt": "PENDING",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel."
+    },
+    {
+      "order": 20,
+      "id": "RLS-S2-020",
+      "title": "The Ridge Started Moving",
+      "still": "READY",
+      "starter": "PASS 94/100",
+      "prompt": "PENDING",
+      "reel": "WAITING",
+      "publish": "NOT PUBLISHED",
+      "generation_target_sec": 15,
+      "note": "Approved original Master + Starter and editorial copy available. Video prompt pending; no Final Reel."
     }
-  ]
+  ],
+  "updated_at": "2026-10-16T21:52:32+07:00"
 }

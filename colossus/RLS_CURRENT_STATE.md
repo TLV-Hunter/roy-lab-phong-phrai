@@ -1,5 +1,22 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-12 Asia/Bangkok
+Updated: 2026-10-16 Asia/Bangkok
+
+
+## CURRENT OPERATIONAL SNAPSHOT — 2026-10-16
+This snapshot supersedes older inventory / next-action statements below; historical QA logs are retained.
+- SS1: 24/24 Final Reels recorded ready and linked; social publication remains confirmed-only.
+- SS2 Set 01: 10/10 Final Reel links present; EP007 technical-only Final QA qualification retained.
+- SS2 Set 02: 10/10 approved original Master Stills linked; 9/10 Starter PASS (EP011 FAIL/REVISE; active URL blank).
+- Set 02 Still + Reel captions and pinned comments: 10/10 editorial copy PASS; copy QA does not approve a video.
+- Set 02 authoritative Final Reels: 2/10 READY, EP012 and EP013 V2; superseded silent EP013 excluded.
+- Set 02 script preflight PASS: EP012 15s, EP014 15s, EP015 latest 10s, EP016 latest 15s, EP017 15s. EP017 new images failed and are excluded; original interim references remain.
+- EP015 new local cropped/upscaled reference pack is distinct from hosted originals; no false native-1080p/4K claim.
+- EP016 user's Starter controls dock + woman in white + child in blue; user's Master controls creature. Old 10s storyboard labels invalid for current 15s prompt; use action order only. Revised user references/storyboard are not claimed as hosted.
+- EP018–EP020 prompts / videos pending.
+- Recent editing files located: RLS_REAL_LIFE_STORIES_FINAL_QA_PASS_CLEAN_1080x1920.mp4 and RLS_REAL_LIFE_STORIES_DELOGO_UPSCALED_FINAL_1080x1920.mp4. Previous editing-room QA PASS is recorded separately; episode mapping and public web media links not verified. Neither assigned to a numbered episode nor added to ready counts. No rebrand inferred from filenames.
+- RLS_FINAL_30S_QA_PASS.mp4 is located under a separate SD 2.5 project; excluded from this RLS inventory without project authority.
+- No new confirmed social publication or scheduling obtained in this sync.
+- Exact next action: repair EP011 Starter, complete EP017 correct-species separate references, then generate/QA pending Set 02 Reels with per-episode latest locks. Resolve REAL LIFE STORIES episode association before wiring Final slots.
 
 ## PUBLICATION TRUTH
 Published so far:

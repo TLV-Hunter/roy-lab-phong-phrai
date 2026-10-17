@@ -1,10 +1,10 @@
 {
   "version": "2.1",
-  "updated_at": "2026-10-11T06:29:00+07:00",
+  "updated_at": "2026-10-17T21:11:00+07:00",
   "season_id": "CS-AUG",
   "season_title": "THE GIANTS OUTSIDE",
   "project": "COLOSSUS SIGNAL",
-  "status": "SS2 / AUGUST • 001–010 FINAL QA PASS • 011–020 READY FOR SEEDANCE 2.0",
+  "status": "SS2 / AUGUST • PRODUCTION SNAPSHOT 17 OCT 2026 • PRE-PRODUCTION 20/20 COMPLETE • FINAL REELS 10/20",
   "timezone": "Asia/Bangkok",
   "publish_baseline": {
     "reel": "06:00",
@@ -17,7 +17,7 @@
     "starter_frame": "20/20 PASS",
     "copy": "20/20 PASS",
     "video_prompt": "20/20 PASS",
-    "final_reel": "10/20 PASS • 011–020 WAITING GENERATION",
+    "final_reel": "10/20 PASS • CS-AUG-011–CS-AUG-020 WAITING GENERATION",
     "still_copy": "20/20 PASS"
   },
   "drive_folder": "https://drive.google.com/drive/folders/1FaOX2ovzGLg1XY2xQ9MYHATPfYO_2h-z",
@@ -438,5 +438,52 @@
     "reel_caption_signature": "OMIT",
     "still_caption_signature": "OMIT",
     "signature_rule": "SS2 onward: do not append 'COLOSSUS SIGNAL // CS-AUG-...' to Reel captions and do not append 'COLOSSUS SIGNAL // ARCHIVE FRAME CS-AUG-...' to Still captions."
+  },
+  "october_status": {
+    "as_of": "2026-10-17T21:11:00+07:00",
+    "production_month": "OCTOBER 2026",
+    "season": "SS2 / AUGUST — THE GIANTS OUTSIDE",
+    "preproduction": {
+      "master_still": "20/20 PASS",
+      "starter_frame": "20/20 PASS",
+      "reel_copy": "20/20 PASS",
+      "still_copy": "20/20 PASS",
+      "video_prompt": "20/20 PASS"
+    },
+    "final_reels": {
+      "verified_pass_count": 10,
+      "total": 20,
+      "verified_pass_ids": [
+        "CS-AUG-001",
+        "CS-AUG-002",
+        "CS-AUG-003",
+        "CS-AUG-004",
+        "CS-AUG-005",
+        "CS-AUG-006",
+        "CS-AUG-007",
+        "CS-AUG-008",
+        "CS-AUG-009",
+        "CS-AUG-010"
+      ],
+      "waiting_count": 10,
+      "waiting_ids": [
+        "CS-AUG-011",
+        "CS-AUG-012",
+        "CS-AUG-013",
+        "CS-AUG-014",
+        "CS-AUG-015",
+        "CS-AUG-016",
+        "CS-AUG-017",
+        "CS-AUG-018",
+        "CS-AUG-019",
+        "CS-AUG-020"
+      ],
+      "note": "Only episode-mapped Final Reels with verified QA are counted. Unassigned edited clips are excluded."
+    },
+    "publishing": {
+      "facebook_status": "UNCONFIRMED IN SS2 SOURCE",
+      "note": "Do not infer PUBLISHED or SCHEDULED from production readiness alone."
+    },
+    "next_action": "Generate CS-AUG-011 first, then QA → upload Drive → register Final URL before advancing episode status."
   }
 }

@@ -1,6 +1,48 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-10-01
+Updated: 2026-10-17
+
+## OCTOBER 17, 2026 — CURRENT VERIFIED SNAPSHOT
+
+### SS2 / AUGUST — THE GIANTS OUTSIDE
+Current canonical source: `colossus/august-season.json`.
+
+Verified pre-production:
+- Master Still: **20/20 PASS**
+- Starter Frame: **20/20 PASS**
+- Reel Copy: **20/20 PASS**
+- Still Copy: **20/20 PASS**
+- Video Prompt: **20/20 PASS**
+
+Verified Final Reels:
+- **10/20 PASS**
+- Ready / Final: **CS-AUG-001 through CS-AUG-010**
+- Waiting generation / Final QA: **CS-AUG-011 through CS-AUG-020**
+- Do not count unassigned edited clips as episode Finals until episode/source authority confirms mapping.
+
+Publishing:
+- SS2 Facebook PUBLISHED / SCHEDULED state is **UNCONFIRMED in the canonical SS2 source**.
+- Production READY must not be converted to PUBLISHED without actual post evidence.
+
+Current exact next action:
+- **CS-AUG-011** → generate video from locked Starter/Prompt → real video QA → upload Drive → register Final URL → only then advance episode status.
+
+### October 1 Season Finale
+- **CS-029 — IT FINALLY MOVED**
+- Final exists: **YES**
+- Final QA: **PASS — V3 FINAL**
+- Delivery: 1080x1920 / 24fps / 11.083333s
+- Exact Drive/media URL: **PENDING**
+- Facebook publish state: **not proven by current source**
+- Do not map an unrelated file.
+
+### Website state
+Updated on 2026-10-17:
+- Main Content Desk STRATEGY now shows current October / SS2 production snapshot.
+- SS2/August season desk shows October snapshot, verified Final count, waiting IDs, publishing evidence state, and next action.
+- Caption rule remains locked: SS2 Reel/Still captions omit the old `COLOSSUS SIGNAL // CS-AUG-...` / `ARCHIVE FRAME` signature lines.
+
+---
 
 ## Authority correction
 

@@ -548,6 +548,22 @@ Website:
 - Main web desk auto-focuses CS-029 on 2026-10-01 and displays SEASON FINALE.
 - Final media link remains **DRIVE URL PENDING** because the connected Drive upload handoff failed; website correctly shows FINAL EXISTS / MEDIA LINK PENDING rather than a wrong video.
 
+
+## 2026-10-17 — UNMAPPED CLEAN UPSCALE — SOURCE 17.mp4
+
+- Source: `17.mp4`
+- Source intake: PASS WITH REPAIR.
+- Source technical: 720x1280, 24fps, HEVC + AAC 44.1kHz, ~10.08s.
+- Visible Dola AI watermark was fixed at the lower-right.
+- Repair: clean 9:16 reframe/crop; no blur, patch, sticker, or black box.
+- Final: `17_UPSCALED_NOWM_FINAL.mp4`
+- Delivery: 1080x1920, H.264, AAC 48kHz, 24fps CFR, ~10.10s.
+- Watermark QA: PASS at repeated interval scan including start / 25% / 50% / 75% / ending.
+- Black/freeze QA: PASS.
+- Audio silence QA: PASS.
+- SHA-256: `fa60598fd6ff49181e9d40a9b3837664727e82ab8f9aeba2803dfd15807982dd`.
+- No CS / CS-AUG episode identity assigned from filename alone.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

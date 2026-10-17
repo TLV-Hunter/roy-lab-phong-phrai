@@ -564,6 +564,20 @@ Website:
 - SHA-256: `fa60598fd6ff49181e9d40a9b3837664727e82ab8f9aeba2803dfd15807982dd`.
 - No CS / CS-AUG episode identity assigned from filename alone.
 
+
+## 2026-10-17 — AUDIO REVISION FOR LATEST UNMAPPED CLEAN UPSCALE
+
+- Picture layer remains unchanged from the previous QA-passed clean upscale.
+- Final duration: 15.041667s, 1080x1920, 24fps.
+- Audio revised to use the second supplied clip as the dominant sound reference/bed.
+- Reference audio is rearranged only at native speed; no stretched or elongated sound.
+- The last five seconds reuse a native-speed action/tail segment with a short crossfade so the longer picture retains the same sonic character.
+- Final loudness: approximately -18.0 LUFS; true peak -1.0 dBTP.
+- Decoded video-frame MD5 matches the previous QA-passed picture exactly.
+- Current audio-revised Final: CLIP1_UPSCALED_NOWM_CLIP2_STYLE_AUDIO_FINAL_V2.mp4
+- SHA-256: 325dd352f09042b8c719300c8a5a0f3f52a3ab1b3977fa856932dcc2ceaca09b.
+- No episode identity assigned.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

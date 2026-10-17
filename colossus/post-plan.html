@@ -23,7 +23,15 @@
 <div class="sumCard"><div class="big" id="finalHead">—</div><div class="label">FINAL REEL ยืนยันว่ามีแล้ว</div><div class="sub" id="finalSub">—</div></div>
 </div><div class="note"><b>Special Content:</b> พักทั้งหมดไว้ก่อนจนกว่าจะสั่งใหม่ • ไม่ต้องย้อนหลังเวลาโพสต์เก่า</div></section>
 
-<section class="panel"><h2>SEPTEMBER REMAINING / GAPS</h2>
+<section class="panel"><h2>OCTOBER / SS2 CURRENT STATUS</h2>
+<div class="summary">
+<div class="sumCard"><div class="big" id="octFinals">—</div><div class="label">Verified Final Reels</div><div class="sub" id="octFinalIds">—</div></div>
+<div class="sumCard"><div class="big" id="octWaiting">—</div><div class="label">Final Reels Waiting</div><div class="sub" id="octWaitingIds">—</div></div>
+</div>
+<div id="octStatus" class="gapList" style="margin-top:12px"></div>
+</section>
+
+<section class="panel"><h2>SEPTEMBER ARCHIVE / GAPS</h2>
 <div class="summary">
 <div class="sumCard"><div class="big" id="sepReels">—</div><div class="label">Reels ที่ยังไม่ Published ภายใน ก.ย.</div><div class="sub" id="sepReelIds">—</div></div>
 <div class="sumCard"><div class="big" id="sepStills">—</div><div class="label">Linked Stills ที่ยังไม่ Published ภายใน ก.ย.</div><div class="sub" id="sepStillIds">—</div></div>
@@ -46,8 +54,9 @@ function driveId(u){return(String(u||'').match(/\/d\/([^/]+)/)||[])[1]||''}
 function drivePreview(u){let id=driveId(u);return id?`https://drive.google.com/file/d/${id}/preview`:u||''}
 Promise.all([
  fetch('./content.json?v='+Date.now()).then(r=>r.json()),
- fetch('./colossus-reels.json?v='+Date.now()).then(r=>r.json())
-]).then(([c,reels])=>{
+ fetch('./colossus-reels.json?v='+Date.now()).then(r=>r.json()),
+ fetch('./august-season.json?v='+Date.now()).then(r=>r.json())
+]).then(([c,reels,ss2])=>{
  const todayDate=bangkok(),allCal=(c.calendar||[]).filter(x=>/^CS-/.test(String(x.title||''))),cal=allCal.filter(x=>x.date>='2026-09-08');
  const eps=Object.fromEntries((c.episodes||[]).map(x=>[x.id,x]));
  const reelMap=Object.fromEntries((reels.entries||[]).map(x=>[x.id,x]));
@@ -69,6 +78,20 @@ Promise.all([
  const finalMapped=requiredSeasonIds.filter(id=>!!((eps[id]?.reel?.final_media_url)||reelMap[id]?.media_url));
  document.getElementById('finalHead').textContent=finalConfirmed.length+' / '+requiredSeasonIds.length;
  document.getElementById('finalSub').textContent=finalMapped.length+' ตอนมีลิงก์ Final บนเว็บ';
+ 
+ const oct=ss2.october_status||{},of=oct.final_reels||{},op=oct.preproduction||{},pub=oct.publishing||{};
+ document.getElementById('octFinals').textContent=(of.verified_pass_count||0)+' / '+(of.total||20);
+ document.getElementById('octFinalIds').textContent=(of.verified_pass_ids||[]).join(' • ')||'—';
+ document.getElementById('octWaiting').textContent=String(of.waiting_count??((of.waiting_ids||[]).length));
+ document.getElementById('octWaitingIds').textContent=(of.waiting_ids||[]).join(' • ')||'NONE';
+ const octRows=[
+   '<div class="gapItem gapGood"><b>Pre-production complete</b> — Master '+esc(op.master_still||'—')+' • Starter '+esc(op.starter_frame||'—')+' • Reel Copy '+esc(op.reel_copy||'—')+' • Still Copy '+esc(op.still_copy||'—')+' • Prompt '+esc(op.video_prompt||'—')+'</div>',
+   '<div class="gapItem '+((of.waiting_count||0)?'gapWarn':'gapGood')+'"><b>Final Reel production</b> — '+esc(of.verified_pass_count||0)+'/'+esc(of.total||20)+' verified • '+esc(of.waiting_count||0)+' waiting</div>',
+   '<div class="gapItem gapWarn"><b>Facebook SS2</b> — '+esc(pub.facebook_status||'UNCONFIRMED')+' • Production READY is not counted as PUBLISHED without post evidence.</div>',
+   '<div class="gapItem gapWarn"><b>CS-029 Season Finale</b> — Final QA PASS • exact Drive/media URL still pending.</div>',
+   '<div class="gapItem"><b>Next action</b> — '+esc(oct.next_action||'CS-AUG-011 generate → QA → Drive → register URL')+'</div>'
+ ];
+ document.getElementById('octStatus').innerHTML=octRows.join('');
 
  const sepCal=allCal.filter(x=>x.date>='2026-09-01'&&x.date<='2026-09-30');
  const sepIds=sepCal.map(x=>(String(x.title).match(/CS-\d{3}/)||[])[0]).filter(Boolean);

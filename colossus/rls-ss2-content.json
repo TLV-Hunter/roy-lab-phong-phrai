@@ -520,8 +520,8 @@
         "media_url": "",
         "publication": "NOT PUBLISHED"
       },
-      "production_note": "15s / 8-beat SCRIPT QA PASS. NEW image attempts failed (wrong EP016 subject), excluded. Existing original moose/horse/creek images remain interim authorities. New separate pack incomplete; actual video pending.",
-      "generation_target_sec": 15
+      "production_note": "EP017 user supplied latest Starter and Master, new 8-beat 10s storyboard in chat, pre-gen Dola prompt QA1+QA2 PASS. Final video not generated, not published.",
+      "generation_target_sec": 10
     },
     {
       "id": "RLS-S2-018",

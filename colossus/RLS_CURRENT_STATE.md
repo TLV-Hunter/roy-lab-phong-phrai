@@ -1653,3 +1653,10 @@ Milestone: 2026-10-12
 - Starter = exact calm alpine cliff with herd, no giant ram; Master = later giant ram identity. Storyboard separate 8-beat reference only. The cliff remains SOLID and STATIONARY. Ram physically appears from BEHIND right ridge, never rock morphing. One safe heavy step, careful animal/horn scale, natural sound, no music/text.
 - QA1+QA2 PROMPT/TIMING PASS (0–10s / 8 contiguous beats). No actual video generated or QA'd. No publication. Existing Still, Starter, captions, Reel media_url and unrelated episodes preserved.
 - Exact next action: generate user EP020 10s Reel from separate Starter+Master (+Storyboard only if accepted), inspect final clip for 4-leg gait, two curled horns, stationary ridge, herd continuity and full duration before marking final/publishing.
+
+
+## RLS SS2 EP017 — 10s VIDEO PROMPT REVISION (2026-10-18)
+- User supplied the actual EP017 Starter of TWO mounted riders on brown and cream-white horses beside a shallow rocky conifer mountain creek, plus Moose Master reference; generated EP017 dedicated 8-panel storyboard 10s in-chat, replacing previous 15s plan.
+- New Dola/Seedance 2.5 10s EP017 video prompt QA1+QA2 SCRIPT PASS: 8 contiguous intervals, exact Frame 0, giant dark bull moose with two palmate antlers from upstream bend, one readable moose step 5.5–7s, two horses and riders remain in place, no river crossing or chase, real creek physics and natural ASMR.
+- Updated only EP017 prompt and generation target to 10 seconds; existing visual asset URLs, Reel media_url/publication and other episodes remain unchanged. NO actual Reel video generated, real video QA NOT STARTED and NOT PUBLISHED.
+- EXACT NEXT ACTION: generate EP017 10s Dola video from user Starter and Master (+Storyboard if available), run real footage QA for moose antlers, quadruped gait, horse/rider identity and water/camera continuity, only then mark Final and publish with verified upload.

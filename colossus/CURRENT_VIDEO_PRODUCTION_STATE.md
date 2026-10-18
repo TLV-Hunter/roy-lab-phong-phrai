@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-10-17
+Updated: 2026-10-18
 
 ## OCTOBER 17, 2026 — CURRENT VERIFIED SNAPSHOT
 
@@ -577,6 +577,20 @@ Website:
 - Current audio-revised Final: CLIP1_UPSCALED_NOWM_CLIP2_STYLE_AUDIO_FINAL_V2.mp4
 - SHA-256: 325dd352f09042b8c719300c8a5a0f3f52a3ab1b3977fa856932dcc2ceaca09b.
 - No episode identity assigned.
+
+
+## 2026-10-18 — CLEAN UPSCALE BATCH — SOURCES 19 / 20
+
+- Source 19.mp4 — PASS WITH REPAIR.
+- Source 20.mp4 — PASS WITH REPAIR.
+- Both sources: 720x1280, HEVC, 24fps, AAC 44.1kHz, ~10.08s.
+- Dola AI watermark: fixed lower-right.
+- Repair: clean 9:16 crop/reframe; no blur, patch, sticker, or black box.
+- Finals:
+  - `19_UPSCALED_NOWM_FINAL.mp4` — 1080x1920, 24fps, H.264 + AAC 48kHz, ~10.10s, SHA-256 `aa423b32c0cafa2bae3cac62f23bcd9b3d2473b9e53263647b9081a62903ddc1`.
+  - `20_UPSCALED_NOWM_FINAL.mp4` — 1080x1920, 24fps, H.264 + AAC 48kHz, ~10.10s, SHA-256 `b6a9099a9c7b0a28688ace22a0b91b531e5fbb78694b20f865566a09500e3b8b`.
+- QA: watermark PASS, black/freeze PASS, DAR 9:16 / SAR 1:1 PASS.
+- No episode identity assigned from filename alone.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

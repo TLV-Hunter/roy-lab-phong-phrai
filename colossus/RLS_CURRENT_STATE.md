@@ -1,7 +1,14 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-20 22:28 Asia/Bangkok
+Updated: 2026-10-20 Asia/Bangkok — SS3 market research and season proposal
 
 
+
+## SS3 MARKET RESEARCH / TENTATIVE SEASON PLAN — 2026-10-20
+- Owner plans **SS3 main episodes on Oct 21–30, 2026 (10 episodes)** and **ONE separate Halloween Special on Oct 31 (11 releases overall)**; reports SS1 performed better than SS2 and SS2 did not grow followers adequately. Observation is owner-reported; direct Meta per-episode analytics not connected.
+- Market research favors RETURN to SS1's original rainforest EVIDENCE-BEFORE-EXPLANATION identity, while adding an interconnected Halloween mystery rather than SS2's giant-animal spectacle. The genre proposal is **THE OCTOBER FILES: THE SECOND CAMP**; ten stand-alone physical anomalies gradually build to a replicated forest campsite Halloween reveal.
+- Full research/sources and **PROPOSED (NOT LOCKED)** 10 main EP + 1 Special slate are saved at `colossus/RLS_SS3_MARKET_RESEARCH_AND_TENTATIVE_SLATE_2026-10-20.md`. Neither the EP concepts nor the campaign title are final Story Locks; no SS3 image/video/QA/publication is claimed.
+- Mainline RLS 24/24 and SS2 14/20 existing Final counts remain unchanged. SS2 six-Reel backlog is retained, not discarded. SS3 Oct21 planning is now the active creative-direction decision, and Metricool Facebook connection remains a publishing blocker.
+- **EXACT NEXT ACTION FOR SS3:** select/approve the evidence-first 10+1 arc (or revise titles), finalize season Story Lock and Master/Starter/prop registry, create and QA EP001 assets and real video, and publish only if connection and output are verified. Do not schedule or mark SS3 posted on a proposed date alone.
 
 ## AUTHORITATIVE CURRENT SNAPSHOT — 2026-10-20 (ASIA/BANGKOK)
 This snapshot is the most recent operational truth. It supersedes stale counters and earlier "EXACT NEXT ACTION" sections below; all historical editing, asset, QA and production logs are preserved for traceability. Verified against main-branch GitHub data and linked Metricool brand on 2026-10-20. The live GitHub Pages UI/playback was not independently reopened during this refresh.

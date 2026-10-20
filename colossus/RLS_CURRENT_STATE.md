@@ -1,7 +1,14 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-20 Asia/Bangkok — SS3 market research and season proposal
+Updated: 2026-10-21 00:10 Asia/Bangkok — SS3 competitor research
 
 
+
+## SS3 OWNER CREATIVE CLARIFICATION + COMPETITOR RESEARCH — 2026-10-21
+- Owner does NOT approve SS3 exclusively about snakes. Requested viral Facebook/Instagram research across **giant wild animals and physically visible mystery forest creatures**, fully on-camera, with big action/creature combat/predator encounters/survival, aimed at US and globally understandable content.
+- Previous THE OCTOBER FILES: THE SECOND CAMP mystery-only 10+1 is **TENTATIVE / SUPERSEDED FOR CREATIVE DIRECTION**, NOT STORY LOCKED. No website/programming episode rewrite has been made.
+- Benchmark research saved at `colossus/RLS_SS3_VIRAL_FB_IG_COMPETITOR_RESEARCH_2026-10-21.md`. Key case studies include Wild Animal Encounters / Bighorn Ram reel (creator-documented 85.5M Instagram views), Cryptid Sightings USA, Realistic AI Animals (T-Rex vs Spinosaurus indexed ~5.9M views), Pets Meet AI, AI World and Myth Scenario. Source provenance and USA-audience limitations recorded in the research file.
+- Proposed next creative step: synthesize a NEW diversified SS3 10 main EP (Oct21-30) + Oct31 Halloween Special concept slate with **alive visible forest creatures and real action**, preserve RLS SS1 original/humid-forest brand identity where possible, pilot hooks based on documented formats, QA all concepts and outputs. Do not assume 10k follower growth without real baseline and page publishing.
+- All SS1 24/24 and SS2 14/20 Final Reel counts, their website assets and published/unpublished truth remain unchanged. No SS3 content has been generated or published.
 
 ## SS3 MARKET RESEARCH / TENTATIVE SEASON PLAN — 2026-10-20
 - Owner plans **SS3 main episodes on Oct 21–30, 2026 (10 episodes)** and **ONE separate Halloween Special on Oct 31 (11 releases overall)**; reports SS1 performed better than SS2 and SS2 did not grow followers adequately. Observation is owner-reported; direct Meta per-episode analytics not connected.

@@ -1,7 +1,38 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-16 Asia/Bangkok
+Updated: 2026-10-20 22:28 Asia/Bangkok
 
 
+
+## AUTHORITATIVE CURRENT SNAPSHOT — 2026-10-20 (ASIA/BANGKOK)
+This snapshot is the most recent operational truth. It supersedes stale counters and earlier "EXACT NEXT ACTION" sections below; all historical editing, asset, QA and production logs are preserved for traceability. Verified against main-branch GitHub data and linked Metricool brand on 2026-10-20. The live GitHub Pages UI/playback was not independently reopened during this refresh.
+
+### PROJECT / CAMPAIGNS
+- SS1 / THE HIDDEN FOREST ARCHIVE: all 24/24 Mainline Master Stills, 24/24 Starters, 24/24 Prompt Packs and 24/24 QA-passed Final Reels are recorded ready and website-wired. Production backlog ZERO. Delivery is 1080x1920 H.264 for Finals (NOT native / AI 4K unless independently established).
+- SS2 / EXTREME ENCOUNTERS (USA pilot), Set 01 + Set 02: 20/20 Master Stills QA PASS and linked; 19/20 Starter Frames QA PASS, with **RLS-S2-011 STARTER FAIL / REVISE** because of hoof anatomy / trackway gait. Do not expose or count rejected Starter.
+- SS2 Final Reels: **14/20 READY / linked**. Set 01 EP001-EP010 = 10/10; Set 02 = 4/10, exactly EP012, EP013 V2, EP015 and EP016. EP015 and EP016 have episode-matched edited local masters and separate website-native 1080p player copies, verified 2026-10-16.
+- SS2 Reel production pending (6): **EP011, EP014, EP017, EP018, EP019, EP020**. No Final Reel is counted for these until actual rendered video passes media QA and is linked.
+- SS2 Set 02 visual/copy library: editorial Still+Reel captions and pinned comments 10/10 PASS. Only count Storyboard PASS as storyboard, not as Reel, hosted image, separate eight frames or publication. Generated errors and discarded collages must not enter inventory.
+- SS2 preproduction: EP014 15s / 8-beat video prompt QA1+QA2 TEXT PASS; EP017 latest revision 10s / 8 beats QA1+QA2 SCRIPT PASS (2026-10-18), superseding old 15s version; EP018 user-reference 10s 8-beat storyboard PASS with prompt field still PENDING; EP019 10s / 8-beat prompt text QA PASS; EP020 latest V2 10s / 8-beat prompt text QA PASS (2026-10-17), with stationary ridge and single giant bighorn ram. EP011 starter repair AND prompt generation remain pending. Latest prompt/reference locks are per episode; never silently apply one episode duration to all SS2 clips.
+- SS2 data authority: colossus/rls-ss2-content.json (updated 2026-10-16), colossus/rls-ss2-plan.json (updated 2026-10-16) and colossus/rls-ss2-starters.json (updated 2026-10-18). GitHub main latest observed commit: 9a7944e7546b4278f16b3cb19b08dc5d2bb794f2 (2026-10-18; unrelated Colossus clean upscale files must not be counted as SS2 new Final Reels).
+
+### PUBLISHING TRUTH / BLOCKERS
+- SS1 social publication confirmed by project records: RLS-001 Still and Reel, RLS-002 Still. RLS-002 Reel and subsequent SS1 episodes remain **UNCONFIRMED**, regardless of scheduled dates or complete website assets. Do not infer actual Facebook posts from plans.
+- SS2 (Set 01 + Set 02): project data records **NO CONFIRMED FACEBOOK PUBLICATIONS AND NO CONFIRMED SUCCESSFUL SS2 SCHEDULES**. Every SS2 episode currently has NOT PUBLISHED / NOT SCHEDULED in colossus/rls-ss2-content.json. This is an evidence status, not a proof that an external manual post cannot exist.
+- **NEW VERIFIED PUBLISHING BLOCKER (Metricool checked 2026-10-20):** brand 6848689 has three historic SS1 Facebook auto-publish entries, RLS-011 Still (2026-09-16, id 372486721), RLS-013 Still (2026-09-18, id 372486749), and RLS-020 Still (2026-09-25, id 372486632). Each current provider state = **ERROR** with detailedStatus **"No Facebook page connected"**. The older pending/auto schedule notation is obsolete; these events are NOT proof of successful Facebook publishing. The linked brand currently exposes YouTube connection but no usable connected Facebook Page in the returned settings. Reconnect the correct Facebook Page to Metricool and validate permissions before any future auto-publish workflow.
+- Facebook Page identity per earlier owner confirmation: "The Hidden Forest Archive"; secondary Thai identity retained. Cover V2 improvement remains historically pending; no completion confirmation was found in project data.
+
+### WEBSITE TRUTH
+- GitHub repository TLV-Hunter/roy-lab-phong-phrai; branch main. SS1 website /colossus/ and SS2 desk /colossus/rls-ss2.html plus SS2 queue /colossus/rls-ss2-daily-queue.html are present in the repository.
+- The main SS1 24/24 Final Reel links and SS2 14/20 Final Reel links are recorded in the canonical JSON datasets. GitHub file presence/data wiring verified; direct live Pages playback was not revalidated on 2026-10-20.
+- 4K Master Still website deliveries are UPSCALED from earlier source, not native 4K. SS2 Set 02 starter PASS assets are recorded at 1440x2560; do not label native 4K.
+- Do not alter other website modules or campaigns when refreshing current-state documentation.
+
+### EXACT NEXT ACTION — 2026-10-20
+1. REPAIR RLS-S2-011 rejected Starter (correct hoof track anatomy, trajectory, ground contact); QA1+QA2 PASS; only then restore public Starter URL and create locked Reel prompt.
+2. Complete six remaining SS2 Final Reels: EP011, EP014, EP017, EP018, EP019, EP020. Use current per-episode Starter/Master/Storyboard and latest 10s/15s script authority, generate the real clips, post-produce, QA twice, and link only approved Finals. Do not regenerate already QA-approved EP012/013 V2/015/016 without a defect.
+3. Resolve Facebook publishing: reconnect correct Page in Metricool; run a limited test and confirm status before scheduling/reposting; investigate three ERROR entries instead of marking them PUBLISHED. Verify external Facebook records if an independent manual post may exist.
+4. Update publication dates, status and analytics ONLY on verifiable live evidence; keep SS1 and SS2 statuses separate.
+5. Synchronize ChatGPT Project source copy of RLS_CURRENT_STATE.md with this latest GitHub file; prior Project attachment last reflected 2026-09-08.
 
 ## EDITED REELS WIRED TO REAL WEB PLAYERS — 2026-10-16
 This milestone supersedes the earlier unassigned/mapping-pending entries for these two files.

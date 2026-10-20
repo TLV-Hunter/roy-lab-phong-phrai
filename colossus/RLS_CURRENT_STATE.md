@@ -1,7 +1,16 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 00:10 Asia/Bangkok — SS3 competitor research
+Updated: 2026-10-21 Asia/Bangkok — SS3 10+1 action-creature candidate slate
 
 
+
+## SS3 ACTION-CREATURE 10+1 EP CONCEPT SLATE — 2026-10-21
+- Owner said to continue after USA/international FB+Instagram competitor research. Created an **ACTIVE CANDIDATE** concept slate for Oct21–30 (10 individual giant-wildlife and visible-cryptid action episodes) plus a distinct Oct31 Halloween Special: **RLS SS3 — THE FOREST UNLEASHED**.
+- Full 10+1 concepts, non-repetition against SS2, risk audits, treatment details and EP001 Master/Starter distinct-image drafts, beat map and English draft captions/pinned copy saved at `colossus/RLS_SS3_THE_FOREST_UNLEASHED_SLATE_2026-10-21.md`.
+- Main 10 EP draft IDs `SS3-001`–`SS3-010` + `SS3-HALLOWEEN-001`. Core threats include a new horned cryptid hitting an empty ranger truck, giant python vs saltwater crocodile, huge hornbill-like bird vs outpost, armored monitor vs wild boar, tiger vs plated pangolin-like megafauna, burrowing forest cryptid vs walkway, horned beetle vs floodlight, giant amphibian vs bridge, bat-like flyer vs field cable, then two-cryptid showdown. Oct31 combines coherent new action footage, NOT a recycled collage.
+- Status **DRAFT / PRE-PRODUCTION ONLY**: no EP concept approved as final Story Lock, no actual SS3 visual Master/Starter images generated, no storyboard assets created, no video rendered/QA'd, no scheduling, publication or website rollout. QA Gate 0 concept structure reviewed, all creative asset/technical QA remains pending. **NEVER count 10 concept EP as produced media.**
+- SS3 newest user authority: living huge wildlife/cryptids visible in-frame with dramatic physical action, internationally legible USA-first English public copy, not snake-only and not SS1's previous no-full-reveal conservatism for SS3. Preserve SS1/SS2 previous locks unchanged.
+- **Current SS3 Exact Next Action:** produce `SS3-001` distinct Master Still and Starter Frame (1 image per file), run visual QA1+QA2, verify live Dola generator mode and exact allowed 10/15s duration, create genuine physical-impact Reel, QA postproduction twice, only link/mark READY after evidence; then progress day-by-day. Publishing Metricool Facebook connection remains ERROR and must be resolved before relying on automated posts. Goal 10,000 followers remains a goal, baseline/Insights unavailable, not a guaranteed result.
+- Supersedes **for SS3 creative direction only** earlier mystery-only Second Camp slate. Older docs are historical, not governing. Existing SS1 24/24 and SS2 14/20 Final media counts, social truth and website data remain untouched.
 
 ## SS3 OWNER CREATIVE CLARIFICATION + COMPETITOR RESEARCH — 2026-10-21
 - Owner does NOT approve SS3 exclusively about snakes. Requested viral Facebook/Instagram research across **giant wild animals and physically visible mystery forest creatures**, fully on-camera, with big action/creature combat/predator encounters/survival, aimed at US and globally understandable content.

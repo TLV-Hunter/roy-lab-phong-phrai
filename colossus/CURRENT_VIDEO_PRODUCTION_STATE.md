@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-10-18
+Updated: 2026-10-21
 
 ## OCTOBER 17, 2026 — CURRENT VERIFIED SNAPSHOT
 
@@ -591,6 +591,22 @@ Website:
   - `20_UPSCALED_NOWM_FINAL.mp4` — 1080x1920, 24fps, H.264 + AAC 48kHz, ~10.10s, SHA-256 `b6a9099a9c7b0a28688ace22a0b91b531e5fbb78694b20f865566a09500e3b8b`.
 - QA: watermark PASS, black/freeze PASS, DAR 9:16 / SAR 1:1 PASS.
 - No episode identity assigned from filename alone.
+
+
+## 2026-10-21 — STANDING USER OVERRIDE FOR ALL FUTURE EDITS
+
+For every new editing task in this room, unless the user explicitly overrides a specific clip:
+
+1. **UPSCALE** — every Final must receive an appropriate upscale after picture lock. Default delivery remains truthful Full HD / project-native target; do not claim fake 4K.
+2. **WATERMARK REMOVAL** — remove all source/platform watermarks before Final. Watermark QA must pass at start / 25% / 50% / 75% / end plus high-motion checks.
+3. **EMBEDDED KEYWORD** — every Final must include concise viewer-facing keyword text inside the video itself, not only in caption/metadata.
+4. **CLOSING CTA** — every Final must include an embedded end CTA inside the video.
+5. Preserve identity / continuity / story / performance layers that already pass QA.
+6. For COLOSSUS SIGNAL, viewer-facing Keyword and CTA are English and should follow the existing restrained white condensed uppercase + cyan Signal Bar identity unless a clip-specific instruction overrides it.
+7. Keyword/CTA placement must not cover faces, eyes, main anomaly, planet edges, or the primary payoff.
+8. Final QA is incomplete unless upscale, watermark, keyword, CTA, technical delivery, and story/continuity all pass.
+
+This is a latest-user-instruction override and therefore outranks conflicting older defaults under V3 authority order.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

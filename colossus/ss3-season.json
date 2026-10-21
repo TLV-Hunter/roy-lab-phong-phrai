@@ -14,10 +14,11 @@
     "masters_verified": "10/10 PASS (2160x3840 upscaled PNG; not native 4K)",
     "starter_frames": "0/10 READY",
     "reels": "0/10 READY",
-    "still_copy": "NOT ENTERED",
-    "reel_copy": "NOT ENTERED",
+    "still_copy": "10/10 PASS • EN-US Still Caption + 3 hashtags + keyword metadata + CTA + unique First Comment",
+    "reel_copy": "WAITING • Reel copy not written; only Still copy approved",
     "facebook_publication": "NONE VERIFIED",
-    "note": "A web production desk, not proof of publication. No content copied from RLS SS3."
+    "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
+    "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails"
   },
   "episode_count": 10,
   "episodes": [
@@ -49,13 +50,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The first giant wasn't reaching for Earth. It was pulling away.\n\nIts enormous hand hovered over the planet, but its attention was fixed on the dark ring behind it. For the first time, something larger than our world looked afraid.\n\nFollow Colossus Signal for the next sign of what it saw.\n\n#ColossusSignal #CosmicHorror #GiantAlien",
+        "first_comment": "FRAME DETAIL: The hand is close to Earth, yet the giant's gaze is turned away. The dark ring behind its shoulder may be the real threat.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "enormous hand",
+          "cta_goal": "FOLLOW_INTENT"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "enormous hand",
+        "colossal alien giant",
+        "cosmic horror art"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#CosmicHorror",
+        "#GiantAlien"
+      ],
+      "cta": "Follow Colossus Signal for the next sign of what it saw.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -90,13 +112,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Three stars were missing. Then the red glow appeared.\n\nBeyond the Moon, a colossal face emerged among the drifting debris. Those burning red marks are not distant suns. They belong to something watching the space where the lights disappeared.\n\nLook closely at the darkness around its face.\n\n#ColossusSignal #SpaceHorror #CosmicMystery",
+        "first_comment": "SIGNAL NOTE: The red lights sit within one enormous shape. The missing stars are the mystery; the face is the first clue that the darkness may be alive.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "colossal face",
+          "cta_goal": "REEXAMINE_IMAGE"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "colossal face",
+        "missing stars",
+        "Moon-scale alien horror"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#SpaceHorror",
+        "#CosmicMystery"
+      ],
+      "cta": "Look closely at the darkness around its face.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -131,13 +174,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "A giant was trying to hide its own light.\n\nA blue fissure burned through a colossal black shell above Earth. Its armored surface curved inward around the glow, as if even that small signal had become dangerous to reveal.\n\nStay with the signal. The next anomaly reaches the ocean.\n\n#ColossusSignal #SciFiHorror #AlienTitan",
+        "first_comment": "ENTITY NOTE: The cyan light comes from inside the shell, not from the planet below. Something enormous appears to be shielding its own glow.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "blue fissure",
+          "cta_goal": "SERIES_CURIOSITY"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "blue fissure",
+        "glowing cosmic titan",
+        "dark science fiction"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#SciFiHorror",
+        "#AlienTitan"
+      ],
+      "cta": "Stay with the signal. The next anomaly reaches the ocean.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -172,13 +236,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The ocean moved before the hand ever touched it.\n\nA colossal hand hung over Earth's waters. Far below, the sea folded toward a circular abyss, while the giant remained suspended above the clouds. The distance between them was the frightening part.\n\nWould you have watched the water—or the hand?\n\n#ColossusSignal #PlanetaryHorror #CosmicHorror",
+        "first_comment": "ANOMALY NOTE: There's no visible contact between the fingers and the sea. The ocean's impossible movement seems to begin beneath the open hand.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "colossal hand",
+          "cta_goal": "INTERPRETATION"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "colossal hand",
+        "ocean anomaly",
+        "planetary cosmic horror"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#PlanetaryHorror",
+        "#CosmicHorror"
+      ],
+      "cta": "Would you have watched the water—or the hand?",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -213,13 +298,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The debris was falling in the wrong direction.\n\nThousands of rocks drifted away from Earth's night side and toward a vast black opening. Whatever waited beyond that ring seemed to pull the fragments through space instead of letting them fall.\n\nTrace the path of the smallest pieces.\n\n#ColossusSignal #SpaceHorror #GravityAnomaly",
+        "first_comment": "FIELD NOTE: The rocks form a stream toward the bright rim of the darkness. The effect reads less like an explosion and more like an enormous pull.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "black opening",
+          "cta_goal": "DETAIL_DISCOVERY"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "black opening",
+        "gravity anomaly",
+        "asteroids over Earth"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#SpaceHorror",
+        "#GravityAnomaly"
+      ],
+      "cta": "Trace the path of the smallest pieces.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -254,13 +360,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Earth's lights didn't disappear all at once.\n\nA vast shadow spread across the planet's night side. Some cities still glowed beneath the clouds; others faded into an unnatural darkness. Above Earth, the source of that shadow was almost impossible to separate from space.\n\nFind where the darkness begins.\n\n#ColossusSignal #DarkSciFi #PlanetaryHorror",
+        "first_comment": "NIGHT-SIDE DETAIL: The surviving city lights make the boundary visible. It's the scale of that unlit region—not the lights themselves—that changes the scene.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "vast shadow",
+          "cta_goal": "VISUAL_REVISIT"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "vast shadow",
+        "Earth at night",
+        "dark sci-fi horror"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#DarkSciFi",
+        "#PlanetaryHorror"
+      ],
+      "cta": "Find where the darkness begins.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -295,13 +422,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "One giant crossed the red boundary. Another stayed behind.\n\nA distant titan drifted into the blazing dark opening while a second colossal figure reached from above Earth. The space between them was closing, but the opening offered no glimpse of what lay beyond.\n\nWould you have followed it into the red void?\n\n#ColossusSignal #CosmicHorror #AlienTitan",
+        "first_comment": "POSITION NOTE: There are two separate figures here. One is nearest to Earth; the other is already at the edge of the red opening. Their different positions tell the story.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "red void",
+          "cta_goal": "NARRATIVE_DISCUSSION"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "red void",
+        "vanishing cosmic giant",
+        "colossal alien titan"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#CosmicHorror",
+        "#AlienTitan"
+      ],
+      "cta": "Would you have followed it into the red void?",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -336,13 +484,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Three titans stopped facing the same darkness.\n\nAbove Earth, three distinct colossal figures held their ground beneath an impossible vertical mass. None faced the planet. Their attention was fixed upward, as though they had all recognized the same danger.\n\nWhich detail tells you they are afraid?\n\n#ColossusSignal #CosmicHorror #AlienGiants",
+        "first_comment": "SILHOUETTE NOTE: Compare the three figures. Their bodies are different, but their attention points in one direction. They do not appear to be confronting each other.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "three titans",
+          "cta_goal": "ANATOMY_DISCOVERY"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "three titans",
+        "giant alien silhouettes",
+        "unseen cosmic threat"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#CosmicHorror",
+        "#AlienGiants"
+      ],
+      "cta": "Which detail tells you they are afraid?",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -377,13 +546,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "What if the darkness wasn't a doorway?\n\nA colossal ring loomed over Earth while tiny giants gathered near its edge. The curved black layers around the opening looked less like machinery and more like parts of a hidden body. We may have been looking at it all along.\n\nLook again at the structure surrounding the void.\n\n#ColossusSignal #CosmicMystery #SciFiHorror",
+        "first_comment": "STRUCTURE NOTE: Notice the overlapping layers around the dark center. The image doesn't reveal an entire creature—only enough to question what the ring really is.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "colossal ring",
+          "cta_goal": "REVEAL_REFRAME"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "colossal ring",
+        "living cosmic void",
+        "dark cosmic horror"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#CosmicMystery",
+        "#SciFiHorror"
+      ],
+      "cta": "Look again at the structure surrounding the void.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,
@@ -418,13 +608,34 @@
         "copy_qa": "WAITING"
       },
       "still": {
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The giants weren't surrounding Earth. They were shielding it.\n\nThree colossal figures stood between the planet and a lightless opening in the sky. The beings that once terrified us now faced outward—toward something too vast to confront alone.\n\nFollow the signal into the Halloween finale.\n\n#ColossusSignal #CosmicHorror #HalloweenSciFi",
+        "first_comment": "FINAL OBSERVATION: All three giants are turned away from Earth. Their formation looks less like an invasion and more like a last barrier against the darkness beyond.",
+        "copy_qa": "PASS",
+        "copy_qa_details": {
+          "visual_story": "PASS",
+          "english_copy": "PASS",
+          "keyword_placement": "PASS",
+          "cta_relevance": "PASS",
+          "hashtag_relevance": "PASS",
+          "comment_independent": "PASS",
+          "spam_engagement_bait": "PASS",
+          "meta_basis": "Meta Creator 2026 original-content guidance, Meta AI captions 2026 and Meta anti-spam 2025",
+          "format": "FACEBOOK_STILL_EN_US",
+          "primary_keyword": "three colossal figures",
+          "cta_goal": "HALLOWEEN_FOLLOW"
+        }
       },
-      "keywords": [],
-      "hashtags": [],
-      "cta": null,
+      "keywords": [
+        "three colossal figures",
+        "giants protecting Earth",
+        "Halloween cosmic horror"
+      ],
+      "hashtags": [
+        "#ColossusSignal",
+        "#CosmicHorror",
+        "#HalloweenSciFi"
+      ],
+      "cta": "Follow the signal into the Halloween finale.",
       "publication": {
         "status": "UNCONFIRMED",
         "scheduled": false,

@@ -1,0 +1,446 @@
+{
+  "campaign": "RLS_SS3",
+  "season": "THE FOREST UNLEASHED",
+  "updated": "2026-10-21",
+  "audience": "USA-first / English",
+  "planned_window": "2026-10-21 through 2026-10-31",
+  "title": "GIANT WILDLIFE × CRYPTID ACTION",
+  "source": "Still caption and QA pack on main",
+  "image_delivery": "10 individual JPEG web-display derivatives; NOT native 4K; PNG source assets retained in chat / Adobe",
+  "publication_truth": "NONE_CONFIRMED",
+  "social_connection": "Facebook Metricool disconnected (historic ERROR), must reconnect and confirm",
+  "master_stills": 10,
+  "starter_frames_ready": 0,
+  "final_reels_ready": 0,
+  "episodes": [
+    {
+      "id": "SS3-01",
+      "episode_number": 1,
+      "date": "2026-10-21",
+      "title": "IT CAME THROUGH THE TREES",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-01-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 96,
+        "qa1_class": "HERO CANDIDATE",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "The truck was already trapped in the mud. Then the trees exploded around it. 🌿\nFile 01: A giant horned creature and one very unlucky ranger vehicle. Follow The Hidden Forest Archive for the next encounter.\n\nFictional AI-generated creature scene.\n#CreatureEncounter #ForestHorror #Cryptid #TheHiddenForestArchive",
+      "first_comment": "That horned creature barely looks slowed down. Would a steel truck stand a chance against something this heavy?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#CreatureEncounter",
+        "#ForestHorror",
+        "#Cryptid",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant forest creature",
+        "horned cryptid",
+        "jungle truck encounter",
+        "monster in rainforest"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-02",
+      "episode_number": 2,
+      "date": "2026-10-22",
+      "title": "THE CROCODILE BIT FIRST",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-02-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 93,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "One muddy riverbank. Two massive predators. Neither has room to retreat. 🐊\nFile 02: A giant python meets a saltwater crocodile. Which one strikes first? Follow the archive for the next creature encounter.\n\nFictional AI-generated wildlife scene.\n#GiantPython #Crocodile #PredatorEncounter #TheHiddenForestArchive",
+      "first_comment": "Notice how close the python's head is to the crocodile's jaws. What is each animal's biggest advantage in this fictional matchup?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#GiantPython",
+        "#Crocodile",
+        "#PredatorEncounter",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant python vs crocodile",
+        "predator encounter",
+        "rainforest river battle",
+        "giant reptiles"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-03",
+      "episode_number": 3,
+      "date": "2026-10-23",
+      "title": "THE SKY HIT THE WATCHTOWER",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-03-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 94,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "The watchtower was empty. The impact still shattered the railing. 🪶\nFile 03: Whatever crossed the canopy had wings wider than the platform. Follow The Hidden Forest Archive—there's more moving above the trees.\n\nFictional AI-generated creature scene.\n#PrehistoricBird #ForestMystery #CreatureEncounter #TheHiddenForestArchive",
+      "first_comment": "Look at the broken railing near the wingtip. How big would this bird need to be to hit the upper platform?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#PrehistoricBird",
+        "#ForestMystery",
+        "#CreatureEncounter",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant prehistoric bird",
+        "rainforest watchtower",
+        "wing strike",
+        "cryptid flying encounter"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-04",
+      "episode_number": 4,
+      "date": "2026-10-24",
+      "title": "THE BOAR PICKED THE WRONG FIGHT",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-04-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 93,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "The boar charged straight in. The armored predator didn't move aside. 🐗\nFile 04: One muddy clearing, two animals built to hit hard. Tomorrow's forest encounter brings an even stranger opponent.\n\nFictional AI-generated wildlife scene.\n#WildBoar #CreatureBattle #Rainforest #TheHiddenForestArchive",
+      "first_comment": "The boar has speed. The armored reptile has reach and a low center of gravity. Which advantage matters more here?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#WildBoar",
+        "#CreatureBattle",
+        "#Rainforest",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "wild boar vs giant monitor",
+        "predator confrontation",
+        "tropical rainforest",
+        "creature battle"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-05",
+      "episode_number": 5,
+      "date": "2026-10-25",
+      "title": "THE TIGER COULDN'T MOVE IT",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-05-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 94,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "A tiger went all in. Its claws met something they couldn't get through. 🐅\nFile 05: This unknown forest giant carries its own armor. Follow The Hidden Forest Archive for the next encounter below the jungle floor.\n\nFictional AI-generated creature scene.\n#TigerEncounter #ArmoredCreature #WildlifeHorror #TheHiddenForestArchive",
+      "first_comment": "The scales look like armor plates. What kind of defense would a creature this size need against a tiger?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#TigerEncounter",
+        "#ArmoredCreature",
+        "#WildlifeHorror",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "tiger vs armored creature",
+        "giant pangolin-like beast",
+        "wildlife monster battle",
+        "rainforest predator"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-06",
+      "episode_number": 6,
+      "date": "2026-10-26",
+      "title": "SOMETHING BROKE THROUGH THE GROUND",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-06-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 93,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "The bridge didn't break from above. Something pushed through the earth beneath it. 🌧️\nFile 06: A segmented giant emerges where there should be solid ground. Follow the archive—the next encounter happens after dark.\n\nFictional AI-generated creature scene.\n#GiantCreature #Cryptid #JungleHorror #TheHiddenForestArchive",
+      "first_comment": "The planks gave way right over the burrow. What do you think an animal that tunnels through this much earth would feed on?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#GiantCreature",
+        "#Cryptid",
+        "#JungleHorror",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant burrowing worm",
+        "bridge collapse",
+        "underground cryptid",
+        "tropical jungle creature"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-07",
+      "episode_number": 7,
+      "date": "2026-10-27",
+      "title": "IT CRUSHED THE FLOODLIGHT",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-07-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 92,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "That wasn't thunder. It was a floodlight buckling under a horn. ⚡\nFile 07: An enormous forest beetle finds the research camp after dark. Follow The Hidden Forest Archive for tomorrow's river encounter.\n\nFictional AI-generated creature scene.\n#GiantBeetle #CreatureEncounter #NightForest #TheHiddenForestArchive",
+      "first_comment": "That lamp was steel-framed. How much force would it take to bend the stand like this?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#GiantBeetle",
+        "#CreatureEncounter",
+        "#NightForest",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant rhinoceros beetle",
+        "research camp at night",
+        "insect collision",
+        "forest floodlight"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-08",
+      "episode_number": 8,
+      "date": "2026-10-28",
+      "title": "THE RIVER STOOD UP",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-08-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 95,
+        "qa1_class": "HERO CANDIDATE",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "First the river rose. Then something with teeth and whiskers rose with it. 🌊\nFile 08: The old walkway was never built for a creature this size. Follow The Hidden Forest Archive for tomorrow night's airborne encounter.\n\nFictional AI-generated creature scene.\n#RiverMonster #Cryptid #ForestHorror #TheHiddenForestArchive",
+      "first_comment": "Those whiskers suggest it can sense movement in murky water. Would you trust that walkway again?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#RiverMonster",
+        "#Cryptid",
+        "#ForestHorror",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant river monster",
+        "whiskered freshwater cryptid",
+        "collapsed jungle walkway",
+        "river encounter"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-09",
+      "episode_number": 9,
+      "date": "2026-10-29",
+      "title": "THE WINGS COVERED THE ROAD",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-09-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 94,
+        "qa1_class": "PASS-TEST",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "The headlights caught the wings. The cable flashed a second later. 🦇\nFile 09: A nocturnal creature crosses the forest road at impossible scale. Follow The Hidden Forest Archive—the final encounter is next.\n\nFictional AI-generated creature scene.\n#GiantBat #NightEncounter #Cryptid #TheHiddenForestArchive",
+      "first_comment": "The wings reach nearly from one side of the road to the other. What would you do if this shadow passed over your vehicle?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#GiantBat",
+        "#NightEncounter",
+        "#Cryptid",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant bat cryptid",
+        "forest road encounter",
+        "creature flying over jeep",
+        "rainy night monster"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    },
+    {
+      "id": "SS3-10",
+      "episode_number": 10,
+      "date": "2026-10-30",
+      "title": "TWO TITANS ENTERED THE CLEARING",
+      "master_still": {
+        "image_url": "./assets/rls-ss3/ss3-10-master.jpg",
+        "format": "JPEG",
+        "source": "independent Master Still image, website derivative of approved candidate",
+        "status": "WEB_IMAGE_READY",
+        "qa1_score": 96,
+        "qa1_class": "HERO CANDIDATE",
+        "qa2_visual": "PASS",
+        "published": false
+      },
+      "starter_frame": {
+        "status": "NOT_CREATED",
+        "image_url": null
+      },
+      "final_reel": {
+        "status": "NOT_CREATED",
+        "video_url": null
+      },
+      "still_caption": "Two giants met in the clearing. Neither backed down. 🌲\nFile 10: The horned beast faces a saber-toothed predator—and the forest is about to get louder. Follow The Hidden Forest Archive for the Halloween Special on October 31.\n\nFictional AI-generated creature scene.\n#CreatureBattle #ForestHorror #PrehistoricBeasts #TheHiddenForestArchive",
+      "first_comment": "The horned beast has mass; the saber-toothed hunter has speed. Which detail in this scene tells you how the fight might turn?",
+      "first_comment_status": "NOT_POSTED",
+      "hashtags": [
+        "#CreatureBattle",
+        "#ForestHorror",
+        "#PrehistoricBeasts",
+        "#TheHiddenForestArchive"
+      ],
+      "search_keywords": [
+        "giant forest beast vs saber predator",
+        "prehistoric creature showdown",
+        "monster encounter",
+        "Halloween giant creatures"
+      ],
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
+    }
+  ],
+  "halloween_special": {
+    "id": "SS3-SPECIAL-001",
+    "date": "2026-10-31",
+    "title": "THE NIGHT THE TITANS FOUGHT",
+    "status": "CONCEPT_ONLY",
+    "master_still_url": null,
+    "video_url": null,
+    "publication_status": "NOT_CONFIRMED"
+  }
+}

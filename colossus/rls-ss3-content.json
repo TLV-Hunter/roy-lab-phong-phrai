@@ -10,7 +10,7 @@
   "publication_truth": "NONE_CONFIRMED",
   "social_connection": "Facebook Metricool disconnected (historic ERROR), must reconnect and confirm",
   "master_stills": 10,
-  "starter_frames_ready": 0,
+  "starter_frames_ready": 1,
   "final_reels_ready": 0,
   "episodes": [
     {
@@ -29,8 +29,13 @@
         "published": false
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
-        "image_url": null
+        "status": "READY",
+        "image_url": "./assets/rls-ss3/ss3-01-starter.jpg",
+        "qa1_score": 94,
+        "qa2_visual": "PASS",
+        "distinct_from_master": true,
+        "source": "EP01 separate 940x1672 original PNG, web-display JPEG derivative",
+        "generation_video_status": "NOT_RENDERED"
       },
       "final_reel": {
         "status": "NOT_CREATED",

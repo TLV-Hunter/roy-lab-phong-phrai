@@ -11,15 +11,15 @@
   "editorial_release_window": "2026-10-21 to 2026-10-31",
   "drive_folder": "https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4",
   "production_truth": {
-    "masters_verified": "11/11 display-ready at 2160x3840 PNG (10 main files verified locally and on Drive, 1 Special hosted externally; all derived/upscaled, not native 4K)",
+    "masters_verified": "11/11 archived as 2160×3840 PNG on Google Drive; images are upscaled, not native AI 4K; Special file recovered via 1152×2048 intermediate then upscaled",
     "starter_frames": "0/10 READY",
     "reels": "0/10 READY",
-    "still_copy": "11/11 QA PASS • 10 original Still copy packs preserved; 1 Halloween Special copy added",
+    "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
     "reel_copy": "WAITING • Reel copy not written; only Still copy approved",
-    "facebook_publication": "NONE VERIFIED — all still/reel publishing remains unconfirmed",
+    "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
-    "halloween_special_master": "1/1 Master linked + technically verified 2160x3840 PNG; external-hosted, durable Google Drive backup still pending"
+    "halloween_special_master": "1/1 Master backed up in Google Drive; 2160×3840 PNG verified; visual story QA aligned to two on-frame guardians"
   },
   "episode_count": 10,
   "episodes": [
@@ -650,13 +650,17 @@
     "title": "WHAT THE GIANTS FEARED — HALLOWEEN SPECIAL",
     "subtitle": "IT FOUND US.",
     "master": {
-      "url": "https://gcdn.picsart.com/media-engine/ec08727c-ed7d-4184-9730-d0db2213c388.png",
+      "url": "https://drive.google.com/file/d/1WImQ7MHmmkU6uCYpK_B74u7MFUdbokPJ/view?usp=drivesdk",
       "qa": "PASS",
       "resolution": "2160x3840",
       "format": "PNG",
-      "source_note": "Picsart media-engine 4K composition from generated image; file size 7,019,916 bytes; prior-session special-image editorial QA; no native-4K claim",
-      "storage_status": "EXTERNAL_HOSTED — permanent Google Drive copy pending",
-      "published": false
+      "source_note": "Recovered from original 4K Picsart media-render through Google intermediate; Google downsampled to 1152×2048 during transit, then Lanczos-upscaled to 2160×3840. Source visual identity preserved (no regeneration).",
+      "storage_status": "GOOGLE DRIVE PERMANENT BACKUP VERIFIED",
+      "published": false,
+      "technical_qa": "PASS",
+      "story_qa": "PASS after precise image-specific copy correction: two visible guardians, Earth and third guardian outside frame",
+      "drive_file_id": "1WImQ7MHmmkU6uCYpK_B74u7MFUdbokPJ",
+      "sha256": "03f863b4ae62675ba374ec66c31d778cc4183e8b8e44dbab84ba0a826b06eea1"
     },
     "starter": {
       "url": null,
@@ -673,11 +677,11 @@
       "copy_qa": "WAITING"
     },
     "still": {
-      "caption": "At last, we know what the giants were afraid of.\n\nThree colossal guardians stood between Earth and a darkness so vast it made them look small. It wasn't a distant star. It wasn't an empty doorway. Something in that darkness turned toward our tiny blue world.\n\nThe final transmission: IT FOUND US.\n\nWould their last shield have been enough?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",
-      "first_comment": "FINAL OBSERVATION: Follow the scale from Earth to the three guardians, then to the shape beyond them. Each comparison makes the previous giant look smaller. Their bodies face away from Earth. Maybe the last defense wasn't about winning a battle. Maybe it was about keeping one blue light hidden.",
+      "caption": "Three giants formed the last shield.\n\nBut in the final transmission, only two guardians remained visible.\n\nBehind them, the darkness finally revealed a face—a living cosmic giant so immense that even the defenders looked small. Earth was beyond the frame. One guardian was missing.\n\nThen the thing turned toward us.\n\nIT FOUND US.\n\nWhere did the third guardian go?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",
+      "first_comment": "FINAL OBSERVATION: Compare the two silhouettes near the bottom with the creature towering above them. This frame does not show Earth or the third guardian. The final image answers one question—what frightened the giants—and leaves another unresolved: who is still standing between it and us?",
       "copy_qa": "PASS",
       "copy_qa_details": {
-        "visual_story": "PASS_BASIS_PREVIOUS_MASTER_QA",
+        "visual_story": "PASS — actual image reviewed: two guardians in frame, third and Earth outside frame",
         "english_copy": "PASS",
         "keyword_placement": "PASS",
         "cta_relevance": "PASS",
@@ -685,22 +689,22 @@
         "comment_independent": "PASS",
         "spam_engagement_bait": "PASS",
         "format": "FACEBOOK_STILL_EN_US",
-        "primary_keyword": "colossal guardians",
-        "cta_goal": "SEASON_FINALE_INTERPRETATION",
-        "notes": "Original fictional cosmic horror; not a real astronomical report. No claim of published Facebook post."
+        "primary_keyword": "living cosmic giant",
+        "cta_goal": "STORY_CONTINUATION_DISCUSSION",
+        "notes": "QA correction replaces earlier draft copy which erroneously claimed three guardians and Earth were visible in the Halloween Master Still."
       }
     },
     "keywords": [
-      "colossal guardians",
+      "living cosmic giant",
       "Halloween cosmic horror",
-      "planetary-scale alien entity"
+      "missing third guardian"
     ],
     "hashtags": [
       "#ColossusSignal",
       "#CosmicHorror",
       "#HalloweenHorror"
     ],
-    "cta": "Would their last shield have been enough?",
+    "cta": "Where did the third guardian go?",
     "publication": {
       "status": "UNCONFIRMED",
       "scheduled": false,

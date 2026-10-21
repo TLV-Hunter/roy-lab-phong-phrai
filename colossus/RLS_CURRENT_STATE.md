@@ -1,5 +1,18 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 — SS3 still visual QA repair and 10 English copy packs
+Updated: 2026-10-21 — SS3 Master Still rigorous QA re-audit 6 PASS / 4 FAIL
+
+## SS3 MASTER STILL QA OVERRIDE — 2026-10-21 (LATEST)
+- Latest user-authorized work is **QA of 10 independently generated SS3 Master Stills ONLY. No SS3 website or social publication requested.** Any earlier claim that all 10 stills had final QA PASS is superseded by this visual re-audit.
+- Current **visual pre-production QA** (not native-4K/file-release QA): **6/10 PASS-TEST** (EP01, EP04, EP05, EP06, EP08, EP10); **4/10 FAIL** (EP02, EP03, EP07, EP09). EP06 latest independently generated organic segmented giant burrower wrecking bridge passes concept/visual QA. Originals EP01/04/05/08/10 preserved.
+- EP02 FAIL: snake head has crocodile/dinosaur-like jaws or unnatural hybrid anatomy; retries also put the crocodile bite on snake head instead of midbody.
+- EP03 FAIL: ambiguous repeated talons/leg anatomy in dramatic source; retries place splinters away from bird-wing collision on lookout rail.
+- EP07 FAIL: giant beetle's horn/leg structure ambiguous; retries alter light into equipment pipes or leave floodlight uncollapsed, breaking story impact.
+- EP09 FAIL: bat wings usually readable, but wingtip, severed wire and sparks are not co-located; retries invent a cable stretched between wings or place sparks away from phone line.
+- Discarded attempts/collage variants not counted. No new SS3 Reels, verified Facebook posts or true pinned comments.
+- Separate QA report created in this conversation's verified local runtime: `/mnt/data/RLS_SS3_MASTER_STILL_QA_AUDIT_2026-10-21.md` and machine-readable JSON with file dimensions + SHA256. These are **not** GitHub Pages or Project source web assets.
+- User previously objected to unrequested SS3 website publication. Navigation link was taken out of the main desk, and an unapproved SS3 HTML page was replaced with a withdrawal notice; raw asset/data copies may still exist in public repository. Do not claim all SS3 assets fully removed or re-publish anything.
+- **EXACT NEXT ACTION:** regenerate only EP02/03/07/09 as standalone images; inspect full source anatomy, contact physics, and score each with QA1 + QA2. Do NOT touch the website or post, and do not silently relabel FAIL as PASS. Produce Stills/Starter/Reel only after the user permits the relevant stage.
+
 
 
 

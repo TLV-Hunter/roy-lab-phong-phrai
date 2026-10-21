@@ -10,7 +10,7 @@
 - Visual masters 2160×3840 PNG are upscaled, not native generated 4K. Reel and Starter remain WAITING; Halloween Special Still copy now approved (11/11).
 
 ## QA scorecard
-- Episode and image correspondence: 11/11 PASS (EP01–EP10 local Master inspection; Halloween Special prior editorial gate + current technical probe)
+- Episode and image correspondence: 11/11 PASS (EP01–EP10 preserved; Halloween Special visually inspected and Special copy corrected to match actual two-guardian framing)
 - English fluency / US audience voice: 11/11 PASS
 - Unique hooks / captions / first comments: 11/11 PASS
 - Caption length 35–105 words: 11/11 PASS
@@ -237,30 +237,34 @@ FINAL OBSERVATION: All three giants are turned away from Earth. Their formation 
 
 **Still Caption (includes CTA and Hashtags):**
 
-At last, we know what the giants were afraid of.
+Three giants formed the last shield.
 
-Three colossal guardians stood between Earth and a darkness so vast it made them look small. It wasn't a distant star. It wasn't an empty doorway. Something in that darkness turned toward our tiny blue world.
+But in the final transmission, only two guardians remained visible.
 
-The final transmission: IT FOUND US.
+Behind them, the darkness finally revealed a face—a living cosmic giant so immense that even the defenders looked small. Earth was beyond the frame. One guardian was missing.
 
-Would their last shield have been enough?
+Then the thing turned toward us.
+
+IT FOUND US.
+
+Where did the third guardian go?
 
 #ColossusSignal #CosmicHorror #HalloweenHorror
 
 **FIRST / PINNED COMMENT — post separately:**
 
-FINAL OBSERVATION: Follow the scale from Earth to the three guardians, then to the shape beyond them. Each comparison makes the previous giant look smaller. Their bodies face away from Earth. Maybe the last defense wasn't about winning a battle. Maybe it was about keeping one blue light hidden.
+FINAL OBSERVATION: Compare the two silhouettes near the bottom with the creature towering above them. This frame does not show Earth or the third guardian. The final image answers one question—what frightened the giants—and leaves another unresolved: who is still standing between it and us?
 
-**Keywords:** colossal guardians | Halloween cosmic horror | planetary-scale alien entity
+**Keywords:** living cosmic giant | Halloween cosmic horror | missing third guardian
 
-**CTA:** Would their last shield have been enough?
+**CTA:** Where did the third guardian go?
 
 **Hashtags:** #ColossusSignal #CosmicHorror #HalloweenHorror
 
-**QA:** PASS • 62 Caption words • Independent observation-based First Comment • Fictional, no misinformation claims
+**QA:** PASS • 1 caption words • 291 first-comment characters • 2 visible guardians, 3rd and Earth outside shot; no false on-frame claims.
 
-**Master:** 2160x3840 PNG • https://gcdn.picsart.com/media-engine/ec08727c-ed7d-4184-9730-d0db2213c388.png
+**Master:** 2160×3840 PNG upscaled from recovered intermediate • https://drive.google.com/file/d/1WImQ7MHmmkU6uCYpK_B74u7MFUdbokPJ/view?usp=drivesdk
 
-**Storage:** Image available from provider host; dedicated permanent Google Drive backup still pending, do not claim 11/11 on Drive.
+**Drive:** VERIFIED 11/11 unique archived images. Special transferred via 1152×2048 Google intermediate, then upscaled and QA-checked, not identical pixel-for-pixel to original media-engine 4K.
 
-**Publication:** NOT VERIFIED. This is production copy, not a posted Facebook comment.
+**Publication:** NOT VERIFIED. No actual Facebook posts or pinned comments made.

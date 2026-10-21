@@ -608,6 +608,29 @@ For every new editing task in this room, unless the user explicitly overrides a 
 
 This is a latest-user-instruction override and therefore outranks conflicting older defaults under V3 authority order.
 
+
+## 2026-10-21 — QA-GATED EDIT — SOURCE 1.mp4
+
+- Source QA: **PASS WITH REPAIR**.
+- Source technical: 720x1280, HEVC, 24fps, AAC stereo 44.1kHz, ~10.08s.
+- Visual QA: identity / Earth / colossal entity / background continuity acceptable; no structural morphing failure requiring rejection.
+- Contamination: fixed `Dola AI` watermark at lower-right.
+- Final: `1_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`.
+- Delivery: 1080x1920, 9:16, SAR 1:1, H.264, AAC 48kHz, 24fps CFR, 11.041667s.
+- Watermark removal: clean 9:16 reframe/crop; no blur, patch, sticker, or black box.
+- Upscale: Lanczos to truthful Full HD with restrained sharpening.
+- Embedded Keyword: `IT WAS LEAVING`.
+- Closing CTA: `FOLLOW THE SIGNAL`.
+- Source motion slowed by ~10% to meet current >=11s Colossus minimum while preserving monumental motion.
+- Audio preserved, speed-adjusted with pitch-preserving atempo and normalized to approximately -15.3 LUFS / -1.9 dBTP.
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- Watermark QA: PASS at repeated full-clip/bottom-band scan.
+- Black/freeze detector: PASS.
+- SHA-256: `c6db1963847289fe8027edbbb4f93452aa0ce005628746881e32b4326805e23e`.
+- No CS / CS-AUG episode identity assigned from filename alone.
+
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.
 

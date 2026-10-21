@@ -1,7 +1,15 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 Asia/Bangkok — SS3 10+1 action-creature candidate slate
+Updated: 2026-10-21 — SS3 new creature Master alternatives ready for selection
 
 
+
+## SS3 NEW DISTINCT MASTER CANDIDATE SELECTION B — 2026-10-21
+- New user request: prior first imagery had repeated similar beasts; generate a different 10-subject batch for owner to choose **before final captions and pinned comments**.
+- A second alternative set of exactly 10 separate Adobe 9:16 PNG outputs was generated: white orangutan, emerald giant mantis, elephant, violet scorpion, red-eyed tree frog, cassowary, red freshwater crab, giant centipede, clouded leopard, pale cobra. Gallery shown, reference links recorded in `colossus/RLS_SS3_ALT_MASTER_SELECTION_2026-10-21.md`.
+- One initial elephant image FAIL due unrealistic floating posture; it was REPLACED by grounded elephant, discarded version does NOT count. Collage/poster generation failures discarded; no crop-panel masquerade.
+- **State: 10 SEPARATE CANDIDATE IMAGES, 0 NEW APPROVED/FINAL SS3 MASTER STILLS.** Small-size visual previews were reviewed, but high-res native QA1+QA2 and approval by owner remain pending. No captions, pinned comments, Starter Frames or video generated as a result of this choice batch.
+- No SS3 posts/schedules confirmed; no website data changed. Original SS1/SS2 counts unaffected.
+- **EXACT NEXT ACTION:** owner selects preferred numbers; run high-resolution final QA and regen failures; only after all selected 10 Masters PASS author English Still captions and pinned comments, then start distinct Starter and Video Pre-production.
 
 ## SS3 ACTION-CREATURE 10+1 EP CONCEPT SLATE — 2026-10-21
 - Owner said to continue after USA/international FB+Instagram competitor research. Created an **ACTIVE CANDIDATE** concept slate for Oct21–30 (10 individual giant-wildlife and visible-cryptid action episodes) plus a distinct Oct31 Halloween Special: **RLS SS3 — THE FOREST UNLEASHED**.

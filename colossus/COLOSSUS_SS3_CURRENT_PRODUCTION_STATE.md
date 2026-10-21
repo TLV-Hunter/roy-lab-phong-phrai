@@ -19,7 +19,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - Final Reels: **0/10 READY / WAITING**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **10/10 PASS** — EN-US copy approved and registered for SS3 Master Still posts. Unique hooks, three relevant hashtags, natural scene CTA, separate first/pinned comments.
 - Reel Caption / First Comment: **WAITING**, no copy approved. Never substitute approved Still copy as Reel copy before video-specific QA.
-- Halloween Special Master / Starter / Reel / Copy: **NOT CREATED**.
+- Halloween Special Master: **CS-OCT-SP01 linked to website / 2160×3840 PNG / prior-session editorial PASS / technical dimensions reverified**; image is provider-hosted externally and needs a permanent Google Drive backup. Starter, Reel and Copy still NOT CREATED.
 - Facebook publish or scheduled state: **NOT VERIFIED / DO NOT CLAIM PUBLISHED**.
 
 ## New website and data architecture

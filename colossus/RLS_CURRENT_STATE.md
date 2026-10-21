@@ -1,5 +1,14 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-22 — SS3 review desk restored in GitHub; Pages deployment verification pending
+Updated: 2026-10-22 — SS3 EP02–EP06 10-image QA; 2/5 pairs ready for Dola
+
+## SS3 EP02–EP06 STARTER + STORYBOARD QA — 2026-10-22 (CURRENT GATE)
+- Owner ordered QA of the ten distinct files produced for **EP02–EP06: five Starter Frame PNGs and five Storyboard PNGs**, checking each against its pre-existing selected Master. Source files are independent 941×1672 PNGs, not native 4K, not sliced from multi-EP posters.
+- **Pair QA:** EP02 Starter PASS, Board REVISE (12s instead of Dola Seedance 2.0 10s); EP03 Starter PASS / Board PASS (6 beats, 10s); EP04 Starter PASS / Board PASS (6 beats, 10s); EP05 Starter PASS / Board REVISE (12s and opening storyboard depicts crouch before leap although Starter already shows airborne tiger); EP06 Starter FAIL / Board FAIL (Starter already shows collapsed bridge and surfaced burrower, not pre-break Frame0; storyboard 12s).
+- **Usable pair count: 2/5 (EP03 + EP04)**, 8 distinct submitted pictures, 2? More precisely **10 produced images**: 4 Starter PASS / 1 Starter FAIL, 2 Storyboard PASS / 2 Storyboard REVISE / 1 Storyboard FAIL. No video renders produced here. A model-generated erroneous EP01 **multi-panel collage** while attempting EP06 image repair was discarded and NOT counted.
+- **Two Dola Seedance 2.0 prompts, 10s 9:16 Audio ON, for QA-accepted EP03 and EP04** created separately in current chat as native text files along with per-asset SHA256 and QA report. Ref order remains Image1=Master impact authority; Image2=independent Starter exact Frame0; Image3=one-EP six-beat Storyboard. No text/grid from Board should appear in video.
+- **Exact next action:** Repair only EP02 Storyboard as 10s six beats; repair only EP05 Storyboard with action beginning at airborne tiger; recreate EP06 intact-bridge Starter and matched 10s Storyboard, then QA again until PASS. The native image generator repeatedly substituted unrelated EP01 storyboard collage during this attempted EP06 repair; reject it and do not count it.
+- No changes to website page/assets or social publication status. EP01 Local Final Reel remains separate; owner has not requested public publication.
+
 
 ## SS3 WEB DESK RESTORED FOR ACCESS — 2026-10-22
 - User reported the SS3 link could not be opened. On 2026-10-22, checked GitHub repository: `colossus/rls-ss3.html` had been replaced by an intentional `SS3 is not published` withdrawal placeholder (669 bytes). The SS3 data JSON and 10 older preview JPGs were still present and deployment workflows were functional.

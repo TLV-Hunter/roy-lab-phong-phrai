@@ -1,4 +1,16 @@
 # RLS AI STUDIO — CURRENT STATE
+Updated: 2026-10-22 — SS3 Editing Room 2 EP01 Final + owner locks; historical sections retained
+
+## SS3 VIDEO EDITING ROOM 2 — NEW OWNER LOCK + EP01 FINAL 2026-10-22
+- **LATEST OWNER AUTHORITY:** SS2 editing backlog is CLOSED / ABANDONED by the owner. Do not return to SS2 production unless explicitly requested in a new instruction. Preserve historical SS2 record and previously verified publication truth; do not delete it.
+- **ACTIVE EDITING SEASON: RLS SS3 — THE FOREST UNLEASHED.**
+- **MANDATORY FOR ALL SUBSEQUENT VIDEO CLIPS:** 1) QA source before editing; only PASS or PASS WITH TARGETED REPAIR proceeds. 2) professional seamless editing; 3) upscale/enhance truthfully, without pretending Lanczos resize is neural SR/4K; 4) remove Dola/generator watermarks with localized cleanup preserving story geometry; 5) embed an English topical keyword/hook INSIDE the moving video; 6) embed an English end CTA INSIDE the video; 7) post-render visual + audio + technical QA twice and repair failures before declaring Final.
+- **SS3 EP01 REAL SOURCE RECEIVED/EDITED 2026-10-22:** user uploaded `1.mp4` (720x1280, 24fps, 10.08 seconds). Scene: giant horned creature and jeep in muddy jungle. Source preflight PASS WITH REPAIR (Dola AI watermark).
+- **SS3 EP01 local Final render VERIFIED QA PASS:** `RLS_SS3_EP01_FINAL_1080x1920.mp4`; 1080x1920, 24fps, 10.04 seconds H.264/AAC; output 16,998,613 bytes. Targeted watermark cleanup; Lanczos upscale/mild sharpen, not AI super-resolution; embedded opening keyword 'GIANT CREATURE / THE HIDDEN FOREST / SS3' and closing CTA 'FOLLOW FOR MORE / FOREST ENCOUNTERS'. Source audio retained, peak -3.7 dB, no black/freeze detections in final; technical QA plus representative visual inspection PASS. QA1 93/100 PASS-TEST.
+- **VERIFICATION:** Final local artifact SHA256 `ee28c751134324ad0ca41892ce13af78b1df9844931e7c4551a15c194b964776`. Related local `RLS_SS3_EP01_EDIT_QA_REPORT.md`. Local conversation files are not assumed to be durable GitHub/Drive storage.
+- **PUBLICATION TRUTH:** EP01 VIDEO is LOCAL FINAL ONLY. NOT uploaded to GitHub website, NOT posted to social, NOT scheduled, NOT verified published. This State Markdown edit alone is not permission for website/UI/media publication. Older SS3 creative Still QA counts remain governed by the latest documented visual QA; creating this Reel does not promote unresolved SS3 Master Stills to PASS.
+- **EXACT NEXT VIDEO EDIT ACTION:** receive next SS3 raw clip, inspect source QA; edit only if PASS (or safely targeted repair), remove watermark, enhance/upscale, embed English keyword + end CTA, export and QA twice. No SS2 continuation.
+
 Updated: 2026-10-21 — SS3 native-image generator blocker; 8 visual PASS-TEST / 2 REVISE
 
 ## SS3 NATIVE IMAGE QA BLOCKER / EXACT NEXT ACTION — 2026-10-21 (LATEST)

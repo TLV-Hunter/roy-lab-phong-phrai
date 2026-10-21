@@ -1,7 +1,16 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 22:47 Asia/Bangkok — SS3 latest QA 8 PASS-TEST / 2 REVISE
+Updated: 2026-10-21 — SS3 native-image generator blocker; 8 visual PASS-TEST / 2 REVISE
 
-## SS3 MASTER STILL QA — 2026-10-21 22:47 ICT (CURRENT AUTHORITY)
+## SS3 NATIVE IMAGE QA BLOCKER / EXACT NEXT ACTION — 2026-10-21 (LATEST)
+- User ordered autonomous repair of ONLY **SS3 EP07 and EP09** with ChatGPT's native image generator. External Adobe/Runway/Picsart tools NOT authorized. No other episode or website modifications.
+- Multiple separate ChatGPT-native image attempts in this long chat produced **EP07 over-horned beetle / lighting-tower explosion repeatedly**, including after explicitly requesting **EP09 bat** and trying to reference the old EP09 image. These repeated wrong-subject outputs are **FAIL/DISCARDED** and not counted as Stills. EP07 still fails six anatomically attached legs/mandibles and realistic portable floodlight. EP09 still fails unambiguous wingtip-to-cable break/spark geometry; no corrected EP09 bat image was produced.
+- Attempted local spot repair of EP09 background lightning created inpainting smears and also **FAILED QA / DISCARDED**; original selected EP09 remains unchanged.
+- **Current honest creative visual inventory remains 8/10 PASS-TEST** (EP01, EP02, EP03, EP04, EP05, EP06, EP08, EP10), **2/10 REVISE** (EP07 and EP09), all image assets independent when counted. Full-res source/native 4K QA pending.
+- Session handoff/report prepared at `/mnt/data/RLS_SS3_EP07_EP09_QA_HANDOFF_2026-10-21.md`. Do not treat rejected beetle images as alternate accepted Masters.
+- **EXACT NEXT ACTION:** because the current prolonged chat's native generator is repeating the EP07 content even for EP09, continue in a FRESH CHAT INSIDE THE SAME PROJECT with current master context. Create two separate native-image 9:16 EP07 and EP09 files, perform QA1 >=90 and QA2 source anatomy/impact, automatically rerender failures. Never downgrade QA criteria, reset accepted EPs, or publish website/social content without owner's explicit command.
+- RLS SS1/SS2 and all prior external publication status unchanged.
+
+## SS3 MASTER STILL QA — 2026-10-21 22:47 ICT (HISTORICAL CURRENT AUTHORITY, SUPERSEDED)
 - User ordered native ChatGPT image generation (no Adobe/Runway) and subsequent **QA only**. Three latest independent PNG images were checked at original 941x1672 resolution, cropped to inspect impact and anatomy: EP02 crocodile-and-python, EP07 stag beetle and collapsed floodlight, EP09 bat vs wire.
 - **Most recent true creative QA inventory: 8/10 VISUAL PASS-TEST** (EP01, EP02, EP03, EP04, EP05, EP06, EP08, EP10); **2/10 REVISE/QA2 NOT PASSED** (EP07 and EP09). Older 7/10 and 10/10 statements are superseded. These are NOT 4K deliverables.
 - EP02 source `/mnt/data/ศ_กเด_อดง_เหล_อมปะทะจระเข.png` passes visual QA: identifiable natural python head, crocodile gripping separate python coil, clear grounded contact; QA1 94/100.

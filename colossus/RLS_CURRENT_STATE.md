@@ -1,7 +1,17 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 — SS3 new creature Master alternatives ready for selection
+Updated: 2026-10-21 — SS3 still visual QA repair and 10 English copy packs
 
 
+
+## SS3 MASTER STILL VISUAL QA + ENGLISH STILL COPY — 2026-10-21
+- Owner supplied a 10-panel REFERENCE poster on 2026-10-21 and explicitly requested **ten individually generated daily Master Stills**, 1 image = 1 file, NO collage slicing. Ten prior standalone 941x1672 imagegen PNGs were available; five visually acceptable originals retained: EP001, EP004, EP005, EP008, EP010.
+- **Repair process:** EP002 crocodile+python anatomy (discarded unrealistic vertical croc variants, selected Adobe V4 side-on standoff), EP003 aerial tower (discarded falling-person image, selected empty tower V2), EP006 burrowing underground cryptid (selected coherent one-body segmented worm V2), EP007 giant horned beetle with visibly buckled floodlight (selected Adobe V3), EP009 winged bat creature with more coherent wings (selected Adobe V2). **Only selected versions count; all failed variants/collages EXCLUDED.**
+- Editorial QA1 scored 90+ for all 10 visual concepts: EP01=96, 02=93, 03=94, 04=93, 05=94, 06=93, 07=92, 08=95, 09=94, 10=96. QA2 visual review PASS on available native/1450px previews, but the five repaired Adobe assets are **NOT yet exported into verified native standalone files**, and their source dimensions/upload integrity must still be checked. **Master Still FINAL DELIVERY QA remains PENDING**; do not mark 10/10 final Master READY merely from preview.
+- Researched Meta 2025–26 creator guidance: original content prioritized; excess/unrelated hashtags and long irrelevant captions penalized; meaningful comments preferred over coordinated engagement/engagement bait; Facebook Help says relevant hashtags aid search; no guaranteed ideal tag count. AI fictional transparency maintained.
+- **10 English STILL captions + 10 separate FIRST COMMENT / TO-PIN DRAFTS + natural SEO keywords/hashtags + follower CTAs authored and committed:** `colossus/RLS_SS3_STILL_COPY_PACK_QA_2026-10-21.md`. THESE ARE EDITORIAL COPY, NOT YET POSTED/PINNED. No SS3 Reel captions assumed approved because no actual Final Reel exists.
+- Copy/QA local supporting files available in current conversation sandbox at `RLS_SS3_Master_Still_Copy_QA_2026-10-21/` (Markdown/JSON; five native verified standalone originals and five linked Adobe output URLs). Do not assume Project attachment was replaced or Adobe URLs are permanent website CDN links.
+- **EXACT NEXT ACTION:** export 5 Adobe final replacement image originals separately and check pixel dimensions/sha/limb/physics at source, promote 10 Stills only after native QA pass, sync SS3 daily website slots without touching SS1/SS2, then prepare separate Starter Frames and real Reel prompts; repair Facebook publication connection and verify post success. Baseline 10k follow goal still unknown; planned dates are NOT publishing proof.
+- Prior research, SS1 24/24 and SS2 14/20 Final Reel inventories unchanged; no new SS3 publication.
 
 ## SS3 NEW DISTINCT MASTER CANDIDATE SELECTION B — 2026-10-21
 - New user request: prior first imagery had repeated similar beasts; generate a different 10-subject batch for owner to choose **before final captions and pinned comments**.

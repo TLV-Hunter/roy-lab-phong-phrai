@@ -1,0 +1,472 @@
+{
+  "schema_version": "1.0",
+  "project": "COLOSSUS SIGNAL",
+  "season_id": "CS-OCT",
+  "season_label": "SS3",
+  "season_title": "WHAT THE GIANTS FEARED",
+  "direction": "DARK COSMIC HORROR",
+  "updated_at": "2026-10-21",
+  "timezone": "Asia/Bangkok",
+  "audience": "USA / GLOBAL",
+  "editorial_release_window": "2026-10-21 to 2026-10-31",
+  "drive_folder": "https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4",
+  "production_truth": {
+    "masters_verified": "10/10 PASS (2160x3840 upscaled PNG; not native 4K)",
+    "starter_frames": "0/10 READY",
+    "reels": "0/10 READY",
+    "still_copy": "NOT ENTERED",
+    "reel_copy": "NOT ENTERED",
+    "facebook_publication": "NONE VERIFIED",
+    "note": "A web production desk, not proof of publication. No content copied from RLS SS3."
+  },
+  "episode_count": 10,
+  "episodes": [
+    {
+      "id": "CS-OCT-001",
+      "date": "2026-10-21",
+      "title": "THE FIRST GIANT RETREATED",
+      "subtitle": "IT WAS RETREATING.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1d1haNXJ09n5iaHW1Y4VqYOJFdgrHkFAG/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-002",
+      "date": "2026-10-22",
+      "title": "THREE STARS DIDN'T RETURN",
+      "subtitle": "SOMETHING ERASED THEM.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1cQpakH8ddePkQkcjgZnUELdvIlX_o1jC/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-003",
+      "date": "2026-10-23",
+      "title": "IT HID ITS OWN LIGHT",
+      "subtitle": "EVEN GIANTS CAN BE AFRAID.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1UMNwIHgn9zGkcg2B51N3OpWw4PBPOLoc/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-004",
+      "date": "2026-10-24",
+      "title": "THE OCEAN PULLED AWAY",
+      "subtitle": "THE SEA KNEW FIRST.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1ZN38upBkzLHI8ZMgnyyC8HHxJaW28V-3/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-005",
+      "date": "2026-10-25",
+      "title": "THE DEBRIS FELL UPWARD",
+      "subtitle": "GRAVITY NO LONGER WORKS.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1WyPLw1IBoH40gvDLp9RdkCnvMB9q7O3d/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-006",
+      "date": "2026-10-26",
+      "title": "EARTH'S LIGHTS WENT OUT",
+      "subtitle": "ONE SHADOW. A DARKER WORLD.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1wNDXKmSJ_20bjPMbR4oODGT3MKMCsYeU/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-007",
+      "date": "2026-10-27",
+      "title": "ONE GIANT NEVER RETURNED",
+      "subtitle": "IT WENT INTO THE DARKNESS.",
+      "master": {
+        "url": "https://drive.google.com/file/d/12Mg0gKV_Hh3jZWHwMPPb3ChRNeFDnJR7/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-008",
+      "date": "2026-10-28",
+      "title": "THEY STOPPED BEFORE IT",
+      "subtitle": "ALL THREE STOPPED.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1hKZr5k5gJKX9NX472PC0AnHfhdHhJjBy/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-009",
+      "date": "2026-10-29",
+      "title": "THE SHAPE BEHIND THE DARK",
+      "subtitle": "IT HAD A BODY.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1qcy5XRza8H6yup8Hkm2C5YT4Yhm1uSJF/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    },
+    {
+      "id": "CS-OCT-010",
+      "date": "2026-10-30",
+      "title": "THEY STOOD BETWEEN US",
+      "subtitle": "THREE GIANTS. ONE LAST SHIELD.",
+      "master": {
+        "url": "https://drive.google.com/file/d/1-TqyCelT1ec-p9lgye2OClw-RiX-TjFA/view?usp=drivesdk",
+        "qa": "PASS",
+        "resolution": "2160x3840",
+        "format": "PNG",
+        "source_note": "upscaled from 941x1672 original",
+        "published": false
+      },
+      "starter": {
+        "url": null,
+        "qa": "WAITING",
+        "prompt": null,
+        "prompt_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "status": "NOT CREATED",
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "keywords": [],
+      "hashtags": [],
+      "cta": null,
+      "publication": {
+        "status": "UNCONFIRMED",
+        "scheduled": false,
+        "post_url": null
+      }
+    }
+  ],
+  "halloween_special": {
+    "id": "CS-OCT-SP01",
+    "date": "2026-10-31",
+    "title": "WHAT THE GIANTS FEARED — HALLOWEEN SPECIAL",
+    "subtitle": "IT FOUND US.",
+    "master": {
+      "url": null,
+      "qa": "NOT CREATED"
+    },
+    "starter": {
+      "url": null,
+      "qa": "NOT CREATED",
+      "prompt": null,
+      "prompt_qa": "WAITING"
+    },
+    "reel": {
+      "url": null,
+      "status": "NOT CREATED",
+      "qa": "WAITING",
+      "caption": null,
+      "first_comment": null,
+      "copy_qa": "WAITING"
+    },
+    "still": {
+      "caption": null,
+      "first_comment": null,
+      "copy_qa": "WAITING"
+    },
+    "keywords": [],
+    "hashtags": [],
+    "cta": null,
+    "publication": {
+      "status": "UNCONFIRMED",
+      "scheduled": false,
+      "post_url": null
+    }
+  }
+}

@@ -20,7 +20,7 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 </style>
 </head>
 <body>
-<header><div class="top"><div class="brand"><a href="../">🏠 HOME</a><div><b>TALENTVEE CONTENT DESK</b><small>เลือกชื่อเพจเดียว • ข้อมูลเปลี่ยนตามเพจอัตโนมัติ</small></div></div><div class="controls"><select id="campaign"><option value="colossus">COLOSSUS SIGNAL — CURRENT SEASON</option><option value="colossus-august" selected>COLOSSUS SIGNAL — SS2 / AUGUST • THE GIANTS OUTSIDE</option><option value="rls">RLS — รอยลับพงไพร</option><option value="bruno">MAYOR BRUNO — WILLOW CREEK</option></select><a class="btn" href="./?campaign=colossus">DESK</a><a class="btn" href="./plan.html">PUBLISHER</a></div></div></header>
+<header><div class="top"><div class="brand"><a href="../">🏠 HOME</a><div><b>TALENTVEE CONTENT DESK</b><small>เลือกชื่อเพจเดียว • ข้อมูลเปลี่ยนตามเพจอัตโนมัติ</small></div></div><div class="controls"><select id="campaign"><option value="colossus">COLOSSUS SIGNAL — CURRENT SEASON</option><option value="colossus-august" selected>COLOSSUS SIGNAL — SS2 / AUGUST • THE GIANTS OUTSIDE</option><option value="colossus-ss3">COLOSSUS SIGNAL — SS3 / WHAT THE GIANTS FEARED</option><option value="rls">RLS — รอยลับพงไพร</option><option value="bruno">MAYOR BRUNO — WILLOW CREEK</option></select><a class="btn" href="./?campaign=colossus">DESK</a><a class="btn" href="./plan.html">PUBLISHER</a></div></div></header>
 <main class="wrap">
 <div class="hero"><h1>SS2 / AUGUST — THE GIANTS OUTSIDE</h1><div id="status" class="sub">Loading...</div><div id="snapshot" class="sub" style="margin-top:8px;line-height:1.65"></div><div class="toolbar"><select id="ep"></select><button id="all">SHOW ALL 20</button><a class="btn" id="drive" target="_blank">OPEN AUGUST DRIVE FOLDER</a></div></div>
 <div id="list"></div>
@@ -41,6 +41,7 @@ const campaign=$('campaign');
 campaign.onchange=e=>{
   const v=e.target.value;
   if(v==='colossus-august') return;
+  if(v==='colossus-ss3') location.href='./ss3-season.html';
   if(v==='colossus') location.href='./?campaign=colossus';
   if(v==='rls') location.href='./?campaign=rls';
   if(v==='bruno') location.href='./?campaign=bruno';

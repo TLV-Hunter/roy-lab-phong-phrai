@@ -18,7 +18,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - Video Prompts: **WAITING** (do not misrepresent stale drafts as approved).
 - Final Reels: **0/11 READY / WAITING**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
-- Reel Caption / First Comment: **WAITING**, no copy approved. Never substitute approved Still copy as Reel copy before video-specific QA.
+- Reel Caption / First Comment: **EP01 pre-video DRAFT now entered and copyable on SS3 site**: Reel Caption includes Hashtags within same block; Reel First/Pinned Comment separate. Copy text reviewed against planned beat map, but **Final video alignment QA PENDING**. EP02–EP10 and Halloween Reel copy still WAITING. Never substitute approved Still copy as Reel copy.
 - Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures are visible in the current Special frame; Earth and the third guardian are outside frame. Special Caption and First Comment were corrected to match actual visual while continuing the EP10 narrative. Starter, Video Prompt, Final Reel and Reel Copy still NOT CREATED.
 - Facebook publish or scheduled state: **NOT VERIFIED / DO NOT CLAIM PUBLISHED**.
 
@@ -51,3 +51,9 @@ Previous candidate generation logs and rejected batches are history only, not cu
 - Google Drive Special: https://drive.google.com/file/d/1WImQ7MHmmkU6uCYpK_B74u7MFUdbokPJ/view
 - Main editor: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html
 - All 11 still-stage content is ready for the next production stage. No Starter/Video/Reel or Facebook Publishing claim.
+
+## 2026-10-21 — EP01 Reel Copy Added to SS3 Desk
+- `CS-OCT-001` reel.caption contains natural CTA + inline `#ColossusSignal #CosmicHorror #GiantAlien`.
+- `CS-OCT-001` reel.first_comment is separate `TRANSMISSION 001` text.
+- `CS-OCT-001` reel.copy_qa = `DRAFT — TEXT REVIEWED; VERIFY AGAINST RENDERED VIDEO`, not PASS; no footage was supplied.
+- Website displays both with independent COPY buttons and explicit pending-video warning. No Final Reel, posting, scheduling or publishing claimed.

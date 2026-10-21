@@ -11,15 +11,15 @@ Updated: 2026-10-21 Asia/Bangkok
 - Original SS1 and SS2 source registries, approvals and links remain unchanged.
 
 ## Production truth (not social-publication truth)
-- MASTER STILLS: **10/10 QA PASS**, 2160x3840 vertical PNG created by **upscaling 941x1672 source images** (not native generated 4K).
-- Masters uploaded to Google Drive individually and folder listing rechecked as 10/10.
+- MASTER STILLS: **11/11 2160x3840 vertical PNG verified**: EP01–EP10 local raw files reopened and dimensions/hash checked; all 10 originate from upscaled 941x1672 art. Halloween Special 4K PNG independently re-probed at 2160x3840 (rendered output, not native AI 4K).
+- EP01–EP10 Masters uploaded to Google Drive individually; folder listing rechecked as **10/10**. Halloween Special (#11) is a valid 4K PNG on an external provider URL, **not backed up to Google Drive**. Do not misstate 11/11 Drive backup.
 - Drive 4K folder: https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4
 - Starter Frames: **0/10 READY / WAITING**.
 - Video Prompts: **WAITING** (do not misrepresent stale drafts as approved).
 - Final Reels: **0/10 READY / WAITING**.
-- Still Caption / CTA / Hashtags / Keywords / First Comment: **10/10 PASS** — EN-US copy approved and registered for SS3 Master Still posts. Unique hooks, three relevant hashtags, natural scene CTA, separate first/pinned comments.
+- Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
 - Reel Caption / First Comment: **WAITING**, no copy approved. Never substitute approved Still copy as Reel copy before video-specific QA.
-- Halloween Special Master: **CS-OCT-SP01 linked to website / 2160×3840 PNG / prior-session editorial PASS / technical dimensions reverified**; image is provider-hosted externally and needs a permanent Google Drive backup. Starter, Reel and Copy still NOT CREATED.
+- Halloween Special Master: **CS-OCT-SP01 linked to website / 2160×3840 PNG / prior-session editorial PASS / current technical dimensions reverified**; image is provider-hosted externally and needs permanent Google Drive backup. Halloween Still copy now PASS; Starter Frame, Reel, Video Prompt, Reel copy still NOT CREATED.
 - Facebook publish or scheduled state: **NOT VERIFIED / DO NOT CLAIM PUBLISHED**.
 
 ## New website and data architecture
@@ -28,7 +28,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - SS3 is now selectable from `colossus/index.html` and `colossus/august-season.html`.
 - User can choose an individual episode, show all, use PREV / NEXT and preview available Master images via Google Drive, open/download each 4K PNG.
 - Three production panels per episode: MASTER STILL, STARTER FRAME, FINAL REEL, with STILL copy and REEL copy sections.
-- Missing Starter/Reel/Special slots remain WAITING; Still copy now shows COPY buttons because it passed QA. No unverified Facebook publication claim.
+- Starter/Reel slots remain WAITING for all eleven; Still copy now shows COPY buttons for all eleven (including Halloween Special). No unverified Facebook publication claim.
 - Updating `ss3-season.json` automatically updates cards and progress counters on the static GitHub Pages site without rebuilding the page UI.
 - The 4K masters reside in Google Drive, not copied into GitHub. Google Drive embedded previews can require Google account access or sharing permissions; links still open for authorized users. No public access granted here.
 - Website is an internal production desk, not a Facebook publishing action.
@@ -37,7 +37,7 @@ Updated: 2026-10-21 Asia/Bangkok
 1. Every image/video new URL must map to the exact `CS-OCT-00N` ID, with QA evidence; do not infer ID from filenames.
 2. For Starter, update `starter.url`, `starter.qa`, `starter.prompt`, `starter.prompt_qa` only when each part passes.
 3. For Reel, update `reel.url`, `reel.qa`, `reel.caption`, `reel.first_comment`, `reel.copy_qa` individually after respective QA passes.
-4. Still copy is now QA PASS 10/10: `still.caption`, `still.first_comment`, `still.copy_qa`, `keywords`, `hashtags`, and `cta` populated. Any future revision must pass story, SEO, and engagement-bait QA. No captions invented for unpublished video.
+4. Still copy is now QA PASS 11/11: `still.caption`, `still.first_comment`, `still.copy_qa`, `keywords`, `hashtags`, and `cta` populated. Any future revision must pass story, SEO, and engagement-bait QA. No captions invented for unpublished video.
 5. `publication.status` remains UNCONFIRMED until owner/provider evidence proves scheduled/published.
 6. Do not copy or alter RLS SS3 files. Do not supersede SS1/SS2 character and video authority.
 7. Source and website updates must be verified against actual file / deployed Pages status.

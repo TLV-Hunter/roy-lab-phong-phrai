@@ -1,5 +1,14 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 — SS3 Master Still rigorous QA re-audit 6 PASS / 4 FAIL
+Updated: 2026-10-21 — SS3 Visual QA 10/10 PASS-TEST; Adobe native export pending
+
+## SS3 MASTER STILL CREATIVE QA — 2026-10-21 (CURRENT AUTHORITY)
+- **Owner authorized ONLY repair/QA of failed Master Stills. No SS3 website publishing or social posting was authorized.**
+- 10/10 independently generated SS3 Master Still episodes **PASS-TEST on visual/editorial QA1 + QA2 inspection** after targeted repairs. EP01 96, EP02 92, EP03 92, EP04 93, EP05 94, EP06 92, EP07 91, EP08 95, EP09 92, EP10 96. Older 6/10 PASS and 4/10 FAIL reports are historical and SUPERSEDED on the visual QA criterion only.
+- The four repaired final *separate* Adobe image choices: EP02 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5e8d072e-e4f6-4e9f-bfdf-e709958db545`; EP03 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5cf35933-a32a-41eb-97ed-8986e306f4a8`; EP07 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5e08f4b2-c80b-4756-a391-cc5792013afe`; EP09 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:24500e4f-3a2a-4f1d-b170-57ca07951e9d`. Each is ONE image, NOT a collage or a sliced poster.
+- Four fixes: EP02 closed natural python head distinct from crocodile and crocodile jaw on snake MIDBODY; EP03 one giant eagle, its TALON (not wingtip) splinters one upper wooden rail at contact; EP07 one giant STAG beetle with natural paired mandibles, broken rectangular floodlight and fallen support; EP09 one two-winged bat beyond pole after cable snapped, free-ended wire hangs under gravity, without an impossible wire joining wings.
+- **NATIVE FINAL DELIVERY QA NOT YET COMPLETE.** Six existing independently generated PNGs are locally byte-checked (five old approved EP01/04/05/08/10 and repaired EP06). Four new Adobe-generated source files are visual-reviewed up to 2048px via connector, but the full native PNG byte data and pixel sizes have not been exported into the local project; cannot declare native-4K, source SHA integrity PASS, or fully publication-ready 10/10. The source image previews are not substitutes for original-file QA.
+- Verified local QA report created in this conversation: `/mnt/data/RLS_SS3_MASTER_STILL_QA_PASS_TEST_2026-10-21.md` plus .json, listing SHA256/dimensions for six local PNGs, 4 exact Adobe source links, per-scene QA notes. Rejected versions and collages do not count.
+- **EXACT NEXT ACTION:** export 4 selected Adobe original PNG files individually, inspect native dimensions/metadata/full-resolution pixels and hashes; only then promote all 10 Stills from VISUAL PASS-TEST to final file-level QA PASS. Keep project and public website state unchanged until explicitly authorized; do not create or post Reels, Captions or Pinned Comments as published artifacts.
 
 ## SS3 MASTER STILL QA OVERRIDE — 2026-10-21 (LATEST)
 - Latest user-authorized work is **QA of 10 independently generated SS3 Master Stills ONLY. No SS3 website or social publication requested.** Any earlier claim that all 10 stills had final QA PASS is superseded by this visual re-audit.

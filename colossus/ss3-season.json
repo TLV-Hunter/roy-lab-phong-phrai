@@ -18,7 +18,8 @@
     "reel_copy": "WAITING • Reel copy not written; only Still copy approved",
     "facebook_publication": "NONE VERIFIED",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
-    "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails"
+    "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
+    "halloween_special_master": "1/1 MASTER STILL linked (4K PNG), provider-hosted source; Google Drive backup not yet completed"
   },
   "episode_count": 10,
   "episodes": [
@@ -649,8 +650,13 @@
     "title": "WHAT THE GIANTS FEARED — HALLOWEEN SPECIAL",
     "subtitle": "IT FOUND US.",
     "master": {
-      "url": null,
-      "qa": "NOT CREATED"
+      "url": "https://gcdn.picsart.com/media-engine/ec08727c-ed7d-4184-9730-d0db2213c388.png",
+      "qa": "PASS",
+      "resolution": "2160x3840",
+      "format": "PNG",
+      "source_note": "Picsart media-engine 4K composition from generated image; file size 7,019,916 bytes; prior-session special-image editorial QA; no native-4K claim",
+      "storage_status": "EXTERNAL_HOSTED — permanent Google Drive copy pending",
+      "published": false
     },
     "starter": {
       "url": null,

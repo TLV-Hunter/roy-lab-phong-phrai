@@ -1,7 +1,17 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 — SS3 newest native image QA 7 PASS-TEST / 3 FAIL
+Updated: 2026-10-21 22:47 Asia/Bangkok — SS3 latest QA 8 PASS-TEST / 2 REVISE
 
-## SS3 MASTER STILL QA REAUDIT — 2026-10-21 (MOST RECENT AUTHORITY)
+## SS3 MASTER STILL QA — 2026-10-21 22:47 ICT (CURRENT AUTHORITY)
+- User ordered native ChatGPT image generation (no Adobe/Runway) and subsequent **QA only**. Three latest independent PNG images were checked at original 941x1672 resolution, cropped to inspect impact and anatomy: EP02 crocodile-and-python, EP07 stag beetle and collapsed floodlight, EP09 bat vs wire.
+- **Most recent true creative QA inventory: 8/10 VISUAL PASS-TEST** (EP01, EP02, EP03, EP04, EP05, EP06, EP08, EP10); **2/10 REVISE/QA2 NOT PASSED** (EP07 and EP09). Older 7/10 and 10/10 statements are superseded. These are NOT 4K deliverables.
+- EP02 source `/mnt/data/ศ_กเด_อดง_เหล_อมปะทะจระเข.png` passes visual QA: identifiable natural python head, crocodile gripping separate python coil, clear grounded contact; QA1 94/100.
+- EP07 source `/mnt/data/ด_วงกว_างย_กษ_ถล_มค_ายกลางฝนตกหน_ก.png` REVISE: giant stag-beetle mandibles are significantly asymmetrical, and exactly six anatomically attached beetle legs cannot be established cleanly; lamp collision aftermath is legible. QA1 91/100, QA2 REVISE.
+- EP09 source `/mnt/data/ค_างคาวย_กษ_ปะทะสายไฟกลางพาย.png` REVISE: coherent two membrane wings and two small hindfeet, but the overhead cable still appears intact and lightning confounds the origin of sparks; cannot confidently attribute snapped cable to wing impact. QA1 93/100, QA2 REVISE.
+- Local actual-file SHA256/dimensions/QA report stored `/mnt/data/RLS_SS3_MASTER_STILL_QA_LATEST_2026-10-21.md` and `.json`. No discarded/failed generation counts. Native attempt to repair EP09 produced unrelated crocodile/python and was discarded, not replaced or counted.
+- **Authorization lock:** no SS3 website edits, Reels, Starter assets, Facebook posting, scheduling, pinned-comment publication. Six/previously accepted Stills not changed. Do not falsely mark EP07/EP09 as PASS or overall 10/10.
+- **EXACT NEXT ACTION:** repair and generate independent EP07 and EP09 Stills via ChatGPT-native image generation only, inspect source-file pixels, six beetle legs and natural mandibles, physical cable contact/break and bat anatomy, rerun QA1 + QA2. Promote to 10/10 only when actual QA passes.
+
+## SS3 MASTER STILL QA REAUDIT — 2026-10-21 (HISTORICAL — SUPERSEDED)
 - Owner explicitly requested **QA only** of four NEW images generated inside ChatGPT (EP02, EP03, EP07, EP09); NO new web publication, social post, Starter Frame or Reel is authorized.
 - **LATEST HONEST STATUS: 7/10 VISUAL PASS-TEST** (EP01/03/04/05/06/08/10), **3/10 VISUAL FAIL** (EP02/07/09), superseding the erroneous earlier claim of 10/10 visual QA PASS. EP01/04/05/06/08/10 are the unchanged original accepted files, EP03 newly generated image passes a grounded single-bird talon strike at tower rail.
 - EP02 FAIL: new python head has unrealistically huge predator-like fangs/jaws (though croc grips snake coil clearly). EP07 FAIL: unnatural multiple long beetle horns, leg/attachment ambiguity, while floodlight collapse is readable. EP09 FAIL: separate extra claw-like forelimbs appear in addition to membranous wings, and electrical sparks occur away from wing-to-wire contact.

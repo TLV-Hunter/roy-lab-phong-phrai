@@ -1,7 +1,16 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-21 — SS3 Visual QA 10/10 PASS-TEST; Adobe native export pending
+Updated: 2026-10-21 — SS3 newest native image QA 7 PASS-TEST / 3 FAIL
 
-## SS3 MASTER STILL CREATIVE QA — 2026-10-21 (CURRENT AUTHORITY)
+## SS3 MASTER STILL QA REAUDIT — 2026-10-21 (MOST RECENT AUTHORITY)
+- Owner explicitly requested **QA only** of four NEW images generated inside ChatGPT (EP02, EP03, EP07, EP09); NO new web publication, social post, Starter Frame or Reel is authorized.
+- **LATEST HONEST STATUS: 7/10 VISUAL PASS-TEST** (EP01/03/04/05/06/08/10), **3/10 VISUAL FAIL** (EP02/07/09), superseding the erroneous earlier claim of 10/10 visual QA PASS. EP01/04/05/06/08/10 are the unchanged original accepted files, EP03 newly generated image passes a grounded single-bird talon strike at tower rail.
+- EP02 FAIL: new python head has unrealistically huge predator-like fangs/jaws (though croc grips snake coil clearly). EP07 FAIL: unnatural multiple long beetle horns, leg/attachment ambiguity, while floodlight collapse is readable. EP09 FAIL: separate extra claw-like forelimbs appear in addition to membranous wings, and electrical sparks occur away from wing-to-wire contact.
+- All 4 newly generated standalone original PNGs are in conversation runtime **941 × 1672** (not native 4K), each independent; names, SHA-256, dimensions in `/mnt/data/RLS_SS3_MASTER_STILL_QA_REAUDIT_2026-10-21.md` and matching `.json`. Discard an additional mis-targeted snake render produced during attempted EP09 repair; it is NOT counted.
+- The previous Adobe external 4-source selection and earlier QA ratings are historical and DO NOT supersede this newest native ChatGPT image QA; do not claim older Adobe images are current final Masters. Only seven images have provisional visual approval, none are native 4K/fully release certified.
+- **EXACT NEXT ACTION:** regenerate ONLY EP02 (natural python head), EP07 (recognizable six-legged giant beetle with coherent horns), EP09 (two wings as forelimbs + two hindlegs, consistent snapped overhead cable) **as 3 separate images using ChatGPT native image generation**, then redo QA1+QA2. Don't silently pass incorrect AI anatomy or upload to website.
+- Prior RLS SS1/SS2 campaign counts, publication truth, files and website unchanged.
+
+## SS3 MASTER STILL CREATIVE QA — 2026-10-21 (HISTORICAL, SUPERSEDED)
 - **Owner authorized ONLY repair/QA of failed Master Stills. No SS3 website publishing or social posting was authorized.**
 - 10/10 independently generated SS3 Master Still episodes **PASS-TEST on visual/editorial QA1 + QA2 inspection** after targeted repairs. EP01 96, EP02 92, EP03 92, EP04 93, EP05 94, EP06 92, EP07 91, EP08 95, EP09 92, EP10 96. Older 6/10 PASS and 4/10 FAIL reports are historical and SUPERSEDED on the visual QA criterion only.
 - The four repaired final *separate* Adobe image choices: EP02 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5e8d072e-e4f6-4e9f-bfdf-e709958db545`; EP03 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5cf35933-a32a-41eb-97ed-8986e306f4a8`; EP07 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5e08f4b2-c80b-4756-a391-cc5792013afe`; EP09 `https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:24500e4f-3a2a-4f1d-b170-57ca07951e9d`. Each is ONE image, NOT a collage or a sliced poster.

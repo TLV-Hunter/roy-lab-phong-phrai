@@ -33,7 +33,7 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 .waitbox strong{display:block;color:#ffd477;letter-spacing:.04em}
 .box{min-height:75px;word-break:break-word}
 .copy{margin-left:6px}
-.box .sub{display:block;margin-top:5px}
+.box .sub{display:block;margin-top:5px;white-space:pre-wrap}
 .assetimg{display:block}
 .card .source{margin-top:5px}
 .state{display:flex;gap:9px;flex-wrap:wrap;margin-top:10px}
@@ -112,8 +112,12 @@ $('list').addEventListener('click',e=>{const btn=e.target.closest('[data-copy]')
 $('list').addEventListener('error',event=>{const img=event.target;if(!img||img.tagName!=='IMG'||!img.classList.contains('assetimg'))return;const stage=Number(img.dataset.stage||0);if(stage===0&&img.dataset.alt){img.dataset.stage='1';img.src=img.dataset.alt;return}img.style.display='none';const frame=img.nextElementSibling;if(frame&&frame.tagName==='IFRAME')frame.style.display='block'},true);
 fetch('./ss3-season.json?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('SS3 registry '+r.status);return r.json()}).then(d=>{
 D=d;items=(d.episodes||[]).slice();if(d.halloween_special)items.push(d.halloween_special);
-const masters=(d.episodes||[]).filter(e=>e.master&&e.master.url&&e.master.qa==='PASS').length;
-$('state').innerHTML='<span class="green">MASTER '+masters+'/10 PASS • 2160×3840</span><span>STARTER: WAITING</span><span>REELS: WAITING</span><span>COPY: WAITING</span><span>FB PUBLISH: NOT VERIFIED</span>';
+const eps=d.episodes||[];
+const masters=eps.filter(e=>e.master&&e.master.url&&e.master.qa==='PASS').length;
+const starters=eps.filter(e=>e.starter&&e.starter.url&&/^PASS/.test(String(e.starter.qa||''))).length;
+const reels=eps.filter(e=>e.reel&&e.reel.url&&/^PASS/.test(String(e.reel.qa||''))).length;
+const copies=eps.filter(e=>e.still&&e.still.caption&&e.still.first_comment&&/^PASS/.test(String(e.still.copy_qa||''))).length;
+$('state').innerHTML='<span class="green">MASTER '+masters+'/10 PASS • 2160×3840</span><span>STARTER: '+starters+'/10</span><span>FINAL REEL: '+reels+'/10</span><span>STILL COPY: '+copies+'/10</span><span>FB PUBLISH: NOT VERIFIED</span>';
 $('drive').href=d.drive_folder;
 items.forEach(e=>$('ep').add(new Option(e.date+' • '+e.id+' — '+e.title,e.id)));
 const fromUrl=new URLSearchParams(location.search).get('ep'),saved=localStorage.getItem('colossus_ss3_episode');

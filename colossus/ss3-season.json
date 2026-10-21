@@ -11,15 +11,15 @@
   "editorial_release_window": "2026-10-21 to 2026-10-31",
   "drive_folder": "https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4",
   "production_truth": {
-    "masters_verified": "10/10 PASS (2160x3840 upscaled PNG; not native 4K)",
+    "masters_verified": "11/11 display-ready at 2160x3840 PNG (10 main files verified locally and on Drive, 1 Special hosted externally; all derived/upscaled, not native 4K)",
     "starter_frames": "0/10 READY",
     "reels": "0/10 READY",
-    "still_copy": "10/10 PASS • EN-US Still Caption + 3 hashtags + keyword metadata + CTA + unique First Comment",
+    "still_copy": "11/11 QA PASS • 10 original Still copy packs preserved; 1 Halloween Special copy added",
     "reel_copy": "WAITING • Reel copy not written; only Still copy approved",
-    "facebook_publication": "NONE VERIFIED",
+    "facebook_publication": "NONE VERIFIED — all still/reel publishing remains unconfirmed",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
-    "halloween_special_master": "1/1 MASTER STILL linked (4K PNG), provider-hosted source; Google Drive backup not yet completed"
+    "halloween_special_master": "1/1 Master linked + technically verified 2160x3840 PNG; external-hosted, durable Google Drive backup still pending"
   },
   "episode_count": 10,
   "episodes": [
@@ -673,13 +673,34 @@
       "copy_qa": "WAITING"
     },
     "still": {
-      "caption": null,
-      "first_comment": null,
-      "copy_qa": "WAITING"
+      "caption": "At last, we know what the giants were afraid of.\n\nThree colossal guardians stood between Earth and a darkness so vast it made them look small. It wasn't a distant star. It wasn't an empty doorway. Something in that darkness turned toward our tiny blue world.\n\nThe final transmission: IT FOUND US.\n\nWould their last shield have been enough?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",
+      "first_comment": "FINAL OBSERVATION: Follow the scale from Earth to the three guardians, then to the shape beyond them. Each comparison makes the previous giant look smaller. Their bodies face away from Earth. Maybe the last defense wasn't about winning a battle. Maybe it was about keeping one blue light hidden.",
+      "copy_qa": "PASS",
+      "copy_qa_details": {
+        "visual_story": "PASS_BASIS_PREVIOUS_MASTER_QA",
+        "english_copy": "PASS",
+        "keyword_placement": "PASS",
+        "cta_relevance": "PASS",
+        "hashtag_relevance": "PASS",
+        "comment_independent": "PASS",
+        "spam_engagement_bait": "PASS",
+        "format": "FACEBOOK_STILL_EN_US",
+        "primary_keyword": "colossal guardians",
+        "cta_goal": "SEASON_FINALE_INTERPRETATION",
+        "notes": "Original fictional cosmic horror; not a real astronomical report. No claim of published Facebook post."
+      }
     },
-    "keywords": [],
-    "hashtags": [],
-    "cta": null,
+    "keywords": [
+      "colossal guardians",
+      "Halloween cosmic horror",
+      "planetary-scale alien entity"
+    ],
+    "hashtags": [
+      "#ColossusSignal",
+      "#CosmicHorror",
+      "#HalloweenHorror"
+    ],
+    "cta": "Would their last shield have been enough?",
     "publication": {
       "status": "UNCONFIRMED",
       "scheduled": false,

@@ -1,4 +1,4 @@
-# COLOSSUS SIGNAL — SS3 STILL COPY PACK | QA PASS 10/10
+# COLOSSUS SIGNAL — SS3 STILL COPY PACK | QA PASS 11/11
 **Updated:** 2026-10-21 • **USA / English** • production copy approved, NOT posted.
 
 ## Evidence and methodology
@@ -7,16 +7,16 @@
 - 3 relevant hashtags including original brand hashtag is our controlled test heuristic, NOT an official Meta numerical requirement.
 - Story QA: EP02 the red face is visible (missing stars remain narrative), EP06 some Earth lights still visible, EP09 a ring is visible but NOT a full body reveal.
 - Each caption has native primary keyword; natural CTA; separate, nonduplicate first comment. No astronomical news claims.
-- Visual masters 2160×3840 PNG are upscaled, not native generated 4K. Reel, Starter, Halloween Special remain WAITING.
+- Visual masters 2160×3840 PNG are upscaled, not native generated 4K. Reel and Starter remain WAITING; Halloween Special Still copy now approved (11/11).
 
 ## QA scorecard
-- Episode and image correspondence: 10/10 PASS
-- English fluency / US audience voice: 10/10 PASS
-- Unique hooks / captions / first comments: 10/10 PASS
-- Caption length 35–105 words: 10/10 PASS
-- Primary keyword in caption: 10/10 PASS
-- CTA and hashtag relevance: 10/10 PASS
-- No spammy engagement bait or misleading real-world science: 10/10 PASS
+- Episode and image correspondence: 11/11 PASS (EP01–EP10 local Master inspection; Halloween Special prior editorial gate + current technical probe)
+- English fluency / US audience voice: 11/11 PASS
+- Unique hooks / captions / first comments: 11/11 PASS
+- Caption length 35–105 words: 11/11 PASS
+- Primary keyword in caption: 11/11 PASS
+- CTA and hashtag relevance: 11/11 PASS
+- No spammy engagement bait or misleading real-world science: 11/11 PASS
 
 ---
 
@@ -229,3 +229,38 @@ FINAL OBSERVATION: All three giants are turned away from Earth. Their formation 
 **CTA:** Follow the signal into the Halloween finale.
 **Hashtags:** #ColossusSignal #CosmicHorror #HalloweenSciFi
 **QA:** PASS • 48 caption words • 165 first-comment characters
+
+
+---
+
+## CS-OCT-SP01 — WHAT THE GIANTS FEARED — HALLOWEEN SPECIAL
+
+**Still Caption (includes CTA and Hashtags):**
+
+At last, we know what the giants were afraid of.
+
+Three colossal guardians stood between Earth and a darkness so vast it made them look small. It wasn't a distant star. It wasn't an empty doorway. Something in that darkness turned toward our tiny blue world.
+
+The final transmission: IT FOUND US.
+
+Would their last shield have been enough?
+
+#ColossusSignal #CosmicHorror #HalloweenHorror
+
+**FIRST / PINNED COMMENT — post separately:**
+
+FINAL OBSERVATION: Follow the scale from Earth to the three guardians, then to the shape beyond them. Each comparison makes the previous giant look smaller. Their bodies face away from Earth. Maybe the last defense wasn't about winning a battle. Maybe it was about keeping one blue light hidden.
+
+**Keywords:** colossal guardians | Halloween cosmic horror | planetary-scale alien entity
+
+**CTA:** Would their last shield have been enough?
+
+**Hashtags:** #ColossusSignal #CosmicHorror #HalloweenHorror
+
+**QA:** PASS • 62 Caption words • Independent observation-based First Comment • Fictional, no misinformation claims
+
+**Master:** 2160x3840 PNG • https://gcdn.picsart.com/media-engine/ec08727c-ed7d-4184-9730-d0db2213c388.png
+
+**Storage:** Image available from provider host; dedicated permanent Google Drive backup still pending, do not claim 11/11 on Drive.
+
+**Publication:** NOT VERIFIED. This is production copy, not a posted Facebook comment.

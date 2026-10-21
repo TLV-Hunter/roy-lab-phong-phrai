@@ -1,16 +1,16 @@
 {
   "campaign": "RLS_SS3",
   "season": "THE FOREST UNLEASHED",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "audience": "USA-first / English",
   "planned_window": "2026-10-21 through 2026-10-31",
   "title": "GIANT WILDLIFE × CRYPTID ACTION",
   "source": "Still caption and QA pack on main",
-  "image_delivery": "10 individual JPEG web-display derivatives; NOT native 4K; PNG source assets retained in chat / Adobe",
-  "publication_truth": "NONE_CONFIRMED",
+  "image_delivery": "Historical JPG previews only; current approved PNGs must be mapped individually. No native 4K verification.",
+  "publication_truth": "NO CONFIRMED SOCIAL POSTS",
   "social_connection": "Facebook Metricool disconnected (historic ERROR), must reconnect and confirm",
-  "master_stills": 10,
-  "starter_frames_ready": 1,
+  "master_stills": 0,
+  "starter_frames_ready": 0,
   "final_reels_ready": 0,
   "episodes": [
     {
@@ -22,23 +22,24 @@
         "image_url": "./assets/rls-ss3/ss3-01-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 96
       },
       "starter_frame": {
-        "status": "READY",
+        "status": "OLD_STARTER_PREVIEW_NEEDS_CONTINUITY_REVIEW",
         "image_url": "./assets/rls-ss3/ss3-01-starter.jpg",
-        "qa1_score": 94,
-        "qa2_visual": "PASS",
+        "qa1_score": null,
+        "qa2_visual": "REQUIRES_REVIEW",
         "distinct_from_master": true,
         "source": "EP01 separate 940x1672 original PNG, web-display JPEG derivative",
         "generation_video_status": "NOT_RENDERED"
       },
       "final_reel": {
-        "status": "NOT_CREATED",
+        "status": "LOCAL_QA_PASS_NOT_UPLOADED",
         "video_url": null
       },
       "still_caption": "The truck was already trapped in the mud. Then the trees exploded around it. 🌿\nFile 01: A giant horned creature and one very unlucky ranger vehicle. Follow The Hidden Forest Archive for the next encounter.\n\nFictional AI-generated creature scene.\n#CreatureEncounter #ForestHorror #Cryptid #TheHiddenForestArchive",
@@ -58,7 +59,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "NOT_VERIFIED_ON_SITE",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-02",
@@ -69,14 +75,15 @@
         "image_url": "./assets/rls-ss3/ss3-02-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
@@ -100,7 +107,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-03",
@@ -111,14 +123,15 @@
         "image_url": "./assets/rls-ss3/ss3-03-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
@@ -142,7 +155,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-04",
@@ -153,14 +171,15 @@
         "image_url": "./assets/rls-ss3/ss3-04-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
@@ -184,7 +203,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-05",
@@ -195,14 +219,15 @@
         "image_url": "./assets/rls-ss3/ss3-05-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
@@ -226,7 +251,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-06",
@@ -237,14 +267,15 @@
         "image_url": "./assets/rls-ss3/ss3-06-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
@@ -268,7 +299,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-07",
@@ -279,14 +315,15 @@
         "image_url": "./assets/rls-ss3/ss3-07-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 92,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 92
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "SITE_PENDING",
         "image_url": null
       },
       "final_reel": {
@@ -310,7 +347,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "REVISE",
+      "storyboard": {
+        "status": "NOT_VERIFIED_ON_SITE",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-08",
@@ -321,14 +363,15 @@
         "image_url": "./assets/rls-ss3/ss3-08-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 95,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 95
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "SITE_PENDING",
         "image_url": null
       },
       "final_reel": {
@@ -352,7 +395,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "NOT_VERIFIED_ON_SITE",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-09",
@@ -363,14 +411,15 @@
         "image_url": "./assets/rls-ss3/ss3-09-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "SITE_PENDING",
         "image_url": null
       },
       "final_reel": {
@@ -394,7 +443,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "REVISE",
+      "storyboard": {
+        "status": "NOT_VERIFIED_ON_SITE",
+        "image_url": null
+      }
     },
     {
       "id": "SS3-10",
@@ -405,14 +459,15 @@
         "image_url": "./assets/rls-ss3/ss3-10-master.jpg",
         "format": "JPEG",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "WEB_IMAGE_READY",
+        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PASS",
-        "published": false
+        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "published": false,
+        "qa1_score_legacy": 96
       },
       "starter_frame": {
-        "status": "NOT_CREATED",
+        "status": "SITE_PENDING",
         "image_url": null
       },
       "final_reel": {
@@ -436,7 +491,12 @@
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
-      "actual_post_url": null
+      "actual_post_url": null,
+      "creative_qa_status": "PASS-TEST",
+      "storyboard": {
+        "status": "NOT_VERIFIED_ON_SITE",
+        "image_url": null
+      }
     }
   ],
   "halloween_special": {
@@ -447,5 +507,10 @@
     "master_still_url": null,
     "video_url": null,
     "publication_status": "NOT_CONFIRMED"
-  }
+  },
+  "archived_master_previews": 10,
+  "creative_qa_pass_test": 8,
+  "creative_qa_revise": 2,
+  "final_reels_local_qa_pass": 1,
+  "website_note": "Review desk only; does NOT assert Facebook publication or native-source Master approval."
 }

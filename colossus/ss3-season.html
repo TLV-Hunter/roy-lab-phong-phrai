@@ -90,7 +90,7 @@ const dl=u=>{const id=did(u);return id?'https://drive.google.com/uc?export=downl
 let D={episodes:[]},all=false,items=[],selected='';
 const switchTo={ss1:'./?campaign=colossus',ss2:'./august-season.html',ss3:'./ss3-season.html',special:'./special-episodes.html',rls:'./?campaign=rls'};
 $('campaign').addEventListener('change',e=>{location.href=switchTo[e.target.value]||'./'});
-function pill(q){const s=String(q||'WAITING');const cl=/^PASS/.test(s)?'ready':/REJECT|FAIL/.test(s)?'missing':'wait';return '<span class="pill '+cl+'">'+esc(s)+'</span>'}
+function pill(q){const s=String(q||'WAITING');const cl=/\bPASS\b/.test(s)?'ready':/REJECT|FAIL/.test(s)?'missing':'wait';return '<span class="pill '+cl+'">'+esc(s)+'</span>'}
 function emptyText(message){return '<div class="waitbox"><strong>'+esc(message)+'</strong>รอเติมข้อมูลใน SS3 Registry หลังผลิตและ QA ผ่าน</div>'}
 function copySlot(name,value,qa,key){if(!value||!/^PASS/.test(String(qa||'')))return '<div class="box"><b>'+esc(name)+'</b><div class="sub">WAITING • ยังไม่มีข้อความที่ผ่าน Copy QA</div></div>';return '<div class="box"><b>'+esc(name)+'</b><button type="button" class="copy" data-copy="'+esc(key)+'">COPY</button><div id="'+esc(key)+'">'+esc(value)+'</div></div>'}
 function masterSlot(e){const m=e.master||{},url=m.url||'',has=!!url;const media=has?'<img class="assetimg" src="'+esc(img1(url))+'" data-alt="'+esc(img2(url))+'" data-stage="0" alt="'+esc(e.title)+' Master Still" loading="lazy" referrerpolicy="no-referrer"><iframe src="'+esc(view(url))+'" title="'+esc(e.title)+' Google Drive preview" loading="lazy" style="display:none"></iframe>':emptyText('MASTER STILL • NOT READY');

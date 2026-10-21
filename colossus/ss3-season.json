@@ -15,7 +15,7 @@
     "starter_frames": "0/10 READY",
     "reels": "0/10 READY",
     "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
-    "reel_copy": "WAITING • Reel copy not written; only Still copy approved",
+    "reel_copy": "EP01 Reel Caption + Hashtags / First-Pinned Comment text entered as DRAFT; scene alignment awaits generated source video. EP02–EP10 and Special Reel copy WAITING.",
     "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
@@ -46,9 +46,20 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The giant wasn't attacking Earth. It was trying to escape.\n\nA colossal titan froze above our planet as stars began disappearing beyond a dark ring.\n\nThen its massive hand pulled away.\n\nFor the first time, something larger than Earth was afraid.\n\nWhatever it saw... we haven't seen it yet.\n\nFollow Colossus Signal. The next transmission gets darker.\n\n#ColossusSignal #CosmicHorror #GiantAlien",
+        "first_comment": "📡 TRANSMISSION 001\n\nLook at the giant's hand.\n\nIt begins pulling away as the stars disappear near the ring.\n\nEarth was never the real threat.\n\nSomething out there terrified a creature bigger than our world.\n\nWhat could make something that enormous retreat?",
+        "copy_qa": "DRAFT — TEXT REVIEWED; VERIFY AGAINST RENDERED VIDEO",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_contains_hashtags": true,
+          "hashtag_count": 3,
+          "first_comment_separate": true,
+          "english_tone": "REVIEWED",
+          "script_alignment": "REVIEWED_AGAINST_PLANNED_EP01_BEATS",
+          "source_video_alignment": "PENDING_VIDEO",
+          "final_publication_copy_qa": "PENDING_VIDEO",
+          "notes": "Owner-requested draft for one-click copy on website. Do not mark Final QA PASS or Published before actual Dola 10-second source is reviewed."
+        }
       },
       "still": {
         "caption": "The first giant wasn't reaching for Earth. It was pulling away.\n\nIts enormous hand hovered over the planet, but its attention was fixed on the dark ring behind it. For the first time, something larger than our world looked afraid.\n\nFollow Colossus Signal for the next sign of what it saw.\n\n#ColossusSignal #CosmicHorror #GiantAlien",

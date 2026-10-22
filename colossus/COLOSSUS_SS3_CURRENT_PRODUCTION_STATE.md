@@ -14,8 +14,8 @@ Updated: 2026-10-21 Asia/Bangkok
 - MASTER STILLS: **11/11 2160x3840 vertical PNG verified**: EP01–EP10 local raw files reopened and dimensions/hash checked; all 10 originate from upscaled 941x1672 art. Halloween Special 4K PNG independently re-probed at 2160x3840 (rendered output, not native AI 4K).
 - **11/11 MASTER STILL PNGs are now backed up on Google Drive**, confirmed by a fresh listing of 11 unique episode IDs. Halloween Special backup file ID: `1WImQ7MHmmkU6uCYpK_B74u7MFUdbokPJ`. It preserves the artwork but was transferred via a Google intermediate that reduced it to 1152x2048, then Lanczos-upscaled to 2160x3840. Not a byte-for-byte copy of the original 4K render.
 - Drive 4K folder: https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4
-- Starter Frames: **0/11 READY / WAITING**.
-- Video Prompts: **WAITING** (do not misrepresent stale drafts as approved).
+- Starter Frames: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**; each PNG stored in Google Drive, the five other episodes remain WAITING. EP01 approved Starter exists in conversation but not yet registered as a durable Drive reference here.
+- Video Prompts: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**, Dola / Seedance 2.0, 10/10/15/10/10 seconds. Generated source videos remain NOT CREATED; prompts require video QA after use.
 - Final Reels: **0/11 READY / WAITING**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
 - Reel Caption / First Comment: **EP01 pre-video DRAFT now entered and copyable on SS3 site**: Reel Caption includes Hashtags within same block; Reel First/Pinned Comment separate. Copy text reviewed against planned beat map, but **Final video alignment QA PENDING**. EP02–EP10 and Halloween Reel copy still WAITING. Never substitute approved Still copy as Reel copy.
@@ -28,7 +28,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - SS3 is now selectable from `colossus/index.html` and `colossus/august-season.html`.
 - User can choose an individual episode, show all, use PREV / NEXT and preview available Master images via Google Drive, open/download each 4K PNG.
 - Three production panels per episode: MASTER STILL, STARTER FRAME, FINAL REEL, with STILL copy and REEL copy sections.
-- Starter/Reel slots remain WAITING for all eleven; Still copy now shows COPY buttons for all eleven (including Halloween Special). No unverified Facebook publication claim.
+- SS3 webpage now shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated and QA passed at pre-production level. Final Reel remains WAITING for all eleven. Still copy is 11/11 PASS; EP01 Reel copy is a DRAFT pending source video. No publishing claim.
 - Updating `ss3-season.json` automatically updates cards and progress counters on the static GitHub Pages site without rebuilding the page UI.
 - The 4K masters reside in Google Drive, not copied into GitHub. Google Drive embedded previews can require Google account access or sharing permissions; links still open for authorized users. No public access granted here.
 - Website is an internal production desk, not a Facebook publishing action.
@@ -57,3 +57,13 @@ Previous candidate generation logs and rejected batches are history only, not cu
 - `CS-OCT-001` reel.first_comment is separate `TRANSMISSION 001` text.
 - `CS-OCT-001` reel.copy_qa = `DRAFT — TEXT REVIEWED; VERIFY AGAINST RENDERED VIDEO`, not PASS; no footage was supplied.
 - Website displays both with independent COPY buttons and explicit pending-video warning. No Final Reel, posting, scheduling or publishing claimed.
+
+
+## 2026-10-22 — EP02–EP06 Reference and Dola Prompt Desk
+- EP02/03/04/05/06 Starter Frames: 5 independent PNGs (941x1672), and corresponding Storyboards: 5 independent PNGs (EP03 1024x1536; others 941x1672); **PREPRODUCTION QA PASS**, not source videos.
+- EP03 Storyboard corrected V2 is the only published board: cyan fissure slowly closes and dims. Do not use rejected earlier version.
+- Input reference order: Image 1 Master Still, Image 2 Starter Frame 0:00, Image 3 Beat Storyboard. Each episode has its own timeline and negative constraints.
+- Timing: EP02 10s (4 beats), EP03 10s (4 beats), EP04 15s (5 beats), EP05 10s (4 beats), EP06 10s (4 beats).
+- Drive folder: https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe — verified file listing 10 distinct PNG files.
+- Website: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html — same SS1/SS2 season selector, separate storyboard panel, beat timeline and prompt COPY buttons in each EP02–EP06.
+- Existing SS1, SS2, Master Stills, approved Still Copy, EP01 Reel copy and Halloween Special preserved; no video generation or Facebook publishing has occurred.

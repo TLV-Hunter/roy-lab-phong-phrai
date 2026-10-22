@@ -1,6 +1,6 @@
 # COLOSSUS SIGNAL — CURRENT VIDEO PRODUCTION STATE
 
-Updated: 2026-10-21
+Updated: 2026-10-22
 
 ## OCTOBER 17, 2026 — CURRENT VERIFIED SNAPSHOT
 
@@ -630,6 +630,60 @@ This is a latest-user-instruction override and therefore outranks conflicting ol
 - Black/freeze detector: PASS.
 - SHA-256: `c6db1963847289fe8027edbbb4f93452aa0ce005628746881e32b4326805e23e`.
 - No CS / CS-AUG episode identity assigned from filename alone.
+
+
+## 2026-10-22 — QA-GATED BATCH FINALS — SOURCES 2–6
+
+User instruction:
+- QA source first.
+- Only PASS / PASS WITH REPAIR may proceed.
+- Every edited Final must include upscale, watermark removal, embedded keyword, and closing CTA.
+
+Source QA:
+- `2.mp4` — PASS WITH REPAIR.
+- `3.mp4` — PASS WITH REPAIR.
+- `4.mp4` — PASS WITH REPAIR.
+- `5.mp4` — PASS WITH REPAIR.
+- `6.mp4` — PASS WITH REPAIR.
+- Common technical source profile: 720x1280, HEVC, 24fps, AAC 44.1kHz, ~10.08s.
+- No black/freeze/silence failure detected.
+- Dola AI contamination present in all sources.
+- 2–4: watermark fixed lower-right.
+- 5–6: watermark relocates lower-right -> middle-left -> upper-right; required localized middle-segment repair plus dynamic reframe.
+- No episode identity assigned from filenames alone.
+
+Finals:
+- `2_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`
+  - Keyword: `IT OPENED ITS EYES`
+  - SHA-256: `4945f9e7d338098af6596fed5cdbc3061680310cb573d5a2241f0794ba9795ad`
+- `3_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`
+  - Keyword: `SOMETHING LIT UP INSIDE`
+  - SHA-256: `39cade94777a0d4cc59d756ac5d65266292f54c5d7a7ddb85ab6286de9d613b1`
+- `4_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`
+  - Keyword: `THE OCEAN STARTED FALLING`
+  - SHA-256: `79e3969bc3a04a9b3a12550645e7186167fe9432d98f4b4d7de2b5374df4f3ae`
+- `5_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`
+  - Keyword: `THE VOID STARTED PULLING`
+  - SHA-256: `3e1d99511d37a907dfa3e8c0007f596d413652f43b11aef3b47b308cefc1a85c`
+- `6_FINAL_UPSCALED_NOWM_KEYWORD_CTA.mp4`
+  - Keyword: `THE DARKNESS WAS MOVING`
+  - SHA-256: `a5ce31da912619e83163968bcd11f4efdf2dcdbd972080bcf8b8b6830ce41d80`
+
+Common Final delivery:
+- 11.00s.
+- 1080x1920.
+- 24fps CFR.
+- H.264 video.
+- AAC stereo 48kHz.
+- Closing CTA: `FOLLOW THE SIGNAL`.
+- Source motion slowed slightly to meet the current >=11s Colossus minimum while preserving heavy motion.
+- Loudness approximately -15.9 to -14.6 LUFS; peak remains below 0 dBFS.
+- QA-A Technical: PASS.
+- QA-B Story / continuity: PASS.
+- QA-C Delivery: PASS.
+- Watermark QA: PASS after repair.
+- Keyword QA: PASS.
+- CTA QA: PASS.
 
 ## Active editing standard
 `COLOSSUS_VIDEO_EDITING_ROOM_ALL_IN_ONE_V3.0.md` is the ACTIVE GOVERNING EDITING MASTER for all new Colossus edits from this checkpoint forward.

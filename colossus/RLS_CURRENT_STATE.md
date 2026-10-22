@@ -1,4 +1,19 @@
 # RLS AI STUDIO — CURRENT STATE
+Updated: 2026-10-23 — SS3 mandatory >=10-sec final delivery, repaired EP02–04 (historical entries retained)
+
+## SS3 VIDEO DURATION HARD GATE — 2026-10-23
+- OWNER NEW NON-NEGOTIABLE RULE: **Every RLS SS3 Final video must be at least 10.00 seconds on a real ffprobe read of the exported file.** A shorter Final automatically FAILS regardless of other QA. This overrides any earlier trimming/retention practice that would make a Final shorter than 10 seconds.
+- SS3 EP02 previous 6.33 sec, SS3 EP03 previous 9.88 sec, and SS3 EP04 previous 6.67 sec finals are SUPERSEDED as underlength; do NOT circulate them as current approved Finals.
+- REPAIRED LOCAL MIN10 FINALs on 2026-10-23, all output 1080x1920, 24fps, H.264/AAC, 241 video frames, 10.08 seconds verified by ffprobe/full-decode:
+  - EP02 `RLS_SS3_EP02_FINAL_MIN10_1080x1920.mp4`; SHA256 `c2558f4587c16bc93933ee4bcf2f3762ac7b78750691c02606ba84b2b5fdd732`.
+  - EP03 `RLS_SS3_EP03_FINAL_MIN10_1080x1920.mp4`; SHA256 `7558bd1f24ed33d9a2d7083faad69dde25e6efb985a67961ab9e2466d67d26da`.
+  - EP04 `RLS_SS3_EP04_FINAL_MIN10_1080x1920.mp4`; SHA256 `33c12d4c1fc207c945dcac3841bad717a14584f84ddc62417524e881034429`.
+- All three retain genuine original 10.08-sec moving picture (no inserted frozen frames or replayed loops), remove bottom watermark by reframing, apply truthful Lanczos upscale, embed English opening keywords and video-end CTA, and pass local automated final QA (zero black frames, zero frozen adjacent frame pairs, 1 audio stream, audio unclipped) plus representative visual frame review.
+- NOTE: Original EP02/EP04 footage returns to a similar initial standoff composition near its end. It is not an inserted edit loop; future extra unique footage is preferable if provided.
+- FINAL local files are only in this conversation runtime; not assumed uploaded to Drive, GitHub website, or any social media. Nothing was published or scheduled.
+- All future videos: source QA -> edit if acceptable -> watermark removal / upscale / embedded keywords / end CTA -> verify REAL final duration >=10.00 sec -> post-render QA1 + QA2 -> deliver only PASS.
+- SS2 remains closed to new editing unless new explicit instruction.
+
 Updated: 2026-10-22 — SS3 EP02–EP06 ten separate reference files, 4 of 5 pairs QA-ready
 
 ## SS3 EP02–EP06 TEN SEPARATE REF FILES — 2026-10-22 (CURRENT)

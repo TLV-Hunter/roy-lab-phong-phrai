@@ -5,21 +5,24 @@
   "season_label": "SS3",
   "season_title": "WHAT THE GIANTS FEARED",
   "direction": "DARK COSMIC HORROR",
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "timezone": "Asia/Bangkok",
   "audience": "USA / GLOBAL",
   "editorial_release_window": "2026-10-21 to 2026-10-31",
   "drive_folder": "https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4",
   "production_truth": {
     "masters_verified": "11/11 archived as 2160×3840 PNG on Google Drive; images are upscaled, not native AI 4K; Special file recovered via 1152×2048 intermediate then upscaled",
-    "starter_frames": "0/10 READY",
+    "starter_frames": "5/11 PREPRODUCTION QA PASS — EP02–EP06; others WAITING",
     "reels": "0/10 READY",
     "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
     "reel_copy": "EP01 Reel Caption + Hashtags / First-Pinned Comment text entered as DRAFT; scene alignment awaits generated source video. EP02–EP10 and Special Reel copy WAITING.",
     "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
-    "halloween_special_master": "1/1 Master backed up in Google Drive; 2160×3840 PNG verified; visual story QA aligned to two on-frame guardians"
+    "halloween_special_master": "1/1 Master backed up in Google Drive; 2160×3840 PNG verified; visual story QA aligned to two on-frame guardians",
+    "video_prompts": "5/11 Dola / Seedance 2.0 prompts recorded (EP02–EP06; 10/10/15/10/10 seconds); no source videos made",
+    "storyboards": "5/11 PREPRODUCTION QA PASS — EP02–EP06, uploaded to Drive, distinct beat sheets",
+    "starter_storyboard_folder": "https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe"
   },
   "episode_count": 10,
   "episodes": [
@@ -110,10 +113,14 @@
         "published": false
       },
       "starter": {
-        "url": null,
-        "qa": "WAITING",
-        "prompt": null,
-        "prompt_qa": "WAITING"
+        "url": "https://drive.google.com/file/d/1Ca9w-v4Pwup8Z45rEvpIk98dVoh0nbKV/view?usp=drivesdk",
+        "qa": "PASS",
+        "prompt": "COLOSSUS SIGNAL — SEASON 3 — EP02\nTITLE: THREE STARS DIDN'T RETURN\nMODEL: DOLA / SEEDANCE 2.0\nTARGET LENGTH: 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: PHOTOREALISTIC DARK COSMIC HORROR\n\nREFERENCE ORDER AND PRIORITY:\nIMAGE 1 / MASTER STILL — immutable character, object and environmental identity: the colossal red-lit living entity in the same original black biological armor; Earth remains lower left, the Moon lower right, drifting asteroids in exactly the established environment. Ignore Master Still title text.\nIMAGE 2 / STARTER FRAME — exact first frame at 0:00, match camera and physical composition.\nIMAGE 3 / STORYBOARD — follow only its sequential beat positions and timings, never reproduce its visible labels or panels.\nWhen references disagree, Image 1 controls identity, Image 2 controls the opening geometry, Image 3 controls movement progression. Do not morph between different creature identities.\n\nSTORY:\nExactly three stars vanish, followed by subtle brightening of the existing red facial structures and the slight inclination of the ancient cosmic face toward Earth.\n\nBEAT 1 [0.0–2.0s] — THE SILENT SKY\nMatch Starter Frame 0:00. Earth lower left and Moon lower right. The huge armored face remains partially obscured; red facial features are faint. Asteroids drift slowly and three separated background stars remain visible.\n\nBEAT 2 [2.0–4.5s] — THREE LIGHTS DISAPPEAR\nThree distinct stars vanish ONE AT A TIME with tiny delays, leaving separate starless voids. Other stars remain unchanged; the entity remains unnervingly still.\n\nBEAT 3 [4.5–7.5s] — THE FACE EMERGES\nExisting red facial features glow more strongly without creating extra eyes. Tiny natural head movement and subtle armor movement reveal the gigantic face; parallax shows astronomical scale.\n\nBEAT 4 [7.5–10.0s] — SOMETHING WATCHED\nThe same head tilts faintly toward Earth. Keep three missing-star gaps black; finish on a patient terrifying composition, not an explosion. Sound falls to near-silence.\n\nCAMERA AND CONTINUITY:\nOne continuous coherent cinematic shot; controlled slow drift / pullback for immense planetary scale; physically plausible parallax and heavy living geometry; no jump cuts, teleporting features or sudden zoom. Original environment remains consistent. Keep the underlying Earth intact.\n\nAUDIO:\nLow non-diegetic cosmic drone, three faint subdued pulses for the three extinguishing stars, deep organic armor creak, short low-frequency pressure swell, then near-silence.\nNo dialogue, no voiceover, no vocals, no singing, no melodic background music. Space sound is cinematic non-diegetic design, not literal vacuum sound.\n\nSTRICT NEGATIVE:\nNo new red eyes, no laser beams, no fiery attacks, no duplicate Moon or Earth, no new creature and no change to face identity.\nNo poster montage, no storyboard grids, no subtitles, captions, title text, labels, logos or watermarks. No duplication, object teleportation, random flashes, morphing or slideshow.\n\nEND CONDITION:\nComplete all 4 beats within 10 seconds; finish on the specified visual payoff with continuity intact.",
+        "prompt_qa": "PASS — PREPRODUCTION ONLY / VERIFY GENERATED VIDEO",
+        "format": "PNG",
+        "resolution": "941x1672",
+        "reference_index": 2,
+        "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
         "url": null,
@@ -156,6 +163,54 @@
         "status": "UNCONFIRMED",
         "scheduled": false,
         "post_url": null
+      },
+      "storyboard": {
+        "url": "https://drive.google.com/file/d/1GIVlzh0RqPa5OeraIuk9h29ktKL6NRyJ/view?usp=drivesdk",
+        "qa": "PASS",
+        "reference_index": 3,
+        "format": "PNG",
+        "resolution": "941x1672",
+        "duration_sec": 10,
+        "beat_count": 4,
+        "beats": [
+          {
+            "beat": 1,
+            "time": "0.0–2.0",
+            "label": "THE SILENT SKY",
+            "action": "Match Starter Frame 0:00. Earth lower left and Moon lower right. The huge armored face remains partially obscured; red facial features are faint. Asteroids drift slowly and three separated background stars remain visible."
+          },
+          {
+            "beat": 2,
+            "time": "2.0–4.5",
+            "label": "THREE LIGHTS DISAPPEAR",
+            "action": "Three distinct stars vanish ONE AT A TIME with tiny delays, leaving separate starless voids. Other stars remain unchanged; the entity remains unnervingly still."
+          },
+          {
+            "beat": 3,
+            "time": "4.5–7.5",
+            "label": "THE FACE EMERGES",
+            "action": "Existing red facial features glow more strongly without creating extra eyes. Tiny natural head movement and subtle armor movement reveal the gigantic face; parallax shows astronomical scale."
+          },
+          {
+            "beat": 4,
+            "time": "7.5–10.0",
+            "label": "SOMETHING WATCHED",
+            "action": "The same head tilts faintly toward Earth. Keep three missing-star gaps black; finish on a patient terrifying composition, not an explosion. Sound falls to near-silence."
+          }
+        ],
+        "source_note": "Pre-production storyboard image with beat labels; only timings and visual progression are video reference."
+      },
+      "video_plan": {
+        "model": "Dola / Seedance 2.0",
+        "target_duration_sec": 10,
+        "format": "9:16",
+        "input_refs": [
+          "Master Still",
+          "Starter Frame",
+          "Storyboard"
+        ],
+        "source_render_status": "NOT CREATED",
+        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
       }
     },
     {
@@ -172,10 +227,14 @@
         "published": false
       },
       "starter": {
-        "url": null,
-        "qa": "WAITING",
-        "prompt": null,
-        "prompt_qa": "WAITING"
+        "url": "https://drive.google.com/file/d/1AjXT-LGxoAm4j7wpgYx8yBnE9EckjytE/view?usp=drivesdk",
+        "qa": "PASS",
+        "prompt": "COLOSSUS SIGNAL — SEASON 3 — EP03\nTITLE: IT HID ITS OWN LIGHT\nMODEL: DOLA / SEEDANCE 2.0\nTARGET LENGTH: 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: PHOTOREALISTIC DARK COSMIC HORROR\n\nREFERENCE ORDER AND PRIORITY:\nIMAGE 1 / MASTER STILL — immutable character, object and environmental identity: the gigantic dark split shell with the same overlapping obsidian armor plates, the same narrow original cyan fissure, the tiny blue Earth, curved outer ring and debris arrangement. Ignore Master Still title text.\nIMAGE 2 / STARTER FRAME — exact first frame at 0:00, match camera and physical composition.\nIMAGE 3 / STORYBOARD — follow only its sequential beat positions and timings, never reproduce its visible labels or panels.\nWhen references disagree, Image 1 controls identity, Image 2 controls the opening geometry, Image 3 controls movement progression. Do not morph between different creature identities.\n\nSTORY:\nThe colossal shell senses an unseen watcher and deliberately seals its own cyan light. The opening must NARROW throughout, never widen.\n\nBEAT 1 [0.0–2.0s] — THE EXPOSED SIGNAL\nMatch the uploaded Starter Frame. A narrow cyan fissure glows between existing overlapping shell plates over Earth. Only minimal stable blue cracks are visible.\n\nBEAT 2 [2.0–4.5s] — THE REACTION\nShell detects danger. Original armor segments begin sliding inward slowly around the bright gap. No new plates materialize. The visible cyan crack already begins NARROWING.\n\nBEAT 3 [4.5–7.5s] — SEAL THE LIGHT\nArmor edges approach and eclipse the glow. Brightness fades along the original fissure until only a very thin blue seam remains. Massive realistic friction and inertia.\n\nBEAT 4 [7.5–10.0s] — TOTAL CONCEALMENT\nFinish closing the shell. The cyan light nearly vanishes; the final frame is distinctly darker than the first. Hold a short oppressive silence.\n\nCAMERA AND CONTINUITY:\nOne continuous coherent cinematic shot; controlled slow drift / pullback for immense planetary scale; physically plausible parallax and heavy living geometry; no jump cuts, teleporting features or sudden zoom. Original environment remains consistent. Keep the underlying Earth intact.\n\nAUDIO:\nSoft cyan electrical hum fading lower, physically heavy shifting-armor creaks, ancient geological rumble, descending sub-bass followed by near silence.\nNo dialogue, no voiceover, no vocals, no singing, no melodic background music. Space sound is cinematic non-diegetic design, not literal vacuum sound.\n\nSTRICT NEGATIVE:\nNEVER widen or brighten the fissure during Beats 3–4. No beams striking Earth, no extra wings, no new creature, no shells transforming into a different shape.\nNo poster montage, no storyboard grids, no subtitles, captions, title text, labels, logos or watermarks. No duplication, object teleportation, random flashes, morphing or slideshow.\n\nEND CONDITION:\nComplete all 4 beats within 10 seconds; finish on the specified visual payoff with continuity intact.",
+        "prompt_qa": "PASS — PREPRODUCTION ONLY / VERIFY GENERATED VIDEO",
+        "format": "PNG",
+        "resolution": "941x1672",
+        "reference_index": 2,
+        "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
         "url": null,
@@ -218,6 +277,54 @@
         "status": "UNCONFIRMED",
         "scheduled": false,
         "post_url": null
+      },
+      "storyboard": {
+        "url": "https://drive.google.com/file/d/1gAx20KFqShIgq8cCEovvz_RGpcLhXtGH/view?usp=drivesdk",
+        "qa": "PASS",
+        "reference_index": 3,
+        "format": "PNG",
+        "resolution": "1024x1536",
+        "duration_sec": 10,
+        "beat_count": 4,
+        "beats": [
+          {
+            "beat": 1,
+            "time": "0.0–2.0",
+            "label": "THE EXPOSED SIGNAL",
+            "action": "Match the uploaded Starter Frame. A narrow cyan fissure glows between existing overlapping shell plates over Earth. Only minimal stable blue cracks are visible."
+          },
+          {
+            "beat": 2,
+            "time": "2.0–4.5",
+            "label": "THE REACTION",
+            "action": "Shell detects danger. Original armor segments begin sliding inward slowly around the bright gap. No new plates materialize. The visible cyan crack already begins NARROWING."
+          },
+          {
+            "beat": 3,
+            "time": "4.5–7.5",
+            "label": "SEAL THE LIGHT",
+            "action": "Armor edges approach and eclipse the glow. Brightness fades along the original fissure until only a very thin blue seam remains. Massive realistic friction and inertia."
+          },
+          {
+            "beat": 4,
+            "time": "7.5–10.0",
+            "label": "TOTAL CONCEALMENT",
+            "action": "Finish closing the shell. The cyan light nearly vanishes; the final frame is distinctly darker than the first. Hold a short oppressive silence."
+          }
+        ],
+        "source_note": "V2 corrected: cyan fissure CLOSES toward darkness; rejected previous widening version never used."
+      },
+      "video_plan": {
+        "model": "Dola / Seedance 2.0",
+        "target_duration_sec": 10,
+        "format": "9:16",
+        "input_refs": [
+          "Master Still",
+          "Starter Frame",
+          "Storyboard"
+        ],
+        "source_render_status": "NOT CREATED",
+        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
       }
     },
     {
@@ -234,10 +341,14 @@
         "published": false
       },
       "starter": {
-        "url": null,
-        "qa": "WAITING",
-        "prompt": null,
-        "prompt_qa": "WAITING"
+        "url": "https://drive.google.com/file/d/1mFzgFOWv6Ydzvjz6JJMWl0re1aOqp7rV/view?usp=drivesdk",
+        "qa": "PASS",
+        "prompt": "COLOSSUS SIGNAL — SEASON 3 — EP04\nTITLE: THE OCEAN PULLED AWAY\nMODEL: DOLA / SEEDANCE 2.0\nTARGET LENGTH: 15 SECONDS\nASPECT RATIO: 9:16\nSTYLE: PHOTOREALISTIC DARK COSMIC HORROR\n\nREFERENCE ORDER AND PRIORITY:\nIMAGE 1 / MASTER STILL — immutable character, object and environmental identity: one immense living articulated stone-black alien hand above a curving ocean horizon and towering clouds, same finger count, positioning, shadow, atmosphere and a shallow starter-frame swirl already visible. Ignore Master Still title text.\nIMAGE 2 / STARTER FRAME — exact first frame at 0:00, match camera and physical composition.\nIMAGE 3 / STORYBOARD — follow only its sequential beat positions and timings, never reproduce its visible labels or panels.\nWhen references disagree, Image 1 controls identity, Image 2 controls the opening geometry, Image 3 controls movement progression. Do not morph between different creature identities.\n\nSTORY:\nWithout touching the sea, the hovering giant hand triggers a growing circular downward ocean depression that deepens into an impossible abyss.\n\nBEAT 1 [0.0–3.0s] — THE FIRST DISTURBANCE\nStart with the same suspended hand and ALREADY VISIBLE shallow ocean swirl from Starter. Waves slowly circulate toward the center.\n\nBEAT 2 [3.0–6.0s] — THE PULL\nCircular flow tightens. Water sinks deeper, ring waves concentrate inward. Only a slight deliberate flex of the unchanged colossal fingers; no water contact.\n\nBEAT 3 [6.0–9.0s] — THE SEA COLLAPSES\nThe center becomes a deep funnel. Ocean walls curve downward naturally, strong scale, foam and spray follow gravity toward the void.\n\nBEAT 4 [9.0–12.0s] — THE IMPOSSIBLE ABYSS\nA near-vertical deep circular abyss appears with gigantic water walls descending continuously. Ocean horizon and hand geometry remain steady.\n\nBEAT 5 [12.0–15.0s] — THE SEA KNEW FIRST\nEnd on the deep stable chasm with rushing water cascading into darkness, the hand still impossibly far above, one finger curls subtly. No bottom revealed.\n\nCAMERA AND CONTINUITY:\nOne continuous coherent cinematic shot; controlled slow drift / pullback for immense planetary scale; physically plausible parallax and heavy living geometry; no jump cuts, teleporting features or sudden zoom. Original environment remains consistent. Keep the underlying Earth intact.\n\nAUDIO:\nRealistic ocean wave ASMR, wind, water spray and mounting ocean roar, with restrained non-diegetic sub-bass pressure; cut toward hush at final frame.\nNo dialogue, no voiceover, no vocals, no singing, no melodic background music. Space sound is cinematic non-diegetic design, not literal vacuum sound.\n\nSTRICT NEGATIVE:\nNo hand touching the surface, no extra fingers, no city tsunami, no exploding planet, no second vortex, no random teleporting perspective.\nNo poster montage, no storyboard grids, no subtitles, captions, title text, labels, logos or watermarks. No duplication, object teleportation, random flashes, morphing or slideshow.\n\nEND CONDITION:\nComplete all 5 beats within 15 seconds; finish on the specified visual payoff with continuity intact.",
+        "prompt_qa": "PASS — PREPRODUCTION ONLY / VERIFY GENERATED VIDEO",
+        "format": "PNG",
+        "resolution": "941x1672",
+        "reference_index": 2,
+        "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
         "url": null,
@@ -280,6 +391,60 @@
         "status": "UNCONFIRMED",
         "scheduled": false,
         "post_url": null
+      },
+      "storyboard": {
+        "url": "https://drive.google.com/file/d/1cF7BpSQwyIfbQE25Qb3vIYL0yIxUFYM0/view?usp=drivesdk",
+        "qa": "PASS",
+        "reference_index": 3,
+        "format": "PNG",
+        "resolution": "941x1672",
+        "duration_sec": 15,
+        "beat_count": 5,
+        "beats": [
+          {
+            "beat": 1,
+            "time": "0.0–3.0",
+            "label": "THE FIRST DISTURBANCE",
+            "action": "Start with the same suspended hand and ALREADY VISIBLE shallow ocean swirl from Starter. Waves slowly circulate toward the center."
+          },
+          {
+            "beat": 2,
+            "time": "3.0–6.0",
+            "label": "THE PULL",
+            "action": "Circular flow tightens. Water sinks deeper, ring waves concentrate inward. Only a slight deliberate flex of the unchanged colossal fingers; no water contact."
+          },
+          {
+            "beat": 3,
+            "time": "6.0–9.0",
+            "label": "THE SEA COLLAPSES",
+            "action": "The center becomes a deep funnel. Ocean walls curve downward naturally, strong scale, foam and spray follow gravity toward the void."
+          },
+          {
+            "beat": 4,
+            "time": "9.0–12.0",
+            "label": "THE IMPOSSIBLE ABYSS",
+            "action": "A near-vertical deep circular abyss appears with gigantic water walls descending continuously. Ocean horizon and hand geometry remain steady."
+          },
+          {
+            "beat": 5,
+            "time": "12.0–15.0",
+            "label": "THE SEA KNEW FIRST",
+            "action": "End on the deep stable chasm with rushing water cascading into darkness, the hand still impossibly far above, one finger curls subtly. No bottom revealed."
+          }
+        ],
+        "source_note": "Pre-production storyboard image with beat labels; only timings and visual progression are video reference."
+      },
+      "video_plan": {
+        "model": "Dola / Seedance 2.0",
+        "target_duration_sec": 15,
+        "format": "9:16",
+        "input_refs": [
+          "Master Still",
+          "Starter Frame",
+          "Storyboard"
+        ],
+        "source_render_status": "NOT CREATED",
+        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
       }
     },
     {
@@ -296,10 +461,14 @@
         "published": false
       },
       "starter": {
-        "url": null,
-        "qa": "WAITING",
-        "prompt": null,
-        "prompt_qa": "WAITING"
+        "url": "https://drive.google.com/file/d/1ZyRfgnaD3JyfPihhz5f0HtqsM2H7HdCb/view?usp=drivesdk",
+        "qa": "PASS",
+        "prompt": "COLOSSUS SIGNAL — SEASON 3 — EP05\nTITLE: THE DEBRIS FELL UPWARD\nMODEL: DOLA / SEEDANCE 2.0\nTARGET LENGTH: 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: PHOTOREALISTIC DARK COSMIC HORROR\n\nREFERENCE ORDER AND PRIORITY:\nIMAGE 1 / MASTER STILL — immutable character, object and environmental identity: the enormous same black concentric ring void in upper-right, Earth below with same night lights and atmosphere, and existing separate asteroids distributed at realistic varied depths. Ignore Master Still title text.\nIMAGE 2 / STARTER FRAME — exact first frame at 0:00, match camera and physical composition.\nIMAGE 3 / STORYBOARD — follow only its sequential beat positions and timings, never reproduce its visible labels or panels.\nWhen references disagree, Image 1 controls identity, Image 2 controls the opening geometry, Image 3 controls movement progression. Do not morph between different creature identities.\n\nSTORY:\nThe asteroid field changes direction and streams AWAY FROM EARTH and INTO THE UPPER-RIGHT DARK RING.\n\nBEAT 1 [0.0–2.0s] — NORMAL DRIFT\nThe Starter Frame asteroid field drifts slowly with strong deep-space parallax; Earth remains intact and the original concentric ring holds its shape.\n\nBEAT 2 [2.0–4.5s] — GRAVITY CHANGES\nSmall fragments reverse first, larger rocks follow in the SAME direction toward the upper-right opening. Avoid jumps in object positions.\n\nBEAT 3 [4.5–7.5s] — THE IMPOSSIBLE FLOW\nA growing dense stream converges toward the void. Motion accelerates outward from Earth, with smaller particles moving faster than large foreground asteroids.\n\nBEAT 4 [7.5–10.0s] — INTO THE DARKNESS\nSmall rocks disappear into the existing lightless center, larger rocks follow on continuous curved trajectories. Hold the large-scale flow, not an explosion.\n\nCAMERA AND CONTINUITY:\nOne continuous coherent cinematic shot; controlled slow drift / pullback for immense planetary scale; physically plausible parallax and heavy living geometry; no jump cuts, teleporting features or sudden zoom. Original environment remains consistent. Keep the underlying Earth intact.\n\nAUDIO:\nLow non-diegetic deep gravitational resonance, faint granular debris rattles as soundtrack texture (not literal sound in vacuum), crescendoing bass pressure, sudden near silence.\nNo dialogue, no voiceover, no vocals, no singing, no melodic background music. Space sound is cinematic non-diegetic design, not literal vacuum sound.\n\nSTRICT NEGATIVE:\nNo asteroids hitting Earth, no change in ring structure, no duplicate planetary globe, no random spacecraft, no fast camera spins or violent explosion.\nNo poster montage, no storyboard grids, no subtitles, captions, title text, labels, logos or watermarks. No duplication, object teleportation, random flashes, morphing or slideshow.\n\nEND CONDITION:\nComplete all 4 beats within 10 seconds; finish on the specified visual payoff with continuity intact.",
+        "prompt_qa": "PASS — PREPRODUCTION ONLY / VERIFY GENERATED VIDEO",
+        "format": "PNG",
+        "resolution": "941x1672",
+        "reference_index": 2,
+        "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
         "url": null,
@@ -342,6 +511,54 @@
         "status": "UNCONFIRMED",
         "scheduled": false,
         "post_url": null
+      },
+      "storyboard": {
+        "url": "https://drive.google.com/file/d/1bBTFxuF_yz_adprwJ2Lnt6OnBwkC2UK7/view?usp=drivesdk",
+        "qa": "PASS",
+        "reference_index": 3,
+        "format": "PNG",
+        "resolution": "941x1672",
+        "duration_sec": 10,
+        "beat_count": 4,
+        "beats": [
+          {
+            "beat": 1,
+            "time": "0.0–2.0",
+            "label": "NORMAL DRIFT",
+            "action": "The Starter Frame asteroid field drifts slowly with strong deep-space parallax; Earth remains intact and the original concentric ring holds its shape."
+          },
+          {
+            "beat": 2,
+            "time": "2.0–4.5",
+            "label": "GRAVITY CHANGES",
+            "action": "Small fragments reverse first, larger rocks follow in the SAME direction toward the upper-right opening. Avoid jumps in object positions."
+          },
+          {
+            "beat": 3,
+            "time": "4.5–7.5",
+            "label": "THE IMPOSSIBLE FLOW",
+            "action": "A growing dense stream converges toward the void. Motion accelerates outward from Earth, with smaller particles moving faster than large foreground asteroids."
+          },
+          {
+            "beat": 4,
+            "time": "7.5–10.0",
+            "label": "INTO THE DARKNESS",
+            "action": "Small rocks disappear into the existing lightless center, larger rocks follow on continuous curved trajectories. Hold the large-scale flow, not an explosion."
+          }
+        ],
+        "source_note": "Pre-production storyboard image with beat labels; only timings and visual progression are video reference."
+      },
+      "video_plan": {
+        "model": "Dola / Seedance 2.0",
+        "target_duration_sec": 10,
+        "format": "9:16",
+        "input_refs": [
+          "Master Still",
+          "Starter Frame",
+          "Storyboard"
+        ],
+        "source_render_status": "NOT CREATED",
+        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
       }
     },
     {
@@ -358,10 +575,14 @@
         "published": false
       },
       "starter": {
-        "url": null,
-        "qa": "WAITING",
-        "prompt": null,
-        "prompt_qa": "WAITING"
+        "url": "https://drive.google.com/file/d/1yVAaAlgzMp_W6LmebJfEvL_dZ7zmUv9Q/view?usp=drivesdk",
+        "qa": "PASS",
+        "prompt": "COLOSSUS SIGNAL — SEASON 3 — EP06\nTITLE: EARTH'S LIGHTS WENT OUT\nMODEL: DOLA / SEEDANCE 2.0\nTARGET LENGTH: 10 SECONDS\nASPECT RATIO: 9:16\nSTYLE: PHOTOREALISTIC DARK COSMIC HORROR\n\nREFERENCE ORDER AND PRIORITY:\nIMAGE 1 / MASTER STILL — immutable character, object and environmental identity: exact Earth's night-side geography and bright city-light networks, same cloud bands, same giant's existing dark upper-frame face silhouette and small amber facial glow, original upper-right circular structure. Ignore Master Still title text.\nIMAGE 2 / STARTER FRAME — exact first frame at 0:00, match camera and physical composition.\nIMAGE 3 / STORYBOARD — follow only its sequential beat positions and timings, never reproduce its visible labels or panels.\nWhen references disagree, Image 1 controls identity, Image 2 controls the opening geometry, Image 3 controls movement progression. Do not morph between different creature identities.\n\nSTORY:\nA vast unnatural shadow expands CONTINUOUSLY over Earth's night side and extinguishes city lights in sequence, not all at once.\n\nBEAT 1 [0.0–2.0s] — THE LAST NORMAL NIGHT\nMatch Starter. A portion of Earth is already shadowed; remaining original city lights glow through the cloud layers, titan remains high and mostly hidden.\n\nBEAT 2 [2.0–4.5s] — THE SHADOW ADVANCES\nA broad continuous dim boundary travels across the original geography; closest city-light clusters begin fading progressively beneath it.\n\nBEAT 3 [4.5–7.5s] — THE CONTINENTS GO DARK\nThe dark region advances over many city clusters in spatial order. Clouds, coastlines, atmosphere and distant titan remain stable and physically coherent.\n\nBEAT 4 [7.5–10.0s] — THE LAST LIGHTS\nMost visible night side becomes unlit with a handful of light clusters lingering briefly before dimming. End with huge scale and near silence.\n\nCAMERA AND CONTINUITY:\nOne continuous coherent cinematic shot; controlled slow drift / pullback for immense planetary scale; physically plausible parallax and heavy living geometry; no jump cuts, teleporting features or sudden zoom. Original environment remains consistent. Keep the underlying Earth intact.\n\nAUDIO:\nFaint non-diegetic sub-bass cosmic drone, distant geological groan, gentle electrical harmonic fades synced with city lights, descending muffled ambience then near-silence.\nNo dialogue, no voiceover, no vocals, no singing, no melodic background music. Space sound is cinematic non-diegetic design, not literal vacuum sound.\n\nSTRICT NEGATIVE:\nNo sudden full blackout in opening seconds, no wildfire or explosions, no new monster, no rotating or deforming Earth, no extra moon and no moving lights to new continents.\nNo poster montage, no storyboard grids, no subtitles, captions, title text, labels, logos or watermarks. No duplication, object teleportation, random flashes, morphing or slideshow.\n\nEND CONDITION:\nComplete all 4 beats within 10 seconds; finish on the specified visual payoff with continuity intact.",
+        "prompt_qa": "PASS — PREPRODUCTION ONLY / VERIFY GENERATED VIDEO",
+        "format": "PNG",
+        "resolution": "941x1672",
+        "reference_index": 2,
+        "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
         "url": null,
@@ -404,6 +625,54 @@
         "status": "UNCONFIRMED",
         "scheduled": false,
         "post_url": null
+      },
+      "storyboard": {
+        "url": "https://drive.google.com/file/d/1jwlSfDdqvN-wTYCsHrk1X5UylptEgP77/view?usp=drivesdk",
+        "qa": "PASS",
+        "reference_index": 3,
+        "format": "PNG",
+        "resolution": "941x1672",
+        "duration_sec": 10,
+        "beat_count": 4,
+        "beats": [
+          {
+            "beat": 1,
+            "time": "0.0–2.0",
+            "label": "THE LAST NORMAL NIGHT",
+            "action": "Match Starter. A portion of Earth is already shadowed; remaining original city lights glow through the cloud layers, titan remains high and mostly hidden."
+          },
+          {
+            "beat": 2,
+            "time": "2.0–4.5",
+            "label": "THE SHADOW ADVANCES",
+            "action": "A broad continuous dim boundary travels across the original geography; closest city-light clusters begin fading progressively beneath it."
+          },
+          {
+            "beat": 3,
+            "time": "4.5–7.5",
+            "label": "THE CONTINENTS GO DARK",
+            "action": "The dark region advances over many city clusters in spatial order. Clouds, coastlines, atmosphere and distant titan remain stable and physically coherent."
+          },
+          {
+            "beat": 4,
+            "time": "7.5–10.0",
+            "label": "THE LAST LIGHTS",
+            "action": "Most visible night side becomes unlit with a handful of light clusters lingering briefly before dimming. End with huge scale and near silence."
+          }
+        ],
+        "source_note": "Pre-production storyboard image with beat labels; only timings and visual progression are video reference."
+      },
+      "video_plan": {
+        "model": "Dola / Seedance 2.0",
+        "target_duration_sec": 10,
+        "format": "9:16",
+        "input_refs": [
+          "Master Still",
+          "Starter Frame",
+          "Storyboard"
+        ],
+        "source_render_status": "NOT CREATED",
+        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
       }
     },
     {

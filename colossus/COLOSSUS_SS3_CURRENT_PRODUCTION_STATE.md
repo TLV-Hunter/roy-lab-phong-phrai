@@ -27,7 +27,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - Registry: `colossus/ss3-season.json` — canonical source for the new SS3 desk. Still copy pack and research QA: `colossus/COLOSSUS_SS3_STILL_COPY_PACK_QA_2026-10-21.md`.
 - SS3 is now selectable from `colossus/index.html` and `colossus/august-season.html`.
 - User can choose an individual episode, show all, use PREV / NEXT and preview available Master images via Google Drive, open/download each 4K PNG.
-- Three production panels per episode: MASTER STILL, STARTER FRAME, FINAL REEL, with STILL copy and REEL copy sections.
+- Four independent production panels per episode: MASTER STILL (copy allowed), STARTER FRAME (video prompt only), STORYBOARD (beat references only), FINAL REEL (copy allowed only after script/video QA).
 - SS3 webpage now shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated and QA passed at pre-production level. Final Reel remains WAITING for all eleven. Still copy is 11/11 PASS; EP01 Reel copy is a DRAFT pending source video. No publishing claim.
 - Updating `ss3-season.json` automatically updates cards and progress counters on the static GitHub Pages site without rebuilding the page UI.
 - The 4K masters reside in Google Drive, not copied into GitHub. Google Drive embedded previews can require Google account access or sharing permissions; links still open for authorized users. No public access granted here.
@@ -68,12 +68,10 @@ Previous candidate generation logs and rejected batches are history only, not cu
 - Website: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html — same SS1/SS2 season selector, separate storyboard panel, beat timeline and prompt COPY buttons in each EP02–EP06.
 - Existing SS1, SS2, Master Stills, approved Still Copy, EP01 Reel copy and Halloween Special preserved; no video generation or Facebook publishing has occurred.
 
-
-## 2026-10-22 — EP02–EP06 Reference Image Copy Pack
-- **10/10 QA PASS**: 5 individual Starter Frames and 5 individual Storyboard beat-sheet images, each with a distinct EN-US Caption including exactly 3 on-topic hashtags and a separate First/Pinned Comment.
-- Starter text describes the **before-event frame**; Storyboard text describes the planned progression / creative process. The two types are NEVER interchanged and are not approved Reel captions.
-- Each comment adds scene-specific detail and one question without an engagement-bait demand. No real astronomical event claims.
-- Canonical content stored in `colossus/ss3-season.json` under each episode's `starter.caption`, `starter.first_comment`, `starter.copy_qa`, and `storyboard.caption`, `storyboard.first_comment`, `storyboard.copy_qa`.
-- Archive: `colossus/COLOSSUS_SS3_EP02-06_REFERENCE_IMAGE_COPY_PACK_2026-10-22.md`.
-- Existing SS3 Content Desk displays four new COPY fields per EP02–EP06 under the Starter Frame and Storyboard panels, in addition to Master Still copy and Video Prompt.
-- Still copies for 11 Masters, EP01 Reel copy DRAFT, Master Still identities and all final Reel statuses remain unchanged. No Facebook publication or actual pinning occurred.
+## 2026-10-22 — LOCKED CONTENT COPY POLICY (user correction)
+- Exactly **TWO user-facing copy packages per episode**: **MASTER STILL** and **REEL**. Each package consists of **Caption with Hashtags included** plus **independent First/Pinned Comment**.
+- **Starter Frame and Storyboard NEVER receive Caption / Hashtags / First Comment.** They remain production reference assets only. A Dola Video Prompt remains attached to Starter and Storyboard contains beat timings; these are not social posts.
+- EP02–EP06 Starter/Storyboard copy and old invalid research copy pack removed from both live registry and site. Erroneous archive file was deleted from GitHub.
+- Approved Master Still copy for 11/11 episodes unchanged. EP01 Reel copy remains DRAFT until rendered video continuity QA. All other Reel copy WAITING until appropriate source/video QA.
+- Existing image assets, QA, 3-ref priority, Dola prompts and storyboard beat maps are untouched. SS1/SS2 and Halloween assets remain unchanged.
+- Canonical content UI: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html

@@ -67,3 +67,13 @@ Previous candidate generation logs and rejected batches are history only, not cu
 - Drive folder: https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe — verified file listing 10 distinct PNG files.
 - Website: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html — same SS1/SS2 season selector, separate storyboard panel, beat timeline and prompt COPY buttons in each EP02–EP06.
 - Existing SS1, SS2, Master Stills, approved Still Copy, EP01 Reel copy and Halloween Special preserved; no video generation or Facebook publishing has occurred.
+
+
+## 2026-10-22 — EP02–EP06 Reference Image Copy Pack
+- **10/10 QA PASS**: 5 individual Starter Frames and 5 individual Storyboard beat-sheet images, each with a distinct EN-US Caption including exactly 3 on-topic hashtags and a separate First/Pinned Comment.
+- Starter text describes the **before-event frame**; Storyboard text describes the planned progression / creative process. The two types are NEVER interchanged and are not approved Reel captions.
+- Each comment adds scene-specific detail and one question without an engagement-bait demand. No real astronomical event claims.
+- Canonical content stored in `colossus/ss3-season.json` under each episode's `starter.caption`, `starter.first_comment`, `starter.copy_qa`, and `storyboard.caption`, `storyboard.first_comment`, `storyboard.copy_qa`.
+- Archive: `colossus/COLOSSUS_SS3_EP02-06_REFERENCE_IMAGE_COPY_PACK_2026-10-22.md`.
+- Existing SS3 Content Desk displays four new COPY fields per EP02–EP06 under the Starter Frame and Storyboard panels, in addition to Master Still copy and Video Prompt.
+- Still copies for 11 Masters, EP01 Reel copy DRAFT, Master Still identities and all final Reel statuses remain unchanged. No Facebook publication or actual pinning occurred.

@@ -1,5 +1,16 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-22 — SS3 EP02–EP06 10-image QA; 2/5 pairs ready for Dola
+Updated: 2026-10-22 — SS3 EP02–EP06 ten separate reference files, 4 of 5 pairs QA-ready
+
+## SS3 EP02–EP06 TEN SEPARATE REF FILES — 2026-10-22 (CURRENT)
+- Owner repeated: check each existing Master first, then deliver exactly 5 separate Starter Frame and 5 separate one-EP six-beat Storyboard files for EP02–EP06; NO multi-episode collage and NO website update.
+- Confirmed source identities against the actual independent selected Master stills: EP02 python-vs-crocodile in muddy rainforest river; EP03 huge copper-brown eagle hitting EMPTY wooden watchtower railing; EP04 dark giant boar vs spotted four-legged monitor; EP05 orange tiger vs dark armored-scaled beast; EP06 organic ring-segmented subterranean creature breaking timber bridge.
+- Created a **ten-distinct-PNG review set** under this conversation runtime `/mnt/data/RLS_SS3_EP02-06_10_SEPARATE_REFERENCES/` (five EPxx_STARTER_FRAME.png, five EPxx_STORYBOARD_10S.png); JSON QA manifest includes exact unique filenames, pixel dimensions, SHA-256 and PASS/FAIL labels. Image resources are local chat artifacts; do not claim persisted website, Project sources, or durable CDN.
+- Four Starter PNGs EP02–EP05 visually PASS for pre-action Frame0 identity; fifth EP06 starter old source FAIL (large worm and broken bridge already present). EP06 explicitly labeled **REJECTED / DO NOT GENERATE**.
+- Reconstructed five episode-individual 1080x1920 beat boards, each SIX labeled beats 0.0–10.0 seconds, from the actual Starter and Master reference images via deterministic planning layout (NOT independently generated video frames and NOT collage of multiple episodes). Corrected EP02 12s → 10s and EP05 first beat to tiger ALREADY AIRBORNE. EP03 and EP04 preserved locked event sequences. EP06 beat board is previsualization only until new intact-bridge starter exists.
+- **Usable reference pairs:** EP02–EP05 four pairs for Dola 10s planning; EP06 pair HOLD because its Starter is post-impact and repeat-collapse risk. Ten files exist for audit but **DO NOT claim 10/10 QA PASS**.
+- Native ChatGPT image generator repeatedly returned unrelated python/crocodile imagery (and earlier multi-EP posters) while EP06 repair was requested. Those failures have been discarded and NOT counted or used as Frame0. Do not silently use them or change EP06 Story Lock.
+- **EXACT NEXT ACTION:** create a standalone visually consistent 9:16 pre-impact EP06 Starter with INTACT bridge using functioning native image generation in a fresh project chat; inspect actual source QA1+QA2 and only then promote fifth pair. Next, write remaining Dola per-EP prompts with Image1=Master, Image2=Starter, Image3=Storyboard. Publication/social/website statuses unchanged.
+
 
 ## SS3 EP02–EP06 STARTER + STORYBOARD QA — 2026-10-22 (CURRENT GATE)
 - Owner ordered QA of the ten distinct files produced for **EP02–EP06: five Starter Frame PNGs and five Storyboard PNGs**, checking each against its pre-existing selected Master. Source files are independent 941×1672 PNGs, not native 4K, not sliced from multi-EP posters.

@@ -6,7 +6,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - Project: COLOSSUS SIGNAL (not RLS).
 - Season: SS3 / WHAT THE GIANTS FEARED.
 - 10 main episodes CS-OCT-001 through CS-OCT-010, editorial dates 21–30 October 2026.
-- Halloween Special CS-OCT-SP01 on 31 October 2026: **MASTER STILL / STILL COPY QA PASS**. Starter / Video / Reel Copy remain WAITING.
+- Halloween Special CS-OCT-SP01 on 31 October 2026: **MASTER STILL + STILL COPY + SCRIPT-BASED REEL COPY QA PASS**. Starter / Video still WAITING.
 - Theme: Dark Cosmic Horror, gigantic living cosmic entities and overwhelming scale.
 - Original SS1 and SS2 source registries, approvals and links remain unchanged.
 
@@ -18,8 +18,8 @@ Updated: 2026-10-21 Asia/Bangkok
 - Video Prompts: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**, Dola / Seedance 2.0, 10/10/15/10/10 seconds. Generated source videos remain NOT CREATED; prompts require video QA after use.
 - Final Reels: **0/11 READY / WAITING**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
-- Reel Caption / First Comment: **EP01 pre-video DRAFT now entered and copyable on SS3 site**: Reel Caption includes Hashtags within same block; Reel First/Pinned Comment separate. Copy text reviewed against planned beat map, but **Final video alignment QA PENDING**. EP02–EP10 and Halloween Reel copy still WAITING. Never substitute approved Still copy as Reel copy.
-- Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures are visible in the current Special frame; Earth and the third guardian are outside frame. Special Caption and First Comment were corrected to match actual visual while continuing the EP10 narrative. Starter, Video Prompt, Final Reel and Reel Copy still NOT CREATED.
+- Reel Caption / First Comment: **11/11 PASS (SCRIPT-BASED COPY)** and copyable NOW for EP01–EP10 plus Halloween Special. Each Reel Caption includes 3 related Hashtags in the same block, with a separate First/Pinned Comment. **No need to wait for Reel video before drafting.** Generated video alignment has NOT been verified; Final Reels still 0/11. Master Still copy remains separate and untouched.
+- Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures visible, Earth and the third guardian outside frame. Still and Reel Caption / First Comment are each separately written and QA PASS against story. Starter, Video Prompt and Final Reel NOT CREATED.
 - Facebook publish or scheduled state: **NOT VERIFIED / DO NOT CLAIM PUBLISHED**.
 
 ## New website and data architecture
@@ -28,7 +28,7 @@ Updated: 2026-10-21 Asia/Bangkok
 - SS3 is now selectable from `colossus/index.html` and `colossus/august-season.html`.
 - User can choose an individual episode, show all, use PREV / NEXT and preview available Master images via Google Drive, open/download each 4K PNG.
 - Four independent production panels per episode: MASTER STILL (copy allowed), STARTER FRAME (video prompt only), STORYBOARD (beat references only), FINAL REEL (copy allowed only after script/video QA).
-- SS3 webpage now shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated and QA passed at pre-production level. Final Reel remains WAITING for all eleven. Still copy is 11/11 PASS; EP01 Reel copy is a DRAFT pending source video. No publishing claim.
+- SS3 webpage shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated (preproduction). Master Still copy and Reel Copy **11/11 each ready to copy**, all generated Final Reels remain WAITING, no publishing claim.
 - Updating `ss3-season.json` automatically updates cards and progress counters on the static GitHub Pages site without rebuilding the page UI.
 - The 4K masters reside in Google Drive, not copied into GitHub. Google Drive embedded previews can require Google account access or sharing permissions; links still open for authorized users. No public access granted here.
 - Website is an internal production desk, not a Facebook publishing action.
@@ -72,6 +72,13 @@ Previous candidate generation logs and rejected batches are history only, not cu
 - Exactly **TWO user-facing copy packages per episode**: **MASTER STILL** and **REEL**. Each package consists of **Caption with Hashtags included** plus **independent First/Pinned Comment**.
 - **Starter Frame and Storyboard NEVER receive Caption / Hashtags / First Comment.** They remain production reference assets only. A Dola Video Prompt remains attached to Starter and Storyboard contains beat timings; these are not social posts.
 - EP02–EP06 Starter/Storyboard copy and old invalid research copy pack removed from both live registry and site. Erroneous archive file was deleted from GitHub.
-- Approved Master Still copy for 11/11 episodes unchanged. EP01 Reel copy remains DRAFT until rendered video continuity QA. All other Reel copy WAITING until appropriate source/video QA.
+- Approved Master Still copy for 11/11 episodes unchanged. Reel copy for all 11 episodes has already been written, passed narrative QA, and is ready to COPY **before** videos exist. Reel VIDEO continuity QA remains separate from copywriting QA; do not block copy on missing video.
 - Existing image assets, QA, 3-ref priority, Dola prompts and storyboard beat maps are untouched. SS1/SS2 and Halloween assets remain unchanged.
 - Canonical content UI: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/ss3-season.html
+
+## 2026-10-22 — ALL 11 REEL COPY PACKS READY BEFORE PRODUCTION
+- Owner explicitly requests **Caption + hashtags inline, and separate First/Pinned Comment for EVERY EP NOW**, without waiting for clips.
+- EP01–EP10 and CS-OCT-SP01 each contain `reel.caption`, `reel.first_comment`, and `reel.copy_qa = PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED` in `colossus/ss3-season.json`.
+- **11/11 Reel Copy QA PASS against approved story / imagery, but no actual Reel video or post has been reviewed/published.** Final source-video fidelity must still be QA checked when available; copy remains usable and editable now.
+- Approved `still.*` caption/comment data for all 11 Master Stills is unchanged. Starter Frames and Storyboards contain NO caption or first-comment fields, as expressly required.
+- UI counts Reel Copy 11/11 and Final Reels 0/11 separately. Existing SS1/SS2 selector unaffected.

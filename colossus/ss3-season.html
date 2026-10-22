@@ -12,11 +12,11 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 .wrap{padding:14px}.hero,.card,.slot{background:linear-gradient(#0a121b,#071019);border:1px solid var(--line);border-radius:14px}.hero{padding:14px;margin-bottom:12px}.hero h1{margin:0 0 5px}.sub{color:var(--m);font-size:12px}.ok{color:var(--g)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.toolbar select{min-width:360px}
 .card{margin-bottom:16px;overflow:hidden}.head{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.head h2{margin:0;font-size:19px}
 .badges{display:flex;gap:6px;flex-wrap:wrap}.pill{border:1px solid #315167;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900;color:var(--g)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:12px}.slot{overflow:hidden;min-width:0}.slot h3{font-size:13px;margin:0;padding:9px 10px;border-bottom:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:12px}.slot{overflow:hidden;min-width:0}.slot h3{font-size:13px;margin:0;padding:9px 10px;border-bottom:1px solid var(--line)}
 .viewer{height:62vh;min-height:520px;background:#020609;display:flex;align-items:center;justify-content:center}.viewer img,.viewer iframe{width:100%;height:100%;object-fit:contain;border:0;background:#020609}
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:8px}.actions a,.actions button{border:1px solid #2e708e;background:#0a3041;color:#dff8ff;border-radius:7px;padding:8px;text-align:center;text-decoration:none;font-size:10px;font-weight:800}
 .box{padding:10px;white-space:pre-wrap;line-height:1.5;font-size:12px;background:#061018;border-top:1px solid var(--line)}.copy{float:right}.source{color:var(--c);font-size:11px;margin-top:4px}
-@media(max-width:1350px){.grid{grid-template-columns:1fr 1fr}.slot.reel{grid-column:1/3}.viewer{height:58vh;min-height:480px}}
+@media(max-width:1350px){.grid{grid-template-columns:1fr 1fr}.slot.reel{grid-column:auto}.viewer{height:58vh;min-height:480px}}
 @media(max-width:850px){.grid{grid-template-columns:1fr}.slot.reel{grid-column:auto}.viewer{height:64vh;min-height:430px}.toolbar select{min-width:0;width:100%}.controls{width:100%}.controls select,.controls .btn{flex:1}}
 </style>
 <style>
@@ -35,6 +35,10 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 .copy{margin-left:6px}
 .box .sub{display:block;margin-top:5px;white-space:pre-wrap}
 .assetimg{display:block}
+.beatlist{margin:0;padding:11px 14px 12px 35px;line-height:1.5;color:#d3eaf5;font-size:12px;border-top:1px solid var(--line)}
+.beatlist li{margin:8px 0}.beatlist b{color:#80d4ee}
+.refGuide{border:1px solid #315065;background:#071a25;padding:9px 11px;border-radius:9px;font-size:12px;color:#bad9e8;margin-top:8px}
+.refGuide b{color:#ddf8ff}
 .card .source{margin-top:5px}
 .state{display:flex;gap:9px;flex-wrap:wrap;margin-top:10px}
 .state span{border:1px solid #325064;border-radius:9px;padding:7px 10px;background:#06121b;font-weight:700;font-size:12px}
@@ -64,7 +68,7 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 <h1>SS3 — WHAT THE GIANTS FEARED</h1>
 <div class="sub">DARK COSMIC HORROR • 21–30 OCT 2026 • HALLOWEEN SPECIAL 31 OCT • USA / GLOBAL</div>
 <div id="state" class="state" aria-live="polite"><span>Loading SS3...</span></div>
-<div class="heroNote">STILL PACKAGE COMPLETE: Master Still 11/11 และ Still Caption / First Comment / Keywords / CTA / Hashtags 11/11 ผ่าน QA • สำรอง PNG 2160 × 3840 ครบ 11 ภาพบน Google Drive แล้ว (Upscaled ไม่ใช่ Native AI 4K; Halloween Special เคยผ่านการลดขนาดและอัปสเกลกลับ) • Starter Frame / Video Prompt / Final Reel และข้อความ Reel ยังรอผลิต • ยังไม่มีหลักฐานเผยแพร่บน Facebook</div>
+<div class="heroNote">STILL PACKAGE COMPLETE: Master Still 11/11 และ Still Caption / First Comment 11/11 ผ่าน QA • EP02–EP06: Starter Frame 5 ภาพ + Storyboard Beat 5 ภาพ + Video Prompt Dola 5 ชุดพร้อม COPY (PRE-PRODUCTION PASS) • EP03 ใช้ Storyboard V2 ที่ซ่อมแล้ว • Final Reel และการเผยแพร่ Facebook ยังรอผลิต</div>
 <div class="toolbar">
 <select id="ep" aria-label="เลือกตอนของ SS3"></select>
 <button id="prev" type="button">← PREV</button>
@@ -72,7 +76,8 @@ a,button,select{font:inherit}.top,.wrap{max-width:1760px;margin:auto}.top{paddin
 <button id="all" type="button">SHOW ALL 11</button>
 <a class="btn" id="drive" href="https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4" target="_blank" rel="noopener">OPEN SS3 4K DRIVE</a>
 </div>
-<div class="linkline"><a href="./august-season.html">← SS2 Desk</a><a href="./?campaign=colossus">SS1 / Original Desk</a></div>
+<div class="refGuide"><b>DOLA REFERENCE ORDER:</b> Image 1 = Master Still (Identity) → Image 2 = Starter Frame (0:00) → Image 3 = Storyboard (Beats). ภาพ Storyboard มีตัวหนังสือกำกับเฉพาะใช้วางแผน ห้ามสร้างข้อความเหล่านั้นในวิดีโอ</div>
+<div class="linkline"><a id="refFolder" href="https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe" target="_blank" rel="noopener">EP02–EP06 REFERENCE FOLDER</a><a href="./august-season.html">← SS2 Desk</a><a href="./?campaign=colossus">SS1 / Original Desk</a></div>
 </div>
 <div id="list" class="episodes" aria-live="polite"></div>
 <div class="footer">COLOSSUS SIGNAL / SS3 • Production asset registry • No Facebook post is confirmed by this page</div>
@@ -98,9 +103,15 @@ const driveHosted=!!did(url);const actions=has?'<a href="'+esc(url)+'" target="_
 return '<div class="slot"><h3>MASTER STILL • 4K UPSCALED '+pill(m.qa)+'</h3><div class="viewer">'+media+'</div><div class="actions">'+actions+'</div>'+copySlot('STILL CAPTION',e.still&&e.still.caption,e.still&&e.still.copy_qa,'sc-'+e.id)+copySlot('STILL FIRST / PINNED COMMENT',e.still&&e.still.first_comment,e.still&&e.still.copy_qa,'sp-'+e.id)+'</div>'}
 function starterSlot(e){const s=e.starter||{},u=s.url||'',media=u?'<img class="assetimg" src="'+esc(img1(u))+'" data-alt="'+esc(img2(u))+'" data-stage="0" loading="lazy" alt="'+esc(e.title)+' Starter Frame"><iframe src="'+esc(view(u))+'" style="display:none"></iframe>':emptyText('STARTER FRAME • WAITING');
 return '<div class="slot"><h3>STARTER FRAME '+pill(s.qa)+'</h3><div class="viewer">'+media+'</div><div class="actions">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">OPEN STARTER</a><a href="'+esc(dl(u))+'" target="_blank" rel="noopener">DOWNLOAD</a>':'<span></span><span></span>')+'</div>'+copySlot('VIDEO PROMPT',s.prompt,s.prompt_qa,'pr-'+e.id)+'</div>'}
+function storyboardSlot(e){const b=e.storyboard||{},u=b.url||'',has=!!u;
+const media=has?'<img class="assetimg" src="'+esc(img1(u))+'" data-alt="'+esc(img2(u))+'" data-stage="0" alt="'+esc(e.title)+' storyboard beat sheet" loading="lazy" referrerpolicy="no-referrer"><iframe src="'+esc(view(u))+'" title="'+esc(e.title)+' storyboard preview" loading="lazy" style="display:none"></iframe>':emptyText('STORYBOARD BEATS • WAITING');
+const actions=has?'<a href="'+esc(u)+'" target="_blank" rel="noopener">OPEN STORYBOARD</a><a href="'+esc(dl(u))+'" target="_blank" rel="noopener">DOWNLOAD PNG</a>':'<span></span><span></span>';
+const beats=(b.beats||[]).map(x=>'<li><b>'+esc(x.time)+'s — '+esc(x.label)+'</b><div>'+esc(x.action)+'</div></li>').join('');
+const detail=has?'<div class="box">Image 3 / STORYBOARD • '+esc(b.beat_count||0)+' BEATS • '+esc(b.duration_sec||'')+'s • Reference only</div>'+(beats?'<ol class="beatlist">'+beats+'</ol>':''):'';
+return '<div class="slot storyboard"><h3>IMAGE 3 • STORYBOARD '+pill(b.qa)+'</h3><div class="viewer">'+media+'</div><div class="actions">'+actions+'</div>'+detail+'</div>'}
 function reelSlot(e){const r=e.reel||{},u=r.url||'',media=u?'<iframe src="'+esc(view(u))+'" title="'+esc(e.title)+' Final Reel" allow="autoplay; fullscreen" loading="lazy"></iframe>':emptyText('FINAL REEL • NOT CREATED');
 return '<div class="slot reel"><h3>REEL • FINAL '+pill(r.qa||r.status)+'</h3><div class="viewer">'+media+'</div><div class="actions">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener">OPEN FINAL REEL</a><a href="'+esc(dl(u))+'" target="_blank" rel="noopener">DOWNLOAD VIDEO</a>':'<span></span><span></span>')+'</div>'+copySlot('REEL CAPTION + HASHTAGS',r.caption,r.copy_qa,'rc-'+e.id)+copySlot('REEL FIRST / PINNED COMMENT',r.first_comment,r.copy_qa,'rp-'+e.id)+'</div>'}
-function card(e){const m=e.master||{},s=e.starter||{},r=e.reel||{};const kw=(e.keywords||[]).join(', '),tags=(e.hashtags||[]).join(' ');const extra='<div class="box"><b>KEYWORDS / CTA / HASHTAGS</b><div class="sub">KEYWORDS: '+esc(kw||'WAITING')+'\nCTA: '+esc(e.cta||'WAITING')+'\nHASHTAGS: '+esc(tags||'WAITING')+'</div></div>';return '<article class="card" id="'+esc(e.id)+'"><div class="head"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="source">'+esc(e.date||'')+' • SS3 / DARK COSMIC HORROR • FACEBOOK: '+esc((e.publication||{}).status||'UNCONFIRMED')+'</div><div class="sub">'+esc(e.subtitle||'')+'</div></div><div class="badges">'+pill('MASTER '+(m.qa||'WAITING'))+pill('STARTER '+(s.qa||'WAITING'))+pill('FINAL '+(r.qa||'WAITING'))+'</div></div><div class="grid">'+masterSlot(e)+starterSlot(e)+reelSlot(e)+'</div>'+extra+'</article>'}
+function card(e){const m=e.master||{},s=e.starter||{},r=e.reel||{};const kw=(e.keywords||[]).join(', '),tags=(e.hashtags||[]).join(' ');const extra='<div class="box"><b>KEYWORDS / CTA / HASHTAGS</b><div class="sub">KEYWORDS: '+esc(kw||'WAITING')+'\nCTA: '+esc(e.cta||'WAITING')+'\nHASHTAGS: '+esc(tags||'WAITING')+'</div></div>';return '<article class="card" id="'+esc(e.id)+'"><div class="head"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="source">'+esc(e.date||'')+' • SS3 / DARK COSMIC HORROR • FACEBOOK: '+esc((e.publication||{}).status||'UNCONFIRMED')+'</div><div class="sub">'+esc(e.subtitle||'')+'</div></div><div class="badges">'+pill('MASTER '+(m.qa||'WAITING'))+pill('STARTER '+(s.qa||'WAITING'))+pill('STORYBOARD '+(e.storyboard?.qa||'WAITING'))+pill('FINAL '+(r.qa||'WAITING'))+'</div></div><div class="grid">'+masterSlot(e)+starterSlot(e)+storyboardSlot(e)+reelSlot(e)+'</div>'+extra+'</article>'}
 function render(){const arr=all?items:items.filter(e=>e.id===selected);$('list').innerHTML=arr.length?arr.map(card).join(''):'<div class="hero">No episode selected</div>';$('all').textContent=all?'SHOW ONE':'SHOW ALL 11'}
 function choose(id){if(!items.some(e=>e.id===id))return;selected=id;$('ep').value=id;localStorage.setItem('colossus_ss3_episode',id);all=false;render()}
 $('ep').addEventListener('change',e=>choose(e.target.value));
@@ -116,12 +127,15 @@ const eps=items;
 const total=eps.length;
 const masters=eps.filter(e=>e.master&&e.master.url&&e.master.qa==='PASS'&&e.master.resolution==='2160x3840').length;
 const starters=eps.filter(e=>e.starter&&e.starter.url&&/^PASS/.test(String(e.starter.qa||''))).length;
+const boards=eps.filter(e=>e.storyboard&&e.storyboard.url&&/^PASS/.test(String(e.storyboard.qa||''))).length;
+const prompts=eps.filter(e=>e.starter&&e.starter.prompt&&/^PASS/.test(String(e.starter.prompt_qa||''))).length;
 const reels=eps.filter(e=>e.reel&&e.reel.url&&/^PASS/.test(String(e.reel.qa||''))).length;
 const copies=eps.filter(e=>e.still&&e.still.caption&&e.still.first_comment&&/^PASS/.test(String(e.still.copy_qa||''))).length;
 const reelDrafts=eps.filter(e=>e.reel&&e.reel.caption&&e.reel.first_comment&&/^DRAFT/.test(String(e.reel.copy_qa||''))).length;
 const driveBacked=eps.filter(e=>/drive.google.com/.test(String(e.master?.url||''))).length;
-$('state').innerHTML='<span class="green">MASTER '+masters+'/'+total+' PASS • 2160×3840</span><span class="green">STILL COPY: '+copies+'/'+total+' PASS</span><span>4K DRIVE: '+driveBacked+'/'+total+'</span><span>STARTER: '+starters+'/'+total+'</span><span>FINAL REEL: '+reels+'/'+total+'</span><span>REEL COPY DRAFT: '+reelDrafts+'/'+total+'</span><span>FB PUBLISH: NOT VERIFIED</span>';
+$('state').innerHTML='<span class="green">MASTER '+masters+'/'+total+' PASS • 2160×3840</span><span class="green">STILL COPY: '+copies+'/'+total+' PASS</span><span>4K DRIVE: '+driveBacked+'/'+total+'</span><span>STARTER: '+starters+'/'+total+'</span><span>STORYBOARD: '+boards+'/'+total+'</span><span>DOLA PROMPT: '+prompts+'/'+total+'</span><span>FINAL REEL: '+reels+'/'+total+'</span><span>REEL COPY DRAFT: '+reelDrafts+'/'+total+'</span><span>FB PUBLISH: NOT VERIFIED</span>';
 $('drive').href=d.drive_folder;
+if(d.production_truth?.starter_storyboard_folder)$('refFolder').href=d.production_truth.starter_storyboard_folder;
 items.forEach(e=>$('ep').add(new Option(e.date+' • '+e.id+' — '+e.title,e.id)));
 const fromUrl=new URLSearchParams(location.search).get('ep'),saved=localStorage.getItem('colossus_ss3_episode');
 choose(items.some(e=>e.id===fromUrl)?fromUrl:items.some(e=>e.id===saved)?saved:items[0].id);

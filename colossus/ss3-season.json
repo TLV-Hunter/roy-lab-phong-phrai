@@ -13,9 +13,9 @@
   "production_truth": {
     "masters_verified": "11/11 archived as 2160×3840 PNG on Google Drive; images are upscaled, not native AI 4K; Special file recovered via 1152×2048 intermediate then upscaled",
     "starter_frames": "5/11 PREPRODUCTION QA PASS — EP02–EP06; others WAITING",
-    "reels": "0/10 READY",
+    "reels": "0/11 FINAL REELS READY — generated video source not present",
     "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
-    "reel_copy": "EP01 Reel Caption + Hashtags / First-Pinned Comment text entered as DRAFT; scene alignment awaits generated source video. EP02–EP10 and Special Reel copy WAITING.",
+    "reel_copy": "11/11 COMPLETE • English USA planned-story Reel Caption with inline hashtags and separate First/Pinned Comment • Copy QA PASS from approved story; generated-video alignment UNVERIFIED, no social publishing",
     "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
     "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
@@ -23,7 +23,7 @@
     "video_prompts": "5/11 Dola / Seedance 2.0 prompts recorded (EP02–EP06; 10/10/15/10/10 seconds); no source videos made",
     "storyboards": "5/11 PREPRODUCTION QA PASS — EP02–EP06, uploaded to Drive, distinct beat sheets",
     "starter_storyboard_folder": "https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe",
-    "copy_policy": "Exactly TWO separate public-facing copy packs per episode: (1) Master Still / still.caption + still.first_comment (2) Final Reel / reel.caption + reel.first_comment. Hashtags are included inside each caption. Starter Frame and Storyboard are production references ONLY and must NEVER have public captions, hashtags, or pinned comments."
+    "copy_policy": "Two copy packs per episode only: (1) Master Still Caption+inline Hashtags and First/Pinned Comment; (2) Reel Caption+inline Hashtags and First/Pinned Comment. Both can be written in preproduction; Reel copy is QA-passed against story, but must not imply video has been viewed. Starter/Storyboard have no social copy."
   },
   "episode_count": 10,
   "episodes": [
@@ -52,17 +52,22 @@
         "qa": "WAITING",
         "caption": "The giant wasn't attacking Earth. It was trying to escape.\n\nA colossal titan froze above our planet as stars began disappearing beyond a dark ring.\n\nThen its massive hand pulled away.\n\nFor the first time, something larger than Earth was afraid.\n\nWhatever it saw... we haven't seen it yet.\n\nFollow Colossus Signal. The next transmission gets darker.\n\n#ColossusSignal #CosmicHorror #GiantAlien",
         "first_comment": "📡 TRANSMISSION 001\n\nLook at the giant's hand.\n\nIt begins pulling away as the stars disappear near the ring.\n\nEarth was never the real threat.\n\nSomething out there terrified a creature bigger than our world.\n\nWhat could make something that enormous retreat?",
-        "copy_qa": "DRAFT — TEXT REVIEWED; VERIFY AGAINST RENDERED VIDEO",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
         "copy_details": {
           "content_type": "FACEBOOK_REEL_EN_US",
-          "caption_contains_hashtags": true,
-          "hashtag_count": 3,
-          "first_comment_separate": true,
-          "english_tone": "REVIEWED",
-          "script_alignment": "REVIEWED_AGAINST_PLANNED_EP01_BEATS",
-          "source_video_alignment": "PENDING_VIDEO",
-          "final_publication_copy_qa": "PENDING_VIDEO",
-          "notes": "Owner-requested draft for one-click copy on website. Do not mark Final QA PASS or Published before actual Dola 10-second source is reviewed."
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicHorror",
+            "#GiantAlien"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still and season story arc; no final beat storyboard yet",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
         }
       },
       "still": {
@@ -127,9 +132,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Three stars disappeared. Something noticed.\n\nOne by one, three distant lights vanish above the Moon. Then the red markings on an enormous hidden face begin to glow.\n\nThe stars weren't the only things watching Earth.\n\nThe deeper we look into the dark, the more it looks back.\n\nFollow the next Colossus Signal transmission.\n\n#ColossusSignal #CosmicMystery #SpaceHorror",
+        "first_comment": "📡 TRANSMISSION 002\n\nThe three lights go out separately. The red glow is already part of one colossal face—not a new star, and not a weapon. Was it hiding where the stars used to be, or did their disappearance expose it?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicMystery",
+            "#SpaceHorror"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "Three stars were missing. Then the red glow appeared.\n\nBeyond the Moon, a colossal face emerged among the drifting debris. Those burning red marks are not distant suns. They belong to something watching the space where the lights disappeared.\n\nLook closely at the darkness around its face.\n\n#ColossusSignal #SpaceHorror #CosmicMystery",
@@ -241,9 +262,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Even a giant knew when to turn out the light.\n\nA thin cyan fissure shines through armor larger than anything on Earth.\n\nThen the plates begin closing. The glow shrinks to a hairline. The last trace vanishes.\n\nIt wasn't losing power. It was trying not to be seen.\n\nWhatever is out there has taught giants to fear a single spark.\n\nStay with the signal. The next warning comes from the sea.\n\n#ColossusSignal #SciFiHorror #CosmicEntity",
+        "first_comment": "📡 TRANSMISSION 003\n\nWatch the seam, not the planet. Each layer closes over the same cyan light until the shell nearly disappears into space. What could make a creature that enormous choose total darkness?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#SciFiHorror",
+            "#CosmicEntity"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "A giant was trying to hide its own light.\n\nA blue fissure burned through a colossal black shell above Earth. Its armored surface curved inward around the glow, as if even that small signal had become dangerous to reveal.\n\nStay with the signal. The next anomaly reaches the ocean.\n\n#ColossusSignal #SciFiHorror #AlienTitan",
@@ -355,9 +392,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The ocean began falling before the hand touched anything.\n\nA colossal hand hangs motionless above the clouds.\n\nBelow it, a small swirl becomes a spinning funnel. The water sinks farther and farther until the sea opens into a bottomless-looking abyss.\n\nNo impact. No warning. Just an impossible force pulling the ocean away.\n\nWhat would frighten you more—the hand or the hole it left behind?\n\n#ColossusSignal #PlanetaryHorror #CosmicHorror",
+        "first_comment": "📡 TRANSMISSION 004\n\nThe hand never touches the water. The terrifying change happens below it: a shallow swirl becomes a huge, deep chasm. If the fingers aren't making contact, what is doing the pulling?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#PlanetaryHorror",
+            "#CosmicHorror"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "The ocean moved before the hand ever touched it.\n\nA colossal hand hung over Earth's waters. Far below, the sea folded toward a circular abyss, while the giant remained suspended above the clouds. The distance between them was the frightening part.\n\nWould you have watched the water—or the hand?\n\n#ColossusSignal #PlanetaryHorror #CosmicHorror",
@@ -475,9 +528,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The rocks didn't fall toward Earth. They fled upward.\n\nFirst, a few fragments change direction. Then entire streams of asteroids begin racing away from the planet.\n\nEvery piece is drawn toward the same dark ring.\n\nNothing explodes. The ring barely moves.\n\nAnd somehow, the direction of gravity has become the most frightening thing in the sky.\n\nFollow Colossus Signal to see what the darkness pulls next.\n\n#ColossusSignal #GravityAnomaly #SpaceHorror",
+        "first_comment": "📡 TRANSMISSION 005\n\nTrace one small fragment from the lower field to the upper-right opening. The rocks move away from Earth, not toward it. The ring stays still while everything else changes course.",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#GravityAnomaly",
+            "#SpaceHorror"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "The debris was falling in the wrong direction.\n\nThousands of rocks drifted away from Earth's night side and toward a vast black opening. Whatever waited beyond that ring seemed to pull the fragments through space instead of letting them fall.\n\nTrace the path of the smallest pieces.\n\n#ColossusSignal #SpaceHorror #GravityAnomaly",
@@ -589,9 +658,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Earth went dark one city at a time.\n\nFrom orbit, the night side still shines.\n\nThen a vast shadow advances. One cluster of lights fades. Another follows. Soon entire regions are swallowed by a darkness that doesn't behave like night.\n\nThere is no blast to hear.\n\nOnly the terrible realization that the lights are disappearing beneath something immense.\n\nFind the last lights before they vanish.\n\n#ColossusSignal #DarkSciFi #PlanetaryHorror",
+        "first_comment": "📡 TRANSMISSION 006\n\nIt's a moving boundary, not an instant blackout. Compare the lit regions at the beginning with the scattered lights near the end. The thing above Earth barely has to move.",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#DarkSciFi",
+            "#PlanetaryHorror"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "Earth's lights didn't disappear all at once.\n\nA vast shadow spread across the planet's night side. Some cities still glowed beneath the clouds; others faded into an unnatural darkness. Above Earth, the source of that shadow was almost impossible to separate from space.\n\nFind where the darkness begins.\n\n#ColossusSignal #DarkSciFi #PlanetaryHorror",
@@ -699,9 +784,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "One giant entered the red darkness. It never came back.\n\nAbove Earth, one titan reaches toward a blazing red boundary. Another colossal figure drifts beyond the edge.\n\nThe opening offers no view of the other side.\n\nFor a moment, the two seem close enough to touch.\n\nThen there is only the red void—and the question of what waits inside.\n\nFollow the next transmission. The others are about to stop.\n\n#ColossusSignal #CosmicHorror #AlienTitan",
+        "first_comment": "📡 TRANSMISSION 007\n\nThere are two separate giants: one stays nearer Earth while the other crosses the boundary. The red opening doesn't reveal a destination. Did it choose to enter—or was it being drawn in?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicHorror",
+            "#AlienTitan"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still and season story arc; no final beat storyboard yet",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "One giant crossed the red boundary. Another stayed behind.\n\nA distant titan drifted into the blazing dark opening while a second colossal figure reached from above Earth. The space between them was closing, but the opening offered no glimpse of what lay beyond.\n\nWould you have followed it into the red void?\n\n#ColossusSignal #CosmicHorror #AlienTitan",
@@ -761,9 +862,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "Three giants saw the same thing. All three stopped.\n\nThey tower above Earth, different in shape but suddenly united by the same reaction.\n\nTheir bodies go still. Their attention turns upward, away from the planet.\n\nThe threat isn't shown in full.\n\nBut if three colossal beings are afraid to take another step, the silence tells us enough.\n\nWatch where all three are looking.\n\n#ColossusSignal #CosmicHorror #AlienGiants",
+        "first_comment": "📡 TRANSMISSION 008\n\nNone of the three guardians is watching Earth. Their attention converges on something above them. What could stop three beings that once seemed unstoppable?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicHorror",
+            "#AlienGiants"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still and season story arc; no final beat storyboard yet",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "Three titans stopped facing the same darkness.\n\nAbove Earth, three distinct colossal figures held their ground beneath an impossible vertical mass. None faced the planet. Their attention was fixed upward, as though they had all recognized the same danger.\n\nWhich detail tells you they are afraid?\n\n#ColossusSignal #CosmicHorror #AlienGiants",
@@ -823,9 +940,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "We called it a doorway. What if it was part of a body?\n\nA vast black ring hangs above Earth. The closer we look, the stranger its layered edges become.\n\nThey don't feel like machinery. They seem to fold around a living darkness.\n\nWe still can't see the whole thing.\n\nMaybe the shape was never behind the void. Maybe the void was part of the shape.\n\nLook again at the edges, not the center.\n\n#ColossusSignal #CosmicMystery #SciFiHorror",
+        "first_comment": "📡 TRANSMISSION 009\n\nThe reveal is deliberately incomplete. You can see layered structures around the opening, not an entire monster. If that ring belongs to something alive, how large would the rest of it have to be?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicMystery",
+            "#SciFiHorror"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still and season story arc; no final beat storyboard yet",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "What if the darkness wasn't a doorway?\n\nA colossal ring loomed over Earth while tiny giants gathered near its edge. The curved black layers around the opening looked less like machinery and more like parts of a hidden body. We may have been looking at it all along.\n\nLook again at the structure surrounding the void.\n\n#ColossusSignal #CosmicMystery #SciFiHorror",
@@ -885,9 +1018,25 @@
         "url": null,
         "status": "NOT CREATED",
         "qa": "WAITING",
-        "caption": null,
-        "first_comment": null,
-        "copy_qa": "WAITING"
+        "caption": "The giants weren't coming for us. They were standing in front of us.\n\nThree colossal figures gather above Earth.\n\nFor once, they don't face the planet. They turn toward the same lightless threat and hold their positions between it and our world.\n\nThe beings we feared have become the last thing standing in its way.\n\nBut a shield only matters when something is about to strike.\n\nFollow the Halloween finale. The darkness is about to answer.\n\n#ColossusSignal #CosmicHorror #HalloweenSciFi",
+        "first_comment": "📡 TRANSMISSION 010\n\nLook at the formation: three figures, all facing outward, with Earth behind them. Nothing in their posture resembles an invasion. Is this the first time the giants are protecting us?",
+        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_details": {
+          "content_type": "FACEBOOK_REEL_EN_US",
+          "caption_includes_hashtags": true,
+          "hashtags": [
+            "#ColossusSignal",
+            "#CosmicHorror",
+            "#HalloweenSciFi"
+          ],
+          "first_pinned_comment_separate": true,
+          "copywriting_qa": "PASS",
+          "planned_story_alignment": "PASS",
+          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "publication_status": "UNCONFIRMED",
+          "source_basis": "master still and season story arc; no final beat storyboard yet",
+          "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+        }
       },
       "still": {
         "caption": "The giants weren't surrounding Earth. They were shielding it.\n\nThree colossal figures stood between the planet and a lightless opening in the sky. The beings that once terrified us now faced outward—toward something too vast to confront alone.\n\nFollow the signal into the Halloween finale.\n\n#ColossusSignal #CosmicHorror #HalloweenSciFi",
@@ -953,9 +1102,25 @@
       "url": null,
       "status": "NOT CREATED",
       "qa": "WAITING",
-      "caption": null,
-      "first_comment": null,
-      "copy_qa": "WAITING"
+      "caption": "The giants finally showed us what they feared.\n\nThree guardians formed Earth's last shield.\n\nBut when the final transmission reaches us, only two are visible.\n\nBehind them, a living darkness rises on a scale that makes even those giants look small. Earth is outside the frame. The third guardian is nowhere in sight.\n\nThen the enormous presence turns our way.\n\nIT FOUND US.\n\nThe signal ends here. The mystery doesn't. Where did the third giant go?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",
+      "first_comment": "📡 HALLOWEEN FINAL TRANSMISSION\n\nTwo guardians remain in the frame. Earth and the third are unseen. The thing they feared is finally visible at a scale none of them can match. What do you think happened to the missing guardian?",
+      "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+      "copy_details": {
+        "content_type": "FACEBOOK_REEL_EN_US",
+        "caption_includes_hashtags": true,
+        "hashtags": [
+          "#ColossusSignal",
+          "#CosmicHorror",
+          "#HalloweenHorror"
+        ],
+        "first_pinned_comment_separate": true,
+        "copywriting_qa": "PASS",
+        "planned_story_alignment": "PASS",
+        "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+        "publication_status": "UNCONFIRMED",
+        "source_basis": "master still and season story arc; no final beat storyboard yet",
+        "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
+      }
     },
     "still": {
       "caption": "Three giants formed the last shield.\n\nBut in the final transmission, only two guardians remained visible.\n\nBehind them, the darkness finally revealed a face—a living cosmic giant so immense that even the defenders looked small. Earth was beyond the frame. One guardian was missing.\n\nThen the thing turned toward us.\n\nIT FOUND US.\n\nWhere did the third guardian go?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",

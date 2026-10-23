@@ -74,15 +74,27 @@ def main():
         # This read-only probe downloads one approved still and one approved Reel,
         # never changing Google sharing and never calling Facebook POST.
         from autopost import fetch_drive_bytes
-        for kind, ep in (("still", stills[0]), ("reel", reels[0])):
-            link = ep["master"]["url"] if kind == "still" else ep["reel"]["url"]
-            try:
-                data = fetch_drive_bytes(link, "public_drive")
-                result("public_drive_" + kind, "PASS",
-                       "Approved public-link media successfully downloaded from Drive")
-            except Exception:
-                result("public_drive_" + kind, "HOLD",
-                       "Public link inaccessible. Owner must explicitly share only approved SS3 media")
+        selected = (("EP04", "CS-OCT-004"), ("SEASON_END", "CS-OCT-SP01"))
+        all_ok = True
+        for label, episode_id in selected:
+            for kind, approved in (("still", stills), ("reel", reels)):
+                ep = next((e for e in approved if e["id"] == episode_id), None)
+                if ep is None:
+                    result("drive_" + label + "_" + kind, "HOLD", "Approved media not registered")
+                    all_ok = False
+                    continue
+                link = ep["master"]["url"] if kind == "still" else ep["reel"]["url"]
+                try:
+                    data = fetch_drive_bytes(link, "public_drive")
+                    result("drive_" + label + "_" + kind, "PASS",
+                           "Owner-approved photo/video file fully downloadable")
+                except Exception:
+                    result("drive_" + label + "_" + kind, "HOLD",
+                           "Public Drive file inaccessible; verify sharing before publishing")
+                    all_ok = False
+        result("drive_launch_assets", "PASS" if all_ok else "HOLD",
+               "EP04 and final Special photo/Reel readable" if all_ok else
+               "At least one launch or finale asset cannot be read")
         result("live_publish", "OFF", "Read-only probe; no Facebook POST")
         return
 

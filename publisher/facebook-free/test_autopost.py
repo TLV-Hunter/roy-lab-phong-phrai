@@ -184,5 +184,45 @@ class GoogleDriveAuthTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "not configured"):
                 publisher.get_drive_access_token()
 
+
+class PublicDriveMockTests(unittest.TestCase):
+    """Anonymous Drive download is opt-in, valid media only, and never posts."""
+
+    def test_public_drive_png_with_mock_gdown(self):
+        import gdown
+        valid_png = b"\x89PNG\r\n\x1a\n" + b"0" * 1800
+        def fake_download(*, id, output, quiet, use_cookies):
+            self.assertEqual(id, "public-test")
+            self.assertFalse(use_cookies)
+            Path(output).write_bytes(valid_png)
+            return output
+        with patch.object(gdown, "download", side_effect=fake_download):
+            actual = publisher.fetch_drive_bytes(
+                "https://drive.google.com/file/d/public-test/view", "public_drive")
+        self.assertEqual(actual, valid_png)
+
+    def test_public_drive_rejects_html_download(self):
+        import gdown
+        invalid_html = b"<html>" + b"x" * 1900
+        def fake_download(**kwargs):
+            Path(kwargs["output"]).write_bytes(invalid_html)
+            return kwargs["output"]
+        with patch.object(gdown, "download", side_effect=fake_download):
+            with self.assertRaisesRegex(RuntimeError, "non-media"):
+                publisher.fetch_drive_bytes(
+                    "https://drive.google.com/file/d/public-test/view", "public_drive")
+
+    def test_public_drive_missing_permission_holds(self):
+        import gdown
+        with patch.object(gdown, "download", return_value=None):
+            with self.assertRaisesRegex(RuntimeError, "Public Drive download failed"):
+                publisher.fetch_drive_bytes(
+                    "https://drive.google.com/file/d/public-test/view", "public_drive")
+
+    def test_unknown_media_mode_fails_closed(self):
+        with self.assertRaisesRegex(ValueError, "Unknown Drive"):
+            publisher.fetch_drive_bytes(
+                "https://drive.google.com/file/d/public-test/view", "insecure-other")
+
 if __name__ == "__main__":
     unittest.main()

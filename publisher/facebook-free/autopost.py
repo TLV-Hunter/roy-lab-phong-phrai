@@ -159,8 +159,8 @@ def fetch_public_drive_bytes(url):
         if not 1000 < file_size < 1_073_741_824:
             raise RuntimeError("Downloaded media file missing or too large")
         raw = Path(filename).read_bytes()
-        if not (raw.startswith(b"\\x89PNG\\r\\n\\x1a\\n") or
-                raw.startswith(b"\\xff\\xd8\\xff") or
+        if not (raw.startswith(b"\x89PNG\r\n\x1a\n") or
+                raw.startswith(b"\xff\xd8\xff") or
                 b"ftyp" in raw[4:16]):
             raise RuntimeError("Public Drive returned a non-media file instead of approved image/video")
         return raw

@@ -97,6 +97,7 @@ def make_plan(config, now):
                     "caption": caption,
                     "first_comment": first_comment,
                     "credential_key": settings.get("credential_key", brand),
+                    "media_mode": settings.get("media_download_mode", "private_oauth"),
                 })
     return result
 
@@ -144,7 +145,32 @@ def get_drive_access_token():
     return token.json()["access_token"]
 
 
-def fetch_drive_bytes(url):
+def fetch_public_drive_bytes(url):
+    """Explicit opt-in to anonymous downloads; never uses a browser session or Google cookies."""
+    import tempfile
+    import gdown
+    fid = drive_file_id(url)
+    with tempfile.TemporaryDirectory() as directory:
+        filename = str(Path(directory) / "approved-media.bin")
+        path = gdown.download(id=fid, output=filename, quiet=True, use_cookies=False)
+        if path != filename or not Path(filename).is_file():
+            raise RuntimeError("Public Drive download failed. File/folder sharing must allow Anyone with the link")
+        file_size = Path(filename).stat().st_size
+        if not 1000 < file_size < 1_073_741_824:
+            raise RuntimeError("Downloaded media file missing or too large")
+        raw = Path(filename).read_bytes()
+        if not (raw.startswith(b"\\x89PNG\\r\\n\\x1a\\n") or
+                raw.startswith(b"\\xff\\xd8\\xff") or
+                b"ftyp" in raw[4:16]):
+            raise RuntimeError("Public Drive returned a non-media file instead of approved image/video")
+        return raw
+
+
+def fetch_drive_bytes(url, mode="private_oauth"):
+    if mode == "public_drive":
+        return fetch_public_drive_bytes(url)
+    if mode != "private_oauth":
+        raise ValueError("Unknown Drive access method: fail closed")
     access = get_drive_access_token()
     fid = drive_file_id(url)
     media = requests.get(
@@ -320,7 +346,7 @@ def run(args):
             print(f"SKIP duplicate/reserved: {item['key']}")
             continue
         try:
-            data = fetch_drive_bytes(item["media_url"])
+            data = fetch_drive_bytes(item["media_url"], item["media_mode"])
             if item["kind"] == "still":
                 post_id = publish_photo(page_id, page_token, data, item["caption"])
             else:

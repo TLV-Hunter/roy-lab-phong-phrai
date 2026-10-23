@@ -5,6 +5,7 @@ import base64
 import io
 import json
 import os
+import re
 from datetime import datetime, date, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -21,9 +22,9 @@ def load_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def eligible(brand_name, episode, kind):
+def eligible(content_format, episode, kind):
     """Return (eligible, reason, media_url, caption, first_comment)."""
-    if brand_name == "colossus":
+    if content_format in ("canonical_ss3", "colossus_ss3"):
         asset = episode.get("master", {}) if kind == "still" else episode.get("reel", {})
         copy = episode.get("still", {}) if kind == "still" else episode.get("reel", {})
         url = asset.get("url")
@@ -35,7 +36,7 @@ def eligible(brand_name, episode, kind):
         if not (good_media and good_copy):
             return False, "master/final Reel or corresponding public copy not QA PASS", None, None, None
         return True, "QA READY", url, copy["caption"], copy["first_comment"]
-    if brand_name == "rls":
+    if content_format == "rls_ss3":
         # RLS SS3 has historical JPEG previews and local-only videos: block until
         # real approved assets are mapped, not even a thumbnail fallback.
         if kind == "still":
@@ -57,22 +58,27 @@ def eligible(brand_name, episode, kind):
         if not (verified and copy and comment):
             return False, "RLS SS3 authoritative media or separate copy not yet verified/imported", None, None, None
         return True, "QA READY", url, copy, comment
-    return False, "unknown brand", None, None, None
+    return False, "unknown/unapproved content format", None, None, None
 
 
 def make_plan(config, now):
     tz = ZoneInfo(config["timezone"])
     result = []
     for brand, settings in config["brands"].items():
-        source = load_json(ROOT / settings["content_path"])
+        if not re.fullmatch(r"[a-z0-9][a-z0-9_-]{0,40}", brand):
+            raise ValueError("Invalid brand slug in config")
+        rel = Path(settings["content_path"])
+        if rel.is_absolute() or ".." in rel.parts:
+            raise ValueError("Unsafe brand content path")
+        source = load_json(ROOT / rel)
         episodes = list(source["episodes"])
         if source.get("halloween_special"):
             episodes.append(source["halloween_special"])
         start = settings.get("start_date")
         for i, ep in enumerate(episodes):
             for kind in ("still", "reel"):
-                ok, reason, media_url, caption, first_comment = eligible(brand, ep, kind)
-                slot = settings["slots"][kind]
+                ok, reason, media_url, caption, first_comment = eligible(settings.get("content_format", "canonical_ss3"), ep, kind)
+                slot = settings.get("slots", config.get("defaults", {}).get("slots", {"still":"06:00","reel":"23:00"}))[kind]
                 day = (date.fromisoformat(start) + timedelta(days=i)).isoformat() if start else None
                 when = datetime.fromisoformat(day + "T" + slot).replace(tzinfo=tz) if day else None
                 result.append({
@@ -90,8 +96,7 @@ def make_plan(config, now):
                     "media_url": media_url,
                     "caption": caption,
                     "first_comment": first_comment,
-                    "page_id_env": settings["facebook_page_id_secret"],
-                    "page_token_env": settings["facebook_page_token_secret"],
+                    "credential_key": settings.get("credential_key", brand),
                 })
     return result
 
@@ -231,8 +236,34 @@ def state_replace(token, repository, key, new_data):
     r.raise_for_status()
 
 
+
+def page_credentials(credential_key):
+    """Allow unlimited brand keys without new workflow YAML edits.
+
+    Single GitHub Actions secret FB_PAGES_JSON:
+      {"colossus":{"page_id":"...","access_token":"..."},
+       "rls":{"page_id":"...","access_token":"..."}}
+    Legacy per-brand secrets remain optional for backward compatibility.
+    Never print or commit these values.
+    """
+    if not re.fullmatch(r"[a-z0-9][a-z0-9_-]{0,40}", credential_key):
+        raise ValueError("Invalid credential key")
+    all_pages = os.environ.get("FB_PAGES_JSON", "").strip()
+    if all_pages:
+        try:
+            pages = json.loads(all_pages)
+            settings = pages.get(credential_key, {})
+            return settings.get("page_id"), settings.get("access_token")
+        except (ValueError, TypeError):
+            raise RuntimeError("FB_PAGES_JSON secret must be a JSON object")
+    legacy = credential_key.upper().replace("-", "_")
+    return (os.environ.get("FB_PAGE_ID_" + legacy),
+            os.environ.get("FB_PAGE_TOKEN_" + legacy))
+
+
 def run(args):
     config = load_json(CONFIG)
+    assert config["timezone"] == "Asia/Bangkok", "Publishing timezone must remain Asia/Bangkok"
     now = datetime.now(ZoneInfo(config["timezone"]))
     plan = make_plan(config, now)
     if args.preview:
@@ -252,8 +283,7 @@ def run(args):
     for item in plan:
         if not (item["enabled"] and item["ready"] and item["due"]):
             continue
-        page_id = os.environ.get(item["page_id_env"])
-        page_token = os.environ.get(item["page_token_env"])
+        page_id, page_token = page_credentials(item["credential_key"])
         if not page_id or not page_token:
             print(f"HOLD {item['key']}: authorized Page secrets missing")
             continue

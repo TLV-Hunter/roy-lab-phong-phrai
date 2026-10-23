@@ -40,9 +40,28 @@ Episode 1 is assigned to the owner's future `start_date`; Episode 2 to the follo
 
 Keep this JSON only in **Settings → Secrets and variables → Actions → Repository secrets**. `FB_PAGES_JSON` is a single, extensible store. For backwards compatibility, `FB_PAGE_ID_COLOSSUS`/`FB_PAGE_TOKEN_COLOSSUS` and analogous RLS secrets may also work, but new Pages should use the JSON map.
 
-## Additional required private GitHub Secrets
+## Google Drive access — recommended service account (no OAuth refresh tokens)
 
-`GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN` for approved private Google Drive file reads (only a refresh token with the needed permission).
+**Recommended for Colossus and future Pages.** This method works on a free Google Cloud project (subject to Google's quota/policy) and does not require keeping the owner's personal OAuth refresh token current.
+
+1. Open https://console.cloud.google.com/ and create/select a project.
+2. APIs & Services → Library → search **Google Drive API** → Enable.
+3. IAM & Admin → Service Accounts → Create Service Account; name it `talentvee-drive-reader`. Project IAM role can be left empty; this account needs only access to the Drive folder you explicitly share.
+4. Open the service account → Keys → Add Key → Create new key → JSON. Download the private JSON file only to your machine, never to GitHub files or chat. If key creation is blocked by organization policy, use the existing OAuth fallback.
+5. Open the folder containing the Colossus SS3 Master Stills and Final Reels:
+   https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4
+   Share → paste the `client_email` shown in the JSON, choose **Viewer**, disable notifications if offered, Share. Do not enable anonymous link sharing.
+6. In https://github.com/TLV-Hunter/roy-lab-phong-phrai/settings/secrets/actions → New repository secret → Name `GOOGLE_SERVICE_ACCOUNT_JSON`, Value **the entire private JSON file content**, then save. Never use a plain GitHub variable for keys.
+7. Go to https://github.com/TLV-Hunter/roy-lab-phong-phrai/actions/workflows/facebook-free-multipage.yml → **Run workflow**. The read-only probe shows `drive_auth PASS`, `drive_still_access PASS`, and `drive_reel_access PASS` when correctly configured. It does NOT publish anything.
+
+Google's official guidance allows sharing a Drive folder with a service account email without domain-wide delegation or an IAM project role:
+https://developers.google.com/workspace/guides/create-credentials
+
+Existing alternative: GitHub Secrets `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN`. If `GOOGLE_SERVICE_ACCOUNT_JSON` is present, the app prefers it over OAuth. Both credentials types use read-only Drive access in this publisher.
+
+## Optional legacy Google Drive OAuth Secrets
+
+`GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN` are needed **only if you do not use** the recommended Service Account JSON secret.
 The workflow automatically provides a scoped `GITHUB_TOKEN` to persist receipts. In **Actions variables**, eventually set `FB_GRAPH_VERSION` to an API version supported by the connected Meta App (default in script `v26.0`). Do NOT expose secrets in local files or browser.
 
 For Facebook Page permissions, request those actually needed via Meta's official app/consent flow: `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, plus `pages_manage_engagement` if posting first comments. App review and token renewal requirements depend on the Page/App relationship. Uploading media/finishing Reels and posting comments must be tested live on an authorized test Page; do not mistake an HTTP upload acceptance for verification of a published Facebook post.

@@ -1,13 +1,13 @@
 {
   "campaign": "RLS_SS3",
   "season": "THE FOREST UNLEASHED",
-  "updated": "2026-10-22",
+  "updated": "2026-10-23 23:43 Asia/Bangkok",
   "audience": "USA-first / English",
   "planned_window": "2026-10-21 through 2026-10-31",
   "title": "GIANT WILDLIFE × CRYPTID ACTION",
   "source": "Still caption and QA pack on main",
-  "image_delivery": "Historical JPG previews only; current approved PNGs must be mapped individually. No native 4K verification.",
-  "publication_truth": "NO CONFIRMED SOCIAL POSTS",
+  "image_delivery": "LATEST CHAT MASTERS, STARTERS AND STORYBOARDS ARE NOT TRANSFERRED TO GITHUB; EP01–06 legacy JPG PREVIEWS only. EP07–11 intentionally no outdated image displayed.",
+  "publication_truth": "0 VERIFIED SS3 FACEBOOK/INSTAGRAM POSTS OR PINNED COMMENTS",
   "social_connection": "Facebook Metricool disconnected (historic ERROR), must reconnect and confirm",
   "master_stills": 0,
   "starter_frames_ready": 0,
@@ -20,17 +20,17 @@
       "title": "IT CAME THROUGH THE TREES",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-01-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 96
       },
       "starter_frame": {
-        "status": "OLD_STARTER_PREVIEW_NEEDS_CONTINUITY_REVIEW",
+        "status": "HISTORICAL_STARTER_REVIEW_REQUIRED",
         "image_url": "./assets/rls-ss3/ss3-01-starter.jpg",
         "qa1_score": null,
         "qa2_visual": "REQUIRES_REVIEW",
@@ -39,11 +39,12 @@
         "generation_video_status": "NOT_RENDERED"
       },
       "final_reel": {
-        "status": "LOCAL_QA_PASS_NOT_UPLOADED",
-        "video_url": null
+        "status": "LOCAL_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "The truck was already trapped in the mud. Then the trees exploded around it. 🌿\nFile 01: A giant horned creature and one very unlucky ranger vehicle. Follow The Hidden Forest Archive for the next encounter.\n\nFictional AI-generated creature scene.\n#CreatureEncounter #ForestHorror #Cryptid #TheHiddenForestArchive",
-      "first_comment": "That horned creature barely looks slowed down. Would a steel truck stand a chance against something this heavy?",
+      "still_caption": "A colossal horned beast bursts out of the rainforest and slams into a ranger jeep. One charge. One devastating impact.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#CreatureEncounter #GiantCreature #Cryptid #ForestHorror #TheHiddenForestArchive",
+      "first_comment": "That thing hit the jeep like it weighed 20 tons. Would you RUN or stay inside?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#CreatureEncounter",
@@ -52,19 +53,56 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant forest creature",
-        "horned cryptid",
-        "jungle truck encounter",
-        "monster in rainforest"
+        "it came through the trees",
+        "horned beast vs gray ranger jeep",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "NOT_VERIFIED_ON_SITE",
-        "image_url": null
-      }
+        "status": "NOT_TRANSFERRED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "An intact jeep waits on a muddy forest road"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Branches crack; two curved horns appear"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "The giant beast charges and lowers its head"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE contact bends metal and cracks glass"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Jeep rocks once; mud and debris settle"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "The beast faces the camera and retreats"
+          }
+        ]
+      },
+      "scene_lock": "Horned beast vs gray ranger jeep",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Horned beast vs gray ranger jeep. Beat timing: 0–1.5s An intact jeep waits on a muddy forest road; 1.5–3s Branches crack; two curved horns appear; 3–4.5s The giant beast charges and lowers its head; 4.5–6s ONE contact bends metal and cracks glass; 6–8s Jeep rocks once; mud and debris settle; 8–10s The beast faces the camera and retreats. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-02",
@@ -73,25 +111,26 @@
       "title": "THE CROCODILE BIT FIRST",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-02-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "One muddy riverbank. Two massive predators. Neither has room to retreat. 🐊\nFile 02: A giant python meets a saltwater crocodile. Which one strikes first? Follow the archive for the next creature encounter.\n\nFictional AI-generated wildlife scene.\n#GiantPython #Crocodile #PredatorEncounter #TheHiddenForestArchive",
-      "first_comment": "Notice how close the python's head is to the crocodile's jaws. What is each animal's biggest advantage in this fictional matchup?",
+      "still_caption": "The crocodile made the first move… BIG mistake. 🐊🐍 A colossal python meets a monster crocodile in a battle of jaws and coils. One crushing bite. Neither predator backs down.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantPython #CrocodileVsPython #GiantCreatures #WildlifeBattle #TheHiddenForestArchive",
+      "first_comment": "Jaws or coils? 🐊🐍 Which giant would you bet on?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#GiantPython",
@@ -100,46 +139,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant python vs crocodile",
-        "predator encounter",
-        "rainforest river battle",
-        "giant reptiles"
+        "the crocodile bit first",
+        "colossal reticulated python vs saltwater crocodile",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Snake and crocodile face off across muddy water"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Crocodile advances as python tightens its coils"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "The crocodile angles toward the python's mid-body"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE bite grips the mid-body, not the snake's head"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Both animals thrash, displacing muddy water"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "The crocodile still grips while python coils pull"
+          }
+        ]
+      },
+      "scene_lock": "Colossal reticulated python vs saltwater crocodile",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Colossal reticulated python vs saltwater crocodile. Beat timing: 0–1.5s Snake and crocodile face off across muddy water; 1.5–3s Crocodile advances as python tightens its coils; 3–4.5s The crocodile angles toward the python's mid-body; 4.5–6s ONE bite grips the mid-body, not the snake's head; 6–8s Both animals thrash, displacing muddy water; 8–10s The crocodile still grips while python coils pull. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-03",
       "episode_number": 3,
       "date": "2026-10-23",
-      "title": "THE SKY HIT THE WATCHTOWER",
+      "title": "SKY STRIKE",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-03-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "The watchtower was empty. The impact still shattered the railing. 🪶\nFile 03: Whatever crossed the canopy had wings wider than the platform. Follow The Hidden Forest Archive—there's more moving above the trees.\n\nFictional AI-generated creature scene.\n#PrehistoricBird #ForestMystery #CreatureEncounter #TheHiddenForestArchive",
-      "first_comment": "Look at the broken railing near the wingtip. How big would this bird need to be to hit the upper platform?",
+      "still_caption": "THE SKY JUST TURNED INTO A NIGHTMARE. 🦅💥 A colossal eagle dives out of the clouds and smashes the upper rail of an empty wooden rainforest watchtower. Nobody thought to look UP.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantEagle #MonsterAttack #GiantCreatures #ForestHorror #TheHiddenForestArchive",
+      "first_comment": "Imagine hearing those wings… then the tower railing breaks. Would you have spotted it?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#PrehistoricBird",
@@ -148,46 +225,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant prehistoric bird",
-        "rainforest watchtower",
-        "wing strike",
-        "cryptid flying encounter"
+        "sky strike",
+        "giant copper-brown eagle strikes empty wooden watchtower",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Eagle flies toward intact empty tower"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Huge feathered wings beat and bird descends"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "One talon stretches toward the upper balcony"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE foot strikes rail; wood fractures at contact"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Bird turns away and splinters fall"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Eagle flies beyond the tower as debris settles"
+          }
+        ]
+      },
+      "scene_lock": "Giant copper-brown eagle strikes empty wooden watchtower",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Giant copper-brown eagle strikes empty wooden watchtower. Beat timing: 0–1.5s Eagle flies toward intact empty tower; 1.5–3s Huge feathered wings beat and bird descends; 3–4.5s One talon stretches toward the upper balcony; 4.5–6s ONE foot strikes rail; wood fractures at contact; 6–8s Bird turns away and splinters fall; 8–10s Eagle flies beyond the tower as debris settles. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-04",
       "episode_number": 4,
       "date": "2026-10-24",
-      "title": "THE BOAR PICKED THE WRONG FIGHT",
+      "title": "WRONG OPPONENT",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-04-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "The boar charged straight in. The armored predator didn't move aside. 🐗\nFile 04: One muddy clearing, two animals built to hit hard. Tomorrow's forest encounter brings an even stranger opponent.\n\nFictional AI-generated wildlife scene.\n#WildBoar #CreatureBattle #Rainforest #TheHiddenForestArchive",
-      "first_comment": "The boar has speed. The armored reptile has reach and a low center of gravity. Which advantage matters more here?",
+      "still_caption": "HE CHARGED THE WRONG CREATURE. 🐗🦎 A massive wild boar charges straight toward a giant monitor lizard. Two monsters, one muddy battlefield, zero fear.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantWildBoar #GiantMonitorLizard #CreatureBattle #JungleMonsters #TheHiddenForestArchive",
+      "first_comment": "🐗 Tusks and strength vs. 🦎 jaws and claws. Who wins?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#WildBoar",
@@ -196,46 +311,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "wild boar vs giant monitor",
-        "predator confrontation",
-        "tropical rainforest",
-        "creature battle"
+        "wrong opponent",
+        "giant dark shaggy boar vs gold-spotted monitor",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Two animals face one another across a muddy gap"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Boar snorts and monitor braces"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Wild boar lowers head and charges"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE impact causes localized splashes"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Both animals recoil and recover their feet"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "They hold a tense standoff"
+          }
+        ]
+      },
+      "scene_lock": "Giant dark shaggy boar vs gold-spotted monitor",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Giant dark shaggy boar vs gold-spotted monitor. Beat timing: 0–1.5s Two animals face one another across a muddy gap; 1.5–3s Boar snorts and monitor braces; 3–4.5s Wild boar lowers head and charges; 4.5–6s ONE impact causes localized splashes; 6–8s Both animals recoil and recover their feet; 8–10s They hold a tense standoff. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-05",
       "episode_number": 5,
       "date": "2026-10-25",
-      "title": "THE TIGER COULDN'T MOVE IT",
+      "title": "TIGER ASSAULT",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-05-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "A tiger went all in. Its claws met something they couldn't get through. 🐅\nFile 05: This unknown forest giant carries its own armor. Follow The Hidden Forest Archive for the next encounter below the jungle floor.\n\nFictional AI-generated creature scene.\n#TigerEncounter #ArmoredCreature #WildlifeHorror #TheHiddenForestArchive",
-      "first_comment": "The scales look like armor plates. What kind of defense would a creature this size need against a tiger?",
+      "still_caption": "EVEN A TIGER HAS MET ITS MATCH. 🐅 One fearless tiger launches itself onto a giant armored beast. Claws meet scales—but the creature barely moves.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#TigerAttack #ArmoredMonster #GiantCreatures #CreatureBattle #TheHiddenForestArchive",
+      "first_comment": "That tiger went ALL IN. Could its claws ever get through the armor?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#TigerEncounter",
@@ -244,46 +397,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "tiger vs armored creature",
-        "giant pangolin-like beast",
-        "wildlife monster battle",
-        "rainforest predator"
+        "tiger assault",
+        "orange tiger leaps onto armored brown reptile",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Tiger is already airborne toward armored beast"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Tiger extends forepaws"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Claws meet organic scale armor"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "Tiger lands and shifts the creature's weight"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Armored beast tries to shake tiger free"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Two animals remain in struggle"
+          }
+        ]
+      },
+      "scene_lock": "Orange tiger leaps onto armored brown reptile",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Orange tiger leaps onto armored brown reptile. Beat timing: 0–1.5s Tiger is already airborne toward armored beast; 1.5–3s Tiger extends forepaws; 3–4.5s Claws meet organic scale armor; 4.5–6s Tiger lands and shifts the creature's weight; 6–8s Armored beast tries to shake tiger free; 8–10s Two animals remain in struggle. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-06",
       "episode_number": 6,
       "date": "2026-10-26",
-      "title": "SOMETHING BROKE THROUGH THE GROUND",
+      "title": "EARTHBREAKER",
       "master_still": {
         "image_url": "./assets/rls-ss3/ss3-06-master.jpg",
-        "format": "JPEG",
+        "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "HISTORICAL_WEB_PREVIEW_NEW_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93
       },
       "starter_frame": {
-        "status": "GENERATED_IN_CHAT_NOT_IMPORTED",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "The bridge didn't break from above. Something pushed through the earth beneath it. 🌧️\nFile 06: A segmented giant emerges where there should be solid ground. Follow the archive—the next encounter happens after dark.\n\nFictional AI-generated creature scene.\n#GiantCreature #Cryptid #JungleHorror #TheHiddenForestArchive",
-      "first_comment": "The planks gave way right over the burrow. What do you think an animal that tunnels through this much earth would feed on?",
+      "still_caption": "THE GROUND WAS NEVER SAFE. 😱🌍 A colossal underground creature erupts through the mud and rips apart a wooden bridge. What else is buried beneath this forest?\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#UndergroundMonster #GiantWorm #CreatureHorror #MonsterReveal #TheHiddenForestArchive",
+      "first_comment": "Would you run back over the bridge or jump into the mud?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#GiantCreature",
@@ -292,46 +483,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant burrowing worm",
-        "bridge collapse",
-        "underground cryptid",
-        "tropical jungle creature"
+        "earthbreaker",
+        "burrowing giant segmented worm breaks wooden rainforest bridge",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "PASS-TEST_PREVIOUS_SOURCE_NEW_POSTER_NOT_REVIEWED",
       "storyboard": {
-        "status": "GENERATED_IN_CHAT_PENDING_SITE_IMPORT",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Bridge intact, soil bulges underneath"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Earth cracks near far supports"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Enormous segmented body begins emerging"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "Pressure breaks wooden supports ONCE"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Giant circular mouth rises; planks fall"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Creature looms as broken timber settles"
+          }
+        ]
+      },
+      "scene_lock": "Burrowing giant segmented worm breaks wooden rainforest bridge",
+      "creative_qa_score": null,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Burrowing giant segmented worm breaks wooden rainforest bridge. Beat timing: 0–1.5s Bridge intact, soil bulges underneath; 1.5–3s Earth cracks near far supports; 3–4.5s Enormous segmented body begins emerging; 4.5–6s Pressure breaks wooden supports ONCE; 6–8s Giant circular mouth rises; planks fall; 8–10s Creature looms as broken timber settles. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-07",
       "episode_number": 7,
       "date": "2026-10-27",
-      "title": "IT CRUSHED THE FLOODLIGHT",
+      "title": "KING OF THE FOREST",
       "master_still": {
-        "image_url": "./assets/rls-ss3/ss3-07-master.jpg",
-        "format": "JPEG",
+        "image_url": null,
+        "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "REDESIGNED_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 92,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "NOT_QA_PASSED",
         "published": false,
         "qa1_score_legacy": 92
       },
       "starter_frame": {
-        "status": "SITE_PENDING",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "That wasn't thunder. It was a floodlight buckling under a horn. ⚡\nFile 07: An enormous forest beetle finds the research camp after dark. Follow The Hidden Forest Archive for tomorrow's river encounter.\n\nFictional AI-generated creature scene.\n#GiantBeetle #CreatureEncounter #NightForest #TheHiddenForestArchive",
-      "first_comment": "That lamp was steel-framed. How much force would it take to bend the stand like this?",
+      "still_caption": "THE KING HAS AWAKENED. 🦍👑 A colossal alpha gorilla rises high above a misty rainforest valley. The roar echoes between waterfalls. This forest has a ruler.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantGorilla #ForestKing #GiantMonster #RainforestMystery #TheHiddenForestArchive",
+      "first_comment": "Would you stand and watch this giant above the waterfalls—or leave immediately?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#GiantBeetle",
@@ -340,46 +569,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant rhinoceros beetle",
-        "research camp at night",
-        "insect collision",
-        "forest floodlight"
+        "king of the forest",
+        "colossal charcoal-brown alpha gorilla on misty waterfall cliff; no vehicle",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
       "creative_qa_status": "REVISE",
       "storyboard": {
-        "status": "NOT_VERIFIED_ON_SITE",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Gorilla silhouette on distant cliff through mist"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Alpha moves through thick bamboo"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Climbs and stands on mossy ledge"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "It lets out ONE roar and beats chest"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Heavy footfalls loosen rocks on the cliff"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Gorilla holds dominant pose above waterfalls"
+          }
+        ]
+      },
+      "scene_lock": "Colossal charcoal-brown alpha gorilla on misty waterfall cliff; no vehicle",
+      "creative_qa_score": 88,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Colossal charcoal-brown alpha gorilla on misty waterfall cliff; no vehicle. Beat timing: 0–1.5s Gorilla silhouette on distant cliff through mist; 1.5–3s Alpha moves through thick bamboo; 3–4.5s Climbs and stands on mossy ledge; 4.5–6s It lets out ONE roar and beats chest; 6–8s Heavy footfalls loosen rocks on the cliff; 8–10s Gorilla holds dominant pose above waterfalls. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-08",
       "episode_number": 8,
       "date": "2026-10-28",
-      "title": "THE RIVER STOOD UP",
+      "title": "TUSKS OF FURY",
       "master_still": {
-        "image_url": "./assets/rls-ss3/ss3-08-master.jpg",
-        "format": "JPEG",
+        "image_url": null,
+        "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "REDESIGNED_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 95,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "NOT_QA_PASSED",
         "published": false,
         "qa1_score_legacy": 95
       },
       "starter_frame": {
-        "status": "SITE_PENDING",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "First the river rose. Then something with teeth and whiskers rose with it. 🌊\nFile 08: The old walkway was never built for a creature this size. Follow The Hidden Forest Archive for tomorrow night's airborne encounter.\n\nFictional AI-generated creature scene.\n#RiverMonster #Cryptid #ForestHorror #TheHiddenForestArchive",
-      "first_comment": "Those whiskers suggest it can sense movement in murky water. Would you trust that walkway again?",
+      "still_caption": "NOTHING CAN STOP THOSE TUSKS. 🐘💥 A colossal prehistoric elephant tears through bamboo and floodwater beneath the waterfalls. A wooden outpost shakes in its path.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantElephant #PrehistoricBeast #JungleRampage #CreatureEncounter #TheHiddenForestArchive",
+      "first_comment": "Those tusks could snap a tree. Would you hide behind the outpost or run for higher ground?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#RiverMonster",
@@ -388,46 +655,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant river monster",
-        "whiskered freshwater cryptid",
-        "collapsed jungle walkway",
-        "river encounter"
+        "tusks of fury",
+        "massive tusked prehistoric elephant crashes through flooded bamboo and wooden outpost; no jeep",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "PASS-TEST",
+      "creative_qa_status": "FAIL",
       "storyboard": {
-        "status": "NOT_VERIFIED_ON_SITE",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Elephant approaches through jungle flood"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Four feet push powerful waves across mud"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Giant lowers its two tusks toward wood"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE shoulder-and-tusk impact snaps support"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Wood and water fall with natural gravity"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Elephant trumpets above the ruins"
+          }
+        ]
+      },
+      "scene_lock": "Massive tusked prehistoric elephant crashes through flooded bamboo and wooden outpost; no jeep",
+      "creative_qa_score": 83,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Massive tusked prehistoric elephant crashes through flooded bamboo and wooden outpost; no jeep. Beat timing: 0–1.5s Elephant approaches through jungle flood; 1.5–3s Four feet push powerful waves across mud; 3–4.5s Giant lowers its two tusks toward wood; 4.5–6s ONE shoulder-and-tusk impact snaps support; 6–8s Wood and water fall with natural gravity; 8–10s Elephant trumpets above the ruins. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-09",
       "episode_number": 9,
       "date": "2026-10-29",
-      "title": "THE WINGS COVERED THE ROAD",
+      "title": "SWAMP PREDATOR",
       "master_still": {
-        "image_url": "./assets/rls-ss3/ss3-09-master.jpg",
-        "format": "JPEG",
+        "image_url": null,
+        "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "REDESIGNED_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "PASS-TEST_SOURCE_IMAGE",
         "published": false,
         "qa1_score_legacy": 94
       },
       "starter_frame": {
-        "status": "SITE_PENDING",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "The headlights caught the wings. The cable flashed a second later. 🦇\nFile 09: A nocturnal creature crosses the forest road at impossible scale. Follow The Hidden Forest Archive—the final encounter is next.\n\nFictional AI-generated creature scene.\n#GiantBat #NightEncounter #Cryptid #TheHiddenForestArchive",
-      "first_comment": "The wings reach nearly from one side of the road to the other. What would you do if this shadow passed over your vehicle?",
+      "still_caption": "SOMETHING HUGE WAS UNDER THE WATER. 🌊😱 Two explorers enter a quiet jungle swamp. Then the surface erupts, and an enormous predator rises directly before their canoe.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#SwampMonster #GiantPredator #DeepWaterHorror #CryptidCreature #TheHiddenForestArchive",
+      "first_comment": "Would you freeze in the canoe or paddle for your life? 😳",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#GiantBat",
@@ -436,46 +741,84 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant bat cryptid",
-        "forest road encounter",
-        "creature flying over jeep",
-        "rainy night monster"
+        "swamp predator",
+        "enormous crocodilian cryptid emerges before two explorers in small canoe at orange swamp sunset; no jeep",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
-      "creative_qa_status": "REVISE",
+      "creative_qa_status": "PASS-TEST",
       "storyboard": {
-        "status": "NOT_VERIFIED_ON_SITE",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Two explorers paddle through quiet sunset swamp"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Armored back breaks water surface"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Giant predator's head rises from spray"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "Mouth opens in a powerful roar"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "Water displacement rocks canoe without collision"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "Predator towers over both explorers"
+          }
+        ]
+      },
+      "scene_lock": "Enormous crocodilian cryptid emerges before two explorers in small canoe at orange swamp sunset; no jeep",
+      "creative_qa_score": 93,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Enormous crocodilian cryptid emerges before two explorers in small canoe at orange swamp sunset; no jeep. Beat timing: 0–1.5s Two explorers paddle through quiet sunset swamp; 1.5–3s Armored back breaks water surface; 3–4.5s Giant predator's head rises from spray; 4.5–6s Mouth opens in a powerful roar; 6–8s Water displacement rocks canoe without collision; 8–10s Predator towers over both explorers. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
     },
     {
       "id": "SS3-10",
       "episode_number": 10,
       "date": "2026-10-30",
-      "title": "TWO TITANS ENTERED THE CLEARING",
+      "title": "HORNS OF DESTRUCTION",
       "master_still": {
-        "image_url": "./assets/rls-ss3/ss3-10-master.jpg",
-        "format": "JPEG",
+        "image_url": null,
+        "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "ARCHIVED_JPEG_PREVIEW_NOT_FINAL_MASTER",
+        "status": "REDESIGNED_CHAT_MASTER_NOT_UPLOADED",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
-        "qa2_visual": "PREVIEW_NOT_SOURCE_MATCHED",
+        "qa2_visual": "PASS-TEST_SOURCE_IMAGE",
         "published": false,
         "qa1_score_legacy": 96
       },
       "starter_frame": {
-        "status": "SITE_PENDING",
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED",
         "image_url": null
       },
       "final_reel": {
-        "status": "NOT_CREATED",
-        "video_url": null
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
       },
-      "still_caption": "Two giants met in the clearing. Neither backed down. 🌲\nFile 10: The horned beast faces a saber-toothed predator—and the forest is about to get louder. Follow The Hidden Forest Archive for the Halloween Special on October 31.\n\nFictional AI-generated creature scene.\n#CreatureBattle #ForestHorror #PrehistoricBeasts #TheHiddenForestArchive",
-      "first_comment": "The horned beast has mass; the saber-toothed hunter has speed. Which detail in this scene tells you how the fight might turn?",
+      "still_caption": "THE FOREST UNLEASHED A LIVING TANK. 🦏💥 A giant horned beast breaks through an ancient stone temple gate. Stone falls. Some doors should never have been opened.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#HornedMonster #AncientTemple #GiantBeast #MonsterBreakthrough #TheHiddenForestArchive",
+      "first_comment": "Could an ancient stone gateway ever stop this beast?",
       "first_comment_status": "NOT_POSTED",
       "hashtags": [
         "#CreatureBattle",
@@ -484,19 +827,132 @@
         "#TheHiddenForestArchive"
       ],
       "search_keywords": [
-        "giant forest beast vs saber predator",
-        "prehistoric creature showdown",
-        "monster encounter",
-        "Halloween giant creatures"
+        "horns of destruction",
+        "three-horned armored cryptid smashes moss-covered stone jungle temple gateway; no jeep",
+        "creature action",
+        "hidden forest archive"
       ],
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
       "actual_post_url": null,
       "creative_qa_status": "PASS-TEST",
       "storyboard": {
-        "status": "NOT_VERIFIED_ON_SITE",
-        "image_url": null
-      }
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Temple entrance trembles"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Three-horned creature pushes its head against lintel"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Stone cracks where horns make contact"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "ONE powerful surge breaks the masonry"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "The animal steps through rubble"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "It plants its feet and bellows"
+          }
+        ]
+      },
+      "scene_lock": "Three-horned armored cryptid smashes moss-covered stone jungle temple gateway; no jeep",
+      "creative_qa_score": 91,
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Three-horned armored cryptid smashes moss-covered stone jungle temple gateway; no jeep. Beat timing: 0–1.5s Temple entrance trembles; 1.5–3s Three-horned creature pushes its head against lintel; 3–4.5s Stone cracks where horns make contact; 4.5–6s ONE powerful surge breaks the masonry; 6–8s The animal steps through rubble; 8–10s It plants its feet and bellows. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED"
+    },
+    {
+      "id": "SS3-11",
+      "episode_number": 11,
+      "date": "2026-10-31",
+      "title": "FINAL HUNTER",
+      "scene_lock": "Halloween: one dark prehistoric theropod among torchlit ancient temple ruins beneath full moon; no jeep",
+      "still_caption": "THE FOREST SAVED ITS WORST NIGHTMARE FOR LAST. 🎃🦖 Something ancient walks among moonlit ruins. One forest. One final hunter. Happy Halloween from The Hidden Forest Archive.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#HalloweenHorror #PrehistoricMonster #GiantPredator #CreatureHorror #TheHiddenForestArchive",
+      "first_comment": "Which terrifying creature would you never want to meet again? 🎃",
+      "first_comment_status": "NOT_POSTED",
+      "search_keywords": [
+        "final hunter",
+        "halloween: one dark prehistoric theropod among torchlit ancient temple ruins beneath full moon; no jeep",
+        "creature action",
+        "hidden forest archive"
+      ],
+      "creative_qa_status": "REVISE",
+      "creative_qa_score": 87,
+      "master_still": {
+        "image_url": null,
+        "status": "REDESIGNED_CHAT_MASTER_NOT_UPLOADED",
+        "published": false,
+        "format": "PNG_LOCAL_PENDING_WEB",
+        "qa2_visual": "NOT_QA_PASSED"
+      },
+      "starter_frame": {
+        "image_url": null,
+        "status": "CHAT_CREATED_IMAGE_NOT_IMPORTED"
+      },
+      "storyboard": {
+        "status": "CHAT_CREATED_6_BEAT_BOARD_NOT_IMPORTED",
+        "image_url": null,
+        "duration_seconds": 10,
+        "beats": [
+          {
+            "from": 0,
+            "to": 1.5,
+            "action": "Full-moon temple in deep mist"
+          },
+          {
+            "from": 1.5,
+            "to": 3,
+            "action": "Colossal theropod emerges between ruins"
+          },
+          {
+            "from": 3,
+            "to": 4.5,
+            "action": "Heavy foot disturbs shallow water"
+          },
+          {
+            "from": 4.5,
+            "to": 6,
+            "action": "The prehistoric hunter unleashes ONE roar"
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "action": "It advances across moss-covered stones"
+          },
+          {
+            "from": 8,
+            "to": 10,
+            "action": "It stops and stares near the camera"
+          }
+        ]
+      },
+      "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Halloween: one dark prehistoric theropod among torchlit ancient temple ruins beneath full moon; no jeep. Beat timing: 0–1.5s Full-moon temple in deep mist; 1.5–3s Colossal theropod emerges between ruins; 3–4.5s Heavy foot disturbs shallow water; 4.5–6s The prehistoric hunter unleashes ONE roar; 6–8s It advances across moss-covered stones; 8–10s It stops and stares near the camera. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
+      "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED",
+      "final_reel": {
+        "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
+        "video_url": null,
+        "published": false
+      },
+      "publication_status": "NOT_CONFIRMED",
+      "scheduled": false,
+      "actual_post_url": null
     }
   ],
   "halloween_special": {
@@ -512,5 +968,11 @@
   "creative_qa_pass_test": 8,
   "creative_qa_revise": 2,
   "final_reels_local_qa_pass": 1,
-  "website_note": "Review desk only; does NOT assert Facebook publication or native-source Master approval."
+  "website_note": "Review desk only; does NOT assert Facebook publication or native-source Master approval.",
+  "episode_count": 11,
+  "main_episodes": 10,
+  "special_episodes": 1,
+  "video_delivery": "Local edits and technical QA documented in current state, but no MP4 media URL confirmed on GitHub; do not expose fake playback.",
+  "copy_status": "11 captions+hashtags and 11 separate first comments are current revised drafts, not published",
+  "qa_latest": "Redesigned Master EP07 REVISE (88), EP08 FAIL (83), EP09 PASS-TEST (93), EP10 PASS-TEST (91), EP11 REVISE (87). Technical full-resolution/native-4K QA separate."
 }

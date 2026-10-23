@@ -70,6 +70,22 @@ def main():
         except requests.RequestException:
             result("facebook_page_read", "HOLD", "Facebook API not reachable from GitHub runner")
 
+    if CONFIG["brands"]["colossus"].get("media_download_mode") == "public_drive":
+        # This read-only probe downloads one approved still and one approved Reel,
+        # never changing Google sharing and never calling Facebook POST.
+        from autopost import fetch_drive_bytes
+        for kind, ep in (("still", stills[0]), ("reel", reels[0])):
+            link = ep["master"]["url"] if kind == "still" else ep["reel"]["url"]
+            try:
+                data = fetch_drive_bytes(link, "public_drive")
+                result("public_drive_" + kind, "PASS",
+                       "Approved public-link media successfully downloaded from Drive")
+            except Exception:
+                result("public_drive_" + kind, "HOLD",
+                       "Public link inaccessible. Owner must explicitly share only approved SS3 media")
+        result("live_publish", "OFF", "Read-only probe; no Facebook POST")
+        return
+
     from autopost import get_drive_access_token
     has_service = bool(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
     has_oauth = all(os.getenv(k) for k in (

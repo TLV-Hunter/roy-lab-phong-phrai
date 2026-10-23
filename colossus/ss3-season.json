@@ -5,7 +5,7 @@
   "season_label": "SS3",
   "season_title": "WHAT THE GIANTS FEARED",
   "direction": "DARK COSMIC HORROR",
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "timezone": "Asia/Bangkok",
   "audience": "USA / GLOBAL",
   "editorial_release_window": "2026-10-21 to 2026-10-31",
@@ -13,7 +13,7 @@
   "production_truth": {
     "masters_verified": "11/11 archived as 2160×3840 PNG on Google Drive; images are upscaled, not native AI 4K; Special file recovered via 1152×2048 intermediate then upscaled",
     "starter_frames": "5/11 PREPRODUCTION QA PASS — EP02–EP06; others WAITING",
-    "reels": "0/11 FINAL REELS READY — generated video source not present",
+    "reels": "6/11 FINAL REELS READY — CS-OCT-001 through CS-OCT-006 QA PASS / Drive mapped; CS-OCT-007 through CS-OCT-010 + Halloween Special WAITING",
     "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
     "reel_copy": "11/11 COMPLETE • English USA planned-story Reel Caption with inline hashtags and separate First/Pinned Comment • Copy QA PASS from approved story; generated-video alignment UNVERIFIED, no social publishing",
     "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
@@ -23,7 +23,8 @@
     "video_prompts": "5/11 Dola / Seedance 2.0 prompts recorded (EP02–EP06; 10/10/15/10/10 seconds); no source videos made",
     "storyboards": "5/11 PREPRODUCTION QA PASS — EP02–EP06, uploaded to Drive, distinct beat sheets",
     "starter_storyboard_folder": "https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe",
-    "copy_policy": "Two copy packs per episode only: (1) Master Still Caption+inline Hashtags and First/Pinned Comment; (2) Reel Caption+inline Hashtags and First/Pinned Comment. Both can be written in preproduction; Reel copy is QA-passed against story, but must not imply video has been viewed. Starter/Storyboard have no social copy."
+    "copy_policy": "Two copy packs per episode only: (1) Master Still Caption+inline Hashtags and First/Pinned Comment; (2) Reel Caption+inline Hashtags and First/Pinned Comment. Both can be written in preproduction; Reel copy is QA-passed against story, but must not imply video has been viewed. Starter/Storyboard have no social copy.",
+    "final_reel_drive_status": "CS-OCT-001–006 uploaded to SS3 Drive folder and mapped to their own episode cards."
   },
   "episode_count": 10,
   "episodes": [
@@ -47,9 +48,9 @@
         "prompt_qa": "WAITING"
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1aVD7wgGhDOy6VT_Uz8TQC2nyNyS35s7r/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "The giant wasn't attacking Earth. It was trying to escape.\n\nA colossal titan froze above our planet as stars began disappearing beyond a dark ring.\n\nThen its massive hand pulled away.\n\nFor the first time, something larger than Earth was afraid.\n\nWhatever it saw... we haven't seen it yet.\n\nFollow Colossus Signal. The next transmission gets darker.\n\n#ColossusSignal #CosmicHorror #GiantAlien",
         "first_comment": "📡 TRANSMISSION 001\n\nLook at the giant's hand.\n\nIt begins pulling away as the stars disappear near the ring.\n\nEarth was never the real threat.\n\nSomething out there terrified a creature bigger than our world.\n\nWhat could make something that enormous retreat?",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -64,11 +65,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still and season story arc; no final beat storyboard yet",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-001_FINAL.mp4",
+        "source_video": "1.mp4",
+        "duration_seconds": 11.041667,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "c6db1963847289fe8027edbbb4f93452aa0ce005628746881e32b4326805e23e",
+        "embedded_keyword": "IT WAS LEAVING",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed."
       },
       "still": {
         "caption": "The first giant wasn't reaching for Earth. It was pulling away.\n\nIts enormous hand hovered over the planet, but its attention was fixed on the dark ring behind it. For the first time, something larger than our world looked afraid.\n\nFollow Colossus Signal for the next sign of what it saw.\n\n#ColossusSignal #CosmicHorror #GiantAlien",
@@ -129,9 +142,9 @@
         "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1P15SFo1E_ZUezuW8AtWFgcz8josncncW/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "Three stars disappeared. Something noticed.\n\nOne by one, three distant lights vanish above the Moon. Then the red markings on an enormous hidden face begin to glow.\n\nThe stars weren't the only things watching Earth.\n\nThe deeper we look into the dark, the more it looks back.\n\nFollow the next Colossus Signal transmission.\n\n#ColossusSignal #CosmicMystery #SpaceHorror",
         "first_comment": "📡 TRANSMISSION 002\n\nThe three lights go out separately. The red glow is already part of one colossal face—not a new star, and not a weapon. Was it hiding where the stars used to be, or did their disappearance expose it?",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -146,11 +159,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-002_FINAL.mp4",
+        "source_video": "2.mp4",
+        "duration_seconds": 11,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "4945f9e7d338098af6596fed5cdbc3061680310cb573d5a2241f0794ba9795ad",
+        "embedded_keyword": "IT OPENED ITS EYES",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed."
       },
       "still": {
         "caption": "Three stars were missing. Then the red glow appeared.\n\nBeyond the Moon, a colossal face emerged among the drifting debris. Those burning red marks are not distant suns. They belong to something watching the space where the lights disappeared.\n\nLook closely at the darkness around its face.\n\n#ColossusSignal #SpaceHorror #CosmicMystery",
@@ -231,8 +256,8 @@
           "Starter Frame",
           "Storyboard"
         ],
-        "source_render_status": "NOT CREATED",
-        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
+        "source_render_status": "FINAL CREATED",
+        "qa_status": "FINAL QA PASS"
       }
     },
     {
@@ -259,9 +284,9 @@
         "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1d3kXg-QLKptnJ5PPooNiLkj1HFfJ3SV1/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "Even a giant knew when to turn out the light.\n\nA thin cyan fissure shines through armor larger than anything on Earth.\n\nThen the plates begin closing. The glow shrinks to a hairline. The last trace vanishes.\n\nIt wasn't losing power. It was trying not to be seen.\n\nWhatever is out there has taught giants to fear a single spark.\n\nStay with the signal. The next warning comes from the sea.\n\n#ColossusSignal #SciFiHorror #CosmicEntity",
         "first_comment": "📡 TRANSMISSION 003\n\nWatch the seam, not the planet. Each layer closes over the same cyan light until the shell nearly disappears into space. What could make a creature that enormous choose total darkness?",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -276,11 +301,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-003_FINAL.mp4",
+        "source_video": "3.mp4",
+        "duration_seconds": 11,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "39cade94777a0d4cc59d756ac5d65266292f54c5d7a7ddb85ab6286de9d613b1",
+        "embedded_keyword": "SOMETHING LIT UP INSIDE",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed."
       },
       "still": {
         "caption": "A giant was trying to hide its own light.\n\nA blue fissure burned through a colossal black shell above Earth. Its armored surface curved inward around the glow, as if even that small signal had become dangerous to reveal.\n\nStay with the signal. The next anomaly reaches the ocean.\n\n#ColossusSignal #SciFiHorror #AlienTitan",
@@ -361,8 +398,8 @@
           "Starter Frame",
           "Storyboard"
         ],
-        "source_render_status": "NOT CREATED",
-        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
+        "source_render_status": "FINAL CREATED",
+        "qa_status": "FINAL QA PASS"
       }
     },
     {
@@ -389,9 +426,9 @@
         "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1B1Y2-7EqFu5AecbvmvHEQxYIJ66ENsol/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "The ocean began falling before the hand touched anything.\n\nA colossal hand hangs motionless above the clouds.\n\nBelow it, a small swirl becomes a spinning funnel. The water sinks farther and farther until the sea opens into a bottomless-looking abyss.\n\nNo impact. No warning. Just an impossible force pulling the ocean away.\n\nWhat would frighten you more—the hand or the hole it left behind?\n\n#ColossusSignal #PlanetaryHorror #CosmicHorror",
         "first_comment": "📡 TRANSMISSION 004\n\nThe hand never touches the water. The terrifying change happens below it: a shallow swirl becomes a huge, deep chasm. If the fingers aren't making contact, what is doing the pulling?",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -406,11 +443,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-004_FINAL.mp4",
+        "source_video": "4.mp4",
+        "duration_seconds": 11,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "79e3969bc3a04a9b3a12550645e7186167fe9432d98f4b4d7de2b5374df4f3ae",
+        "embedded_keyword": "THE OCEAN STARTED FALLING",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed. Source generation delivered a shorter clip than the 15s preproduction target, but the final visibly reaches the ocean-abyss payoff; delivery length is 11s."
       },
       "still": {
         "caption": "The ocean moved before the hand ever touched it.\n\nA colossal hand hung over Earth's waters. Far below, the sea folded toward a circular abyss, while the giant remained suspended above the clouds. The distance between them was the frightening part.\n\nWould you have watched the water—or the hand?\n\n#ColossusSignal #PlanetaryHorror #CosmicHorror",
@@ -497,8 +546,8 @@
           "Starter Frame",
           "Storyboard"
         ],
-        "source_render_status": "NOT CREATED",
-        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
+        "source_render_status": "FINAL CREATED",
+        "qa_status": "FINAL QA PASS"
       }
     },
     {
@@ -525,9 +574,9 @@
         "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1Ustu4kP6UgO6rMbGSeq5c65wqT4uVe1N/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "The rocks didn't fall toward Earth. They fled upward.\n\nFirst, a few fragments change direction. Then entire streams of asteroids begin racing away from the planet.\n\nEvery piece is drawn toward the same dark ring.\n\nNothing explodes. The ring barely moves.\n\nAnd somehow, the direction of gravity has become the most frightening thing in the sky.\n\nFollow Colossus Signal to see what the darkness pulls next.\n\n#ColossusSignal #GravityAnomaly #SpaceHorror",
         "first_comment": "📡 TRANSMISSION 005\n\nTrace one small fragment from the lower field to the upper-right opening. The rocks move away from Earth, not toward it. The ring stays still while everything else changes course.",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -542,11 +591,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-005_FINAL.mp4",
+        "source_video": "5.mp4",
+        "duration_seconds": 11,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "3e1d99511d37a907dfa3e8c0007f596d413652f43b11aef3b47b308cefc1a85c",
+        "embedded_keyword": "THE VOID STARTED PULLING",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed."
       },
       "still": {
         "caption": "The debris was falling in the wrong direction.\n\nThousands of rocks drifted away from Earth's night side and toward a vast black opening. Whatever waited beyond that ring seemed to pull the fragments through space instead of letting them fall.\n\nTrace the path of the smallest pieces.\n\n#ColossusSignal #SpaceHorror #GravityAnomaly",
@@ -627,8 +688,8 @@
           "Starter Frame",
           "Storyboard"
         ],
-        "source_render_status": "NOT CREATED",
-        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
+        "source_render_status": "FINAL CREATED",
+        "qa_status": "FINAL QA PASS"
       }
     },
     {
@@ -655,9 +716,9 @@
         "source_note": "Unique first-frame image QA-passed against existing Master Still. No title words. Not upscaled 4K."
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1M-E0o5wBJHneLt_mbi7Gd82MlTJ9NqLR/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL VIDEO QA",
         "caption": "Earth went dark one city at a time.\n\nFrom orbit, the night side still shines.\n\nThen a vast shadow advances. One cluster of lights fades. Another follows. Soon entire regions are swallowed by a darkness that doesn't behave like night.\n\nThere is no blast to hear.\n\nOnly the terrible realization that the lights are disappearing beneath something immense.\n\nFind the last lights before they vanish.\n\n#ColossusSignal #DarkSciFi #PlanetaryHorror",
         "first_comment": "📡 TRANSMISSION 006\n\nIt's a moving boundary, not an instant blackout. Compare the lit regions at the beginning with the scattered lights near the end. The thing above Earth barely has to move.",
         "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
@@ -672,11 +733,23 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still, episode title, approved 4/5-beat storyboard and Dola prompt",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-006_FINAL.mp4",
+        "source_video": "6.mp4",
+        "duration_seconds": 11,
+        "resolution": "1080x1920",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "a5ce31da912619e83163968bcd11f4efdf2dcdbd972080bcf8b8b6830ce41d80",
+        "embedded_keyword": "THE DARKNESS WAS MOVING",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS",
+        "final_note": "Final visually matched to this episode authority; upscale / watermark removal / embedded keyword / closing CTA complete; technical, continuity and delivery QA passed."
       },
       "still": {
         "caption": "Earth's lights didn't disappear all at once.\n\nA vast shadow spread across the planet's night side. Some cities still glowed beneath the clouds; others faded into an unnatural darkness. Above Earth, the source of that shadow was almost impossible to separate from space.\n\nFind where the darkness begins.\n\n#ColossusSignal #DarkSciFi #PlanetaryHorror",
@@ -757,8 +830,8 @@
           "Starter Frame",
           "Storyboard"
         ],
-        "source_render_status": "NOT CREATED",
-        "qa_status": "PREPRODUCTION PASS / VIDEO PENDING"
+        "source_render_status": "FINAL CREATED",
+        "qa_status": "FINAL QA PASS"
       }
     },
     {

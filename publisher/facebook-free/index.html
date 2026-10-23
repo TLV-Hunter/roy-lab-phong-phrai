@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TalentVee Free Auto Publisher — Multi-Page Schedule</title>
+<style>
+:root{color-scheme:dark;--bg:#08131c;--card:#10232d;--edge:#31505e;--text:#eff8ff;--mute:#a2bdcb;--cyan:#72daee;--green:#65db9a;--yellow:#ffcd73}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:22px}
+h1{font-size:clamp(24px,3.2vw,38px);margin:5px 0}h2{font-size:19px;margin:0}p{line-height:1.6;color:var(--mute)}
+a{color:#91e4f4}header{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:18px}
+.panel{background:var(--card);border:1px solid var(--edge);border-radius:14px;padding:16px;margin:13px 0}
+.note{background:#20312f;border:1px solid #456557;color:#dcf4e3;padding:11px;border-radius:10px}
+.badges{display:flex;gap:7px;flex-wrap:wrap}.tag{background:#143442;border:1px solid #386274;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700}
+.tag.hold{color:var(--yellow);border-color:#7b5d34}
+.topstat{display:flex;gap:20px;flex-wrap:wrap;align-items:center;padding:10px 0}.big{font-size:30px;font-weight:800;color:var(--cyan)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.brand{min-width:0}.slots{display:flex;gap:14px;margin-top:12px}.slot{background:#071822;border:1px solid var(--edge);padding:12px;border-radius:10px;flex:1}
+.slot strong{font-size:23px}.muted{color:var(--mute);font-size:12px}
+table{width:100%;border-collapse:collapse;min-width:560px}td,th{text-align:left;padding:10px 8px;border-bottom:1px solid #2a4656}th{color:var(--mute);font-size:12px}.scroll{overflow:auto}
+button,.btn{background:#0a3b53;border:1px solid #34738f;border-radius:9px;color:#eef9ff;padding:10px 13px;cursor:pointer;text-decoration:none;display:inline-block}
+.footer{font-size:12px;color:var(--mute);margin-top:18px}
+</style></head>
+<body><main>
+<header><div><div class="muted">TALENTVEE • FACEBOOK MULTI-PAGE • READ-ONLY DASHBOARD</div><h1>Free Auto Publisher</h1>
+<div class="badges"><span class="tag">เวลาไทย Asia/Bangkok</span><span class="tag">Still 06:00</span><span class="tag">Reel 23:00</span><span class="tag hold">ไม่สั่งโพสต์จากหน้านี้</span></div></div>
+<a class="btn" href="../../publisher.html">← Unified Publisher</a></header>
+<div class="note"><b>ความจริงของระบบ:</b> หน้านี้แสดงแผนและความพร้อมของเนื้อหาเท่านั้น ไม่เก็บ Token ไม่สั่งโพสต์ Facebook และไม่แอบบันทึกคิว การโพสต์จริงต้องตั้งสิทธิ์ Meta / Google Drive และเปิด GitHub Actions หลัง QA</div>
+<section class="panel"><div class="topstat"><div><span class="big" id="pages">—</span><div class="muted">เพจที่ลงทะเบียน</div></div><div><span class="big" id="readies">—</span><div class="muted">ไฟล์ที่ผ่านเงื่อนไข (Still/Reel)</div></div><div><span class="big" id="holds">—</span><div class="muted">รายการพักไว้ (HOLD)</div></div></div></section>
+<section class="grid" id="brands"></section>
+<section class="panel"><h2>ตารางตรวจความพร้อมแยก Episode</h2><p>ระบบรองรับการเพิ่มเพจจากไฟล์ตั้งค่าอัตโนมัติ ไม่มี Master/Storyboard โพสต์ผิดประเภท การเผยแพร่ต้องผ่านขั้นตอนอนุญาตแยกต่างหาก</p>
+<div class="scroll"><table><thead><tr><th>เพจ</th><th>EP</th><th>Still 06:00</th><th>Reel 23:00</th><th>กำหนดเริ่ม</th></tr></thead><tbody id="queue"></tbody></table></div></section>
+<section class="panel"><h2>ตั้งค่าและขยายไปเพจใหม่</h2><p>เพิ่ม Brand ใน <code>config.json</code> และใส่ Page Token ไว้ใน GitHub Actions Secret <code>FB_PAGES_JSON</code> เท่านั้น ห้ามใส่ Token บนหน้าเว็บหรือ Repository สาธารณะ</p>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/blob/main/publisher/facebook-free/config.json">ดู Config</a>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/actions/workflows/facebook-free-multipage.yml">ดู Dry Run / Tests</a>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/blob/main/publisher/facebook-free/README.md">คู่มือติดตั้ง</a></section>
+<div class="footer">GitHub Pages เป็นหน้าดูข้อมูล ไม่ได้เป็นเครื่องรัน Scheduler เอง • GitHub Actions Cron อาจล่าช้า ไม่รับประกันโพสต์ตรงนาที • ไม่มีการเผยแพร่โดยไม่ได้รับสิทธิ์</div>
+</main>
+<script>
+const $ = id=>document.getElementById(id);
+const el = (tag, text, cls)=>{const node=document.createElement(tag); if(text!==undefined)node.textContent=text; if(cls)node.className=cls;return node};
+const pass = (s)=>String(s||'').startsWith('PASS');
+function gate(source, ep, type, kind){
+if(type==='rls_ss3'){
+ const a=kind==='still'?ep.master_still||{}:ep.final_reel||{};
+ const c=kind==='still'?ep.still_caption:ep.reel_caption, m=kind==='still'?ep.first_comment:ep.reel_first_comment;
+ const url=kind==='still'?a.image_url:a.video_url;
+ return !!(pass(a.status)&&String(url||'').startsWith('https://drive.google.com/file/d/')&&c&&m);
+}
+const a=kind==='still'?ep.master||{}:ep.reel||{};
+const c=kind==='still'?ep.still||{}:ep.reel||{};
+return !!(a.url&&pass(a.qa)&&c.caption&&c.first_comment&&pass(c.copy_qa));
+}
+function dateAfter(start,index){
+if(!start)return 'ยังไม่ได้ตั้งวันเริ่ม';
+const d=new Date(start+'T12:00:00+07:00');d.setUTCDate(d.getUTCDate()+index);
+return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
+}
+async function init(){
+const cfg=await (await fetch('./config.json?v='+Date.now(),{cache:'no-store'})).json();
+let yes=0,no=0;
+for(const [brand,b] of Object.entries(cfg.brands)){
+ const card=el('article',undefined,'panel brand');
+ card.append(el('h2',brand.toUpperCase()));
+ card.append(el('p',(b.enabled?'CONFIG ENABLED':'SAFE HOLD / ไม่เปิดโพสต์')+' • '+(b.start_date?'เริ่ม '+b.start_date:'ยังไม่ตั้งวันเริ่ม')));
+ const slots=el('div',undefined,'slots');
+ for(const [label,t] of [['MASTER STILL','06:00'],['FINAL REEL','23:00']]){
+ const unit=el('div',undefined,'slot');unit.append(el('div',label,'muted'));unit.append(el('strong',b.slots[label==='MASTER STILL'?'still':'reel']||t));slots.append(unit);
+ }
+ card.append(slots);
+ const r=await fetch('../../'+b.content_path+'?v='+Date.now(),{cache:'no-store'});
+ if(!r.ok){card.append(el('p','Content source unavailable — HOLD'));$('brands').append(card);continue;}
+ const source=await r.json(),eps=[...(source.episodes||[])];if(source.halloween_special)eps.push(source.halloween_special);
+ let a=0,z=0;
+ for(let i=0;i<eps.length;i++){
+ const ep=eps[i],tr=el('tr');
+ tr.append(el('td',brand));tr.append(el('td',ep.id));
+ for(const k of ['still','reel']){const ready=gate(source,ep,b.content_format,k);tr.append(el('td',ready?'QA READY':'HOLD'));if(ready){yes++;a++}else{no++;z++;}}
+ tr.append(el('td',dateAfter(b.start_date,i)));$('queue').append(tr);
+ }
+ card.append(el('p',a+' ผ่านเงื่อนไข • '+z+' HOLD • '+eps.length+' EP'));$('brands').append(card);
+}
+$('pages').textContent=Object.keys(cfg.brands).length;$('readies').textContent=yes;$('holds').textContent=no;
+}
+init().catch(e=>{const n=el('p','โหลดข้อมูลไม่ได้: '+e.message);$('brands').append(n)});
+</script>
+</body></html>

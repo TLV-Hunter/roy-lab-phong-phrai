@@ -1,0 +1,74 @@
+name: Colossus one-off photo test (independent of season schedule)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'preview creates test image without posting; publish requires explicitly armed queue, due-time window and confirmation'
+        required: true
+        default: preview
+        type: choice
+        options:
+          - preview
+          - publish
+      confirm:
+        description: 'For manual publish mode only, type PUBLISH (no posting outside scheduled time)'
+        required: false
+        default: ''
+        type: string
+  push:
+    paths:
+      - 'publisher/facebook-free/oneoff_test.py'
+      - 'publisher/facebook-free/test-posts/**'
+      - '.github/workflows/colossus-oneoff-test.yml'
+  schedule:
+    # 00:45 Asia/Bangkok = 17:45 UTC previous calendar day.
+    # Daily trigger; exact-date queue, QA, enable flags and due-window gate publication.
+    - cron: '45 17 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: colossus-oneoff-photo-test
+  cancel-in-progress: false
+
+jobs:
+  oneoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install read-only Drive and photo dependencies
+        run: python -m pip install --disable-pip-version-check requests Pillow numpy gdown google-auth
+      - name: Existing publisher regression checks
+        if: github.event_name != 'schedule'
+        run: python -m unittest discover -s publisher/facebook-free -p 'test_*.py' -v
+      - name: Build unique photo preview from approved Colossus Master (NO FACEBOOK POST)
+        if: github.event_name != 'schedule'
+        env:
+          ONEOFF_PREVIEW_PATH: /tmp/colossus-oneoff-preview.jpg
+        run: python publisher/facebook-free/oneoff_test.py --mode preview
+      - name: Make preview downloadable in GitHub Actions
+        if: github.event_name != 'schedule'
+        uses: actions/upload-artifact@v4
+        with:
+          name: colossus-oneoff-new-photo-preview
+          path: /tmp/colossus-oneoff-preview.jpg
+          if-no-files-found: error
+          retention-days: 14
+      - name: Publish only when explicitly armed, due and unique (never backfill)
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'publish'
+        env:
+          FB_ONEOFF_TEST_ENABLED: ${{ vars.FB_ONEOFF_TEST_ENABLED }}
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: python publisher/facebook-free/oneoff_test.py --mode publish --confirm "${{ github.event.inputs.confirm }}"

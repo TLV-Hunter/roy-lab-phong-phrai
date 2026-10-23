@@ -25,6 +25,7 @@ button,.btn{background:#0a3b53;border:1px solid #34738f;border-radius:9px;color:
 <div class="note"><b>ความจริงของระบบ:</b> หน้านี้แสดงแผนและความพร้อมของเนื้อหาเท่านั้น ไม่เก็บ Token ไม่สั่งโพสต์ Facebook และไม่แอบบันทึกคิว การโพสต์จริงต้องตั้งสิทธิ์ Meta / Google Drive และเปิด GitHub Actions หลัง QA</div>
 <section class="panel"><div class="topstat"><div><span class="big" id="pages">—</span><div class="muted">เพจที่ลงทะเบียน</div></div><div><span class="big" id="readies">—</span><div class="muted">ไฟล์ที่ผ่านเงื่อนไข (Still/Reel)</div></div><div><span class="big" id="holds">—</span><div class="muted">รายการพักไว้ (HOLD)</div></div></div></section>
 <section class="grid" id="brands"></section>
+<section class="panel"><h2>Colossus Live Publication &amp; First Comment</h2><p>Auto Publishing: EP04 24 ต.ค. ถึง Special 31 ต.ค. • Still 06:00 / Reel 23:00 • คอมเมนต์อย่างเร็ว 5 นาทีหลัง API ยืนยัน • การปักหมุดต้องทำใน Facebook ด้วยตนเอง เนื่องจากยังไม่มี Pin Comment API ที่ยืนยันว่ารองรับ</p><div id="live-posting-status" class="scroll"><span class="tag">กำลังโหลด receipts...</span></div></section>
 <section class="panel"><h2>ตารางตรวจความพร้อมแยก Episode</h2><p>ระบบรองรับการเพิ่มเพจจากไฟล์ตั้งค่าอัตโนมัติ ไม่มี Master/Storyboard โพสต์ผิดประเภท การเผยแพร่ต้องผ่านขั้นตอนอนุญาตแยกต่างหาก</p>
 <div class="scroll"><table><thead><tr><th>เพจ</th><th>EP</th><th>Still 06:00</th><th>Reel 23:00</th><th>กำหนดเริ่ม</th></tr></thead><tbody id="queue"></tbody></table></div></section>
 <section class="panel" id="oneoff-panel"><h2>คิวทดลอง Colossus — ภาพใหม่แบบไม่มีเลข EP</h2>
@@ -69,7 +70,28 @@ async function loadOneoff(){
  $('oneoff-media').textContent='สื่อใหม่ 1600×2000 / '+j.media.qa;
  $('oneoff-summary').textContent='เผยแพร่: '+j.publication.state+' • First comment: '+(j.first_comment_enabled?'เปิด':'ปิด')+' • แหล่งภาพ: Approved Master แล้วจัดองค์ประกอบใหม่';
 }
+async function loadLiveStatus(){
+ const out=$('live-posting-status');
+ try{
+  const rec=await (await fetch('./receipts.json?v='+Date.now(),{cache:'no-store'})).json();
+  const items=Object.entries(rec.items||{}).filter(([k])=>k.startsWith('colossus:CS-OCT-'));
+  out.textContent='';
+  if(!items.length){out.append(el('p','ยังไม่มีโพสต์ที่ระบบนี้บันทึกว่าส่งสำเร็จ • EP04 เริ่ม 24 ต.ค. 06:00 ตามเวลาไทย'));return;}
+  const table=el('table');const head=el('thead');const tr=el('tr');
+  ['คิว','โพสต์','คอมเมนต์','ปักหมุด'].forEach(x=>tr.append(el('th',x)));head.append(tr);table.append(head);
+  const body=el('tbody');
+  items.sort((a,b)=>a[0].localeCompare(b[0]));
+  for(const [key,r] of items){
+   const row=el('tr');row.append(el('td',key));
+   const status=el('td',r.status||'UNKNOWN');
+   if(r.provider_post_id){status.append(' ');const a=el('a','เปิดโพสต์');a.href='https://www.facebook.com/'+encodeURIComponent(r.provider_post_id);a.target='_blank';a.rel='noopener noreferrer';status.append(a);}
+   row.append(status);row.append(el('td',r.comment_status||'NOT_ATTEMPTED'));
+   row.append(el('td',r.pin_status||'NOT_PINNED'));body.append(row);
+  }table.append(body);out.append(table);
+ }catch(e){out.textContent='โหลดผลโพสต์ไม่ได้ — ตรวจ GitHub receipts.json';}
+}
 async function init(){
+ loadLiveStatus();
  loadOneoff().catch(()=>{$('oneoff-state').textContent='ไม่สามารถอ่านคิว — HOLD'});
 const cfg=await (await fetch('./config.json?v='+Date.now(),{cache:'no-store'})).json();
 let yes=0,no=0;
@@ -84,7 +106,9 @@ for(const [brand,b] of Object.entries(cfg.brands)){
  card.append(slots);
  const r=await fetch('../../'+b.content_path+'?v='+Date.now(),{cache:'no-store'});
  if(!r.ok){card.append(el('p','Content source unavailable — HOLD'));$('brands').append(card);continue;}
- const source=await r.json(),eps=[...(source.episodes||[])];if(source.halloween_special)eps.push(source.halloween_special);
+ const source=await r.json();let eps=[...(source.episodes||[])];if(source.halloween_special)eps.push(source.halloween_special);
+ if(b.start_episode_id){const k=eps.findIndex(e=>e.id===b.start_episode_id);eps=k<0?[]:eps.slice(k);}
+ if(b.end_episode_id){const k=eps.findIndex(e=>e.id===b.end_episode_id);eps=k<0?[]:eps.slice(0,k+1);}
  let a=0,z=0;
  for(let i=0;i<eps.length;i++){
  const ep=eps[i],tr=el('tr');

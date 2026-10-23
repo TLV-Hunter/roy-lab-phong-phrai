@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "key": "colossus:2026-10-24:signal-closeup-test",
+  "target_page": "colossus",
+  "type": "photo",
+  "scheduled_at": "2026-10-24T00:45:00+07:00",
+  "timezone": "Asia/Bangkok",
+  "enabled": false,
+  "status": "HOLD_MISSED_REQUESTED_TIME",
+  "reason": "Original 00:45 window passed before verified new media/queue was ready. Never backfill.",
+  "media": {
+    "mode": "derive_from_approved_drive_master",
+    "source_url": "https://drive.google.com/file/d/1UMNwIHgn9zGkcg2B51N3OpWw4PBPOLoc/view",
+    "source_episode": "CS-OCT-003",
+    "derivative": "cyan_fissure_macro_4x5_no_text",
+    "output_mime": "image/jpeg",
+    "output_size": "1600x2000",
+    "qa": "PASS_VISUAL_REFRAME",
+    "originality_note": "Distinct detail crop and color grade of approved EP03 master; no episode number/title, no new characters, original cyan fissure and armor preserved."
+  },
+  "caption": "It wasn't losing power.\n\nIt was hiding its light.\n\nAbove Earth, a colossal armored shell narrowed a cyan fissure until only a trace remained. Something out there had made even a giant afraid to be seen.\n\nWhat was it hiding from?\n\nStay with the signal.\n\n#ColossusSignal #CosmicHorror #SciFiMystery",
+  "first_comment": "SIGNAL NOTE: The cyan light originates inside the dark armored shell. The plates are closing to conceal it—not opening to attack.",
+  "first_comment_enabled": false,
+  "constraints": {
+    "max_delay_minutes": 30,
+    "require_page_name": "Colossus",
+    "require_confirmation_for_manual_publish": true,
+    "never_backfill": true
+  },
+  "publication": {
+    "state": "NOT_PUBLISHED",
+    "post_id": null,
+    "receipt_key": null
+  }
+}

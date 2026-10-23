@@ -2,6 +2,10 @@ name: Free Facebook Multi-Page Publisher (Colossus + RLS)
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'publisher/facebook-free/**'
+      - '.github/workflows/facebook-free-multipage.yml'
   schedule:
     # Bangkok 06:00/06:15 -> UTC 23:00/23:15 (previous day)
     - cron: "0,15 23 * * *"
@@ -19,7 +23,7 @@ concurrency:
 
 jobs:
   manual-preview:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

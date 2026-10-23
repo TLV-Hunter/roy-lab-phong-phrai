@@ -1,6 +1,18 @@
 # RLS AI STUDIO — CURRENT STATE
 Updated: 2026-10-23 — SS3 Clips 05–11 seven local postproduction QA PASS (story-lock review remains separate)
 
+## SS3 WEBSITE SYNC — 2026-10-23 23:43 ICT (MOST RECENT WEB AUTHORITY)
+- OWNER REQUEST: Update everything on the current RLS SS3 web desk to reflect all work up to now, preserving older seasons and unrelated site features.
+- **COMPLETED TEXT/CONTROL SYNC ON GITHUB:** `colossus/rls-ss3-content.json` now holds 11 items (Oct21–31 including Halloween special), each with latest redesigned scene, English Caption+Hashtags, a separate First Comment draft, an actual 6-beat 10-second storyboard timing plan, an individual Dola 3-reference video prompt, real creative QA gate, and social posting truth. Changed only SS3 data and page, plus a narrow direct SS3 link in `colossus/index.html`.
+- **SS3 PAGE RESTORED/UPGRADED:** `colossus/rls-ss3.html` shows 3 columns/record: (1) Master still preview/asset status + copy Caption+Hashtags/First Comment, (2) Starter status + all 6 timed beats + copy video prompt, (3) Final Reel local QA status and web delivery status. Search, episode selector, old page links and page layout are preserved. Main desk has a new `RLS SS3 DESK` link; SS1/SS2, COLOSSUS views, calendar/checklist/batch QA/strategy/performance/publisher remain untouched.
+- **HONEST MEDIA BLOCKER:** New native ChatGPT generated image files (941x1672 PNG) are NOT hosted in GitHub repository. 01–06 keep older distinct JPEG web PREVIEWS clearly labeled historical, 07–11 intentionally do NOT display superseded scene JPGs. The ten latest designed master/starter/beat-board source files cannot be inferred from the older JPEGs. User's separate final MP4 exports from another chat are NOT mounted into this chat runtime. GitHub connector writes UTF-8, not local binary source files; attempted Picsart Drive rehosting failed with storage-full error. Do not claim fresh images or playable videos have been uploaded.
+- **LATEST QA:** Redesigned 07=REVISE (88), 08=FAIL (83), 09=PASS-TEST (93), 10=PASS-TEST (91), 11=REVISE (87). Local final editing technical QA per immediately prior state for CLIP05–11: 7 edits 1080x1920 and 10.041667 seconds; repaired EP02–04 min10 local. This does not certify all as canonical story-lock accepted. Official min10 source ffprobe hard gate remains active.
+- **SOCIAL TRUTH UNCHANGED:** No verified SS3 posts, no verified pinned comments. The Production Desk update is NOT evidence of Facebook/Instagram publication.
+- **EXACT NEXT ACTION:** Bring the user-approved standalone native Master PNGs, Starter PNGs, Storyboard PNGs and QC'd MP4 exports into a GitHub-write-capable file pipeline without renaming or recycling collages; QA each scene/source, update only media links in SS3 data and web page; re-run deployment and runtime HTML/JS QA. Revisit REVISE/FAIL EP07/08/11 as appropriate. Do NOT mislabel JPEG preview or Lanczos 1080p as native 4K.
+- WEBSITE: https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/rls-ss3.html
+- Data commit: da66bd7ed084214279b4d4957c63085104976916; page commit: 4d7f33c2419f71e69e252bea8d021786bd875ec3; main direct link commit: adf675a1ee2f93bc4bba81526908765a4c75856e.
+
+
 ## SS3 CLIPS 05–11 EDITING QA — 2026-10-23
 - Owner provided **7 real sources** `5.mp4`–`11.mp4` for pre-QA and editing ONLY. SS2 backlog remains closed. No website or social publication authorized.
 - Source preflight completed on ALL SEVEN: each genuine source is 720×1280 HEVC, 24fps, 241 video frames, ~10.08 s, AAC audio. No sampled black/frozen frames or audio peak clipping. All have bottom-right Dola AI marks; classified **PASS WITH TARGETED REPAIR**, not as pristine raws.

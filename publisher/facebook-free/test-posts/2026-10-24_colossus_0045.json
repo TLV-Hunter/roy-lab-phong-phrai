@@ -6,8 +6,8 @@
   "scheduled_at": "2026-10-24T00:45:00+07:00",
   "timezone": "Asia/Bangkok",
   "enabled": false,
-  "status": "HOLD_MISSED_REQUESTED_TIME",
-  "reason": "Original 00:45 window passed before verified new media/queue was ready. Never backfill.",
+  "status": "EXPIRED_NOT_PUBLISHED",
+  "reason": "The specifically requested 2026-10-24 00:45 Bangkok test window passed before the new media and posting queue were ready. Photo QA and GitHub Actions preview now PASS; no late-post is authorized.",
   "media": {
     "mode": "derive_from_approved_drive_master",
     "source_url": "https://drive.google.com/file/d/1UMNwIHgn9zGkcg2B51N3OpWw4PBPOLoc/view",
@@ -22,13 +22,13 @@
   "first_comment": "SIGNAL NOTE: The cyan light originates inside the dark armored shell. The plates are closing to conceal it—not opening to attack.",
   "first_comment_enabled": false,
   "constraints": {
-    "max_delay_minutes": 30,
+    "max_delay_minutes": 5,
     "require_page_name": "Colossus",
     "require_confirmation_for_manual_publish": true,
     "never_backfill": true
   },
   "publication": {
-    "state": "NOT_PUBLISHED",
+    "state": "NOT_PUBLISHED_MISSED_SLOT",
     "post_id": null,
     "receipt_key": null
   }

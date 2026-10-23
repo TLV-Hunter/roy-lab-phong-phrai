@@ -1,3 +1,36 @@
+## 2026-10-23 — SS3 FINAL REELS 007–010 + HALLOWEEN SPECIAL — QA PASS / LIVE ON WEB
+
+Final-video authority mapping:
+- CS-OCT-007 <- source 7.mp4 -> `CS-OCT-007_FINAL_4K_UPSCALED.mp4`
+- CS-OCT-008 <- source 8.mp4 -> `CS-OCT-008_FINAL_4K_UPSCALED.mp4`
+- CS-OCT-009 <- source 9.mp4 -> `CS-OCT-009_FINAL_4K_UPSCALED.mp4`
+- CS-OCT-010 <- source 10.mp4 -> `CS-OCT-010_FINAL_4K_UPSCALED.mp4`
+- CS-OCT-SP01 <- source 11.mp4 -> `CS-OCT-SP01_FINAL_4K_UPSCALED.mp4`
+
+QA gate:
+- All five source videos: PASS WITH REPAIR.
+- Identity / continuity / story authority: PASS.
+- 7.mp4 had moving Dola AI positions: lower-right -> mid-left -> upper-right -> lower-right; repaired with time-aware clean cinematic reframe.
+- 8–11 had fixed lower-right Dola AI; removed by clean reframe.
+- Final dense watermark QA: PASS across lower-right, mid-left and upper-right scan zones.
+- Embedded Keywords:
+  - CS-OCT-007: ONE GIANT NEVER RETURNED
+  - CS-OCT-008: THEY STOPPED BEFORE IT
+  - CS-OCT-009: THE VOID WAS PART OF IT
+  - CS-OCT-010: THEY STOOD BETWEEN US
+  - CS-OCT-SP01: IT FOUND US
+- Closing CTA: FOLLOW THE SIGNAL on all five.
+- Final technical delivery: 2160x3840 4K UPSCALED (not native 4K), H.264, 24fps CFR, AAC stereo 48kHz.
+- Durations: 007 15.12s / 008 11.04s / 009 11.04s / 010 15.12s / SP01 11.04s.
+- Black / freeze / abnormal silence QA: PASS.
+- Google Drive upload: PASS in SS3 folder.
+- Website registry mapping: PASS; each Final is attached to its own episode card.
+- Reel copy video-alignment QA: PASS for all five.
+- Facebook publication remains UNCONFIRMED.
+
+Current SS3 Final count: **11/11 READY / FINAL / DRIVE MAPPED / WEB MAPPED**.
+Registered Starter/Storyboard preproduction status remains independent; missing preproduction assets were not retroactively marked PASS.
+
 ## 2026-10-23 — SS3 FINAL REELS 001–006 UPGRADED TO 4K UPSCALED
 
 - CS-OCT-001 through CS-OCT-006 now use 2160x3840 4K-upscaled Final Reels on Google Drive.
@@ -32,8 +65,8 @@ All six Finals:
 - Reel copy video-alignment QA is now PASS for CS-OCT-001–006.
 - Facebook publication remains UNCONFIRMED; website readiness is not publication proof.
 
-Current SS3 Final count: **6/11 READY**.
-Waiting Final Reel: **CS-OCT-007, CS-OCT-008, CS-OCT-009, CS-OCT-010, CS-OCT-SP01**.
+Current SS3 Final count: **11/11 READY**.
+Waiting Final Reel: **NONE**.
 
 # COLOSSUS SIGNAL — SS3 CURRENT PRODUCTION STATE
 
@@ -43,7 +76,7 @@ Updated: 2026-10-23 Asia/Bangkok
 - Project: COLOSSUS SIGNAL (not RLS).
 - Season: SS3 / WHAT THE GIANTS FEARED.
 - 10 main episodes CS-OCT-001 through CS-OCT-010, editorial dates 21–30 October 2026.
-- Halloween Special CS-OCT-SP01 on 31 October 2026: **MASTER STILL + STILL COPY + SCRIPT-BASED REEL COPY QA PASS**. Starter / Video still WAITING.
+- Halloween Special CS-OCT-SP01 on 31 October 2026: **MASTER STILL + STILL COPY + FINAL REEL QA PASS / DRIVE + WEB MAPPED**. Starter preproduction slot remains WAITING.
 - Theme: Dark Cosmic Horror, gigantic living cosmic entities and overwhelming scale.
 - Original SS1 and SS2 source registries, approvals and links remain unchanged.
 
@@ -53,7 +86,7 @@ Updated: 2026-10-23 Asia/Bangkok
 - Drive 4K folder: https://drive.google.com/drive/folders/19bahpbot_ZnuJK5bf375X32da4Wh0eD4
 - Starter Frames: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**; each PNG stored in Google Drive, the five other episodes remain WAITING. EP01 approved Starter exists in conversation but not yet registered as a durable Drive reference here.
 - Video Prompts: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**, Dola / Seedance 2.0, 10/10/15/10/10 seconds. Generated source videos remain NOT CREATED; prompts require video QA after use.
-- Final Reels: **6/11 READY / QA PASS / DRIVE MAPPED / 4K UPSCALED — CS-OCT-001–006; remaining 5 WAITING**.
+- Final Reels: **11/11 READY / QA PASS / DRIVE MAPPED / WEB MAPPED / 4K UPSCALED**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
 - Reel Caption / First Comment: **11/11 PASS (SCRIPT-BASED COPY)** and copyable NOW for EP01–EP10 plus Halloween Special. Each Reel Caption includes 3 related Hashtags in the same block, with a separate First/Pinned Comment. **No need to wait for Reel video before drafting.** Generated video alignment has NOT been verified; Final Reels still 0/11. Master Still copy remains separate and untouched.
 - Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures visible, Earth and the third guardian outside frame. Still and Reel Caption / First Comment are each separately written and QA PASS against story. Starter, Video Prompt and Final Reel NOT CREATED.

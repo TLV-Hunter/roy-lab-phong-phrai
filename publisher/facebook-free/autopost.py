@@ -301,6 +301,23 @@ def state_replace(token, repository, key, new_data):
 
 
 
+def reel_publishing_status(video_id, page_token):
+    """Read Meta Reel publishing result, not merely successful binary upload."""
+    resp = requests.get(
+        f"https://graph.facebook.com/{os.getenv('FB_GRAPH_VERSION') or 'v26.0'}/{video_id}",
+        params={"fields": "status"},
+        headers={"Authorization": "Bearer " + page_token}, timeout=TIMEOUT)
+    status = fb_json(resp).get("status") or {}
+    publishing = status.get("publishing_phase") or {}
+    publish_state = str(publishing.get("publish_status", "")).lower()
+    video_state = str(status.get("video_status", "")).lower()
+    if publish_state == "published":
+        return "published"
+    if publish_state in ("error", "failed") or video_state in ("error", "upload_failed", "expired"):
+        return "failed"
+    return "processing"
+
+
 def process_pending_comments(config, now, plan):
     """Create comments >=5 minutes after real post time; do not claim automatic pin."""
     if os.getenv("FB_AUTOPUBLISH_ENABLED") != "true":
@@ -317,6 +334,29 @@ def process_pending_comments(config, now, plan):
                 config["brands"].get(item["brand"], {}).get("comments_enabled")):
             continue
         record = records.get(item["key"], {})
+        if record.get("status") == "PUBLISH_ACCEPTED_PROCESSING" and item["kind"] == "reel":
+            # Meta finish ACK does not guarantee the Reel is publicly published.
+            page_id, page_token = page_credentials(item["credential_key"])
+            if not page_id or not page_token:
+                print(f"REEL HOLD {item['key']}: Page token missing for status check")
+                continue
+            try:
+                status = reel_publishing_status(str(record["provider_post_id"]), page_token)
+            except Exception:
+                print(f"REEL HOLD {item['key']}: Meta processing status unavailable")
+                continue
+            if status == "failed":
+                state_replace(token, repo, item["key"], {"status": "ERROR_NEEDS_MANUAL_CHECK"})
+                print(f"REEL FAILED {item['key']}: inspect Meta video status")
+                continue
+            if status != "published":
+                print(f"REEL PROCESSING {item['key']}: waiting for Meta publish confirmation")
+                continue
+            confirmed_at = datetime.now(ZoneInfo(config["timezone"])).isoformat()
+            state_replace(token, repo, item["key"], {
+                "status": "PUBLISHED_API_SUCCESS", "published_at": confirmed_at,
+                "publication_confirmation": "META_REEL_STATUS_PUBLISHED"})
+            record = dict(record, status="PUBLISHED_API_SUCCESS", published_at=confirmed_at)
         if record.get("status") != "PUBLISHED_API_SUCCESS":
             continue
         if record.get("comment_status", "NOT_ATTEMPTED") != "NOT_ATTEMPTED":
@@ -433,8 +473,10 @@ def run(args):
             else:
                 post_id = publish_reel(page_id, page_token, data, item["caption"], item["episode_id"])
             state_replace(token, repository, item["key"], {
-                "status": "PUBLISHED_API_SUCCESS", "provider_post_id": str(post_id),
+                "status": "PUBLISH_ACCEPTED_PROCESSING" if item["kind"] == "reel" else "PUBLISHED_API_SUCCESS",
+                "provider_post_id": str(post_id),
                 "published_at": datetime.now(ZoneInfo(config["timezone"])).isoformat(),
+                "publication_confirmation": "META_REEL_FINISH_ACK_PENDING_STATUS" if item["kind"] == "reel" else "META_PHOTO_POST_ACK",
             })
             # Separate job waits 5+ minutes after actual API success for first comment.
             print(f"RECEIPT SAVED {item['key']} (first comment pending >=5 minutes)")

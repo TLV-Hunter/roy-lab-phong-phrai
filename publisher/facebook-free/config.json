@@ -1,33 +1,53 @@
 {
-  "version": 1,
+  "version": 2,
   "timezone": "Asia/Bangkok",
-  "note": "SAFETY HOLD: publishing is disabled for both brands. User has not configured Meta/Google credentials or approved go-live dates. No backfilling missed dates.",
+  "note": "SCHEDULE LOCK: Every brand Still 06:00, Reel 23:00 Asia/Bangkok. Multi-brand expandable via config + FB_PAGES_JSON secret. Safe HOLD until Meta and Drive authorization, future start dates, QA gates and explicit go-live.",
   "brands": {
     "colossus": {
       "enabled": false,
       "start_date": null,
       "content_path": "colossus/ss3-season.json",
-      "content_format": "colossus_ss3",
-      "facebook_page_id_secret": "FB_PAGE_ID_COLOSSUS",
-      "facebook_page_token_secret": "FB_PAGE_TOKEN_COLOSSUS",
+      "content_format": "canonical_ss3",
       "slots": {
         "still": "06:00",
-        "reel": "20:00"
+        "reel": "23:00"
       },
-      "note": "06:00 Master Still owner-confirmed; Reel 20:00 preliminary and must be verified before enablement"
+      "note": "Owner-confirmed 06:00 Master Still and 23:00 Reel; 11/11 final assets in SS3 registry. Start date and Meta/Drive authorization required for live posting.",
+      "credential_key": "colossus"
     },
     "rls": {
       "enabled": false,
       "start_date": null,
       "content_path": "colossus/rls-ss3-content.json",
       "content_format": "rls_ss3",
-      "facebook_page_id_secret": "FB_PAGE_ID_RLS",
-      "facebook_page_token_secret": "FB_PAGE_TOKEN_RLS",
       "slots": {
-        "still": "10:00",
-        "reel": "20:00"
+        "still": "06:00",
+        "reel": "23:00"
       },
-      "note": "Times from previously registered RLS daily queue. RLS SS3 media/source statuses fail publication readiness gates until verified and mapped."
+      "note": "Owner-confirmed 06:00 Master Still and 23:00 Reel. RLS SS3 registry still contains local-only media/archived previews; HOLD until approved assets and Reel copy are linked.",
+      "credential_key": "rls"
+    }
+  },
+  "defaults": {
+    "slots": {
+      "still": "06:00",
+      "reel": "23:00"
+    },
+    "content_format": "canonical_ss3",
+    "enabled": false,
+    "start_date": null,
+    "require_first_comment_success": false
+  },
+  "future_page_template": {
+    "description": "Copy these fields into brands.<new_slug> (not an active page)",
+    "enabled": false,
+    "start_date": null,
+    "content_path": "publisher/facebook-free/sources/NEW_PAGE.json",
+    "content_format": "canonical_ss3",
+    "credential_key": "new_slug",
+    "slots": {
+      "still": "06:00",
+      "reel": "23:00"
     }
   }
 }

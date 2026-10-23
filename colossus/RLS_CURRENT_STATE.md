@@ -1,4 +1,17 @@
 # RLS AI STUDIO — CURRENT STATE
+Updated: 2026-10-23 — SS3 Clips 05–11 seven local postproduction QA PASS (story-lock review remains separate)
+
+## SS3 CLIPS 05–11 EDITING QA — 2026-10-23
+- Owner provided **7 real sources** `5.mp4`–`11.mp4` for pre-QA and editing ONLY. SS2 backlog remains closed. No website or social publication authorized.
+- Source preflight completed on ALL SEVEN: each genuine source is 720×1280 HEVC, 24fps, 241 video frames, ~10.08 s, AAC audio. No sampled black/frozen frames or audio peak clipping. All have bottom-right Dola AI marks; classified **PASS WITH TARGETED REPAIR**, not as pristine raws.
+- Real visually observed source contents: 05 tiger attacking armored reptilian beast; 06 burrowed segmented creature destroys wooden bridge; 07 giant gorilla; 08 elephant damaging wooden structure; 09 huge crocodilian in swamp threatening canoe; 10 horned titan in ancient ruins; 11 single dinosaur-like creature in nighttime Halloween setting.
+- **CRITICAL STORY-LOCK CAUTION:** Source numbers 07–11 are NOT evidence the old canonical SS3 EP07–EP10 / Halloween concepts were approved/replaced; current footage differs materially (e.g. SS3 EP07 older story is beetle vs floodlight, raw 07 is gorilla). Track as numbered CLIP assets; post-production QA PASS is separate from formal story-lock approval.
+- LOCAL EDITED FINALS: `RLS_SS3_CLIP05_FINAL_1080x1920.mp4` through `RLS_SS3_CLIP11_FINAL_1080x1920.mp4` (7 separate moving video files), all independently ffprobe-verified 1080×1920, 24fps, 241 frames, **10.041667 sec (>=10.00 sec)**, H.264 / AAC audio, 0 black frames, 0 identical adjacent-frame pairs; full decode success. Original audio preserved, max peak <= -1.0 dBFS.
+- Treatment on every clip: crop 720×1280 → 684×1216 at x=18,y=0 to exclude Dola AI watermark bottom band; truthful Lanczos 1080×1920 upscale and gentle unsharp; video-burned English topic/keyword header ~0.35–2.8s, ending video-burned `FOLLOW FOR MORE / THE HIDDEN FOREST ARCHIVE` CTA from ~7.9s to end. No inserted freeze or copied motion loop, no claim of true neural AI 4K.
+- Real frame QA inspected at ~1.0,4.0,8.75,9.75s after export; sampled visual QA found no remaining Dola AI watermark. Local report `RLS_SS3_BATCH_05_SPECIAL/RLS_SS3_CLIP05_11_EDIT_QA_REPORT.md`; JSON `final_QA_technical.json`. Batch package `RLS_SS3_CLIP05_11_FINALS_7FILES.zip` contains 7 separate MP4s plus report. These are sandbox artifacts, not presumed in persistent GitHub/Drive.
+- **Truth:** all seven LOCAL POST-PRODUCTION QA PASS, NOT uploaded to website, NOT posted, NOT scheduled. Story-lock identity for clips 07–11 is pending; not count as published or full canonical season completion.
+- **EXACT NEXT EDITING ACTION:** when next SS3 footage arrives, QA source first, proceed only if pass/repairable, remove watermark, upscale, burn English keyword, burn end CTA, ensure decoded Final >=10.00 sec, then QA twice. Do not resume SS2.
+
 Updated: 2026-10-23 — EP07–EP11 redesigned Still QA 2 PASS-TEST / 2 REVISE / 1 FAIL; Final video min10 gate unchanged
 
 ## SS3 REVISED MASTER STILL QA — EP07–EP11 — 2026-10-23

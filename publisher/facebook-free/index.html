@@ -27,6 +27,15 @@ button,.btn{background:#0a3b53;border:1px solid #34738f;border-radius:9px;color:
 <section class="grid" id="brands"></section>
 <section class="panel"><h2>ตารางตรวจความพร้อมแยก Episode</h2><p>ระบบรองรับการเพิ่มเพจจากไฟล์ตั้งค่าอัตโนมัติ ไม่มี Master/Storyboard โพสต์ผิดประเภท การเผยแพร่ต้องผ่านขั้นตอนอนุญาตแยกต่างหาก</p>
 <div class="scroll"><table><thead><tr><th>เพจ</th><th>EP</th><th>Still 06:00</th><th>Reel 23:00</th><th>กำหนดเริ่ม</th></tr></thead><tbody id="queue"></tbody></table></div></section>
+<section class="panel" id="oneoff-panel"><h2>คิวทดลอง Colossus — ภาพใหม่แบบไม่มีเลข EP</h2>
+<p>คิวพิเศษไม่เกี่ยวกับตาราง Master Still 06:00 / Reel 23:00 ภาพตัวอย่างถูกสร้างจาก Master ที่ผ่าน QA โดย GitHub Actions โดยไม่ต้องอัปโหลด Drive อีกครั้ง</p>
+<div class="badges"><span class="tag hold" id="oneoff-state">กำลังตรวจคิว...</span><span class="tag" id="oneoff-time">เวลา: —</span><span class="tag" id="oneoff-media">ไฟล์: —</span></div>
+<p id="oneoff-summary"></p>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/actions/runs/39998356682/artifacts/12520912743">ดาวน์โหลดภาพ Preview ที่ผ่านการทดสอบ</a>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/actions/workflows/colossus-oneoff-test.yml">ดูคิว / GitHub Actions</a>
+<a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/blob/main/publisher/facebook-free/test-posts/2026-10-24_colossus_0045.json">ดูรายการคิวจริง</a>
+<p class="muted">คิว 00:45 วันที่ 24 ต.ค. พลาดเวลาแล้ว และไม่ได้โพสต์จริง ห้ามเปิดคิวที่หมดอายุเพื่อโพสต์ย้อนหลัง ต้องระบุวันและเวลาใหม่ และผ่าน QA อีกครั้งก่อนเปิดใช้</p>
+</section>
 <section class="panel"><h2>ตั้งค่าและขยายไปเพจใหม่</h2><p>เพิ่ม Brand ใน <code>config.json</code> และใส่ Page Token ไว้ใน GitHub Actions Secret <code>FB_PAGES_JSON</code> เท่านั้น ห้ามใส่ Token บนหน้าเว็บหรือ Repository สาธารณะ</p>
 <a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/blob/main/publisher/facebook-free/config.json">ดู Config</a>
 <a class="btn" href="https://github.com/TLV-Hunter/roy-lab-phong-phrai/actions/workflows/facebook-free-multipage.yml">ดู Dry Run / Tests</a>
@@ -53,7 +62,15 @@ if(!start)return 'ยังไม่ได้ตั้งวันเริ่�
 const d=new Date(start+'T12:00:00+07:00');d.setUTCDate(d.getUTCDate()+index);
 return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 }
+async function loadOneoff(){
+ const j=await (await fetch('./test-posts/2026-10-24_colossus_0045.json?v='+Date.now(),{cache:'no-store'})).json();
+ $('oneoff-state').textContent=(j.enabled?'ARMED':'HOLD')+' • '+j.status;
+ $('oneoff-time').textContent='เวลาเป้าหมาย '+j.scheduled_at.replace('T',' ').replace('+07:00','')+' น.';
+ $('oneoff-media').textContent='สื่อใหม่ 1600×2000 / '+j.media.qa;
+ $('oneoff-summary').textContent='เผยแพร่: '+j.publication.state+' • First comment: '+(j.first_comment_enabled?'เปิด':'ปิด')+' • แหล่งภาพ: Approved Master แล้วจัดองค์ประกอบใหม่';
+}
 async function init(){
+ loadOneoff().catch(()=>{$('oneoff-state').textContent='ไม่สามารถอ่านคิว — HOLD'});
 const cfg=await (await fetch('./config.json?v='+Date.now(),{cache:'no-store'})).json();
 let yes=0,no=0;
 for(const [brand,b] of Object.entries(cfg.brands)){

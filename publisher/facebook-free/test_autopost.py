@@ -101,5 +101,66 @@ class SchedulingTests(unittest.TestCase):
         self.assertEqual(publisher.drive_file_id("https://drive.google.com/file/d/abc-123/view"), "abc-123")
 
 
+class FakeResponse:
+    ok = True
+    status_code = 200
+
+    def __init__(self, value):
+        self.value = value
+
+    def json(self):
+        return self.value
+
+
+class PublishingHttpContractTests(unittest.TestCase):
+    """All API calls mocked; proves request construction, not real Meta authorization."""
+
+    def test_photo_payload_includes_colossus_caption(self):
+        from PIL import Image
+        import io
+        image = Image.new("RGB", (600, 1000), (20, 35, 50))
+        buffer = io.BytesIO()
+        image.save(buffer, format="PNG")
+        def fake_post(url, **kwargs):
+            self.assertIn("/photos", url)
+            self.assertEqual(kwargs["data"]["caption"], "approved Colossus Still")
+            self.assertEqual(kwargs["files"]["source"][2], "image/jpeg")
+            return FakeResponse({"id": "photo-id-1", "post_id": "page_post_id"})
+        with patch.object(publisher.requests, "post", side_effect=fake_post):
+            post_id = publisher.publish_photo("TESTPAGE", "TESTTOKEN", buffer.getvalue(), "approved Colossus Still")
+        self.assertEqual(post_id, "page_post_id")
+
+    def test_reel_two_phase_upload_then_finish(self):
+        calls = []
+        def fake_post(url, **kwargs):
+            calls.append(url)
+            if len(calls) == 1:
+                self.assertIn("/video_reels", url)
+                self.assertEqual(kwargs["data"]["upload_phase"], "start")
+                return FakeResponse({"video_id": "test-video-123", "upload_url": "https://rupload.facebook.com/fake"})
+            if len(calls) == 2:
+                self.assertIn("rupload.facebook.com", url)
+                self.assertEqual(kwargs["data"], b"fake-video-bytes")
+                return FakeResponse({"success": True})
+            self.assertEqual(kwargs["data"]["description"], "Colossus Reel Caption #ColossusSignal")
+            self.assertEqual(kwargs["data"]["video_state"], "PUBLISHED")
+            self.assertEqual(kwargs["data"]["upload_phase"], "finish")
+            return FakeResponse({"success": True})
+        with patch.object(publisher.requests, "post", side_effect=fake_post):
+            vid = publisher.publish_reel("TESTPAGE", "TESTTOKEN", b"fake-video-bytes",
+                                         "Colossus Reel Caption #ColossusSignal", "CS-OCT-001")
+        self.assertEqual(vid, "test-video-123")
+        self.assertEqual(len(calls), 3)
+
+    def test_first_comment_post_only_when_called(self):
+        def fake_post(url, **kwargs):
+            self.assertIn("/comments", url)
+            self.assertEqual(kwargs["data"]["message"], "Approved first comment")
+            return FakeResponse({"id": "comment-id"})
+        with patch.object(publisher.requests, "post", side_effect=fake_post):
+            self.assertEqual(publisher.publish_comment("TESTPAGE", "TESTTOKEN",
+                          "page_post_id", "Approved first comment"), "comment-id")
+
+
 if __name__ == "__main__":
     unittest.main()

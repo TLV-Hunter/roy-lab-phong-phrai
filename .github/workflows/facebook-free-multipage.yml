@@ -55,7 +55,7 @@ jobs:
 
 
   scheduled-publish:
-    if: github.event_name == 'schedule' && vars.FB_AUTOPUBLISH_ENABLED != 'false' && (github.event.schedule == '0,17,27 23 * * *' || github.event.schedule == '0,17,27 16 * * *')
+    if: github.event_name == 'schedule' && (github.event.schedule == '0,17,27 23 * * *' || github.event.schedule == '0,17,27 16 * * *')
     runs-on: ubuntu-latest
     timeout-minutes: 22
     steps:
@@ -83,7 +83,7 @@ jobs:
         run: python publisher/facebook-free/autopost.py
 
   scheduled-comments:
-    if: github.event_name == 'schedule' && vars.FB_AUTOPUBLISH_ENABLED != 'false' && (github.event.schedule == '5,10,15,20,25,30,40,50 23 * * *' || github.event.schedule == '5,10,15,20,25,30,40,50 16 * * *' || github.event.schedule == '5,15,25 0 * * *' || github.event.schedule == '5,15,25 17 * * *')
+    if: github.event_name == 'schedule' && (github.event.schedule == '5,10,15,20,25,30,40,50 23 * * *' || github.event.schedule == '5,10,15,20,25,30,40,50 16 * * *' || github.event.schedule == '5,15,25 0 * * *' || github.event.schedule == '5,15,25 17 * * *')
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:

@@ -21,10 +21,6 @@ on:
       - 'publisher/facebook-free/oneoff_test.py'
       - 'publisher/facebook-free/test-posts/**'
       - '.github/workflows/colossus-oneoff-test.yml'
-  schedule:
-    # 00:45 Asia/Bangkok = 17:45 UTC previous calendar day.
-    # Daily trigger; exact-date queue, QA, enable flags and due-window gate publication.
-    - cron: '45 17 * * *'
 
 permissions:
   contents: write

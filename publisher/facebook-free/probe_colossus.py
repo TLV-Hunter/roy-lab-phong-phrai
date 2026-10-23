@@ -70,24 +70,18 @@ def main():
         except requests.RequestException:
             result("facebook_page_read", "HOLD", "Facebook API not reachable from GitHub runner")
 
-    cid = os.getenv("GOOGLE_OAUTH_CLIENT_ID")
-    csecret = os.getenv("GOOGLE_OAUTH_CLIENT_SECRET")
-    refresh = os.getenv("GOOGLE_OAUTH_REFRESH_TOKEN")
-    if not all((cid, csecret, refresh)):
-        result("drive_credentials", "HOLD", "No authorized private Drive OAuth credentials in GitHub Actions Secrets")
+    from autopost import get_drive_access_token
+    has_service = bool(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
+    has_oauth = all(os.getenv(k) for k in (
+        "GOOGLE_OAUTH_CLIENT_ID", "GOOGLE_OAUTH_CLIENT_SECRET", "GOOGLE_OAUTH_REFRESH_TOKEN"))
+    if not has_service and not has_oauth:
+        result("drive_credentials", "HOLD", "No Google Service Account or OAuth access in Actions Secrets")
     else:
         try:
-            token = requests.post("https://oauth2.googleapis.com/token",
-                                  data={"client_id": cid, "client_secret": csecret,
-                                        "refresh_token": refresh, "grant_type": "refresh_token"},
-                                  timeout=25)
-            if not token.ok:
-                result("drive_oauth", "HOLD", "OAuth refresh rejected")
-                return
-            access = token.json().get("access_token")
+            access = get_drive_access_token()
             if not access:
-                result("drive_oauth", "HOLD", "OAuth refresh returned no access token")
-                return
+                raise RuntimeError("No usable Drive access token")
+            result("drive_auth", "PASS", "Authorized read-only Google Drive token obtained")
             for kind, ep in (("still", stills[0]), ("reel", reels[0])):
                 file_url = ep["master"]["url"] if kind == "still" else ep["reel"]["url"]
                 fid = media_file_id(file_url)
@@ -98,12 +92,14 @@ def main():
                     timeout=25)
                 obj = info.json() if info.ok else {}
                 expected = "image/" if kind == "still" else "video/"
-                okay = info.ok and obj.get("mimeType", "").startswith(expected) and                         obj.get("capabilities", {}).get("canDownload", True)
+                okay = info.ok and obj.get("mimeType", "").startswith(expected) and (
+                    obj.get("capabilities", {}).get("canDownload", True))
                 result("drive_" + kind + "_access", "PASS" if okay else "HOLD",
-                       "Approved Colossus file can be read" if okay else
-                       "Google Drive media inaccessible/not a valid file")
-        except (requests.RequestException, ValueError):
-            result("drive_probe", "HOLD", "Google Drive API unavailable or returned invalid metadata")
+                       "Approved Colossus media accessible" if okay else
+                       "Media not shared with Service Account / Drive API denied")
+        except Exception:
+            # No credential content, access tokens or API response bodies are logged.
+            result("drive_auth", "HOLD", "Google Drive authorization failed; check service account secret and API")
 
     result("live_publish", "OFF", "Read-only probe; NEVER calls Facebook POST or changes auto-publish flags")
 

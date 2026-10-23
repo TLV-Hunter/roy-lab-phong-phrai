@@ -13,18 +13,18 @@
   "production_truth": {
     "masters_verified": "11/11 archived as 2160×3840 PNG on Google Drive; images are upscaled, not native AI 4K; Special file recovered via 1152×2048 intermediate then upscaled",
     "starter_frames": "5/11 PREPRODUCTION QA PASS — EP02–EP06; others WAITING",
-    "reels": "6/11 FINAL REELS READY — CS-OCT-001 through CS-OCT-006 are 2160x3840 4K UPSCALED (not native 4K), watermark re-QA PASS, Drive mapped; remaining 5 WAITING",
+    "reels": "11/11 FINAL REELS READY — CS-OCT-001 through CS-OCT-010 + Halloween Special are 2160x3840 4K UPSCALED (not native 4K), final video QA + dense watermark re-QA PASS, Drive mapped.",
     "still_copy": "11/11 PASS — Master-specific English Captions, First Comments, Keywords, CTA, Hashtags",
-    "reel_copy": "11/11 COMPLETE • English USA planned-story Reel Caption with inline hashtags and separate First/Pinned Comment • Copy QA PASS from approved story; generated-video alignment UNVERIFIED, no social publishing",
+    "reel_copy": "11/11 COMPLETE • Final-video alignment VERIFIED for all 10 main episodes + Halloween Special • English USA Reel Caption with inline hashtags and separate First/Pinned Comment • no social publishing claim.",
     "facebook_publication": "NONE VERIFIED — no live Facebook publishing claimed",
-    "note": "A web production desk, not proof of publication. No content copied from RLS SS3.",
+    "note": "Internal production desk. 11/11 Final Reels are QA-passed and mapped; this is not proof of Facebook publication. CS-OCT-007–010 and SP01 were accepted by final-video visual authority even though their registered Starter/Storyboard preproduction slots remain WAITING.",
     "copy_research": "Meta 2026 original creator guidelines, personalization update, Meta AI captions; anti-spam and engagement bait guardrails",
     "halloween_special_master": "1/1 Master backed up in Google Drive; 2160×3840 PNG verified; visual story QA aligned to two on-frame guardians",
     "video_prompts": "5/11 Dola / Seedance 2.0 prompts recorded (EP02–EP06; 10/10/15/10/10 seconds); no source videos made",
     "storyboards": "5/11 PREPRODUCTION QA PASS — EP02–EP06, uploaded to Drive, distinct beat sheets",
     "starter_storyboard_folder": "https://drive.google.com/drive/folders/13-GtfhSaotc3XV_FhEknuohoYJ8-WDLe",
     "copy_policy": "Two copy packs per episode only: (1) Master Still Caption+inline Hashtags and First/Pinned Comment; (2) Reel Caption+inline Hashtags and First/Pinned Comment. Both can be written in preproduction; Reel copy is QA-passed against story, but must not imply video has been viewed. Starter/Storyboard have no social copy.",
-    "final_reel_drive_status": "CS-OCT-001–006 Drive files replaced in place with 4K-upscaled Finals; existing episode URLs retained."
+    "final_reel_drive_status": "11/11 SS3 Final Reels mapped to the SS3 Drive folder and their own website episode cards. CS-OCT-007–010 + SP01 added 2026-10-23 after QA-gated edit and dense watermark re-QA."
   },
   "episode_count": 10,
   "episodes": [
@@ -867,12 +867,12 @@
         "prompt_qa": "WAITING"
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1XraDeN1vd5NR53q_r8SCXLXzmqOxTXzZ/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL 4K UPSCALED + WATERMARK RE-QA",
         "caption": "One giant entered the red darkness. It never came back.\n\nAbove Earth, one titan reaches toward a blazing red boundary. Another colossal figure drifts beyond the edge.\n\nThe opening offers no view of the other side.\n\nFor a moment, the two seem close enough to touch.\n\nThen there is only the red void—and the question of what waits inside.\n\nFollow the next transmission. The others are about to stop.\n\n#ColossusSignal #CosmicHorror #AlienTitan",
         "first_comment": "📡 TRANSMISSION 007\n\nThere are two separate giants: one stays nearer Earth while the other crosses the boundary. The red opening doesn't reveal a destination. Did it choose to enter—or was it being drawn in?",
-        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_qa": "PASS — FINAL VIDEO VERIFIED",
         "copy_details": {
           "content_type": "FACEBOOK_REEL_EN_US",
           "caption_includes_hashtags": true,
@@ -884,11 +884,26 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still and season story arc; no final beat storyboard yet",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-007_FINAL_4K_UPSCALED.mp4",
+        "source_video": "7.mp4",
+        "duration_seconds": 15.12,
+        "resolution": "2160x3840",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "676a7f02329cf236b7126bc10b6b45cfa6e4fec40b729d2de9852e9c9e35f906",
+        "embedded_keyword": "ONE GIANT NEVER RETURNED",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS — DENSE MULTI-ZONE RE-QA AFTER 4K",
+        "watermark_repair_note": "Dola AI relocated during the source: lower-right -> mid-left -> upper-right -> lower-right. Final uses time-aware cinematic reframe with smooth horizontal motion; dense lower-right / mid-left / upper-right re-QA passed.",
+        "delivery_class": "4K UPSCALED FINAL — NOT NATIVE 4K",
+        "upscale_source": "720x1280 generated source after watermark repair",
+        "final_note": "Final visually matched to the episode Master/story authority. Identity/continuity, watermark, embedded Keyword, closing CTA, technical delivery and final video alignment QA passed. Facebook publication remains unconfirmed."
       },
       "still": {
         "caption": "One giant crossed the red boundary. Another stayed behind.\n\nA distant titan drifted into the blazing dark opening while a second colossal figure reached from above Earth. The space between them was closing, but the opening offered no glimpse of what lay beyond.\n\nWould you have followed it into the red void?\n\n#ColossusSignal #CosmicHorror #AlienTitan",
@@ -945,12 +960,12 @@
         "prompt_qa": "WAITING"
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/16-yWBuGi3NB4JTSvLYvnqkzANdBi3fiX/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL 4K UPSCALED + WATERMARK RE-QA",
         "caption": "Three giants saw the same thing. All three stopped.\n\nThey tower above Earth, different in shape but suddenly united by the same reaction.\n\nTheir bodies go still. Their attention turns upward, away from the planet.\n\nThe threat isn't shown in full.\n\nBut if three colossal beings are afraid to take another step, the silence tells us enough.\n\nWatch where all three are looking.\n\n#ColossusSignal #CosmicHorror #AlienGiants",
         "first_comment": "📡 TRANSMISSION 008\n\nNone of the three guardians is watching Earth. Their attention converges on something above them. What could stop three beings that once seemed unstoppable?",
-        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_qa": "PASS — FINAL VIDEO VERIFIED",
         "copy_details": {
           "content_type": "FACEBOOK_REEL_EN_US",
           "caption_includes_hashtags": true,
@@ -962,11 +977,26 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still and season story arc; no final beat storyboard yet",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-008_FINAL_4K_UPSCALED.mp4",
+        "source_video": "8.mp4",
+        "duration_seconds": 11.04,
+        "resolution": "2160x3840",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "8ae9f004d0874bcbcaa1fef82a580cce54d96fc9f98722cf5083468c34aa0ed4",
+        "embedded_keyword": "THEY STOPPED BEFORE IT",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS — DENSE MULTI-ZONE RE-QA AFTER 4K",
+        "watermark_repair_note": "Fixed lower-right Dola AI removed by clean 9:16 reframe; dense watermark re-QA passed.",
+        "delivery_class": "4K UPSCALED FINAL — NOT NATIVE 4K",
+        "upscale_source": "720x1280 generated source after watermark repair",
+        "final_note": "Final visually matched to the episode Master/story authority. Identity/continuity, watermark, embedded Keyword, closing CTA, technical delivery and final video alignment QA passed. Facebook publication remains unconfirmed."
       },
       "still": {
         "caption": "Three titans stopped facing the same darkness.\n\nAbove Earth, three distinct colossal figures held their ground beneath an impossible vertical mass. None faced the planet. Their attention was fixed upward, as though they had all recognized the same danger.\n\nWhich detail tells you they are afraid?\n\n#ColossusSignal #CosmicHorror #AlienGiants",
@@ -1023,12 +1053,12 @@
         "prompt_qa": "WAITING"
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1LBJ-znInPM6_1HBJT6Z96w9Xg3jxZs7w/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL 4K UPSCALED + WATERMARK RE-QA",
         "caption": "We called it a doorway. What if it was part of a body?\n\nA vast black ring hangs above Earth. The closer we look, the stranger its layered edges become.\n\nThey don't feel like machinery. They seem to fold around a living darkness.\n\nWe still can't see the whole thing.\n\nMaybe the shape was never behind the void. Maybe the void was part of the shape.\n\nLook again at the edges, not the center.\n\n#ColossusSignal #CosmicMystery #SciFiHorror",
         "first_comment": "📡 TRANSMISSION 009\n\nThe reveal is deliberately incomplete. You can see layered structures around the opening, not an entire monster. If that ring belongs to something alive, how large would the rest of it have to be?",
-        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_qa": "PASS — FINAL VIDEO VERIFIED",
         "copy_details": {
           "content_type": "FACEBOOK_REEL_EN_US",
           "caption_includes_hashtags": true,
@@ -1040,11 +1070,26 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still and season story arc; no final beat storyboard yet",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-009_FINAL_4K_UPSCALED.mp4",
+        "source_video": "9.mp4",
+        "duration_seconds": 11.04,
+        "resolution": "2160x3840",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "d2fc8d50afb92abaa82acee29fd464634adb177a8e917fd492b88dc0dba9995a",
+        "embedded_keyword": "THE VOID WAS PART OF IT",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS — DENSE MULTI-ZONE RE-QA AFTER 4K",
+        "watermark_repair_note": "Fixed lower-right Dola AI removed by clean 9:16 reframe; dense watermark re-QA passed.",
+        "delivery_class": "4K UPSCALED FINAL — NOT NATIVE 4K",
+        "upscale_source": "720x1280 generated source after watermark repair",
+        "final_note": "Final visually matched to the episode Master/story authority. Identity/continuity, watermark, embedded Keyword, closing CTA, technical delivery and final video alignment QA passed. Facebook publication remains unconfirmed."
       },
       "still": {
         "caption": "What if the darkness wasn't a doorway?\n\nA colossal ring loomed over Earth while tiny giants gathered near its edge. The curved black layers around the opening looked less like machinery and more like parts of a hidden body. We may have been looking at it all along.\n\nLook again at the structure surrounding the void.\n\n#ColossusSignal #CosmicMystery #SciFiHorror",
@@ -1101,12 +1146,12 @@
         "prompt_qa": "WAITING"
       },
       "reel": {
-        "url": null,
-        "status": "NOT CREATED",
-        "qa": "WAITING",
+        "url": "https://drive.google.com/file/d/1rTAzKA3SLEqFrCqxoiuPGEQ1wKE4beyb/view?usp=drivesdk",
+        "status": "READY / FINAL",
+        "qa": "PASS — FINAL 4K UPSCALED + WATERMARK RE-QA",
         "caption": "The giants weren't coming for us. They were standing in front of us.\n\nThree colossal figures gather above Earth.\n\nFor once, they don't face the planet. They turn toward the same lightless threat and hold their positions between it and our world.\n\nThe beings we feared have become the last thing standing in its way.\n\nBut a shield only matters when something is about to strike.\n\nFollow the Halloween finale. The darkness is about to answer.\n\n#ColossusSignal #CosmicHorror #HalloweenSciFi",
         "first_comment": "📡 TRANSMISSION 010\n\nLook at the formation: three figures, all facing outward, with Earth behind them. Nothing in their posture resembles an invasion. Is this the first time the giants are protecting us?",
-        "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+        "copy_qa": "PASS — FINAL VIDEO VERIFIED",
         "copy_details": {
           "content_type": "FACEBOOK_REEL_EN_US",
           "caption_includes_hashtags": true,
@@ -1118,11 +1163,26 @@
           "first_pinned_comment_separate": true,
           "copywriting_qa": "PASS",
           "planned_story_alignment": "PASS",
-          "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+          "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
           "publication_status": "UNCONFIRMED",
           "source_basis": "master still and season story arc; no final beat storyboard yet",
           "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-        }
+        },
+        "final_filename": "CS-OCT-010_FINAL_4K_UPSCALED.mp4",
+        "source_video": "10.mp4",
+        "duration_seconds": 15.12,
+        "resolution": "2160x3840",
+        "fps": 24,
+        "video_codec": "H.264",
+        "audio": "AAC stereo 48kHz",
+        "sha256": "e91df129395f4ad54ba4717bd0cf23ee096da7e23e967f9ff89fc969663add8d",
+        "embedded_keyword": "THEY STOOD BETWEEN US",
+        "embedded_cta": "FOLLOW THE SIGNAL",
+        "watermark_qa": "PASS — DENSE MULTI-ZONE RE-QA AFTER 4K",
+        "watermark_repair_note": "Fixed lower-right Dola AI removed by clean 9:16 reframe; dense watermark re-QA passed.",
+        "delivery_class": "4K UPSCALED FINAL — NOT NATIVE 4K",
+        "upscale_source": "720x1280 generated source after watermark repair",
+        "final_note": "Final visually matched to the episode Master/story authority. Identity/continuity, watermark, embedded Keyword, closing CTA, technical delivery and final video alignment QA passed. Facebook publication remains unconfirmed."
       },
       "still": {
         "caption": "The giants weren't surrounding Earth. They were shielding it.\n\nThree colossal figures stood between the planet and a lightless opening in the sky. The beings that once terrified us now faced outward—toward something too vast to confront alone.\n\nFollow the signal into the Halloween finale.\n\n#ColossusSignal #CosmicHorror #HalloweenSciFi",
@@ -1185,12 +1245,12 @@
       "prompt_qa": "WAITING"
     },
     "reel": {
-      "url": null,
-      "status": "NOT CREATED",
-      "qa": "WAITING",
+      "url": "https://drive.google.com/file/d/1Oh_CqGz349CPXv8mvzYrJwAigH9mnwQg/view?usp=drivesdk",
+      "status": "READY / FINAL",
+      "qa": "PASS — FINAL 4K UPSCALED + WATERMARK RE-QA",
       "caption": "The giants finally showed us what they feared.\n\nThree guardians formed Earth's last shield.\n\nBut when the final transmission reaches us, only two are visible.\n\nBehind them, a living darkness rises on a scale that makes even those giants look small. Earth is outside the frame. The third guardian is nowhere in sight.\n\nThen the enormous presence turns our way.\n\nIT FOUND US.\n\nThe signal ends here. The mystery doesn't. Where did the third giant go?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",
       "first_comment": "📡 HALLOWEEN FINAL TRANSMISSION\n\nTwo guardians remain in the frame. Earth and the third are unseen. The thing they feared is finally visible at a scale none of them can match. What do you think happened to the missing guardian?",
-      "copy_qa": "PASS — SCRIPT-BASED REEL COPY / VIDEO UNVERIFIED",
+      "copy_qa": "PASS — FINAL VIDEO VERIFIED",
       "copy_details": {
         "content_type": "FACEBOOK_REEL_EN_US",
         "caption_includes_hashtags": true,
@@ -1202,11 +1262,26 @@
         "first_pinned_comment_separate": true,
         "copywriting_qa": "PASS",
         "planned_story_alignment": "PASS",
-        "video_alignment_qa": "NOT VERIFIED — video not created or reviewed",
+        "video_alignment_qa": "PASS — FINAL VIDEO VISUALLY VERIFIED",
         "publication_status": "UNCONFIRMED",
         "source_basis": "master still and season story arc; no final beat storyboard yet",
         "copy_policy": "Exactly 2 copy packs per episode: Master Still and Reel. Starter Frame and Storyboard have none."
-      }
+      },
+      "final_filename": "CS-OCT-SP01_FINAL_4K_UPSCALED.mp4",
+      "source_video": "11.mp4",
+      "duration_seconds": 11.04,
+      "resolution": "2160x3840",
+      "fps": 24,
+      "video_codec": "H.264",
+      "audio": "AAC stereo 48kHz",
+      "sha256": "66a2043cec9e97dcf81d0c10af24214caf9c00a8a7fb4df90bdb22cae54d34c0",
+      "embedded_keyword": "IT FOUND US",
+      "embedded_cta": "FOLLOW THE SIGNAL",
+      "watermark_qa": "PASS — DENSE MULTI-ZONE RE-QA AFTER 4K",
+      "watermark_repair_note": "Fixed lower-right Dola AI removed by clean 9:16 reframe; dense watermark re-QA passed.",
+      "delivery_class": "4K UPSCALED FINAL — NOT NATIVE 4K",
+      "upscale_source": "720x1280 generated source after watermark repair",
+      "final_note": "Final visually matched to the episode Master/story authority. Identity/continuity, watermark, embedded Keyword, closing CTA, technical delivery and final video alignment QA passed. Facebook publication remains unconfirmed."
     },
     "still": {
       "caption": "Three giants formed the last shield.\n\nBut in the final transmission, only two guardians remained visible.\n\nBehind them, the darkness finally revealed a face—a living cosmic giant so immense that even the defenders looked small. Earth was beyond the frame. One guardian was missing.\n\nThen the thing turned toward us.\n\nIT FOUND US.\n\nWhere did the third guardian go?\n\n#ColossusSignal #CosmicHorror #HalloweenHorror",

@@ -58,10 +58,15 @@ def main():
                 params={"fields": "id,name"},
                 headers={"Authorization": "Bearer " + page_token},
                 timeout=25)
-            if data.ok and str(data.json().get("id")) == str(page_id):
-                result("facebook_page_read", "PASS", "Authorized Colossus Page ID responds")
+            found = data.json() if data.ok else {}
+            id_match = str(found.get("id")) == str(page_id)
+            name_match = "colossus" in str(found.get("name", "")).casefold()
+            if data.ok and id_match and name_match:
+                result("facebook_page_read", "PASS", "Authorized Colossus Page ID and name confirmed")
+            elif data.ok and id_match:
+                result("facebook_page_read", "HOLD", "Page ID accessible, but Page name does not contain Colossus; check target identity")
             else:
-                result("facebook_page_read", "HOLD", "Page token rejected or returned a different Page")
+                result("facebook_page_read", "HOLD", f"Page API returned HTTP {data.status_code} or mismatched Page ID; check token permissions")
         except requests.RequestException:
             result("facebook_page_read", "HOLD", "Facebook API not reachable from GitHub runner")
 

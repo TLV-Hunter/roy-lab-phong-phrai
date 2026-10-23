@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "timezone": "Asia/Bangkok",
+  "note": "SAFETY HOLD: publishing is disabled for both brands. User has not configured Meta/Google credentials or approved go-live dates. No backfilling missed dates.",
+  "brands": {
+    "colossus": {
+      "enabled": false,
+      "start_date": null,
+      "content_path": "colossus/ss3-season.json",
+      "content_format": "colossus_ss3",
+      "facebook_page_id_secret": "FB_PAGE_ID_COLOSSUS",
+      "facebook_page_token_secret": "FB_PAGE_TOKEN_COLOSSUS",
+      "slots": {
+        "still": "06:00",
+        "reel": "20:00"
+      },
+      "note": "06:00 Master Still owner-confirmed; Reel 20:00 preliminary and must be verified before enablement"
+    },
+    "rls": {
+      "enabled": false,
+      "start_date": null,
+      "content_path": "colossus/rls-ss3-content.json",
+      "content_format": "rls_ss3",
+      "facebook_page_id_secret": "FB_PAGE_ID_RLS",
+      "facebook_page_token_secret": "FB_PAGE_TOKEN_RLS",
+      "slots": {
+        "still": "10:00",
+        "reel": "20:00"
+      },
+      "note": "Times from previously registered RLS daily queue. RLS SS3 media/source statuses fail publication readiness gates until verified and mapped."
+    }
+  }
+}

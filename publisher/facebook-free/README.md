@@ -1,78 +1,88 @@
-# Free Facebook Multi-Page Publisher — Colossus + RLS
+# Free Multi-Page Facebook Publisher — Colossus + RLS + future Pages
 
-A **safe, zero-subscription prototype** integrated with the existing TalentVee GitHub repo.
-It does **not** replace `publisher.html` or `.github/workflows/publisher-cron.yml`.
+## Operational truth (2026-10-23)
 
-## Current operational status
+- Workflow, safe previews, source validation, anti-duplicate receipts and **offline unit tests**: INSTALLED. GitHub Actions preview + tests: PASS.
+- The **exact same content slots** apply to every Page: **Master Still at 06:00**, **Reel at 23:00**, `Asia/Bangkok`.
+- For each slot the workflow triggers at :00 with retry triggers at :17 and :27. GitHub cron is best-effort, so posts may be late; exact-to-the-minute publication is NOT guaranteed.
+- **LIVE POSTS: DISABLED.** No Facebook Page Access Tokens, valid Google Drive OAuth refresh credentials, future episode start dates or activation have been configured by the account owner. Neither Colossus nor RLS has been posted from this module.
+- **Colossus SS3:** 11/11 approved 4K Still + Reel media links and independent caption/comments exist in `colossus/ss3-season.json`. Photo+Reel are independent posts.
+- **RLS SS3:** Separate `colossus/rls-ss3-content.json` still has archived JPEG preview Masters and locally rendered/unmapped Reel files; these cannot pass the production gates. RLS is kept on HOLD until canonical approved source links and separate Reel captions/comments are registered.
+- Existing TalentVee Publisher web UI and `publisher-cron.yml` are NOT replaced or edited. Never store secrets in public files.
 
-- Preview/queue planner: **INSTALLED**
-- GitHub-hosted runner: **INSTALLED**, no Windows PC needs to stay on
-- Facebook posting: **DISABLED** (no credentials/approval configured)
-- Confirmed live Facebook posts from this module: **0**
-- Source: Colossus SS3 approved registry and RLS SS3 registry, not generated captions
-- Never writes public captions for Starter/Storyboard
-- Never changes the Master Still / Final Reel assets or their QA status
+## Planned schedule / start date
 
-## Independent brand schedules (Asia/Bangkok)
-
-| Brand | Master Still | Reel | Source readiness |
+| Page | Still (Master image) | Reel (Final video) | Zone |
 | --- | --- | --- | --- |
-| COLOSSUS SIGNAL SS3 | **06:00 daily** (owner confirmed) | **20:00** (provisional: changeable) | 11/11 approved Still + Reel mapped to Drive |
-| RLS / The Hidden Forest SS3 | 10:00 daily | 20:00 daily | Currently **HOLD**: RLS SS3 site has archived JPEG previews and local-only/not-mapped videos. Must not post those as Finals |
+| Colossus Signal | **06:00** every day | **23:00** every day | Asia/Bangkok |
+| RLS — The Hidden Forest | **06:00** every day | **23:00** every day | Asia/Bangkok |
+| Any future Page | **06:00** default | **23:00** default | Asia/Bangkok |
 
-The series begin only after an explicit `start_date` is entered for each brand. The default is `null`.
-Publishing also requires `brands.<name>.enabled=true` and `FB_AUTOPUBLISH_ENABLED=true` separately.
-No catch-up or dumping previous dated episodes occurs automatically. To avoid duplicates, a receipt is reserved **before** the Meta request. Ambiguous failures remain on hold for manual reconciliation.
+Episode 1 is assigned to the owner's future `start_date`; Episode 2 to the following day, and so forth (no historical backfill). For each Page the dates can be changed independently, while Still and Reel for the same EP remain paired on the same day.
 
-## Setup (owner must authorize Facebook and Google)
+## How to add a 3rd/4th/etc Page — no Python or workflow edits
 
-1. Open the workflow file `.github/workflows/facebook-free-multipage.yml` in **Actions** and review the automatic **preview** job. A pushed change to this folder runs dry-run checks without posting.
-2. Create/configure a Meta Developer App authorized to manage the two Facebook Pages; get valid Page tokens with the permissions needed for Page photo/Reel publishing and, if using first comments, engagement. No credentials are placed in source or UI. Some Facebook features require Meta App Review / appropriate Page roles.
-3. Add these **repository Actions Secrets** in Settings → Secrets and variables → Actions (never put their values in chat or public files):
-   - `FB_PAGE_ID_COLOSSUS`, `FB_PAGE_TOKEN_COLOSSUS`
-   - `FB_PAGE_ID_RLS`, `FB_PAGE_TOKEN_RLS`
-   - `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN` (Google Drive API read permission for private media)
-4. Test both Page permissions, Drive file access, Reel upload and comment permissions on an authorized test Page first. Test token expiry/renewal as well.
-5. Fill `config.json` → `start_date` (YYYY-MM-DD), correct Reel time and mark each brand `enabled=true` **only once the respective approved assets and copy are ready**. RLS is blocked until approved final master files and reels are actually mapped.
-6. Set repository **variable** `FB_AUTOPUBLISH_ENABLED=true` only after end-to-end tests. Set `FB_GRAPH_VERSION=v26.0` or a version verified for your Meta App. Optionally set `FB_ENABLE_FIRST_COMMENT=true` only after verifying permissions.
+1. Prepare a separate brand-approved JSON source in this repository with `episodes`, each containing `id`, `master: {url, qa}`, `still: {caption, first_comment, copy_qa}`, `reel: {url, qa, caption, first_comment, copy_qa}`, `publication: {status}`. Alternatively select an already supported `content_format` (e.g. RLS SS3).
+2. Add a new `brands.<slug>` entry in `config.json`, using `future_page_template`, changing `content_path`, `credential_key`, and `start_date`. The default 06:00/23:00 slots can be reused.
+3. Update one GitHub Actions **secret** named `FB_PAGES_JSON` to include the new Page's `page_id` and `access_token` (example below). This secret must NEVER be saved to GitHub public files, Issues, website UI, or ChatGPT.
+4. Validate that every media URL is accessible to the runner by the authorized Google account, not merely a Drive preview URL.
+5. Execute the preview in GitHub Actions and perform an authorized test Page upload; finally enable the specific brand and go-live variable after QA.
 
-## What gets posted
+`FB_PAGES_JSON` secret value structure (**PLACEHOLDERS ONLY**):
 
-Colossus data is read from `colossus/ss3-season.json`:
-- **Still**: `master.url` + `still.caption` (hashtags already inside) + `still.first_comment`
-- **Reel**: `reel.url` + `reel.caption` (hashtags already inside) + `reel.first_comment`
-- No Starter/Storyboard public posting. The script checks source QA and existing publication status for every item.
+```json
+{
+  "colossus": {"page_id": "PAGE_ID_1", "access_token": "TOKEN_1"},
+  "rls": {"page_id": "PAGE_ID_2", "access_token": "TOKEN_2"},
+  "newpage": {"page_id": "PAGE_ID_3", "access_token": "TOKEN_3"}
+}
+```
 
-RLS data is read from `colossus/rls-ss3-content.json` but requires proper, public-post-approved *Master Still* and *Final Reel* media URLs, correctly flagged PASS, plus distinct Still/Reel copy. It intentionally rejects local-only videos and archived JPEG preview assets.
+Keep this JSON only in **Settings → Secrets and variables → Actions → Repository secrets**. `FB_PAGES_JSON` is a single, extensible store. For backwards compatibility, `FB_PAGE_ID_COLOSSUS`/`FB_PAGE_TOKEN_COLOSSUS` and analogous RLS secrets may also work, but new Pages should use the JSON map.
 
-## Media and accessibility
+## Additional required private GitHub Secrets
 
-Colossus media is stored on private Google Drive. Google Drive share links **cannot be passed as public CDN links** to Facebook and are not downloadable by anonymous GitHub runners. This publisher obtains an authorized Google Drive OAuth access token to download the approved file into the ephemeral Actions runner. Master Still PNG is converted to a temporary JPEG under the Facebook photo size cap **without modifying the original approved Master**.
+`GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GOOGLE_OAUTH_REFRESH_TOKEN` for approved private Google Drive file reads (only a refresh token with the needed permission).
+The workflow automatically provides a scoped `GITHUB_TOKEN` to persist receipts. In **Actions variables**, eventually set `FB_GRAPH_VERSION` to an API version supported by the connected Meta App (default in script `v26.0`). Do NOT expose secrets in local files or browser.
 
-## Run scheduling
+For Facebook Page permissions, request those actually needed via Meta's official app/consent flow: `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, plus `pages_manage_engagement` if posting first comments. App review and token renewal requirements depend on the Page/App relationship. Uploading media/finishing Reels and posting comments must be tested live on an authorized test Page; do not mistake an HTTP upload acceptance for verification of a published Facebook post.
 
-GitHub Actions cron triggers at Bangkok 06:00, 10:00 and 20:00, and again 15 minutes later as a failsafe. This is **best-effort**, **not guaranteed exact to the minute**: GitHub documents occasional delayed/dropped scheduled jobs. The code only publishes due items within a 30-minute window; outside the window it will not secretly backfill previous content.
+## Safe activation — deliberately not yet performed
 
-## First comment / pinned comment
+The `config.json` values start as:
 
-- `reel.first_comment` and `still.first_comment` are already in the source registry and supported as separate fields.
-- **Posting** comments via Meta Graph API is an optional, disabled flag until verified against the live app/Page permission.
-- **Pinning** a comment is not implemented and must not be advertised as automatic.
-- Publishing success and comment success are independently recorded in `receipts.json`.
+```text
+colossus.enabled = false
+rls.enabled = false
+colossus.start_date = null
+rls.start_date = null
+```
 
-## Security and failure gates
+Only after successful authorization, source QA, preview, and an explicit go-live decision, change the relevant Page to `enabled=true`, set a **future** `start_date`, and set GitHub Actions **variable** `FB_AUTOPUBLISH_ENABLED=true`.
 
-- `FB_AUTOPUBLISH_ENABLED` default false; individual brands default false.
-- Missing media, QA fail, unpublished RLS assets, missing Page tokens or start dates → HOLD.
-- `receipts.json` is a persistent reserve-first log; it prevents automatic duplicates across repeated cron runs.
-- On API failure or ambiguous state, the entry remains reserved and requires manual reconciliation; it is **not** deleted automatically.
-- GitHub receipts store content IDs and Facebook post IDs, **not** tokens, media bytes or full captions.
-- No token or Google credential belongs in a public repo, GitHub Pages or chat.
+At most once per EP/kind/Page, `receipts.json` records a reservation before upload. If Meta responds ambiguously, the publisher HALTS and requires reconciliation; automatic retry could create duplicate content. The first comment is OFF by default (`FB_ENABLE_FIRST_COMMENT=false`), as is pinning (NOT SUPPORTED by this script).
 
-## Verified references
+**IMPORTANT:** The existing public page files are for production, not a secure credentials UI. Do not type tokens into the page or store them in the JSON sources.
 
-- Meta-owned Postman Facebook Reels API collection: https://www.postman.com/meta/facebook/documentation/r56bjfd/facebook-api
-- Official Meta Pages API: https://developers.facebook.com/docs/pages-api/
-- GitHub scheduled workflows: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+## Optional Local AI (no GPU needed, does not need to stay on)
 
-This is an implementation scaffold, not proof that a Page has been connected, that app permissions have been approved or that a post has gone live.
+Only for editorial QA, not the timer or Facebook authentication. On the user's Windows 11 CPU / 16 GB RAM machine:
+
+```powershell
+ollama pull qwen3:4b-instruct
+python publisher/facebook-free/local_ai_review.py --brand colossus --episode CS-OCT-002 --kind reel --model qwen3:4b-instruct
+```
+
+Ollama's Qwen3 4B Instruct quantized model is about 2.5 GB to download. It runs on CPU but may take time. The script calls only `127.0.0.1:11434`; it merely suggests copy improvements. It does NOT modify approved source, publish Facebook posts, handle secrets or become required for daily automation.
+
+## Verification and provenance
+
+- Automated tests: `python -m unittest discover -s publisher/facebook-free -p 'test_*.py' -v`
+- Preview (no network posting): `python publisher/facebook-free/autopost.py --preview`
+- GitHub workflow: `.github/workflows/facebook-free-multipage.yml`
+- Durable anti-duplicate receipts: `publisher/facebook-free/receipts.json`
+- Official [Meta Page Photos](https://developers.facebook.com/docs/graph-api/reference/page/photos/)
+- Official [Meta Facebook API Reels Postman collection](https://www.postman.com/meta/facebook/documentation/r56bjfd/facebook-api)
+- Official [GitHub Actions scheduling](https://docs.github.com/actions/using-workflows/events-that-trigger-workflows#schedule)
+
+No actual Facebook post is claimed until the provider returns IDs and the Page/Feed has been verified.

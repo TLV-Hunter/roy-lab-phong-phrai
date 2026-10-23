@@ -109,18 +109,43 @@ def drive_file_id(url):
     return parts[parts.index("d") + 1]
 
 
-def fetch_drive_bytes(url):
-    client_id = os.environ["GOOGLE_OAUTH_CLIENT_ID"]
-    client_secret = os.environ["GOOGLE_OAUTH_CLIENT_SECRET"]
-    refresh_token = os.environ["GOOGLE_OAUTH_REFRESH_TOKEN"]
+def get_drive_access_token():
+    """Prefer read-only Google Service Account. Retain OAuth refresh-token fallback.
+
+    Only the owner-shared Drive folder is accessible to the service account.
+    Never print, store or return the private key anywhere except in-memory.
+    """
+    service_info = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "").strip()
+    if service_info:
+        try:
+            from google.oauth2 import service_account
+            from google.auth.transport.requests import Request as GoogleAuthRequest
+            info = json.loads(service_info)
+            if info.get("type") != "service_account":
+                raise ValueError("wrong credential type")
+            creds = service_account.Credentials.from_service_account_info(
+                info, scopes=["https://www.googleapis.com/auth/drive.readonly"])
+            creds.refresh(GoogleAuthRequest())
+            return creds.token
+        except Exception as exc:
+            raise RuntimeError("Google Service Account authentication failed; verify private key and Drive API") from None
+
+    keys = ("GOOGLE_OAUTH_CLIENT_ID", "GOOGLE_OAUTH_CLIENT_SECRET", "GOOGLE_OAUTH_REFRESH_TOKEN")
+    if not all(os.environ.get(k) for k in keys):
+        raise RuntimeError("Google Drive credentials not configured (read-only Service Account or OAuth)")
     token = requests.post(
         "https://oauth2.googleapis.com/token",
-        data={"client_id": client_id, "client_secret": client_secret,
-              "refresh_token": refresh_token, "grant_type": "refresh_token"},
-        timeout=TIMEOUT,
+        data={"client_id": os.environ["GOOGLE_OAUTH_CLIENT_ID"],
+              "client_secret": os.environ["GOOGLE_OAUTH_CLIENT_SECRET"],
+              "refresh_token": os.environ["GOOGLE_OAUTH_REFRESH_TOKEN"],
+              "grant_type": "refresh_token"}, timeout=TIMEOUT,
     )
     token.raise_for_status()
-    access = token.json()["access_token"]
+    return token.json()["access_token"]
+
+
+def fetch_drive_bytes(url):
+    access = get_drive_access_token()
     fid = drive_file_id(url)
     media = requests.get(
         f"https://www.googleapis.com/drive/v3/files/{fid}",
@@ -133,7 +158,6 @@ def fetch_drive_bytes(url):
         if chunk:
             chunks.write(chunk)
     return chunks.getvalue()
-
 
 def fb_json(response):
     if not response.ok:

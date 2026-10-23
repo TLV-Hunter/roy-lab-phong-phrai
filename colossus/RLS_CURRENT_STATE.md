@@ -1,6 +1,15 @@
 # RLS AI STUDIO — CURRENT STATE
 Updated: 2026-10-23 — SS3 Clips 05–11 seven local postproduction QA PASS (story-lock review remains separate)
 
+## 2026-10-24 — SS3 SHARED DESK
+- SS3 is selectable in the original multi-campaign Content Desk at https://tlv-hunter.github.io/roy-lab-phong-phrai/colossus/?campaign=rls-ss3.
+- Integrated all 11 story records into the existing 3-column workflow. Caption + hashtags, separate first comment, Dola video prompt and 6-beat boards are shown with copy controls.
+- Direct online MP4 and Drive video support is shared by RLS, Colossus, and Bruno. The local MP4 picker is temporary browser preview only.
+- The repository does not yet host SS3 Final MP4s. No verified social posts; do not claim that the videos are online or published. New SS3 image PNGs are not yet hosted.
+- QA smoke check passed for the four campaign renderers and all SS3 copy/video control elements.
+- Next: transfer individually verified SS3 PNG and MP4 assets to web storage, confirm each clip plays, and retain all publication/QA truth.
+
+
 ## SS3 WEBSITE SYNC — 2026-10-23 23:43 ICT (MOST RECENT WEB AUTHORITY)
 - OWNER REQUEST: Update everything on the current RLS SS3 web desk to reflect all work up to now, preserving older seasons and unrelated site features.
 - **COMPLETED TEXT/CONTROL SYNC ON GITHUB:** `colossus/rls-ss3-content.json` now holds 11 items (Oct21–31 including Halloween special), each with latest redesigned scene, English Caption+Hashtags, a separate First Comment draft, an actual 6-beat 10-second storyboard timing plan, an individual Dola 3-reference video prompt, real creative QA gate, and social posting truth. Changed only SS3 data and page, plus a narrow direct SS3 link in `colossus/index.html`.

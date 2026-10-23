@@ -74,6 +74,19 @@ def make_plan(config, now):
         episodes = list(source["episodes"])
         if source.get("halloween_special"):
             episodes.append(source["halloween_special"])
+        # Publish only the requested contiguous EP04..end subset.
+        first_id = settings.get("start_episode_id")
+        if first_id:
+            matches = [i for i, e in enumerate(episodes) if e.get("id") == first_id]
+            if len(matches) != 1:
+                raise ValueError("Configured start_episode_id must uniquely match an approved episode")
+            episodes = episodes[matches[0]:]
+        last_id = settings.get("end_episode_id")
+        if last_id:
+            matches = [i for i, e in enumerate(episodes) if e.get("id") == last_id]
+            if len(matches) != 1:
+                raise ValueError("Configured end_episode_id must uniquely match an approved episode")
+            episodes = episodes[:matches[0]+1]
         start = settings.get("start_date")
         for i, ep in enumerate(episodes):
             for kind in ("still", "reel"):
@@ -287,6 +300,71 @@ def state_replace(token, repository, key, new_data):
 
 
 
+
+def process_pending_comments(config, now, plan):
+    """Create comments >=5 minutes after real post time; do not claim automatic pin."""
+    if os.getenv("FB_AUTOPUBLISH_ENABLED") != "true":
+        print("SAFE HOLD: publisher disabled; no comments sent")
+        return
+    token, repo = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not token or not repo:
+        raise RuntimeError("GitHub token and repository required for comment receipts")
+    state, _, _, _ = state_read(token, repo)
+    records = state.get("items", {})
+    for item in plan:
+        if not (item["brand"] == "colossus" and item["enabled"] and item["ready"] and
+                item["first_comment"] and
+                config["brands"].get(item["brand"], {}).get("comments_enabled")):
+            continue
+        record = records.get(item["key"], {})
+        if record.get("status") != "PUBLISHED_API_SUCCESS":
+            continue
+        if record.get("comment_status", "NOT_ATTEMPTED") != "NOT_ATTEMPTED":
+            continue
+        try:
+            posted_at = datetime.fromisoformat(record["published_at"])
+            scheduled = datetime.fromisoformat(item["date"] + "T" + item["time"]).replace(
+                tzinfo=ZoneInfo(config["timezone"]))
+        except (ValueError, TypeError, KeyError):
+            print(f"COMMENT HOLD {item['key']}: invalid saved timing")
+            continue
+        elapsed = (now - posted_at).total_seconds()
+        if elapsed < 300:
+            continue
+        if elapsed > 7200 or (now - scheduled).total_seconds() > 9000:
+            print(f"COMMENT EXPIRED {item['key']}: no late comment backfill")
+            continue
+        post_id = record.get("provider_post_id")
+        if not post_id or not re.fullmatch(r"[0-9]+(?:_[0-9]+)?", str(post_id)):
+            print(f"COMMENT HOLD {item['key']}: invalid post ID")
+            continue
+        page_id, page_token = page_credentials(item["credential_key"])
+        if not page_id or not page_token:
+            print(f"COMMENT HOLD {item['key']}: Page authorization missing")
+            continue
+        try:
+            # Reserve before Facebook POST; ambiguous retries require manual check.
+            state_replace(token, repo, item["key"], {
+                "comment_status": "RESERVED", "comment_reserved_at": now.isoformat()})
+        except Exception:
+            print(f"COMMENT HOLD {item['key']}: receipt reservation failed")
+            continue
+        try:
+            cid = publish_comment(page_id, page_token, str(post_id), item["first_comment"])
+            state_replace(token, repo, item["key"], {
+                "comment_status": "POSTED_PIN_MANUAL", "provider_comment_id": str(cid),
+                "commented_at": datetime.now(ZoneInfo(config["timezone"])).isoformat(),
+                "pin_status": "NEEDS_MANUAL_PIN"})
+            print(f"COMMENT SENT {item['key']}: pin separately in Facebook UI")
+        except Exception as exc:
+            try:
+                state_replace(token, repo, item["key"], {
+                    "comment_status": "ERROR_NEEDS_MANUAL_CHECK", "pin_status": "NOT_PINNED"})
+            except Exception:
+                pass
+            print(f"COMMENT HALT {item['key']}: {type(exc).__name__}, no blind retry")
+
+
 def page_credentials(credential_key):
     """Allow unlimited brand keys without new workflow YAML edits.
 
@@ -316,6 +394,9 @@ def run(args):
     assert config["timezone"] == "Asia/Bangkok", "Publishing timezone must remain Asia/Bangkok"
     now = datetime.now(ZoneInfo(config["timezone"]))
     plan = make_plan(config, now)
+    if args.comments:
+        process_pending_comments(config, now, plan)
+        return
     if args.preview:
         for item in plan:
             print(f"{item['brand']:9} {item['episode_id']:12} {item['kind']:5} "
@@ -355,15 +436,8 @@ def run(args):
                 "status": "PUBLISHED_API_SUCCESS", "provider_post_id": str(post_id),
                 "published_at": datetime.now(ZoneInfo(config["timezone"])).isoformat(),
             })
-            if os.getenv("FB_ENABLE_FIRST_COMMENT") == "true":
-                try:
-                    comment_id = publish_comment(page_id, page_token, post_id, item["first_comment"])
-                    state_replace(token, repository, item["key"], {
-                        "comment_status": "POSTED", "provider_comment_id": comment_id})
-                except Exception:
-                    state_replace(token, repository, item["key"], {
-                        "comment_status": "ERROR_NEEDS_MANUAL_CHECK"})
-            print(f"RECEIPT SAVED {item['key']} (manual pinning, if desired, remains separate)")
+            # Separate job waits 5+ minutes after actual API success for first comment.
+            print(f"RECEIPT SAVED {item['key']} (first comment pending >=5 minutes)")
         except Exception as exc:
             # Reservation is deliberately NOT deleted: prevents blind duplicate retries.
             try:
@@ -376,4 +450,5 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--preview", action="store_true")
+    parser.add_argument("--comments", action="store_true", help="Run the delayed comment queue only")
     run(parser.parse_args())

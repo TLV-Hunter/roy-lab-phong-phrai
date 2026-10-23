@@ -1,5 +1,15 @@
 # RLS AI STUDIO — CURRENT STATE
-Updated: 2026-10-23 — SS3 mandatory >=10-sec final delivery, repaired EP02–04 (historical entries retained)
+Updated: 2026-10-23 — EP07–EP11 redesigned Still QA 2 PASS-TEST / 2 REVISE / 1 FAIL; Final video min10 gate unchanged
+
+## SS3 REVISED MASTER STILL QA — EP07–EP11 — 2026-10-23
+- User requests QA for a NEW, independent five-image **EP07–EP11 Master Still redesign** removing repeated Jeep scenes. These five replace earlier conceptual previews for this specific editorial audit; do not conflate with older EP07 beetle / EP09 bat statuses.
+- Source images are each individually generated PNG 941x1672, one per EP, not native 4K. All five have correct public poster typography: title + tagline + `THE HIDDEN FOREST ARCHIVE`, **NO EP numbers and NO SS**.
+- Results **2/5 PASS-TEST**: EP09 `SWAMP PREDATOR` QA1 93 QA2 PASS; EP10 `HORNS OF DESTRUCTION` QA1 91 QA2 PASS. **2 REVISE**: EP07 `KING OF THE FOREST` QA1 88 (giant ape roaring on rock lacks action payoff); EP11 `FINAL HUNTER` QA1 87 (repeats stone temple/ruins and frontal view from EP10). **1 FAIL**: EP08 `TUSKS OF FURY` QA1 83 (elephant mouth/anatomy ambiguity plus reused wooden lookout near EP03).
+- Two attempted **native ChatGPT** repairs produced wrong ape/rope-bridge/temple scenes; both were discarded and DO NOT count toward any approved assets. In-chat image tool failed to target EP08 subject; no new replacement was QA-certified.
+- Detailed local audit (not published on website) at `/mnt/data/RLS_SS3_QA_REVIEW_EP07_11/RLS_SS3_EP07_11_QA_2026-10-23.md` and matching JSON with original-source SHA256. Five review-copy image files do not count as newly produced Masters.
+- **EXACT NEXT MASTER-STILL ACTION:** regenerate only EP07, EP08, EP11 independently, with distinctive action/locations and correct anatomy, using a fresh clearly targeted native image task; re-QA with QA1 + QA2. Keep EP09 + EP10 as passed visual sources; technical native 4K delivery QA remains pending.
+- **Scope lock:** this audit did NOT modify website, upload Stills, post to socials, change any video file, or alter confirmed publication state. Existing min10-second SS3 Final Reel hard gate remains in force.
+
 
 ## SS3 VIDEO DURATION HARD GATE — 2026-10-23
 - OWNER NEW NON-NEGOTIABLE RULE: **Every RLS SS3 Final video must be at least 10.00 seconds on a real ffprobe read of the exported file.** A shorter Final automatically FAILS regardless of other QA. This overrides any earlier trimming/retention practice that would make a Final shorter than 10 seconds.

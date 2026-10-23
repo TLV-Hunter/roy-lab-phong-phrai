@@ -64,5 +64,25 @@ class FiveMinuteCommentReceiptTests(unittest.TestCase):
         saves,calls=self.simulate("2026-10-24T08:10:00+07:00")
         self.assertEqual(len(calls),0)
 
+
+class ReelPublishingPhaseTests(unittest.TestCase):
+    def test_meta_finish_ack_is_not_publication(self):
+        mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
+            "video_status":"processing","publishing_phase":{"publish_status":"processing"}}}})()
+        with patch.object(p.requests,"get",return_value=mock):
+            self.assertEqual(p.reel_publishing_status("123","tok"),"processing")
+
+    def test_meta_published_status(self):
+        mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
+            "video_status":"ready","publishing_phase":{"publish_status":"published"}}}})()
+        with patch.object(p.requests,"get",return_value=mock):
+            self.assertEqual(p.reel_publishing_status("123","tok"),"published")
+
+    def test_meta_error_halts(self):
+        mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
+            "video_status":"upload_failed","publishing_phase":{"publish_status":"error"}}}})()
+        with patch.object(p.requests,"get",return_value=mock):
+            self.assertEqual(p.reel_publishing_status("123","tok"),"failed")
+
 if __name__=="__main__":
     unittest.main()

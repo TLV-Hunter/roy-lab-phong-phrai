@@ -1,7 +1,7 @@
 {
   "version": 2,
   "timezone": "Asia/Bangkok",
-  "note": "SCHEDULE LOCK: Every brand Still 06:00, Reel 23:00 Asia/Bangkok. Multi-brand expandable via config + FB_PAGES_JSON secret. Safe HOLD until Meta and Drive authorization, future start dates, QA gates and explicit go-live.",
+  "note": "Schedules Still 06:00/Reel 23:00 Bangkok. Colossus optional anonymous Drive download (owner must explicitly share only approved media). All publishing held until approved credentials, start_date and QA.",
   "brands": {
     "colossus": {
       "enabled": false,
@@ -12,8 +12,9 @@
         "still": "06:00",
         "reel": "23:00"
       },
-      "note": "Owner-confirmed 06:00 Master Still and 23:00 Reel; 11/11 final assets in SS3 registry. Start date and Meta/Drive authorization required for live posting.",
-      "credential_key": "colossus"
+      "note": "Approved Colossus still/reel registry. Public Drive downloads ONLY after owner deliberately shares approved media folder as Anyone with the link; never share unrelated files. Auto-post remains disabled.",
+      "credential_key": "colossus",
+      "media_download_mode": "public_drive"
     },
     "rls": {
       "enabled": false,
@@ -25,7 +26,8 @@
         "reel": "23:00"
       },
       "note": "Owner-confirmed 06:00 Master Still and 23:00 Reel. RLS SS3 registry still contains local-only media/archived previews; HOLD until approved assets and Reel copy are linked.",
-      "credential_key": "rls"
+      "credential_key": "rls",
+      "media_download_mode": "private_oauth"
     }
   },
   "defaults": {
@@ -48,6 +50,7 @@
     "slots": {
       "still": "06:00",
       "reel": "23:00"
-    }
+    },
+    "media_download_mode": "private_oauth"
   }
 }

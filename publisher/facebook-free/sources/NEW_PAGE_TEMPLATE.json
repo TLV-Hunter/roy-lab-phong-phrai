@@ -1,0 +1,30 @@
+{
+  "schema": "canonical_ss3",
+  "version": 1,
+  "brand": "REPLACE_WITH_PAGE_NAME",
+  "episodes": [
+    {
+      "id": "NEW-001",
+      "title": "REPLACE WITH EPISODE TITLE",
+      "master": {
+        "url": null,
+        "qa": "WAITING"
+      },
+      "still": {
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "reel": {
+        "url": null,
+        "qa": "WAITING",
+        "caption": null,
+        "first_comment": null,
+        "copy_qa": "WAITING"
+      },
+      "publication": {
+        "status": "UNCONFIRMED"
+      }
+    }
+  ]
+}

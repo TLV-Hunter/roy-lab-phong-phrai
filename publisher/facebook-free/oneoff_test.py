@@ -8,7 +8,6 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from PIL import Image, ImageEnhance
-import numpy as np
 from autopost import fetch_drive_bytes, page_credentials, publish_photo, state_write, state_replace
 
 HERE = Path(__file__).resolve().parent
@@ -31,6 +30,7 @@ def read_queue():
 
 def make_variant(source_bytes):
     """A deterministic close crop of the canonical shell; excludes lower master lettering."""
+    import numpy as np
     original = Image.open(io.BytesIO(source_bytes)).convert("RGB")
     w, h = original.size
     if w < 900 or h < 1600 or h / w < 1.65:

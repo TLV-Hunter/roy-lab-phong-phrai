@@ -1,20 +1,24 @@
 {
   "version": 2,
   "timezone": "Asia/Bangkok",
-  "note": "Schedules Still 06:00/Reel 23:00 Bangkok. Colossus optional anonymous Drive download (owner must explicitly share only approved media). All publishing held until approved credentials, start_date and QA.",
+  "note": "LIVE owner-authorized Colossus EP04..SP01, Oct24–Oct31 2026 Bangkok. Publication Still 06:00 and Reel 23:00; first comment >=5 min after actual post, manual pin. RLS OFF. Kill-switch GitHub Actions var FB_AUTOPUBLISH_ENABLED=false.",
   "brands": {
     "colossus": {
-      "enabled": false,
-      "start_date": null,
+      "enabled": true,
+      "start_date": "2026-10-24",
       "content_path": "colossus/ss3-season.json",
       "content_format": "canonical_ss3",
       "slots": {
         "still": "06:00",
         "reel": "23:00"
       },
-      "note": "Approved Colossus still/reel registry. Public Drive downloads ONLY after owner deliberately shares approved media folder as Anyone with the link; never share unrelated files. Auto-post remains disabled.",
+      "note": "Owner authorized live Colossus schedule: EP04 Sat 2026-10-24 through SP01 Sat 2026-10-31; 06:00 Master Still and 23:00 final Reel Bangkok. Page-owned comment no earlier than 5 min after actual publication; pin in Facebook UI manually. No pre-EP04 backfill.",
       "credential_key": "colossus",
-      "media_download_mode": "public_drive"
+      "media_download_mode": "public_drive",
+      "start_episode_id": "CS-OCT-004",
+      "end_episode_id": "CS-OCT-SP01",
+      "comments_enabled": true,
+      "comment_delay_minutes": 5
     },
     "rls": {
       "enabled": false,

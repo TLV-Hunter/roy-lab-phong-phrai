@@ -162,5 +162,27 @@ class PublishingHttpContractTests(unittest.TestCase):
                           "page_post_id", "Approved first comment"), "comment-id")
 
 
+
+class GoogleDriveAuthTests(unittest.TestCase):
+    def test_service_account_scope_is_read_only(self):
+        from google.oauth2 import service_account
+        fake = type("FakeCreds", (), {"token": "example-token", "refresh": lambda self, req: None})()
+        info = {"type": "service_account", "client_email": "test-bot@example.iam.gserviceaccount.com"}
+        with patch.dict(os.environ, {"GOOGLE_SERVICE_ACCOUNT_JSON": json.dumps(info)}), \
+             patch.object(service_account.Credentials, "from_service_account_info", return_value=fake) as mk:
+            token = publisher.get_drive_access_token()
+        self.assertEqual(token, "example-token")
+        self.assertEqual(mk.call_args.kwargs["scopes"], ["https://www.googleapis.com/auth/drive.readonly"])
+
+    def test_missing_google_auth_holds_without_network_call(self):
+        with patch.dict(os.environ, {
+            "GOOGLE_SERVICE_ACCOUNT_JSON": "",
+            "GOOGLE_OAUTH_CLIENT_ID": "",
+            "GOOGLE_OAUTH_CLIENT_SECRET": "",
+            "GOOGLE_OAUTH_REFRESH_TOKEN": "",
+        }):
+            with self.assertRaisesRegex(RuntimeError, "not configured"):
+                publisher.get_drive_access_token()
+
 if __name__ == "__main__":
     unittest.main()

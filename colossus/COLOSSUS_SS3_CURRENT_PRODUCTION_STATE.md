@@ -88,8 +88,8 @@ Updated: 2026-10-23 Asia/Bangkok
 - Video Prompts: **5/11 PREPRODUCTION QA PASS (EP02–EP06)**, Dola / Seedance 2.0, 10/10/15/10/10 seconds. Generated source videos remain NOT CREATED; prompts require video QA after use.
 - Final Reels: **11/11 READY / QA PASS / DRIVE MAPPED / WEB MAPPED / 4K UPSCALED**.
 - Still Caption / CTA / Hashtags / Keywords / First Comment: **11/11 PASS** — EN-US Still copy approved and registered for all 10 main episodes plus Halloween Special. Existing ten accepted copy packs preserved. Unique hooks, three relevant hashtags per episode, natural scene CTA, separate first/pinned comments.
-- Reel Caption / First Comment: **11/11 PASS (SCRIPT-BASED COPY)** and copyable NOW for EP01–EP10 plus Halloween Special. Each Reel Caption includes 3 related Hashtags in the same block, with a separate First/Pinned Comment. **No need to wait for Reel video before drafting.** Generated video alignment has NOT been verified; Final Reels still 0/11. Master Still copy remains separate and untouched.
-- Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures visible, Earth and the third guardian outside frame. Still and Reel Caption / First Comment are each separately written and QA PASS against story. Starter, Video Prompt and Final Reel NOT CREATED.
+- Reel Caption / First Comment: **11/11 PASS (SCRIPT-BASED COPY)** and copyable NOW for EP01–EP10 plus Halloween Special. Each Reel Caption includes 3 related Hashtags in the same block, with a separate First/Pinned Comment. **No need to wait for Reel video before drafting.** Final-video alignment is VERIFIED for all 11 SS3 Reel Finals; 11/11 are Drive-mapped and web-mapped. Master Still copy remains separate and untouched.
+- Halloween Special Master: **CS-OCT-SP01 Google Drive Master Still 2160×3840 PNG backed up / visual QA reviewed / corrected copy QA PASS**. Two guardian figures visible, Earth and the third guardian outside frame. Still and Reel Caption / First Comment are each separately written and QA PASS against story. Starter and Video Prompt preproduction slots remain NOT CREATED; Final Reel is READY / QA PASS / Drive + web mapped.
 - Facebook publish or scheduled state: **NOT VERIFIED / DO NOT CLAIM PUBLISHED**.
 
 ## New website and data architecture
@@ -98,7 +98,7 @@ Updated: 2026-10-23 Asia/Bangkok
 - SS3 is now selectable from `colossus/index.html` and `colossus/august-season.html`.
 - User can choose an individual episode, show all, use PREV / NEXT and preview available Master images via Google Drive, open/download each 4K PNG.
 - Four independent production panels per episode: MASTER STILL (copy allowed), STARTER FRAME (video prompt only), STORYBOARD (beat references only), FINAL REEL (copy allowed only after script/video QA).
-- SS3 webpage shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated (preproduction). Master Still copy and Reel Copy **11/11 each ready to copy**, all generated Final Reels remain WAITING, no publishing claim.
+- SS3 webpage shows Master / Starter / Storyboard / Reel as four independent panels; EP02–EP06 Starter + Storyboard images and Dola prompts are populated (preproduction). Master Still copy and Reel Copy **11/11 each ready to copy**, all 11 Final Reels are READY / QA PASS / Drive + web mapped; no Facebook publishing claim.
 - Updating `ss3-season.json` automatically updates cards and progress counters on the static GitHub Pages site without rebuilding the page UI.
 - The 4K masters reside in Google Drive, not copied into GitHub. Google Drive embedded previews can require Google account access or sharing permissions; links still open for authorized users. No public access granted here.
 - Website is an internal production desk, not a Facebook publishing action.

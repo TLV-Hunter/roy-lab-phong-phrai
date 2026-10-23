@@ -22,27 +22,59 @@ button{cursor:pointer;border:1px solid #3d7786;border-radius:7px;color:#efffff;b
 footer{color:var(--muted);font-size:12px;padding-bottom:36px}
 @media(max-width:1150px){.layout{grid-template-columns:1fr 1fr}.slot:last-child{grid-column:1/-1}}
 @media(max-width:710px){.layout{grid-template-columns:1fr}.slot:last-child{grid-column:auto}.visual{height:540px}}
+
+.qa{display:inline-flex;padding:4px 7px;border-radius:6px;border:1px solid #37636b;color:#b9f5ed;font-size:11px;letter-spacing:.03em}.qa.bad{color:#f1b59c;border-color:#815049}.qa.pending{color:#ead6a0;border-color:#827049}.beats{margin:8px 0;padding-left:20px;line-height:1.6;color:#dbedf1}.beats li{padding:4px 0;border-bottom:1px solid #193743}.placeholder{padding:28px;color:var(--muted);text-align:center;line-height:1.7}.copyarea h3{font-size:12px;letter-spacing:.08em;color:#b1e2e9;margin:18px 0 5px}.visual{min-height:280px}.statusnote{font-size:12px;color:#e9be75;padding:9px 11px;line-height:1.6}.reelinfo{padding:18px;line-height:1.7}.smalltext{font-size:12px;color:var(--muted);line-height:1.5}
 </style></head><body>
 <header><div class="eyebrow">RLS AI STUDIO · SS3 · 21–31 OCT 2026</div><h1>THE FOREST UNLEASHED</h1>
-<p class="intro">USA-first original creature-action archive. Ten episode records with historical still previews, prepared English captions and first-comment drafts. Current Master sources and EP02–EP06 Starter/Storyboard pairs must be imported and QA-verified separately.</p>
+<p class="intro">USA-first original creature-action archive. Eleven action encounters, including the October 31 Halloween special. Latest story locks, English caption and hashtag copy, pinned-comment drafts, six-beat storyboards and generation prompts. Preview and delivery status shown honestly for every source asset.</p>
 <nav><a href="./">← MAIN CONTENT DESK</a><a href="./rls-ss2.html">SS2 ARCHIVE</a><a href="./RLS_SS3_STILL_COPY_PACK_QA_2026-10-21.md" target="_blank" rel="noopener">COPY + QA SOURCE</a></nav>
-<div class="badges"><span class="status">10 HISTORICAL STILL PREVIEWS</span><span class="status">10 STILL COPY DRAFTS</span><span class="status">8 VISUAL PASS-TEST</span><span class="status warning">2 REVISE (07, 09)</span><span class="status warning">EP01 FINAL REEL LOCAL ONLY</span><span class="status warning">0 CONFIRMED SOCIAL POSTS</span></div>
-<div class="notice"><b>PRODUCTION REVIEW ONLY, NOT A SOCIAL POST.</b> JPG images below are older WEB PREVIEWS, not QA-verified current PNG Master sources. Creative QA: EP01–06,08,10 PASS-TEST; EP07 &amp; EP09 REVISE. EP02–06 Starter Frames and Storyboards were generated in ChatGPT but have NOT been verified/imported here. EP01 Final Reel is LOCAL-only and not linked. No confirmed Facebook or Instagram posts or pinned comments.</div></header>
-<main><div class="searchrow"><input id="search" placeholder="Search episode / title / wildlife keyword" aria-label="Search episodes"><select id="episodeSelect" aria-label="Choose episode"><option value="all">ALL 10 EPISODES</option></select></div>
+<div class="badges"><span class="status">11 EPISODE RECORDS</span><span class="status">11 CAPTIONS + FIRST COMMENTS</span><span class="status">11 SIX-BEAT PROMPTS</span><span class="status warning">REDESIGNED 07-11: 2 PASS-TEST / 2 REVISE / 1 FAIL</span><span class="status warning">LATEST MEDIA TRANSFER PENDING</span><span class="status warning">0 VERIFIED SOCIAL POSTS</span></div>
+<div class="notice"><b>UPDATED 23 OCT 2026 · PRODUCTION DESK ONLY.</b> New standalone Master images and Starter/Storyboard images were produced in ChatGPT but their binary files are <b>not yet hosted on GitHub Pages</b>. Legacy JPEGs are marked ARCHIVE only. Recent redesigned poster QA: 07 REVISE; 08 FAIL; 09 &amp; 10 PASS-TEST; 11 REVISE. Edited Final MP4s passed local technical checks per project state but are not available for web playback. No verified Facebook/Instagram posting or pinned comment. Captions/hashtags/prompts are drafts. This page does not represent public social publication.</div></header>
+<main><div class="searchrow"><input id="search" placeholder="Search episode / title / wildlife keyword" aria-label="Search episodes"><select id="episodeSelect" aria-label="Choose episode"><option value="all">ALL 11 RECORDS</option></select></div>
 <div id="episodes"></div>
-<article><div class="ephead"><div><div class="date">31 OCTOBER 2026 · HALLOWEEN SPECIAL</div><h2>THE NIGHT THE TITANS FOUGHT</h2></div><div class="statuses" style="color:var(--amber)">CONCEPT ONLY</div></div><p style="padding:16px;margin:0;color:var(--muted)">Halloween Special is planned separately from the ten main episodes. No Special Master Still, Starter Frame, Final Reel or social post is claimed as ready.</p></article></main>
+</main>
 <footer>RLS AI STUDIO — TalentVee · Original fictional AI-generated creature series · Publish only after media QA and platform confirmation</footer>
 <script>
 'use strict';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let data;
 function slotBlank(title,what){return '<div class="slot"><div class="heading">'+title+' <span style="color:var(--amber)">PENDING</span></div><div class="visual"><div class="blank">'+what+'</div></div></div>'}
+
+function badge(status){
+  const val=String(status||'NOT VERIFIED'),bad=/FAIL|REVISE|NOT_|PENDING/i.test(val);
+  return '<span class="qa '+(bad?'pending':'')+'">'+esc(val.replaceAll('_',' '))+'</span>';
+}
+function masterSlot(e){
+  const m=e.master_still||{},url=m.image_url||'';
+  const photo=url?'<div class="visual"><img src="'+esc(url)+'" alt="'+esc(e.title)+' historical JPG preview only" loading="lazy"></div><div class="buttons" style="padding:11px"><a class="btn" href="'+esc(url)+'" target="_blank" rel="noopener">OPEN OLD JPG PREVIEW</a></div>':'<div class="visual"><div class="placeholder"><b>NEW MASTER CREATED IN CHAT</b><br>Exact PNG source not uploaded to this website.<br>The superseded animal image is intentionally not shown.</div></div>';
+  return '<div class="slot"><div class="heading">01 / MASTER STILL <span class="qa pending">MEDIA SYNC PENDING</span></div>'+photo+
+    '<div class="statusnote">'+esc(m.status||'NOT VERIFIED')+' · 941×1672 source PNG is NOT native 4K</div><div class="copyarea"><div class="smalltext">'+esc(e.scene_lock||'')+'</div>'+
+    '<div class="buttons" style="margin-top:12px"><button data-copy="caption" data-ep="'+esc(e.id)+'">COPY CAPTION + HASHTAGS</button><button data-copy="first_comment" data-ep="'+esc(e.id)+'">COPY FIRST COMMENT</button></div>'+
+    '<h3>CAPTION + HASHTAGS (DRAFT)</h3><pre>'+esc(e.still_caption)+'</pre><h3>PINNED COMMENT (DRAFT)</h3><pre>'+esc(e.first_comment)+'</pre></div></div>';
+}
+function starterSlot(e){
+  const st=e.starter_frame||{},bd=e.storyboard||{},im=st.image_url;
+  let photo=im?'<div class="visual"><img src="'+esc(im)+'" alt="Historic starter preview only" loading="lazy"></div>':'<div class="visual"><div class="placeholder"><b>STARTER + STORYBOARD CREATED IN CHAT</b><br>Separate images not yet imported to this website.</div></div>';
+  const beats=(bd.beats||[]).map((b,i)=>'<li><b>'+(i+1)+'. '+esc(b.from)+'–'+esc(b.to)+'s</b> '+esc(b.action)+'</li>').join('');
+  return '<div class="slot"><div class="heading">02 / STARTER + STORYBOARD <span class="qa pending">IMAGE TRANSFER PENDING</span></div>'+photo+
+    '<div class="statusnote">Starter: '+esc(st.status||'NOT VERIFIED')+'<br>Board: '+esc(bd.status||'NOT VERIFIED')+'</div>'+
+    '<div class="copyarea"><h3>6-BEAT TIMELINE · 10 SECONDS</h3><ol class="beats">'+beats+'</ol>'+
+    '<h3>DOLA SEEDANCE 2.0 VIDEO PROMPT</h3><div class="buttons"><button data-copy="prompt" data-ep="'+esc(e.id)+'">COPY VIDEO PROMPT</button></div><pre>'+esc(e.video_prompt||'Prompt not verified')+'</pre>'+
+    '<p class="smalltext">REF 1 Master / REF 2 Starter as exact Frame 0 / REF 3 Beat Storyboard. Prompt is source-aligned but needs reference-image and platform QA before rendering.</p></div></div>';
+}
+function reelSlot(e){
+  const f=e.final_reel||{},url=f.video_url;
+  const media=url?'<video controls playsinline preload="metadata" style="width:100%;max-height:475px" src="'+esc(url)+'"></video>':'<div class="visual"><div class="placeholder"><b>VIDEO NOT HOSTED</b><br>Edited local Final is tracked in production records.<br>No playable MP4 URL exists on this website.</div></div>';
+  return '<div class="slot"><div class="heading">03 / FINAL REEL <span class="qa pending">NOT ON WEB</span></div>'+media+
+    '<div class="reelinfo"><div><b>Editing:</b> '+badge(f.status)+'</div><p><b>Social publication:</b> NOT VERIFIED · No confirmed Facebook or Instagram posting</p>'+
+    '<p><b>Delivery:</b> Only verified complete MP4 files may be added here. Min 10.00 seconds per ffprobe is mandatory. Upscaled 1080×1920 is NOT native 4K.</p></div></div>';
+}
 function render(){
-const term=$('search').value.toLowerCase(),filter=$('episodeSelect').value;
-const episodes=data.episodes.filter(e=>(filter==='all'||e.id===filter)&&[e.id,e.title,e.search_keywords.join(' ')].join(' ').toLowerCase().includes(term));
-$('episodes').innerHTML=episodes.map(e=>'<article id="'+e.id+'"><div class="ephead"><div><div class="date">'+esc(e.date)+' · '+esc(e.id)+'</div><h2>'+esc(e.title)+'</h2></div><div class="statuses">HISTORICAL PREVIEW · CREATIVE QA '+esc(e.creative_qa_status)+' · NOT POSTED</div></div><div class="layout"><div class="slot"><div class="heading">01 / HISTORICAL STILL <span style="color:var(--amber)">PREVIEW ONLY</span></div><div class="visual"><img src="'+esc(e.master_still.image_url)+'" alt="'+esc(e.title)+' archived wildlife image preview, NOT the final QA-certified Master" loading="lazy"></div><div class="copyarea"><div class="buttons"><a class="btn" href="'+esc(e.master_still.image_url)+'" target="_blank" rel="noopener">OPEN IMAGE</a><a class="btn" href="'+esc(e.master_still.image_url)+'" download>DOWNLOAD JPG</a></div><div class="small" style="padding-top:9px">Right click / long press on image for copy or save. Caption and first comment are NOT published.</div><div class="buttons" style="margin-top:9px"><button type="button" data-copy="caption" data-ep="'+esc(e.id)+'">COPY CAPTION</button><button type="button" data-copy="first_comment" data-ep="'+esc(e.id)+'">COPY FIRST COMMENT</button></div><pre>'+esc(e.still_caption)+'</pre><pre><b>FIRST COMMENT / TO PIN</b>\n'+esc(e.first_comment)+'</pre><div class="small">KEYWORDS: '+esc(e.search_keywords.join(' · '))+'</div></div></div>'+slotBlank('02 / STARTER FRAME','Starter/Storyboard generated in the ChatGPT Project may not yet be imported here. Do not substitute historical or unverified frames.')+slotBlank('03 / FINAL REEL','EP01 edited Final Reel is LOCAL QA PASS but not uploaded. Other Reels pending. No Reels or pinned comments confirmed posted.')+'</div></article>').join('')||'<p class="notice">No episodes match.</p>';
+  const term=$('search').value.toLowerCase(),filter=$('episodeSelect').value;
+  const episodes=data.episodes.filter(e=>(filter==='all'||e.id===filter)&&[e.id,e.title,e.scene_lock,(e.search_keywords||[]).join(' ')].join(' ').toLowerCase().includes(term));
+  $('episodes').innerHTML=episodes.map(e=>'<article id="'+esc(e.id)+'"><div class="ephead"><div><div class="date">'+esc(e.date)+' · '+esc(e.id)+(e.episode_number===11?' · HALLOWEEN SPECIAL':'')+'</div><h2>'+esc(e.title)+'</h2></div><div class="statuses">MASTER CREATIVE QA: '+badge(e.creative_qa_status)+' · NO VERIFIED SOCIAL POST</div></div><div class="layout">'+masterSlot(e)+starterSlot(e)+reelSlot(e)+'</div></article>').join('')||'<p class="notice">No matching episodes.</p>';
 }
 async function copyText(s){try{await navigator.clipboard.writeText(s);return true}catch(e){let t=document.createElement('textarea');t.value=s;document.body.append(t);t.select();let ok=document.execCommand('copy');t.remove();return ok}}
-document.addEventListener('click',async ev=>{const btn=ev.target.closest('button[data-copy]');if(!btn)return;const e=data.episodes.find(x=>x.id===btn.dataset.ep);if(!e)return;const txt=btn.dataset.copy==='caption'?e.still_caption:e.first_comment;const ok=await copyText(txt);btn.textContent=ok?'COPIED':'COPY FAILED';setTimeout(()=>btn.textContent=btn.dataset.copy==='caption'?'COPY CAPTION':'COPY FIRST COMMENT',1300)});
+document.addEventListener('click',async ev=>{const btn=ev.target.closest('button[data-copy]');if(!btn)return;const e=data.episodes.find(x=>x.id===btn.dataset.ep);if(!e)return;const txt=btn.dataset.copy==='caption'?e.still_caption:btn.dataset.copy==='prompt'?(e.video_prompt||''):e.first_comment;const ok=await copyText(txt);btn.textContent=ok?'COPIED':'COPY FAILED';setTimeout(()=>btn.textContent=btn.dataset.copy==='caption'?'COPY CAPTION + HASHTAGS':btn.dataset.copy==='prompt'?'COPY VIDEO PROMPT':'COPY FIRST COMMENT',1300)});
 fetch('./rls-ss3-content.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('data '+r.status);return r.json()}).then(x=>{data=x;for(const e of data.episodes){const op=document.createElement('option');op.value=e.id;op.textContent=e.id+' — '+e.title;$('episodeSelect').append(op)}$('search').addEventListener('input',render);$('episodeSelect').addEventListener('change',render);render()}).catch(e=>{$('episodes').textContent='Failed to load SS3 production data. '+e.message});
 </script></body></html>

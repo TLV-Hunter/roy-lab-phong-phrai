@@ -21,6 +21,9 @@ class ReadOnlyAuditTests(unittest.TestCase):
     def test_success_receipt_is_not_missed(self):
         got=self.run_check([ITEM],{ITEM["key"]:{"status":"PUBLISHED_API_SUCCESS"}})
         self.assertEqual(got[0][0],"API_CONFIRMED")
+    def test_meta_verified_external_post_counts_as_confirmed(self):
+        got=self.run_check([ITEM],{ITEM["key"]:{"status":"VERIFIED_EXISTING_PAGE_POST"}})
+        self.assertEqual(got[0][0],"API_CONFIRMED")
     def test_reel_processing_needs_manual_confirmation(self):
         got=self.run_check([ITEM],{ITEM["key"]:{"status":"PUBLISH_ACCEPTED_PROCESSING"}})
         self.assertEqual(got[0][0],"UNVERIFIED_PROCESSING")

@@ -1,0 +1,35 @@
+name: Colossus EP04 Facebook-existing post receipt reconciliation (no Meta posts)
+
+on:
+  push:
+    paths:
+      - '.github/workflows/colossus-reconcile-ep04.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: facebook-multi-page-publisher
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install read-only HTTP library
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Match existing EP04 original copy and comment; persist confirmed receipt only
+        env:
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python publisher/facebook-free/reconcile_ep04_receipt.py

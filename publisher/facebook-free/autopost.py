@@ -309,12 +309,19 @@ def reel_publishing_status(video_id, page_token):
         headers={"Authorization": "Bearer " + page_token}, timeout=TIMEOUT)
     status = fb_json(resp).get("status") or {}
     publishing = status.get("publishing_phase") or {}
-    publish_state = str(publishing.get("publish_status", "")).lower()
-    video_state = str(status.get("video_status", "")).lower()
-    if publish_state == "published":
-        return "published"
-    if publish_state in ("error", "failed") or video_state in ("error", "upload_failed", "expired"):
+    publish_state = str(publishing.get("publish_status", "")).strip().lower()
+    phase_state = str(publishing.get("status", "")).strip().lower()
+    video_state = str(status.get("video_status", "")).strip().lower()
+    if (publish_state in ("error", "failed") or
+            phase_state in ("error", "failed") or
+            video_state in ("error", "upload_failed", "expired")):
         return "failed"
+    # Meta's own Postman example includes publishing_phase.status, while
+    # newer Graph responses may additionally return publish_status.
+    if publish_state == "published" or (
+            phase_state in ("complete", "completed", "published")
+            and video_state in ("ready", "published")):
+        return "published"
     return "processing"
 
 

@@ -451,6 +451,11 @@ def run(args):
     repository = os.environ.get("GITHUB_REPOSITORY")
     if not token or not repository:
         raise RuntimeError("GitHub write token and repository required for idempotent receipts")
+    due_items = [i for i in plan if i["enabled"] and i["ready"] and i["due"]]
+    print(f"SCHEDULE CHECK | now_Bangkok={now.isoformat()} | due={len(due_items)}")
+    if not due_items:
+        print("NO_POST_DUE: No scheduled item is within the 30-minute publication window; this green workflow run is NOT proof of a Facebook post.")
+        return
     for item in plan:
         if not (item["enabled"] and item["ready"] and item["due"]):
             continue

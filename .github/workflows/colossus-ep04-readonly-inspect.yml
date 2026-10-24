@@ -1,0 +1,29 @@
+name: Colossus EP04 existing Facebook post and comment inspection (read-only)
+
+on:
+  push:
+    paths:
+      - '.github/workflows/colossus-ep04-readonly-inspect.yml'
+      - 'publisher/facebook-free/inspect_ep04_page.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install read-only HTTP library
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Inspect EP04 actual Facebook Page post and first comment (no Facebook POST)
+        env:
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+        run: python publisher/facebook-free/inspect_ep04_page.py

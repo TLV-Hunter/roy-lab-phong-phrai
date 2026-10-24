@@ -1,0 +1,89 @@
+name: Colossus Publisher Backup Cron (off-peak minute fallback)
+
+# Independent of the primary scheduled workflow. GitHub schedule can be delayed/dropped.
+# Every actual media post is reserved in receipts.json BEFORE any Facebook POST.
+# This backup uses the identical idempotency key and global concurrency group.
+on:
+  schedule:
+    # Bangkok 06:04, 06:11, 06:19, 06:26 and 23:04, 23:11, 23:19, 23:26.
+    - cron: '4,11,19,26 23,16 * * *'
+    # Separate fallback for first comments (>= 5 min after actual post).
+    - cron: '10,18,27,37,47 23,16 * * *'
+    # Catch pending Reel comment once after local midnight; no Reel backfill.
+    - cron: '10,20 17 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Read-only diagnostics only; does not publish on manual invocation'
+        type: choice
+        options: [diagnostics]
+        default: diagnostics
+
+permissions:
+  contents: write
+
+concurrency:
+  group: facebook-multi-page-publisher
+  cancel-in-progress: false
+
+jobs:
+  backup-publish:
+    if: github.event_name == 'schedule' && github.event.schedule == '4,11,19,26 23,16 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install publisher dependencies
+        run: python -m pip install --disable-pip-version-check requests Pillow google-auth gdown
+      - name: Publish only if original slot is still due and receipt unreserved
+        env:
+          FB_AUTOPUBLISH_ENABLED: 'true'
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          FB_PAGE_ID_RLS: ${{ secrets.FB_PAGE_ID_RLS }}
+          FB_PAGE_TOKEN_RLS: ${{ secrets.FB_PAGE_TOKEN_RLS }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python publisher/facebook-free/autopost.py
+
+  backup-comments:
+    if: github.event_name == 'schedule' && (github.event.schedule == '10,18,27,37,47 23,16 * * *' || github.event.schedule == '10,20 17 * * *')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install minimal comment dependencies
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Post first comment only after confirmed success and >=5 min
+        env:
+          FB_AUTOPUBLISH_ENABLED: 'true'
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python publisher/facebook-free/autopost.py --comments
+
+  diagnostics:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Show planned Colossus-only due states without any API post
+        run: python publisher/facebook-free/autopost.py --preview

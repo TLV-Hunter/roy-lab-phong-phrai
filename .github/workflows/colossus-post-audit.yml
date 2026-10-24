@@ -1,0 +1,32 @@
+name: Colossus Missed-Post Audit (read-only, fail if missed)
+
+on:
+  schedule:
+    # 07:42 and 07:56 Bangkok for 06:00 Still; 00:42/00:56 Bangkok
+    # next day for 23:00 Reel. Runs only inspection; no Facebook uploads.
+    - cron: '42,56 0,17 * * *'
+  push:
+    paths:
+      - '.github/workflows/colossus-post-audit.yml'
+      - 'publisher/facebook-free/audit_schedule.py'
+      - 'publisher/facebook-free/test_audit_schedule.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: colossus-readonly-publish-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Read-only publication audit (red run if due item lacks confirmed receipt)
+        run: python publisher/facebook-free/audit_schedule.py --strict

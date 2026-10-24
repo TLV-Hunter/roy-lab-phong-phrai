@@ -78,6 +78,18 @@ class ReelPublishingPhaseTests(unittest.TestCase):
         with patch.object(p.requests,"get",return_value=mock):
             self.assertEqual(p.reel_publishing_status("123","tok"),"published")
 
+    def test_meta_postman_documented_complete_phase_with_ready_video(self):
+        mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
+            "video_status":"ready","publishing_phase":{"status":"complete"}}}})()
+        with patch.object(p.requests,"get",return_value=mock):
+            self.assertEqual(p.reel_publishing_status("123","tok"),"published")
+
+    def test_meta_upload_complete_without_publishing_is_not_live(self):
+        mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
+            "video_status":"processing","publishing_phase":{"status":"not_started"}}}})()
+        with patch.object(p.requests,"get",return_value=mock):
+            self.assertEqual(p.reel_publishing_status("123","tok"),"processing")
+
     def test_meta_error_halts(self):
         mock=type("Response",(),{"ok":True,"json":lambda self:{"status":{
             "video_status":"upload_failed","publishing_phase":{"publish_status":"error"}}}})()

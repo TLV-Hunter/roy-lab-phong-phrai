@@ -28,5 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install lightweight dependency
+        run: python -m pip install --disable-pip-version-check requests
       - name: Read-only publication audit (red run if due item lacks confirmed receipt)
         run: python publisher/facebook-free/audit_schedule.py --strict

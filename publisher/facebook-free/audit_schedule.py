@@ -30,9 +30,9 @@ def audit(now, config, receipts):
                 "No publisher receipt; no confirmed Facebook post. Check Actions and Page before manual recovery"))
             continue
         status = str(result.get("status","UNKNOWN"))
-        if status == "PUBLISHED_API_SUCCESS":
+        if status in ("PUBLISHED_API_SUCCESS", "VERIFIED_EXISTING_PAGE_POST"):
             checks.append(("API_CONFIRMED",item["episode_id"],item["kind"],due.isoformat(),
-                "Provider post ID saved; check Page UI for visibility and comment/pin"))
+                "Existing Facebook Page post independently verified or API success; check manual pin status"))
         elif status == "PUBLISH_ACCEPTED_PROCESSING":
             checks.append(("UNVERIFIED_PROCESSING",item["episode_id"],item["kind"],due.isoformat(),
                 "Meta accepted Reel finish; video live state still unverified"))

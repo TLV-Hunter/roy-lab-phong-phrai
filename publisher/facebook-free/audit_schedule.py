@@ -21,7 +21,8 @@ def audit(now, config, receipts):
             continue
         due = datetime.fromisoformat(item["date"]+"T"+item["time"]).replace(tzinfo=TZ)
         elapsed = (now-due).total_seconds()
-        if elapsed < 35*60:
+        # Only inspect recent slot; old missed items must not fail every future audit.
+        if elapsed < 35*60 or elapsed > 3*3600:
             continue
         result = (receipts.get("items") or {}).get(item["key"])
         if result is None:

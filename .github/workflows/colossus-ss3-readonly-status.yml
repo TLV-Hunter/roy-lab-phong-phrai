@@ -1,0 +1,29 @@
+name: Colossus SS3 Facebook live state verification (read-only)
+
+on:
+  push:
+    paths:
+      - '.github/workflows/colossus-ss3-readonly-status.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Verify canonical SS3 Still and Reel captions on authorized Page (read-only)
+        env:
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+        run: python publisher/facebook-free/inspect_ss3_live.py

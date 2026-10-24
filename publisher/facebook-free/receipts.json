@@ -1,5 +1,19 @@
 {
   "version": 1,
-  "items": {},
+  "items": {
+    "colossus:CS-OCT-004:still": {
+      "status": "VERIFIED_EXISTING_PAGE_POST",
+      "provider_post_id": "1365693009950837_122129002509464897",
+      "scheduled_date": "2026-10-24",
+      "time": "06:00",
+      "published_at": "2026-10-24T07:34:06+07:00",
+      "reconciled_at": "2026-10-24T07:50:00.665460+07:00",
+      "publication_confirmation": "META_PAGE_POSTS_EXACT_CAPTION_MATCH",
+      "origin": "UNKNOWN_EXISTING_FACEBOOK_POST",
+      "comment_status": "VERIFIED_EXISTING_PAGE_COMMENT",
+      "pin_status": "MANUAL_PIN_VERIFICATION_REQUIRED",
+      "provider_comment_id": "122129002509464897_1115455390930603"
+    }
+  },
   "notes": "No Facebook post ID has been confirmed. Each slot is reserved in GitHub BEFORE media upload; failed/ambiguous states require manual checking to avoid duplicate posting."
 }

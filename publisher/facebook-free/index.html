@@ -100,10 +100,14 @@ async function loadScheduleMonitor(){
    let status;
    if(receipt){
     const st=receipt.status||'UNKNOWN';
-    status=st==='PUBLISHED_API_SUCCESS'?'✅ ยืนยันผ่าน API':
+    status=st==='PUBLISHED_API_SUCCESS'?'✅ ส่งสำเร็จผ่าน API':
+      st==='VERIFIED_EXISTING_PAGE_POST'?'✅ ตรวจพบโพสต์บน Facebook จริง':
       st==='PUBLISH_ACCEPTED_PROCESSING'?'⏳ Facebook กำลังประมวลผล':
       '⚠️ '+st;
-    if(st==='PUBLISHED_API_SUCCESS')status+=' • เมนต์: '+(receipt.comment_status||'ยังไม่ส่ง');
+    if(st==='PUBLISHED_API_SUCCESS'||st==='VERIFIED_EXISTING_PAGE_POST'){
+      status+=' • เมนต์: '+(receipt.comment_status||'ยังไม่ส่ง');
+      if(receipt.pin_status)status+=' • ปักหมุด: '+receipt.pin_status;
+    }
    }else if(!brand.enabled){status='HOLD / ปิดเพจ';}
    else if(elapsed>30*60000){status='❌ พลาดเวลา / ไม่พบบันทึกโพสต์';}
    else if(elapsed>=0){status='⏳ ถึงกำหนด / ยังไม่พบหลักฐานโพสต์';}

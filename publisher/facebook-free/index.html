@@ -25,6 +25,10 @@ button,.btn{background:#0a3b53;border:1px solid #34738f;border-radius:9px;color:
 <div class="note"><b>ความจริงของระบบ:</b> หน้านี้แสดงแผนและความพร้อมของเนื้อหาเท่านั้น ไม่เก็บ Token ไม่สั่งโพสต์ Facebook และไม่แอบบันทึกคิว การโพสต์จริงต้องตั้งสิทธิ์ Meta / Google Drive และเปิด GitHub Actions หลัง QA</div>
 <section class="panel"><div class="topstat"><div><span class="big" id="pages">—</span><div class="muted">เพจที่ลงทะเบียน</div></div><div><span class="big" id="readies">—</span><div class="muted">ไฟล์ที่ผ่านเงื่อนไข (Still/Reel)</div></div><div><span class="big" id="holds">—</span><div class="muted">รายการพักไว้ (HOLD)</div></div></div></section>
 <section class="grid" id="brands"></section>
+<section class="panel"><h2>สถานะโพสต์ตามเวลาจริง / Missed-slot Monitor</h2>
+<p>แดชบอร์ดคำนวณจากกำหนดเวลาคิวและ receipts.json หากถึงเวลาไปเกิน 30 นาทีแต่ไม่มีบันทึกการเผยแพร่ จะขึ้น <b>พลาดเวลา / ไม่มีหลักฐานโพสต์</b> ไม่แอบอ้างว่า Actions สีเขียวเท่ากับ Facebook โพสต์สำเร็จ</p>
+<div id="schedule-monitor" class="scroll"><span class="tag hold">กำลังอ่านคิว...</span></div>
+</section>
 <section class="panel"><h2>Colossus Live Publication &amp; First Comment</h2><p>Auto Publishing: EP04 24 ต.ค. ถึง Special 31 ต.ค. • Still 06:00 / Reel 23:00 • คอมเมนต์อย่างเร็ว 5 นาทีหลัง API ยืนยัน • การปักหมุดต้องทำใน Facebook ด้วยตนเอง เนื่องจากยังไม่มี Pin Comment API ที่ยืนยันว่ารองรับ</p><div id="live-posting-status" class="scroll"><span class="tag">กำลังโหลด receipts...</span></div></section>
 <section class="panel"><h2>ตารางตรวจความพร้อมแยก Episode</h2><p>ระบบรองรับการเพิ่มเพจจากไฟล์ตั้งค่าอัตโนมัติ ไม่มี Master/Storyboard โพสต์ผิดประเภท การเผยแพร่ต้องผ่านขั้นตอนอนุญาตแยกต่างหาก</p>
 <div class="scroll"><table><thead><tr><th>เพจ</th><th>EP</th><th>Still 06:00</th><th>Reel 23:00</th><th>กำหนดเริ่ม</th></tr></thead><tbody id="queue"></tbody></table></div></section>
@@ -70,6 +74,46 @@ async function loadOneoff(){
  $('oneoff-media').textContent='สื่อใหม่ 1600×2000 / '+j.media.qa;
  $('oneoff-summary').textContent='เผยแพร่: '+j.publication.state+' • First comment: '+(j.first_comment_enabled?'เปิด':'ปิด')+' • แหล่งภาพ: Approved Master แล้วจัดองค์ประกอบใหม่';
 }
+async function loadScheduleMonitor(){
+ const root=$('schedule-monitor');root.textContent='';
+ const [cfg,source,receipts]=await Promise.all([
+  fetch('./config.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()),
+  fetch('../../colossus/ss3-season.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()),
+  fetch('./receipts.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json())]);
+ const brand=cfg.brands.colossus;
+ let ep=[...(source.episodes||[])];if(source.halloween_special)ep.push(source.halloween_special);
+ if(brand.start_episode_id){const k=ep.findIndex(x=>x.id===brand.start_episode_id);ep=k<0?[]:ep.slice(k);}
+ if(brand.end_episode_id){const k=ep.findIndex(x=>x.id===brand.end_episode_id);ep=k<0?[]:ep.slice(0,k+1);}
+ const records=receipts.items||{},now=Date.now(),start=new Date(brand.start_date+'T00:00:00+07:00');
+ const t=el('table');const th=el('thead'),head=el('tr');
+ ['วันที่','ตอน','ประเภท','เวลาไทย','สถานะจริง'].forEach(x=>head.append(el('th',x)));th.append(head);t.append(th);
+ const body=el('tbody');
+ ep.forEach((e,i)=>{
+  for(const k of ['still','reel']){
+   const slot=k==='still'?'06:00':'23:00';
+   const due=new Date(start.getTime()+i*86400000+(k==='still'?360:1380)*60000);
+   const elapsed=now-due.getTime();
+   const receipt=records['colossus:'+e.id+':'+k];
+   const tr=el('tr');
+   const dateStr=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(due);
+   [dateStr,e.id,k==='still'?'Master Still':'Reel',slot].forEach(x=>tr.append(el('td',x)));
+   let status;
+   if(receipt){
+    const st=receipt.status||'UNKNOWN';
+    status=st==='PUBLISHED_API_SUCCESS'?'✅ ยืนยันผ่าน API':
+      st==='PUBLISH_ACCEPTED_PROCESSING'?'⏳ Facebook กำลังประมวลผล':
+      '⚠️ '+st;
+    if(st==='PUBLISHED_API_SUCCESS')status+=' • เมนต์: '+(receipt.comment_status||'ยังไม่ส่ง');
+   }else if(!brand.enabled){status='HOLD / ปิดเพจ';}
+   else if(elapsed>30*60000){status='❌ พลาดเวลา / ไม่พบบันทึกโพสต์';}
+   else if(elapsed>=0){status='⏳ ถึงกำหนด / ยังไม่พบหลักฐานโพสต์';}
+   else{status='🕒 รอคิว';}
+   const cell=el('td',status);if(status.includes('พลาดเวลา'))cell.style.color='#ff9e9e';
+   tr.append(cell);body.append(tr);
+  }
+ });
+ t.append(body);root.append(t);
+}
 async function loadLiveStatus(){
  const out=$('live-posting-status');
  try{
@@ -91,6 +135,7 @@ async function loadLiveStatus(){
  }catch(e){out.textContent='โหลดผลโพสต์ไม่ได้ — ตรวจ GitHub receipts.json';}
 }
 async function init(){
+ loadScheduleMonitor().catch(e=>{$('schedule-monitor').textContent='ตรวจสถานะไม่ได้: '+e.message;});
  loadLiveStatus();
  loadOneoff().catch(()=>{$('oneoff-state').textContent='ไม่สามารถอ่านคิว — HOLD'});
 const cfg=await (await fetch('./config.json?v='+Date.now(),{cache:'no-store'})).json();

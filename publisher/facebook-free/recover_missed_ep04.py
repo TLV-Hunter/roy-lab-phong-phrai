@@ -25,8 +25,9 @@ EARLIEST="07:30"
 LATEST="10:00"
 
 def gql(page_id, page_token, endpoint, params):
+    suffix = f"/{endpoint}" if endpoint else ""
     r=requests.get(
-        f"https://graph.facebook.com/{os.getenv('FB_GRAPH_VERSION') or 'v26.0'}/{page_id}/{endpoint}",
+        f"https://graph.facebook.com/{os.getenv('FB_GRAPH_VERSION') or 'v26.0'}/{page_id}{suffix}",
         params=params, headers={"Authorization": "Bearer "+page_token}, timeout=TIMEOUT)
     if not r.ok: raise RuntimeError(f"Meta read-only preflight returned HTTP {r.status_code}")
     obj=r.json()

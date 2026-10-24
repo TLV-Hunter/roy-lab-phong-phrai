@@ -15,5 +15,5 @@
       "provider_comment_id": "122129002509464897_1115455390930603"
     }
   },
-  "notes": "No Facebook post ID has been confirmed. Each slot is reserved in GitHub BEFORE media upload; failed/ambiguous states require manual checking to avoid duplicate posting."
+  "notes": "EP04 Still 2026-10-24 verified independently on Facebook at 07:34:06 Bangkok with approved first comment; origin unknown, pin needs manual verification. Later receipts are reserved before API posts; Reel processing must be confirmed before success. Never blindly republish duplicates."
 }

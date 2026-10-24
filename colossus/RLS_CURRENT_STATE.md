@@ -1,4 +1,12 @@
 # RLS AI STUDIO — CURRENT STATE
+Updated: 2026-10-24 — Final Reel website upload authorized; file transfer not yet possible in current session
+
+## SS3 FINAL REELS HANDOFF AUTHORIZED — 2026-10-24
+- Owner confirmed SS3 Reels are completed in the separate editing room and **explicitly authorized** uploading to the existing shared website after passing QA. This authorizes WEB ASSET DELIVERY only, NOT Facebook/Instagram publication.
+- Editing-room QA provenance: EP01 old local Final QA PASS; EP02-04 repaired MP4 ≥10.00s, 1080x1920 H264/AAC, technical QA PASS; CLIP05-11 seven separate local post-production Final MP4s ≥10.00s and technical QA PASS. EP07-11 still require canonical story-lock signoff separate from codec/visual technical checks.
+- Retrieval audit in this conversation: no MP4 files in accessible /mnt/data filesystem (including nested directories); Files Project/Library search found none of the exact expected Final names; connected Drive name and folder/mime searches did not identify SS3 Finals; GitHub recursive tree contains NO SS3 MP4, only existing other-project MP4s. Earlier editing-room sandbox artifacts are NOT mounted into this session. Do NOT claim they were uploaded, linked, or played.
+- **Exact next action:** obtain/editing-room Final media package in the current conversation (EP02-04 separate plus CLIP05-11 batch, EP01 old Final); verify hashes/fprobe and scene identity; upload using a real binary-capable write path, then update SS3 data media URLs with new source SHA and test browser playback. Leave social publication status NOT CONFIRMED, no fake video URLs.
+
 Updated: 2026-10-23 — SS3 Clips 05–11 seven local postproduction QA PASS (story-lock review remains separate)
 
 ## 2026-10-24 — SS3 SHARED DESK

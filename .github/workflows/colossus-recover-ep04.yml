@@ -1,0 +1,54 @@
+name: Colossus EP04 Still missed 06:00 one-time recovery
+
+# Explicitly authorized 2026-10-24 Colossus 06:00 launch was missed when
+# GitHub cron never ran. Recover once on launch today; no other dates/episodes.
+on:
+  push:
+    paths:
+      - '.github/workflows/colossus-recover-ep04.yml'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Recover once, only if still within 2026-10-24 07:30-10:00 Bangkok; receipts protect against duplicates'
+        required: true
+        type: choice
+        options: [diagnostics, recover]
+        default: diagnostics
+
+permissions:
+  contents: write
+
+concurrency:
+  group: facebook-multi-page-publisher
+  cancel-in-progress: false
+
+jobs:
+  ep04-recovery:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event.inputs.mode == 'recover')
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install read-only Drive and Meta HTTP requirements
+        run: python -m pip install --disable-pip-version-check requests Pillow gdown google-auth
+      - name: Exact-day one-time Colossus EP04 still recovery (no Reel or other episodes)
+        env:
+          FB_EP04_CATCHUP_AUTHORIZED: 'true'
+          FB_GRAPH_VERSION: ${{ vars.FB_GRAPH_VERSION }}
+          FB_PAGES_JSON: ${{ secrets.FB_PAGES_JSON }}
+          FB_PAGE_ID_COLOSSUS: ${{ secrets.FB_PAGE_ID_COLOSSUS }}
+          FB_PAGE_TOKEN_COLOSSUS: ${{ secrets.FB_PAGE_TOKEN_COLOSSUS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python publisher/facebook-free/recover_missed_ep04.py
+
+  diagnostics:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'diagnostics'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print safe recovery instructions without Facebook writes
+        run: echo 'Read-only mode. Use approved EP04 media + original caption only. Recovery window is Oct 24 07:30-10:00 Bangkok. Inspect receipts and Page first.'

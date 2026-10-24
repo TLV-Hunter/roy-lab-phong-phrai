@@ -89,26 +89,26 @@ function reelVideoView(url,missingMessage){
 function ss3Asset(e,which){
  const record=which==='master'?(e.master_still||{}):(e.starter_frame||{}),u=record.image_url||'';
  const msg=which==='master'?'NEW MASTER SOURCE NOT HOSTED':'STARTER FRAME SOURCE NOT HOSTED';
- const media=u?'<img class="assetimg" src="'+esc(u)+'" alt="'+esc(e.id+' '+which+' old preview')+'" loading="lazy" onerror="imageFallback(this)"><div class="waiting" style="display:none"><b>IMAGE NOT AVAILABLE</b>Check preview path</div>':
+ const media=u?'<img class="assetimg" src="'+esc(u)+'" alt="'+esc(e.id+' '+which+' latest web preview')+'" loading="lazy" onerror="imageFallback(this)"><div class="waiting" style="display:none"><b>IMAGE NOT AVAILABLE</b>Check preview path</div>':
    '<div class="waiting"><b>'+msg+'</b>Independent source image was created in chat but is not yet on GitHub Pages. Do not substitute an older rejected still.</div>';
- const nav=u?'<div class="actions"><a href="'+esc(u)+'" target="_blank" rel="noopener">'+(which==='master'?'OPEN ARCHIVED PREVIEW':'OPEN HISTORICAL STARTER')+'</a><a href="'+esc(u)+'" download>DOWNLOAD PREVIEW</a></div>':'';
+ const nav=u?'<div class="actions"><a href="'+esc(u)+'" target="_blank" rel="noopener">'+(which==='master'?'OPEN CURRENT MASTER PREVIEW':'OPEN CURRENT STARTER PREVIEW')+'</a><a href="'+esc(u)+'" download>DOWNLOAD PREVIEW</a></div>':'';
  return {media,nav,status:record.status||'NOT VERIFIED'}
 }
 function ss3Card(e){
  const master=ss3Asset(e,'master'),starter=ss3Asset(e,'starter'),story=e.storyboard||{},r=e.final_reel||{};
  const qa=e.creative_qa_status||'NOT VERIFIED',boards=(story.beats||[]).map((b,i)=>'<li><b>'+esc(i+1)+' · '+esc(b.from)+'–'+esc(b.to)+'s</b> '+esc(b.action)+'</li>').join('');
- const sb=story.image_url?'<a href="'+esc(story.image_url)+'" target="_blank" rel="noopener">VIEW STORYBOARD</a>':'<span class="pill a">STORYBOARD IMAGE NOT HOSTED</span>';
+ const sb=story.image_url?'<a href="'+esc(story.image_url)+'" target="_blank" rel="noopener">OPEN STORYBOARD</a>':'<span class="pill a">STORYBOARD IMAGE NOT HOSTED</span>';const boardImage=story.image_url?'<a href="'+esc(story.image_url)+'" target="_blank" rel="noopener"><img alt="'+esc(e.id+' 10-second six-beat storyboard')+'" src="'+esc(story.image_url)+'" loading="lazy" style="max-width:100%;max-height:480px;display:block;object-fit:contain;margin:8px auto;border:1px solid #284759;border-radius:8px"></a>':'';
  const box1='<div class="slot"><div class="slothead"><b>01 / MASTER STILL · '+(master.status.includes('HISTORICAL')?'ARCHIVE PREVIEW':'LATEST SOURCE')+'</b><span class="pill '+cls(qa)+'">'+esc(qa)+'</span></div><div class="viewer">'+master.media+'</div>'+master.nav+
-  '<div style="padding:10px;color:var(--m);font-size:12px">Status: '+esc(master.status)+' · New source PNG is not certified native 4K.</div>'+
+  '<div style="padding:10px;color:var(--m);font-size:12px">Status: '+esc(master.status)+' · Web JPEG preview derived from latest source PNG; not native 4K. '+esc(e.asset_preview_notice||'')+'</div>'+
   ss3CopyBox('STILL CAPTION + HASHTAGS',e.still_caption,'ss3-mcap-'+e.id)+ss3CopyBox('STILL FIRST COMMENT',e.first_comment,'ss3-mpin-'+e.id)+'</div>';
- const box2='<div class="slot"><div class="slothead"><b>02 / STARTER + STORYBOARD + PROMPT</b><span class="pill a">WEB IMAGE PENDING</span></div><div class="viewer">'+starter.media+'</div>'+starter.nav+
+ const box2='<div class="slot"><div class="slothead"><b>02 / STARTER + STORYBOARD + PROMPT</b><span class="pill a">CURRENT WEB PREVIEW · CHECK QA</span></div><div class="viewer">'+starter.media+'</div>'+starter.nav+
    '<div style="padding:10px;color:var(--m);font-size:12px">STARTER: '+esc(starter.status)+'<br>STORYBOARD: '+esc(story.status||'NOT VERIFIED')+'</div>'+
-   '<div class="copybox"><div class="copyhead"><b>6 BEATS · 10 SECONDS</b>'+sb+'</div><ol style="padding:8px 16px 8px 32px;margin:0;line-height:1.65">'+boards+'</ol></div>'+
+   '<div class="copybox"><div class="copyhead"><b>6 BEATS · 10 SECONDS</b>'+sb+'</div>'+boardImage+'<ol style="padding:8px 16px 8px 32px;margin:0;line-height:1.65">'+boards+'</ol></div>'+
    ss3CopyBox('DOLA · 3-REFERENCE VIDEO PROMPT',e.video_prompt,'ss3-prompt-'+e.id)+'</div>';
  const box3='<div class="slot reelslot"><div class="slothead"><b>03 / FINAL REEL</b><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'VIDEO LINKED':'WEB VIDEO PENDING')+'</span></div><div class="viewer">'+reelVideoView(r.video_url,'Edited Final exists locally in production records, but no verified online MP4 has been added for this episode.')+'</div>'+
    videoPreviewControl()+'<div style="padding:10px;color:var(--m);font-size:12px">EDIT: '+esc(r.status||'NOT VERIFIED')+'<br>SOCIAL: '+esc(e.publication_status||'NOT CONFIRMED')+' · Minimum 10.00s QA required</div>'+
    ss3CopyBox('REEL CAPTION + HASHTAGS',e.still_caption,'ss3-rcap-'+e.id)+ss3CopyBox('REEL FIRST COMMENT / TO PIN',e.first_comment,'ss3-rpin-'+e.id)+'</div>';
- const episodeBadges='<span class="pill '+cls(qa)+'">MASTER '+esc(qa)+'</span><span class="pill a">MEDIA DELIVERY PENDING</span><span class="pill a">SOCIAL NOT CONFIRMED</span>';
+ const episodeBadges='<span class="pill '+cls(qa)+'">MASTER '+esc(qa)+'</span><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'FINAL ONLINE':'FINAL ONLINE PENDING')+'</span><span class="pill a">SOCIAL NOT CONFIRMED</span>';
  return '<article class="episode"><div class="ephead"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="date">'+esc(e.date)+' · '+(e.episode_number===11?'HALLOWEEN SPECIAL · ':'')+'THE FOREST UNLEASHED</div></div><div class="badges">'+episodeBadges+'</div></div><div class="three">'+box1+box2+box3+'</div></article>';
 }
 

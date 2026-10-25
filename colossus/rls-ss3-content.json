@@ -1,7 +1,7 @@
 {
   "campaign": "RLS_SS3",
   "season": "THE FOREST UNLEASHED",
-  "updated": "2026-10-24 Asia/Bangkok",
+  "updated": "2026-10-25T20:30:00+07:00",
   "audience": "USA-first / English",
   "planned_window": "2026-10-21 through 2026-10-31",
   "title": "GIANT WILDLIFE × CRYPTID ACTION",
@@ -22,17 +22,18 @@
         "image_url": "./assets/rls-ss3/latest/ss3-01-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 96,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_NOT_AVAILABLE_ONLY_OLDER_REJECTED",
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
         "image_url": null,
         "qa1_score": null,
         "qa2_visual": "REQUIRES_REVIEW",
@@ -43,7 +44,8 @@
       "final_reel": {
         "status": "LOCAL_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "A colossal horned beast bursts out of the rainforest and slams into a ranger jeep. One charge. One devastating impact.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#CreatureEncounter #GiantCreature #Cryptid #ForestHorror #TheHiddenForestArchive",
       "first_comment": "That thing hit the jeep like it weighed 20 tons. Would you RUN or stay inside?",
@@ -116,23 +118,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-02-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_PREVIEW_QA_PASS",
-        "image_url": "./assets/rls-ss3/latest/ss3-02-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-02-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "The crocodile made the first move… BIG mistake. 🐊🐍 A colossal python meets a monster crocodile in a battle of jaws and coils. One crushing bite. Neither predator backs down.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantPython #CrocodileVsPython #GiantCreatures #WildlifeBattle #TheHiddenForestArchive",
       "first_comment": "Jaws or coils? 🐊🐍 Which giant would you bet on?",
@@ -205,23 +210,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-03-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_PREVIEW_QA_PASS",
-        "image_url": "./assets/rls-ss3/latest/ss3-03-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-03-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "THE SKY JUST TURNED INTO A NIGHTMARE. 🦅💥 A colossal eagle dives out of the clouds and smashes the upper rail of an empty wooden rainforest watchtower. Nobody thought to look UP.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantEagle #MonsterAttack #GiantCreatures #ForestHorror #TheHiddenForestArchive",
       "first_comment": "Imagine hearing those wings… then the tower railing breaks. Would you have spotted it?",
@@ -294,23 +302,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-04-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_PREVIEW_QA_PASS",
-        "image_url": "./assets/rls-ss3/latest/ss3-04-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-04-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "HE CHARGED THE WRONG CREATURE. 🐗🦎 A massive wild boar charges straight toward a giant monitor lizard. Two monsters, one muddy battlefield, zero fear.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantWildBoar #GiantMonitorLizard #CreatureBattle #JungleMonsters #TheHiddenForestArchive",
       "first_comment": "🐗 Tusks and strength vs. 🦎 jaws and claws. Who wins?",
@@ -383,23 +394,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-05-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_PREVIEW_QA_PASS",
-        "image_url": "./assets/rls-ss3/latest/ss3-05-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-05-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "EVEN A TIGER HAS MET ITS MATCH. 🐅 One fearless tiger launches itself onto a giant armored beast. Claws meet scales—but the creature barely moves.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#TigerAttack #ArmoredMonster #GiantCreatures #CreatureBattle #TheHiddenForestArchive",
       "first_comment": "That tiger went ALL IN. Could its claws ever get through the armor?",
@@ -472,23 +486,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-06-master.jpg",
         "format": "JPEG_HISTORICAL",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_SELECTED_MASTER_WEB_PREVIEW_NATIVE_QA_NOT_CERTIFIED",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 93,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "LATEST_POSTER_NOT_FILE_REVIEWED",
         "published": false,
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_PREVIEW_QA_FAIL_DO_NOT_GENERATE",
-        "image_url": "./assets/rls-ss3/latest/ss3-06-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-06-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "THE GROUND WAS NEVER SAFE. 😱🌍 A colossal underground creature erupts through the mud and rips apart a wooden bridge. What else is buried beneath this forest?\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#UndergroundMonster #GiantWorm #CreatureHorror #MonsterReveal #TheHiddenForestArchive",
       "first_comment": "Would you run back over the bridge or jump into the mud?",
@@ -561,23 +578,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-07-master.jpg",
         "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_MASTER_WEB_PREVIEW_REVISE",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 92,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "NOT_QA_PASSED",
         "published": false,
         "qa1_score_legacy": 92,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_REVIEW_PENDING_FULL_QA",
-        "image_url": "./assets/rls-ss3/latest/ss3-07-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-07-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "THE KING HAS AWAKENED. 🦍👑 A colossal alpha gorilla rises high above a misty rainforest valley. The roar echoes between waterfalls. This forest has a ruler.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantGorilla #ForestKing #GiantMonster #RainforestMystery #TheHiddenForestArchive",
       "first_comment": "Would you stand and watch this giant above the waterfalls—or leave immediately?",
@@ -650,23 +670,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-08-master.jpg",
         "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_MASTER_WEB_PREVIEW_FAIL",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "qa1_score": 95,
         "qa1_class": "HERO CANDIDATE",
         "qa2_visual": "NOT_QA_PASSED",
         "published": false,
         "qa1_score_legacy": 95,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_REVIEW_PENDING_FULL_QA",
-        "image_url": "./assets/rls-ss3/latest/ss3-08-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-08-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "NOTHING CAN STOP THOSE TUSKS. 🐘💥 A colossal prehistoric elephant tears through bamboo and floodwater beneath the waterfalls. A wooden outpost shakes in its path.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#GiantElephant #PrehistoricBeast #JungleRampage #CreatureEncounter #TheHiddenForestArchive",
       "first_comment": "Those tusks could snap a tree. Would you hide behind the outpost or run for higher ground?",
@@ -739,23 +762,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-09-master.jpg",
         "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_MASTER_WEB_PREVIEW_PASS-TEST",
+        "status": "LATEST_SOURCE_LOCAL_QA_PASS_NOT_HOSTED",
         "qa1_score": 94,
         "qa1_class": "PASS-TEST",
         "qa2_visual": "PASS-TEST_SOURCE_IMAGE",
         "published": false,
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_REVIEW_PENDING_FULL_QA",
-        "image_url": "./assets/rls-ss3/latest/ss3-09-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-09-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "SOMETHING HUGE WAS UNDER THE WATER. 🌊😱 Two explorers enter a quiet jungle swamp. Then the surface erupts, and an enormous predator rises directly before their canoe.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#SwampMonster #GiantPredator #DeepWaterHorror #CryptidCreature #TheHiddenForestArchive",
       "first_comment": "Would you freeze in the canoe or paddle for your life? 😳",
@@ -828,23 +854,26 @@
         "image_url": "./assets/rls-ss3/latest/ss3-10-master.jpg",
         "format": "PNG_LOCAL_PENDING_WEB",
         "source": "independent Master Still image, website derivative of approved candidate",
-        "status": "LATEST_MASTER_WEB_PREVIEW_PASS-TEST",
+        "status": "LATEST_SOURCE_LOCAL_QA_PASS_NOT_HOSTED",
         "qa1_score": 96,
         "qa1_class": "HERO CANDIDATE",
         "qa2_visual": "PASS-TEST_SOURCE_IMAGE",
         "published": false,
         "qa1_score_legacy": 96,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "status": "LATEST_STARTER_WEB_REVIEW_PENDING_FULL_QA",
-        "image_url": "./assets/rls-ss3/latest/ss3-10-starter.jpg"
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "image_url": null,
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-10-starter.jpg"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "still_caption": "THE FOREST UNLEASHED A LIVING TANK. 🦏💥 A giant horned beast breaks through an ancient stone temple gate. Stone falls. Some doors should never have been opened.\n\n🌲 Follow The Hidden Forest Archive for more cinematic creature encounters.\n\nAI-generated fictional creature scene.\n\n#HornedMonster #AncientTemple #GiantBeast #MonsterBreakthrough #TheHiddenForestArchive",
       "first_comment": "Could an ancient stone gateway ever stop this beast?",
@@ -927,16 +956,18 @@
       "creative_qa_score": 87,
       "master_still": {
         "image_url": "./assets/rls-ss3/latest/ss3-11-master.jpg",
-        "status": "LATEST_MASTER_WEB_PREVIEW_REVISE",
+        "status": "LATEST_SOURCE_PENDING_OR_REVISE_NOT_HOSTED",
         "published": false,
         "format": "PNG_LOCAL_PENDING_WEB",
         "qa2_visual": "NOT_QA_PASSED",
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
-        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23"
+        "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
+        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
       },
       "starter_frame": {
-        "image_url": "./assets/rls-ss3/latest/ss3-11-starter.jpg",
-        "status": "LATEST_STARTER_WEB_REVIEW_PENDING_FULL_QA"
+        "image_url": null,
+        "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-11-starter.jpg"
       },
       "storyboard": {
         "status": "LATEST_STORYBOARD_WEB_PREVIEW_BEATS_REVIEW_PENDING",
@@ -980,7 +1011,8 @@
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
         "video_url": null,
-        "published": false
+        "published": false,
+        "web_status": "NOT_HOSTED_LOCAL_EDITED_FINAL_REQUIRES_BINARY_HANDOFF"
       },
       "publication_status": "NOT_CONFIRMED",
       "scheduled": false,
@@ -1001,12 +1033,20 @@
   "creative_qa_pass_test": 8,
   "creative_qa_revise": 2,
   "final_reels_local_qa_pass": 1,
-  "website_note": "31 LATEST separate JPEG derivative web images are now in GitHub assets latest/: Masters EP01–11, Starters EP02–11 and Storyboards EP02–11. QA HOLD EP06 Starter and Master EP07/08/11. Source PNGs are not native 4K. Final MP4s are still not uploaded. No social posts confirmed.",
+  "website_note": "STRICT LATEST ONLY: legacy JPG image URLs removed from active Master/Starter slots. All 11 still and starter slots remain empty until exact approved new PNG binaries are hosted; Final MP4s edited previously but not available to hosted site. No Facebook posting claimed.",
   "episode_count": 11,
   "main_episodes": 10,
   "special_episodes": 1,
   "video_delivery": "Local SS3 Final edit QA records for EP01–EP11; zero verified hosted online MP4s in repo, no playback URLs invented.",
   "copy_status": "11 captions+hashtags and 11 separate first comments are current revised drafts, not published",
   "qa_latest": "Redesigned Master EP07 REVISE (88), EP08 FAIL (83), EP09 PASS-TEST (93), EP10 PASS-TEST (91), EP11 REVISE (87). Technical full-resolution/native-4K QA separate.",
-  "storyboards_ready": "10 hosted review previews (EP02–EP11), 10-second beat sequences, EP06 blocked by invalid Starter"
+  "storyboards_ready": "10 hosted review previews (EP02–EP11), 10-second beat sequences, EP06 blocked by invalid Starter",
+  "media_migration_status": "WAITING_BINARY_UPLOAD_ONLY; NEVER FALLBACK_TO_OLD_MASTERS_OR_STARTERS",
+  "media_inventory": {
+    "active_master_images_hosted": 0,
+    "active_starter_images_hosted": 0,
+    "storyboards_hosted": 0,
+    "final_reels_hosted": 0,
+    "legacy_urls_suppressed": 0
+  }
 }

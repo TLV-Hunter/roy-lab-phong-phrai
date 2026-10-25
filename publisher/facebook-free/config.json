@@ -1,7 +1,7 @@
 {
   "version": 2,
   "timezone": "Asia/Bangkok",
-  "note": "LIVE owner-authorized Colossus EP04..SP01, Oct24–Oct31 2026 Bangkok. Publication Still 06:00 and Reel 23:00; first comment >=5 min after actual post, manual pin. RLS OFF. Kill-switch GitHub Actions var FB_AUTOPUBLISH_ENABLED=false.",
+  "note": "Colossus GitHub auto-publishing PAUSED by owner direction on 2026-10-25 before Muse handover. Existing 06:00/23:00 slots are historical only. Colossus enabled=false and comments_enabled=false. RLS remains OFF. Do not reactivate without explicit owner approval.",
   "brands": {
     "colossus": {
       "enabled": false,
@@ -17,7 +17,7 @@
       "media_download_mode": "public_drive",
       "start_episode_id": "CS-OCT-004",
       "end_episode_id": "CS-OCT-SP01",
-      "comments_enabled": true,
+      "comments_enabled": false,
       "comment_delay_minutes": 5
     },
     "rls": {

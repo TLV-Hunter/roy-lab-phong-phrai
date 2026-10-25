@@ -1,7 +1,7 @@
 {
   "campaign": "RLS_SS3",
   "season": "THE FOREST UNLEASHED",
-  "updated": "2026-10-25T20:30:00+07:00",
+  "updated": "2026-10-25 20:30+07:00",
   "audience": "USA-first / English",
   "planned_window": "2026-10-21 through 2026-10-31",
   "title": "GIANT WILDLIFE × CRYPTID ACTION",
@@ -30,7 +30,7 @@
         "qa1_score_legacy": 96,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
@@ -39,7 +39,8 @@
         "qa2_visual": "REQUIRES_REVIEW",
         "distinct_from_master": true,
         "source": "EP01 separate 940x1672 original PNG, web-display JPEG derivative",
-        "generation_video_status": "NOT_RENDERED"
+        "generation_video_status": "NOT_RENDERED",
+        "website_media_source": "NOT_HOSTED"
       },
       "final_reel": {
         "status": "LOCAL_QA_PASS_NOT_ON_WEBSITE",
@@ -101,7 +102,8 @@
             "to": 10,
             "action": "The beast faces the camera and retreats"
           }
-        ]
+        ],
+        "website_media_source": "NOT_HOSTED"
       },
       "scene_lock": "Horned beast vs gray ranger jeep",
       "creative_qa_score": null,
@@ -126,12 +128,13 @@
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-02-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-02-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-02-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
@@ -193,7 +196,8 @@
             "to": 10,
             "action": "The crocodile still grips while python coils pull"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Colossal reticulated python vs saltwater crocodile",
       "creative_qa_score": null,
@@ -218,12 +222,13 @@
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-03-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-03-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-03-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
@@ -285,7 +290,8 @@
             "to": 10,
             "action": "Eagle flies beyond the tower as debris settles"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Giant copper-brown eagle strikes empty wooden watchtower",
       "creative_qa_score": null,
@@ -310,12 +316,13 @@
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-04-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-04-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-04-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_EDITED_MIN10_QA_PASS_NOT_ON_WEBSITE",
@@ -377,7 +384,8 @@
             "to": 10,
             "action": "They hold a tense standoff"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Giant dark shaggy boar vs gold-spotted monitor",
       "creative_qa_score": null,
@@ -402,12 +410,13 @@
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-05-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-05-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-05-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -469,7 +478,8 @@
             "to": 10,
             "action": "Two animals remain in struggle"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Orange tiger leaps onto armored brown reptile",
       "creative_qa_score": null,
@@ -494,12 +504,13 @@
         "qa1_score_legacy": 93,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-06-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-06-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-06-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -561,7 +572,8 @@
             "to": 10,
             "action": "Creature looms as broken timber settles"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Burrowing giant segmented worm breaks wooden rainforest bridge",
       "creative_qa_score": null,
@@ -586,12 +598,13 @@
         "qa1_score_legacy": 92,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-07-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-07-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-07-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -653,7 +666,8 @@
             "to": 10,
             "action": "Gorilla holds dominant pose above waterfalls"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Colossal charcoal-brown alpha gorilla on misty waterfall cliff; no vehicle",
       "creative_qa_score": 88,
@@ -678,12 +692,13 @@
         "qa1_score_legacy": 95,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-08-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-08-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-08-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -745,7 +760,8 @@
             "to": 10,
             "action": "Elephant trumpets above the ruins"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Massive tusked prehistoric elephant crashes through flooded bamboo and wooden outpost; no jeep",
       "creative_qa_score": 83,
@@ -770,12 +786,13 @@
         "qa1_score_legacy": 94,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-09-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-09-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-09-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -837,7 +854,8 @@
             "to": 10,
             "action": "Predator towers over both explorers"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Enormous crocodilian cryptid emerges before two explorers in small canoe at orange swamp sunset; no jeep",
       "creative_qa_score": 93,
@@ -862,12 +880,13 @@
         "qa1_score_legacy": 96,
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "image_url": null,
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-10-starter.jpg"
+        "image_url": "./assets/rls-ss3/latest/ss3-10-starter.jpg",
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-10-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "final_reel": {
         "status": "LOCAL_10_SEC_POSTPRODUCTION_TECH_QA_PASS_NOT_ON_WEBSITE",
@@ -929,7 +948,8 @@
             "to": 10,
             "action": "It plants its feet and bellows"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "scene_lock": "Three-horned armored cryptid smashes moss-covered stone jungle temple gateway; no jeep",
       "creative_qa_score": 91,
@@ -962,12 +982,13 @@
         "qa2_visual": "NOT_QA_PASSED",
         "web_image_format": "JPEG derivative / source PNG original archived in conversation; not native 4K",
         "source_version": "LATEST_SELECTED_CHAT_SOURCE_2026_10_23",
-        "website_media_source": "LATEST_VERSION_ONLY; NO LEGACY JPEG FALLBACK"
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA distinct"
       },
       "starter_frame": {
-        "image_url": null,
+        "image_url": "./assets/rls-ss3/latest/ss3-11-starter.jpg",
         "status": "LATEST_SOURCE_CREATED_IN_PROJECT_NOT_HOSTED_QA_REVIEW_REQUIRED",
-        "archived_preview_url": "./assets/rls-ss3/latest/ss3-11-starter.jpg"
+        "archived_preview_url": "./assets/rls-ss3/latest/ss3-11-starter.jpg",
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "storyboard": {
         "status": "LATEST_STORYBOARD_WEB_PREVIEW_BEATS_REVIEW_PENDING",
@@ -1004,7 +1025,8 @@
             "to": 10,
             "action": "It stops and stares near the camera"
           }
-        ]
+        ],
+        "website_media_source": "LATEST_STANDALONE_FILE_GITHUB_2026-10-24; QA NOT AUTOMATICALLY APPROVED"
       },
       "video_prompt": "Make ONE exactly 10-second cinematic photorealistic 9:16 video with synchronized realistic audio. @Image1 = Master Still for creature identity, scene lock and final state; @Image2 = exact Starter Frame at 0 seconds; @Image3 = six-beat Storyboard sequence reference only. Setting: Halloween: one dark prehistoric theropod among torchlit ancient temple ruins beneath full moon; no jeep. Beat timing: 0–1.5s Full-moon temple in deep mist; 1.5–3s Colossal theropod emerges between ruins; 3–4.5s Heavy foot disturbs shallow water; 4.5–6s The prehistoric hunter unleashes ONE roar; 6–8s It advances across moss-covered stones; 8–10s It stops and stares near the camera. Continuous camera geography, natural motion, correct anatomy, only described subjects, realistic physical contact and inertia, natural sound effects, no music or narration. Never render storyboard lettering, borders, episode or season numbers, or watermark.",
       "video_prompt_status": "SOURCE_ALIGNED_CREATIVE_DRAFT_3_REF_IMAGE_QA_REQUIRED",
@@ -1033,7 +1055,7 @@
   "creative_qa_pass_test": 8,
   "creative_qa_revise": 2,
   "final_reels_local_qa_pass": 1,
-  "website_note": "STRICT LATEST ONLY: legacy JPG image URLs removed from active Master/Starter slots. All 11 still and starter slots remain empty until exact approved new PNG binaries are hosted; Final MP4s edited previously but not available to hosted site. No Facebook posting claimed.",
+  "website_note": "LATEST ONLY 31 hosted images: EP01 Master, EP02–11 Master+Starter+Storyboard. Previously superseded root jpgs not used. Visual QA still gates EP07 REVISE EP08 FAIL EP11 REVISE; videos technical local PASS but offline.",
   "episode_count": 11,
   "main_episodes": 10,
   "special_episodes": 1,
@@ -1041,12 +1063,12 @@
   "copy_status": "11 captions+hashtags and 11 separate first comments are current revised drafts, not published",
   "qa_latest": "Redesigned Master EP07 REVISE (88), EP08 FAIL (83), EP09 PASS-TEST (93), EP10 PASS-TEST (91), EP11 REVISE (87). Technical full-resolution/native-4K QA separate.",
   "storyboards_ready": "10 hosted review previews (EP02–EP11), 10-second beat sequences, EP06 blocked by invalid Starter",
-  "media_migration_status": "WAITING_BINARY_UPLOAD_ONLY; NEVER FALLBACK_TO_OLD_MASTERS_OR_STARTERS",
+  "media_migration_status": "31 latest standalone JPG previews hosted; all 31 active URLs restored from verified earlier commit. Local Final MP4 files still not accessible for upload; no video links invented.",
   "media_inventory": {
-    "active_master_images_hosted": 0,
-    "active_starter_images_hosted": 0,
-    "storyboards_hosted": 0,
+    "active_master_images_hosted": 11,
+    "active_starter_images_hosted": 10,
+    "storyboards_hosted": 10,
     "final_reels_hosted": 0,
-    "legacy_urls_suppressed": 0
+    "total_latest_images_hosted": 31
   }
 }

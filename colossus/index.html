@@ -105,10 +105,12 @@ function ss3Card(e){
    '<div style="padding:10px;color:var(--m);font-size:12px">STARTER: '+esc(starter.status)+'<br>STORYBOARD: '+esc(story.status||'NOT VERIFIED')+'</div>'+
    '<div class="copybox"><div class="copyhead"><b>6 BEATS · 10 SECONDS</b>'+sb+'</div>'+boardImage+'<ol style="padding:8px 16px 8px 32px;margin:0;line-height:1.65">'+boards+'</ol></div>'+
    ss3CopyBox('DOLA · 3-REFERENCE VIDEO PROMPT',e.video_prompt,'ss3-prompt-'+e.id)+'</div>';
- const box3='<div class="slot reelslot"><div class="slothead"><b>03 / FINAL REEL</b><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'VIDEO LINKED':'WEB VIDEO PENDING')+'</span></div><div class="viewer">'+reelVideoView(r.video_url,'Edited Final exists locally in production records, but no verified online MP4 has been added for this episode.')+'</div>'+
-   videoPreviewControl()+'<div style="padding:10px;color:var(--m);font-size:12px">EDIT: '+esc(r.status||'NOT VERIFIED')+'<br>SOCIAL: '+esc(e.publication_status||'NOT CONFIRMED')+' · Minimum 10.00s QA required</div>'+
+ const previewActions=r.video_url?'<div class="actions"><a href="'+esc(r.video_url)+'" target="_blank" rel="noopener">OPEN WEB PREVIEW</a>'+(r.original_url?'<a href="'+esc(r.original_url)+'" target="_blank" rel="noopener">ORIGINAL 1080P · DRIVE SIGN-IN</a>':'')+'</div>':'';
+ const creativeHold=/FAIL|REVISE|HOLD/i.test(String(qa));
+ const box3='<div class="slot reelslot"><div class="slothead"><b>03 / FINAL REEL</b><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'PLAYABLE WEB PREVIEW · 540P':'WEB MP4 PENDING')+'</span></div><div class="viewer">'+reelVideoView(r.video_url,'No verified online MP4 has been added for this episode yet.')+'</div>'+
+   previewActions+videoPreviewControl()+'<div style="padding:10px;color:var(--m);font-size:12px">EDIT: '+esc(r.status||'NOT VERIFIED')+'<br>WEB: '+esc(r.website_media_status||'NOT HOSTED')+'<br>MASTER CREATIVE QA: '+esc(qa)+(creativeHold?' · HOLD FOR CONTENT APPROVAL':'')+'<br>SOCIAL: '+esc(e.publication_status||'NOT CONFIRMED')+' · WEB PREVIEW IS NOT NATIVE FULL HD. Original 1080p in owner-access Drive.</div>'+
    ss3CopyBox('REEL CAPTION + HASHTAGS',e.still_caption,'ss3-rcap-'+e.id)+ss3CopyBox('REEL FIRST COMMENT / TO PIN',e.first_comment,'ss3-rpin-'+e.id)+'</div>';
- const episodeBadges='<span class="pill '+cls(qa)+'">MASTER '+esc(qa)+'</span><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'FINAL ONLINE':'FINAL ONLINE PENDING')+'</span><span class="pill a">SOCIAL NOT CONFIRMED</span>';
+ const episodeBadges='<span class="pill '+cls(qa)+'">MASTER '+esc(qa)+'</span><span class="pill '+(r.video_url?'g':'a')+'">'+esc(r.video_url?'WEB PREVIEW ONLINE':'WEB PREVIEW PENDING')+'</span><span class="pill a">SOCIAL NOT CONFIRMED</span>';
  return '<article class="episode"><div class="ephead"><div><h2>'+esc(e.id)+' — '+esc(e.title)+'</h2><div class="date">'+esc(e.date)+' · '+(e.episode_number===11?'HALLOWEEN SPECIAL · ':'')+'THE FOREST UNLEASHED</div></div><div class="badges">'+episodeBadges+'</div></div><div class="three">'+box1+box2+box3+'</div></article>';
 }
 
